@@ -16,7 +16,7 @@ Simply run `bundle install` and [bundler](http://bundler.io/) will install all r
 Note: The Gems must also be installed on the CI server.
 
 ### Plugins
-* `jekyll-multiple-languages-plugin` installed as a git submodule in `_plugins/`. Documentation at https://github.com/perrywoodin/jekyll-multiple-languages-plugin. This is a modified fork that adds two new tags for outputting markdown `{% tmd key %}` or `{% translatemd key %}`
+* `jekyll-multiple-languages-plugin` installed as a gem. Documentation at https://github.com/perrywoodin/jekyll-multiple-languages-plugin. This is a modified fork that adds two new tags for outputting markdown `{% tmd key %}` or `{% translatemd key %}`
 
 ## Development
 `jekyll serve` Will build to the _site directory whenever a file is changed and serve via 127.0.0.1
