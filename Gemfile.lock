@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/perrywoodin/jekyll-multiple-languages-plugin.git
+  revision: d72bf07e773eb17e5b85f8aa9b97d2a160f0238b
+  specs:
+    jekyll-multiple-languages-plugin (1.4.2)
+      jekyll (>= 2.0, < 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -50,6 +57,7 @@ DEPENDENCIES
   classifier-reborn
   jekyll
   jekyll-autoprefixer
+  jekyll-multiple-languages-plugin!
   jekyll-paginate
   jekyll-serve
 

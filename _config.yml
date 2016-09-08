@@ -25,6 +25,7 @@ autoprefixer:
 gems:
   - jekyll-paginate
   - jekyll-autoprefixer
+  - jekyll-multiple-languages-plugin
 
 collections:
   components: # style guide
