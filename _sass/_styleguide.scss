@@ -1,4 +1,6 @@
 #styleguide {
+	padding-top: 40px;
+
 	.component {
 		&:after { // TODO clearfix mixin
 			content: '';
@@ -16,5 +18,32 @@
 		text-align: center;
 		width: 10em;
 		border-radius: 10px;
+	}
+
+	> h2 {
+		margin-top: 40px;
+		padding-left: 20px;
+	}
+
+	.component {
+		margin: 20px 0;
+		box-shadow: 5px 5px 15px -5px $black;
+		border-radius: 10px;
+	}
+
+	.component__header {
+		padding: 20px;
+		border-bottom: 1px solid lighten($black, 50%);
+		border-radius: 10px 10px 0 0;
+	}
+
+	.component__rendered {
+		padding: 20px;
+	}
+
+	.component__code {
+		padding: 20px;
+		background-color: #333333;
+		border-radius: 0 0 10px 10px;
 	}
 }
