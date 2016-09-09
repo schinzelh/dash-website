@@ -1,7 +1,7 @@
 {% include base.html %}
 
-<!-- 
-    To change the logo color, pass the parameter in the include. 
+<!--
+    To change the logo color, pass the parameter in the include.
     include nav-desktop.html logo-color="blue"
 -->
 {% assign logo-color = 'white' %}
@@ -10,7 +10,9 @@
 {% endif %}
 
 <header id="top" class="content">
-    <a href="#" class="logo"><img src="{{ base }}/assets/img/logo-{{ logo-color }}.png" alt="Dash"></a>
+
+
+    <a href="{{ basenav }}/" class="logo"><img src="{{ base }}/assets/img/logo-{{ logo-color }}.png" alt="Dash"></a>
 
     <nav>
         <ul>
