@@ -14,31 +14,62 @@ footer
 			a
 */
 
-footer {
+.footer {
 	background-color: #333333;
 	color: #717171;
 	padding-top: 4em;
+	padding-bottom: 3em;
+
 
 	a {
 		color: $white;
+    	line-height: 1.7;
 	}
 
-	> nav {
-		display: table;
-		table-layout: fixed;
-		> section {
-			display: table-cell;
-			> ul {
-				margin: 1em 0 0;
-				padding: 0;
-				> li {
-					list-style: none;
-				}
+	&__nav {
+		@extend %clearfix;
+	}
+
+	&__section {
+    	vertical-align: top;
+		display: inline-block;
+		padding: 20px;
+		// display: table-cell;
+		> ul {
+			margin: 1em 0 0;
+			padding: 0;
+			> li {
+				list-style: none;
 			}
 		}
 	}
-}
+	&__menu {
+		padding: 20px 20px 10px;
+		a {
+			color: #717171;
+			padding: 0 7px;
+		}
+	}
 
-.footer--social {
-	column-count: 2;
+	&__legal,
+	&__copyright,
+	&__menu {
+		text-align: center;
+	}
+
+	@include mq($to: extrasmall) {
+		&__section {
+			display: inline-block;
+			padding: 20px;
+		}
+		&__nav {
+			display: block;
+		}
+		&__legal {
+			padding: 0 20px 20px 0;
+		}
+		&__copyright {
+			display: block;
+		}
+	}
 }

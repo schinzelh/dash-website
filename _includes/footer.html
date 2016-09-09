@@ -1,5 +1,5 @@
-<nav class="content">
-  <section>
+<nav class="footer__nav content">
+  <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.get-dash %}
     <ul>
         <li><a href="#">{% t nav.download %}</a></li>
@@ -9,7 +9,7 @@
     </ul>
   </section>
 
-  <section>
+  <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.participate %}
     <ul>
         <li><a href="#">{% t nav.mining %}</a></li>
@@ -19,7 +19,7 @@
     </ul>
   </section>
 
-  <section>
+  <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.currency %}
     <ul>
         <li><a href="#">{% t nav.exchange %}</a></li>
@@ -29,7 +29,7 @@
     </ul>
   </section>
 
-  <section>
+  <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.community %}
     <ul>
         <li><a href="#">{% t nav.discussion %}</a></li>
@@ -40,7 +40,7 @@
     </ul>
   </section>
 
-  <section>
+  <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.project %}
     <ul>
         <li><a href="#">{% t nav.help %}</a></li>
@@ -50,9 +50,9 @@
     </ul>
   </section>
 
-  <section>
+  <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.social %}
-    <ul class="footer--social">
+    <ul class="footer__social">
         <li><a href="#">{% t nav.blog %}</a></li>
         <li><a href="#">{% t nav.reddit %}</a></li>
         <li><a href="#">{% t nav.twitter %}</a></li>
@@ -65,15 +65,15 @@
     </ul>
   </section>
 </nav>
-<div class="footer--menu content">
-  <div class="footer--languagePicker"></div>
+<div class="footer__menu content">
+  <div class="footer__languagePicker"></div>
   <a href="#">Terms of Use</a>
-  <a href="#">Contact</a>
   <a href="#">Sitemap</a>
+  <a href="#">Contact</a>
 </div>
-<div class="footer--legal">
+<div class="footer__legal">
   <div class="content">
-    <span class="footer--copyright">&copy; {{ site.time | date: "%Y" }} The Dash Network</span>
-    <a href="#">Github Source</a>
+    <span class="footer__copyright">&copy; {{ site.time | date: "%Y" }} The Dash Network</span>
+    <!-- <a href="#">Github Source</a> -->
   </div>
 </div>
