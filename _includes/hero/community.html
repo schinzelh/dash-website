@@ -1,0 +1,32 @@
+<div id="hero">
+	<div id="background-video">
+		<video loop autoplay width="100%" height="auto" poster="{{ base }}/assets/img/hero/{% t pages.community.hero-image %}" class="background-video">
+		<!--  <source src="assets/videos/Home-BG.m4v" type="video/mp4">
+		<source src="assets/videos/Home-BG.webm" type="video/webm">
+		<source src="assets/videos/Home-BG" type="video/ogg"> -->
+		</video>
+	</div>
+  
+	<!-- Navigation -->
+	{% include nav-desktop.html %}
+
+	<!-- Hero content -->
+	<h1 class="content">{% t pages.community.hero-heading %}</h1>
+	<p class="content">{% t pages.community.hero-text %}</p>
+
+	<div class="content">
+		<a href="#" class="btn-blue-solid">{% t pages.community.hero-forum-btn %}</a>
+	</div>
+
+	<br />
+
+	<div class="content">
+		<a href="#community-forum" class="btn-white-solid">{% t pages.community.hero-discussion-btn %}</a>
+		<a href="#community-social" class="btn-white-solid">{% t pages.community.hero-social-btn %}</a>
+		<a href="#community-news" class="btn-white-solid">{% t pages.community.hero-news-btn %}</a>
+		<a href="#community-development" class="btn-white-solid">{% t pages.community.hero-development-btn %}</a>
+		<a href="#community-masternode" class="btn-white-solid">{% t pages.community.hero-masternodes-btn %}</a>
+		<a href="#community-media" class="btn-white-solid">{% t pages.community.hero-video-btn %}</a>
+	</div>
+  
+</div>

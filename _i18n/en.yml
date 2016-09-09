@@ -13,6 +13,7 @@ pages:
   home: 
     title: Official Website | Private Digital Currency 
     description: Dash is Digital Cash
+    hero-image: stock-photo-90982809-the-monthly-finances.jpg
     hero-heading: Dash is Digital Cash!
     hero-text: The first truly-decentralized digital money system.<br />Meet Digital Cash.
     
@@ -64,6 +65,7 @@ pages:
   get-dash:
     title: Get Dash
     description: Download the wallet and get Dash at an exchange.
+    hero-image: get-dash.jpg
     hero-heading: Download Dash Wallet
     hero-text: Download the latest Dash client to get started
     hero-wallet-version: Dash Wallet (Fullclient v12.0.56) for OSX
@@ -107,6 +109,7 @@ pages:
   participate:
     title: Join the Dash Network
     description: Join the Dash Network
+    hero-image: participate.jpg
     hero-heading: Join our Network
     hero-text: Earn Dash by powering, securing or developing the Dash network
     hero-masternodes-btn: Masternodes
@@ -134,6 +137,7 @@ pages:
   currency: 
     title: Dash Currency
     description: Dash Currency
+    hero-image: currency.jpg
     hero-heading: Dash Currency
     hero-markets-btn: Markets
     hero-governance-btn: Governance
@@ -148,6 +152,7 @@ pages:
   community:
     title: Join the Dash Community
     description: Join the Dash Community
+    hero-image: community.jpg
     hero-heading: Join our Community
     hero-text: Become a part of the Dash community
     hero-forum-btn: Official Forums
