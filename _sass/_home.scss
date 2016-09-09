@@ -137,12 +137,18 @@ $homeSectionPaddingTop: 40px;
 		}
 
 		img {
-			margin-top: 20px;
+			margin-top: 30px;
 			vertical-align: text-top;
 		}
 
 		.btn-white-solid {
 			color: $blue;
+		}
+	}
+
+	.home-latest-news {
+		.btn-blue {
+			margin-top: 20px;
 		}
 	}
 }
