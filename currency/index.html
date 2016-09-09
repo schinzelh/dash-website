@@ -7,7 +7,7 @@ description: pages.currency.description
 {% tf currency/hero.html %}
 
 <div class="content">
-	
+
 	<h2>{% t pages.currency.markets-heading %}</h2>
 
 	<table>
@@ -20,7 +20,7 @@ description: pages.currency.description
 			</tr>
 		</thead>
 		<tbody id="exchanges">
-			
+
 		</tbody>
 	</table>
 
@@ -38,7 +38,7 @@ description: pages.currency.description
 			</tr>
 		</thead>
 		<tbody id="budgets">
-			
+
 		</tbody>
 	</table>
 
@@ -60,100 +60,101 @@ description: pages.currency.description
 			</tr>
 		</thead>
 		<tbody id="blocks">
-			
+
 		</tbody>
 	</table>
 
 </div>
 
 <script type="text/javascript">
-$( document ).ready(function(){
+	window.onload = function () {
+		$( document ).ready(function(){
 
-	// Get the exchange data
-	$.ajax({
-		url: "{{ site.api }}/exchange/",
-		error: function(jqXHR, textStatus, errorThrown) {
-            console.log(jqXHR);
-            console.log(textStatus);
-            console.log('errorThrown:');
-		}
-	})
-	.done(function(response){
-		var exchanges = response; 
+			// Get the exchange data
+			$.ajax({
+				url: "{{ site.api }}/exchange/",
+				error: function(jqXHR, textStatus, errorThrown) {
+					console.log(jqXHR);
+					console.log(textStatus);
+					console.log('errorThrown:');
+				}
+			})
+			.done(function(response){
+				var exchanges = response;
 
-		exchanges.map(function(exchange){
-			if(exchange){
-				console.log('exchange',exchange);
-				var name 	= exchange.exchange,
-					url 	= exchange.url
-					volume 	= "$" + formatCurrency(exchange.volume,0),
-					price 	= "$" + formatCurrency(exchange.price),
-					change 	= formatNumber(exchange.percent_change);
+				exchanges.map(function(exchange){
+					if(exchange){
+						console.log('exchange',exchange);
+						var name 	= exchange.exchange,
+							url 	= exchange.url
+							volume 	= "$" + formatCurrency(exchange.volume,0),
+							price 	= "$" + formatCurrency(exchange.price),
+							change 	= formatNumber(exchange.percent_change);
 
-				
-				$("#exchanges").append('<tr><td><a target="_blank" href="' + url + '">' + name + '</a></td><td>' + volume + '</td><td>' + price + '</td><td>' + change + '%</td></tr>');
-			}
+
+						$("#exchanges").append('<tr><td><a target="_blank" href="' + url + '">' + name + '</a></td><td>' + volume + '</td><td>' + price + '</td><td>' + change + '%</td></tr>');
+					}
+				});
+			});
+
+
+			// Get the current number of masternodes.
+			$.ajax({
+				url: "{{ site.api }}/masternodes/stats/"
+			})
+			.done(function(response){
+				console.log('masternode stats', response.stats);
+				var masternodes_count	= formatNumber(response.stats['count']),
+					masternodes_max 	= formatNumber(response.stats['max']);
+
+				$("#masternodes_count").text(masternodes_count);
+				$("#masternodes_max").text(masternodes_max);
+			});
+
+
+			// Get the budget proposals
+			$.ajax({
+				url: "{{ site.api }}/budgets/"
+			})
+			.done(function(response){
+				var proposals = response.proposals;
+
+				proposals.map(function(proposal){
+					var	title 			= proposal.title ? proposal.title : proposal.name,
+						url				= proposal.dw_url,
+						owner 			= proposal.owner_username,
+						votes_yes 		= proposal.yes,
+						votes_no 		= proposal.no,
+						required_votes 	= proposal.remaining_yes_votes_until_funding,
+						amount_monthly 	= formatCurrency(proposal.monthly_amount)
+						will_be_funded	= proposal.will_be_funded ? "yes" : "no";
+
+
+
+					$("#budgets").append('<tr><td>' + title + '</td><td>' + owner + '</td><td>' + votes_yes + '/' + votes_no + '</td><td>' + required_votes + '</td><td>' + amount_monthly + '</td><td>' + will_be_funded + '</td></tr>');
+
+				});
+			});
+
+
+			// Get the blockchain info
+			$.ajax({
+				url: "{{ site.api }}/chain/latestBlocks/"
+			})
+			.done(function(response){
+				var blocks = response.blocks;
+
+				blocks.map(function(block){
+					var height 		= block.height,
+						age 		= moment.unix(block.time).format("LLL"),
+						txs 		= block.txlength,
+						out 		= block.cbvalue,
+						difficulty 	= block.difficulty;
+
+					$("#blocks").append('<tr><td>' + height + '</td><td>' + age + '</td><td>' + txs + '</td><td>' + out + '</td><td>' + difficulty + '</td></tr>');
+				});
+			});
+
 		});
-	});
-
-	
-	// Get the current number of masternodes.
-	$.ajax({
-		url: "{{ site.api }}/masternodes/stats/"
-	})
-	.done(function(response){
-		console.log('masternode stats', response.stats);
-		var masternodes_count	= formatNumber(response.stats['count']),
-			masternodes_max 	= formatNumber(response.stats['max']);
-
-		$("#masternodes_count").text(masternodes_count);
-		$("#masternodes_max").text(masternodes_max);
-	});
-
-	
-	// Get the budget proposals
-	$.ajax({
-		url: "{{ site.api }}/budgets/"
-	})
-	.done(function(response){
-		var proposals = response.proposals;
-
-		proposals.map(function(proposal){
-			var	title 			= proposal.title ? proposal.title : proposal.name,
-				url				= proposal.dw_url,
-				owner 			= proposal.owner_username,
-				votes_yes 		= proposal.yes, 
-				votes_no 		= proposal.no, 
-				required_votes 	= proposal.remaining_yes_votes_until_funding,
-				amount_monthly 	= formatCurrency(proposal.monthly_amount)
-				will_be_funded	= proposal.will_be_funded ? "yes" : "no";
-
-		
-
-			$("#budgets").append('<tr><td>' + title + '</td><td>' + owner + '</td><td>' + votes_yes + '/' + votes_no + '</td><td>' + required_votes + '</td><td>' + amount_monthly + '</td><td>' + will_be_funded + '</td></tr>');	
-			
-		});
-	});
-
-
-	// Get the blockchain info
-	$.ajax({
-		url: "{{ site.api }}/chain/latestBlocks/"
-	})
-	.done(function(response){
-		var blocks = response.blocks;
-
-		blocks.map(function(block){
-			var height 		= block.height,
-				age 		= moment.unix(block.time).format("LLL"),
-				txs 		= block.txlength,
-				out 		= block.cbvalue,
-				difficulty 	= block.difficulty;
-
-			$("#blocks").append('<tr><td>' + height + '</td><td>' + age + '</td><td>' + txs + '</td><td>' + out + '</td><td>' + difficulty + '</td></tr>');
-		});
-	});
-
-
-});
+	}
 </script>

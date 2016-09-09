@@ -45,7 +45,7 @@
       function formatCurrency (num,decimal) {
           var _decimal;
           _decimal = typeof decimal !== "undefined" ? decimal : 2;
-          return num.toFixed(_decimal).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
+          return parseFloat(num).toFixed(_decimal).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
       }
     </script>
 
