@@ -1,6 +1,9 @@
+$homeSectionPaddingTop: 40px;
+
+
 .page-home {
 	> section {
-		padding: 40px 0;
+		padding: $homeSectionPaddingTop 0;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -13,17 +16,24 @@
 			text-align: left;
 		}
 
-		.features-collection {
-			text-align: center;
-		}
 
 		h2 {
-			margin-top: 40px;
+			margin-top: 0px;
 		}
 
 		p {
 			max-width: 60em;
 			margin: 20px auto;
+		}
+
+		.features-collection {
+			text-align: center;
+			h2 {
+				margin-top: 20px;
+			}
+			p {
+				margin: 0 auto;
+			}
 		}
 
 		img {
@@ -101,16 +111,16 @@
 		@media (min-width: 768px) {
 			z-index: 1;
 			> img {
-				top: -40px;
-				bottom: -40px;
+				top: -$homeSectionPaddingTop;
+				bottom: -$homeSectionPaddingTop;
 				max-width: none;
 				max-height: calc(100% + 80px);
 			}
 			&:after {
 				content: '';
 				position: absolute;
-				top: -40px;
-				bottom: -40px;
+				top: -$homeSectionPaddingTop;
+				bottom: -$homeSectionPaddingTop;
 				width: 200%;
 				background: linear-gradient(to left, $white 50%, rgba($white, 0) 87.5%);
 			}
