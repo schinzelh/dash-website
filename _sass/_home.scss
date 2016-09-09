@@ -152,9 +152,14 @@ $homeSectionPaddingTop: 40px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 
-	> .logo {
+	margin-bottom:20px
+
+	&__logo {
 		flex: 1 1 auto;
 		margin: 20px 10px;
+	}
+	&__image {
+		max-height: 100%;
 	}
 }
 
