@@ -13,7 +13,12 @@ https://jekyllrb.com
 
 ### Supporting Gems
 Simply run `bundle install` and [bundler](http://bundler.io/) will install all ruby gems/dependencies.
-Note: The Gems must also be installed on the CI server.
+CI Note: The Gems must also be installed on the CI server. 
+Mac Note: Bundler will try to install the dependency `nokogiri`. If you are using a Mac, and run into issues related to `nokogiri` during `bundle install`, do the following:
+`xcode-select --install`
+`gem install nokogiri`
+Then run `bundle install`
+
 
 ### Plugins
 * `jekyll-multiple-languages-plugin` installed as a gem. Documentation at https://github.com/perrywoodin/jekyll-multiple-languages-plugin. This is a modified fork that adds two new tags for outputting markdown `{% tmd key %}` or `{% translatemd key %}`
@@ -25,6 +30,10 @@ Note: The Gems must also be installed on the CI server.
 
 ## Production Build
 Production builds should be handled by CI.
+
+Mac
+xcode-select --install
+gem install nokogiri
 
 ## i18n
 Language variables are set in `/_i18n/*.yml` files. The master language file is `/_i18n/en.yml`. All other languages should use that file as a base. 
