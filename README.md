@@ -13,10 +13,15 @@ https://jekyllrb.com
 
 ### Supporting Gems
 Simply run `bundle install` and [bundler](http://bundler.io/) will install all ruby gems/dependencies.
+
 CI Note: The Gems must also be installed on the CI server. 
+
 Mac Note: Bundler will try to install the dependency `nokogiri`. If you are using a Mac, and run into issues related to `nokogiri` during `bundle install`, do the following:
+
 `xcode-select --install`
+
 `gem install nokogiri`
+
 Then run `bundle install`
 
 
