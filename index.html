@@ -178,7 +178,7 @@ description: pages.home.description
                             <h3 class="news-title">{{ post.title }}</h3>
                             <div class="date">{{ post.date | date: "%b %d, %Y" }}</div>
                             <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
-                            <a class="read-more" href="{{ post.url }}">Read More...</a>
+                            <a class="read-more" href="{{ basenav }}{{ post.url }}">Read More...</a>
                         </div>
                     </div>
                 </div>
