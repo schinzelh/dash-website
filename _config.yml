@@ -16,7 +16,7 @@ description: Digital Cash
 api: http://www-test.dash.org/api/v1
 
 languages: ["en", "es", "cn", "pt", "ru", "it"]
-exclude_from_localizations: ["assets"]
+exclude_from_localizations: ["assets","style-guide"]
 
 sass:
   style: compressed
