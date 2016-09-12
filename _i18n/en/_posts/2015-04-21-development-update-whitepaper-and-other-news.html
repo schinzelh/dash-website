@@ -1,0 +1,44 @@
+---
+layout: post
+title: Development Update, Whitepaper and Other News
+date: 2015-04-21 06:33:41.000000000 -04:00
+type: post
+published: true
+status: publish
+categories:
+- Development Updates
+tags: []
+meta:
+  _edit_last: '2'
+  _et_pb_page_layout: et_right_sidebar
+  _et_pb_side_nav: 'off'
+  _et_post_bg_color: "#ffffff"
+  _et_post_bg_layout: light
+  _webdados_fb_open_graph_specific_image: ''
+author:
+  login: fernando
+  email: gutierrezf@gmail.com
+  display_name: Fernando Gutierrez
+  first_name: Fernando
+  last_name: Gutierrez
+---
+<p>Hello Everyone,</p>
+<p>We just wanted to give everyone an update on the project and what we are focusing on right now. Currently the team is working on many different projects for development, marketing and outreach. We’ve made some great progress with marketing &amp; outreach, we’ll have more about that in the coming weeks/months. We know it’s been quiet for a couple weeks and there’s good reason for that.</p>
+<h2>Development Update - v0.12.0.0</h2>
+<ul>
+<li>Udjin has merged all upstream changes from Bitcoin 10 into the project. This means we’ll support much faster syncing via headers-first blocks and various other changes to the core software.</li>
+<li>Evan has been working on re-implementing the Masternode Broadcast/Pinging classes to be much easier to read and more efficient. This will allow us to finally use inventory messages for updates to the Masternode network, reducing bandwidth by as much as 80%!</li>
+<li>The code is getting very close to the point where we will no longer require the reference node. The reference node was created in order to solve a problem dash has had since the beginning, unfair masternode payments. With the reference node, the network has round robin masternode payments, but this node is centralized and our goal is to decentralize all components of the network. In the v0.12.0.0 version, we’re going to run the network in a hybrid state where the reference node can be turned off and the network will enforce masternode payments in a round-robin fashion just like it does now, except with no centralization. This hybrid state will allow us to still use the reference node as a backup if needed.</li>
+<li>Udjin has been working on improved language support for the the Darksend process, which means users mixing coins in other languages will no longer see english errors messages.</li>
+</ul>
+<h2>Mobile Wallets Capable of DS and IX</h2>
+<ul>
+<li>We’re happy to announce that we have developers working on Darksend/InstantX implementations for mobile. This is very exciting because it will allow person-2-person instant transfer of value just like cash in a completely decentralized way, involving no third party. This is important because it brings us very close to our goal of providing a real medium of digital cash.</li>
+<li>We also want to take the opportunity to welcome our new developer QuantumExplorer who is handling the development of our iPhone wallet.</li>
+</ul>
+<h2>Decentralized Cryptocurrency Management Proposal</h2>
+<p>We’ve been working on a plan for months now to fully decentralize the projects funding and management going forward. This is a brand new concept in crypto and goes beyond the foundation model. We’re very excited, as we believe it solves some long standing issues that Bitcoin and other crypto-currencies have faced. We’ll be releasing a detailed whitepaper about this concept on Wednesday this week.</p>
+<h2>Dash Whitepaper V1</h2>
+<p>The old whitepaper was very out of date, we’ve updated it and detailed all technology that we’re using within Dash. Click here to read the <a href="https://www.dashpay.io/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf">new whitepaper</a>!</p>
+<p>&nbsp;</p>
+<p>The Dash Team</p>

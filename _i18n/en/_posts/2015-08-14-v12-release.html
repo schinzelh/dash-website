@@ -1,0 +1,101 @@
+---
+layout: post
+title: v12 Release
+date: 2015-08-14 10:37:13.000000000 -04:00
+type: post
+published: true
+status: publish
+categories:
+- Development Updates
+- General
+tags: []
+meta:
+  _edit_last: '2'
+  _et_pb_page_layout: et_right_sidebar
+  _et_pb_side_nav: 'off'
+  _et_post_bg_color: "#ffffff"
+  _et_post_bg_layout: light
+  _webdados_fb_open_graph_specific_image: ''
+  _oembed_757e90240382eb4e0d3633e98a8f0a24: "{{unknown}}"
+  _oembed_d304b97907d8a1865350a6c9fd0b8dc7: "{{unknown}}"
+  _oembed_4841b16a0f86bd871f7475b9946c6ef4: "{{unknown}}"
+author:
+  login: evan
+  email: eduffield82@gmail.com
+  display_name: Evan Duffield
+  first_name: Evan
+  last_name: Duffield
+---
+<p>Hello Everyone,</p>
+<p>It is with great pleasure that the development team brings you the much anticipated version 12 release of the Dash Core client. This release implements numerous features the Dash community has requested, such as the decentralized budget system and the removal of the reference node. In fact, by virtually any measure this is our most extensive release to date. It also establishes ground-breaking functionality that further differentiates our cryptocurrency and enables an entirely new model for supporting the Dash ecosystem in exciting new ways.</p>
+<p>Not only is this the broadest set of changes we’ve ever deployed in one release. It is also the most extensively and methodically tested release we’ve ever done. An extended team of volunteers have been helping the core development team to manage and test this release since long before I even announced public testing on June 12th. While we don’t expect the code to be bug-free (no software ever is) this should be one of the most stable releases we’ve deployed.</p>
+<ul>
+<li>Here is an abbreviated list of the enhanced functionality included in the version 12 release:</li>
+<li>Incorporated Bitcoin Core version 0.10 <a href="https://bitcoin.org/en/release/v0.10.0">https://bitcoin.org/en/release/v0.10.0</a></li>
+<li>Implemented the first decentralized budget system and ability to fund Dash projects directly from the block rewards (details can be found in the “What is the Decentralized Budget System?” section below)</li>
+<li>Implemented a new decentralized masternode payment consensus system, which will enable the removal of the reference node that was needed to facilitate fair distribution of masternode rewards</li>
+<li>Improved the speed and reliability of Darksend anonymization</li>
+<li>New masternode payment/winners/budgets syncing strategy</li>
+<li>Platform independent masternode ranking system</li>
+<li>Masternode broadcasts, pings and winners now use the inventory system</li>
+<li>Transaction indexing is enabled by default for all clients</li>
+<li>Improved implementation of Instant Transactions (IX) block reprocessing to find and remove invalid blocks</li>
+<li>Increased IX success rate to nearly 100% and transaction locks are more secure than before</li>
+</ul>
+<h3>Who is required to update?</h3>
+<p>It is imperative that ALL USERS of the dash client update to the most recent version of the client as soon as possible. Users have until September 5th to update. After that date, anyone running an old client will no longer be on the valid chain.</p>
+<h3>How to update?</h3>
+<p>QT: When updating the client, you will need to reindex the blockchain. To do this, start the wallet with option ‘-reindex’ in the command line or create a shortcut to the wallet and append “-reindex” to the shortcut target by right-clicking in the shortcut and selecting ‘Properties’.</p>
+<p>Daemon: To update the daemon, you will need to restart with the --reindex flag.</p>
+<p>In the v12 update, we’ve automatically enabled the transaction index by default. This will allow your client to pull up any transaction from the blockchain. This is mainly used in DarkSend and the decentralized budget system.</p>
+<h3>What is the Decentralized Budget System?</h3>
+<p>In decentralized projects like Dash, funding has proven a significant issue. Even the mighty Bitcoin frequently struggles to attract and fund sufficient resources through donations alone. We plan on fixing that in a 100% decentralized and sustainable way. With Bitcoin, 100% of the block reward is allocated to miners. While mining is an important component that secures transactions, it is not the only requirement for a healthy network as Bitcoin’s recent struggles with funding have demonstrated.</p>
+<p>We believe that the block rewards belong to the network first, and should be used to fulfill more than just one of the many needs of a healthy network. Developers, miners, masternode operators, legal council, marketing, and merchant services are only some of the potential needs of a healthy network and all deserving of funding when worthwhile projects are identified. With Dash, anyone can now introduce funding proposals directly to the network itself, on which the masternode community (who are essentially the network owners / operators) will vote. Approved budgets are then paid similar to how miners are paid… directly from the blockchain rewards. In accordance with our original proposal that the community approved in May, we will gradually transition the block reward allocations through February to eventually provide for a budget of about 8000 DASH per month to fund proposals.</p>
+<h3>What’s next?</h3>
+<p>The Dash development team will initially focus on ensuring a smooth rollout of v12 to the network. We hope with all the testing already performed that the number and severity of bugs will be minimal, but we plan to do extensive testing during and after deployment to remedy any issues that arise.</p>
+<p>Next, we plan to test the budgeting system. At the very beginning we will have only the core team submit a few proposals so we can make sure everything works perfectly. We are counting on masternode owners supporting this staged deployment procedure… your votes are needed to make this work.</p>
+<p>Further down the road, the core team has numerous ideas we are evaluating for the next major release. The budget system enables entire categories of functionality that weren’t possible without it and we plan to take some time to develop a longer-term strategy for the next several releases, in line with Dash’s vision and mission.</p>
+<p>I look forward to hearing everyone’s feedback on the new functionality. It has been a challenging yet rewarding few months, and I’ve enjoyed working with everyone that has helped manage the project, supported testing, and contributed ideas. The Dash community is as organized and professional as ever thanks to everyone’s contributions. The next six months will bring new challenges, but I’m excited to see that we are better equipped than ever to tackle them and have both a governance and funding system in place to support entirely new possibilities. I hope you are as excited as I am to see what’s coming next. Enjoy version 12!</p>
+<p>Sincerely,<br />
+Evan</p>
+<h4>Full Description Of Budget System:</h4>
+<p><a href="https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240">https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240</a></p>
+<h4>Can I make a proposal and submit it to the system?</h4>
+<p>Once the initial proposals have been tested and funded, the budgeting system will be enabled for the entire community. The amount of funds available initially will be relatively low, and we suspect there are a backlog of ideas that community members are hoping to submit. For this reason, getting your proposal funded immediately may be challenging. However, as the allocation away from miners and toward proposals progresses, more and more projects will succeed in obtaining funding.</p>
+<h4>How to use the budget system:</h4>
+<p><a href="https://dashpay.atlassian.net/wiki/display/DOC/Masternode+Budget+API">https://dashpay.atlassian.net/wiki/display/DOC/Masternode+Budget+API</a></p>
+<h4>Downloads:</h4>
+<p><a href="https://www.dashpay.io/downloads/">https://www.dashpay.io/downloads/</a></p>
+<h4>Credits:<br />
+--------</h4>
+<p>Thanks to who contributed to this release, at least:</p>
+<p>eduffield<br />
+UdjinM6<br />
+Crowning<br />
+moli<br />
+flare<br />
+thelazier<br />
+adios<br />
+poiuty<br />
+scratchy<br />
+moocowmoo<br />
+the-baker<br />
+BrainShutdown<br />
+Lukas_Jackson<br />
+Sub-Ether<br />
+italx<br />
+yidakee<br />
+TanteStefana<br />
+coingun<br />
+tungfa<br />
+MangledBlue<br />
+AjM<br />
+Lariondos<br />
+elbereth<br />
+minersday<br />
+qwizzie<br />
+TaoOfSatoshi<br />
+dark-sailor<br />
+AlexMomo<br />
+snogcel</p>
+<p>As well as everyone that helped translating on [Transifex](<a href="https://www.transifex.com/projects/p/dash/">https://www.transifex.com/projects/p/dash/</a>)</p>

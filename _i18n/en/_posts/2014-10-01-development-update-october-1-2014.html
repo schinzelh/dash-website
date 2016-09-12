@@ -1,0 +1,55 @@
+---
+layout: post
+title: Development Update - October 1, 2014
+date: 2014-10-01 18:06:09.000000000 -04:00
+type: post
+published: true
+status: publish
+categories:
+- Development Updates
+tags: []
+meta:
+  _edit_last: '2'
+  slide_template: default
+  truethemes_video_url: ''
+  truethemes_external_image_url: ''
+  truethemes_slider_shortcode: ''
+  truethemes_slider_cu3er: ''
+author:
+  login: fernando
+  email: gutierrezf@gmail.com
+  display_name: Fernando Gutierrez
+  first_name: Fernando
+  last_name: Gutierrez
+---
+<p>Darksend seems to be very stable and now that we’re open source and we’ve passed an audit I think it’s time to work on some other functionality. We’re working out of development plan for the next weeks weeks and here’s what we have so far.</p>
+<h3><b>Masternode Security</b></h3>
+<p>There are a few things that are missing in Dash to properly implement <a class="externalLink" style="color: #176093;" href="https://www.dashpay.io/downloads/InstantTX.pdf" target="_blank">InstantX</a>). One of the greatest objections to InstantX from the Bitcoin community was the possibility to DOS the selected masternodes that are responsible for consensus voting.</p>
+<p>This would stop the consensus voting forcing the network to evaluate transactions using the mining network, bring the first confirmation from 10-20 seconds back to 2.5 minutes. While not a terrible issue, it’s something we can deal with by hiding the masternode identities and using a token based routing system to pass messages back and forth. This will be discussed in great detail in the v2 of the Dash whitepaper.</p>
+<p>To build a network that can withstand attacks, the masternodes must not publish their IPs. To do this we’re going to utilize a new multipath communication technology. This will add another layer of privacy to the system as it will allow users to communicate with the network securely without exposing their IPs and will also hide the identity of the Darksend mixing nodes making it extremely difficult, if not impossible, for third parties to spy on users information.</p>
+<p>It uses multi-path routing so users can send more than one encrypted message using different routes on the mesh network for redundancy. This will allow us quick communication, robustness and anonymous two way communication.</p>
+<p>The diagram below shows the new system in action:</p>
+<p><img class="bbCodeImage LbImage" src="{{ site.baseurl }}/assets/z_PIZgpBnEdbIRzZW06AVSxOp9itMq8iGtYIXRbehXO3Sx9KxPcxnFHr82NmriEVYYcJUW981lKHFUOVWUWLPVHAZN8lLbtAbsbf1KJcxCNUn7Hn8gbyymaHV9_abqSucg" alt="[​IMG]" data-url="https://lh5.googleusercontent.com/z_PIZgpBnEdbIRzZW06AVSxOp9itMq8iGtYIXRbehXO3Sx9KxPcxnFHr82NmriEVYYcJUW981lKHFUOVWUWLPVHAZN8lLbtAbsbf1KJcxCNUn7Hn8gbyymaHV9_abqSucg" /></p>
+<h3><b>Enforcement</b></h3>
+<p>Currently there is a very basic version of enforcement that is going to be enabled soon.</p>
+<p>The strategy employed by Dash currently to protect masternode payments is definitely not a perfect solution and wasn’t meant to stay in this form forever. While it does make cheating much more difficult, it’s still remains possible.</p>
+<p>The next version of enforcement will be a huge improvement over this current version and will introduce much greater security.</p>
+<h3><b>Masternode Reward Structure</b></h3>
+<p>The Dash network relies heavily on the strength of the Masternode network. They are the foundation of our currency in provide great value to the network. Whether it be serving the blocks to a client that is syncing or proving the services such as Darksend and InstantX.</p>
+<p>While writing the whitepaper for InstantX and v2 of Dash, I’ve realized that the network would gain an incredible amount of security by increasing the amount of running Masternodes. When originally envisioned, the target number of masternodes was 2000-3000. I’ve waited some time to see if the amount of active Masternodes will increase alone, but I’m beginning to think some tweaking is in order.</p>
+<p>The number of Masternodes reaches an equilibrium with the price of Dash and the ROI of running a node over a period of time. Currently we have about 900 total Masternodes (some haven’t updated to RC5 yet, but you can see the stats <a class="externalLink" style="color: #176093;" href="https://DASH.poolhash.org/darksend.html" target="_blank">here</a>), with this amount of nodes each has a ROI of 23%</p>
+<p>It can be calculated with: ((a/b)*c*d*e)/1000)<br />
+a is the amount of Masternodes you control<br />
+b is the total amount of Masternodes<br />
+c is the amount of blocks per day<br />
+d is the days in a year<br />
+e is payment per block won</p>
+<p>So with that in mind the current profitability can be calculated by</p>
+<p><i>((1/900.0)*576*365*(5*.20))/1000 = 0.23 (23% per year ROI in DASH)</i></p>
+<p>The reward of 23% can be thought of as the current equilibrium that the network has found. So it is expected that no matter the reward structure, the network will come to rest as this level.</p>
+<p>If our goal is to gain more Masternodes to improve the overall security of the network, I propose increasing the reward structure for Masternodes by 5% every month until the optimal amount of Masternodes is reached. This can be thought of as a type of <a class="externalLink" style="color: #176093;" href="https://en.wikipedia.org/wiki/Price_discovery" target="_blank">price discovery</a>. It's also worth noting, by adding 5% rewards per month we'll have a decreasing amount of impact each month thereafter. From 20% to 25% is a 25% change, from 25% to 30% is a 20% change, then 16.6%, 14.2%, 12.5%, etc. This will allow a good deal of reaction time.</p>
+<p>This also means that Dash must be purchased in order to start new Masternodes. This doesn’t include Masternodes selling their existing node’s Dash in order to cash out (that wouldn’t change the Masternode total count). Considering this, we should see very long term steady growth, gain a lot of media attention and gain real-world adoption.</p>
+<p>I believe this update will be great for Dash by increasing the security of InstantX and Darksend, while providing significant growth for Dash. An update like this requires a very solid version of enforcement along with updates to the daemon to tell the pool operators how much Dash is suppose to be paid to the current Masternode operator.</p>
+<p>FAQ:</p>
+<p>Can't we just decrease the amount required to run a Masternode: <a class="internalLink" style="color: #176093;" href="https://dashtalk.org/threads/development-update-oct-1-2014.2561/page-4#post-23297">https://dashtalk.org/threads/development-update-oct-1-2014.2561/page-4#post-23297</a></p>
+<p>PS. Thanks to BabyGiraffe for inspiring this conversation about Masternode Payments.</p>

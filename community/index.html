@@ -1,0 +1,175 @@
+---
+layout: default
+title: pages.community.title
+description: pages.community.description
+---
+
+{% include hero/community.html %}
+
+<div class="page-community">
+
+    <!-- 
+        DISCUSSION/FORUMS
+        .community-forum-graphic
+    -->
+	<section id="community-forum">
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>{% t pages.community.discussion-heading %}</h2>
+                    {% tmd pages.community.discussion-text %}
+                    </div>
+                <div class="col-sm-6 community-forum-graphic">
+
+                </div>
+            </div>
+        </div>   
+    </section>
+	
+    <!-- 
+        SOCIAL
+        .community-social-graphic
+    -->
+    <section id="community-social">
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-6 community-social-graphic">
+                    
+                </div>
+                <div class="col-sm-6">
+                    <h2>{% t pages.community.social-heading %}</h2>
+                    {% tmd pages.community.social-text %}                
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 
+        NEWS & INFORMATION
+        .community-news-graphic
+    -->
+    <section id="community-news">
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>{% t pages.community.news-heading %}</h2>
+                    {% tmd pages.community.news-text %}                
+                </div>
+                <div class="col-sm-6 community-news-graphic"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 
+        DEVELOPMENT
+        .community-development-graphic
+    -->
+    <section id="community-development">
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-6 community-development-graphic">
+                    
+                </div>
+                <div class="col-sm-6">
+                    <h2>{% t pages.community.development-heading %}</h2>
+                    {% tmd pages.community.development-text %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        MASTERNODE TOOLS
+        .community-masternode-graphic
+    -->
+    <section id="community-masternode">
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>{% t pages.community.masternode-heading %}</h2>
+                    {% tmd pages.community.masternode-text %}                
+                </div>
+                <div class="col-sm-6 community-masternode-graphic"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 
+       MEDIA | CONFERENCES | TECHNOLOGY | YOUTUBE
+       similiar layout to news posts on home page.
+       .community-post
+       .community-image
+       .community-body
+       .community-title   
+    -->
+    <section id="community-media">
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="community-post">
+                        <div class="community-image">
+                            
+                        </div>
+                        <div class="community-body">
+                            <h3 class="community-title">{% t pages.community.media-heading %}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="community-post">
+                        <div class="community-image">
+                            
+                        </div>
+                        <div class="community-body">
+                            <h3 class="community-title">{% t pages.community.conferences-heading %}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="community-post">
+                        <div class="community-image">
+                            
+                        </div>
+                        <div class="community-body">
+                            <h3 class="community-title">{% t pages.community.technology-heading %}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="community-post">
+                        <div class="community-image">
+                            
+                        </div>
+                        <div class="community-body">
+                            <h3 class="community-title">{% t pages.community.community-heading %}</h3>
+                            <a href="#" class="btn-blue">{% t pages.community.youtube-btn %}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        NEED SOME DASH
+        Repeat info from the GET-DASH page
+        .getdash-need-graphic
+    -->
+    <section>
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>{% t pages.get-dash.need-heading %}</h2>
+                    {% tmd pages.get-dash.need-text %}
+
+                    <a href="#" class="btn-blue">{% t pages.get-dash.need-btn %}</a>
+                    {% tmd pages.get-dash.need-input %}            
+                </div>
+                <div class="col-sm-6 getdash-need-graphic">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>

@@ -1,0 +1,13 @@
+<article class="component">
+  <header class="component__header">
+    <h3 id="guide-{{ entry.title | slugify }}">{{ entry.title }}</h3>
+    {% if entry.usage %}<p><strong>Usage:</strong> {{ entry.usage }}</p>{% endif %}
+  </header>
+
+  <div class="component__content--color">
+    <div class="component__rendered--color">
+      {{ entry.content }}
+    </div>
+  </div>
+
+</article>

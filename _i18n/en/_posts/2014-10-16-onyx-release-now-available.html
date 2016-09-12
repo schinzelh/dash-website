@@ -1,0 +1,96 @@
+---
+layout: post
+title: Onyx (10.15.16) Release Now Available
+date: 2014-10-16 11:19:39.000000000 -04:00
+type: post
+published: true
+status: publish
+categories:
+- Development Updates
+tags: []
+meta:
+  _edit_last: '4'
+  slide_template: default
+  truethemes_video_url: ''
+  truethemes_external_image_url: ''
+  truethemes_slider_shortcode: ''
+  truethemes_slider_cu3er: ''
+  _aioseop_keywords: Dash, Bitcoin, cryptocurrency, crypto, privacy, anonoymity
+  _aioseop_description: "What's New:\r\n\r\n- Increase Masternode reward schedule\r\n-
+    Improvements to Proof-of-Service platform\r\n- Improvements to Darksend for increased
+    security"
+  _aioseop_title: Dash Onyx Release Now Available
+author:
+  login: evan
+  email: eduffield82@gmail.com
+  display_name: Evan Duffield
+  first_name: Evan
+  last_name: Duffield
+---
+<p><img src="{{ site.baseurl }}/assets/onyx_release_273.png" alt="" /></p>
+<p><strong>ATTENTION: POOL OPERATORS</strong></p>
+<p>This update includes a fork, all daemons and stratum deployments must update their code to pay the correct masternodes and correct reward amounts.</p>
+<p><em><strong>Software Updates:</strong></em></p>
+<p>Stratum Users:<br />
+<a class="externalLink" target="_blank"><del datetime="2014-12-20T04:15:25+00:00">https://github.com/darkcoin/darkcoin-stratum/commit/4abf08bd0d3de7fae2311f54edb8a5f86f9ab39a</del></a></p>
+<p>NOMP Users:<br />
+<a class="externalLink" target="_blank"><del datetime="2014-12-20T04:15:25+00:00">https://github.com/darkcoin/node-stratum-pool/commit/e598fb0b6b643191304b257e0d8b0f47f8a5d34a</del></a></p>
+<p>P2Pool Users:<br />
+<a class="externalLink" target="_blank"><del datetime="2014-12-20T04:15:25+00:00">https://github.com/darkcoin/p2pool-DASH/commit/98a77c90d5dc460695cab71daed8d8aaab955289</del></a></p>
+<p><span style="color: #ff0000;"><em>***EDIT (12/19/14): Outdated links have been removed. Please update to the most current version from the Downloads page or GitHub repository.***</em></span></p>
+<p><strong>Deployment Schedule:</strong></p>
+<p>Immediately: Enforcement will be turned off, allowing for pools to update their software without risk of orphaned blocks</p>
+<p>Oct 23, 2014: Rewards will step up to 25%. Dash users are encouraged to contact pools that have not updated and politely ask them to update.</p>
+<p>Nov 14, 2014: Enforcement will be turned on, any pools that have not update will have their blocks rejected.</p>
+<p><strong>Who Needs To Update?</strong></p>
+<p>All Dash users must update their clients.</p>
+<p><strong>What’s New?</strong></p>
+<p>Part of securing the Dash network is creating a strong and healthy network of full nodes to back it up. These nodes provide many tasks for users such as propagating messages, syncing clients and mixing users funds via Darksend.</p>
+<p>To make the network resistant to attack we required these nodes to hold 1000DASH (these coins are held in a completely trustless way in cold storage in most cases, so they can’t be stolen). In return for holding the coins and running the node, these users are paid 20% of the block reward.</p>
+<p>Security for Darksend and InstantX is provided by selecting masternodes deterministically from the total set, then using multiple of these nodes to make decisions. Vastly greater security becomes possible when you add more nodes due to the cost associated with controlling a majority of said nodes. For statistical analysis of this please checkout the <a class="externalLink" href="https://www.dashpay.io/downloads/InstantTX.pdf" target="_blank">InstantX whitepaper</a> .</p>
+<p><strong>Increasing Rewards Schedule</strong></p>
+<p>With this release we will progressively change the reward to incentivize the creation of more masternodes, this should strengthen the network and protect it from sybil attacks making it more expensive for attackers to control an important portion of the nodes.</p>
+<p>This is also key for instant transaction confirmations to be a reality, the network needs to be robust enough to handle a large amount of transactions as we strive for adoption on real world applications. The features that give value to Dash need to be protected as that is what will ensure the long term success of the project for the benefit of all Dash supporters, current and those that will join DASH in the future.</p>
+<p><img class="bbCodeImage LbImage" title="" src="{{ site.baseurl }}/assets/kHW81Vc.png" alt="[​IMG]" data-url="https://i.imgur.com/kHW81Vc.png" /></p>
+<p>*Currently there are 900 active masternodes. Numbers are expected to increase as profitability rises.<br />
+** ROI calculation is ((1/t)*b*(r*s)*365)/1000</p>
+<p>Where:<br />
+t = Total number of masternodes<br />
+b = Blocks per day on average (576 for Dash)<br />
+r = Average reward per block<br />
+s = Masternode mining share</p>
+<p><strong>Steady Payments and Proof-of-Service</strong></p>
+<p>Another issue in the past has been the volatility in return due to the random nature of masternode payments. This is being dealt with by creating an algorithm to pay the masternodes evenly. Each masternode can expect a payment every N blocks with a variance of about 10%.</p>
+<p>Also included in this release is a framework that we can build a true proof-of-service platform on. This means only masternodes actually providing services will be paid for those services.</p>
+<p>To only pay active masternodes, pay masternodes evenly and ensure that all pools pay the correct node and amount we’ve introduced a new type of node, the reference node. This node has a special key that allows it to tell the network which nodes get paid, on which blocks in the future. Anyone on the network can verify these nodes are doing their job (i.e. not tampering with the results) by running the code and comparing the payee’s due to the deterministic algorithm used. In case of DDOS or a service failure, the network default to paying random masternodes as it does now.</p>
+<p>This setup is non-exploitable and will serve as a mechanism of enforcement till we can revisit this in the future. A better future solution would be an in-blockchain voting mechanism like RC3 or a second blockchain updated by the miners that stores the masternode list.</p>
+<p><strong>Masternode Setup</strong></p>
+<p>Flare’s Trustless Masternode Hosting Service:<br />
+<a class="internalLink" href="https://dashtalk.org/threads/service-masternode-hosting-service.2648/">https://dashtalk.org/threads/service-masternode-hosting-service.2648/</a></p>
+<p>Yidakee’s Service:<br />
+<a class="internalLink" href="https://dashtalk.org/threads/yidakees-helpdesk-masternode-setup-services-ghostplayer-on-bitcointalk.1633/">https://dashtalk.org/threads/yi...tup-services-ghostplayer-on-bitcointalk.1633/</a></p>
+<p>MangledBlue’s Service:<br />
+<a class="internalLink" href="https://dashtalk.org/threads/services-mn-shared-admin.2678/">https://dashtalk.org/threads/services-mn-shared-admin.2678/</a></p>
+<p>How To Guide:<br />
+<a class="internalLink" href="https://dashtalk.org/threads/taos-masternode-setup-guide-for-dummies.2680/">https://dashtalk.org/threads/taos-masternode-setup-guide-for-dummies.2680/</a></p>
+<p>How To Guide 2:<br />
+<a class="internalLink" href="https://dashtalk.org/threads/remote-masternode-guide-updated.410/">https://dashtalk.org/threads/remote-masternode-guide-updated.410/</a></p>
+<p>Just for fun:</p>
+<p><iframe src="//www.youtube.com/embed/WxpgyFS2wkA" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><strong>Darksend Improvements</strong></p>
+<p>Recently after open sourcing, Darksend has been undergoing an exhaustive evaluation of it’s security to many different kinds of attacks. This update includes over 15 measures to prevent abuses of the system and keep it healthy.</p>
+<p>To prevent such attacks, we require users to post a collateral payment to the masternode they wish to use. Parts of the Darksend process in the past were not using this protective measures and were quickly identified and attacked. This update includes many improvements to the way collateral is used to make attacking expensive.</p>
+<p>One of the notable improvements is that collateral transactions pay the fee directly to miners. This creates a situation where to double spend attack the collateral transaction, one would have to pay a higher fee to the miners. Since the collateral fee is payed to the miners already, double spending attacks against the system are impossible.</p>
+<p><strong>What’s next?</strong></p>
+<p>We had to take a short detour from InstantX to focus on Darksend after it gained enough attention to be actively attacked by our competitors. Now that we’re confident of the security of the system, we’ll be moving back to working on InstantX.</p>
+<p>The first version of InstantX will be a soft-fork. It will simply show when transactions have been successfully validated by the observer network. This will give us some real world testing of the framework.</p>
+<p>We have some other projects and exciting things in the works. We’ll be announcing those in the following months.</p>
+<p><a title="Downloads" href="https://www.dashpay.io/downloads/"><strong>Downloads</strong></a></p>
+<p>October 21, 2014 Update: 15.14 Adds a fix for a DOS style attack against the masternode list that was attempted earlier today. This attack didn't result in any harm to the network or extra payments for the attacker.</p>
+<p>October 22, 2014 Update 15.15:</p>
+<p>There have been some masternode stability problems (masternodes not staying active on the network) for some users, this was caused by the masternode operators changing the masternodeprivkey and then starting the masternode again. This lead to some of the networking have one pinging key and parts of the network having another. This update fixes that issue and will allow masternodes to change that key. Because of this issue clients were flagging peers as misbehaving, eventually leading to them being banned, causing network fragmentation, which lead to other issues on the network.</p>
+<p>An alternative solution is to move the 1000DASH input to a brand new address that the network has not seen. Then start the masternode normally. Once the network updates to v15.15, we won't have these issues anymore.</p>
+<p>Enforcement:</p>
+<p>At block 158,000 masternode rewards will jump to 25%, if more than 80% of the network is updating and paying the correct rewards enforcement will be activated then. From the looks of it, we're very close to those numbers already. Once enforcement is active, payments will be completely 100% fair and equal between all masternodes.</p>
+<p>October 22, 2014 Update 15.16:</p>
+<p>After some more inspection I found there were multiple Masternode announcement messages propagating around the network. This update filters out all but the newest one to ensure the list is correct and up-to-date. It's not manditory to update, but please do if you can. Last update till InstantX</p>

@@ -1,0 +1,66 @@
+---
+layout: post
+title: Доступен Dash кошелёк версии 11.2
+date: 2015-03-30 13:12:22.000000000 -04:00
+type: post
+published: true
+status: publish
+categories:
+- Новости разработки
+- Общие новости
+tags: []
+meta:
+  _top_nav_excluded: ''
+  _cms_nav_minihome: ''
+  _edit_last: '2'
+  _et_pb_page_layout: et_right_sidebar
+  _et_pb_side_nav: 'off'
+  _et_post_bg_color: "#ffffff"
+  _et_post_bg_layout: light
+  _webdados_fb_open_graph_specific_image: ''
+author:
+  login: fernando
+  email: gutierrezf@gmail.com
+  display_name: Fernando Gutierrez
+  first_name: Fernando
+  last_name: Gutierrez
+---
+<p>Это первый релиз кошелька под новым брендом Dash и он впечатляющий! Команда более двух месяцев усиленно работала над различными аспектами главной программы. Теперь кошелёк работает намного быстрее, потребляет меньше интернет траффика, контролирует функциональность сети Мастернод (level-of-service), быстрее выполняет Darksend операции, а также он получил новый внешний вид и интерфейс.</p>
+<p>Обновиться должны все!</p>
+<p>Изменения затронули и протокол сети, поэтому обновить программу требуется всем пользователям. Принудительные MN-платежи временно отключены на период обновления сети, и будут возобновлены примерно через 1-2 дня - после того, как обновятся более 80% Мастернод. Выплаты Мастернодам со старыми версиями ПО прекращаются немедленно, из-за несовместимости с новым протоколом сети!</p>
+<p>Особая благодарность выражается Crowning и Snogcel за их вклад в проектирование нового дизайна и интерфейса, посмотрите:</p>
+<p><a href="https://www.dashpay.io/wp-content/uploads/2015/04/wallet_new_testnet.png"><img class="aligncenter size-full wp-image-2323" src="{{ site.baseurl }}/assets/wallet_new_testnet.png" alt="wallet_new_testnet" width="962" height="708" /></a></p>
+<p>Так же выражается огромная благодарность разработчику UdjinM6, который создал отличную систему по управлению Мастернодами. Вы можете посмотреть подробности здесь: <a class="externalLink" href="https://github.com/darkcoin/darkcoin/blob/v0.11.2.x/src/masternodeman.cpp" target="_blank">https://github.com/darkcoin/darkcoin/blob/v0.11.2.x/src/masternodeman.cpp</a></p>
+<p>Этот модуль позволяет операторам перезапустить Мастерноду быстрее, так как теперь не требуется получать список всех Мастернод при каждом запуске. Также новый модуль контролирует и фиксирует параметры работы процессов Darksend, что сделало сеть более устойчивой к возможным атакам.</p>
+<p>Конфигурации кошелька теперь располагаются в новом месте!</p>
+<p>Конфигурации перемещены из расположения .darkcoin в .dash! В процессе обновления программы вам потребуется выполнить следущее:</p>
+<p>Прежде всего, закройте кошелёк Darkcoin и сделайте резервную копию всей директории вашей программы.<br />
+Windows: %APPDATA%Darkcoin<br />
+<span style="line-height: 1.5;">Mac OS: ~/Library/Application Support/Darkcoin/<br />
+</span><span style="line-height: 1.5;">Unix/Linux: ~/.darkcoin/</span></p>
+<p>После этого переименуйте эту директорию из "Darkcoin" в "Dash" (для Windows/Mac), или ".dash" (для Linux).<br />
+Затем зайдите в переименованную директорию и измените имя файла darkcoin.conf на dash.conf.</p>
+<p>Далее - просто скачайте, установите и запустите новую программы Dash-кошелёк.</p>
+<p>Другие новинки этого релиза:</p>
+<ul>
+<li>Proof-of-service (PoSe), теперь все Мастерноды ДОЛЖНЫ надлежащим образом поддерживать работоспособность своих портов, иначе они будут исключены из сети. Также проверяется работоспособность системы дополнительных команд, таких как обработка мгновенная транзакций InstantX. Этот подход обеспечивает функционирование всех Мастернод в единой сети, а также гарантирует, что  все они функционируют правильно. Система реализована таким образом, когда одна часть сети Мастернод проверяет другие Мастерноды, обеспечивая тем самым 100% децентрализацию сети.</li>
+<li>Новая команда “masternode list pose”, показывает рейтинг (PoSe scores) всех Мастернод в сети. Это будет полезно при отладке в случае, когда ваша Мастернода наказывается в результате невозможности предоставить сервис, соответствующий требованиям.</li>
+<li>Новое кэширование DarkSend, которое значительно улучшает работоспособность при использовании системы DarkSend.</li>
+<li>"Ослепление Мастернод" (Masternode Blinding) НЕ стало частью этого релиза. Хотя этот функционал уже и заложен в текущий код, он пока не активирован. Эта опция потребует дополнительного времени на отладку, и команда не успела завершить её до намеченного крайнего срока релиза (25 марта). Таким образом, её внедрение откладывается до следующего релиза.</li>
+<li>Благодаря PoSe, InstantX теперь должен работать практически постоянно.</li>
+<li>Запущена новая система голосования Мастернод, оператор одной Мастерноды получает один "голос". Попробуйте новые команды “masternode list votes” и “masternode vote yea|nay”. Первое тестовое голосование "какого цвета платье": <a class="externalLink" href="http://imgur.com/QjqfntR" target="_blank">http://imgur.com/QjqfntR</a> ? Черно-синее (yea) или Бело-золотистое (nay)</li>
+<li>Полный список изменений: <a class="externalLink" href="https://github.com/darkcoin/darkcoin/blob/master/doc/release-notes/release-notes-0.11.2.md" target="_blank">https://github.com/darkcoin/darkcoin/blob/master/doc/release-notes/release-notes-0.11.2.md</a></li>
+</ul>
+<p>v0.11.2.22 - Скачивайте здесь:<br />
+<a class="externalLink" href="https://www.dashpay.io/downloads/" target="_blank">https://www.dashpay.io/downloads/</a></p>
+<p>Благодарим за помощь в этом релизе:</p>
+<p>- UdjinM6<br />
+- Crowning<br />
+- Snogcel<br />
+<span style="line-height: 1.5;">- Propulsion, за поддержание работы нашего форума, на котором координировалось тестирование<br />
+</span><span style="line-height: 1.5;">- Flare, за восстановление работы системы переводов Transifex<br />
+</span><span style="line-height: 1.5;">- Всех, кто помогал с переводами новой версии</span></p>
+<p>Наши замечательные тестеры:</p>
+<p>AjM,Moli, Tante, Lariondos, xxxsexygirls, Sub-Ether, Moocowmoo, AlexMomo<br />
+<span style="line-height: 1.5;">Bridgewater, elbereth, HowlingMad, JPCrypto, the-baker, Lukas_Jackson<br />
+</span><span style="line-height: 1.5;">coingun, darkred, MangledBlue, yikadee</span></p>

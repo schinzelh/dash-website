@@ -1,0 +1,86 @@
+---
+layout: post
+title: 11.1 - Релиз InstantX
+date: 2015-02-10 13:11:59.000000000 -05:00
+type: post
+published: true
+status: publish
+categories:
+- Новости разработки
+- Общие новости
+tags: []
+meta:
+  _top_nav_excluded: ''
+  _cms_nav_minihome: ''
+  _edit_last: '2'
+  _et_post_bg_color: "#ffffff"
+  _et_post_bg_layout: light
+  _webdados_fb_open_graph_specific_image: ''
+author:
+  login: evan
+  email: eduffield82@gmail.com
+  display_name: Evan Duffield
+  first_name: Evan
+  last_name: Duffield
+---
+<p><a href="https://www.dashpay.io/wp-content/uploads/2015/02/instantx_logo.png"><img class="aligncenter size-full wp-image-1798" src="{{ site.baseurl }}/assets/instantx_logo.png" alt="instantx_logo" width="960" height="540" /></a></p>
+<p>Мы рады объявить о выпуске Кошелька Dash версии v0.11.1! Мы решили сделать отдельный релиз для технологии InstantX, поскольку она уже отлично работает в тестовой сети, а реализация остальных запланированных изменений для сети Мастернод займёт еще какое-то время.</p>
+<p>Этот релиз Dash включает в себя полную интеграцию InstantX, новую версию принудительных платежей майнерами в пользу Мастернод, которая работает на обновленной архитектуре Bitcoin, существенные улучшения Darksend, значительное увеличение числа поддерживаемых языков, уменьшение требований к сети и полностью реализованный механизм управления ветвлениями.</p>
+<p>Более подробную информацию о принципах работы InstantX можно почерпнуть из документа по ссылке: <a class="externalLink" style="color: #176093" href="https://www.dashpay.io/wp-content/uploads/2014/09/InstantTX.pdf" target="_blank" rel="noreferrer">https://www.dashpay.io/wp-content/uploads/2014/09/InstantTX.pdf</a></p>
+<p><strong>Hard Fork</strong></p>
+<p>В этом релизе заложено два хардфорка, поэтому все пользователи должны обновиться как можно быстрее. Форк будет выполнен автоматически спустя неделю, либо когда обновятся 80% майнеров.</p>
+<p><strong>InstantX</strong></p>
+<p>Релиз Dash v0.11.1 включает в себя полностью интегрированную версию технологии InstantX. Чтобы попробовать InstantX, просто откройте Кошелёк и поставьте галочку “InstantX” при отправке денег. Средства, отправленные с использованием InstantX, получат 5 подтверждений "уровня Мастернод" за считанные секунды, а по прошествии в среднем ещё около полутора минут 6-ое подтверждение "уровня блокчейна" сделает эти средства доступными к дальнейшему использованию на большинстве сайтов.</p>
+<p>Более того, при использовании демона InstantX включается автоматически, т.е. API тоже сразу же будет показывать транзакцию как подтвержденную, как только сеть Мастернод успешно установит на нее блокировку.</p>
+<p>Чтобы отключить InstantX, достаточно просто запустить демона/клиента Dash с параметром командной строки --instantxdepth=0 - этот режим эквивалентен обычному режиму proof-of-work.</p>
+<p>На данный момент отправка с помощью InstantX не поддерживается API. Такая возможность появиться в следующей версии Dash.</p>
+<p><strong><b>Инструкция по использованию </b>InstantX</strong></p>
+<p>Для использования InstantX просто поставьте галочку “InstantX” и отправьте DASH как обычно.</p>
+<p><a href="https://www.dashpay.io/wp-content/uploads/2015/02/Dash-Core-Wallet-testnet_009.png"><img class="aligncenter size-full wp-image-1817" src="{{ site.baseurl }}/assets/Dash-Core-Wallet-testnet_009.png" alt="Dash Core - Wallet [testnet]_009" width="962" height="675" /></a></p>
+<p>Буквально через несколько секунд значок "вопрос" на экране транзакции сменится на значок "часы".</p>
+<p><a href="https://www.dashpay.io/wp-content/uploads/2015/02/Dash-Core-Wallet-testnet_010.png"><img class="aligncenter size-full wp-image-1818" src="{{ site.baseurl }}/assets/Dash-Core-Wallet-testnet_010.png" alt="Dash Core - Wallet [testnet]_010" width="962" height="675" /></a></p>
+<p>Дважды кликните по транзакции, чтобы увидеть больше информации о состоянии InstantX.</p>
+<p><b><i>Возможные сообщения:</i></b><br />
+“проверено через InstantX”: Это означает, что сетью успешно установлена блокировка средств и деньги в безопасности.<br />
+“верификация InstantX в процессе - X из 25 подписей” : Это означает, что сеть обрабатывает вашу транзакцию и ваш Кошелёк ожидает дополнительные подписи от Мастернод.<br />
+“верификация InstantX закончилась неудачно”: В этом случае подтвердить транзакцию сетью Мастернод не удалось, и подтверждение будет выполнено в обычном режиме proof-of-work.</p>
+<p><a href="https://www.dashpay.io/wp-content/uploads/2015/02/Transaction-details_011.png"><img class="aligncenter size-full wp-image-1819" src="{{ site.baseurl }}/assets/Transaction-details_011.png" alt="Transaction details_011" width="622" height="285" /></a><br />
+<a href="https://www.dashpay.io/wp-content/uploads/2015/02/Dash-Core-Wallet-testnet_012.png"><img class="aligncenter size-full wp-image-1820" src="{{ site.baseurl }}/assets/Dash-Core-Wallet-testnet_012.png" alt="Dash Core - Wallet [testnet]_012" width="962" height="675" /></a></p>
+<p><b>Требования и особенности текущей реализации:</b></p>
+<ul>
+<li>Для того, чтобы отправить монеты через InstantX, они должны иметь минимум 5 подтверждений на уровне блокчейна.</li>
+<li>Для блокировки транзакции через InstantX 15 из 25 выбранных Мастернод должны корректно ответить на запрос.</li>
+<li>Блокировка транзакции теряется при перезапуске клиента и длится только один час.</li>
+<li>Для InstantX установлена обязательная комиссия в размере 0.01 DASH</li>
+<li>Как только блокировка по транзакции установлена, все конфликтующие с ней транзакции будут отклонены как при включении в блок, так и при рассылке в качестве обычной транзакции.</li>
+<li>InstantX спроектирован так, чтобы работать практически всегда. В текущей реализации он работает корректно в 98% процентах случаев. В остальных случаях транзакция просто будет отработана обычным способом proof-of-work.</li>
+</ul>
+<p><strong>Darksend</strong></p>
+<p>Было сделано множество улучшений Darksend, например, полностью реализовано сообщение “DSTX”. Это значит, что при выполнении анонимизации Darksend-транзакции получают приоритет и незамедлительно включаются в блок. Также было исправлено несколько ошибок, вызывавших проблемы со стабильностью.</p>
+<p><strong><b>Принудительные платежи Мастернодам</b></strong></p>
+<p>Реализация принудительных платежей в Dash версии v11.0 была несовместима с новой архитектурой Bitcoin. Недавно Dash перешёл от кодовой базы Litecoin к обновленной кодовой базе Bitcoin, и при этом выявился ряд редких случаев, когда код Bitcoin приводил к невозможности корректной работы принудительных платежей.</p>
+<p>Эти проблемы были исправлены в версии v11.1, но для активации потребуется обновление всех пользователей, поэтому пока всё работает на старом коде. Принудительные платежи будут снова активированы, как только 80% сети выполнит обновление (обычно это занимает пару дней).</p>
+<p><strong><b>Поддержка множества языков</b></strong></p>
+<p>Благодаря Vertoe и сообществу, очень активно включившемуся в этот проект, программа-Кошелёк Dash теперь полностью поддерживает более 20 языков, таких как португальский, немецкий, русский, польский, испанский, вьетнамский, французский, итальянский, каталонский, китайский, датский, финский, шведский, чешский, турецкий, баварский и многие другие.</p>
+<p><strong><b>Полный список изменений</b>: </strong></p>
+<p><a class="externalLink" style="color: #176093" href="https://github.com/darkcoin/darkcoin/blob/master/doc/release-notes/release-notes-0.11.1.md" target="_blank" rel="noreferrer">https://github.com/darkcoin/darkcoin/blob/master/doc/release-notes/release-notes-0.11.1.md</a></p>
+<p><strong>Скачивание</strong></p>
+<p><a title="Downloads" href="https://www.dashpay.io/ru/?page_id=2601">11.1.19 Core - Обновление для всех пользователей</a></p>
+<p><strong><b>Спасибо всем, кто участвовал в подготовке данного релиза, в том числе</b>:</strong></p>
+<p>- Vertoe<br />
+- Udjin<br />
+- Holger Schinzel<br />
+- Raze<br />
+- Mario Müller<br />
+- Crowning<br />
+- Alexandre Devilliers<br />
+- Stuart Buck<br />
+- Tiago Serôdio<br />
+- Slawek<br />
+- Moli<br />
+- Lukas Jackson<br />
+- Snogcel<br />
+- Jimbit<br />
+- Coingun<br />
+- Sub-Ether</p>
+<p><strong><a href="https://dashtalk.org/threads/v0-11-1-instantx-release.3923/">Обсуждение релиза на форуме Dashtalk</a></strong></p>

@@ -1,0 +1,41 @@
+// brand colors
+$black:		#2f2f2f;
+$white:		#ffffff;
+$blue:		#1c75bc;
+
+// site colors
+$red:		#ec2227;
+$green:		#1dd68a;
+$gray:		#f0f0f0;
+$dark-blue:	#0b3b5a;
+$gray-light: #f7f9fa;
+
+// for the style guide:
+
+@function contrast-color($color, $dark, $light, $threshold: 50) {
+	@if (lightness(scale-color($color, $green: 30%, $blue: -6%, $red: 4%)) > $threshold) { // perceptual luminance http://www.workwithcolor.com/color-luminance-2233.htm
+		@return $dark; // Lighter background, return dark color
+	} @else {
+		@return $light; // Darker background, return light color
+	}
+}
+
+$color:
+	('black', $black),
+	('white', $white),
+
+	('blue', $blue),
+	('red', $red),
+	('green', $green),
+
+	('gray', $gray),
+	('dark-blue', $dark-blue),
+	('gray-light', $gray-light);
+
+@each $name, $bgcolor in $color {
+	.color__tile--#{$name}-bg {
+		background-color: $bgcolor;
+		color: contrast-color($bgcolor, #000, #fff);
+		box-shadow: 0 0 10px -4px contrast-color($bgcolor, black, transparent, 80) inset;
+	}
+}

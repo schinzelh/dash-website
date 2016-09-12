@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% tf blog/header.html %}
+
+<div id="title">
+	<h1 class="content">{% if page.title %}{{ page.title }}{% endif %}</h1>
+</div>
+
+<div class="content">
+
+	<div class="main-col post">
+		{% if page.image %}
+			<img src="{{ page.image }}" class="hero-image">
+		{% endif %}
+		<em>{{ page.date | date: "%b %d, %Y" }}</em>
+		{{ content }}
+
+		{% include author.html %}
+	</div>
+
+	<div class="sidebar">
+		{% for post in site.related_posts limit:5 %} 
+		<!-- limit:4  --> 
+			<div class="feature">
+				
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				
+				<p><em>{{ post.date | date: "%b %d, %Y" }}</em><br />{{ post.excerpt | strip_html | truncatewords: 10 }}</p>
+				
+			</div>
+
+		{% endfor %}
+	</div>
+</div>

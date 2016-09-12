@@ -1,0 +1,64 @@
+---
+layout: post
+title: Lanzamiento de Dash 11.2
+date: 2015-03-30 04:04:49.000000000 -04:00
+type: post
+published: true
+status: publish
+categories:
+- Actualidad desarrollo de software
+- General @es
+tags: []
+meta:
+  _top_nav_excluded: ''
+  _cms_nav_minihome: ''
+  _edit_last: '2'
+  _et_pb_page_layout: et_right_sidebar
+  _et_pb_side_nav: 'off'
+  _et_post_bg_color: "#ffffff"
+  _et_post_bg_layout: light
+  _webdados_fb_open_graph_specific_image: ''
+author:
+  login: fernando
+  email: gutierrezf@gmail.com
+  display_name: Fernando Gutierrez
+  first_name: Fernando
+  last_name: Gutierrez
+---
+<p>Este es el primer lanzamiento de Dash y es inmenso! El equipo ha trabajdo duro durante más de dos meses mejorando varias cosas en el cliente Core. El monedero ahora es mucho más rápido, necesita menos ancho de banda, exigirá cierto nivel de servicio de los masternodes, hará las transacciones Darksend más rápido y tiene un aspecto más bonito.</p>
+<p>Todos los usuarios tienen que actualizar!</p>
+<p>Esta versión incluye cambio de protocolo, así que todos los usuarios tienen que actualizar. El enforcement estará apagado brevemente mientras la red actualiza y luego lo encenderemos en cuanto la red esté actualizada al 80% en un día o dos. Los masternodes con versiones antiguas dejarán de recibir pagos de forma inmediata por la incompatibilidad del protocolo.</p>
+<p>Gracias a Crowning y Snogcel por el nuevo aspecto del monedero que puede verse a continuación:</p>
+<p><a href="https://www.dashpay.io/wp-content/uploads/2015/04/wallet_new_testnet.png"><img class="aligncenter size-full wp-image-2323" src="{{ site.baseurl }}/assets/wallet_new_testnet.png" alt="wallet_new_testnet" width="962" height="708" /></a></p>
+<p>También gracias a UdjinM6 por escribir un sistema de gestión de masternodes realmente bueno. Puede probarse aquí:<a class="externalLink" href="https://github.com/darkcoin/darkcoin/blob/v0.11.2.x/src/masternodeman.cpp" target="_blank">https://github.com/darkcoin/darkcoin/blob/v0.11.2.x/src/masternodeman.cpp</a></p>
+<p>Con este módulo es mucho más rápido reiniciar un nodo porque no necesita pedir la lista completa de masternodes cada vez. También controla las variables de Darksend, lo uq ehará mucho más complicado engañar a la red.</p>
+<p>La configuración se han movido!</p>
+<p>La configuración se ha movido de .darkcoin a .dash! Necesitarás hacer lo siguiente al actualizar el cliente. Primero, cierra Darkcoin y haz copia de seguridad de tu directorio de datos.</p>
+<p>Windows: %APPDATA%Darkcoin<br />
+Mac OS: ~/Library/Application Support/Darkcoin/<br />
+Unix/Linux: ~/.darkcoin/</p>
+<p>Después cámbiale el nombre a Dash para Windows/Mac, o .dash para Linux. A continuación ve al directorio, localiza el archivo darkcoin.conf y cambia su nombre a dash.conf.</p>
+<p>Finalmente, actualiza a la última versión del cliente de Dash y reinicia.</p>
+<p>Otras cosas nuevas en este lanzamiento:</p>
+<ul>
+<li>Prueba de Servicio (Proof-of-service, PoSe), todos los masternodes tienen que tener el puerto abierto correctamente o serán eleminados. También hay un mecanismo para asegurarnos de que los masternodes responden correctamente a las solicitudes de servicio de InstantX. Con esto nos aseguramos que todos los masternodes están en el fork correcto y que las funcionalidades de la red están bien. Esto se ha implementado haciendo que unos masternodes comprueben a los otros, así que es 100% descentralizado.</li>
+<li>Nuevo comando “masternode list pose”, muestra las puntuaciones PoSe de todos los masternodes. Es útil para saber si tu masternodes está siendo penalizado por dar un mal servicio a la red.</li>
+<li>Nuevo cache DarkSend, que mejora la experiencia muchísimo</li>
+<li>El ofuscamiento de masternodes (Masternode Blinding) no se ha incluido en este lanzamiento. Está en el código pero está desactivado. Necesita algo más de trabajo, así que lo hemos movido a una versión posterior.</li>
+<li>Gracias a la Prueba de Servicio (PoSe), InstantX funcionará bien prácticamente siempre.</li>
+<li>Nuevo sisteam de voto de masternodes. Cada masternode tiene un voto. Los nuevos comandos son “masternode list votes” y “masternode vote yea|nay”. Primer voto, de qué color es este vestido?: <a class="externalLink" href="http://imgur.com/QjqfntR" target="_blank">http://imgur.com/QjqfntR</a> ? Azul y negro (yea) o blanco y dorado (nay)</li>
+<li>Notas del lanzamiento (en inglés): <a class="externalLink" href="https://github.com/darkcoin/darkcoin/blob/master/doc/release-notes/release-notes-0.11.2.md" target="_blank">https://github.com/darkcoin/darkcoin/blob/master/doc/release-notes/release-notes-0.11.2.md</a></li>
+</ul>
+<p>v0.11.2.22 - Descargas</p>
+<p><a class="externalLink" href="https://www.dashpay.io/downloads/" target="_blank">https://www.dashpay.io/downloads/</a></p>
+<p>Gracias por ayudar en este lanzamiento:</p>
+<p>-UdjinM6<br />
+-Crowning<br />
+-Snogcel<br />
+-Propulsion, por mantener los foros en los que hemos probado todo<br />
+-Flare por volver a configurar Transifex<br />
+-Todos los que han ayudado a traducir esta nueva versión.</p>
+<p>Nuestros magníficios testers en este lanzamiento:</p>
+<p>AjM,Moli, Tante, Lariondos, xxxsexygirls, Sub-Ether, Moocowmoo, AlexMomo<br />
+Bridgewater, elbereth, HowlingMad, JPCrypto, the-baker, Lukas_Jackson<br />
+coingun, darkred, MangledBlue, yikadee</p>

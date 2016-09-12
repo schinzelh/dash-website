@@ -1,0 +1,35 @@
+---
+layout: post
+title: 11.2 Dash Release
+date: 
+type: post
+published: false
+status: draft
+categories:
+- 综述
+tags: []
+meta:
+  _edit_last: '2'
+  _et_pb_page_layout: et_right_sidebar
+  _et_pb_side_nav: 'off'
+  _et_post_bg_color: "#ffffff"
+  _et_post_bg_layout: light
+  _webdados_fb_open_graph_specific_image: ''
+author:
+  login: alexy
+  email: silvershark.ys@gmail.com
+  display_name: Alexy
+  first_name: Alexy
+  last_name: ''
+---
+<p>This is the first Dash release and it’s huge! The team has been hard at work for over 2 months on improving various parts of the core client. The client should overall be much faster to use, require less bandwidth, will require a level-of-service from masternodes, perform Darksend transactions faster and has a new beautiful look and feel. All users must update! This includes protocol changes, so all users must update. Enforcement will be turned off briefly while the network updates, then turned on when we hit 80% in a day or two. Older version masternodes will cease to be paid immediately due to the incompatibility of the protocol! Special thanks to Crowning and Snogcel for the new look and feel, check it out below: <a href="https://www.dashpay.io/wp-content/uploads/2015/04/wallet_new_testnet.png"><img class="aligncenter size-full wp-image-2323" src="{{ site.baseurl }}/assets/wallet_new_testnet.png" alt="wallet_new_testnet" width="962" height="708" /></a> Another special thanks to UdjinM6 for writing a really nice masternode management system. You can check it out here:<a class="externalLink" href="https://github.com/darkcoin/darkcoin/blob/v0.11.2.x/src/masternodeman.cpp" target="_blank">https://github.com/darkcoin/darkcoin/blob/v0.11.2.x/src/masternodeman.cpp</a> This module makes it much faster to restart a node, because it won’t have to request the masternode list every time. It also keeps a record of the DS variables, which will make the network much more harder to trick. Configurations Have Been Moved! Configurations have been moved from .darkcoin to .dash! You’ll need to do the following when updating your client. First close Darkcoin and backup your data directory. Windows: %APPDATA%\Darkcoin\ Mac OS: ~/Library/Application Support/Darkcoin/ Unix/Linux: ~/.darkcoin/ After that rename it to Dash for Windows/Mac, or .dash for linux. Next go open the directory and locate the darkcoin.conf file, rename this to dash.conf. Next, simply update to the newest Dash client and restart. Other new things in this release:</p>
+<ul>
+<li>Proof-of-service (PoSe), all masternodes MUST have their port opened correctly, otherwise they will be removed. This also checks to make sure masternodes are responding to work requests such as InstantX. This basically will ensure that all nodes are on the same fork and their network functionality is working properly. This was implemented so that the part of the masternode network checks another part of the network, so it's 100% decentralized.</li>
+<li>New command “masternode list pose”, shows all of the masternodes PoSe scores, good for debugging if your masternode is getting punished for not providing proper service.</li>
+<li>New DarkSend caching, which improves the experience of using DarkSend vastly</li>
+<li>Masternode Blinding is NOT part of this release, while it’s in the code, it’s currently disabled. It’ll take a bit more work to complete and we were running out of time before the March 25th deadline, so it’s being moved to the next release.</li>
+<li>Thanks to PoSe, InstantX should work nearly all of the time now.</li>
+<li>New masternode voting system for new Dash initiates, each masternode gets one vote. See the new commands “masternode list votes” and “masternode vote yea|nay”. First vote, what color is this dress : <a class="externalLink" href="http://imgur.com/QjqfntR" target="_blank">http://imgur.com/QjqfntR</a> ? Blue and Black (yea) or White and Gold (nay)</li>
+<li>Full release notes: <a class="externalLink" href="https://github.com/darkcoin/darkcoin/blob/master/doc/release-notes/release-notes-0.11.2.md" target="_blank">https://github.com/darkcoin/darkcoin/blob/master/doc/release-notes/release-notes-0.11.2.md</a></li>
+</ul>
+<p>v0.11.2.22 - Downloads <a class="externalLink" href="https://www.dashpay.io/downloads/" target="_blank">https://www.dashpay.io/downloads/</a> Thanks for helping with this release: -UdjinM6 -Crowning -Snogcel -Propulsion, for maintaining our great forums we tested on -Flare for setting up Transifex again -All of those who helped translate the new version Our awesome testers this release: AjM,Moli, Tante, Lariondos, xxxsexygirls, Sub-Ether, Moocowmoo, AlexMomo Bridgewater, elbereth, HowlingMad, JPCrypto, the-baker, Lukas_Jackson coingun, darkred, MangledBlue, yikadee</p>

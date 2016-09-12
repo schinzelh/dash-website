@@ -1,0 +1,108 @@
+---
+layout: post
+title: Новости разработки - 2 июня 2015 г.
+date: 2015-06-02 12:00:44.000000000 -04:00
+type: post
+published: true
+status: publish
+categories:
+- Новости разработки
+- Общие новости
+tags: []
+meta:
+  _et_pb_page_layout: et_right_sidebar
+  _et_pb_side_nav: 'off'
+  _top_nav_excluded: ''
+  _cms_nav_minihome: ''
+  _et_post_bg_color: "#ffffff"
+  _et_post_bg_layout: light
+  _edit_last: '9'
+  _webdados_fb_open_graph_specific_image: ''
+author:
+  login: fernando
+  email: gutierrezf@gmail.com
+  display_name: Fernando Gutierrez
+  first_name: Fernando
+  last_name: Gutierrez
+---
+<p>&nbsp;</p>
+<p>Здравствуйте!</p>
+<p>Мы завершаем процесс активной разработки версии 12 Dash core, которая судя по всему станет самым крупным релизом за всю историю Dash. Наиболее заметные улучшения:</p>
+<ul>
+<li>Избавление от референсной Ноды</li>
+<li>Новый алгоритм голосования по выплатам Матернодам - каждый новый блок будут выбираться уполномоченные мастерноды, которые и будут определять, каким мастернодам пойдет очередная выплата</li>
+<li>Новый протокол бюджетирования (выделение средств на развитие проекта), с новым списком команд для взаимодействия с системой бюджетирования. Запланированы Хард-Форк и Спорки, которые активируют и уменьшат новые генерируемые блоки на 10%, после этого станет доступна генерация суперблоков с максимальным размером 10% от месячной генерации монет (т.е. размер общей эмиссии остаётся неизменным).</li>
+<li>Обновления кода с учётом изменений Bitcoin V10 - с приоритетной синхронизацией заголовков блоков</li>
+<li>Новая улучшенная архитектура протокола сети Мастернод</li>
+<li>Новые сервисные кнопки для восстановления Кошелька</li>
+<li>Новый Веб-сайт для формирования и учета предложений/проектов развития</li>
+<li>Улучшения технологии Darksend</li>
+</ul>
+<p>Активная разработка завершается и наступает стадия закрытого тестирования нового функционала ключевыми разработчиками. Это займёт не более 2-х недель. Далее начнётся стадия публичного тестирования и доработки, которая продлится ориентировочно 2-4 недели и завершится новым релизом.</p>
+<p>Мы открыты для комментариев касательно кода нового релиза и любых возможных замечаний.</p>
+<p>Вы являетесь квалифицированным разработчиком?</p>
+<p>Приглашаем вас изучить исходный код и прислать ваше мнение по адресу evan@dashpay.io или зайти на "slack chat" и присоединиться к каналу #development.</p>
+<p>Полный исходный код версии v12:<br />
+<a href="https://github.com/dashpay/dash/tree/v0.12.0.x">https://github.com/dashpay/dash/tree/v0.12.0.x</a></p>
+<p>Код системы бюджетирования:<br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-budget.cpp">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-budget.cpp</a><br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-budget.h">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-budget.h</a></p>
+<p>Новый код платежей:<br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp</a><br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.h">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.h</a></p>
+<p>&nbsp;</p>
+<p><strong>Описание системы бюджетирования и процесса выплат:</strong></p>
+<p>В новой модели каждый блок выбираются 10 мастернод, которые говорят сети кто должен получить часть награды за блок. Первый раз победитель определяется по хэшу инициирующей транзакции, а в последствии выбирается мастернода с самым долгим временем ожидания с момента последнего платежа.</p>
+<p>Алгоритм выбора:<br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternodeman.cpp#L368">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternodeman.cpp#L368</a></p>
+<p>Выбор Мастерноды и рассылка сообщения в сеть:<br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L460">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L460</a></p>
+<p>Проверка блока:<br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L280">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L280</a></p>
+<p>Разногласия в консенсусе обрабатываются в коде проверки блока. Через некоторое время в сети должен сформироваться полный консенсус по вопросу определения получателей части награды за каждый блок. Если же есть разногласия, то допустимы и несколько получателей награды за блок. Когда каждая мастернода получит награду, только один получатель в каждом блоке будет считаться корректным. Таким образом получается довольно устойчивая система, которая основана не на блокчейне, а на алгоритме кворума, т.е. нам не приходится хранить всю историю, но при этом она так же безопасна.</p>
+<p>&nbsp;</p>
+<p><strong>Реализация системы бюджетирования</strong></p>
+<p>В версии 12 у нас теперь появится полная реализация системы бюджетирования проектов.</p>
+<p>Для отправки бюджетного предложения реализована следующая команда:</p>
+<p style="padding-left: 30px"><span style="color: #000080"><code>'mnbudget vote PROPOSAL-NAME URL PAYMENT_COUNT BLOCK_START DASH_ADDRESS DASH_AMOUNT YES|NO|ABSTAIN’<br />
+dash-cli mnbudget vote proposal-one http://www.dashpay.io/one.json 100 58381 y7B3r6SBi1E1RN39DS5WFJpdeS9EifDjMB 1000 yes<br />
+</code></span></p>
+<p style="padding-left: 30px"><span style="color: #000080"><code>dash-cli mnbudget show<br />
+{<br />
+"proposal-one" : {<br />
+"URL" : "http://www.dashpay.io/one.json",<br />
+"Hash" : "22a7fab3765b0aca926f71117114b5019ab616dda3d6bae520a27d76912228dd",<br />
+"BlockStart" : 58381,<br />
+"BlockEnd" : 63375,<br />
+"TotalPaymentCount" : 100,<br />
+"RemainingPaymentCount" : 100,<br />
+"PaymentAddress" : "y7B3r6SBi1E1RN39DS5WFJpdeS9EifDjMB",<br />
+"Ratio" : 1.00000000,<br />
+"Yeas" : 1,<br />
+"Nays" : 0,<br />
+"Abstains" : 0,<br />
+"Alloted" : 348214275,<br />
+"TotalBudgetAlloted" : 348214275<br />
+}<br />
+}<br />
+</code></span></p>
+<p>Бюджетное предложение может быть отправлено с любой мастерноды напрямую через API. Разрабатываемый сайт управления такими предложениями будет иметь доступ к одной из мастернод, поможет составить черновик предложения и отправить в сеть. Система спроектирована как 100% децентрализованная и строится на идее хранения предложений и бюджетов в самой сети, так что такой сайт сможет поднять любой желающий совершенно независимо и получить абсолютно ту же функциональность.</p>
+<p>После отправки бюджетного предложения другие мастерноды могут вычислить его хэш и голосовать за него. При изменении  любого из параметров предложения хэш также изменится и поэтому невозможно подменить одно предложение другим, придется делать абсолютно новое предложение и просить владельцев мастернод голосовать за него вместо предыдущего.<br />
+&nbsp;</p>
+<p><strong>Итоговый бюджет</strong></p>
+<p>Раз в месяц формируется итоговый бюджет и предлагается сети. Итоговый бюджет - это попросту список бюджетных предложений, отсортированных по количеству голосов "За" и добавляемых в этот список до тех пор, пока он не превысит 10% награды в месячном исчислении.</p>
+<p>Далее мастерноды автоматически голосуют за итоговый бюджет, а их голосование служит основанием для сети для создания супер-блоков в конце месяца.</p>
+<p><a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L22">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L22</a><br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L50">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L50</a></p>
+<p style="padding-left: 30px"><code><span style="color: #000080"> dash-cli mnfinalbudget show</span><br />
+<span style="color: #000080"> {</span><br />
+<span style="color: #000080"> "main" : {</span><br />
+<span style="color: #000080"> "SubmittedBy" : "0000000000000000000000000000000000000000000000000000000000000000-4294967295",</span><br />
+<span style="color: #000080"> "Hash" : "34000e61801cb0df633839a3090c9241461b33e4d031c42632d64a3a109dc132",</span><br />
+<span style="color: #000080"> "BlockStart" : 58400,</span><br />
+<span style="color: #000080"> "BlockEnd" : 58400,</span><br />
+<span style="color: #000080"> "Proposals" : ",22a7fab3765b0aca926f71117114b5019ab616dda3d6bae520a27d76912228dd",</span><br />
+<span style="color: #000080"> "VoteCount" : 1</span><br />
+<span style="color: #000080"> }</span><br />
+<span style="color: #000080"> }</span><br />
+</code></p>

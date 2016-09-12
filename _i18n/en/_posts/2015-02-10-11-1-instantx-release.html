@@ -1,0 +1,84 @@
+---
+layout: post
+title: 11.1 - InstantX release!
+date: 2015-02-10 15:25:56.000000000 -05:00
+type: post
+published: true
+status: publish
+categories:
+- Development Updates
+tags: []
+meta:
+  _edit_last: '2'
+  truethemes_video_url: ''
+  truethemes_external_image_url: ''
+  truethemes_slider_shortcode: ''
+  truethemes_slider_cu3er: ''
+author:
+  login: evan
+  email: eduffield82@gmail.com
+  display_name: Evan Duffield
+  first_name: Evan
+  last_name: Duffield
+---
+<p><a href="https://www.dashpay.io/wp-content/uploads/2015/02/instantx_logo.png"><img src="{{ site.baseurl }}/assets/instantx_logo.png" alt="instantx_logo" width="960" height="540" class="aligncenter size-full wp-image-1798" /></a></p>
+<p>We are excited to announce the release of Dash Core v0.11.1! We have decided to push out InstantX in a separate release because it’s working perfectly on testnet and our other changes to the masternode network will take some time to complete.</p>
+<p>This release includes a full implementation of InstantX, a new version of enforcement that works with the updated Bitcoin architecture, huge improvements to Darksend, many more languages supported, lower bandwidth usage and a fully implemented sporking framework.</p>
+<p>For more information about how InstantX works, checkout our whitepaper: <a class="externalLink" style="color: #176093;" href="https://www.dashpay.io/wp-content/uploads/2014/09/InstantTX.pdf" target="_blank" rel="noreferrer">https://www.dashpay.io/wp-content/uploads/2014/09/InstantTX.pdf</a></p>
+<p><strong>Hard Fork</strong></p>
+<p>This release implements two hard forks, so all users must update ASAP. The network will fork in 1 week or when 80% of miners have updated.</p>
+<p><strong>InstantX</strong></p>
+<p>v0.11.1 utilizes a fully implemented version of InstantX. To try InstantX, use the QT wallet and simply click the “InstantX” checkbox when sending money. Funds send using InstantX will gain 5 masternode-level confirmations within seconds from the network, then within an average of 1.25 minutes a 6th block-level confirmation will make funds spendable on most websites.</p>
+<p>InstantX is automatically enabled and this means when using the daemon, the API will show transactions as confirmed as soon as the masternode network successfully locks them in place.</p>
+<p>To disable InstantX, simply start the daemon/client with --instantxdepth=0. This will be the equivalent of running in a pure proof-of-work mode.</p>
+<p>InstantX does not support sending via the API at this point. This will be included in a future version.</p>
+<p><strong>InstantX Tutorial</strong></p>
+<p>To use InstantX, simply check the “InstantX” box, then send money normally.</p>
+<p><a href="https://www.dashpay.io/wp-content/uploads/2015/02/Dash-Core-Wallet-testnet_009.png"><img src="{{ site.baseurl }}/assets/Dash-Core-Wallet-testnet_009.png" alt="Dash Core - Wallet [testnet]_009" width="962" height="675" class="aligncenter size-full wp-image-1817" /></a></p>
+<p>On the transaction screen, it should update within a few seconds from the question mark icon to the clock</p>
+<p><a href="https://www.dashpay.io/wp-content/uploads/2015/02/Dash-Core-Wallet-testnet_010.png"><img src="{{ site.baseurl }}/assets/Dash-Core-Wallet-testnet_010.png" alt="Dash Core - Wallet [testnet]_010" width="962" height="675" class="aligncenter size-full wp-image-1818" /></a></p>
+<p>To see more information about the state of InstantX, double click the transaction.</p>
+<p><b><i>Possible messages include:</i></b><br />
+“Verified via InstantX”: This means network locks are in place and the money is safe<br />
+“InstantX verification in progress - X of 25 signatures” : This means the network is currently processing your transaction and your client is waiting on more signatures from masternodes<br />
+“InstantX verification failed” : The network failed to validate the transaction. In this case, normal proof-of-work will occur.</p>
+<p><a href="https://www.dashpay.io/wp-content/uploads/2015/02/Transaction-details_011.png"><img src="{{ site.baseurl }}/assets/Transaction-details_011.png" alt="Transaction details_011" width="622" height="285" class="aligncenter size-full wp-image-1819" /></a><br />
+<a href="https://www.dashpay.io/wp-content/uploads/2015/02/Dash-Core-Wallet-testnet_012.png"><img src="{{ site.baseurl }}/assets/Dash-Core-Wallet-testnet_012.png" alt="Dash Core - Wallet [testnet]_012" width="962" height="675" class="aligncenter size-full wp-image-1820" /></a></p>
+<p><strong>Requirements / Feature Breakdown:</strong></p>
+<ul>
+<li>Inputs used must have 5 block-level confirmations in order to send via IX</li>
+<li>To lock a transaction via IX, 15 of 25 elected masternodes must respond by voting</li>
+<li>Transaction locks are lost when restarting the client and only last for an hour</li>
+<li>Transactions must pay a fee of 0.01 DASH to use IX</li>
+<li>Once a transaction lock is in place, conflicting transactions will be rejected if in blocks or relayed as a normal transaction.</li>
+<li>InstantX is designed to work nearly all of the time. I expect it will work on about 98%+ of transactions in it’s present form. If it fails, the transaction will simply fall back to normal proof of work.</li>
+</ul>
+<p><strong>DarkSend</strong></p>
+<p>Various improvements have been made to Darksend, such as the fully implemented “DSTX” message. This means that when anonymizing funds, Darksend transactions are first class citizens in miner’s blocks and will be included immediately. Other stability issues were also fixed.</p>
+<p><strong>Enforcement</strong></p>
+<p>v11.0’s implementation of enforcement was not compatible with the newer Bitcoin architure. Recently we moved from the Litecoin code base, to the new Bitcoin codebase. This exposed some edge cases within the Bitcoin code that caused enforcement to stop working consistently.</p>
+<p>This has been fixed in v11.1, but will require all users update so we remain on the same fork. Enforcement will be activated as soon as 80% of the network has updated (usually a couple days).</p>
+<p><strong>Language Support</strong></p>
+<p>Thanks to Vertoe and the community for spear heading this project, the client now fully supports over 20 languages such as Portuguese, German, Russian, Polish, Spanish, Vietnamese, French, Italian, Catalan, Chinese, Danish, Finnish, Swedish, Czech, Turkish and Bavarian (and many more).</p>
+<p><strong>Full release notes: </strong></p>
+<p><a class="externalLink" style="color: #176093;" href="https://github.com/darkcoin/darkcoin/blob/master/doc/release-notes/release-notes-0.11.1.md" target="_blank" rel="noreferrer">https://github.com/darkcoin/darkcoin/blob/master/doc/release-notes/release-notes-0.11.1.md</a></p>
+<p><strong>Downloads</strong></p>
+<p><a href="https://www.dashpay.io/downloads/" title="Downloads">11.1.19 Core - All Users</a></p>
+<p><strong>Thanks to who contributed to this release, at least:</strong></p>
+<p>- Vertoe<br />
+- Udjin<br />
+- Holger Schinzel<br />
+- Raze<br />
+- Mario Müller<br />
+- Crowning<br />
+- Alexandre Devilliers<br />
+- Stuart Buck<br />
+- Tiago Serôdio<br />
+- Slawek<br />
+- Moli<br />
+- Lukas Jackson<br />
+- Snogcel<br />
+- Jimbit<br />
+- Coingun<br />
+- Sub-Ether</p>
+<p><strong><a href="https://dashtalk.org/threads/v0-11-1-instantx-release.3923/">Discussion of the announcement at Dashtalk</a></strong></p>

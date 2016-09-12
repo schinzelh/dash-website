@@ -1,0 +1,29 @@
+/*
+
+Everything in this file is technical debt. Put stuff in here if
+you're in a hurry or lost or you just need to Make It Work©
+
+*/
+
+img.staff {
+	max-width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+a.blog_link {
+	text-align:right;
+}
+
+.img-circle {
+		margin: 1px;
+		border:1px solid #dddddd;
+		border-radius: 50%;
+}
+
+.background-title {
+	background-color: $gray;
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 0;
+}

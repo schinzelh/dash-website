@@ -1,0 +1,43 @@
+---
+layout: post
+title: Onyx V2 - Security Update is out!
+date: 2014-11-13 14:16:04.000000000 -05:00
+type: post
+published: true
+status: publish
+categories:
+- General
+tags: []
+meta:
+  _edit_last: '7'
+  slide_template: default
+  truethemes_video_url: ''
+  truethemes_external_image_url: ''
+  truethemes_slider_shortcode: ''
+  truethemes_slider_cu3er: ''
+author:
+  login: evan
+  email: eduffield82@gmail.com
+  display_name: Evan Duffield
+  first_name: Evan
+  last_name: Duffield
+---
+<p>Due to some issues that were brought up by a researcher, we've revised the Darksend protocol extensively to enhance the anonymity provided. It's very important that all clients on the Dash network update. </p>
+<p><strong>Users Required To Update:</strong></p>
+<p>Pools<br />
+Exchanges<br />
+Darksend Users<br />
+Normal Clients<br />
+Masternodes</p>
+<p><strong>Changes made in this release:<br />
+</strong><br />
+- Masternodes can now make a limited number of zero-fee transaction for Darksend. These are special transactions that require a signature that only the masternodes can create.<br />
+- Darksend now has no fees to track what-so-ever, all that will ever be in Darksend transactions are Darksend denominations.<br />
+- Added queue gaming protection<br />
+- Clients remember which masternodes they've connected to in the past and won't use them against.<br />
+- Dsee/Dseep messages have been fixed so they only take newer signatures than the one they have<br />
+- 2 different kinds of client crashes have been fixed<br />
+- Split up main.cpp into core.cpp<br />
+- Split up darksend.cpp into masternode.cpp, activemasternode.cpp and instantx.cpp<br />
+- Added modular ProcessMessages for Darksend, Masternodes and InstantX<br />
+- Client can now join sessions with any other users</p>

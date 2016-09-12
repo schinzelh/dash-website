@@ -1,0 +1,44 @@
+.post {
+	img{
+		max-width: 100%;
+	}
+
+	img.scale{
+		max-width:50%;
+		clear: both;
+		display: block;
+	}
+
+	.feature{
+		.preview {
+			width: 200px;
+			height: auto;
+			float:left;
+			padding: 0 40px 20px 0;
+		}
+	}
+
+	.pagination{
+		width:100%;
+		text-align: right;
+	}
+
+	.author{
+		width:100%;
+		text-align: center;
+		padding-top: 20px;
+		.author-icon {
+			width: 50px;
+			height: auto;
+		}
+		.divider {
+			margin: 20px 0;
+		}
+	}
+
+	.social-icon{
+		width:22px;
+		padding-left: 10px;
+	}
+
+}

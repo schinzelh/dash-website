@@ -1,0 +1,103 @@
+---
+layout: post
+title: Development Update - June 2, 2015
+date: 2015-06-02 11:15:08.000000000 -04:00
+type: post
+published: true
+status: publish
+categories:
+- Development Updates
+tags: []
+meta:
+  _edit_last: '2'
+  _et_pb_page_layout: et_right_sidebar
+  _et_pb_side_nav: 'off'
+  _et_post_bg_color: "#ffffff"
+  _et_post_bg_layout: light
+  _webdados_fb_open_graph_specific_image: ''
+author:
+  login: fernando
+  email: gutierrezf@gmail.com
+  display_name: Fernando Gutierrez
+  first_name: Fernando
+  last_name: Gutierrez
+---
+<p>&nbsp;</p>
+<p>Hello Everyone!</p>
+<p>We’re just starting to wind down active development of version 12, which is gearing up to be the largest release we’ve ever done. At this point it includes:</p>
+<ul>
+<li>The removal of the reference node</li>
+<li>A new quorum based masternode payment consensus system. This means masternodes will be elected each block to “vote” on who gets paid.</li>
+<li>New budgeting protocol and a whole new list of commands for interacting with the budgeting system<br />
+There’s a hard fork and sporks that will activate and reduce the blockchain by 10%, after that superblocks will become available for a maximum value of 10% of the monthly reward.</li>
+<li>Updated to Bitcoin v10 with headers first blocks</li>
+<li>New improved masternode broadcast/ping architecture</li>
+<li>New wallet repair buttons</li>
+<li>New website for submitting proposals</li>
+<li>Improvements to DS</li>
+</ul>
+<p>At this point active development is going to slow down and we’re going to open private testing of the new functionality for the core team. This should last less than 2 weeks, then we’ll open public testing and development soon after. The public phase should be between 2 weeks and a month then we’ll do a full release.</p>
+<p>At this point we’re looking for public comment and evaluation of the new source code for any issues that might be present.</p>
+<p>Are you a skilled developer?</p>
+<p>Feel free to checkout all of the new code and give us feedback via evan@dashpay.io or jump on slack chat and join the #development channel.</p>
+<p>Full v12 source code:<br />
+<a href="https://github.com/dashpay/dash/tree/v0.12.0.x">https://github.com/dashpay/dash/tree/v0.12.0.x</a></p>
+<p>Budgeting Code:<br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-budget.cpp">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-budget.cpp</a><br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-budget.h">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-budget.h</a></p>
+<p>New Payment Code:<br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp</a><br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.h">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.h</a></p>
+<p><strong>Description of Budgeting and Payment process:</strong></p>
+<p>In the new model, each block a random selection of 10 masternodes are elected to tell the network who should get paid. This is computed using the masternode input hashes for the first payment, then after a last payment is known a valid masternode with the longest wait time is selected.</p>
+<p>Selection Algorithm:<br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternodeman.cpp#L368">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternodeman.cpp#L368</a></p>
+<p>Masternode Selection and Broadcast:<br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L460">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L460</a></p>
+<p>Block Validation:<br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L280">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L280</a></p>
+<p>Consensus disagreements are handled by the block validation code. After a period of time, the network should form complete consensus about who is suppose to get paid on which blocks. If there’s a disagreement, multiple payees per block can be valid. After the whole masternode network has been paid, only 1 payee should be valid each block. This gives us a pretty robust system that’s quorum based instead of blockchain based, so we don’t have to keep a complete history, but yet it’s just as secure.</p>
+<p><strong>Budget System Implementation</strong></p>
+<p>We now have a complete implementation of the budget system now in v12. Described Here and Here:</p>
+<p>To submit a budget all one has to do is execute the following command:</p>
+<p style="padding-left: 30px;"><span style="color: #000080;"><code>'mnbudget vote PROPOSAL-NAME URL PAYMENT_COUNT BLOCK_START DASH_ADDRESS DASH_AMOUNT YES|NO|ABSTAIN’<br />
+dash-cli mnbudget vote proposal-one http://www.dashpay.io/one.json 100 58381 y7B3r6SBi1E1RN39DS5WFJpdeS9EifDjMB 1000 yes<br />
+</code></span></p>
+<p style="padding-left: 30px;"><span style="color: #000080;"><code>dash-cli mnbudget show<br />
+{<br />
+"proposal-one" : {<br />
+"URL" : "http://www.dashpay.io/one.json",<br />
+"Hash" : "22a7fab3765b0aca926f71117114b5019ab616dda3d6bae520a27d76912228dd",<br />
+"BlockStart" : 58381,<br />
+"BlockEnd" : 63375,<br />
+"TotalPaymentCount" : 100,<br />
+"RemainingPaymentCount" : 100,<br />
+"PaymentAddress" : "y7B3r6SBi1E1RN39DS5WFJpdeS9EifDjMB",<br />
+"Ratio" : 1.00000000,<br />
+"Yeas" : 1,<br />
+"Nays" : 0,<br />
+"Abstains" : 0,<br />
+"Alloted" : 348214275,<br />
+"TotalBudgetAlloted" : 348214275<br />
+}<br />
+}<br />
+</code></span></p>
+<p>Any masternode can submit a budget directly through the API. The proposal managing website will simply have access to a masternode ,so it will have the capability of drafting then submitting new budgets to the network. This system is designed to be 100% decentralized and is built around the idea of storing all important budget information on the network itself, so that the proposal websites can run independently of the network, but still interact with it.</p>
+<p>After a budget has been submitting to the network, other masternodes can calculate the hash of the budget in order to vote on it. By changing any piece of data associated with the proposal, the hash will be changed. Because of this once a proposal is in the system and being voted on, it can’t be changed without making a completely new proposal and requesting the masternodes vote on that one instead.</p>
+<p><strong>Finalized Budget</strong></p>
+<p>Once each month, a finalized budget will be suggested by the network. This is simply calculated by taking the list of budgets, sorted by “Yes Count”, then adding them to the final budget until 10% of the monthly reward is reached.</p>
+<p>Masternodes will automatically vote on the finalized budget, which is then read by the network to authorize a super blocks at the end of the month.</p>
+<p><a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L22">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L22</a><br />
+<a href="https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L50">https://github.com/dashpay/dash/blob/v0.12.0.x/src/masternode-payments.cpp#L50</a></p>
+<p style="padding-left: 30px;"><code><span style="color: #000080;"> dash-cli mnfinalbudget show</span><br />
+<span style="color: #000080;"> {</span><br />
+<span style="color: #000080;"> "main" : {</span><br />
+<span style="color: #000080;"> "SubmittedBy" : "0000000000000000000000000000000000000000000000000000000000000000-4294967295",</span><br />
+<span style="color: #000080;"> "Hash" : "34000e61801cb0df633839a3090c9241461b33e4d031c42632d64a3a109dc132",</span><br />
+<span style="color: #000080;"> "BlockStart" : 58400,</span><br />
+<span style="color: #000080;"> "BlockEnd" : 58400,</span><br />
+<span style="color: #000080;"> "Proposals" : ",22a7fab3765b0aca926f71117114b5019ab616dda3d6bae520a27d76912228dd",</span><br />
+<span style="color: #000080;"> "VoteCount" : 1</span><br />
+<span style="color: #000080;"> }</span><br />
+<span style="color: #000080;"> }</span><br />
+</code></p>

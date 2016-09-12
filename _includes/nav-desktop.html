@@ -1,0 +1,55 @@
+{% include base.html %}
+
+<!--
+    To change the logo color, pass the parameter in the include.
+    include nav-desktop.html logo-color="blue"
+-->
+{% assign logo-color = 'white' %}
+{% if include.logo-color %}
+    {% assign logo-color = include.logo-color %}
+{% endif %}
+
+<header id="top" class="content">
+
+    <a href="{{ basenav }}" class="logo"><img class="logo__img" src="/assets/img/logo-{{ logo-color }}.png" alt="Dash"></a>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="{{ basenav }}/" class="nav__link">{% t nav.what-is-dash %}</a></li>
+            <li class="nav__item"><a href="{{ basenav }}/get-dash/" class="nav__link">{% t nav.get-dash %}</a></li>
+            <li class="nav__item"><a href="{{ basenav }}/participate/" class="nav__link">{% t nav.participate %}</a></li>
+            <li class="nav__item"><a href="{{ basenav }}/currency/" class="nav__link">{% t nav.currency %}</a></li>
+            <li class="nav__item"><a href="{{ basenav }}/community/" class="nav__link">{% t nav.community %}</a></li>
+            <li class="nav__item"><a href="{{ basenav }}/blog/" class="nav__link">{% t nav.blog %}</a></li>
+            <li class="nav__item"><a href="{{ basenav }}" class="nav__link">{% t nav.project %}</a></li>
+
+            <li class="nav__item nav__item--languages">
+                <a href="#" class="nav__link">{{ site.lang }}</a>
+                <ul class="nav__sublist">
+                    <!-- TODO: dynamically generate this list -->
+                    <li class="nav__subitem">
+                        <a href="{{ page.url }}" class="nav__link {% if site.lang == 'en' %}is-active{% endif %}">{% t global.english %}</a>
+                    </li>
+                    <li class="nav__subitem">
+                        <a href="/es{{ page.url  }}" class="nav__link {% if site.lang == 'es' %}is-active{% endif %}">{% t global.spanish %}</a>
+                    </li>
+                    <li class="nav__subitem">
+                        <a href="/pt{{ page.url  }}" class="nav__link {% if site.lang == 'pt' %}is-active{% endif %}">{% t global.portugese %}</a>
+                    </li>
+                    <li class="nav__subitem">
+                        <a href="/it{{ page.url  }}" class="nav__link {% if site.lang == 'it' %}is-active{% endif %}">{% t global.italian %}</a>
+                    </li>
+                    <li class="nav__subitem">
+                        <a href="/cn{{ page.url  }}" class="nav__link {% if site.lang == 'cn' %}is-active{% endif %}">{% t global.chinese %}</a>
+                    </li>
+                    <li class="nav__subitem">
+                        <a href="/ru{{ page.url  }}" class="nav__link {% if site.lang == 'ru' %}is-active{% endif %}">{% t global.russian %}</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__item"><a href="{{ basenav }}" class="nav__link" title="{% t nav.search %}">S</a></li>
+        </ul>
+    </nav>
+
+</header>

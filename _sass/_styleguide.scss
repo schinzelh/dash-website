@@ -1,0 +1,20 @@
+#styleguide {
+	.component {
+		&:after { // TODO clearfix mixin
+			content: '';
+			display: table;
+			clear: both;
+		}
+	}
+	.component + .component {
+		margin-top: 10px;
+	}
+
+	.color__tile {
+		display: inline-block;
+		padding: 20px;
+		text-align: center;
+		width: 10em;
+		border-radius: 10px;
+	}
+}

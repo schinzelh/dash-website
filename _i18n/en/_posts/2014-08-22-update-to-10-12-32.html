@@ -1,0 +1,45 @@
+---
+layout: post
+title: Please Update to v9.12.32 (Stable) or 10.12.32 (RC)
+date: 2014-08-22 00:45:43.000000000 -04:00
+type: post
+published: true
+status: publish
+categories:
+- Development Updates
+tags: []
+meta:
+  _edit_last: '2'
+  slide_template: ''
+  truethemes_video_url: ''
+  truethemes_external_image_url: ''
+  truethemes_slider_shortcode: ''
+  truethemes_slider_cu3er: ''
+author:
+  login: fernando
+  email: gutierrezf@gmail.com
+  display_name: Fernando Gutierrez
+  first_name: Fernando
+  last_name: Gutierrez
+---
+<p>Due to the upgrade to a larger keypool in RC4, some users have reported slow client / lockups and in rare cases data corruption.</p>
+<p>This only effects encrypted wallets and we have not seen this issue on freshly made wallets with the new keypool size at all.<br />
+If you're running RC4 with an encrypted wallet please migrate your funds to a new wallet running 10.12.32.<br />
+This doesn't effect the stable client at all (v0.9).</p>
+<p>BIP32 (deterministic wallets based on seed phrases) would be really nice in this case because as long as you have the phrase,<br />
+restoring every possible key is as simple as restoring the wallet from the seed phrase.</p>
+<p>This update is not mandatory for masternode operators</p>
+<p>- Added a darksend overview box showing some generic information<br />
+- Display n/a in coincontrol for negative numbers<br />
+- force users to update to wallet version 60001 when they have an encrypted wallet</p>
+<p>Source: Compile if you are running a pool, exchange, etc.</p>
+<p><a href="https://github.com/darkcoinproject/darkcoin">https://github.com/darkcoinproject/darkcoin</a></p>
+<h4>9.12.32 (Stable) Binaries: Does not include Darksend</h4>
+<p>Windows.exe: <a href="https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/darkcoin-0.9.12.32-win.zip">https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/darkcoin-0.9.12.32-win.zip</a><br />
+Windows installer: <a href="https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/darkcoin-0.9.12.32-win32-setup.exe">https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/darkcoin-0.9.12.32-win32-setup.exe</a><br />
+Mac OSX: <a href="https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/darkcoin-0.9.12.32-osx.dmg">https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/darkcoin-0.9.12.32-osx.dmg</a><br />
+Linux: <a href="https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/darkcoin-0.9.12.32-linux.tar.gz">https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/darkcoin-0.9.12.32-linux.tar.gz</a></p>
+<h4>10.12.32 (RC) Binaries: Includes Darksend - Masternode Operators</h4>
+<p>Windows .exe: <a href="https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/rc/darkcoin-0.10.12.32-win.zip">https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/rc/darkcoin-0.10.12.32-win.zip</a><br />
+Mac OSX: <a href="https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/rc/darkcoin-0.10.12.32-osx.dmg">https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/rc/darkcoin-0.10.12.32-osx.dmg</a><br />
+Linux: <a href="https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/rc/darkcoin-0.10.12.32-linux.tar.gz">https://raw.githubusercontent.com/darkcoinproject/darkcoin-binaries/master/rc/darkcoin-0.10.12.32-linux.tar.gz</a></p>

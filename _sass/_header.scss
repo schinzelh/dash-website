@@ -1,0 +1,33 @@
+#top {
+	border-bottom: 1px solid rgba($white, 0.35);
+	margin-bottom: 20px;
+}
+
+#hero {
+	height: 600px;
+	color: $white;
+	position: relative;
+
+	> .content {
+		> h1, > p {
+			text-shadow: 2px 2px 5px rgba(black, 0.2);
+		}
+		> h1 {
+			margin-top: 2.5em;
+			margin-bottom: 8px; /*optical*/
+			font-size: 56px;
+			line-height: 1.2;
+		}
+		> p {
+			font-family: $font-heading;
+			font-size: 35px;
+			line-height: 1.25;
+			margin-bottom: 0.5em;
+		}
+
+		.btn-blue-solid {
+			font-size: 20px;
+			padding: 5px 25px;
+		}
+	}
+}

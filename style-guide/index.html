@@ -1,0 +1,39 @@
+---
+layout: styleguide
+title: Style guide
+description: Collection of website components used on dash.org
+---
+
+Here are all the pieces that make up this website.
+
+{% assign colors = site.colors %}
+{% assign componentsByType = site.components | group_by:"type" %}
+
+<!--
+<nav id="component-selector" class="wrap">
+  <h2>Components</h2>
+  <ul>
+    {% for type in componentsByType %}
+    <li>
+      <a href="#guide-{{ type.name }}">{{ type.name | capitalize }}</a>
+      <ul>
+        {% for entry in type.items %}
+        <a href="#guide-{{ entry.title | slugify }}">{{ entry.title }}</a>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
+-->
+
+<h2 id="guide-colors" class="cf">Colors</h2>
+{% for entry in colors %}
+  {% include component-color.html %}
+{% endfor %}
+{% for type in componentsByType %}
+<h2 id="guide-{{ type.name }}" class="cf">{{ type.name | capitalize }}</h2>
+{% for entry in type.items %}
+  {% include component.html %}
+{% endfor %}
+{% endfor %}

@@ -1,0 +1,243 @@
+global:
+  english: English
+  spanish: Español
+  russian: Русский
+  chinese: 简体中文
+  twitter: Twitter
+  github: GitHub
+
+# For multiple paragraph content add two line breaks 
+pages:
+  home: 
+    title: Официальный Сайт | Цифровая Приватная Валюта 
+    description: Dash - это Цифровая Наличность
+    hero-heading: Dash - это Цифровая Наличность!
+    hero-text: Первая действительно децентрализованная платёжная сеть.<br />Откройте для себя Цифровую Наличность.
+    
+    video-heading: Dash - это Цифровая Валюта для использования в Интернете
+    video-text: Платите с помощью Dash мгновенно и приватно в Интернете и в реальном мире с помощью безопасного ПО с открытым исходным кодом, которое работает на базе платёжной платформы, поддерживаемой тысячами пользователей по всему миру.
+    video-btn: Смотрите Ознакомительное Видео
+    
+    feature-private-heading: Приватный
+    feature-private-text: Dash - приватный.
+    feature-instant-heading: Мгновенный
+    feature-instant-text: Dash - мгновенный.
+    feature-secure-heading: Безопасный
+    feature-secure-text: Dash - безопасный.
+    
+    merchants-heading: Расплачивайтесь напрямую с помощью Dash
+    merchants-text: Мгновенные анонимные платежи, напрямую из кошелька Dash
+    merchants-btn: Больше точек продаж
+    merchants-join-btn: Принимайте платежи в Dash
+    
+    architecture-heading: Инновационная Сетевая Архитектура
+    architecture-text:  
+      Основа уникальной технологии Dash - двухуровневая P2P сетевая архитектура, в которой пользователи поощряются за поддержание работы специальных сетевых узлов (Мастернод), с использованием выделенных серверов в режиме 24/7. Требования сети подразумевают криптографическое подтверждение наличия у оператора каждой Мастерноды суммы в 1000 DASH. Это защищает сеть Dash от атак Сибиллы, делая атаки такого типа практически нереализуемыми.
+      
+
+      Мастерноды работают сообща друг с другом в кворумах, и результаты их работы не могут быть подделаны, как это может случаться с полными сетевыми узлами других цифровых валют. В результате, это обеспечивает создание новых видов децентрализованных сервисов, таких как мгновенные транзакции, анонимизация средств и децентрализованное управление  - которые при этом защищены от сопутствующих угроз атак на сеть.
+    architecture-btn: Узнайте больше 
+    
+    governance-heading: Первая Самоуправляемая и Самофинансируемая криптовалюта
+    governance-text: Все важные решения по развитию проекта Dash и их децентрализованному финансированию принимаются в ходе публичного процесса путём достижения консенсуса по результатам голосования в сети Мастернод. Это означает, что сеть Dash может самостоятельно финансировать своё развитие и адоптацию, гарантированно приходя к консенсусу по спорным вопросам, при этом учитывается голос каждого участника сети. Это в том числе позволяет защититься от потенциальных нежелательных манипуляций проектом, так как для этого атакующему потребуется купить больше половины всех средств Dash.
+    
+    proposal-btn: Предложения
+    proposal-submit-btn: Разместите Предложение
+    
+    network-growth-heading: Самая Быстро Растущая Сеть
+    network-growth-text: Благодяря системе поощрений, сеть Dash выросла уже до 3900 Мастернод, став таким образом единственной цифровой валютой, способной конкурировать с Bitcoin по пропускной способности транзакций и по возможностям дальнейшего масштабирования.
+    network-growth-btn: Статистика Сети
+    
+    evolution-heading: Эволюция Цифровых Денег
+    evolution-text: Что же дальше? Мы разрабатываем новые децентрализованные сервисы, работающие на основе сети Мастернод, которые делают использование Dash с помощью web-браузеров и мобильных устройств таким же простым, как использование PayPal, но при этом работают абсолютно децентрализованно. Следите за нашими новостями...
+    evolution-btn: Узнать больше
+    
+    news-heading: Последние новости
+    news-btn: Посмотреть все новости
+    
+    get-started-heading: Начать использование
+    get-started-text: Скачайте Кошелёк и начните использовать Цифровую Наличность!
+    get-started-btn: Получить Dash
+  
+  get-dash:
+    title: Получить Dash
+    description: Скачайте Кошелёк и пополните его средствами Dash через Биржу.
+    hero-heading: Скачайте Кошелёк Dash
+    hero-text: Скачайте последнюю версию ПО Dash
+    hero-wallet-version: Кошелёк Dash (полный клиент v12.0.56) для OSX
+    hero-wallet-version-select: Выбрать Другой
+    hero-download-btn: Скачать
+    hero-guide-btn: Руководство по Установке
+    hero-buy-btn: Купить Dash
+    hero-spend-btn: Потратить Dash
+    hero-trade-btn: Обменять Dash
+
+    setup-heading: Узнайте, как Установить ваш Кошелёк
+    setup-text: 
+    setup-btn: Узнать больше
+
+    buy-heading: Купить Dash
+    buy-text: Обменяйте свою местную валюту на Dash в вашем кошельке
+    buy-btn: Купить Dash
+
+    trade-heading: Купите Dash на бирже
+    trade-text: Купите Dash за свою местную валюту на бирже
+    trade-btn: Купите Dash
+
+    atm-heading: Купите Dash в банкомате
+    atm-text: Мгновенная покупка Dash в банкоматах вашей страны
+    atm-btn: Поиск банкоматов Dash
+
+    shop-heading: Покупка товаров за Dash
+    shop-text: Мгновенная и анонимная оплата покупок в Интернете, напрямую из вашего Dash кошелька
+    shop-btn: Больше торговых точек
+    shop-join-btn: Начните принимать к оплате Dash
+
+    visa-heading: Оплата пластиковыми картами Visa
+    visa-text: Дебетовая карта Dash-Visa без комиссий при международных платежах и с поддержкой технологии "tap & pay"
+    visa-btn: Получить карту Shake
+
+    need-heading: Хотите получить немного Dash?
+    need-text: Зарегистрируйтесь на нашем форуме и получите немного Dash!
+    need-btn: Регистрация для получения Dash
+    need-input: Введите ваш Email адрес
+
+  participate:
+    title: Присоединиться к Сети Dash
+    description: Присоединяйтесь к Сети Dash
+    hero-heading: Присоединяйтесь к нашей Сети
+    hero-text: Зарабатывайте Dash, делая сеть более мощной, безопасной и функциональной
+    hero-masternodes-btn: Мастерноды
+    hero-mining-btn: Майнинг
+    hero-funding-btn: Финансирование
+
+    masternode-heading: Запустите Мастерноду и сделайте сеть Dash ещё надёжней
+    masternode-text: Помогите сделать сеть Dash ещё лучше, запустив собственную Мастерноду или присоединившись к сервису по совместному хостингу Мастернод. Операторы Мастернод получают вознаграждение за оказание децентрализованных услуг пользователям Dash.
+    masternode-btn: Запустить Мастерноду
+
+    mining-heading: Займитесь Майнингом и помогите защищать сеть Dash
+    mining-text: Займитесь майнингом Dash с помощью своего компьютера или специального оборудования. Майнеры Dash получают вознаграждение за помощь в обеспечении безопасности сети Dash.
+    mining-btn: Заняться Майнингом
+
+    funding-heading: Развивайте Сеть Dash на средства из Блокчейна
+    funding-text: Сеть Dash каждый месяц финансирует различные усилия, направленные на развитие проекта, такие как найм разработчиков, мероприятия по продвижению и интеграция платежей Dash в новые популярные сервисы и магазины.
+    funding-btn: Разместить Предложение 
+
+    integrate-heading: Вы принимаете к оплате Dash?
+    integrate-text: Интегрируйте приём мгновенных анонимных платежей в ваши Интернет-магазин, Приложение или Торговую точку
+    integrate-btn: Интегрировать Dash
+    integrate-payment-processor-btn: Процессинговые компании
+    integrate-contact-btn: Свяжитесь с командой Dash
+
+  currency: 
+    title: Валюта Dash
+    description: Валюта Dash
+    hero-heading: Валюта Dash
+    hero-markets-btn: Рынки
+    hero-governance-btn: Управление
+    hero-network-btn: Сеть
+    hero-blockchain-btn: Блокчейн
+
+    markets-heading: Рынки
+    governance-heading: Управление
+    network-heading: Сеть
+    blockchain-heading: Блокчейн
+
+  community:
+    title: Присоединяйтесь к Сообществу Dash
+    description: Присоединяйтесь к Сообществу Dash
+    hero-heading: Присоединяйтесь к нашему Сообществу
+    hero-text: Станьте частью сообщества Dash
+    hero-forum-btn: Официальный Форум
+    hero-discussion-btn: Обсуждение
+    hero-social-btn: Социальные сервисы
+    hero-news-btn: Новости и Информация
+    hero-development-btn: Разработка
+    hero-masternodes-btn: Мастерноды
+    hero-video-btn: Видео и Аудио
+
+    discussion-heading: Обсуждение
+    discussion-text: Обсуждайте Dash на этих форумах
+
+    social-heading: Соцсети
+    social-text: Присоединяйтесь к Dash в этих социальных сервисах
+
+    news-heading: Новости и Информация
+    news-text: Сайты, созданные членами сообщества Dash
+
+    development-heading: Разработка
+    development-text: Сайты и Инструменты для Разработчиков
+    
+    masternode-heading: Инструменты для Мастернод
+    masternode-text: Запуск, Управление и Хостинг для ваших Мастернод
+
+    media-heading: Dash Медиа
+
+    conferences-heading: Конференции
+    technology-heading: Технология
+    community-heading: Сообщество
+    
+    youtube-btn: Dash YouTube
+
+    # Need some Dash - get content from get-dash ^^
+  blog:
+      title: Блог о Цифровой Валюте
+      description: Блог о Цифровой Валюте
+
+  team:
+      title: Команда
+      description: Команда Dash
+    
+
+nav: 
+  what-is-dash: Что такое Dash
+  get-dash: Получить Dash
+  download: Скачать Кошелёк
+  buy: Купить Dash
+  shop: Потратить Dash
+  debit: Пластиковые карты Dash
+  
+  participate: Принять Участие
+  mining: Заняться Майнингом
+  masternode: Запустить Мастерноду
+  wallet: Установить Кошелёк
+  funding: Запросить Финансирование
+
+  currency: Валюта
+  exchange: Обменные Сервисы
+  governance: Управление
+  explorers: Мониторинг Блокчейна
+  stats: Статистика Сети
+
+  community: Сообщество
+  discussion: Обсуждение
+  social-apps: Социальные Сервисы
+  news: Новости и Информация
+  tools-dev: Средства Разработки
+  tools-masternodes: Инструменты для Мастернод
+
+  project: Проект
+  help: Помощь и Поддержка
+  info: Информация о Проекте
+  team: Команда
+  contact: Контакты
+  foundation: Foundation
+  philosophy: Философия
+  technology: Технология
+  wiki: Wiki
+
+  search: Поиск
+  
+  social: Соцсети
+  blog: Блог
+  reddit: Reddit
+  twitter: Twitter
+  youtube: YouTube
+  google: Google+
+  linkedin: LinkedIn
+  facebook: Facebook
+  instagram: Instagram
+  github: GitHub
+
+  tos: Условия использования
+  sitemap: Карта сайта

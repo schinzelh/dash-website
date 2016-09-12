@@ -1,0 +1,18 @@
+<!--
+	Include this file in your templates so you can reference assets with relative urls 
+	include base.html
+	example: href="{{ base }}/assets/css/style.css"
+-->
+{% assign base = '' %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth == -1 %}{% assign base = '.' %}
+{% elsif depth == 1 %}{% assign base = '..' %}
+{% elsif depth == 2 %}{% assign base = '../..' %}
+{% elsif depth == 3 %}{% assign base = '../../..' %}
+{% elsif depth == 4 %}{% assign base = '../../../..' %}{% endif %}
+
+{% if site.lang != "en" %}
+	{% assign base = base | prepend: '../'  %}
+{% endif %}
+
+{% capture basenav %}{% if site.lang != "en" %}/{{ site.lang }}{% else %}{% endif %}{% endcapture %}
