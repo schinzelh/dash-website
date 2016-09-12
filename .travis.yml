@@ -10,9 +10,9 @@ before_script:
 script: ./script/cibuild
 
 # branch whitelist
-branches:
-  only:
-  - feature/travis     # test the travis branch
+# branches:
+#   only:
+#   - feature/travis     # test the travis branch
 
 env:
   global:
