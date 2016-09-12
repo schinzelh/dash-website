@@ -22,11 +22,13 @@
             <li class="nav__item"><a href="{{ basenav }}/community/" class="nav__link">{% t nav.community %}</a></li>
             <li class="nav__item"><a href="{{ basenav }}/blog/" class="nav__link">{% t nav.blog %}</a></li>
             <li class="nav__item"><a href="{{ basenav }}" class="nav__link">{% t nav.project %}</a></li>
-
+            
+            {% if page.layout != 'post' %}
             <li class="nav__item nav__item--languages">
                 <a href="#" class="nav__link">{{ site.lang }}</a>
                 <ul class="nav__sublist">
                     <!-- TODO: dynamically generate this list -->
+
                     <li class="nav__subitem">
                         <a href="{{ page.url }}" class="nav__link {% if site.lang == 'en' %}is-active{% endif %}">{% t global.english %}</a>
                     </li>
@@ -47,6 +49,7 @@
                     </li>
                 </ul>
             </li>
+            {% endif %}
 
             <li class="nav__item"><a href="{{ basenav }}" class="nav__link" title="{% t nav.search %}">S</a></li>
         </ul>
