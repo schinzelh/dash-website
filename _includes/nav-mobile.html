@@ -11,8 +11,8 @@
         <li><a href="{{ basenav }}">{% t nav.project %}</a></li>
         
         {% if page.layout != 'post' %}
-            <li><a href="/{{ page.url }}">{% t global.english %}</a></li>
-            <li><a href="/es{{ page.url  }}">{% t global.spanish %}</a></li>
+            <li><a href="{{ basenav }}{{ page.url }}">{% t global.english %}</a></li>
+            <li><a href="{{ basenav }}{{ page.url  }}">{% t global.spanish %}</a></li>
         {% endif %}
     </ul>
 </nav>
