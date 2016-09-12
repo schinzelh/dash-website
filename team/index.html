@@ -13,9 +13,9 @@ description: pages.team.description
     <div>
     
         {% if member.image %}
-            <div><img src="/assets/img/team/{{ member.image }}"></div>
+            <div><img src="/assets/img/team/{{ member.image }}" alt="{{ member.name }}"></div>
         {% else %}
-            <div><img src="/assets/img/team/anon.png"></div>
+            <div><img src="/assets/img/team/anon.png" alt="{{ member.name }}"></div>
         {% endif %}
 
         <div>{{ member.name }}</div>
