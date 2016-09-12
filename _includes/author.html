@@ -1,11 +1,22 @@
 {% if page.author %}
 <div class="author">
 	{% assign author = site.data.people[page.author] %}
-	<img src="{{ author.image }}" class="author-icon img-circle"><br />
-	<a rel="author"
-	  href="https://twitter.com/{{ author.twitter }}"
-	  title="{{ author.name }}"
-	  target="_blank">
+	
+	{% if author.image %}
+		<img src="{{ author.image }}" class="author-icon img-circle"><br />
+	{% endif %}
+	
+	{% if author.twitter %}
+		<a rel="author"
+		  href="https://twitter.com/{{ author.twitter }}"
+		  title="{{ author.name }}"
+		  target="_blank">
+	{% else %}
+		<a rel="author"
+		  href="#"
+		  title="{{ author.name }}"
+		  target="_blank">
+	{% endif %}
 	    {{ author.name }}
 	</a>
 </div>

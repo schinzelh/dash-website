@@ -11,7 +11,7 @@
 
 <header id="top" class="content">
 
-    <a href="{{ basenav }}/" class="logo"><img class="logo__img" src="{{ base }}/assets/img/logo-{{ logo-color }}.png" alt="Dash"></a>
+    <a href="{{ basenav }}" class="logo"><img class="logo__img" src="/assets/img/logo-{{ logo-color }}.png" alt="Dash"></a>
 
     <nav class="nav">
         <ul class="nav__list">
@@ -28,22 +28,22 @@
                 <ul class="nav__sublist">
                     <!-- TODO: dynamically generate this list -->
                     <li class="nav__subitem">
-                        <a href="{{ base }}{{ page.url }}" class="nav__link {% if site.lang == 'en' %}is-active{% endif %}">{% t global.english %}</a>
+                        <a href="{{ page.url }}" class="nav__link {% if site.lang == 'en' %}is-active{% endif %}">{% t global.english %}</a>
                     </li>
                     <li class="nav__subitem">
-                        <a href="{{ base }}/es{{ page.url  }}" class="nav__link {% if site.lang == 'es' %}is-active{% endif %}">{% t global.spanish %}</a>
+                        <a href="/es{{ page.url  }}" class="nav__link {% if site.lang == 'es' %}is-active{% endif %}">{% t global.spanish %}</a>
                     </li>
                     <li class="nav__subitem">
-                        <a href="{{ base }}/pt{{ page.url  }}" class="nav__link {% if site.lang == 'pt' %}is-active{% endif %}">{% t global.portugese %}</a>
+                        <a href="/pt{{ page.url  }}" class="nav__link {% if site.lang == 'pt' %}is-active{% endif %}">{% t global.portugese %}</a>
                     </li>
                     <li class="nav__subitem">
-                        <a href="{{ base }}/it{{ page.url  }}" class="nav__link {% if site.lang == 'it' %}is-active{% endif %}">{% t global.italian %}</a>
+                        <a href="/it{{ page.url  }}" class="nav__link {% if site.lang == 'it' %}is-active{% endif %}">{% t global.italian %}</a>
                     </li>
                     <li class="nav__subitem">
-                        <a href="{{ base }}/cn{{ page.url  }}" class="nav__link {% if site.lang == 'cn' %}is-active{% endif %}">{% t global.chinese %}</a>
+                        <a href="/cn{{ page.url  }}" class="nav__link {% if site.lang == 'cn' %}is-active{% endif %}">{% t global.chinese %}</a>
                     </li>
                     <li class="nav__subitem">
-                        <a href="{{ base }}/ru{{ page.url  }}" class="nav__link {% if site.lang == 'ru' %}is-active{% endif %}">{% t global.russian %}</a>
+                        <a href="/ru{{ page.url  }}" class="nav__link {% if site.lang == 'ru' %}is-active{% endif %}">{% t global.russian %}</a>
                     </li>
                 </ul>
             </li>

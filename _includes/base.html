@@ -15,4 +15,4 @@
 	{% assign base = base | prepend: '../'  %}
 {% endif %}
 
-{% capture basenav %}{{ base }}{% if site.lang != "en" %}/{{ site.lang }}{% endif %}{% endcapture %}
+{% capture basenav %}{% if site.lang != "en" %}/{{ site.lang }}{% else %}{% endif %}{% endcapture %}

@@ -5,6 +5,7 @@ exclude:
   - _posts/README.md
   - assets/mockups/
   - vendor/
+  - script/
   - Gemfile
   - Gemfile.lock
 paginate: 5
