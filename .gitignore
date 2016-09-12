@@ -5,3 +5,6 @@ _site
 .sass-cache
 .brackets.json
 .jekyll-metadata
+
+styles/.sass-cache
+styles/.sass-cache/*
