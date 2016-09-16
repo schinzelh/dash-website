@@ -34,7 +34,8 @@
     "watch:js": "onchange 'src/js/*' -- run-s uglify:dev copy:js reload",
     "watch": "run-p serve watch:jekyll watch:css watch:js",
     "serve": "browser-sync start --server _site -f '_site/dist/css'",
-    "start": "npm run build -s && npm run watch"
+    "start": "npm run build -s && npm run watch",
+    "postinstall": "gem install bundler && bundle install"
   },
   "author": "0xfff <0xfff@protonmail.com>",
   "license": "MIT",
