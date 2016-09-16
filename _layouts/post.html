@@ -21,14 +21,14 @@ layout: default
 	</div>
 
 	<div class="sidebar">
-		{% for post in site.related_posts limit:5 %} 
-		<!-- limit:4  --> 
+		{% for post in site.related_posts limit:5 %}
+		<!-- limit:4  -->
 			<div class="feature">
-				
+
 				<h3><a href="{{ basenav }}{{ post.url }}">{{ post.title }}</a></h3>
-				
+
 				<p><em>{{ post.date | date: "%b %d, %Y" }}</em><br />{{ post.excerpt | strip_html | truncatewords: 10 }}</p>
-				
+
 			</div>
 
 		{% endfor %}

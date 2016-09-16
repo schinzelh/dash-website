@@ -6,8 +6,13 @@ exclude:
   - assets/mockups/
   - vendor/
   - script/
+  - src/
+  - dist/
+  - node_modules/
   - Gemfile
   - Gemfile.lock
+  - package.json
+keep_files: ["_site/dist/"]
 paginate: 5
 paginate_path: "/blog/page:num/"
 name: Dash
@@ -17,19 +22,10 @@ description: Digital Cash
 api: http://www-test.dash.org/api/v1
 
 languages: ["en", "es", "cn", "pt", "ru", "it"]
-exclude_from_localizations: ["assets","style-guide"]
-
-sass:
-  style: compressed
-  cache: false
-
-autoprefixer:
-  browsers:
-    - last 2 versions
+exclude_from_localizations: ["assets","dist","style-guide"]
 
 gems:
   - jekyll-paginate
-  - jekyll-autoprefixer
   - jekyll-multiple-languages-plugin
 
 collections:

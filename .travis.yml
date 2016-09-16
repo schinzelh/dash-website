@@ -8,12 +8,12 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 sudo: false
-addons: 
+addons:
   ssh_known_hosts: $hostname
 before_install:
 - openssl aes-256-cbc -K $encrypted_4395499fa958_key -iv $encrypted_4395499fa958_iv
   -in dash.org-test-web.pem.enc -out dash.org-test-web.pem -d
-before_deploy: 
+before_deploy:
 - eval "$(ssh-agent -s)"
 - chmod 600 $TRAVIS_BUILD_DIR/$IdentityFile
 - ssh-add $TRAVIS_BUILD_DIR/$IdentityFile
@@ -21,5 +21,5 @@ deploy:
   provider: script
   skip_cleanup: true
   script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_dist $user@$hostname:$production_path
-  on: 
+  on:
     branch: master

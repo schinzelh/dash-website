@@ -7,11 +7,11 @@ description: pages.team.description
 {% include hero/team.html %}
 
 <div class="content">
-	
-    
+
+
     {% for member in site.data.team %}
     <div>
-    
+
         {% if member.image %}
             <div><img src="/assets/img/team/{{ member.image }}" alt="{{ member.name }}"></div>
         {% else %}
@@ -33,9 +33,9 @@ description: pages.team.description
         {% if member.twitter %}
             <div>{{ member.twitter }}</div>
         {% endif %}
-    
+
     </div>
     {% endfor %}
-    
+
 
 </div>
