@@ -7,7 +7,7 @@ https://jekyllrb.com
 ### Requirements (mac)
 * Ruby: `brew install ruby`
 * Ruby Gems: https://rubygems.org/pages/download
-* NodeJS: https://nodejs.org/en/ (Ideally >=6.5.0)
+* NodeJS: https://nodejs.org/en/ (Ideally >=4.5.0)
 * Python: `brew install python`
 * Bundler: `gem install bundler`
 
