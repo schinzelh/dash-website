@@ -29,7 +29,7 @@
     "build:images": "npm run imagemin",
     "reload": "browser-sync reload",
     "build": "run-s clean build:js build:css build:font build:jekyll copy",
-    "watch:jekyll": "onchange 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -- run-s build:jekyll copy reload",
+    "watch:jekyll": "onchange 'index.html' '*/*.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -- run-s build:jekyll copy reload",
     "watch:css": "onchange 'src/scss/**/*' -- run-s sass prefix copy:css",
     "watch:js": "onchange 'src/js/*' -- run-s uglify:dev copy:js reload",
     "watch": "run-p serve watch:jekyll watch:css watch:js",
