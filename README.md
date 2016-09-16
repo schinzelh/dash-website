@@ -7,16 +7,18 @@ https://jekyllrb.com
 ### Requirements (mac)
 * Ruby: `brew install ruby`
 * Ruby Gems: https://rubygems.org/pages/download
-* NodeJS: https://nodejs.org/en/
+* NodeJS: https://nodejs.org/en/ (Ideally >=6.5.0)
 * Python: `brew install python`
 * Bundler: `gem install bundler`
 
-### Supporting Gems
-Simply run `bundle install` and [bundler](http://bundler.io/) will install all ruby gems/dependencies.
+### Dependencies
+(If you have nvm, do `nvm install && nvm use` first.)
 
-CI Note: The Gems must also be installed on the CI server. 
+Simply run `npm install` to install all dependencies. This will also run `bundle install` on *postinstall* to install all ruby gems.
 
-Mac Note: Bundler will try to install the dependency `nokogiri`. If you are using a Mac, and run into issues related to `nokogiri` during `bundle install`, do the following:
+**CI Note**: The Gems must also be installed on the CI server. 
+
+**Mac Note**: Bundler will try to install the dependency `nokogiri`. If you are using a Mac, and run into issues related to `nokogiri` during `bundle install`, do the following:
 
 `xcode-select --install`
 
@@ -28,13 +30,15 @@ Then run `bundle install`
 ### Plugins
 * `jekyll-multiple-languages-plugin` installed as a gem. Documentation at https://github.com/perrywoodin/jekyll-multiple-languages-plugin. This is a modified fork that adds two new tags for outputting markdown `{% tmd key %}` or `{% translatemd key %}`
 
-## Development
-`jekyll serve` Will build to the _site directory whenever a file is changed and serve via 127.0.0.1
+(If you still have a `_plugins/jekyll-multiple-languages-plugin` directory in your root folder, you will need to remove it.)
 
-`jekyll build --watch` Will build to the _site directory whenever a file is changed. 
+## Development
+`npm start` or `npm run watch` to build to the _site directory whenever a file is changed and serve via *localhost:3000*
 
 ## Production Build
 Production builds should be handled by CI.
+
+`npm run build` will build a fully minified, mangled, and compressed build to the _site directory.
 
 Mac
 xcode-select --install
