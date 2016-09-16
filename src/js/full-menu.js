@@ -1,4 +1,12 @@
-$('#toggle').click(function() {
-   $(this).toggleClass('active');
-   $('#overlay').toggleClass('open');
-  });
+(function($) {
+
+	$(function() {
+
+		$('#toggle').click(function() {
+			$(this).toggleClass('active');
+			$('#overlay').toggleClass('open');
+		});
+
+	});
+
+}(jQuery));

@@ -4,7 +4,8 @@
     "node": false
   },
   "globals": {
-    "Modernizr": false
+    "Modernizr": false,
+    "jQuery": false
   },
   "rules": {
     "no-bitwise": 2,

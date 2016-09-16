@@ -12,7 +12,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - package.json
-keep_files: ["_site/dist/"]
 paginate: 5
 paginate_path: "/blog/page:num/"
 name: Dash
