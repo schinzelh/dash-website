@@ -20,11 +20,8 @@
     "prefix": "postcss --use autoprefixer -b 'last 3 versions' --output dist/css/main.min.css dist/css/main.min.css",
     "sass:dist": "node-sass --output-style compressed src/scss/main.scss dist/css/main.min.css",
     "sass": "npm run sass:dist",
-    "critical": "critical _site/index.html --base _site --minify --css dist/css/main.min.css > _includes/css/critical.css",
     "font": "mkdir -p dist/fonts && cp -R src/fonts/ dist/fonts/",
     "imagemin": "imagemin src/images/* _site/dist/images/ -p",
-    "pagespeed": "psi www-test.dash.org --strategy=mobile",
-    "accessibility": "a11y www-test.dash.org",
     "build:jekyll": "jekyll build --config _config.yml",
     "build:js": "npm run eslint && npm run uglify",
     "build:css": "npm run sass && npm run prefix",
@@ -33,7 +30,7 @@
     "reload": "browser-sync reload",
     "build": "run-s clean build:js build:css build:font build:jekyll copy",
     "watch:jekyll": "onchange 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -- run-s build:jekyll copy reload",
-    "watch:css": "onchange 'src/scss/**/*' -- run-s sass copy:css",
+    "watch:css": "onchange 'src/scss/**/*' -- run-s sass prefix copy:css",
     "watch:js": "onchange 'src/js/*' -- run-s uglify:dev copy:js reload",
     "watch": "run-p serve watch:jekyll watch:css watch:js",
     "serve": "browser-sync start --server _site -f '_site/dist/css'",
@@ -51,12 +48,9 @@
     "onchange": "^3.0.2",
     "postcss": "^5.0.14",
     "postcss-cli": "^2.5.0",
-    "watch": "^0.19.2"
+    "watch": "^0.19.2",
+    "uglify-js": "^2.7.3"
   },
   "dependencies": {
-    "a11y": "^0.4.0",
-    "critical": "^0.8.0",
-    "psi": "^2.0.2",
-    "uglify-js": "^2.7.3"
   }
 }
