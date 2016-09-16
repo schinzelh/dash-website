@@ -41,17 +41,17 @@
   "author": "0xfff <0xfff@protonmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^6.4.1",
-    "browser-sync": "^2.16.0",
-    "eslint": "^3.5.0",
-    "image-min": "^0.3.2",
-    "node-sass": "^3.4.2",
-    "npm-run-all": "^3.1.0",
-    "onchange": "^3.0.2",
-    "postcss": "^5.0.14",
-    "postcss-cli": "^2.5.0",
-    "watch": "^0.19.2",
-    "uglify-js": "^2.7.3"
+    "autoprefixer": "6.4.1",
+    "browser-sync": "2.16.0",
+    "eslint": "3.5.0",
+    "image-min": "0.3.2",
+    "node-sass": "3.4.2",
+    "npm-run-all": "3.1.0",
+    "onchange": "3.0.2",
+    "postcss": "5.0.14",
+    "postcss-cli": "2.5.0",
+    "watch": "0.19.2",
+    "uglify-js": "2.7.3"
   },
   "dependencies": {
   }
