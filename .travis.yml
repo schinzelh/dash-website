@@ -1,8 +1,6 @@
 language: node_js
 node_js:
   - 4.5.0
-before_install:
-- rvm install 2.3.1
 before_script:
 - chmod +x ./cibuild.sh
 script: "./cibuild.sh"
@@ -21,6 +19,7 @@ addons:
 before_install:
 - openssl aes-256-cbc -K $encrypted_4395499fa958_key -iv $encrypted_4395499fa958_iv
   -in dash.org-test-web.pem.enc -out dash.org-test-web.pem -d
+- rvm install 2.3.1
 before_deploy:
 - eval "$(ssh-agent -s)"
 - chmod 600 $TRAVIS_BUILD_DIR/$IdentityFile
