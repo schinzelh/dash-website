@@ -20,7 +20,7 @@
     "prefix": "postcss --use autoprefixer -b 'last 3 versions' --output dist/css/main.min.css dist/css/main.min.css",
     "sass:dist": "node-sass --output-style compressed src/scss/main.scss dist/css/main.min.css",
     "sass": "npm run sass:dist",
-    "font": "mkdir -p dist/fonts && cp -R src/fonts/ dist/fonts/",
+    "font": "mkdir -p dist/fonts && cp -R src/fonts/ dist/",
     "imagemin": "imagemin src/images/* _site/dist/images/ -p",
     "build:jekyll": "jekyll build --config _config.yml",
     "build:js": "npm run eslint && npm run uglify",
