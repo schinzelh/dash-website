@@ -30,4 +30,4 @@ deploy:
   skip_cleanup: true
   script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/_site $user@$hostname:$production_path
   on:
-    branch: feature/travis
+    branch: master
