@@ -3,6 +3,7 @@ node_js:
   - 4.5.0
 before_script:
 - chmod +x ./cibuild.sh
+- ssh-keyscan -H -t rsa,dsa $hostname >> ~/.ssh/known_hosts
 script: "./cibuild.sh"
 env:
   global:
