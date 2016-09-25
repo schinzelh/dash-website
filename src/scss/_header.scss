@@ -39,7 +39,8 @@
 
 	&__content {
 		max-width: $content-max-width;
-		margin: ($size-gutter * 4) auto;
+		padding: ($size-gutter * 4) 0 ($size-gutter * 5);
+		margin: 0 auto;
 	}
 
 	&__buttons {
