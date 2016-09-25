@@ -1,16 +1,16 @@
-
 // stuff every page really needs
 @import "reset";
 @import "grid";
 @import "colors";
+@import "variables";
 @import "typography";
 @import "mediaqueries";
 @import "layout";
 @import "directives";
 
 //stuff every page needss
-@import "header";
 @import "nav";
+@import "header";
 @import "logo";
 @import "buttons";
 @import "forms";

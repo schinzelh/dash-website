@@ -1,4 +1,4 @@
-<div id="hero">
+<div class="hero" id="hero">
 	<div id="background-video">
 		<video loop autoplay width="100%" height="auto" poster="{{ base }}/assets/img/hero/{% t pages.get-dash.hero-image %}" class="background-video">
 		<!--  <source src="assets/videos/Home-BG.m4v" type="video/mp4">
@@ -6,28 +6,24 @@
 		<source src="assets/videos/Home-BG" type="video/ogg"> -->
 		</video>
 	</div>
-  
+
 	<!-- Navigation -->
 	{% include nav-desktop.html %}
 
 	<!-- Hero content -->
-	<h1 class="content">{% t pages.get-dash.hero-heading %}</h1>
-	<p class="content">{% t pages.get-dash.hero-text %}<br />
-		{% t pages.get-dash.hero-wallet-version %}<br />
-		{% t pages.get-dash.hero-wallet-version-select %}
-	</p>
+	<div class="hero__content">
+		<h1 class="hero__title">{% t pages.get-dash.hero-heading %}</h1>
+		<p class="hero__lead">{% t pages.get-dash.hero-text %}</p>
 
-	<div class="content">
-		<a href="#" class="btn-blue-solid">{% t pages.get-dash.hero-download-btn %}</a>
+		<div class="hero__buttons">
+			<a href="#" class="btn-blue-solid btn-large">{% t pages.get-dash.hero-download-btn %}</a>
+		</div>
+		<p class="hero__text">{% t pages.get-dash.hero-wallet-version %} – (<a href="#" class="hero__link">{% t pages.get-dash.hero-wallet-version-select %}</a>)</p>
+		<div class="hero__buttons">
+			<a href="#getdash-wallet-setup" class="btn-white-solid">{% t pages.get-dash.hero-guide-btn %}</a>
+			<a href="#getdash-buy" class="btn-white-solid">{% t pages.get-dash.hero-buy-btn %}</a>
+			<a href="#getdash-shop" class="btn-white-solid">{% t pages.get-dash.hero-spend-btn %}</a>
+			<a href="#getdash-trade" class="btn-white-solid">{% t pages.get-dash.hero-trade-btn %}</a>
+		</div>
 	</div>
-
-	<br />
-
-	<div class="content">
-		<a href="#getdash-wallet-setup" class="btn-white-solid">{% t pages.get-dash.hero-guide-btn %}</a>
-		<a href="#getdash-buy" class="btn-white-solid">{% t pages.get-dash.hero-buy-btn %}</a>
-		<a href="#getdash-shop" class="btn-white-solid">{% t pages.get-dash.hero-spend-btn %}</a>
-		<a href="#getdash-trade" class="btn-white-solid">{% t pages.get-dash.hero-trade-btn %}</a>
-	</div>	
-  
 </div>

@@ -1,3 +1,5 @@
+$nav-height: 90px;
+
 .nav {
     float: right;
     text-align: right;
@@ -12,7 +14,7 @@
         text-transform: uppercase;
         font-size: 14px;
         letter-spacing: 0.02em;
-        line-height: 90px;
+        line-height: $nav-height;
         &:last-child > .nav__link {
             padding-right: 0;
         }

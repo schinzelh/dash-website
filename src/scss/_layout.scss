@@ -6,8 +6,8 @@ body {
 }
 
 .content {
-	width: 1280px;
-	max-width: calc(100% - 40px);
+	width: $content-max-width;
+	padding: 0 $size-gutter;
 	@media (max-width: 1024px) {
 		max-width: 96.1%; // at 1024px 40px is 3.9% of screen width
 	}

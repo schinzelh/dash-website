@@ -6,7 +6,7 @@
 	left: 0;
 	overflow: hidden;
 	z-index: -100;
-	height: 600px;
+	height: 100%;
 	overflow: hidden;
 	&:after {
 		content: '';
@@ -19,8 +19,8 @@
 	}
 	.background-video {
 		position: relative;
-		top: 40%;
-		transform: translateY(-40%);
+		top: 20%;
+		transform: translateY(-20%);
 		width: 100%;
 		height: auto;
 		min-height: 100%;
