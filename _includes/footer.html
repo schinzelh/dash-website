@@ -2,41 +2,41 @@
   <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.get-dash %}
     <ul>
-        <li><a href="#">{% t nav.download %}</a></li>
-        <li><a href="#">{% t nav.buy %}</a></li>
-        <li><a href="#">{% t nav.shop %}</a></li>
-        <li><a href="#">{% t nav.debit %}</a></li>
+        <li><a href="{{ basenav }}/get-dash/">{% t nav.download %}</a></li>
+        <li><a href="{{ basenav }}/get-dash/">{% t nav.buy %}</a></li>
+        <li><a href="{{ basenav }}/get-dash/">{% t nav.shop %}</a></li>
+        <li><a href="{{ basenav }}/get-dash/">{% t nav.debit %}</a></li>
     </ul>
   </section>
 
   <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.participate %}
     <ul>
-        <li><a href="#">{% t nav.mining %}</a></li>
-        <li><a href="#">{% t nav.masternode %}</a></li>
-        <li><a href="#">{% t nav.wallet %}</a></li>
-        <li><a href="#">{% t nav.funding %}</a></li>
+        <li><a href="{{ basenav }}/participate/">{% t nav.mining %}</a></li>
+        <li><a href="{{ basenav }}/participate/">{% t nav.masternode %}</a></li>
+        <li><a href="{{ basenav }}/participate/">{% t nav.wallet %}</a></li>
+        <li><a href="{{ basenav }}/participate/">{% t nav.funding %}</a></li>
     </ul>
   </section>
 
   <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.currency %}
     <ul>
-        <li><a href="#">{% t nav.exchange %}</a></li>
-        <li><a href="#">{% t nav.governance %}</a></li>
-        <li><a href="#">{% t nav.explorers %}</a></li>
-        <li><a href="#">{% t nav.stats %}</a></li>
+        <li><a href="{{ basenav }}/currency/">{% t nav.exchange %}</a></li>
+        <li><a href="{{ basenav }}/currency/">{% t nav.governance %}</a></li>
+        <li><a href="{{ basenav }}/currency/">{% t nav.explorers %}</a></li>
+        <li><a href="{{ basenav }}/currency/">{% t nav.stats %}</a></li>
     </ul>
   </section>
 
   <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.community %}
     <ul>
-        <li><a href="#">{% t nav.discussion %}</a></li>
-        <li><a href="#">{% t nav.social-apps %}</a></li>
-        <li><a href="#">{% t nav.news %}</a></li>
-        <li><a href="#">{% t nav.tools-dev %}</a></li>
-        <li><a href="#">{% t nav.tools-masternodes %}</a></li>
+        <li><a href="{{ basenav }}/community/">{% t nav.discussion %}</a></li>
+        <li><a href="{{ basenav }}/community/">{% t nav.social-apps %}</a></li>
+        <li><a href="{{ basenav }}/community/">{% t nav.news %}</a></li>
+        <li><a href="{{ basenav }}/community/">{% t nav.tools-dev %}</a></li>
+        <li><a href="{{ basenav }}/community/">{% t nav.tools-masternodes %}</a></li>
     </ul>
   </section>
 
@@ -45,7 +45,7 @@
     <ul>
         <li><a href="#">{% t nav.help %}</a></li>
         <li><a href="#">{% t nav.info %}</a></li>
-        <li><a href="#">{% t nav.team %}</a></li>
+        <li><a href="{{ basenav }}/team/">{% t nav.team %}</a></li>
         <li><a href="#">{% t nav.contact %}</a></li>
     </ul>
   </section>
@@ -53,23 +53,22 @@
   <section class="footer__section col-lg-2 col-md-4 col-sm-6" data-mh="footer">
     {% t nav.social %}
     <ul class="footer__social">
-        <li><a href="#">{% t nav.blog %}</a></li>
-        <li><a href="#">{% t nav.reddit %}</a></li>
-        <li><a href="#">{% t nav.twitter %}</a></li>
-        <li><a href="#">{% t nav.youtube %}</a></li>
-        <li><a href="#">{% t nav.google %}</a></li>
-        <li><a href="#">{% t nav.linkedin %}</a></li>
-        <li><a href="#">{% t nav.facebook %}</a></li>
-        <li><a href="#">{% t nav.instagram %}</a></li>
-        <li><a href="#">{% t nav.github %}</a></li>
+        <li><a href="{{ basenav }}/blog/">{% t nav.blog %}</a></li>
+        <li><a href="https://www.reddit.com/r/dashpay">{% t nav.reddit %}</a></li>
+        <li><a href="https://twitter.com/dashpay">{% t nav.twitter %}</a></li>
+        <li><a href="https://www.youtube.com/channel/UCAzD2v9Yx4a4iS2_-unODkA">{% t nav.youtube %}</a></li>
+        <li><a href="https://plus.google.com/115080614177201373926/posts">{% t nav.google %}</a></li>
+        <li><a href="https://www.linkedin.com/groups?home=&gid=8179817&trk=groups_most_recent-h-logo&goback=%2Egmp_8179817">{% t nav.linkedin %}</a></li>
+        <li><a href="https://facebook.com/dashpay">{% t nav.facebook %}</a></li>
+        <li><a href="https://github.com/dashpay/dash">{% t nav.github %}</a></li>
     </ul>
   </section>
 </nav>
 <div class="footer__menu content">
   <div class="footer__languagePicker"></div>
-  <a href="#">Terms of Use</a>
-  <a href="#">Sitemap</a>
-  <a href="#">Contact</a>
+  <a href="{{ basenav }}/terms-of-use/">Terms of Use</a>
+  <a href="/sitemap.xml">Sitemap</a>
+  <a href="{{ basenav }}/contact/">Contact</a>
 </div>
 <div class="footer__legal">
   <div class="content">
