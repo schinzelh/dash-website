@@ -31,7 +31,9 @@ pages:
     merchants-heading: Shop direct with Dash
     merchants-text: Instant and anonymous purchases, direct from your Dash wallet
     merchants-btn: More Merchants
+    merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
     merchants-join-btn: Become a Merchant
+    merchants-join-link: https://www.dash.org/forum/threads/merchant-directory-listing.3445
 
     architecture-heading: Next-Gen Network Architecture
     architecture-text:
@@ -40,6 +42,7 @@ pages:
 
       Masternodes work together in clusters and can't be faked like fullnodes in other digital currencies. This means they can provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.
     architecture-btn: Learn More
+    architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
 
     governance-heading: First Self Governing, Self Funding Protocol
     governance-text: Any important project of decision in Dash is agreed and funded by a decentralized public process that funds projects autonomously based on masternode-netwok votes. This means Dash can fund its own growth and adoption, consensus is guaranteed, and everyone is accountable to the network. Not only that, but an attacker can't game the system without buying over half the currency supply.
@@ -54,6 +57,7 @@ pages:
     evolution-heading: Digital Currency Evolution
     evolution-text: What's next? We are working on a new decentralized service hosted on the masternode network that will open up Dash to web and mobile while being as easy to use as PayPal but still fully decentralized. Stay tuned...
     evolution-btn: Learn More
+    evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
 
     news-heading: Latest News
     news-btn: View All News

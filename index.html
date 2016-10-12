@@ -62,22 +62,22 @@ description: pages.home.description
 
 			<div class="logo-collection">
 				<div class="logo-collection__logo">
-					<img src="/assets/img/home/bolehvpn.png" class="logo-collection__image">
+					<a href="https://www.bolehvpn.net/" target="_blank"><img src="/assets/img/home/bolehvpn.png" class="logo-collection__image"></a>
 				</div>
 				<div class="logo-collection__logo">
-					<img src="/assets/img/home/node40.png" class="logo-collection__image">
+					<a href="https://node40.com" target="_blank"><img src="/assets/img/home/node40.png" class="logo-collection__image"></a>
 				</div>
 				<div class="logo-collection__logo">
-					<img src="/assets/img/home/protonmail.png" class="logo-collection__image">
+					<a href="https://protonmail.com/" target="_blank"><img src="/assets/img/home/protonmail.png" class="logo-collection__image"></a>
 				</div>
 				<div class="logo-collection__logo">
-					<img src="/assets/img/home/qhoster.png" class="logo-collection__image">
+					<a href="https://www.qhoster.com/" target="_blank"><img src="/assets/img/home/qhoster.png" class="logo-collection__image"></a>
 				</div>
 			</div>
 
 			<div>
-				<a href="#" class="btn-blue">{% t pages.home.merchants-btn %}</a>
-				<a href="#" class="btn-blue">{% t pages.home.merchants-join-btn %}</a>
+				<a href="{% t pages.home.merchants-link %}" class="btn-blue">{% t pages.home.merchants-btn %}</a>
+				<a href="{% t pages.home.merchants-join-link %}" class="btn-blue">{% t pages.home.merchants-join-btn %}</a>
 			</div>
 		</div>
 	</section>
@@ -93,7 +93,7 @@ description: pages.home.description
 
 					{% tmd pages.home.architecture-text %}
 
-					<a href="#" class="btn-blue">{% t pages.home.architecture-btn %}</a>
+					<a href="{% t pages.home.architecture-link %}" class="btn-blue">{% t pages.home.architecture-btn %}</a>
 				</div>
 				<div class="col-sm-6 home-architecture-graphic">
 					<img src="/assets/img/home/code.png" alt="{% t pages.home.architecture-heading %}">
@@ -113,9 +113,9 @@ description: pages.home.description
 
 					{% tmd pages.home.governance-text %}
 
-					<a href="#" class="btn-blue">{% t pages.home.proposal-btn %}</a>
+					<a href="{{ basenav }}/currency" class="btn-blue">{% t pages.home.proposal-btn %}</a>
 
-					<a href="#" class="btn-blue">{% t pages.home.proposal-submit-btn %}</a>
+					<a href="https://dashcentral.org/" class="btn-blue">{% t pages.home.proposal-submit-btn %}</a>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6 home-budgets-graphic">
 					<img src="/assets/img/home/budgets.png" alt="{% t pages.home.governance-heading%}">
@@ -135,7 +135,7 @@ description: pages.home.description
 
 					{% tmd pages.home.network-growth-text %}
 
-					<a href="#" class="btn-blue">{% t pages.home.network-growth-btn %}</a>
+					<a href="{{ basenav }}/currency" class="btn-blue">{% t pages.home.network-growth-btn %}</a>
 				</div>
 				<div class="col-sm-6 home-network-graphic">
 					<img src="/assets/img/home/graph.png" alt="{% t pages.home.network-growth-heading %}">
@@ -155,7 +155,7 @@ description: pages.home.description
 
 					{% tmd pages.home.evolution-text %}
 
-					<a href="#" class="btn-blue">{% t pages.home.evolution-btn %}</a>
+					<a href="{% t pages.home.evolution-link %}" class="btn-blue">{% t pages.home.evolution-btn %}</a>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6 home-evolution-graphic">
 					<img src="/assets/img/home/stock-photo-63187555-she-ll-source-whatever-her-customers-are-looking-for.jpg" alt="Merchant using a laptop">
@@ -192,7 +192,7 @@ description: pages.home.description
 			</div>
 
 			<div>
-				<a href="#" class="btn-blue">{% t pages.home.news-btn %}</a>
+				<a href="{{ basenav }}/blog/" class="btn-blue">{% t pages.home.news-btn %}</a>
 			</div>
 		</div>
 	</section>
@@ -206,7 +206,7 @@ description: pages.home.description
 
 			{% tmd pages.home.get-started-text %}
 
-			<a href="#" class="btn-white-solid">{% t pages.home.get-started-btn %}</a>
+			<a href="{{ basenav }}/get-dash/" class="btn-white-solid">{% t pages.home.get-started-btn %}</a>
 
 			<img src="/assets/img/home/macbook.png" alt="">
 		</div>
