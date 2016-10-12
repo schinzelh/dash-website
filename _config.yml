@@ -18,6 +18,8 @@ name: Dash
 url: https://www.dash.org
 description: Digital Cash
 
+url: https://www.dash.org
+
 api: http://www-test.dash.org/api/v1
 
 languages: ["en", "es", "cn", "pt", "ru", "it"]
@@ -32,3 +34,15 @@ collections:
     output: false
   colors: # style guide
     output: false
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+        - "/style-guide/index.html"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
