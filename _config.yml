@@ -35,6 +35,7 @@ collections:
   colors: # style guide
     output: false
 
+# https://github.com/kinnetica/jekyll-plugins
 sitemap:
     file: "/sitemap.xml"
     exclude:
