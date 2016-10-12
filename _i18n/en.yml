@@ -83,31 +83,38 @@ pages:
     setup-heading: Learn how to setup your wallet
     setup-text:
     setup-btn: Lean More
+    setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
 
     buy-heading: Buy Dash Online
     buy-text: Convert local currency to Dash and send it to your wallet
     buy-btn: Buy Dash
+    buy-link: https://dashpay.atlassian.net/wiki/display/DOC/How+to+buy+Dash
 
     trade-heading: Trade Dash on an exchange
     trade-text: Trade local currency for Dash on an exchange
     trade-btn: Trade Dash
+    trade-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=48693307
 
     atm-heading: Buy Dash at an ATM
     atm-text: Instant Dash purchases from an ATM in your country
     atm-btn: ATM Locator
+    atm-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=75530385
 
     shop-heading: Shop direct with Dash
     shop-text: Instant and anonymous online purchases, direct from your Dash wallet
     shop-btn: More Merchants
+    shop-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants
     shop-join-btn: Become a Merchant
 
     visa-heading: Shop at Visa stores
     visa-text: Dash-Visa debit card with no foreign transaction fees and mobile "tap & pay"
     visa-btn: Get Shake
+    visa-link: https://shakepay.co/#/
 
     need-heading: Need some Dash?
     need-text: Signup on our forum we'll send you some Dash!
     need-btn: Sign up for Dash
+    need-link: https://www.dash.org/forum
     need-input: Enter Your Email Address
 
   participate:
@@ -123,19 +130,24 @@ pages:
     masternode-heading: Setup a Masternode and power Dash's Network
     masternode-text: Help power Dash by hosting a masternode or join a shared hosting service. Masternodes operators are rewarded for providing decentralized services to our users.
     masternode-btn: Setup a Masternode
+    masternode-link: https://dashpay.atlassian.net/wiki/display/DOC/Masternode
 
     mining-heading: Start Mining and Secure Dash's Network
     mining-text: Mine Dash using your computer or dedicated hardware. Miners are rewarded for securing the Dash network.
     mining-btn: Start Mining
+    mining-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
 
     funding-heading: Develop the Network with Blockchain Funding
     funding-text: Dash's Network funds winning proposals each month for anything that can improve Dash, such as hiring developers, making decisions or integrating Dash payments into more online stores and retail outlets.
     funding-btn: Submit a Proposal
+    funding-link: https://dashcentral.org/
 
     integrate-heading: Do you take Dash?
     integrate-text: Integrate instant, anonymous payments to your webstore, app or retail outlet
     integrate-btn: Integrate Dash
+    integrate-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants+IX+Payment+%28dashvend%29+Guide
     integrate-payment-processor-btn: Payment Processors
+    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/display/DOC/Payment+Processors
     integrate-contact-btn: Contact Our Team
 
   currency:
