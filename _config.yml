@@ -28,6 +28,7 @@ exclude_from_localizations: ["assets","dist","style-guide"]
 gems:
   - jekyll-paginate
   - jekyll-multiple-languages-plugin
+  - jekyll-srcset-tag
 
 collections:
   components: # style guide
@@ -37,13 +38,20 @@ collections:
 
 # https://github.com/kinnetica/jekyll-plugins
 sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-        - "/style-guide/index.html"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
+  file: "/sitemap.xml"
+  exclude:
+    - "/atom.xml"
+    - "/feed.xml"
+    - "/feed/index.xml"
+    - "/style-guide/index.html"
+  include_posts:
+    - "/index.html"
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"
+
+srcset:
+  source: assets/img
+  output: assets/img/resized
+
+keep_files:
+  - 'assets/img/resized'

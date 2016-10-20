@@ -1,10 +1,8 @@
 <div class="hero hero--blog" id="hero">
-	<div id="background-video">
-		<video loop autoplay width="100%" height="auto" poster="{{ base }}/assets/img/hero/{% t pages.blog.hero-image %}" class="background-video">
-		<!--  <source src="assets/videos/Home-BG.m4v" type="video/mp4">
-		<source src="assets/videos/Home-BG.webm" type="video/webm">
-		<source src="assets/videos/Home-BG" type="video/ogg"> -->
-		</video>
+	<div class="hero__background">
+		{% if pages.blog.hero-image %}
+			<img src="{{ base }}/assets/img/hero/{% t pages.blog.hero-image %}" alt="" class="hero__background-image">
+		{% endif %}
 	</div>
 
 	<!-- Navigation -->

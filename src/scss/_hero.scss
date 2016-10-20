@@ -26,7 +26,7 @@
 		}
 	}
 
-	#background-video {
+	&__background {
 		z-index: 1;
 	}
 
@@ -121,7 +121,7 @@
 				text-shadow: none;
 			}
 		}
-		#background-video::after {
+		.hero__background::after {
 			background: none;
 		}
 	}
