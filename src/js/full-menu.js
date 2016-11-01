@@ -12,8 +12,6 @@
 		});
 
 		$(document).bind(window.mq.event, function() {
-			console.log('resize');
-			console.log(isOpen, window.mq.query({ from: 'large' }));
 			if (isOpen === true && window.mq.query({ from: 'large' })) {
 				isOpen = false;
 				toggleMenu(isOpen);

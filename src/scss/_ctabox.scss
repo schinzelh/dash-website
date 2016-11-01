@@ -12,7 +12,32 @@
 		background: #fff;
 	}
 
+	&__inner,
+	.slick-track {
+		padding: 20px 0;
+	}
+
 	&__inner {
+		&::before {
+			content: '';
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 10%;
+			background: linear-gradient(to right, $color-gray-light 10%, transparent 100%);
+		}
+		&::after {
+			content: '';
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			width: 10%;
+			background: linear-gradient(to left, $color-gray-light 10%, transparent 100%);
+		}
 	}
 
 	&__imagewrapper {
