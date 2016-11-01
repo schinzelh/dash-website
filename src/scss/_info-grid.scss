@@ -48,7 +48,7 @@ $m: 'info-grid';
 			margin-bottom: 0.5em;
 		}
 		&-link {
-			display: block;
+			@extend .btn-blue;
 			margin-bottom: 0.25em;
 			&::after {
 				content: '→';

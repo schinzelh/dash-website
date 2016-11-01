@@ -28,14 +28,14 @@ pages:
     merchants-heading: 支持达世币商户
     merchants-text: 使用达世币钱包，即时、匿名付款
     merchants-btn: 更多商户
-    merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
+    merchants-link: https://dashpay.atlassian.net/wiki/x/i4CAB
     merchants-join-btn: 成为商户
     merchants-join-link: https://www.dash.org/forum/threads/merchant-directory-listing.3445
 
     architecture-heading: 下一代网络结构
     architecture-text: 双层P2P网络设计是达世币独有技术的核心。这一设计的特点是奖励那些运行特殊节点（即主节点）的用户。这些用户在专用硬件上全天候运行该节点。这个网络要求运行主节点的用户必须提供加密证据，证明自己在每个节点上有1000个达世币。这样可以保证网络免疫女巫攻击,因为若想发动攻击需要支付天价。<br /><br />主节点与其集群一起运行，不像其他加密数字货币的全节点那样可以仿造。这就意味着主节点可提供新型的去中心化服务，如即时交易、匿名化和管理等功能，并免受低成本网络攻击的威胁。
     architecture-btn: 了解更多
-    architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
+    architecture-link: https://dashpay.atlassian.net/wiki/x/qIHEB
 
     governance-heading: 第一个去中心化管理，自己自足的预算系统
     governance-text: 任何针对达世币的重要项目决议均由一个去中心化的公开程序达成共识并资助。这一程序根据主节点网络投票自动资助该项目。这就意味着达世币可以资助自己的增长和采用，保证意见一致通过，且每个人都要对这个网络负责。不仅如此，攻击者未购买超过半数的货币供应量的话是不能愚弄系统的。
@@ -50,7 +50,7 @@ pages:
     evolution-heading: 数字货币的进化
     evolution-text: 接下来是什么呢？我们正致力于一种运行于主节点上的新的去中心化服务，将来会把达世币开发至网页和手机上，并且它会像贝宝（PayPal）一样易用，但还是完全去中心化。敬请期待...
     evolution-btn: 了解更多
-    evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
+    evolution-link: https://dashpay.atlassian.net/wiki/x/uICAB
 
     news-heading: 最新资讯
     news-btn: 浏览全部新闻
@@ -75,27 +75,27 @@ pages:
     setup-heading: 了解如何设置你的钱包
     setup-text:
     setup-btn: 了解更多
-    setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
+    setup-link: https://dashpay.atlassian.net/wiki/x/x4CAB
 
     buy-heading: 在线购买达世币
     buy-text: 将本地货币兑换成达世币并发送到自己的钱包中
     buy-btn: 购买达世币
-    buy-link: https://dashpay.atlassian.net/wiki/display/DOC/How+to+buy+Dash
+    buy-link: https://dashpay.atlassian.net/wiki/x/joCAB
 
     trade-heading: 在交易所兑换达世币
     trade-text: 在交易所用本地货币兑换达世币
     trade-btn: 交易达世币
-    trade-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=48693307
+    trade-link: https://dashpay.atlassian.net/wiki/x/l4CAB
 
     atm-heading: 在ATM机购买达世币
     atm-text: 在你的国家使用ATM机来即时购买达世币
     atm-btn: ATM分布图
-    atm-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=75530385
+    atm-link: https://dashpay.atlassian.net/wiki/x/kYCAB
 
     shop-heading: 支持达世币的商户
     shop-text: 使用达世币钱包，进行即时、匿名的线上付款
     shop-btn: 更多商户
-    shop-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants
+    shop-link: https://dashpay.atlassian.net/wiki/x/34DEB
     shop-join-btn: 成为商户
 
     visa-heading: Visa商店
@@ -106,7 +106,7 @@ pages:
     need-heading: 想要领取点达世币？
     need-text: 注册我们的论坛，我们会送发给你一点！
     need-btn: 注册达世币成员
-    need-link: https://www.dash.org/forum
+    need-link: https://www.dash.org/forum/topic/中國的-chinese.22/
     need-input: 输入你的邮箱地址
 
   participate:
@@ -121,12 +121,12 @@ pages:
     masternode-heading: 建立主节点，加强达世币网络
     masternode-text: 通过架设主节点或者加入共享架设服务来帮助加强达世币网络。主节点持有者为用户提供去中心化服务的同时可以得到作为奖励的达世币。
     masternode-btn: 架设主节点
-    masternode-link: https://dashpay.atlassian.net/wiki/display/DOC/Masternode
+    masternode-link: https://dashpay.atlassian.net/wiki/x/N4HEB
 
     mining-heading: 开始挖矿，增强网络安全
     mining-text: 通过使用你的电脑或专业设备进行挖矿。矿工在加强网络安全的同时会得到达世币作为奖励。
     mining-btn: 开始挖矿
-    mining-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
+    mining-link: https://dashpay.atlassian.net/wiki/x/AIHEB
 
     funding-heading: 通过区块链资助网络开发
     funding-text: 达世币网络每个月都会通过任何可以改进达世币的方式资助中标的提案，如雇用开发人员，决策或将达世币支付整合至更多的网店和零售网点。
@@ -136,9 +136,9 @@ pages:
     integrate-heading: 你支持达世币支付吗？
     integrate-text: 快速整合匿名支付到你的网店、app、零售店
     integrate-btn: 整合达世币支付
-    integrate-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants+IX+Payment+%28dashvend%29+Guide
+    integrate-link: https://dashpay.atlassian.net/wiki/x/8oDEB
     integrate-payment-processor-btn: 支付处理系统
-    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/display/DOC/Payment+Processors
+    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/x/5YDEB
     integrate-contact-btn: 联系我们的团队
 
   currency:

@@ -1,6 +1,6 @@
 {% include base.html %}
 
-<nav class="overlay-menu">
+<nav class="overlay-menu" id="overlaynavigation" aria-hidden="true">
     <ul>
         <li><a href="{{ basenav }}/">{% t nav.what-is-dash %}</a></li>
         <li><a href="{{ basenav }}/get-dash/">{% t nav.get-dash %}</a></li>
@@ -9,10 +9,14 @@
         <li><a href="{{ basenav }}/community/">{% t nav.community %}</a></li>
         <li><a href="{{ basenav }}/blog/">{% t nav.blog %}</a></li>
         <li><a href="{{ basenav }}">{% t nav.project %}</a></li>
-        
-        {% if page.layout != 'post' %}
+    </ul>
+    <!-- Secondary Navigation Languages-->
+    <!-- {% if page.layout != 'post' %}
+    	<ul>
+
             <li><a href="{{ basenav }}{{ page.url }}">{% t global.english %}</a></li>
             <li><a href="{{ basenav }}{{ page.url  }}">{% t global.spanish %}</a></li>
+        </ul>
         {% endif %}
-    </ul>
+    -->
 </nav>

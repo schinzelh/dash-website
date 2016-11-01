@@ -1,129 +1,37 @@
-.container {
+@import "../../node_modules/sass-burger/burger";
+
+.burger {
+	/* DEV: reset styles  */
+	border:none;
+	background-image:none;
+	background-color:transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+
+	display: inline-block;
 	position: absolute;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 40%;
-	left: 0;
-	margin: 0 auto;
-	p {
-		font-size: 18px;
-	}
-	a {
-		display: inline-block;
-		position: relative;
-		text-align: center;
-		color: #FF5252;
-		text-decoration: none;
-		font-size: 18px;
-		overflow: hidden;
-		top: 5px;
-	}
-	a:after {
-		content: '';
-		position: absolute;
-		background: #FF5252;
-		height: 2px;
-		width: 0%;
-		transform: translateX(-50%);
-		left: 50%;
-		bottom: 0;
-		transition: .35s ease;
-	}
-	.a:hover:after, a:focus:after, a:active:after {
-		width: 100%;
-	}
-}
+	z-index: 105;
+	top: 23px;
+	right: 25px;
+    height: 45px;
+    width: 50px;
+    padding: 5px;
 
-#hero{
-	.button_container {
-		position: absolute;
-		top: 40px;
-		right: 30px;
-		height: 23px;
-		width: 32px;
-		cursor: pointer;
-		z-index: 100;
-		transition: opacity .25s ease;
-		&:hover {
-			opacity: .7;
-		}
-		span {
-			background: $color-white;
-			border: none;
-			height: 4px;
-			width: 100%;
-			position: absolute;
-			top: 0;
-			left: 0;
-			transition: all .35s ease;
-			cursor: pointer;
-		}
-		span:nth-of-type(2) {
-			top: 8px;
-		}
-		span:nth-of-type(3) {
-			top: 16px;
-		}
+	@include mq($from: large) {
+		display: none;
 	}
 
-	.button_container.active .top {
-		transform: translateY(8px) translateX(0) rotate(45deg);
-		background: $color-white;
-	}
-	.button_container.active .middle {
-		opacity: 0;
-		background: $color-white;
-	}
-	.button_container.active .bottom {
-		transform: translateY(-8px) translateX(0) rotate(-45deg);
-		background: $color-white;
-	}
-}
-
-.button_container {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	height: 23px;
-	width: 32px;
-	cursor: pointer;
-	z-index: 100;
-	transition: opacity .25s ease;
-	&:hover {
-		opacity: .7;
-	}
-	span {
-		background: $color-blue;
-		border: none;
-		height: 4px;
-		width: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		transition: all .35s ease;
-		cursor: pointer;
-	}
-	span:nth-of-type(2) {
-		top: 8px;
-	}
-	span:nth-of-type(3) {
-		top: 16px;
+	&__burger {
+		@include burger(40px, 3px, 7px, #fff);
 	}
 
 }
 
-.button_container.active .top {
-		transform: translateY(8px) translateX(0) rotate(45deg);
-		background: $color-blue;
-}
-.button_container.active .middle {
-	opacity: 0;
-	background: $color-blue;
-}
-.button_container.active .bottom {
-	transform: translateY(-8px) translateX(0) rotate(-45deg);
-	background: $color-blue;
+.burger.is-active {
+	.burger__burger {
+		@include burger-to-cross;
+	}
 }
 
 .overlay {
@@ -134,6 +42,7 @@
 	width: 100%;
 	height: 0%;
 	opacity: 0;
+	z-index: 100;
 	visibility: hidden;
 	transition: opacity .35s, visibility .35s, height .35s;
 	overflow: hidden;
@@ -142,15 +51,17 @@
 		width: 180px;
 		height: auto;
 		top: 30px;
-		left: 30px;
+		left: 20px;
 		position: absolute;
 	}
 
 	nav {
 		position: relative;
-		height: 70%;
-		top: 50%;
-		transform: translateY(-50%);
+		height: 100%;
+		padding-top: 120px;
+		padding-bottom: 120px;
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
 		font-size: 36px;
 		font-weight: 200;
 		text-align: center;
@@ -166,9 +77,6 @@
 		height: 50%;
 		li {
 			display: block;
-			height: 16%;
-			height: calc(100% / 6);
-			min-height: 50px;
 			position: relative;
 			opacity: 0;
 		}
@@ -178,8 +86,6 @@
 			color: $color-white;
 			text-decoration: none;
 			overflow: hidden;
-			padding-bottom: 15px;
-			padding-top: 5px;
 		}
 		a:hover:after, a:focus:after, a:active:after {
 			width: 100%;
@@ -196,7 +102,7 @@
 		}
 	}
 }
-.overlay.open {
+.overlay.is-open {
 	opacity: 1;
 	visibility: visible;
 	height: 100%;
@@ -204,15 +110,12 @@
 		animation: fadeInRight .5s ease forwards;
 		animation-delay: .35s;
 	}
-	li:nth-of-type(2) {
-		animation-delay: .4s;
+	@for $i from 1 through 10 {
+		li:nth-of-type(#{$i}) {
+			animation-delay: (0.4s + (0.05s * $i));
+		}
 	}
-	li:nth-of-type(3) {
-		animation-delay: .45s;
-	}
-	li:nth-of-type(4) {
-		animation-delay: .50s;
-	}
+
 }
 
 @keyframes fadeInRight {

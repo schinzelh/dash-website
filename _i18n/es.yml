@@ -28,7 +28,7 @@ pages:
     merchants-heading: Compra directamente con Dash
     merchants-text: Compras instantáneas y anónimas, directamente desde tu cartera Dash
     merchants-btn: Más comerciantes
-    merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
+    merchants-link: https://dashpay.atlassian.net/wiki/x/IgAFBQ
     merchants-join-btn: Conviértete en comerciante
     merchants-join-link: https://www.dash.org/forum/threads/merchant-directory-listing.3445
 
@@ -37,7 +37,7 @@ pages:
 
       Los Masternodes trabajan juntos en grupos y no se pueden falsificar cómo los fullnodes en otras monedas digitales. Esto significa que pueden ofrecer nuevos tipos de servicios descentralizados como transacciones instantáneas, anonimización y gobernanza, sin la amenaza de ataques a la red de bajo costo.
     architecture-btn: Aprende más
-    architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
+    architecture-link: https://dashpay.atlassian.net/wiki/x/VIHPB
 
     governance-heading: Primera gobernanza autónoma y protocolo de financiación autónomo.
     governance-text: Cualquier proyecto importante en Dash es aprobado y financiado por un sistema descentralizado público, que financia los proyectos de manera autónoma basado en los votos de la red de Masternodes. Esto significa que Dash puede financiar su propio crecimiento y adopción, se garantiza el consenso y todo el mundo es responsable de la red. No sólo eso, sino que un atacante no puede jugar contra el sistema si no compra más de la mitad de la oferta de monedas.
@@ -52,7 +52,7 @@ pages:
     evolution-heading: Evolución de la moneda digital
     evolution-text: ¿Qué es lo siguiente? Estamos trabajando en un nuevo servicio descentralizado alojado en la red de Masternodes que abrirá Dash a la web y al móvil, va a ser tan fácil de usar como PayPal pero de manera totalmente descentralizada. Manténte al tanto…
     evolution-btn: Aprende más
-    evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
+    evolution-link: https://dashpay.atlassian.net/wiki/x/ZYHPB
 
     news-heading: Últimas noticias
     news-btn: Ver todas las noticias
@@ -77,27 +77,27 @@ pages:
     setup-heading: Aprende a configurar tu monedero
     setup-text:
     setup-btn: Aprende más
-    setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
+    setup-link: https://dashpay.atlassian.net/wiki/x/YoHPB
 
     buy-heading: Compra Dash Online
     buy-text: Convierte tu moneda local a Dash y envíalo a tu monedero
     buy-btn: Compra Dash
-    buy-link: https://dashpay.atlassian.net/wiki/display/DOC/How+to+buy+Dash
+    buy-link: https://dashpay.atlassian.net/wiki/x/mYDPB
 
     trade-heading: Negocia con Dash en una casa de cambio
     trade-text: Negocia con monedas locales en una casa de cambio
     trade-btn: Negocia con Dash
-    trade-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=48693307
+    trade-link: https://dashpay.atlassian.net/wiki/x/pYDPB
 
     atm-heading: Compra Dash en un cajero
     atm-text: Compras instantáneas con Dash desde un cajero en tu país
     atm-btn: Localizador de cajeros
-    atm-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=75530385
+    atm-link: https://dashpay.atlassian.net/wiki/x/nIDPB
 
     shop-heading: Compra directamente con Dash
     shop-text: Compras anónimas y instantáneas online, directamente desde tu monedero Dash
     shop-btn: Más comerciantes
-    shop-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants
+    shop-link: https://dashpay.atlassian.net/wiki/x/-IDPB
     shop-join-btn: Conviértete en comerciante
 
     visa-heading: compra en tiendas que aceptan VISA
@@ -108,7 +108,7 @@ pages:
     need-heading: ¿Necesitas Dash?
     need-text: ¡Date de alta en nuestro foro y nosotros te enviaremos Dash!
     need-btn: Inscríbete en Dash
-    need-link: https://www.dash.org/forum
+    need-link: https://www.dash.org/forum/topic/español-spanish.28/
     need-input: Introduce tu correo electrónico
 
   participate:
@@ -123,12 +123,12 @@ pages:
     masternode-heading: Crea un Masternode y contribuye a la red Dash
     masternode-text: Ayuda a la red Dash a alojando un Masternode  o uniéndote a un servicio compartido. Los operadores de Masternodes son recompensados por la prestación de servicios descentralizados a nuestros usuarios.
     masternode-btn: Configura un masternode
-    masternode-link: https://dashpay.atlassian.net/wiki/display/DOC/Masternode
+    masternode-link: https://dashpay.atlassian.net/wiki/x/roDPB
 
     mining-heading: Empieza a minar y a asegurar la red Dash
     mining-text: Mina Dash utilizado tu ordenador o hardware dedicado. Los mineros son recompensados por asegurar la red Dash.
     mining-btn: Empieza a minar
-    mining-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
+    mining-link: https://dashpay.atlassian.net/wiki/x/GoHPB
 
     funding-heading: Desarrolla la red con la financiación del Blockchain
     funding-text: La red Dash financia cada mes las propuestas ganadoras para todo aquello que puede mejorar Dash, cosas cómo contratar desarrolladores, tomar decisiones o integrar pagos en Dash en tiendas online o puntos de venta.
@@ -138,7 +138,7 @@ pages:
     integrate-heading: ¿Aceptas Dash?
     integrate-text: Integra pagos instantáneos y anónimos en tu comercio electrónico, app o punto de venta
     integrate-btn: Integra Dash
-    integrate-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants+IX+Payment+%28dashvend%29+Guide
+    integrate-link: https://dashpay.atlassian.net/wiki/x/D4HPB
     integrate-payment-processor-btn: Procesadores de pagos
     integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/display/DOC/Payment+Processors
     integrate-contact-btn: Contacta con nuestro equipo

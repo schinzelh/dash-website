@@ -28,7 +28,7 @@ pages:
     merchants-heading: Расплачивайтесь напрямую с помощью Dash
     merchants-text: Мгновенные анонимные платежи, напрямую из кошелька Dash
     merchants-btn: Больше точек продаж
-    merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
+    merchants-link: https://dashpay.atlassian.net/wiki/x/JQDxB
     merchants-join-btn: Принимайте платежи в Dash
     merchants-join-link: https://www.dash.org/forum/threads/merchant-directory-listing.3445
 
@@ -39,7 +39,7 @@ pages:
 
       Мастерноды работают сообща друг с другом в кворумах, и результаты их работы не могут быть подделаны, как это может случаться с полными сетевыми узлами других цифровых валют. В результате, это обеспечивает создание новых видов децентрализованных сервисов, таких как мгновенные транзакции, анонимизация средств и децентрализованное управление  - которые при этом защищены от сопутствующих угроз атак на сеть.
     architecture-btn: Узнайте больше
-    architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
+    architecture-link: https://dashpay.atlassian.net/wiki/x/OoDPB
 
     governance-heading: Первая Самоуправляемая и Самофинансируемая криптовалюта
     governance-text: Все важные решения по развитию проекта Dash и их децентрализованному финансированию принимаются в ходе публичного процесса путём достижения консенсуса по результатам голосования в сети Мастернод. Это означает, что сеть Dash может самостоятельно финансировать своё развитие и адоптацию, гарантированно приходя к консенсусу по спорным вопросам, при этом учитывается голос каждого участника сети. Это в том числе позволяет защититься от потенциальных нежелательных манипуляций проектом, так как для этого атакующему потребуется купить больше половины всех средств Dash.
@@ -54,7 +54,7 @@ pages:
     evolution-heading: Эволюция Цифровых Денег
     evolution-text: Что же дальше? Мы разрабатываем новые децентрализованные сервисы, работающие на основе сети Мастернод, которые делают использование Dash с помощью web-браузеров и мобильных устройств таким же простым, как использование PayPal, но при этом работают абсолютно децентрализованно. Следите за нашими новостями...
     evolution-btn: Узнать больше
-    evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
+    evolution-link: https://dashpay.atlassian.net/wiki/x/E4PEB
 
     news-heading: Последние новости
     news-btn: Посмотреть все новости
@@ -79,27 +79,27 @@ pages:
     setup-heading: Узнайте, как Установить ваш Кошелёк
     setup-text:
     setup-btn: Узнать больше
-    setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
+    setup-link: https://dashpay.atlassian.net/wiki/x/SIDPB
 
     buy-heading: Купить Dash
     buy-text: Обменяйте свою местную валюту на Dash в вашем кошельке
     buy-btn: Купить Dash
-    buy-link: https://dashpay.atlassian.net/wiki/display/DOC/How+to+buy+Dash
+    buy-link: https://dashpay.atlassian.net/wiki/x/FoPEB
 
     trade-heading: Купите Dash на бирже
     trade-text: Купите Dash за свою местную валюту на бирже
     trade-btn: Купите Dash
-    trade-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=48693307
+    trade-link: https://dashpay.atlassian.net/wiki/x/IIPEB
 
     atm-heading: Купите Dash в банкомате
     atm-text: Мгновенная покупка Dash в банкоматах вашей страны
     atm-btn: Поиск банкоматов Dash
-    atm-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=75530385
+    atm-link: https://dashpay.atlassian.net/wiki/x/GYPEB
 
     shop-heading: Покупка товаров за Dash
     shop-text: Мгновенная и анонимная оплата покупок в Интернете, напрямую из вашего Dash кошелька
     shop-btn: Больше торговых точек
-    shop-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants
+    shop-link: https://dashpay.atlassian.net/wiki/x/eYPEB
     shop-join-btn: Начните принимать к оплате Dash
 
     visa-heading: Оплата пластиковыми картами Visa
@@ -110,7 +110,7 @@ pages:
     need-heading: Хотите получить немного Dash?
     need-text: Зарегистрируйтесь на нашем форуме и получите немного Dash!
     need-btn: Регистрация для получения Dash
-    need-link: https://www.dash.org/forum
+    need-link: https://www.dash.org/forum/topic/Русский-russian.27/
     need-input: Введите ваш Email адрес
 
   participate:
@@ -125,12 +125,12 @@ pages:
     masternode-heading: Запустите Мастерноду и сделайте сеть Dash ещё надёжней
     masternode-text: Помогите сделать сеть Dash ещё лучше, запустив собственную Мастерноду или присоединившись к сервису по совместному хостингу Мастернод. Операторы Мастернод получают вознаграждение за оказание децентрализованных услуг пользователям Dash.
     masternode-btn: Запустить Мастерноду
-    masternode-link: https://dashpay.atlassian.net/wiki/display/DOC/Masternode
+    masternode-link: https://dashpay.atlassian.net/wiki/x/LYPEB
 
     mining-heading: Займитесь Майнингом и помогите защищать сеть Dash
     mining-text: Займитесь майнингом Dash с помощью своего компьютера или специального оборудования. Майнеры Dash получают вознаграждение за помощь в обеспечении безопасности сети Dash.
     mining-btn: Заняться Майнингом
-    mining-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
+    mining-link: https://dashpay.atlassian.net/wiki/x/nIPEB
 
     funding-heading: Развивайте Сеть Dash на средства из Блокчейна
     funding-text: Сеть Dash каждый месяц финансирует различные усилия, направленные на развитие проекта, такие как найм разработчиков, мероприятия по продвижению и интеграция платежей Dash в новые популярные сервисы и магазины.
@@ -140,9 +140,9 @@ pages:
     integrate-heading: Вы принимаете к оплате Dash?
     integrate-text: Интегрируйте приём мгновенных анонимных платежей в ваши Интернет-магазин, Приложение или Торговую точку
     integrate-btn: Интегрировать Dash
-    integrate-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants+IX+Payment+%28dashvend%29+Guide
+    integrate-link: https://dashpay.atlassian.net/wiki/x/hYPEB
     integrate-payment-processor-btn: Процессинговые компании
-    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/display/DOC/Payment+Processors
+    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/x/f4PEB
     integrate-contact-btn: Свяжитесь с командой Dash
 
   currency:

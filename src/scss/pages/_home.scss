@@ -1,12 +1,18 @@
-$homeSectionPaddingTop: 40px;
+$homeSectionPaddingTop: 80px;
 
 
 .page--home {
-	> section {
-		padding: $homeSectionPaddingTop 0;
+	> section:not(.section) { // TEMP
+		padding: ($homeSectionPaddingTop/2) 0;
+
+		@include mq($from: small) {
+			padding: $homeSectionPaddingTop 0;
+		}
+
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+
 
 		&:nth-child(2n) {
 			background-color: $color-gray-light;
@@ -69,7 +75,7 @@ $homeSectionPaddingTop: 40px;
 	.home-architecture-graphic {
 		> img {
 			max-width: 100%;
-			box-shadow: -5px 0 10px $color-black;
+			box-shadow: -5px 0 10px transparentize($color-black,0.8);
 			border-radius: 8px 0 0 0;
 		}
 	}
@@ -84,7 +90,7 @@ $homeSectionPaddingTop: 40px;
 	}
 
 	.home-network-graphic {
-		min-height: 250px;
+		min-height: 150px;
 		max-width: none;
 
 		@media (min-width: 768px) {

@@ -14,13 +14,13 @@
     "clean": "npm run clean:dist",
     "copy": "npm run copy:all",
     "copy:all": "npm run copy:dist",
-    "copy:dist": "cp -R dist/ _site/dist/",
-    "copy:js": "mkdir -p _site/dist/js/ && cp -R dist/js/ _site/dist/js/",
-    "copy:css": "mkdir -p _site/dist/css/ && cp -R dist/css/ _site/dist/css/",
+    "copy:dist": "mkdir -p _site/dist/ && cp -R -f dist/ _site/dist/",
+    "copy:js": "mkdir -p _site/dist/js/ && cp -R -f dist/js/ _site/dist/js/",
+    "copy:css": "mkdir -p _site/dist/css/ && cp -R -f dist/css/ _site/dist/css/",
     "prefix": "postcss --use autoprefixer -b 'last 3 versions' --output dist/css/main.min.css dist/css/main.min.css",
     "sass:dist": "node-sass --output-style compressed  --source-map true src/scss/main.scss dist/css/main.min.css",
     "sass": "npm run sass:dist",
-    "font": "mkdir -p dist/fonts && cp -R src/fonts/ dist/fonts/",
+    "font": "mkdir -p dist/fonts && cp -R -f src/fonts/ dist/fonts/",
     "imagemin": "imagemin src/images/* _site/dist/images/ -p",
     "build:jekyll": "jekyll build --config _config.yml",
     "build:js": "npm run eslint && npm run uglify",
@@ -52,5 +52,8 @@
     "uglify-js": "2.7.3",
     "watch": "0.19.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "no-scroll": "^2.0.0",
+    "sass-burger": "^1.3.1"
+  }
 }

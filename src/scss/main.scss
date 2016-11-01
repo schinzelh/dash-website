@@ -6,6 +6,7 @@
 @import "global/directives";
 @import "global/mixins";
 @import "global/mediaqueries";
+@import "global/mediaqueries_sync";
 @import "global/typography";
 @import "layout";
 @import "grid";
@@ -26,6 +27,7 @@
 @import "video";
 @import "magnific-popup";
 @import "info-grid";
+@import "ctabox";
 
 //styles for specific pages
 @import "pages/home";

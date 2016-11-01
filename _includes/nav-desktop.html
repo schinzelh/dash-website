@@ -9,10 +9,11 @@
     {% assign logo-color = include.logo-color %}
 {% endif %}
 
+<button class="burger" type="button" data-js-open-menu aria-label="Menu" aria-controls="overlaynavigation" aria-expanded="false"><div class="burger__burger"></div></button>
+
 <header id="top" class="content">
 
     <a href="{{ basenav }}/" class="logo"><img class="logo__img" src="/assets/img/logo-{{ logo-color }}.png" alt="Dash"></a>
-
     <nav class="nav nav--{{ logo-color }}">
         <ul class="nav__list">
             <li class="nav__item"><a href="{{ basenav }}/" class="nav__link">{% t nav.what-is-dash %}</a></li>
@@ -51,7 +52,7 @@
             </li>
             {% endif %}
 
-<!--            <li class="nav__item"><a href="{{ basenav }}" class="nav__link" title="{% t nav.search %}">S</a></li>-->
+            <li class="nav__item nav__item--search"><a href="{{ basenav }}" class="nav__link" title="{% t nav.search %}">S</a></li>
         </ul>
     </nav>
 

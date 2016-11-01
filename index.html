@@ -13,12 +13,116 @@ description: pages.home.description
 		WHAT IS DASH?
 		LINK TO VIDEO.
 	-->
+	<section class="section section--home-cta">
+		<div class="section__content">
+				<h2 class="section__title">{% t pages.home.video-heading %}</h2>
+				{% tmd pages.home.video-text %}
+
+				<div class="section__btn-grp">
+					<a href="https://www.youtube.com/watch?v=S0oNO3mbBE8" class="btn-blue btn-large" target="_blank" data-js-popup="video">{% t pages.home.video-btn %}</a>
+					<a href="#" class="btn-blue-solid btn-large">{% t nav.download %}</a>
+				</div>
+		</div>
+	</section>
+
+	<!--
+		MERCHANTS
+	-->
 	<section>
 		<div class="content">
-		<h2>{% t pages.home.video-heading %}</h2>
-		{% tmd pages.home.video-text %}
+			<div>
+				<h2>{% t pages.home.merchants-heading %}</h2>
 
-		<a href="https://www.youtube.com/watch?v=S0oNO3mbBE8" class="btn-blue" target="_blank" data-js-popup="video">{% t pages.home.video-btn %}</a>
+				{% tmd pages.home.merchants-text %}
+			</div>
+
+			<div class="ctabox">
+				<div class="ctabox__inner">
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+							<h4 class="ctabox__title">Boleh VPN</h4>
+							<p class="ctabox__description">Blockchain Assets</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+							<h4 class="ctabox__title">Boleh VPN</h4>
+							<p class="ctabox__description">Blockchain Assets</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+							<h4 class="ctabox__title">Boleh VPN</h4>
+							<p class="ctabox__description">Blockchain Assets</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/node40.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+							<h4 class="ctabox__title">Node40</h4>
+							<p class="ctabox__description">Blockchain Assets</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://protonmail.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/protonmail.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://protonmail.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+							<h4 class="ctabox__title">ProtonMail</h4>
+							<p class="ctabox__description">Secure Email</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.qhoster.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/qhoster.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.qhoster.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+							<h4 class="ctabox__title">Qhoster</h4>
+							<p class="ctabox__description">Quality Hosting</p>
+							</div>
+						</a>
+					</article>
+				</div>
+			</div>
+
+			<div>
+				<a href="{% t pages.home.merchants-link %}" class="btn-blue">{% t pages.home.merchants-btn %}</a>
+				<a href="{% t pages.home.merchants-join-link %}" class="btn-blue">{% t pages.home.merchants-join-btn %}</a>
+			</div>
 		</div>
 	</section>
 
@@ -45,39 +149,6 @@ description: pages.home.description
 					<h2>{% t pages.home.feature-secure-heading %}</h2>
 					{% tmd pages.home.feature-secure-text %}
 				</div>
-			</div>
-		</div>
-	</section>
-
-	<!--
-		MERCHANTS
-	-->
-	<section>
-		<div class="content">
-			<div>
-				<h2>{% t pages.home.merchants-heading %}</h2>
-
-				{% tmd pages.home.merchants-text %}
-			</div>
-
-			<div class="logo-collection">
-				<div class="logo-collection__logo">
-					<a href="https://www.bolehvpn.net/" target="_blank"><img src="/assets/img/home/bolehvpn.png" class="logo-collection__image"></a>
-				</div>
-				<div class="logo-collection__logo">
-					<a href="https://node40.com" target="_blank"><img src="/assets/img/home/node40.png" class="logo-collection__image"></a>
-				</div>
-				<div class="logo-collection__logo">
-					<a href="https://protonmail.com/" target="_blank"><img src="/assets/img/home/protonmail.png" class="logo-collection__image"></a>
-				</div>
-				<div class="logo-collection__logo">
-					<a href="https://www.qhoster.com/" target="_blank"><img src="/assets/img/home/qhoster.png" class="logo-collection__image"></a>
-				</div>
-			</div>
-
-			<div>
-				<a href="{% t pages.home.merchants-link %}" class="btn-blue">{% t pages.home.merchants-btn %}</a>
-				<a href="{% t pages.home.merchants-join-link %}" class="btn-blue">{% t pages.home.merchants-join-btn %}</a>
 			</div>
 		</div>
 	</section>
