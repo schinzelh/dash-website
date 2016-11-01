@@ -8,99 +8,372 @@ description: pages.community.description
 
 <div class="page-community">
 
-    <!-- 
-        DISCUSSION/FORUMS
-        .community-forum-graphic
-    -->
-	<section id="community-forum">
-        <div class="content">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h2>{% t pages.community.discussion-heading %}</h2>
-                    {% tmd pages.community.discussion-text %}
-                    </div>
-                <div class="col-sm-6 community-forum-graphic">
+	<!--
+    CTA sections
+	-->
+	<section>
+		<div class="content">
+			<div>
+				<h2>{% t pages.community.discussion-heading %}</h2>
 
-                </div>
-            </div>
-        </div>   
-    </section>
-	
-    <!-- 
-        SOCIAL
-        .community-social-graphic
-    -->
-    <section id="community-social">
-        <div class="content">
-            <div class="row">
-                <div class="col-sm-6 community-social-graphic">
-                    
-                </div>
-                <div class="col-sm-6">
-                    <h2>{% t pages.community.social-heading %}</h2>
-                    {% tmd pages.community.social-text %}                
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- 
-        NEWS & INFORMATION
-        .community-news-graphic
-    -->
-    <section id="community-news">
-        <div class="content">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h2>{% t pages.community.news-heading %}</h2>
-                    {% tmd pages.community.news-text %}                
-                </div>
-                <div class="col-sm-6 community-news-graphic"></div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- 
-        DEVELOPMENT
-        .community-development-graphic
-    -->
-    <section id="community-development">
-        <div class="content">
-            <div class="row">
-                <div class="col-sm-6 community-development-graphic">
-                    
-                </div>
-                <div class="col-sm-6">
-                    <h2>{% t pages.community.development-heading %}</h2>
-                    {% tmd pages.community.development-text %}
-                </div>
-            </div>
-        </div>
-    </section>
+				{% tmd pages.community.discussion-text %}
+			</div>
 
-    <!-- 
-        MASTERNODE TOOLS
-        .community-masternode-graphic
-    -->
-    <section id="community-masternode">
-        <div class="content">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h2>{% t pages.community.masternode-heading %}</h2>
-                    {% tmd pages.community.masternode-text %}                
-                </div>
-                <div class="col-sm-6 community-masternode-graphic"></div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- 
+			<div class="ctabox" data-js-ctabox>
+				<div class="ctabox__inner">
+					<article class="ctabox__cta" data-js-ctabox-item>
+						<a href="https://www.dash.org/forum" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">DashTalk</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Reddit</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">BitcoinTalk</h4>
+							</div>
+						</a>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="content">
+			<div>
+				<h2>{% t pages.community.social-heading %}</h2>
+
+				{% tmd pages.community.social-text %}
+			</div>
+
+			<div class="ctabox">
+				<div class="ctabox__inner">
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Twitter</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Facebook</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">YouTube</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/node40.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">LinkedIn</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://protonmail.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/protonmail.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://protonmail.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Instagram</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.qhoster.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/qhoster.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.qhoster.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Qhoster</h4>
+								<p class="ctabox__description">Quality Hosting</p>
+							</div>
+						</a>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="content">
+			<div>
+				<h2>{% t pages.community.news-heading %}</h2>
+
+				{% tmd pages.community.news-text %}
+			</div>
+
+			<div class="ctabox">
+				<div class="ctabox__inner">
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Dash Nation</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Dash Roundtable</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">DashPay Magazine</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/node40.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">DashDot Alpha</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://protonmail.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/protonmail.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://protonmail.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">What Is Dash?</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.qhoster.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/qhoster.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.qhoster.com/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Dash N Drink</h4>
+							</div>
+						</a>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="content">
+			<div>
+				<h2>{% t pages.community.development-heading %}</h2>
+
+				{% tmd pages.community.development-text %}
+			</div>
+
+			<div class="ctabox">
+				<div class="ctabox__inner">
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Github</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">JIRA</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Dash Wiki</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/node40.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Dash Slack</h4>
+							</div>
+						</a>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="content">
+			<div>
+				<h2>{% t pages.community.masternode-heading %}</h2>
+
+				{% tmd pages.community.masternode-text %}
+			</div>
+
+			<div class="ctabox">
+				<div class="ctabox__inner">
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Dash Central</h4>
+								<p class="ctabox__description">Blockchain Assets</p>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">DashNinja</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/bolehvpn.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://www.bolehvpn.net/" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Node40</h4>
+							</div>
+						</a>
+					</article>
+					<article class="ctabox__cta">
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__imagewrapper">
+								<img src="/assets/img/home/node40.png" class="ctabox__image">
+							</div>
+						</a>
+						<a href="https://node40.com" target="_blank" class="ctabox__link">
+							<div class="ctabox__text">
+								<h4 class="ctabox__title">Masternode.me</h4>
+							</div>
+						</a>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+    <!--
        MEDIA | CONFERENCES | TECHNOLOGY | YOUTUBE
        similiar layout to news posts on home page.
        .community-post
        .community-image
        .community-body
-       .community-title   
+       .community-title
     -->
     <section id="community-media">
         <div class="content">
@@ -108,7 +381,7 @@ description: pages.community.description
                 <div class="col-sm-6 col-md-3">
                     <div class="community-post">
                         <div class="community-image">
-                            
+
                         </div>
                         <div class="community-body">
                             <h3 class="community-title">{% t pages.community.media-heading %}</h3>
@@ -118,7 +391,7 @@ description: pages.community.description
                 <div class="col-sm-6 col-md-3">
                     <div class="community-post">
                         <div class="community-image">
-                            
+
                         </div>
                         <div class="community-body">
                             <h3 class="community-title">{% t pages.community.conferences-heading %}</h3>
@@ -128,7 +401,7 @@ description: pages.community.description
                 <div class="col-sm-6 col-md-3">
                     <div class="community-post">
                         <div class="community-image">
-                            
+
                         </div>
                         <div class="community-body">
                             <h3 class="community-title">{% t pages.community.technology-heading %}</h3>
@@ -138,7 +411,7 @@ description: pages.community.description
                 <div class="col-sm-6 col-md-3">
                     <div class="community-post">
                         <div class="community-image">
-                            
+
                         </div>
                         <div class="community-body">
                             <h3 class="community-title">{% t pages.community.community-heading %}</h3>
@@ -150,7 +423,7 @@ description: pages.community.description
         </div>
     </section>
 
-    <!-- 
+    <!--
         NEED SOME DASH
         Repeat info from the GET-DASH page
         .getdash-need-graphic
@@ -163,10 +436,10 @@ description: pages.community.description
                     {% tmd pages.get-dash.need-text %}
 
                     <a href="#" class="btn-blue">{% t pages.get-dash.need-btn %}</a>
-                    {% tmd pages.get-dash.need-input %}            
+                    {% tmd pages.get-dash.need-input %}
                 </div>
                 <div class="col-sm-6 getdash-need-graphic">
-                    
+
                 </div>
             </div>
         </div>
