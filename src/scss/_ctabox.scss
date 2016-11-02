@@ -9,7 +9,9 @@
 		display: inline-block;
 		box-shadow: rgba(0,0,0,0.2) 0 1px 4px;
 		margin-right: 20px;
+		color: $color-black-light;
 		background: #fff;
+		text-align: center;
 	}
 
 	&__inner,
@@ -17,28 +19,49 @@
 		padding: 20px 0;
 	}
 
+	&__link {
+		display: block;
+		padding-bottom: 16px; // optical
+	}
+
 	&__inner {
 		&::before {
 			content: '';
 			position: absolute;
+			pointer-events: none;
 			z-index: 1;
 			top: 0;
 			bottom: 0;
 			left: 0;
 			width: 10%;
-			background: linear-gradient(to right, $color-gray-light 10%, transparent 100%);
+			background: linear-gradient(to right, white 10%, transparent 100%);
 		}
 		&::after {
 			content: '';
 			position: absolute;
+			pointer-events: none;
 			z-index: 1;
 			top: 0;
 			bottom: 0;
 			right: 0;
 			width: 10%;
-			background: linear-gradient(to left, $color-gray-light 10%, transparent 100%);
+			background: linear-gradient(to left, white 10%, transparent 100%);
 		}
 	}
+
+	&--gray-light-bg {
+		.ctabox {
+			&__inner {
+				&::before {
+					background: linear-gradient(to right, $color-gray-light 10%, transparent 100%);
+				}
+				&::after {
+					background: linear-gradient(to left, $color-gray-light 10%, transparent 100%);
+				}
+			}
+		}
+	}
+
 
 	&__imagewrapper {
 		background: rgba($color-blue-light, 0.1);
@@ -60,11 +83,16 @@
 		height: auto;
 	}
 
-	&__text {
+	&__title {
+		color: $color-black-light;
+		padding-top: 15px;
+		@include font-title-medium();
+	}
+	&__description {
+		color: $color-gray-dark;
+		margin: 0 !important; // TODO: get rid of specificity
 	}
 
-	&__title {
-	}
 
 	&__description {
 	}

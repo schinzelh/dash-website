@@ -1,7 +1,7 @@
 $m: 'section';
 
 .#{$m} {
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	width: 100%;
 
 	&__content {
@@ -27,6 +27,16 @@ $m: 'section';
 				color: $color-gray-dark;
 			}
 		}
+	}
+
+	&--gray-light-bg {
+		padding-top: 50px;
+		margin-bottom: 50px;
+		background: $color-gray-light;
+	}
+
+	&--cta {
+		text-align: center;
 	}
 
 	&--home-cta {
