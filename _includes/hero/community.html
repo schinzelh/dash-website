@@ -1,8 +1,8 @@
 <div class="hero" id="hero">
 	<div class="hero__background">
 		{% srcset hero/community.jpg ppi:1,2 class="hero__background-image" %}
-			{% srcset_source width:1920 %}
-			{% srcset_source width:960 %}
+		{% srcset_source width:1920 %}
+		{% srcset_source width:960 %}
 		{% endsrcset %}
 	</div>
 
@@ -15,15 +15,16 @@
 		<p class="hero__lead">{% t pages.community.hero-text %}</p>
 
 		<div class="hero__buttons">
-			<a href="#" class="btn-blue-solid">{% t pages.community.hero-forum-btn %}</a>
+			<a href="https://www.dash.org/forum/" class="btn-blue-solid">{% t pages.community.hero-forum-btn %}</a>
 		</div>
 		<div class="hero__buttons">
-			<a href="#community-forum" class="btn-white-solid">{% t pages.community.hero-discussion-btn %}</a>
+
+			<a href="#community-discussion" class="btn-white-solid">{% t pages.community.hero-discussion-btn %}</a>
 			<a href="#community-social" class="btn-white-solid">{% t pages.community.hero-social-btn %}</a>
 			<a href="#community-news" class="btn-white-solid">{% t pages.community.hero-news-btn %}</a>
 			<a href="#community-development" class="btn-white-solid">{% t pages.community.hero-development-btn %}</a>
 			<a href="#community-masternode" class="btn-white-solid">{% t pages.community.hero-masternodes-btn %}</a>
-			<a href="#community-media" class="btn-white-solid">{% t pages.community.hero-video-btn %}</a>
+			<!--<a href="#community-media" class="btn-white-solid">{% t pages.community.hero-video-btn %}</a>-->
 		</div>
 	</div>
 
