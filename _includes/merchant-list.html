@@ -3,20 +3,21 @@
 	<div class="merchant__avatar">
 		{% if merchant.image %}
 		<div class="merchant__image-wrapper">
-			<img class="merchant__image" src="/assets/img/team/{{ merchant.image }}" alt="{{ merchant.name }}">
+			<a href="{{ merchant.url }}" target="_blank" class="ctabox__link">
+				<img class="merchant__image" src="/assets/img/merchants/{{ merchant.image }}" alt="{{ merchant.name }}">
+			</a>
 		</div>
 		{% else %}
 		<div class="merchant__image-wrapper">
-			<img class="merchant__image" src="/assets/img/team/anon.png" alt="{{ merchant.name }}">
+			<a href="{{ merchant.url }}" target="_blank" class="ctabox__link">
+				<img class="merchant__image" src="/assets/img/merchant_generic_logo.png" alt="{{ merchant.name }}">
+			</a>
 		</div>
 		{% endif %}
 	</div>
 
 	<div class="merchant__name" data-mh="merchant-name">{{ merchant.name }}</div>
+	{% if merchant.title %}
 	<div class="merchant__title" data-mh="merchant-title">{{ merchant.title }}</div>
-
-	{% if merchant.url %}
-	<div class="merchant__detail merchant__detail--email"><a href="{{ merchant.url }}">{{ merchant.url }}</a></div>
 	{% endif %}
-
 </li>

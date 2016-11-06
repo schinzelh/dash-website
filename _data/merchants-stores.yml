@@ -1,25 +1,5 @@
 
-- name: ShakePay
+- name: ShakePay2
   title: Debit Card
-  image: evan.png
   url: https://shakepay.co
 
-- name: SpectroCoin
-  title: Quality Assurance, Automation, Testing
-  image: evan.png
-  url: https://spectrocoin.com/
-
-- name: Card1
-  title: Debit Card
-  image: evan.png
-  url: https://shakepay.co
-
-- name: Card2
-  title: Debit Card
-  image: evan.png
-  url: https://shakepay.co
-
-- name: Card3
-  title: Debit Card
-  image: evan.png
-  url: https://shakepay.co

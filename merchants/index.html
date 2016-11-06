@@ -9,12 +9,10 @@ description: pages.merchants.description
 <div class="page page--team">
 
 	<section class="section section--intro-lead">
-
 		<div class="section__content content">
 			<div class="section__intro">
-				<h2 class="section__title">{% t pages.merchants.debit-cards-heading %}<!-- <a class="permalink" title="Permalink" id="social"></a> --></h1>
+				<h2 class="section__title">{% t pages.merchants.cards-heading %}<!-- <a class="permalink" title="Permalink" id="social"></a> --></h1>
 			</div>
-
 			<ul class="member-list member-list--merchants">
 				{% for merchant in site.data.merchants-stores %}
 					{% include merchant-list.html %}
@@ -22,18 +20,44 @@ description: pages.merchants.description
 			</ul>
 		</div>
 	</section>
+
 	<section class="section section--intro-lead">
-
 		<div class="section__content content">
 			<div class="section__intro">
-				<h2 class="section__title">{% t pages.merchants.stores-heading %}<!-- <a class="permalink" title="Permalink" id="social"></a> --></h1>
+				<h2 class="section__title">{% t pages.merchants.stores-heading %}</h1>
 			</div>
 			<ul class="member-list member-list--merchants">
-				{% for merchant in site.data.merchants-stores %}
+				{% for merchant in site.data.merchants-cards %}
+				{% include merchant-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section section--intro-lead">
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.merchants.vpn-heading %}</h1>
+			</div>
+			<ul class="member-list member-list--merchants">
+				{% for merchant in site.data.merchants-vpn %}
 					{% include merchant-list.html %}
 				{% endfor %}
 			</ul>
 		</div>
-
 	</section>
+
+	<section class="section section--intro-lead">
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.merchants.metals-heading %}</h1>
+			</div>
+			<ul class="member-list member-list--merchants">
+				{% for merchant in site.data.merchants-metals %}
+				{% include merchant-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
 </div>
