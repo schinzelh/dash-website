@@ -1,0 +1,22 @@
+<li class="member" data-mh="merchant">
+
+	<div class="merchant__avatar">
+		{% if merchant.image %}
+		<div class="merchant__image-wrapper">
+			<img class="merchant__image" src="/assets/img/team/{{ merchant.image }}" alt="{{ merchant.name }}">
+		</div>
+		{% else %}
+		<div class="merchant__image-wrapper">
+			<img class="merchant__image" src="/assets/img/team/anon.png" alt="{{ merchant.name }}">
+		</div>
+		{% endif %}
+	</div>
+
+	<div class="merchant__name" data-mh="merchant-name">{{ merchant.name }}</div>
+	<div class="merchant__title" data-mh="merchant-title">{{ merchant.title }}</div>
+
+	{% if merchant.url %}
+	<div class="merchant__detail merchant__detail--email"><a href="{{ merchant.url }}">{{ merchant.url }}</a></div>
+	{% endif %}
+
+</li>

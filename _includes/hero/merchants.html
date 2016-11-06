@@ -1,0 +1,25 @@
+<div class="hero hero--space" id="hero">
+	<div class="hero__background">
+
+		<img src="{{ base }}/assets/img/hero/merchants.png" alt="" class="hero__background-image">
+
+	</div>
+
+	<!-- Navigation -->
+	{% include nav-desktop.html %}
+
+	<!-- Hero content -->
+	<div class="hero__content">
+		<h1 class="hero__title">{% t pages.merchants.hero-heading %}</h1>
+		<p class="hero__lead">{% t pages.merchants.hero-text %}</p>
+
+		<div class="hero__buttons">
+			<a href="https://mapme.com/dash-merchants" class="btn-white-solid">{% t pages.merchants.hero-map-btn %}</a>
+			<a href="#participate-mining" class="btn-white-solid">{% t pages.merchants.hero-integrate-btn %}</a>
+			<a href="#participate-budgets" class="btn-white-solid">{% t pages.merchants.hero-getlisted-btn %}</a>
+		</div>
+	</div>
+
+	<!-- Hero stripe -->
+	<div class="hero__stripe"></div>
+</div>
