@@ -80,6 +80,9 @@ pages:
     hero-spend-btn: Spend Dash
     hero-trade-btn: Trade Dash
 
+    claim-heading: Shop directly with Dash
+    claim-subline: Dash can be aquired, held and exchanged in many ways.
+
     setup-heading: Learn how to setup your wallet
     setup-text:
     setup-btn: Lean More
@@ -136,6 +139,9 @@ pages:
     hero-masternodes-btn: Masternodes
     hero-mining-btn: Mining
     hero-funding-btn: Funding
+
+    claim-heading: Support The Network
+    claim-subline: Everyone can contribute to Dash
 
     masternode-heading: Setup a Masternode and power Dash's Network
     masternode-text: Help power Dash by hosting a masternode or join a shared hosting service. Masternodes operators are rewarded for providing decentralized services to our users.
