@@ -117,6 +117,16 @@ pages:
     need-link: https://www.dash.org/forum
     need-input: Enter Your Email Address
 
+  merchants:
+    title: Merchants
+    description: Spend Dash at these merchants and services
+    hero-image: participate.jpg
+    hero-heading: Spend your Dash
+    hero-text: Spend your Dash instantly and securely at these merchants and services
+    hero-map-btn: Merchants Map
+    hero-integrate-btn: Integrate Dash
+    hero-getlisted-btn: Get Listed
+
   participate:
     title: Join the Dash Network
     description: Join the Dash Network
@@ -208,13 +218,15 @@ pages:
       description: The Digital Cash Blog
 
   team:
-      title: Team
-      description: The Dash Team
-
+    title: Team
+    description: The Dash Team
+    core-heading: Core-Team Board
+    core-text: Dash's core team is a group funded by the Dash Network to develop Dash.
 
 nav:
   what-is-dash: What is Dash
   get-dash: Get Dash
+  merchants: Merchants
   download: Download Wallet
   buy: Buy Dash
   shop: Shop with Dash

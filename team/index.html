@@ -9,44 +9,30 @@ description: pages.team.description
 <div class="page page--team">
 
 	<section class="section section--claim">
-		<div class="section__content content">
 
+		<div class="section__content content">
+			<div>
+				<h1>{% t pages.team.core-heading %}<a class="permalink" title="Permalink" id="social"></a></h1>
+
+				{% tmd pages.team.core-text %}
+			</div>
 			<ul class="member-list">
 				{% for member in site.data.team %}
-				<li class="member" data-mh="member">
-
-					<div class="member__avatar">
-						{% if member.image %}
-							<div class="member__image-wrapper">
-								<img class="member__image" src="/assets/img/team/{{ member.image }}" alt="{{ member.name }}">
-							</div>
-						{% else %}
-							<div class="member__image-wrapper">
-								<img class="member__image" src="/assets/img/team/anon.png" alt="{{ member.name }}">
-							</div>
-						{% endif %}
-					</div>
-
-					<div class="member__name" data-mh="member-name">{{ member.name }}</div>
-					<div class="member__title" data-mh="member-title">{{ member.title }}</div>
-					<div class="member__description">{{ member.description }}</div>
-
-					{% if member.email %}
-						<div class="member__detail member__detail--email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></div>
-					{% endif %}
-
-					{% if member.pgp %}
-						<div class="member__detail member__detail--pgp"><a href="{{ member.pgp }}">PGP Key</a></div>
-					{% endif %}
-
-					{% if member.twitter %}
-						<div class="member__detail member__detail--twitter">{{ member.twitter }}</div>
-					{% endif %}
-
-				</li>
+					{% include member-list.html %}
 				{% endfor %}
 			</ul>
-
 		</div>
+
+		<div class="section__content content">
+			<div>
+				<h2>{% t pages.community.social-heading %}<a class="permalink" title="Permalink" id="social"></a></h2>
+			</div>
+			<ul class="member-list">
+				{% for member in site.data.team %}
+					{% include member-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+
 	</section>
 </div>
