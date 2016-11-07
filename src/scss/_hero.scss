@@ -21,6 +21,9 @@
 		&--grey {
 			background: $color-gray-light;
 		}
+		&--blue {
+			background: $color-blue;
+		}
 		&--grey-blue {
 			background: $color-gray-light-blueish;
 		}
@@ -36,6 +39,9 @@
 		margin: 0 auto;
 		position: relative;
 		z-index: 3;
+		@include mq($to: extrasmall) {
+			padding: 0;
+		}
 		@include mq($from: large) {
 			padding-top: 60px;
 			padding-bottom: 120px;

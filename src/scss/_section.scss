@@ -68,14 +68,26 @@ $m: 'section';
 		text-align: center;
 		padding-bottom: 60px;
 		width: 100%;
+		@include mq($to: small) { // optical
+			text-align: left;
+			padding: 0 30px;
+		}
+		@include mq($to: extrasmall) {
+			padding: 0;
+		}
 
 		.#{$m} {
 			&__title {
-				@include font-title-large();
+				@include font-title-xlarge();
 				margin-bottom: 20px;
 			}
+			&__lead {
+
+				@include font-lead();
+				color: $color-gray-dark;
+			}
 			&__btn-grp {
-				margin: 25px 0;
+				margin: 30px 0 20px;
 				@include mq($to: 600px) { // optical
 					& > * {
 						width: 100%;
@@ -83,7 +95,7 @@ $m: 'section';
 				}
 			}
 			&__content {
-				max-width: 800px;
+				max-width: 860px;
 			}
 		}
 	}
