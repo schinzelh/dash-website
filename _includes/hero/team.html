@@ -1,9 +1,6 @@
 <div class="hero hero--team" id="hero">
 	<div class="hero__background">
-	<!-- {% srcset dashorg-nodes.jpg ppi:1,2 class="hero__background-image" %}
-			{% srcset_source width:1920 %}
-			{% srcset_source width:960 %}
-		{% endsrcset %} -->
+		<img src="{{ base }}/assets/img/hero/team.jpg" alt="" class="hero__background-image">
 	</div>
 
 	<!-- Navigation -->
@@ -13,8 +10,14 @@
 	<div class="hero__content">
 		<h1 class="hero__title">{% t pages.team.title %}</h1>
 		<p class="hero__lead">{% t pages.team.description %}</p>
-	</div>
 
+		<div class="hero__buttons">
+
+			<a href="{% t pages.team.core-proposal-link %}" class="btn-white-solid">{% t pages.team.core-proposal-btn %}</a>
+			<a href="{% t pages.team.core-approval-link %}" class="btn-white-solid">{% t pages.team.core-approval-btn %}</a>
+
+		</div>
+	</div>
 	<!-- Hero stripe -->
 	<div class="hero__stripe"></div>
 </div>

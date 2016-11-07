@@ -228,10 +228,12 @@ pages:
       description: The Digital Cash Blog
 
   team:
-    title: Team
-    description: The Dash Team
-    core-heading: Core-Team Board
-    core-text: Dash's core team is a group funded by the Dash Network to develop Dash.
+    title: The Dash Team
+    description: The Dash Team is appointed by the Dash Network and funded from the blockchain on a monthly basis from a decentralized governance proposal.
+    core-proposal-btn: Core Proposal
+    core-proposal-link: https://www.dashcentral.org/p/core-team
+    core-approval-btn: Network Approval
+    core-approval-link: http://dashvotetracker.com/history.html?ProposalID=12
 
 nav:
   what-is-dash: What is Dash
