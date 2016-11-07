@@ -22,11 +22,11 @@ pages:
     video-btn: Overview Video
 
     feature-private-heading: Private
-    feature-private-text: Delete your payments history with Private Send.
+    feature-private-text: Preserve your privacy by deleting your payments history with Private-Send.
     feature-instant-heading: Instant
-    feature-instant-text: Dash payments confirm in less than a second.
+    feature-instant-text: Dash Instant-Send payments confirm in less than a second.
     feature-secure-heading: Secure
-    feature-secure-text: Secured by 1,000 Gigahash of X11 ASIC mining.
+    feature-secure-text: Secured by 1,000 Gigahash of X11 ASIC mining and over 4,100 fullnodes hosted by server operators around the world.
 
     merchants-heading: Shop direct with Dash
     merchants-text: Instant and anonymous purchases, direct from your Dash wallet
@@ -51,11 +51,11 @@ pages:
     proposal-submit-btn: Submit a Proposal
 
     network-growth-heading: The Fastest Growing Network
-    network-growth-text: Thanks to incentivization, Dash's network has grown to 3,900 Masternodes meaning Dash is the only currency that can compete with Bitcoin for transaction processing power and future scalability.
+    network-growth-text: Thanks to incentivization, Dash's network has grown to 4,100 Masternodes meaning Dash is the only currency that can compete with Bitcoin for transaction processing power and future scalability.
     network-growth-btn: Network Stats
 
     evolution-heading: Digital Currency Evolution
-    evolution-text: What's next? We are working on a new decentralized service hosted on the masternode network that will open up Dash to web and mobile while being as easy to use as PayPal but still fully decentralized. Stay tuned...
+    evolution-text: What's next? We want cryptocurrencies to be so easy to use your Grandma can use them.  Dash Evolution will enable you to signup and access your Dash from any device, as easily as you do with PayPal, but in a fully decentralized way. Stay tuned...
     evolution-btn: Learn More
     evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
 
@@ -225,7 +225,9 @@ pages:
     # Need some Dash - get content from get-dash ^^
   blog:
       title: The Digital Cash Blog
-      description: The Digital Cash Blog
+      description: Latest Dash news & information
+      search-btn: Search Blog
+      community-news-btn: Community News
 
   team:
     title: The Dash Team
