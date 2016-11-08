@@ -1,0 +1,20 @@
+
+- name: Nestorgames
+  url: http://www.nestorgames.com/#shopextd
+  image: Nestorgames.jpg
+
+- name: Retro Towers
+  url: http://www.retrotowers.co.uk
+  image: RetroTowers.jpg
+
+- name: Key4Coin
+  url: https://key4co.in
+  image: key4coin_logo.png
+
+- name: Coin Wars
+  url: http://coinwars.rocketempires.com
+  image: CoinWars.jpg
+
+- name: FX-Lucky
+  url: http://www.fx-lucky.com
+  image: FXLucky.jpg

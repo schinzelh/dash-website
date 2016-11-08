@@ -1,5 +1,100 @@
 
-- name: ShakePay2
-  title: Debit Card
-  url: https://shakepay.co
+- name: Brave New Books
+  title: Books
+  url: http://bravenewbookstore.com
+  image: BraveNewBooks.jpg
 
+- name: Bitstickers
+  title: Stickers
+  url: http://bitstickers.net
+  image: BitStickers.jpg
+
+- name: Yipptee
+  title: T Shirts
+  url: http://www.yipptee.com
+  image: Yipptee.jpg
+
+- name: BitLasers
+  title: Lasers and Accessories
+  url: http://bitlasers.com
+  image: Bitlaser.jpg
+
+- name: DeMadera
+  title: Watches/Jewellery/Access
+  url: http://demadera.nl
+  image: DeMadera.jpg
+
+- name: PexPeppers
+  title: Hot Sauce
+  url: https://www.pexpeppers.com
+  image: PexPepper.jpg
+
+- name: Seymour Locksmith
+  title: Locksmith Service
+  url: http://seymour-locksmiths.co.uk/hove/
+  image: SeymourLocksmith.jpg
+
+- name: BitcoinSeedStore
+  title: Watches
+  url: http://www.bitcoinseedstore.com
+  image: BitcoinSeedStore.jpg
+
+- name: Misconduct Wine Company
+  title: Winery
+  url: http://www.misconductwineco.com
+  image: misconductwine_logo.jpg.jpg
+
+- name: Party Cakes4u
+  title: Cake Shop
+  url: http://www.partycakes4u.co.uk/
+  image: PartyCakesforYou.jpg
+
+- name: CryptoPet
+  title: Pets
+  url: http://cryptopet.com/
+  image: CryptoPet.jpg
+
+- name: Healthiverse
+  title: Health
+  url: http://healthiverse.net
+  image: design.jpg
+
+- name: Above All House Plants
+  title: House/ Garden
+  url: http://www.aboveallhouseplans.com
+  image: AboveAllHousePlants.jpg
+
+- name: The Reef Shop
+  title: Aquarium Equipment
+  url: http://www.thereefshop.com.au
+  image: TheReefShop.jpg
+
+- name: Philipp Engelhorn
+  title: Photography
+  url: www.philippengelhorn.com
+  image: PhilippEngelhornPhotography.jpg
+
+- name: Ivan Liborio
+  title: Law
+  url: http://www.liborio.adv.br
+  image: LiborioLawOffice.jpg
+
+- name: Stripped Clean
+  title: Maid Service
+  url: http://stripped-clean.com
+  image: StrippedClean.jpg
+
+- name: Talisman Apartments
+  title: Housing
+  url: http://talismanapts.wix.com/talisman
+  image: TalismanApts.jpg
+
+- name: FortGalt
+  title: Retreats Chile
+  url: http://www.fortgalt.com
+  image: FortGalt.jpg
+
+- name: BitFon
+  title: Phone credits
+  url: https://bitfon.pl/
+  image: Bitfon.jpg

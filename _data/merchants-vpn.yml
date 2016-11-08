@@ -1,23 +1,20 @@
 
 - name: BolehVPN
   url: https://bolehvpn.net
+  image: BolehVPN.jpg
 
 - name: VikingVPN
   url: https://vikingvpn.com
-
-- name: QHoster
-  url: http://www.qhoster.com
+  image: VikingVPN.jpg
 
 - name: MultiVPN
   url: http://multi-vpn.co.uk/
+  image: MultiVPN.jpg
 
 - name: AirVPN
   url: https://airvpn.org/
+  image: AirVPN.jpg
 
-- name: Seedstuff
+- name: SeedStuff
   url: http://www.seedstuff.ca
-
-
-
-
-
+  image: SeedStuff.jpg

@@ -2,8 +2,24 @@
 - name: ShakePay
   title: Debit Card
   url: https://shakepay.co
+  image: shakepay_logo.png
 
 - name: SpectroCoin
-  title: Quality Assurance, Automation, Testing
+  title: Debit Card
   url: https://spectrocoin.com/
+  image: SpectroCoin.jpg
 
+- name: UQUID
+  title: Debit Card
+  url: https://uquid.com/dash-debit-card
+  image: UQUID.jpg
+
+- name: Bitwala
+  title: Debit Card
+  url: https://my.bitwa.la
+  image: Bitwala.jpg
+
+- name: Wirex
+  title: Debit Card
+  url: https://wirexapp.com
+  image: Wirex.jpg

@@ -1,0 +1,16 @@
+
+- name: Crypto de Change
+  url: http://www.cryptodechange.com
+  image: CryptodeChange.jpg
+
+- name: PremiumGiftCards
+  url: https://premiumgiftcards.com
+  image: PremiumGiftCards.png
+
+- name: Gift Off
+  url: https://giftoff.com
+  image: GiftOff.jpg
+
+- name: Cryfter
+  url: http://cryfter.com
+  image: Cryfter.jpg

@@ -1,0 +1,8 @@
+
+- name: ProtonMail
+  url: https://www.protonmail.com
+  image: protonmail.png
+
+- name: ClawsMail
+  url: http://www.claws-mail.org
+  image: ClawsMail.jpg

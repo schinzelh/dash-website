@@ -130,9 +130,16 @@ pages:
     hero-integrate-btn: Integrate Dash
     hero-getlisted-btn: Get Listed
     cards-heading: Debit Cards
-    stores-heading: Web Stores
+    email-heading: Email Providers
     vpn-heading: VPN Providers
+    hosting-heading: Hosting and VPS
+    design-heading: Web & Graphic Design
+    gifts-heading: Gift Cards
+    games-heading: Games
+    casinos-heading: Online Casinos
+    stores-heading: Web Stores
     metals-heading: Precious Metals
+
 
   participate:
     title: Join the Dash Network

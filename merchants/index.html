@@ -14,8 +14,8 @@ description: pages.merchants.description
 				<h2 class="section__title">{% t pages.merchants.cards-heading %}<!-- <a class="permalink" title="Permalink" id="social"></a> --></h1>
 			</div>
 			<ul class="member-list member-list--merchants">
-				{% for merchant in site.data.merchants-stores %}
-					{% include merchant-list.html %}
+				{% for merchant in site.data.merchants-cards %}
+				{% include merchant-list.html %}
 				{% endfor %}
 			</ul>
 		</div>
@@ -24,10 +24,10 @@ description: pages.merchants.description
 	<section class="section section--intro-lead">
 		<div class="section__content content">
 			<div class="section__intro">
-				<h2 class="section__title">{% t pages.merchants.stores-heading %}</h1>
+				<h2 class="section__title">{% t pages.merchants.email-heading %}</h1>
 			</div>
 			<ul class="member-list member-list--merchants">
-				{% for merchant in site.data.merchants-cards %}
+				{% for merchant in site.data.merchants-email %}
 				{% include merchant-list.html %}
 				{% endfor %}
 			</ul>
@@ -41,7 +41,85 @@ description: pages.merchants.description
 			</div>
 			<ul class="member-list member-list--merchants">
 				{% for merchant in site.data.merchants-vpn %}
-					{% include merchant-list.html %}
+				{% include merchant-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section section--intro-lead">
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.merchants.hosting-heading %}</h1>
+			</div>
+			<ul class="member-list member-list--merchants">
+				{% for merchant in site.data.merchants-hosting %}
+				{% include merchant-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section section--intro-lead">
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.merchants.design-heading %}</h1>
+			</div>
+			<ul class="member-list member-list--merchants">
+				{% for merchant in site.data.merchants-design %}
+				{% include merchant-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section section--intro-lead">
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.merchants.gifts-heading %}</h1>
+			</div>
+			<ul class="member-list member-list--merchants">
+				{% for merchant in site.data.merchants-gifts %}
+				{% include merchant-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section section--intro-lead">
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.merchants.games-heading %}</h1>
+			</div>
+			<ul class="member-list member-list--merchants">
+				{% for merchant in site.data.merchants-games %}
+				{% include merchant-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section section--intro-lead">
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.merchants.casinos-heading %}</h1>
+			</div>
+			<ul class="member-list member-list--merchants">
+				{% for merchant in site.data.merchants-casinos %}
+				{% include merchant-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<section class="section section--intro-lead">
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.merchants.stores-heading %}</h1>
+			</div>
+			<ul class="member-list member-list--merchants">
+				{% for merchant in site.data.merchants-stores %}
+				{% include merchant-list.html %}
 				{% endfor %}
 			</ul>
 		</div>
