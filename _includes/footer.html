@@ -4,7 +4,7 @@
     <ul>
         <li><a href="{{ basenav }}/get-dash/">{% t nav.download %}</a></li>
         <li><a href="https://dashpay.atlassian.net/wiki/display/DOC/How+to+buy+Dash">{% t nav.buy %}</a></li>
-        <li><a href="https://dashpay.atlassian.net/wiki/display/DOC/Merchants">{% t nav.shop %}</a></li>
+        <li><a href="{{ basenav }}/merchants/">{% t nav.shop %}</a></li>
         <li><a href="https://dashpay.atlassian.net/wiki/display/DOC/Debit+Cards">{% t nav.debit %}</a></li>
     </ul>
   </section>
@@ -46,6 +46,7 @@
         <li><a href="https://www.dash.org/forum/categories/dash-support.61/">{% t nav.help %}</a></li>
         <li><a href="https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146914">{% t nav.info %}</a></li>
         <li><a href="{{ basenav }}/team/">{% t nav.team %}</a></li>
+		<li><a href="https://www.dashfoundation.io/">{% t nav.foundation %}</a></li>
         <li><a href="{{ basenav }}/team/">{% t nav.contact %}</a></li>
     </ul>
   </section>
@@ -66,9 +67,10 @@
 </nav>
 <div class="footer__menu content">
   <div class="footer__languagePicker"></div>
-  <a href="{{ basenav }}/terms-of-use/">Terms of Use</a>
-  <a href="/sitemap.xml">Sitemap</a>
-  <a href="{{ basenav }}/contact/">Contact</a>
+  <a href="{{ basenav }}/terms-of-use/">{% t nav.tos %}</a>
+  <a href="/sitemap.xml">{% t nav.sitemap %}</a>
+  <a href="https://github.com/dashpay/dash-website">{% t nav.sitesource %}</a>
+  <a href="{{ basenav }}/contact/">{% t nav.contact %}</a>
 </div>
 <div class="footer__legal">
   <div class="content">
