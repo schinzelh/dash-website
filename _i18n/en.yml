@@ -124,7 +124,7 @@ pages:
     title: Merchants
     description: Spend Dash at these merchants and services
     hero-image: participate.jpg
-    hero-heading: Spend your Dash
+    hero-heading: Shop with Dash
     hero-text: Spend your Dash instantly and securely at these merchants and services
     hero-map-btn: Merchants Map
     hero-integrate-btn: Integrate Dash
@@ -229,6 +229,17 @@ pages:
 
     youtube-btn: Dash YouTube
 
+  tos:
+    title: Terms of Use
+    terms:
+      Dash is only intended for legal purposes and should not be used in any other way. Neither Dash, nor any of it is developers or contributors, support any illegal activities and won’t assist them in any way.
+
+      As far as we know, the use of Dash is not illegal in most jurisdictions. However, some jurisdictions may impose limitations on the use of cryptocurrencies and/or privacy protection tools, so users in those jurisdictions should consider this before using Dash. If in doubt, please contact a local attorney to avoid doing anything that could be considered illegal in your jurisdiction.
+
+      The content of this website, or others associated with Dash, does not constitute legal advice. If you have legal doubts or need assistance, please contact an attorney in your jurisdiction.
+
+      The content of this website or others associated with Dash is not investment advice. You should use your own judgement and research multiple information sources before investing in Dash.
+
     # Need some Dash - get content from get-dash ^^
   blog:
       title: The Digital Cash Blog
@@ -282,6 +293,7 @@ nav:
   technology: Technology
   wiki: Wiki
 
+
   search: Search
 
   social: Social
@@ -297,3 +309,4 @@ nav:
 
   tos: Terms of Use
   sitemap: Sitemap
+  sitesource: Source code

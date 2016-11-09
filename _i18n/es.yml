@@ -193,6 +193,10 @@ pages:
 
     youtube-btn: Youtube Dash
 
+  tos:
+    title: Condiciones de uso
+    terms: Dash está diseñada para ser usada únicamente de forma legal. Ni Dash, ni ninguno de sus desarrolladores o colaboradores, apoya ninguna actividad ilegal, ni la faverecerá de ninguna manera. Hasta donde podemos saber, Dash no es ilegal en ninguna jurisdicción. Sin embargo, algunas jurisdicciones limitan de alguna manera el uso de criptomonedas y/o herramientas de protección de la privacidad, algo que debe ser tenido en cuenta por los usuarios en esas jurisdicciones antes de usar Dash. En caso de duda, consulte con un abogado local para evitar hacer nada que sea ilegal en su jurisdicción. El contenido de este sitio web, u otros asociados con Dash, no es asesoramiento legal. Si tiene dudas legales o necesita asistencia jurídica, por favor contacte con un abogado local. El contenido de este sitio web, u otros asociados con Dash, no es asesoramiento para invertir. Use su propio juicio e investigue múltiples fuentes de información antes de invertir en Dash.
+
     # Need some Dash - get content from get-dash ^^
   Blog:
       title: El blog del Dinero en Efectivo Digital

@@ -196,6 +196,9 @@ pages:
 
     youtube-btn: Dash su YouTube
 
+  tos:
+    title: Terms of Use
+
     # Need some Dash - get content from get-dash ^^
   blog:
       title: The Digital Cash Blog

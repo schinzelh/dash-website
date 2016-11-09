@@ -194,6 +194,9 @@ pages:
 
     youtube-btn: Dash YouTube
 
+  tos:
+    title: Terms of Use
+
     # Precisa de Dash - tenha o conteudo get-dash ^^
   blog:
       title: Dinheiro Digital Blog
