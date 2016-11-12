@@ -110,6 +110,30 @@ $homeSectionPaddingTop: 80px;
 		}
 	}
 
+  .home-network-graphic-live {
+	min-height: 350px;
+	max-width: none;
+
+	@media (min-width: 768px) {
+	  z-index: 1;
+	  > img {
+		right: -20px;
+		bottom: -50px;
+		max-width: 150%;
+	  }
+	  &:after {
+		content: '';
+		position: absolute;
+		right: -20px;
+		bottom: -50px;
+		width: 819px;
+		height: 339px;
+		max-width: 150%;
+		background: linear-gradient(to right, $color-gray-light, rgba($color-gray-light, 0.5) 13%, rgba($color-gray-light, 0) 85%);
+	  }
+	}
+  }
+
 	.home-evolution-graphic {
 		@media (min-width: 768px) {
 			z-index: 1;
