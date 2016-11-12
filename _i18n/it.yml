@@ -1,11 +1,3 @@
-global:
-  english: Inglese
-  spanish: Spagnolo
-  italian: Italiano
-  russian: Russo
-  chinese: Cinese
-  twitter: Twitter
-  github: GitHub
 
 # For multiple paragraph content add two line breaks
 pages:

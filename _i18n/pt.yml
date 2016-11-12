@@ -1,10 +1,3 @@
-global:
-  english: English
-  spanish: Español
-  russian: Русский
-  chinese: 简体中文
-  twitter: Twitter
-  github: GitHub
 
 # Para vários conteúdos de n adicionar duas quebras de linha
 pages:
