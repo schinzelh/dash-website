@@ -1,0 +1,15 @@
+.page--currency > section {
+	margin: 40px 0;
+}
+
+@media (max-width: 1199px) {
+	.page--currency table#budgets {
+		@include table-compact-mixin;
+	}
+}
+
+@media (max-width: 850px) {
+	.page--currency table#blocks {
+		@include table-compact-mixin;
+	}
+}

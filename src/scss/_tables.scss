@@ -20,3 +20,36 @@ tbody > tr {
 		background-color: rgba(black, 0.05);
 	}
 }
+
+@mixin table-compact-mixin {
+	display: block;
+	thead, tbody, tr, th, td {
+		display: block;
+	}
+
+	thead > tr {
+		position: fixed;
+		right: 110vw;
+	}
+
+	tbody > tr {
+		border: none;
+	}
+
+	td + td {
+		border-top: 1px solid rgba(black, 0.25);
+	}
+
+	td:first-child {
+		margin: 20px 0 0;
+	}
+
+	td::before {
+		content: attr(data-header);
+		display: inline-block;
+		font-weight: bold;
+		width: 11em;
+		padding-right: 1em;
+		text-align: right;
+	}
+}
