@@ -53,7 +53,7 @@ description: pages.currency.description
 		<thead>
 			<tr>
 				<th>Height</th>
-				<th>Age</th>
+				<th>Block Time</th>
 				<th>Transactions</th>
 				<th>Value Out</th>
 				<th>Difficulty</th>
@@ -92,7 +92,7 @@ description: pages.currency.description
 							change 	= formatNumber(exchange.percent_change);
 
 
-						$("#exchanges").append('<tr><td><a target="_blank" href="' + url + '">' + name + '</a></td><td>' + volume + '</td><td>' + price + '</td><td>' + change + '%</td></tr>');
+						$("#exchanges").append('<tr><td data-header="Exchange"><a target="_blank" href="' + url + '">' + name + '</a></td><td data-header="Volume (24h)">' + volume + '</td><td data-header="Price">' + price + '</td><td data-header="Volume (%)">' + change + '%</td></tr>');
 					}
 				});
 			});
@@ -131,7 +131,7 @@ description: pages.currency.description
 
 
 
-					$("#budgets").append('<tr><td>' + title + '</td><td>' + owner + '</td><td>' + votes_yes + '/' + votes_no + '</td><td>' + required_votes + '</td><td>' + amount_monthly + '</td><td>' + will_be_funded + '</td></tr>');
+					$("#budgets").append('<tr><td data-header="Title">' + title + '</td><td data-header="Owner">' + owner + '</td><td data-header="Votes (yes/no)">' + votes_yes + '/' + votes_no + '</td><td  data-header="Votes Required">' + required_votes + '</td><td data-header="Monthly Amount">' + amount_monthly + '</td><td data-header="Will be Funded">' + will_be_funded + '</td></tr>');
 
 				});
 			});
@@ -151,7 +151,7 @@ description: pages.currency.description
 						out 		= block.cbvalue,
 						difficulty 	= block.difficulty;
 
-					$("#blocks").append('<tr><td>' + height + '</td><td>' + age + '</td><td>' + txs + '</td><td>' + out + '</td><td>' + difficulty + '</td></tr>');
+					$("#blocks").append('<tr><td data-header="Height">' + height + '</td><td data-header="Block Time">' + age + '</td><td data-header="Transactions">' + txs + '</td><td data-header="Value Out">' + out + '</td><td data-header="Difficulty">' + difficulty + '</td></tr>');
 				});
 			});
 
