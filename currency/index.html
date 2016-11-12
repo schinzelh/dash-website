@@ -140,7 +140,7 @@ description: pages.currency.description
 
 
 
-					$("#budgets>tbody").append('<tr><td data-header="Title">' + title + '</td><td data-header="Owner">' + owner + '</td><td data-header="Votes (yes/no)">' + votes_yes + '/' + votes_no + '</td><td  data-header="Votes Required">' + required_votes + '</td><td data-header="Monthly Amount">' + amount_monthly + '</td><td data-header="Will be Funded">' + will_be_funded + '</td></tr>');
+					$("#budgets>tbody").append('<tr><td data-header="Title"><a href="' + url + '">' + title + '</a></td><td data-header="Owner">' + owner + '</td><td data-header="Votes (yes/no)">' + votes_yes + '/' + votes_no + '</td><td  data-header="Votes Required">' + required_votes + '</td><td data-header="Monthly Amount">' + amount_monthly + '</td><td data-header="Will be Funded">' + will_be_funded + '</td></tr>');
 
 				});
 			});

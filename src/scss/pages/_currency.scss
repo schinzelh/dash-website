@@ -2,14 +2,27 @@
 	margin: 40px 0;
 }
 
-@media (max-width: 1199px) {
-	.page--currency table#budgets {
+.page--currency table#budgets {
+	td, th {
+		&:nth-child(3), &:nth-child(6) {
+			text-align: center;
+		}
+		&:nth-child(4), &:nth-child(5) {
+			text-align: right;
+		}
+	}
+	@media (max-width: 1199px) {
 		@include table-compact-mixin;
 	}
 }
 
-@media (max-width: 850px) {
-	.page--currency table#blocks {
+.page--currency table#blocks {
+	td, th {
+		&:nth-child(3), &:nth-child(4), &:nth-child(5) {
+			text-align: right;
+		}
+	}
+	@media (max-width: 850px) {
 		@include table-compact-mixin;
 	}
 }

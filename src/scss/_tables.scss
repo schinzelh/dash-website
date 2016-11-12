@@ -23,8 +23,9 @@ tbody > tr {
 
 @mixin table-compact-mixin {
 	display: block;
-	thead, tbody, tr, th, td {
+	thead, tbody, tr, th, td:nth-child(n) {
 		display: block;
+		text-align: left;
 	}
 
 	thead > tr {
