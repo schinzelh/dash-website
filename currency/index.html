@@ -8,61 +8,71 @@ description: pages.currency.description
 
 <div class="content">
 
-	<h2>{% t pages.currency.markets-heading %}</h2>
+	<section id="section-exchanges">
+		<h2>{% t pages.currency.markets-heading %}</h2>
 
-	<table>
-		<thead>
-			<tr>
-				<th>Exchange</th>
-				<th>Volume (24h)</th>
-				<th>Price</th>
-				<th>Volume (%)</th>
-			</tr>
-		</thead>
-		<tbody id="exchanges">
+		<table id="exchanges">
+			<thead>
+				<tr>
+					<th>Exchange</th>
+					<th>Volume (24h)</th>
+					<th>Price</th>
+					<th>Volume (%)</th>
+				</tr>
+			</thead>
+			<tbody>
 
-		</tbody>
-	</table>
+			</tbody>
+		</table>
+	</section>
 
-	<h2>{% t pages.currency.governance-heading %}</h2>
+	<section id="section-governance">
+		<h2>{% t pages.currency.governance-heading %}</h2>
 
-	<table>
-		<thead>
-			<tr>
-				<th>Title</th>
-				<th>Owner</th>
-				<th>Votes (yes/no)</th>
-				<th>Votes Required</th>
-				<th>Monthly Amount</th>
-				<th>Will be Funded</th>
-			</tr>
-		</thead>
-		<tbody id="budgets">
+		<table id="budgets">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Owner</th>
+					<th>Votes (yes/no)</th>
+					<th>Votes Required</th>
+					<th>Monthly Amount</th>
+					<th>Will be Funded</th>
+				</tr>
+			</thead>
+			<tbody>
 
-		</tbody>
-	</table>
+			</tbody>
+		</table>
+	</section>
 
-	<h2>{% t pages.currency.network-heading %}</h2>
+	<section id="section-network">
+		<h2>{% t pages.currency.network-heading %}</h2>
 
-	<div id="masternodes_count"></div>
-	<div id="masternodes_max"></div>
+		<p>
+			Current masternodes: <span id="masternodes_count"></span><br>
+			Maximum masternodes so far: <span id="masternodes_max"></span>
+		</p>
+	</section>
 
-	<h2>{% t pages.currency.blockchain-heading %}</h2>
+	<section id="section-blockchain">
+		<h2>{% t pages.currency.blockchain-heading %}</h2>
 
-	<table>
-		<thead>
-			<tr>
-				<th>Height</th>
-				<th>Block Time</th>
-				<th>Transactions</th>
-				<th>Value Out</th>
-				<th>Difficulty</th>
-			</tr>
-		</thead>
-		<tbody id="blocks">
+		<table id="blocks">
+			<thead>
+				<tr>
+					<th>Height</th>
+					<th>Block Time</th>
+					<th>Transactions</th>
+					<th>Value Out</th>
+					<th>Difficulty</th>
+				</tr>
+			</thead>
+			<tbody>
 
-		</tbody>
-	</table>
+			</tbody>
+		</table>
+	</section>
 
 </div>
 
@@ -91,8 +101,7 @@ description: pages.currency.description
 							price 	= "$" + formatCurrency(exchange.price),
 							change 	= formatNumber(exchange.percent_change);
 
-
-						$("#exchanges").append('<tr><td data-header="Exchange"><a target="_blank" href="' + url + '">' + name + '</a></td><td data-header="Volume (24h)">' + volume + '</td><td data-header="Price">' + price + '</td><td data-header="Volume (%)">' + change + '%</td></tr>');
+						$("#exchanges>tbody").append('<tr><td data-header="Exchange"><a target="_blank" href="' + url + '">' + name + '</a></td><td data-header="Volume (24h)">' + volume + '</td><td data-header="Price">' + price + '</td><td data-header="Volume (%)">' + change + '%</td></tr>');
 					}
 				});
 			});
@@ -131,7 +140,7 @@ description: pages.currency.description
 
 
 
-					$("#budgets").append('<tr><td data-header="Title">' + title + '</td><td data-header="Owner">' + owner + '</td><td data-header="Votes (yes/no)">' + votes_yes + '/' + votes_no + '</td><td  data-header="Votes Required">' + required_votes + '</td><td data-header="Monthly Amount">' + amount_monthly + '</td><td data-header="Will be Funded">' + will_be_funded + '</td></tr>');
+					$("#budgets>tbody").append('<tr><td data-header="Title">' + title + '</td><td data-header="Owner">' + owner + '</td><td data-header="Votes (yes/no)">' + votes_yes + '/' + votes_no + '</td><td  data-header="Votes Required">' + required_votes + '</td><td data-header="Monthly Amount">' + amount_monthly + '</td><td data-header="Will be Funded">' + will_be_funded + '</td></tr>');
 
 				});
 			});
@@ -151,7 +160,7 @@ description: pages.currency.description
 						out 		= block.cbvalue,
 						difficulty 	= block.difficulty;
 
-					$("#blocks").append('<tr><td data-header="Height">' + height + '</td><td data-header="Block Time">' + age + '</td><td data-header="Transactions">' + txs + '</td><td data-header="Value Out">' + out + '</td><td data-header="Difficulty">' + difficulty + '</td></tr>');
+					$("#blocks>tbody").append('<tr><td data-header="Height">' + height + '</td><td data-header="Block Time">' + age + '</td><td data-header="Transactions">' + txs + '</td><td data-header="Value Out">' + out + '</td><td data-header="Difficulty">' + difficulty + '</td></tr>');
 				});
 			});
 
