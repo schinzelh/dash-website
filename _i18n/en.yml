@@ -169,18 +169,19 @@ pages:
     integrate-contact-btn: Contact Our Team
 
   currency:
-    title: Dash Currency
+    title: Dash Network
     description: Dash Currency
     hero-image: currency.jpg
-    hero-heading: Dash Currency
+    hero-heading: Dash Network
+    hero-text: Latest status of Dash Markets, Treasury, Masternodes and Blockchain
     hero-markets-btn: Markets
     hero-governance-btn: Governance
-    hero-network-btn: Network
+    hero-network-btn: Masternodes
     hero-blockchain-btn: Blockchain
 
     markets-heading: Markets
     governance-heading: Governance
-    network-heading: Network
+    network-heading: Masternodes
     blockchain-heading: Blockchain
 
   community:
@@ -255,13 +256,13 @@ nav:
   shop: Shop with Dash
   debit: Dash Debit Card
 
-  participate: Participate
+  participate: Contribute
   mining: Start Mining
   masternode: Setup a Masternode
   wallet: Setup a Wallet
   funding: Apply for Funding
 
-  currency: Currency
+  currency: Network
   exchange: Exchange Markets
   governance: Governance
   explorers: Block Explorers
