@@ -4,7 +4,7 @@ pages:
   home:
     title: Dash Official Website | Dash Crypto Currency
     description: Dash is Digital Cash
-    hero-image: stock-photo-90982809-the-monthly-finances.jpg
+    hero-image:
     hero-heading: Dash is Digital Cash!
     hero-text: The first truly-decentralized digital money system.<br />Meet Digital Cash.
 
