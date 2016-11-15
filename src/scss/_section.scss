@@ -7,7 +7,7 @@ $m: 'section';
 	&__content {
 		width: 100%;
 		max-width: $content-max-width;
-    	padding: 0 20px;
+		padding: 0 20px;
 		margin: 0 auto;
 	}
 
@@ -62,14 +62,26 @@ $m: 'section';
 		}
 	}
 
+	&--cta {
+		text-align: center;
+	}
+
 	&--gray-light-bg {
 		padding-top: 50px;
 		margin-bottom: 50px;
 		background: $color-gray-light;
 	}
 
-	&--cta {
-		text-align: center;
+	&--masternode {
+		background-color: #000 !important; // DEV:
+		color: #fff;
+		padding: 130px 0 !important; // DEV
+		.globe-text-container {
+			background: rgba(0,0,0,0.4);
+			padding: 20px;
+			border-radius: 2px;
+			box-shadow: 1px 1px 65px rgba(0,0,0,0.7);
+		}
 	}
 
 	&--home-cta {

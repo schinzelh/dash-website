@@ -20,7 +20,7 @@ description: pages.blog.description
 						{% endif %}
 					</div>
 
-					<h2 class="featurepost__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					<h2 class="featurepost__title"><a href="{{ basenav }}{{ post.url }}">{{ post.title }}</a></h2>
 
 					<em class="featurepost__date">{{ post.date | date: "%b %d, %Y" }}</em>
 

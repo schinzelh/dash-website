@@ -54,6 +54,14 @@
 	&:hover {
 	}
 }
+.btn-blue-dark {
+	@extend .btn;
+	background-color: $color-blue-dark;
+	color: $color-white !important;
+	text-decoration: none;
+	&:hover {
+	}
+}
 
 .btn-blue-solid {
 	@extend .btn;

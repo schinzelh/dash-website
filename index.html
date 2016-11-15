@@ -262,10 +262,10 @@ description: pages.home.description
 	<!--
 		FASTEST GROWING NETWORK
 	-->
-	<section>
+	<section class="section--masternode">
 		<div class="content">
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-sm-6 globe-text-container">
 					<h2>{% t pages.home.network-growth-heading %}</h2>
 
 					{% tmd pages.home.network-growth-text %}
@@ -276,12 +276,29 @@ description: pages.home.description
 					<img src="/assets/img/home/graph.png" alt="{% t pages.home.network-growth-heading %}">
 				</div-->
 				<div class="col-sm-6 home-network-graphic-live">
-					<a href="http://178.254.23.111/~pub/Dash/Dash_Info.html" target="_blank">
 					<img src="http://178.254.23.111/~pub/masternode_count.png" alt="{% t pages.home.network-growth-heading %}">
-					</a>
 				</div>
 			</div>
 		</div>
+		<div class="globecontainer" data-js-masternode-globe></div>
+		<script type="text/javascript" src="/assets/js/dash-masternode-globe.min.js"></script>
+		<script type="text/javascript">
+			document.addEventListener("DOMContentLoaded", function() {
+				if (!DashGlobe.Detector.webgl) {
+					var el = document.querySelectorAll('[data-js-masternode-globe]')[0];
+					el.className = el.className + ' no-webgl';
+				} else {
+					window.globe = new DashGlobe({
+						container: document.querySelectorAll('[data-js-masternode-globe]')[0],
+						imgDir: '/assets/img/',
+						url: '/assets/mn_locations.tsv',
+						cameraOffset: { x: 0, y: 170, z: 0 },
+						initialZoom: 450,
+						barColor: 0xddddddff
+					});
+				}
+			});
+		</script>
 	</section>
 
 	<!--
@@ -297,7 +314,7 @@ description: pages.home.description
 
 					<a href="{% t pages.home.evolution-link %}" target="_blank" class="btn-blue">{% t pages.home.evolution-btn %}</a>
 				</div>
-				<div class="col-sm-6 col-sm-pull-6 home-evolution-graphic">
+				<div class="col-sm-6 col-sm-pull-6">
 					<img src="/assets/img/home/evo.png" alt="Dash Evolution">
 				</div>
 			</div>

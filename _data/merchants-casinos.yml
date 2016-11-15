@@ -1,6 +1,6 @@
 
 - name: DirectBet
-  url: www.DirectBet.eu/
+  url: http://www.DirectBet.eu/
   image: DirectBet.jpg
 
 - name: FortuneJack
@@ -8,5 +8,5 @@
   image: FortuneJack.jpg
 
 - name: CryptoGames
-  url: www.crypto-games.net
+  url: http://www.crypto-games.net
   image: CryptoGames.jpg
