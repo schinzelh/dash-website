@@ -2,7 +2,7 @@
 # For multiple paragraph content add two line breaks
 pages:
   home:
-    title: Official Website | Private Digital Currency
+    title: Dash Official Website | Dash Crypto Currency
     description: Dash is Digital Cash
     hero-image: stock-photo-90982809-the-monthly-finances.jpg
     hero-heading: Dash is Digital Cash!
@@ -24,11 +24,12 @@ pages:
     merchants-btn: More Merchants
     merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
     merchants-join-btn: Become a Merchant
-    merchants-join-link: https://www.dash.org/forum/threads/merchant-directory-listing.3445
+    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
 
     architecture-heading: Next-Gen P2P Network
     architecture-text:
       At Dash’s core is a unique incentivized P2P network.  Miners are rewarded to secure the Dash blockchain and Masternodes are rewarded for validating, storing and serving the Blockchain to end-users.
+
 
       Masternodes are a new type of fullnode that can’t be faked and can work together in secure clusters called Quorums to provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.
 
@@ -38,16 +39,26 @@ pages:
     governance-heading: First Self Governing, Self Funding Protocol
     governance-text: In Dash, everyone is incentivized.  This includes development, integration, marketing or anything you can do to help to grow Dash and improve it for our users.  This means Dash can fund its own growth and adoption, consensus is guaranteed, and everyone is accountable to the network.
 
+
                      Just submit a treasury proposal and present your idea to the network for funding and make your case, or if you operate a Masternode, be sure to vote!
     proposal-btn: Proposals
     proposal-submit-btn: Submit a Proposal
 
     network-growth-heading: The Fastest Growing Network
-    network-growth-text: Thanks to incentivization, Dash’s network has grown to 4,100 Masternodes since launch in 2014, meaning Dash’s core P2P network is one of the largest in the world.  More nodes means more secure Dash services, and the more end-users can access Digital Cash from anywhere in the world, 24/7.
+    network-growth-text:
+      Thanks to incentivization, Dash’s network has grown to 4,100 Masternodes since launch in 2014, meaning Dash’s core P2P network is one of the largest in the world.
+
+
+      More nodes means more secure Dash services, and the more end-users can access Digital Cash from anywhere in the world, 24/7.
     network-growth-btn: Network Stats
 
     evolution-heading: Digital Currency Evolution
-    evolution-text: What's next? We want cryptocurrencies to be so easy to use your Grandma can use them.  Dash Evolution will enable you to signup and access your Dash from any device, as easily as you do with PayPal, but in a fully decentralized way. Stay tuned...
+    evolution-text:
+
+      What's next? We want cryptocurrencies to be so easy to use your Grandma can use them.
+
+
+      Dash Evolution will enable you to signup and access your Dash from any device, as easily as you do with PayPal, but in a fully decentralized way. Stay tuned...
     evolution-btn: Learn More
     evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
 
@@ -229,9 +240,12 @@ pages:
     terms:
       Dash is only intended for legal purposes and should not be used in any other way. Neither Dash, nor any of it is developers or contributors, support any illegal activities and won’t assist them in any way.
 
+
       As far as we know, the use of Dash is not illegal in most jurisdictions. However, some jurisdictions may impose limitations on the use of cryptocurrencies and/or privacy protection tools, so users in those jurisdictions should consider this before using Dash. If in doubt, please contact a local attorney to avoid doing anything that could be considered illegal in your jurisdiction.
 
+
       The content of this website, or others associated with Dash, does not constitute legal advice. If you have legal doubts or need assistance, please contact an attorney in your jurisdiction.
+
 
       The content of this website or others associated with Dash is not investment advice. You should use your own judgement and research multiple information sources before investing in Dash.
 
