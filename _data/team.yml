@@ -4,8 +4,8 @@
   description: Evan (AKA “eduffield”, “evan82”) brings Dash over 17 years of software development experience and an interest in artificial intelligence, financial markets and economics.
   image: evan.png
   email: evan@dash.org
-  pgp: 
-  twitter: 
+  pgp:
+  twitter:
 
 - name: Holger Schinzel
   title: Quality Assurance, Automation, Testing
@@ -13,47 +13,158 @@
   image: holger.png
   email: holger@dash.org
   pgp: https://www.dash.org/wp-content/uploads/2015/11/holger-schinzel.txt
-  twitter: 
+  twitter:
 
 - name: UdjinM6
   title: Core Developer
   description: Brings a total of 12 years of programming experience writing in-house tools for IT companies, user support and quality assurance.
   image: udjinm6.png
-  email: udjinm6@dash.org 
+  email: udjinm6@dash.org
   pgp: https://www.dash.org/wp-content/uploads/2015/11/udjinm6.txt
-  twitter: 
+  twitter:
+
+- name: Timothy Flynn
+  title: Core Developer
+  description:
+  image: timothy.png
+  email: timothy@dash.org
+  twitter:
 
 - name: Crowning
   title: Core Development / Testing
   description: Crowning is trained in Computer Science and Mathematics and has 35 years of experience in software development in languages from C to Java, client/server architecture, databases, security, data encryption and rich web applications.
+  image: crowning.png
+  email:
+  pgp:
+  twitter:
+
+- name: Chae-Pil Lim
+  title: Core Development
+  description:
+  image: chaeplin.jpeg
+  email:
+  pgp:
+  twitter:
+
+- name: MooCowMoo
+  title: Development / Testing
+  description: Has two decades experience developing backend software and custom toolchains for automating development, testing, and deployment. He built the first automated masternode service masternode.me and is the author of dashman, a masternode management utility and dashvend, example point-of-sale software leveraging InstantX. He is self taught in computer science, cryptography, software engineering, and electrical engineering with primary focuses in Linux, Bash, Python, git, and vim.
+  image: moo.png
+  email: moo@dash.org
+  pgp: https://www.dash.org/wp-content/uploads/2016/05/moocowmooo-pgp.asc
+  twitter:
+
+- name: Tyler Willis
+  title: Core Developer
+  description:
+  image:
+  email: tyler@dash.org
+  pgp:
+  twitter:
+
+- name: TheLazieR Yip
+  title: Core Developer
+  description:
+  image: thelazier.jpeg
+  email:
+  pgp:
+  twitter:
+
+- name: Andy Freer
+  title: Evolution Team Lead
+  description: Andy has 17 years experience as a developer and 12 years as a CTO in the E-commerce, Web, SaaS, ERP, P2P streaming, Supply Chain and Games spaces.
+  image: andy_f.png
+  email: andy@dash.org
+  pgp:
+  twitter:
+
+- name: Nathan Marley
+  title: Evolution Developer
+  description:
+  image: nathan.jpeg
+  email: nathan@dash.org
+  pgp:
+  twitter:
+
+- name: Jon Kindel
+  title: Evolution Backend Lead
+  description:
+  image: jon.png
+  email: jon@dash.org
+  pgp:
+  twitter:
+
+- name: Cofresi
+  title: Evolution Backend Developer
+  description:
+  image: cofresi.png
+  email:
+  pgp:
+  twitter:
+
+- name: Alex Werner
+  title: Evolution Backend Developer
+  description:
+  image: alex_werner.png
+  email:
+  pgp:
+  twitter:
+
+- name: White (0xfff)
+  title: Evolution Frontend Developer
+  description:
   image: anon.png
-  email: 
-  pgp: 
-  twitter: 
+  email: 0xfff@protonmail.com
+  pgp:
+  twitter:
+
+- name: Acidburn
+  title: Evolution Frontend Developer
+  description:
+  image: anon.png
+  email:
+  pgp:
+  twitter:
+
+- name: Joshua Seigler
+  title: Evolution Frontend Developer
+  description:
+  image: joshua.png
+  email: joshua@seigler.net
+  pgp:
+  twitter:
 
 - name: Quantum Explorer
   title: iOS Developer
   description: QuantumExplorer is a Lead Software Engineer with over 2 years experience leading teams and 6 years experience developing iOS solutions. He has built many successful in-house projects that served multiple millions of users. By night he is a cryptocurrency aficionado who believes that our current economic system is flawed and could be greatly improved by emerging technology. He believes that Dash is the leader of this trend.
   image: anon.png
-  email: 
-  pgp: 
-  twitter: 
+  email:
+  pgp:
+  twitter:
 
-- name: MooCowMoo
-  title: Developer
-  description: Has two decades experience developing backend software and custom toolchains for automating development, testing, and deployment. He built the first automated masternode service masternode.me and is the author of dashman, a masternode management utility and dashvend, example point-of-sale software leveraging InstantX. He is self taught in computer science, cryptography, software engineering, and electrical engineering with primary focuses in Linux, Bash, Python, git, and vim.
-  image: sillouette.jpg
-  email: moo@dash.org
-  pgp: https://www.dash.org/wp-content/uploads/2016/05/moocowmooo-pgp.asc
-  twitter: 
+- name: Tomasz Ludek
+  title: Android Developer
+  description:
+  image: tomasz.png
+  email:
+  pgp:
+  twitter:
 
-- name: Andy Freer
+- name: Akhavr
   title: Developer
-  description: Andy (AKA “afreer”, “AndyDark”) has 15 years experience designing and developing E-commerce, Web, SaaS, ERP, P2P streaming, mobile and real-time systems and apps in Europe and Asia.
-  image: anon.png
-  email: 
-  pgp: 
-  twitter: 
+  description:
+  image: akhavr.jpeg
+  email:
+  pgp:
+  twitter:
+
+- name: Jeff Smith
+  title: Network Operations
+  description:
+  image: coingun.png
+  email: jeff@dash.org
+  pgp:
+  twitter:
 
 - name: Fernando Gutierrez
   title: Multitool
@@ -69,60 +180,108 @@
   image: philipp.png
   email: press@dash.org
   pgp: https://www.dash.org/wp-content/uploads/2016/01/philipp-engelhorn.txt
-  twitter: 
+  twitter:
 
 - name: Daniel Diaz
   title: Business Development
   description: Daniel (AKA “Minotaur”) is an Electronics Engineer with an inclination for business. He is an entrepreneur with 10 years experience in sales and business development for SaaS software and electronic security equipment companies.
   image: daniel_d.png
   email: daniel@dash.org
-  pgp: 
-  twitter: 
-  
-  - name: Ryan Taylor
+  pgp:
+  twitter:
+
+- name: Ryan Taylor
   title: Finance
   description: Ryan (AKA “babygiraffe”) has an MBA with a concentration in Finance & Economics. He has over 15 years of experience in technology, strategy consulting, and finance. As a consultant, he served many of the world’s largest financial institutions on a wide variety of strategy and technology topics. Most recently, Ryan was a hedge fund analyst covering both private equity and public market investments within the payments sector. He brings to the team a deep understanding of payments-specific business strategy, product management, and operations.
   image: ryan_taylor.jpg
   email: ryan@dash.org
-  pgp: 
-  twitter: 
-  
-  - name: Robert Wiecko
+  pgp:
+  twitter:
+
+- name: Robert Wiecko
   title: Project Management
   description: Robert (AKA “__kot__”, “kot”) brings 14+ years of professional experience in the IT industry. He is certified Scrum Master, PM and ITIL professional, fascinated by digital currencies, global economics, music and healthy lifestyle.
   image: RobertWiecko.jpg
   email: robert@dash.org
   pgp: https://www.dash.org/wp-content/uploads/2015/11/robert-wiecko.txt
-  twitter: 
+  twitter:
 
 - name: Mario Müller
   title: Security Specialist
   description: Mario “Aswan” Müller has been active in the crypto currency scene since early 2013. He quickly became interested in the technical aspect of bitcoin and some altcoins. He is an expert at blockchain technology with emphasis on Privacy, Anonymity, Coinjoin and Darksend. He joined the darkcoin community in june 2014 and has been actively working on improvements for darksend since november 2014. He also coined the term “Dead Change”.
   image: anon.png
   email: aswan@dash.org
-  pgp: 
-  twitter: 
+  pgp:
+  twitter:
 
 - name: Alexandre Devilliers
   title: Testing and Deployment
   description: Alexandre (AKA “elbereth”) has computer science and management degree and 10 years of IT consulting experience. He operates the most used Masternode tools site.
   image: alexandre.png
-  email: 
-  pgp: 
-  twitter: 
+  email:
+  pgp:
+  twitter:
+
+- name: Alex-ru
+  title: Dash Russia Coordinator
+  description:
+  image:
+  email: alex.dash.russia@gmail.com
+  pgp:
+  twitter:
+
+- name: Alexy and Raico
+  title: Dash China Coordinators
+  description:
+  image:
+  email: alexy@dash.org
+  pgp:
+  twitter:
+
+- name: David Dinkins
+  title: Writer / Editor
+  description:
+  image:
+  email:
+  pgp:
+  twitter:
+
+- name: Balu
+  title: Project Manager
+  description:
+  image: balu.png
+  email:
+  pgp:
+  twitter:
+
+- name: Ahmed Aseeri
+  title: Project Manager
+  description:
+  image:
+  email:
+  pgp:
+  twitter:
 
 - name: Tiago Serodio
   title: Testing and Deployment
   description: Tiago (AKA “yidakee”, “GhostPlayer”) has degrees is Audio Engineering and Neurosciences. He brings 17 years experience in production, team management and project coordination, ranging from entertainment, industry and science.
   image: tiago.png
-  email: 
-  pgp: 
-  twitter: 
+  email:
+  pgp:
+  twitter:
 
 - name: Slawek
   title: Testing and Deployment
   description: Slawek (AKA “splawik21”) has a degree in management & marketing. He brings 6 years of experience as a team leader in direct sales and another 5 years on leadership positions in automotive industry. IT hobbyist, Polish Dash sub-forum founder and crypto-currency enthusiast.
   image: splawik21.png
   email: splawik21@dash.org
-  pgp: 
+  pgp:
   twitter: https://twitter.com/splawik21
+
+- name: Perry Woodin
+  title: Advisor
+  description:
+  image: perry_sm.jpg
+  email:
+  pgp:
+  twitter:
