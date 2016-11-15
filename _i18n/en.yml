@@ -17,7 +17,7 @@ pages:
     feature-instant-heading: Instant
     feature-instant-text: Dash Instant-Send payments confirm in less than a second.
     feature-secure-heading: Secure
-    feature-secure-text: Secured by 1,000 Gigahash of X11 ASIC mining and over 4,100 fullnodes hosted by server operators around the world.
+    feature-secure-text: Secured by 1,000 Gigahash of X11 ASIC mining and over 4,100 fullnodes hosted by Dash contributors around the world.
 
     merchants-heading: Shop direct with Dash
     merchants-text: Instant and anonymous purchases, direct from your Dash wallet
@@ -26,23 +26,24 @@ pages:
     merchants-join-btn: Become a Merchant
     merchants-join-link: https://www.dash.org/forum/threads/merchant-directory-listing.3445
 
-    architecture-heading: Next-Gen Network Architecture
+    architecture-heading: Next-Gen P2P Network
     architecture-text:
-      The core of Dash's unique technology is a two-tier P2P network design that rewards users who run a special kind of node called a masternode and host it 24/7 on dedicated hardware. The network requires that those who run masternodes must provide cryptographic proof that they own 1,000 Dash per masternode. This secures the network against Sybil attacks by making such attacks prohibitively expensive.
+      At Dash’s core is a unique incentivized P2P network.  Miners are rewarded to secure the Dash blockchain and Masternodes are rewarded for validating, storing and serving the Blockchain to end-users.
 
+      Masternodes are a new type of fullnode that can’t be faked and can work together in secure clusters called Quorums to provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.
 
-      Masternodes work together in clusters and can't be faked like fullnodes in other digital currencies. This means they can provide new kinds of decentralized services, like instant transactions, anonymization and governance, without the threat of low-cost network attacks.
     architecture-btn: Learn More
     architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
 
     governance-heading: First Self Governing, Self Funding Protocol
-    governance-text: Any important project of decision in Dash is agreed and funded by a decentralized public process that funds projects autonomously based on masternode-netwok votes. This means Dash can fund its own growth and adoption, consensus is guaranteed, and everyone is accountable to the network. Not only that, but an attacker can't game the system without buying over half the currency supply.
+    governance-text: In Dash, everyone is incentivized.  This includes development, integration, marketing or anything you can do to help to grow Dash and improve it for our users.  This means Dash can fund its own growth and adoption, consensus is guaranteed, and everyone is accountable to the network.
 
+                     Just submit a treasury proposal and present your idea to the network for funding and make your case, or if you operate a Masternode, be sure to vote!
     proposal-btn: Proposals
     proposal-submit-btn: Submit a Proposal
 
     network-growth-heading: The Fastest Growing Network
-    network-growth-text: Thanks to incentivization, Dash's network has grown to 4,100 Masternodes meaning Dash is the only currency that can compete with Bitcoin for transaction processing power and future scalability.
+    network-growth-text: Thanks to incentivization, Dash’s network has grown to 4,100 Masternodes since launch in 2014, meaning Dash’s core P2P network is one of the largest in the world.  More nodes means more secure Dash services, and the more end-users can access Digital Cash from anywhere in the world, 24/7.
     network-growth-btn: Network Stats
 
     evolution-heading: Digital Currency Evolution
@@ -71,7 +72,7 @@ pages:
     hero-spend-btn: Spend Dash
     hero-trade-btn: Trade Dash
 
-    claim-heading: Shop directly with Dash
+    claim-heading: Buy, Sell, Exchange Dash
     claim-subline: Dash can be aquired, held and exchanged in many ways.
 
     setup-heading: Learn how to setup your wallet
@@ -136,8 +137,8 @@ pages:
     title: Join the Dash Network
     description: Join the Dash Network
     hero-image: participate.jpg
-    hero-heading: Join our Network
-    hero-text: Earn Dash by powering, securing or developing the Dash network
+    hero-heading: Help Build Digital Cash
+    hero-text: Contribute and earn Dash by powering, securing or developing the Dash network
     hero-masternodes-btn: Masternodes
     hero-mining-btn: Mining
     hero-funding-btn: Funding
@@ -172,17 +173,19 @@ pages:
     title: Dash Network
     description: Dash Currency
     hero-image: currency.jpg
-    hero-heading: Dash Network
+    hero-heading: Network Status
     hero-text: Latest status of Dash Markets, Treasury, Masternodes and Blockchain
     hero-markets-btn: Markets
-    hero-governance-btn: Governance
+    hero-governance-btn: Treasury
     hero-network-btn: Masternodes
     hero-blockchain-btn: Blockchain
+    hero-mining-btn: Mining
 
     markets-heading: Markets
-    governance-heading: Governance
+    governance-heading: Treasury
     network-heading: Masternodes
     blockchain-heading: Blockchain
+    mining-heading: Mining
 
   community:
     title: Join the Dash Community
