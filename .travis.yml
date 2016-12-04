@@ -1,11 +1,13 @@
 notifications:
   email:
-    - perry@node40.com
-    - press@dash.org
-    - andy@dash.org
+  - perry@node40.com
+  - press@dash.org
+  - andy@dash.org
+  slack:
+    secure: TWQ8SGK4ntX10tytGWMI+uh/JsHqoWvb+rQdgYNCPWjo4tbaFrReedjkbUu7/Ex9z7v9akJPPD/fIiC39cwVZTNi7S7cu0/Nvy3f4rAbx87hvWUBhHvoIBZQYP1PBovYsreBanVAn91oqHugToW3XZLcByioiRqtNISAwXSISN/BPRQUTmac5m/fULgWpmX0z/AGiQbj3YSd2OujkYTEEFd1P7cx53+HQLN1dUc6fXmIG7OCkgnXm1MIMACLAdzWYxYnfSpQXcSuT/EB3acT6k9+10/GDQRRH2QyeAbB5RjaFN0cc9DYwPXC4JQK/jaGeJJihTstj2tdgWmaKsHEuYB5PksgrBsFXCIrtPuqD7ME4+ZqtMCJfqheQKMT7ujDUAaLwSDCFtnVkrNHyRZof4LfuqbjX+vf1z6Y+O1IJT23ZohYmQw4+BmdLeHg0YHxmZRGGrnSF49TA1TivTJuswsdW+gjTPcgegke08z8y9hovgbsaKd98KZTKeDqofJqKUXjJ0z5XGjVPB/B9MOqq2pzZyYi5b5gtB4/fnz914pGQceTrq9yLJBRW1QftVO7BW3gS0aksXyDo9NWPgdD+oslnYqKPs1AqH7WOrfdVuDerKDDfH56ahMtbRykHl4/e34GaNuVebP4dVaPetZVApYUARWG1Pslv8NAiAFesrQ=
 language: node_js
 node_js:
-  - 4.5.0
+- 4.5.0
 before_script:
 - chmod +x ./cibuild.sh
 - ssh-keyscan -H -t rsa,dsa $hostname >> ~/.ssh/known_hosts
@@ -16,12 +18,12 @@ env:
   - CXX=g++-4.8
 sudo: false
 addons:
-  ssh_known_hosts: $hostname
+  ssh_known_hosts: "$hostname"
   apt:
     sources:
-      - ubuntu-toolchain-r-test
+    - ubuntu-toolchain-r-test
     packages:
-      - g++-4.8
+    - g++-4.8
 before_install:
 - openssl aes-256-cbc -K $encrypted_4395499fa958_key -iv $encrypted_4395499fa958_iv
   -in dash.org-test-web.pem.enc -out dash.org-test-web.pem -d
@@ -33,6 +35,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r -c -v --delete-after --exclude-from 'ciexclude.txt' $TRAVIS_BUILD_DIR/_site/ $user@$hostname:$production_path
+  script: rsync -r -c -v --delete-after --exclude-from 'ciexclude.txt' $TRAVIS_BUILD_DIR/_site/ <1></1>user@$hostname:$production_path
   on:
     branch: master
