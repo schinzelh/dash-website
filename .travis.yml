@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 4.5.0
+- 4.5.0
 before_script:
 - chmod +x ./cibuild.sh
 - ssh-keyscan -H -t rsa,dsa $hostname >> ~/.ssh/known_hosts
@@ -11,15 +11,16 @@ env:
   - CXX=g++-4.8
 sudo: false
 addons:
-  ssh_known_hosts: $hostname
+  ssh_known_hosts:
+  - $hostname
+  - 146.185.153.42
   apt:
     sources:
-      - ubuntu-toolchain-r-test
+    - ubuntu-toolchain-r-test
     packages:
-      - g++-4.8
+    - g++-4.8
 before_install:
-- openssl aes-256-cbc -K $encrypted_4395499fa958_key -iv $encrypted_4395499fa958_iv
-  -in dash.org-test-web.pem.enc -out dash.org-test-web.pem -d
+- openssl aes-256-cbc -K $encrypted_2cd39daa8a1b_key -iv $encrypted_2cd39daa8a1b_iv -in dash.org-test-web.pem.enc -out dash.org-test-web.pem -d
 - rvm install 2.3.1
 before_deploy:
 - eval "$(ssh-agent -s)"
@@ -28,6 +29,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r -c -v --delete-after --exclude-from 'ciexclude.txt' $TRAVIS_BUILD_DIR/_site/ $user@$hostname:$production_path
+  script: rsync -r -c -v --delete-after --exclude-from 'ciexclude.txt' $TRAVIS_BUILD_DIR/_site/ user@$hostname:$production_path
   on:
     branch: master

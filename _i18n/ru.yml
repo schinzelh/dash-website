@@ -2,52 +2,64 @@
 # For multiple paragraph content add two line breaks
 pages:
   home:
-    title: Официальный Сайт | Цифровая Приватная Валюта
+    title: Dash - Официальный Сайт | Криптовалюта Dash
     description: Dash - это Цифровая Наличность
+    hero-image:
     hero-heading: Dash - это Цифровая Наличность!
     hero-text: Первая действительно децентрализованная платёжная сеть.<br />Откройте для себя Цифровую Наличность.
 
     video-heading: Dash - это Цифровая Валюта для использования в Интернете
-    video-text: Платите с помощью Dash мгновенно и приватно в Интернете и в реальном мире с помощью безопасного ПО с открытым исходным кодом, которое работает на базе платёжной платформы, поддерживаемой тысячами пользователей по всему миру.
-    video-btn: Смотрите Ознакомительное Видео
+    video-text: Платите с помощью Dash мгновенно и приватно в Интернете и в реальном мире с помощью безопасного ПО с открытым исходным кодом, которое работает на базе платёжной платформы, поддерживаемой тысячами пользователей по всему миру
+    video-btn: Ознакомительное Видео
 
     feature-private-heading: Приватный
-    feature-private-text: Dash - приватный.
+    feature-private-text: Защитите свою финансовую информацию.  PrivateSend обеспечит приватность ваших финансовых операций и остатков на счетах.
     feature-instant-heading: Мгновенный
-    feature-instant-text: Dash - мгновенный.
+    feature-instant-text: Ваше время имеет ценность. InstantSend подтверждает платежи менее чем за секунду.
     feature-secure-heading: Безопасный
-    feature-secure-text: Dash - безопасный.
+    feature-secure-text: Безопасность, на которую можно положиться. Транзакции подтверждаются вычистительной мощностью более 1.000 Gigahash X11 ASIC-майнеров и сетью из более чем 4.100 серверов, хостящихся по всему миру.
 
     merchants-heading: Расплачивайтесь напрямую с помощью Dash
-    merchants-text: Мгновенные анонимные платежи, напрямую из кошелька Dash
+    merchants-text: Мгновенные приватные платежи, напрямую из вашего кошелька Dash
     merchants-btn: Больше точек продаж
-    merchants-link: https://dashpay.atlassian.net/wiki/x/JQDxB
+    merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
     merchants-join-btn: Принимайте платежи в Dash
-    merchants-join-link: https://www.dash.org/forum/threads/merchant-directory-listing.3445
+    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
 
-    architecture-heading: Инновационная Сетевая Архитектура
+    architecture-heading: P2P Сеть Следующего Поколения
     architecture-text:
-      Основа уникальной технологии Dash - двухуровневая P2P сетевая архитектура, в которой пользователи поощряются за поддержание работы специальных сетевых узлов (Мастернод), с использованием выделенных серверов в режиме 24/7. Требования сети подразумевают криптографическое подтверждение наличия у оператора каждой Мастерноды суммы в 1000 DASH. Это защищает сеть Dash от атак Сибиллы, делая атаки такого типа практически нереализуемыми.
+      Основа технологии Dash - уникальная двухуровневая P2P сетевая архитектура со встроенной системой поощрений. Майнеры поощряются за обеспечение безопасности блокчейна, а сетевые узлы (Мастерноды) вознаграждаются за проверку, хранение и предоставление блокчейна пользователям.
 
 
-      Мастерноды работают сообща друг с другом в кворумах, и результаты их работы не могут быть подделаны, как это может случаться с полными сетевыми узлами других цифровых валют. В результате, это обеспечивает создание новых видов децентрализованных сервисов, таких как мгновенные транзакции, анонимизация средств и децентрализованное управление  - которые при этом защищены от сопутствующих угроз атак на сеть.
+      Мастерноды формируют новый сетевой уровень из серверов, работающих сообща друг с другом в кластерах, называемых кворумами. В результате, это обеспечивает работу новых видов децентрализованных сервисов, таких как мгновенные транзакции, приватность и децентрализованное управление. При этом, эти системы защищены от угроз соответствующих атак на сеть.
     architecture-btn: Узнайте больше
-    architecture-link: https://dashpay.atlassian.net/wiki/x/OoDPB
+    architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
 
-    governance-heading: Первая Самоуправляемая и Самофинансируемая криптовалюта
-    governance-text: Все важные решения по развитию проекта Dash и их децентрализованному финансированию принимаются в ходе публичного процесса путём достижения консенсуса по результатам голосования в сети Мастернод. Это означает, что сеть Dash может самостоятельно финансировать своё развитие и адоптацию, гарантированно приходя к консенсусу по спорным вопросам, при этом учитывается голос каждого участника сети. Это в том числе позволяет защититься от потенциальных нежелательных манипуляций проектом, так как для этого атакующему потребуется купить больше половины всех средств Dash.
+    governance-heading: Первый в мире протокол Самоуправления и Самофинансирования
+    governance-text: "Все имеют возможность предложить свои собственные проекты напрямую сети Dash. Любые ваши усилия, способные помочь Dash расти и развиваться - от маркетинга до разработки - могут быть профинансированы. Это означает, что Dash фанансирует своё собственное развитие, достижение консенсуса в сети гарантировано (через голосование), а система открыта для новых участников. При этом голос каждого имеет значение.
 
+
+    Просто разместите своё бюджетное предложение для \"Сокровищницы\" и презентуйте его детали, чтобы заручиться поддержкой сети, получить финансирование и реализовать задуманное. Если же вы являетесь оператором Мастерноды - голосуйте по предложенным бюджетным предложениям!"
     proposal-btn: Предложения
     proposal-submit-btn: Разместите Предложение
 
     network-growth-heading: Самая Быстро Растущая Сеть
-    network-growth-text: Благодяря системе поощрений, сеть Dash выросла уже до 3900 Мастернод, став таким образом единственной цифровой валютой, способной конкурировать с Bitcoin по пропускной способности транзакций и по возможностям дальнейшего масштабирования.
+    network-growth-text:
+      Благодаря встроенной системе поощрений, сеть Dash выросла уже до 4.100 Мастернод с момента своего запуска в 2014 году, став таким образом одной из крупнейших в мире peer-to-peer сетей.
+
+
+      Большое число сетевых узлов на практике означает большую защищенность сервисов и большие возможности для конечных пользователей в получении доступа к Цифровой Наличности из любой точки мира, круглосуточно и гарантированно.
     network-growth-btn: Статистика Сети
 
     evolution-heading: Эволюция Цифровых Денег
-    evolution-text: Что же дальше? Мы разрабатываем новые децентрализованные сервисы, работающие на основе сети Мастернод, которые делают использование Dash с помощью web-браузеров и мобильных устройств таким же простым, как использование PayPal, но при этом работают абсолютно децентрализованно. Следите за нашими новостями...
+    evolution-text:
+
+      Что же дальше? Мы хотим, чтобы цифровая валюта стала настолько простой в использовании, что даже ваша бабушка захотела бы пользоваться ей.
+
+
+      Dash Evolution позволит любому зарегистрировать свой аккаунт Dash и использовать его с помощью любых устройств так же просто, как при использовании PayPal, но при этом абсолютно децентрализованным образом. Следите за нашими новостями...
     evolution-btn: Узнать больше
-    evolution-link: https://dashpay.atlassian.net/wiki/x/E4PEB
+    evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
 
     news-heading: Последние новости
     news-btn: Посмотреть все новости
@@ -59,6 +71,7 @@ pages:
   get-dash:
     title: Получить Dash
     description: Скачайте Кошелёк и пополните его средствами Dash через Биржу.
+    hero-image: get-dash-n.jpg
     hero-heading: Скачайте Кошелёк Dash
     hero-text: Скачайте последнюю версию ПО Dash
     hero-wallet-version: Кошелёк Dash (полный клиент v12.0.56) для OSX
@@ -69,30 +82,33 @@ pages:
     hero-spend-btn: Потратить Dash
     hero-trade-btn: Обменять Dash
 
-    setup-heading: Узнайте, как Установить ваш Кошелёк
+    claim-heading: Купить, Продать и Обменять Dash
+    claim-subline: Получать, хранить и обменивать Dash возможно различными способами.
+
+    setup-heading: Узнайте, как Установить Кошелёк
     setup-text:
     setup-btn: Узнать больше
-    setup-link: https://dashpay.atlassian.net/wiki/x/SIDPB
+    setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
 
     buy-heading: Купить Dash
-    buy-text: Обменяйте свою местную валюту на Dash в вашем кошельке
+    buy-text: Обменяйте свою местную валюту на Dash и отправьте его в свой кошелёк
     buy-btn: Купить Dash
-    buy-link: https://dashpay.atlassian.net/wiki/x/FoPEB
+    buy-link: https://dashpay.atlassian.net/wiki/display/DOC/How+to+buy+Dash
 
     trade-heading: Купите Dash на бирже
     trade-text: Купите Dash за свою местную валюту на бирже
     trade-btn: Купите Dash
-    trade-link: https://dashpay.atlassian.net/wiki/x/IIPEB
+    trade-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=48693307
 
     atm-heading: Купите Dash в банкомате
     atm-text: Мгновенная покупка Dash в банкоматах вашей страны
     atm-btn: Поиск банкоматов Dash
-    atm-link: https://dashpay.atlassian.net/wiki/x/GYPEB
+    atm-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=75530385
 
     shop-heading: Покупка товаров за Dash
     shop-text: Мгновенная и анонимная оплата покупок в Интернете, напрямую из вашего Dash кошелька
     shop-btn: Больше торговых точек
-    shop-link: https://dashpay.atlassian.net/wiki/x/eYPEB
+    shop-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants
     shop-join-btn: Начните принимать к оплате Dash
 
     visa-heading: Оплата пластиковыми картами Visa
@@ -106,24 +122,49 @@ pages:
     need-link: https://www.dash.org/forum/topic/Русский-russian.27/
     need-input: Введите ваш Email адрес
 
+  merchants:
+    title: Оплачивайте в Dash
+    description: Оплачивайте товары и услуги с помощью Dash
+    hero-image: participate.jpg
+    hero-heading: Покупайте за Dash
+    hero-text: Рассчитывайтесь с помощью Dash мгновенно и безопасно в этих магазинах и сервисах
+    hero-map-btn: Карта мест, принимающих Dash
+    hero-integrate-btn: Интегрировать Dash
+    hero-getlisted-btn: Попасть в этот список
+    cards-heading: Дебетовые карты
+    email-heading: E-mail Провайдеры
+    vpn-heading: VPN Провайдеры
+    hosting-heading: Хостинг и VPS
+    design-heading: Web и Графический Дизайн
+    gifts-heading: Подарочные карты
+    games-heading: Игры
+    casinos-heading: Онлайн Казино
+    stores-heading: Интернет магазины
+    metals-heading: Драгоценные металлы
+
+
   participate:
     title: Присоединиться к Сети Dash
     description: Присоединяйтесь к Сети Dash
-    hero-heading: Присоединяйтесь к нашей Сети
-    hero-text: Зарабатывайте Dash, делая сеть более мощной, безопасной и функциональной
+    hero-image: participate.jpg
+    hero-heading: Участвуйте в создании Цифровой Наличности
+    hero-text: Зарабатывайте Dash, делая Сеть более мощной, безопасной и функциональной
     hero-masternodes-btn: Мастерноды
     hero-mining-btn: Майнинг
     hero-funding-btn: Финансирование
 
+    claim-heading: Поддержите работу Сети Dash
+    claim-subline: Каждый может привнести своё участие в проект Dash
+
     masternode-heading: Запустите Мастерноду и сделайте сеть Dash ещё надёжней
     masternode-text: Помогите сделать сеть Dash ещё лучше, запустив собственную Мастерноду или присоединившись к сервису по совместному хостингу Мастернод. Операторы Мастернод получают вознаграждение за оказание децентрализованных услуг пользователям Dash.
     masternode-btn: Запустить Мастерноду
-    masternode-link: https://dashpay.atlassian.net/wiki/x/LYPEB
+    masternode-link: https://dashpay.atlassian.net/wiki/display/DOC/Masternode
 
     mining-heading: Займитесь Майнингом и помогите защищать сеть Dash
     mining-text: Займитесь майнингом Dash с помощью своего компьютера или специального оборудования. Майнеры Dash получают вознаграждение за помощь в обеспечении безопасности сети Dash.
     mining-btn: Заняться Майнингом
-    mining-link: https://dashpay.atlassian.net/wiki/x/nIPEB
+    mining-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
 
     funding-heading: Развивайте Сеть Dash на средства из Блокчейна
     funding-text: Сеть Dash каждый месяц финансирует различные усилия, направленные на развитие проекта, такие как найм разработчиков, мероприятия по продвижению и интеграция платежей Dash в новые популярные сервисы и магазины.
@@ -133,33 +174,38 @@ pages:
     integrate-heading: Вы принимаете к оплате Dash?
     integrate-text: Интегрируйте приём мгновенных анонимных платежей в ваши Интернет-магазин, Приложение или Торговую точку
     integrate-btn: Интегрировать Dash
-    integrate-link: https://dashpay.atlassian.net/wiki/x/hYPEB
+    integrate-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
     integrate-payment-processor-btn: Процессинговые компании
-    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/x/f4PEB
+    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/display/DOC/Payment+Processors
     integrate-contact-btn: Свяжитесь с командой Dash
 
   currency:
-    title: Валюта Dash
+    title: Сеть Dash
     description: Валюта Dash
-    hero-heading: Валюта Dash
+    hero-image: currency.jpg
+    hero-heading: Состояние Сети
+    hero-text: Текущее состояние Рынков, Сокровищницы, Мастернод и Блокчейна Dash
     hero-markets-btn: Рынки
-    hero-governance-btn: Управление
-    hero-network-btn: Сеть
+    hero-governance-btn: Сокровищница
+    hero-network-btn: Мастерноды
     hero-blockchain-btn: Блокчейн
+    hero-mining-btn: Майнинг
 
     markets-heading: Рынки
-    governance-heading: Управление
-    network-heading: Сеть
+    governance-heading: Сокровищница
+    network-heading: Мастерноды
     blockchain-heading: Блокчейн
-
+    mining-heading: Майнинг
+    
   community:
     title: Присоединяйтесь к Сообществу Dash
     description: Присоединяйтесь к Сообществу Dash
+    hero-image: community.jpg
     hero-heading: Присоединяйтесь к нашему Сообществу
     hero-text: Станьте частью сообщества Dash
     hero-forum-btn: Официальный Форум
     hero-discussion-btn: Обсуждение
-    hero-social-btn: Социальные сервисы
+    hero-social-btn: Социальные сети
     hero-news-btn: Новости и Информация
     hero-development-btn: Разработка
     hero-masternodes-btn: Мастерноды
@@ -169,7 +215,7 @@ pages:
     discussion-text: Обсуждайте Dash на этих форумах
 
     social-heading: Соцсети
-    social-text: Присоединяйтесь к Dash в этих социальных сервисах
+    social-text: Присоединяйтесь к Dash в этих социальных сетях
 
     news-heading: Новости и Информация
     news-text: Сайты, созданные членами сообщества Dash
@@ -193,47 +239,54 @@ pages:
     terms:
       Dash предназначен исключительно для законного использования и не должен применяться в любых других целях. Ни сам проект Dash, ни любой из его разработчиков или помощников, не поддерживают какую-либо незаконную деятельность и не способствуют ей в какой-либо форме.
 
+
       Насколько нам известно, использование Dash не является незаконным в большинстве мировых юрисдикций. Тем ни менее, некоторые юрисдикции могут устанавливать собственные ограничения на использование криптовалют и/или средств защиты приватности – поэтому пользователи, находящиеся в таких юрисдикциях, должны учитывать это перед началом использования Dash. В случае каких-либо сомнений, вам надлежит обратиться к местным адвокатам с целью исключения возможности совершения действий, противоречащих местному законодательству.
+
 
       Содержание этого веб-сайта, а также других источников информации, имеющих отношение к Dash, не является средством юридических консультаций. Если у вас появились вопросы по законодательству или вам требуется правовая помощь – пожалуйста, обратитесь к адвокату, компетентному в законодательстве вашей юрисдикции.
 
-      Содержание этого веб-сайта, а также других источников информации, имеющих отношение к Dash, не является инвестиционными советами. Вы должны руководствоваться своими собственными суждениями и исследовать различные источники информации, прежде чем решите инвестировать в Dash.
 
+      Содержание этого веб-сайта, а также других источников информации, имеющих отношение к Dash, не является инвестиционными советами. Вы должны руководствоваться своими собственными суждениями и исследовать различные источники информации, прежде чем решите инвестировать в Dash.
 
     # Need some Dash - get content from get-dash ^^
   blog:
       title: Блог о Цифровой Валюте
-      description: Блог о Цифровой Валюте
+      description: Свежие Новости и Информация о Dash
+      search-btn: Искать в Блоге
+      community-news-btn: Новости Сообщества
 
   team:
-      title: Команда
-      description: Команда Dash
-
-
+    title: Команда Dash
+    description: Назначена нашей Сетью и ежемесячно финансируется из блокчейна для дальнейшего развития технологий Dash.
+    core-proposal-btn: Бюджетное предложение
+    core-proposal-link: https://www.dashcentral.org/p/core-team
+    core-approval-btn: Одобрение сетью
+    core-approval-link: http://dashvotetracker.com/history.html?ProposalID=12
+    core-join-btn: Присоединиться к Команде
 nav:
   what-is-dash: Что такое Dash
   get-dash: Получить Dash
-  merchants: Merchants
+  merchants: Товары и Услуги
   download: Скачать Кошелёк
   buy: Купить Dash
   shop: Потратить Dash
   debit: Пластиковые карты Dash
 
-  participate: Принять Участие
+  participate: Участвовать
   mining: Заняться Майнингом
   masternode: Запустить Мастерноду
   wallet: Установить Кошелёк
   funding: Запросить Финансирование
 
-  currency: Валюта
+  currency: Сеть
   exchange: Обменные Сервисы
-  governance: Управление
+  governance: Система Управления
   explorers: Мониторинг Блокчейна
   stats: Статистика Сети
 
   community: Сообщество
   discussion: Обсуждение
-  social-apps: Социальные Сервисы
+  social-apps: Социальные Сети
   news: Новости и Информация
   tools-dev: Средства Разработки
   tools-masternodes: Инструменты для Мастернод
@@ -247,6 +300,7 @@ nav:
   philosophy: Философия
   technology: Технология
   wiki: Wiki
+
 
   search: Поиск
 
@@ -263,3 +317,4 @@ nav:
 
   tos: Условия использования
   sitemap: Карта сайта
+  sitesource: Исходный код
