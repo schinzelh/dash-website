@@ -2,6 +2,15 @@
 # For multiple paragraph content add two line breaks
 pages:
 
+  wallets:
+    title: Dash Wallets
+    description: Get the right Dash wallet for your platform
+    hero-heading: Get a Dash wallet
+    hero-image: get-dash-n.jpg
+    hero-wallets-btn: Wallets
+    hero-guide-btn: Guide
+    hero-security-btn: Security
+
   contact:
     title: Contact Dash
     description: Contact Dash
@@ -94,6 +103,7 @@ pages:
     hero-wallet-version: Dash Wallet (Fullclient v12.0.56) for OSX
     hero-wallet-version-select: Choose Another
     hero-download-btn: Download
+    hero-all-wallets-btn: All Wallets
     hero-guide-btn: Setup Guide
     hero-buy-btn: Buy Dash
     hero-spend-btn: Spend Dash

@@ -1,0 +1,26 @@
+<div class="hero hero--light" id="hero">
+	<div class="hero__background">
+		{% capture heroimage %}hero/{% t pages.wallets.hero-image %}{% endcapture %}
+		{% srcset hero/get-dash-n.jpg ppi:1,2 class="hero__background-image" %}
+			{% srcset_source width:1920 %}
+			{% srcset_source width:960 %}
+		{% endsrcset %}
+	</div>
+
+	<!-- Navigation -->
+	{% include nav-desktop.html logo-color='black' %}
+
+	<!-- Hero content -->
+	<div class="hero__content">
+		<h1 class="hero__title">{% t pages.wallets.hero-heading %}</h1>
+
+		<div class="hero__buttons">
+			<a href="#getdash-wallet-setup" class="btn-white-solid">{% t pages.wallets.hero-wallets-btn %}</a>
+			<a href="#getdash-buy" class="btn-white-solid">{% t pages.wallets.hero-guide-btn %}</a>
+			<a href="#getdash-shop" class="btn-white-solid">{% t pages.wallets.hero-security-btn %}</a>
+		</div>
+	</div>
+
+	<!-- Hero stripe -->
+	<div class="hero__stripe hero__stripe--grey-blue"></div>
+</div>
