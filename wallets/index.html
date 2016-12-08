@@ -10,12 +10,29 @@ description: pages.wallets.description
   <section class="section">
     <div class="section__content">
       <h4>{% t pages.wallets.wallets-desktop-header %}</h4>
-      <img src="/assets/img/community/win_32.png" alt="">
-      <img src="/assets/img/community/win_64.png" alt="">
-      <img src="/assets/img/community/osx.png" alt="">
-      <img src="/assets/img/community/linux_32.png" alt="">
-      <img src="/assets/img/community/linux_64.png" alt="">
-      <img src="/assets/img/community/electrum.png" alt="">
+      <ul class="nav2 nav-pills">
+        <li class="active"><a data-toggle="pill" href="#windows">Windows</a></li>
+        <li><a data-toggle="pill" href="#osx">OSX</a></li>
+        <li><a data-toggle="pill" href="#linux">Linux</a></li>
+        <li><a data-toggle="pill" href="#ppa">PPA</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="windows" class="tab-pane fade in active">
+          <img src="/assets/img/community/win_32.png" alt="">
+          <img src="/assets/img/community/win_64.png" alt="">
+        </div>
+        <div id="osx" class="tab-pane fade">
+          <img src="/assets/img/community/osx.png" alt="">
+        </div>
+        <div id="linux" class="tab-pane fade">
+          <img src="/assets/img/community/linux_32.png" alt="">
+          <img src="/assets/img/community/linux_64.png" alt="">
+        </div>
+        <div id="ppa" class="tab-pane fade">
+          <img src="/assets/img/community/electrum.png" alt="">
+        </div>
+      </div>
 
     </div>
   </section>
@@ -23,10 +40,21 @@ description: pages.wallets.description
   <section class="section">
     <div class="section__content">
       <h4>{% t pages.wallets.wallets-mobile-header %}</h4>
-      <img src="/assets/img/community/android.png" alt="">
-      <img src="/assets/img/community/jaxx.png" alt="">
-      <img src="/assets/img/community/exodus.png" alt="">
-      <img src="/assets/img/community/mycelium.png" alt="">
+      <ul class="nav2 nav-pills">
+        <li class="active"><a data-toggle="pill" href="#android">Android</a></li>
+        <li><a data-toggle="pill" href="#ios">iOS</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="android" class="tab-pane fade in active">
+          <img src="/assets/img/community/android.png" alt="">
+          <img src="/assets/img/community/jaxx.png" alt="">
+        </div>
+        <div id="ios" class="tab-pane fade">
+          <img src="/assets/img/community/exodus.png" alt="">
+          <img src="/assets/img/community/mycelium.png" alt="">
+        </div>
+      </div>
 
 
     </div>
