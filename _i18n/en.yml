@@ -11,9 +11,29 @@ pages:
     hero-guide-btn: Guide
     hero-security-btn: Security
     wallets-desktop-header: Desktop
+    wallets-desktop-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     wallets-mobile-header: Mobile
+    wallets-mobile-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     wallets-hardware-header: Hardware
+    wallets-hardware-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     wallets-paper-header: Paper
+    wallets-paper-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    wallets-security-header: Security
+    wallets-security-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-core-header: Download Dash Core
+    modal-electrum-header: Download Dash Electrum
+    modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-security-key: Security
+    modal-win-core-security-value: .&#40full node/spv/hosted&#41
+    modal-win-core-source-code-key: Source Code
+    modal-win-core-source-code-value: .&#40link/ closed source&#41
+    modal-core-users-text: General Users
+    modal-core-users-value: 0.12.0.58
+    modal-core-masternode-text: Masternode Operators
+    modal-core-masternode-value: 0.12.0.58
+    modal-core-pool-text: Pool Operators
+    modal-core-pool-value: 0.12.0.58
+
 
   contact:
     title: Contact Dash

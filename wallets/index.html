@@ -9,8 +9,9 @@ description: pages.wallets.description
 <div class="page page--wallets">
   <section class="section">
     <div class="section__content">
-      <h4>{% t pages.wallets.wallets-desktop-header %}</h4>
-      <ul class="nav2 nav-pills">
+      <h3>{% t pages.wallets.wallets-desktop-header %}</h3>
+      <p>{% t pages.wallets.wallets-desktop-subtitle %}</p>
+      <ul class="nav2 nav-pills bottom-space">
         <li class="active"><a data-toggle="pill" href="#windows">Windows</a></li>
         <li><a data-toggle="pill" href="#osx">OSX</a></li>
         <li><a data-toggle="pill" href="#linux">Linux</a></li>
@@ -19,18 +20,105 @@ description: pages.wallets.description
 
       <div class="tab-content">
         <div id="windows" class="tab-pane fade in active">
-          <img src="/assets/img/community/win_32.png" alt="">
-          <img src="/assets/img/community/win_64.png" alt="">
+          <div class="row">
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4 class="text-center">Dash Core</h4>
+                  <button type="button" class="btn" data-toggle="modal" data-target="#winDashCore">Open</button>
+                  {% include modals/win-core.html %}
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Dash Electrum</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Jaxx</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Exodus</h4>
+              </div>
+            </div>
+          </div>
         </div>
         <div id="osx" class="tab-pane fade">
-          <img src="/assets/img/community/osx.png" alt="">
+          <div class="row">
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Dash Core</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Dash Electrum</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Jaxx</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Exodus</h4>
+              </div>
+            </div>
+          </div>
         </div>
         <div id="linux" class="tab-pane fade">
-          <img src="/assets/img/community/linux_32.png" alt="">
-          <img src="/assets/img/community/linux_64.png" alt="">
+          <div class="row">
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Dash Core</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Dash Electrum</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Jaxx</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Exodus</h4>
+              </div>
+            </div>
+          </div>
         </div>
         <div id="ppa" class="tab-pane fade">
-          <img src="/assets/img/community/electrum.png" alt="">
+          <div class="row">
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Dash Core</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Dash Electrum</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Jaxx</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Exodus</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -39,7 +127,8 @@ description: pages.wallets.description
 
   <section class="section">
     <div class="section__content">
-      <h4>{% t pages.wallets.wallets-mobile-header %}</h4>
+      <h3>{% t pages.wallets.wallets-mobile-header %}</h3>
+      <p>{% t pages.wallets.wallets-mobile-subtitle %}</p>
       <ul class="nav2 nav-pills">
         <li class="active"><a data-toggle="pill" href="#android">Android</a></li>
         <li><a data-toggle="pill" href="#ios">iOS</a></li>
@@ -47,12 +136,52 @@ description: pages.wallets.description
 
       <div class="tab-content">
         <div id="android" class="tab-pane fade in active">
-          <img src="/assets/img/community/android.png" alt="">
-          <img src="/assets/img/community/jaxx.png" alt="">
+          <div class="row">
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Dash Core</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Coinomi</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Jaxx</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Exodus</h4>
+              </div>
+            </div>
+          </div>
         </div>
         <div id="ios" class="tab-pane fade">
-          <img src="/assets/img/community/exodus.png" alt="">
-          <img src="/assets/img/community/mycelium.png" alt="">
+          <div class="row">
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Dash Core</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Coinomi</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Jaxx</h4>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="wallet-tile">
+                <h4>Exodus</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -62,13 +191,39 @@ description: pages.wallets.description
 
   <section class="section">
     <div class="section__content">
-      <h4>{% t pages.wallets.wallets-hardware-header %}</h4>
+      <h3>{% t pages.wallets.wallets-hardware-header %}</h3>
+      <p>{% t pages.wallets.wallets-hardware-subtitle %}</p>
+      <div class="row">
+        <div class="col-xs-3">
+          <div class="wallet-tile">
+            <h4>Trezor</h4>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="wallet-tile">
+            <h4>KeepKey</h4>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="wallet-tile">
+            <h4>Ledger</h4>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="section">
     <div class="section__content">
-      <h4>{% t pages.wallets.wallets-paper-header %}</h4>
+      <h3>{% t pages.wallets.wallets-paper-header %}</h3>
+      <p>{% t pages.wallets.wallets-paper-subtitle %}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__content">
+      <h3>{% t pages.wallets.wallets-security-header %}</h3>
+      <p>{% t pages.wallets.wallets-security-subtitle %}</p>
     </div>
   </section>
 
