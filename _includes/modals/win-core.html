@@ -1,3 +1,9 @@
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
 <!-- Modal -->
 <div id="winDashCore" class="modal fade" role="dialog" tabindex="-1">
   <div class="modal-dialog modal-lg" role="document">
@@ -18,12 +24,12 @@
             </div>
             <div class="row">
               <div class="col-xs-12">
-                <p class="bottom-space"><u>{% t pages.wallets.modal-win-core-security-key %}: </u>{% t pages.wallets.modal-win-core-security-value %}</p>
+                <p class="bottom-space"><u>{% t pages.wallets.modal-win-core-security-key %}: </u>{% t pages.wallets.modal-win-core-security-value %} <a href="#" data-toggle="tooltip" title="security tooltip">?</a></p>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12">
-                <p class="bottom-space"><u>{% t pages.wallets.modal-win-core-source-code-key %}: </u>{% t pages.wallets.modal-win-core-source-code-value %}</p>
+                <p class="bottom-space"><u>{% t pages.wallets.modal-win-core-source-code-key %}: </u>{% t pages.wallets.modal-win-core-source-code-value %} <a href="#" data-toggle="tooltip" title="source code tooltip">?</a></p>
               </div>
             </div>
             <div class="row">
