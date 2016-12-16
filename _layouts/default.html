@@ -36,6 +36,11 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
     <script src="/dist/js/main.min.js"></script>
     <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+      });
+      </script>
+    <script>
       function formatNumber (num) {
           return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
       }
