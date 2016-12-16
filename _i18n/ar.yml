@@ -1,0 +1,362 @@
+
+# For multiple paragraph content add two line breaks
+pages:
+
+contact:
+    title:بداش اتصل 
+    description: بداش اتصل
+    hero-image:
+    hero-heading: اتصل بنا
+    hero-text:
+    form-pretext: 
+في حال مواجهة أي صعوبات او مشاكل تقنية مع محفظات داش، تعدين او أي أسئلة أخرى، الرجاء زيارة DashTalk أو أي من جهات التواصل الاجتماعي
+
+    form-pretext-2: في حال وجود أي استعلامات أخرى الرجاء ملأ النموذج التالي
+    social-heading:  منتديات ووسائل التواصل الاجتماعي
+    mail-list-heading: القائمة البريدية
+¬¬
+    mail-list-text: هل ترغب في التعرف على مزيد من الأخبار؟ أنظم إلى قائمة داش البريدية.
+    social-text-heading: 
+ تعرف على DashTalk
+    social-text: 
+في حال مواجهة أي صعوبات او مشاكل تقنية مع محفظات داش، تعدين او أي أسئلة أخرى، الرجاء زيارة DashTalk أو أي من جهات التواصل الاجتماعي
+
+
+    volunteer-¬¬heading: تطوع
+
+  home:
+    title: موقع داش الرسمي | العملة المشفرة داش
+    description: داش هي عملة رقمية 
+    hero-image:
+    hero-heading: داش هي عملة رقمية
+    hero-text: أول عملة رقمية حقيقية غير مركزية في النظام المالي <br /> تعرف على العملة الرقمية
+    video-heading: داش هي العملة الرقمية التي يمكن استعمالها على الانترنت
+    video-text: 
+استعمل داش لدفع مشترياتك بصوره فورية وخاصه عبر شبكه الانترنت او من المحلات التجارية الذي يعتمد على خاصيه open-source المستضافه من خلال آلاف المستخدمين حول العالم.
+ 
+
+استخدم داش للدفع المباشر والخاص على شبكة الانترنت  
+    video-btn: نظرة عامة
+    feature-private-heading: خاص
+    feature-private-text:
+  حافظ على معلوماتك المالية. PrivateSend تأكد من تاريخ أنشطتك و حساباتك الخاصة.
+    feature-instant-heading: مباشر
+    feature-instant-text: 
+بما أن وقتك ثمين، يقوم InstantSend بتأكيد عملية الدفع في أقل من ثانية.
+    feature-secure-heading: الأمان
+    feature-secure-text: 
+الأمان الذي يعتمد عليه. جميع المعاملات تحدث في 1000 جيجاهاش من X11 ASIC قوة محاسبية و أكثر 4,100 خوادم شبكية مستضافة حول العالم.
+
+    merchants-heading: التسوق المباشر مع داش
+    merchants-text:  الشراء المباشر والخاص، من خلال محفظة داش.
+    merchants-btn: تجار أكثر
+    merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
+    merchants-join-btn: اصبح تاجر
+    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
+
+    architecture-heading:
+  الجيل القادم من P2P Network
+    architecture-text:
+من أساسيات داش التميز من حيث التحفيز الشامل بين peer-to-peer network. المعدنين يحصلون على مكافآت من خلال تأمين    blockchain و masternodes و تكون المكافآت من خلال التحقق من صحة، تخزين و خدمة عملياتblockchain  للمستخدمين.
+
+    
+يشكل masternodes طبقة جديدة من خوادم الشبكة التي تعمل بشكل آمن والتي تسمى quorums. ينتج عنها تنوع من خدمات غير مركزية، مثل العمليات الفورية، الخاصة والحوكمة، في حين إنه يقضي على التهديد الشبكي المنخفض التكلفة.
+    architecture-btn: تعلم المزيد
+    architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
+
+    governance-heading: الحوكمة الذاتية الأولى, إجراءات التمويلات الذاتية
+    governance-text: 
+في داش، الجميع لديه حق التصويت والقدرة على تقديم المشاريع مباشرتاً من خلال الشبكة. تستطيع أن تعمل أي شيء – من التسويق إلى التطوير – التي تساعد داش في النمو والتقدم الذي يمكن أن تمول. مما يعني أن صندوق تمويل داش في تزايد مستمر بشكل ذاتي, والإجماع ماكد و الجميع مسؤولون عن الشبكة.
+
+                    
+قدم على صندوق المقترحات و أدعم مقترحك في الشبكة للحصول على التمويل، إذا كنت تملك Masternode  تأكد أن تصوت للمقترح!
+    proposal-btn: مقترحات 
+    proposal-submit-btn: قدم مقترح
+    network-growth-heading: الشبكة الأسرع نمواً
+
+    network-growth-text:
+    شكراً للتحفيز، نمت شبكة داش بشكل متواصل منذ إنشائها في 2014 وزاد عدد masternodes  إلى 4,100 مما يعني إن داش peer-to-peer network واحدة من أكبر الشبكات في العالم. المزيد من nodes  يعني المزيد من الأمان, المزيد من سعة الاستيعاب للمستخدمين لاستخدام العملة الرقمية من أي مكان في العالم, 24\7.
+    network-growth-btn: إحصائيات الشبكة
+
+    evolution-heading: ثورة العملات الرقمية 
+    evolution-text:  ماذا بعد؟ نريد العملات الرقمية لتصبح سهلة لدرجه إن جدتنا تستطيع أن تستخدمها. 
+
+    
+ Dash Evolution سوف يسمح لك للتسجيل والوصول الى داش عبر اي من اجهزتك بالإضافة الى خاصية التسديد السهلة مثل PayPal,  ولكن بصوره لا مركزيه. أبقي على ترقب..
+    evolution-btn: تعلم المزيد
+
+    evolution-link: https://dashpay.atlassian.net/wiki/display/DOC/Evolution
+
+    news-heading: أحدث الأخبار
+
+    news-btn: View جميع الأخبار
+    get-started-heading: إبدا 
+    get-started-text: حمل المحفظة وابدأ استخدام العملات الرقمية!
+    get-started-btn: احصل على داش
+  
+get-dash:
+    title: احصل على داش
+
+    description: حمل المحفظة واحصل على داش من مواقع التداول
+    hero-image: get-dash-n.jpg
+    hero-heading: حمل محفظة داش
+    hero-text:
+ حمل أحدث Dash Client وابدأ الآن 
+    hero-wallet-version:
+ محفظة داش (Fullclient v12.0.56) OSX 
+    hero-wallet-version-select:  الإصدارات الأخرى
+    hero-download-btn: تحميل
+    hero-guide-btn: دليل الإعدادات 
+    hero-buy-btn: اشتر داش
+    hero-spend-btn: أنفق داش 
+    hero-trade-btn: تداول داش
+
+    claim-heading: اشتر، بيع، تداول داش
+    claim-subline: بإمكانك الحصول وتداول داش بطرق عديدة.
+    setup-heading: تعرف على كيفية إعداد محفظتك 
+    setup-text:
+    setup-btn: تعرف على المزيد
+    setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
+
+    buy-heading: اشتر داش
+    buy-text: حول عملتك المحلية إلى داش وأرسلها إلى محفظتك 
+    buy-btn: اشتر داش
+    buy-link: https://dashpay.atlassian.net/wiki/display/DOC/How+to+buy+Dash
+
+    trade-heading: مواقع تداول داش
+    trade-text: حول العملات المحلية في مواقع تداول داش  
+  trade-btn: مواقع تداول داش
+    trade-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=48693307
+
+    atm-heading: اشتر داش من خلال أجهزت الصراف الآلي
+    atm-text: أشتر داش مباشرة من خلال أجهزت الصراف الآلي في دولتك
+    atm-btn: مواقع أجهزت الصراف الآلي
+    atm-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=75530385
+
+    shop-heading: تسوق مباشرة مع داش
+    shop-text: تسوق بشكل مباشر وسري عن طريق محفظة داش
+    shop-btn: المزيد من التجار
+    shop-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants
+    shop-join-btn: أصبح تاجر
+
+    visa-heading: تسوق في متاجر فيزا
+
+    visa-text: 
+بطاقة داش الائتمانية تعتمد على شبكة فيزا مع عدم وجود إي رسوم اضافية وخدمة الهاتف النقال "tap & pay"
+    visa-btn: 
+احصل على Shake
+    visa-link: https://shakepay.co/#/
+
+    need-heading: هل ترغب في المزيد من داش؟
+    need-text:  اشترك في منتدياتنا وأحصل على داش
+    need-btn:   اشترك مع داش 
+
+    need-link: https://www.dash.org/forum
+    need-input: ادخل بريدك الالكتروني 
+  merchants:
+    title: التجار 
+    description: أنفق داش في هذه المتاجر والخدمات
+    hero-image: participate.jpg
+    hero-heading: تسوق مع داش
+    hero-text: أنفق داش بطريقة آمنة ومباشرة في هذه المتاجر والخدمات
+    hero-map-btn: مواقع المتاجر
+    hero-integrate-btn: أرتبط مع داش
+    hero-getlisted-btn: الدخول في القائمة 
+    cards-heading: بطاقة ائتمان
+    email-heading: مزودين البريد الإلكتروني 
+    vpn-heading: 
+مزودين VPN
+    hosting-heading: شركات استضافة المواقع
+    design-heading:  شركات تصميم المواقع الإلكترونية والتصميم الجرافيكي 
+
+    gifts-heading: بطاقات الهدايا 
+    games-heading: ألعاب 
+    casinos-heading: الكازينو الالكتروني 
+    stores-heading: المتاجر الالكتروني
+    metals-heading: المعادن الثمينة 
+
+
+  participate:
+    title: انضم إلي شبكة داش
+    description: انضم إلي شبكة داش
+    hero-image: participate.jpg
+    hero-heading: ساعد في إنشاء العملة الرقمية 
+    hero-text: ساهم واحصل على داش عن طريق المساهمة في دعم، تامين و تطوير شبكة داش.
+    hero-masternodes-btn: Masternodes
+    hero-mining-btn: تعدين
+    hero-funding-btn: تمويل
+    claim-heading: ادعم الشبكة
+    claim-subline: الجميع يستطيعون المساهمة في داش
+    masternode-heading: 
+إعداد Masternode وساعد في تقوية شبكة داش
+    masternode-text: 
+ساعد في تقوية داش من خلال استضافة masternode أو من خلال الاشتراك في خدامات الاستضافة المشتركة. 
+
+لدعم الخدمات الغير مركزية لعملائنا يحصل مزود  Masternode على مكافآت من داش
+    masternode-btn: 
+إعداد Masternode
+    masternode-link: https://dashpay.atlassian.net/wiki/display/DOC/Masternode
+
+    mining-heading: إبدا بالتعدين واحمي شبكة داش
+    mining-text: بإمكانك تعدين داش من خلال حاسوبك الشخصي أو خلال أجهزة مخصصة لذلك. المعدنين يحصلون على مكافآت من خلال تأمين شبكة داش.
+    mining-btn: إبدا التعدين
+    mining-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
+
+    funding-heading: 
+طور في الشبكة مع تمويل Blockchain
+    funding-text:
+ صندوق داش يمول المقترحات التي تفوز شهرياً في سبيل تطوير داش، مثل توظيف مبرمجين، اتخاذ القرارات أو ربط داش مع المتاجر على شبكة الإنترنت والمحلات التجارية. 
+    funding-btn: تقديم مقترحات 
+    funding-link: https://dashcentral.org/
+
+    integrate-heading: هل تقبل داش؟
+    integrate-text: الترابط المباشر والخاص للدفعات على متجرك، برنامجك أو محلاتك التجارية.
+    integrate-btn: ارتبط مع داش
+    integrate-link: https://dashpay.atlassian.net/wiki/display/DOC/Integrate+Dash+Payments
+    integrate-payment-processor-btn: معالج المدفوعات
+    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/display/DOC/Payment+Processors
+    integrate-contact-btn: اتصل بفريقنا
+  currency:
+    title: شبكة داش
+    description: عملة داش
+    hero-image: currency.jpg
+    hero-heading: حالة الشبكة
+    hero-text: 
+آخر حالة تحديت عن سوق داش، خزينة، Masternodes  و Blockchain
+    hero-markets-btn: السوق
+    hero-governance-btn: الخزينة
+    hero-network-btn: Masternodes
+    hero-blockchain-btn: Blockchain
+
+    hero-mining-btn: تعدين
+    markets-heading: السوق
+    governance-heading: الخزينة
+    network-heading: Masternodes
+
+    blockchain-heading: Blockchain
+    mining-heading: التعدين
+  community:
+    title: مجتمع داش
+    description: إشترك في مجتمع داش
+    hero-image: community.jpg
+    hero-heading: إشترك في مجتمعنا 
+    hero-text: اصبح جزأ من مجتمع داش
+    hero-forum-btn: المنتديات الرسمية
+    hero-discussion-btn: مناقشة
+    hero-social-btn: برامج التواصل الاجتماعي
+    hero-news-btn: 
+الأخبار &amp; والمعلومات
+    hero-development-btn: تطوير
+    hero-masternodes-btn: Masternodes
+    hero-video-btn: 
+الملفات السمعية &amp; والصوتية
+    discussion-heading: مناقشة
+    discussion-text: تحدث عن داش في هذه المنتديات
+
+    social-heading: المواقع الاجتماعية 
+    social-text: تعرف على داش في إحدى هذه البرامج الاجتماعية
+    news-heading: 
+الأخبار &amp; والمعلومات
+    news-text: المواقع التي صممت من قبل أعضاء مجتمع داش 
+
+    development-heading: تطوير
+    development-text: 
+مواقع &amp; ومعدات للمبرمجين
+
+    masternode-heading: 
+معدات Masternode
+    masternode-text: 
+إعداد، إدارة واستضافة masternode 
+
+    media-heading: وسائل إعلام داش
+    conferences-heading: مؤتمرات 
+    technology-heading: تكنولوجيا 
+    community-heading: مجتمع
+
+    youtube-btn: 
+داش YouTube
+
+  tos:
+    title: تعليمات الاستخدام
+    terms: 
+يستخدم داش في أغراض قانونية فقط ويجب لا يستخدم في أي غرض آخر. لا يساهم أي من فريق داش، المبرمجين أو المساهمين في دعم أي أنشطه غير قانونية و لا يساعدون في دعمها بأي صورة كانت.
+
+على حد علمنا، يستخدم داش بطريقة قانونية في معظم المناطق. ولاكن قد يحدد استخدام العملات الرقمية في بعض المناطق و معدات الحماية الخاصة ولذلك يجب على المستخدمين في تلك المناطق مراعات ذلك قبل استخدام داش. إذا كان عندك شك، الرجاء الاتصال في الجهات المختصة لتجنب الوقوع في أي معاملات غير قانونية في منطقتك.
+
+محتويات هذا الموقع الإلكتروني، أو غيره من المواقع المساعدة، لا يساهم في تقديم استشارات قانونية. إذا كان لديك إي تساؤلات أو احتجت إلى المساعدة، الرجاء الرجوع إلى الجهات المعنية في منطقتك. 
+	
+محتويات هذا الموقع الإلكتروني، أو غيره من المواقع المساعدة، لا يساهم في تقديم استشارات استثمارية. ابحث من مصادر متعددة واتخذ قرارك بنفسك قبل الاستثمار في داش.
+    # Need some Dash - get content from get-dash ^^
+  blog:
+      title: مدونة داش
+      description: آخر أخبار ومعلومات داش
+      search-btn: ابحث في المدونة
+      community-news-btn: أخبار المجتمع
+
+  team:
+    title: فريق داش
+    description: 
+مختارون من قبل شبكتنا وممولون عن طريق blockchain بصورة شهرية لتطوير تقنية داش.
+    core-proposal-btn: مقترحات أساسية 
+    core-proposal-link: https://www.dashcentral.org/p/core-team
+    core-approval-btn: الموافقة عن طريق الشبكة
+    core-approval-link: http://dashvotetracker.com/history.html?ProposalID=12
+    core-join-btn: انضم إلينا
+nav:
+  what-is-dash: 
+ما هو داش؟
+  get-dash: احصل على داش
+  merchants: التجار
+  download: حمل المحفظة 
+  buy: اشتر داش
+  shop: تسوق مع داش
+  debit: بطاقات داش الائتمانية 
+
+  participate: ساهم
+  mining: إبدا التعدين
+  masternode: 
+إعدادات Masternode
+  wallet: إعدادات المحفظة
+  funding: قدم على التمويل
+  currency: الشبكة
+  exchange: سوق التبادل
+  governance: الحوكمة
+  explorers: Block Explorers
+
+  stats: إحصائيات الشبكة
+  community: المجتمع
+  discussion: المناقشة
+  social-apps: برامج التواصل الاجتماعي
+  news: 
+الأخبار &amp;والمعلومات
+  tools-dev: معدات المطورين 
+  tools-masternodes: 
+معدات Masternode
+  project: المشاريع
+  help: 
+المساعدة و &amp; الدعم
+  info: معلومات عن المشاريع
+  team: الفريق
+  contact: اتصل بنا
+  foundation: المؤسسة 
+  philosophy: الفلسفة
+  technology: تكنولوجيا 
+  wiki: Wiki
+
+  search: ابحث
+  social: مجتمع
+  blog: مدونة
+  reddit: Reddit
+
+  twitter: Twitter
+  youtube: YouTube
+  google: Google+
+  linkedin: LinkedIn
+  facebook: Facebook
+  instagram: Instagram
+  github: GitHub
+
+  tos: تعليمات الاستخدام
+  sitemap: خريطة الموقع
+  sitesource: Source code
+
