@@ -1,55 +1,3 @@
-- name: "Dash Core Win/32 Installer"
-  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
-  logo_url: /assets/img/dash_circle_normal.png
-  os: win32
-  type: desktop
-  vendor_id: dash_core
-  vendor_label: Dash Core
-  product_id: dash_core_win_32_install
-  product_label: Dash Core
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_website_label: Dash.org
-  product_website_url: "https://www.dash.org"
-  product_source_label: Github
-  product_source_url: "https://github.com/dashpay/dash"
-  links:
-    -
-      label: Download Installer
-      url: "/binaries/dash-0.12.1.0-win32-setup.exe"
-    - 
-      label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.12.1.0/SHA256SUMS.asc"
-    - 
-      label: PGP
-      url: "/binaries/dash-0.12.1.0-win32-setup.exe.asc"
-
-- name: "Dash Core Win/32 ZIP"
-  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
-  logo_url: /assets/img/dash_circle_normal.png
-  os: win32
-  type: desktop
-  vendor_id: dash_core
-  vendor_label: Dash Core
-  product_id: dash_core_win_32_zip
-  product_label: Dash Core Win/32 ZIP
-  product_security_label: "https://www.dash.org"
-  product_security_url: "https://www.dash.org"
-  product_website_label: Dash.org
-  product_website_url: "https://www.dash.org"
-  product_source_label: Github
-  product_source_url: "https://github.com/dashpay/dash"
-  links:
-    -
-      label: Download ZIP
-      url: "/binaries/dash-0.12.1.0-win32.zip"
-    -
-      label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.12.1.0/SHA256SUMS.asc"
-    -
-      label: PGP
-      url: "/binaries/dash-0.12.1.0-win32.zip.asc"
-
 - name: "Dash Core Win/64 Installer"
   description: Dash Core QT Wallet (All Features incl IS, PS, ....)
   logo_url: /assets/img/dash_circle_normal.png
@@ -102,6 +50,57 @@
       label: PGP
       url: "/binaries/dash-0.12.1.0-win64.zip.asc"
 
+- name: "Dash Core Win/32 Installer"
+  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  logo_url: /assets/img/dash_circle_normal.png
+  os: win32
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core_win_32_install
+  product_label: Dash Core
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: Download Installer
+      url: "/binaries/dash-0.12.1.0-win32-setup.exe"
+    - 
+      label: Hash File
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.1.0/SHA256SUMS.asc"
+    - 
+      label: PGP
+      url: "/binaries/dash-0.12.1.0-win32-setup.exe.asc"
+
+- name: "Dash Core Win/32 ZIP"
+  description: Dash Core QT Wallet (All Features incl IS, PS, ....)
+  logo_url: /assets/img/dash_circle_normal.png
+  os: win32
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core_win_32_zip
+  product_label: Dash Core Win/32 ZIP
+  product_security_label: "https://www.dash.org"
+  product_security_url: "https://www.dash.org"
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_label: Github
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: Download ZIP
+      url: "/binaries/dash-0.12.1.0-win32.zip"
+    -
+      label: Hash File
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.1.0/SHA256SUMS.asc"
+    -
+      label: PGP
+      url: "/binaries/dash-0.12.1.0-win32.zip.asc"
 
 - name: Dash Core Linux 32 Bit
   description: Dash Core QT Wallet (All Features incl IS, PS, ....)

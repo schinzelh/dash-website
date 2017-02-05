@@ -6,7 +6,7 @@ description: pages.wallets.description
 {% include hero/wallets.html %}
 {% include modals/win-core.html %}
 
-{% assign desktop-os-order-list = "win32,win64,osx,linux" | split: ','%}
+{% assign desktop-os-order-list = "win64,win32,osx,linux" | split: ','%}
 {% assign desktop-os-collection = site.data.wallets-collection | where:"type","desktop" | group_by:"os"    %}
 {% assign mobile-os-collection = site.data.wallets-collection | where:"type","mobile" | group_by:"os" %}
 {% assign product-collection = site.data.wallets-collection | group_by:"product_id" %}
@@ -32,10 +32,10 @@ description: pages.wallets.description
 				{% if os-sequence == wallet-group.name %}
 				  <li role="tab" {%if forloop.first == true %}class="active"{% endif %}><a data-toggle="pill" href="#{{wallet-group.name}}">
 					{% case wallet-group.name %}
+					  {% when 'win64' %}
+					  Windows (64bit)
 					  {% when 'win32' %}
 						Windows (32bit)
-					  {% when 'win64' %}
-						Windows (64bit)
 					  {% when 'osx' %}
 						OSX
 					  {% when 'linux' %}
