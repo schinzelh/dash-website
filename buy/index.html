@@ -1,0 +1,37 @@
+---
+layout: default
+title: pages.buy.title
+description: pages.buy.description
+---
+
+
+{% include hero/buy.html %}
+{% include base.html %}
+
+
+<div class="page page--home">
+
+	<!--
+		DASH FEATURES
+		PRIVATE | INSTANT | SECURE
+	-->
+
+	<section class="">
+		<div class="content">
+			<h2 class="section__title">{% t pages.buy.how-heading %}</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>{% t pages.buy.how-fiat %}</h3>
+					<p>{% t pages.buy.how-fiat-text %}</p>
+					<a href="/network" class="btn-blue">{% t pages.buy.how-fiat-btn %}</a>
+				</div>
+				<div class="col-sm-6">
+					<h3>{% t pages.buy.how-btc %}</h3>
+					<p>{% t pages.buy.how-btc-text %}</p>
+					<a href="" class="btn-blue">{% t pages.buy.how-btc-btn %}</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>

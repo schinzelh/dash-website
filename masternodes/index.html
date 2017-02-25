@@ -27,19 +27,6 @@ description: pages.budget.description
 				<div class="col-sm-6">
 					<h2 class="bottom-space">{% t pages.masternodes.earn-heading %}</h2>
 					<p>{% t pages.masternodes.earn-text %}</p>
-					<table id="exchanges">
-						<thead>
-							<tr>
-								<th>Exchange</th>
-								<th>Volume (24h)</th>
-								<th>Price</th>
-								<th>Volume (%)</th>
-							</tr>
-						</thead>
-						<tbody>
-
-						</tbody>
-					</table>
 				</div>
 			</div>
 		</div>
@@ -67,20 +54,6 @@ description: pages.budget.description
 		<div class="section__content">
 			<div class="section__lead">
 				<h2>{% t pages.masternodes.host-table-heading %}</h2>
-				<table id="blocks">
-					<thead>
-						<tr>
-							<th>Height</th>
-							<th>Block Time</th>
-							<th>Transactions</th>
-							<th>Value Out</th>
-							<th>Difficulty</th>
-						</tr>
-					</thead>
-					<tbody>
-
-					</tbody>
-				</table>
 			</div>
 		</div>
 	</section>
@@ -88,103 +61,16 @@ description: pages.budget.description
 	<section class="">
 		<div class="section__content">
 			<h2 class="bottom-space">P2P</h2>
-			<div class="row">
+			<div class="row bottom-space">
 				<div class="col-sm-6">
-					<div class="bottom-space">{% tmd pages.masternodes.p2p-text %}</div>
-					<a href="http://178.254.23.111/~pub/Dash/Dash_Info.html" class="btn-blue"  target="_blank">{% t pages.masternodes.p2p-btn %}</a>
+					<div>{% tmd pages.masternodes.p2p-text %}</div>
 				</div>
 				<div class="col-sm-6">
 					<img src="/assets/img/masternodes/p2p.png" alt="">
 				</div>
 			</div>
+			<a href="http://178.254.23.111/~pub/Dash/Dash_Info.html" class="btn-blue"  target="_blank">{% t pages.masternodes.p2p-btn %}</a>
 		</div>
 	</section>
 
 </div>
-
-<script type="text/javascript">
-	window.onload = function () {
-		$( document ).ready(function(){
-
-			// Get the exchange data
-			$.ajax({
-				url: "{{ site.api }}/exchange/",
-				error: function(jqXHR, textStatus, errorThrown) {
-					console.log(jqXHR);
-					console.log(textStatus);
-					console.log('errorThrown:');
-				}
-			})
-			.done(function(response){
-				var exchanges = response;
-
-				exchanges.map(function(exchange){
-					if(exchange){
-						console.log('exchange',exchange);
-						var name 	= exchange.exchange,
-							url 	= exchange.url
-							volume 	= "$" + formatCurrency(exchange.volume,0),
-							price 	= "$" + formatCurrency(exchange.price),
-							change 	= formatNumber(exchange.percent_change);
-
-						$("#exchanges>tbody").append('<tr><td data-header="Exchange"><a target="_blank" href="' + url + '">' + name + '</a></td><td data-header="Volume (24h)">' + volume + '</td><td data-header="Price">' + price + '</td><td data-header="Volume (%)">' + change + '%</td></tr>');
-					}
-				});
-			});
-
-			// Get the current number of masternodes.
-			$.ajax({
-				url: "{{ site.api }}/masternodes/stats/"
-			})
-			.done(function(response){
-				console.log('masternode stats', response.stats);
-				var masternodes_count	= formatNumber(response.stats['count']),
-					masternodes_max 	= formatNumber(response.stats['max']);
-
-				$("#masternodes_count").text(masternodes_count);
-				$("#masternodes_max").text(masternodes_max);
-			});
-
-			// Get the budget proposals
-			$.ajax({
-				url: "{{ site.api }}/budgets/"
-			})
-			.done(function(response){
-				var proposals = response.proposals;
-
-				proposals.map(function(proposal){
-					var	title 			= proposal.title ? proposal.title : proposal.name,
-						url				= proposal.dw_url,
-						owner 			= proposal.owner_username,
-						votes_yes 		= proposal.yes,
-						votes_no 		= proposal.no,
-						required_votes 	= proposal.remaining_yes_votes_until_funding,
-						amount_monthly 	= formatCurrency(proposal.monthly_amount)
-						will_be_funded	= proposal.will_be_funded ? "yes" : "no";
-
-					$("#budgets>tbody").append('<tr><td data-header="Title"><a href="' + url + '" target="_blank">' + title + '</a></td><td data-header="Owner">' + owner + '</td><td data-header="Votes (yes/no)">' + votes_yes + '/' + votes_no + '</td><td  data-header="Votes Required">' + required_votes + '</td><td data-header="Monthly Amount">' + amount_monthly + '</td><td data-header="Will be Funded">' + will_be_funded + '</td></tr>');
-
-				});
-			});
-
-			// Get the blockchain info
-			$.ajax({
-				url: "{{ site.api }}/chain/latestBlocks/"
-			})
-			.done(function(response){
-				var blocks = response.blocks;
-
-				blocks.map(function(block){
-					var height 		= block.height,
-						age 		= moment.unix(block.time).format("LLL"),
-						txs 		= block.txlength,
-						out 		= block.cbvalue,
-						difficulty 	= block.difficulty;
-
-					$("#blocks>tbody").append('<tr><td data-header="Height">' + height + '</td><td data-header="Block Time">' + age + '</td><td data-header="Transactions">' + txs + '</td><td data-header="Value Out">' + out + '</td><td data-header="Difficulty">' + difficulty + '</td></tr>');
-				});
-			});
-
-		});
-	}
-</script>

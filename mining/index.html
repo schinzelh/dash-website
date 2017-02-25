@@ -1,0 +1,58 @@
+---
+layout: default
+title: pages.mining.title
+description: pages.mining.description
+---
+
+
+{% include hero/mining.html %}
+{% include base.html %}
+
+
+<div class="page page--home">
+
+	<section>
+		<div class="section__content">
+			<h2 class="section__title">{% t pages.mining.pools-heading %}</h2>
+
+			<p class="section__lead">{% t pages.mining.pools-text %}</p>
+		</div>
+	</section>
+
+	<section >
+		<div class="section__content">
+			<h2 class="section__title">{% t pages.mining.pools-masternode-heading %}</h2>
+			{% tmd pages.mining.pools-masternode-text %}
+		</div>
+	</section>
+
+
+	<section class="section">
+		<div class="section__content">
+			<h2 class="section__title"">{% t pages.mining.how-start-heading %}</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>{% t pages.mining.asic-heading %}</h2>
+					{% tmd pages.mining.asic-text %}
+				</div>
+				<div class="col-sm-6">
+					<h2>{% t pages.mining.cpu-gpu-heading %}</h2>
+					{% tmd pages.mining.cpu-gpu-text %}
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="">
+		<div class="section__content">
+			<h2 class="bottom-space">{% t pages.mining.pools-stat-heading %}</h2>
+			<div class="row  bottom-space">
+				<div class="col-sm-6">
+				</div>
+				<div class="col-sm-6">
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>

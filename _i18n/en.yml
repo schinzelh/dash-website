@@ -2,6 +2,88 @@
 # For multiple paragraph content add two line breaks
 pages:
 
+  mining:
+    title: Dash Official Website | Dash Crypto Currency
+    description: Dash is Digital Cash
+
+    hero-heading: Mining
+
+    hero-text: Masternodes are computers that run a dash wallet and make decisions, such as locking transactions with InstantSend, coordinate mixing of coins, and voting on budget funding.
+
+    hero-how-to-btn: How to start
+    hero-pools-btn: Tools
+    hero-guides-btn: Guides
+
+    pools-heading: Mining Pools
+    pools-text: |
+      DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Dash developers and no guarantees are made as to the accuracy of this information. Please exercise discretion when using third-party services. If you’d like to be added to this list please reach out to coingun@masternode.io
+
+    pools-masternode-heading: Mining vs. Masternode
+    pools-masternode-text: |
+      Dash, like Bitcoin and most other cryptocurrencies, is based on a decentralized ledger of all transactions, known as a blockchain. This blockchain is secured through a consensus mechanism; in the case of both Dash and Bitcoin, the consensus mechanism is Proof of Work (PoW). Miners attempt to solve difficult problems with specialized computers, and when they solve the problem, they receive the right to add a new block to the blockchain. If all the other people running the software agree that the problem was solved correctly, the block is added to the blockchain and the miner is rewarded.
+
+
+      Dash works a little differently from Bitcoin, however, because it has a two-tier network. The second tier is powered by masternodes (Full Nodes), which enable financial privacy (PrivateSend), instant transactions (InstantSend), and the decentralized governance and budget system. Because this second tier is so important, masternodes are also rewarded when miners discover new blocks. The breakdown is as follows: 45% of the block reward goes to the miner, 45% goes to masternodes, and 10% is reserved for the budget system (created by superblocks every month).
+
+
+      The masternode system is referred to as Proof of Service (PoSe), since the masternodes provide crucial services to the network. In fact, the entire network is overseen by the masternodes, which have the power to reject improperly formed blocks from miners. If a miner tried to take the entire block reward for themselves or tried to run an old version of the Dash software, the masternode network would orphan that block, and it would not be added to the blockchain. In short, miners power the first tier, which is the basic sending and receiving of funds and prevention of doublespending. Masternodes power the second tier, which provide the added features that make Dash different from other cryptocurrencies. Masternodes do not mine, and mining computers cannot serve as masternodes. Additionally, each masternode is “secured” by 1000 DASH. Those DASH remain under the sole control of their owner at all times, and can still be freely spent. The funds are not locked in any way. However, if the funds are moved or spent, the associated masternode will go offline and stop receiving rewards.
+
+    how-start-heading: How to start Mining
+    asic-heading: ASIC Miner Hardware
+    asic-text: >
+      A server or a VPS installed with Linux: For the purposes of this guide we will be used Ubuntu 14.04 LTS.
+      We recommend cheap VPSes such as from Vultr and DigitalOcean though any decent provider will do.
+      Generally a low specced one will do. I use the 5 USD ones from Vultr and they work fine.
+    cpu-gpu-heading: Guides (CPU / GPU)
+    cpu-gpu-text: >
+      This is a fairly simple procedure and examples will be given in order to achieve the fastest possible hash rate for your cpu, but remember that more optimized miners can exist, so I advise you to keep an eye out on mining sites such as these in order to keep up with the latest releases.
+
+    pools-stat-heading: Pool Statistics
+
+
+
+    description-text-hero: >
+      Governance in a decentralized project is difficult,
+      because by definition there are no central authorities to make decisions for the project.
+      In Dash, such decisions are made by the network, that is, by the owners of masternodes. The DGBB system allows masternodes
+      to vote for or against proposals, which can then be implemented (or not) by Dash's developers. A key example is early in 2016,
+      when Dash's Core Team submitted a proposal to the network asking whether the blocksize should be increased to 2 MB. Within 24 hours,
+      consensus had been reached to approve this change. Compare this to Bitcoin, where debate on the blocksize has been raging for nearly three years.
+
+    description: >
+      The DGBB also provides a means for Dash to fund its own development. While other projects have to depend on donations or premined endowments,
+      Dash uses 10% of the block reward to fund its own development. Every time a block is mined, 45% of the reward goes to the miner, 45% goes to a
+      masternode, and the remaining 10% is not created until the end of the month. During the month, anybody can make a budget proposal to the network.
+      If that proposal is approved by at least 10% of the masternode network, then at the end of the month a series of "superblocks" will be created.
+      At that time, the block rewards that were not paid out (10% of each block) will be used to fund approved proposals. The network thus funds itself
+      by reserving 10% of the block reward for budget projects.
+
+    governance-meaning: What is Governance and what does it mean for Dash
+
+    voting-header: How to Vote
+    voting-automatic: Automated Voting
+    voting-automatic-text: >
+      One of the greatest challenges of building a crypto currency platform is ensuring you create a decentralized system of governance to manage,
+      fund, maintain and expand the project. This key element is absent in every currency to date, the natural response is to create a not-for-profit
+      foundation that is tasked with maintaining the core protocol and promoting the coin but is not really connected to the coin holders in any meaningful way.
+      This approach has a few issues that have been made evident from the experience of older crypto currency platforms.
+    voting-guide-btn: Guide - Amanda B.
+    voting-manual-btn: Manual Voting (in QT Wallet)
+    voting-central-btn: DashCentral
+
+    voting-tools: Governance Tools
+    voting-tools-text: >
+      The system would work as a decentralized voting mechanism setup in the software, where budgets for specific projects are proposed,
+      then the masternodes as a whole vote on them. Each project, if it passes, is added to the total budget and paid directly from the blockchain
+      to the person doing the work. With this, we could hire core developers and pay them directly after approval of the work in a decentralized fashion.
+    generator-link: Budget Proposal Generator
+    dashcentral-link: DashCentral
+    votetracker-link: VoteTracker
+    budget-monitoring-link: Budget Monitoring
+    proposal-status-link: Proposal Status
+
+    proposal-service: Proposal Automated Service
+
   masternodes:
     title: Dash Official Website | Dash Crypto Currency
     description: Dash is Digital Cash
@@ -85,9 +167,8 @@ pages:
     hero-text: >
       Decentralized Governance by Blockchain, or DGBB, is Dash's attempt to solve two important problems in cryptocurrency: governance and funding.
 
-    hero-how-to-btn: How to start
-    hero-guide-btn: Guides
-    hero-pools-btn: Pools
+    hero-how-to-btn: What is DGBB
+    hero-tools-btn: Tools
 
     description-text-hero: >
       Governance in a decentralized project is difficult,
@@ -371,15 +452,48 @@ pages:
     wallets-security-header: Security
     wallets-security-subtitle: Please secure your wallets by protecting them with strong, difficult-to-guess passwords and by backing them up in a secure place. Always choose to encrypt your wallet and any backups, because if your funds are lost or stolen, there is no way to recover them. If using a hardware (HD) wallet such as a paper wallet or keepass, please secure your "seeds" just as you would a regular wallet password. They are the only way to recover your wallet. For help on securing passwords, visit
     modal-platform: Platform
+    modal-header-vendor-label-descriptor: Wallet for Dash
+    modal-download-action-button-label: Download
+    modal-source-code-view: View
+    modal-source-code-label: Source Code
+    modal-source-closed-label: Proprietary
+    modal-website-label: Website
+    modal-control-label: Control
+    modal-control-full: This wallet provides full control of your Dash, and you can verify the source code and binaries yourself.
+    modal-control-semi: This wallet provides full control of your Dash, but you have to trust that your download doesn't contain malicious code
+    modal-validation-label: Validation
+    modal-validation-full: Full verification without needing to trust if payments were sent or received. This is the most secure wallet but uses the most diskspace.
+    modal-validation-spv: Simplified verification meaning you can validate if payments were sent or received with minimal trust.
+    modal-validation-hosted: You need to trust the vendor's server to know if payments were sent or received.
+
+    modal-access-label: Access
+    modal-access-p2p: Provides direct access to the p2p network.  This is the most censorship free and decentralized access.
+    modal-access-multi: Your access to the Dash p2p network is through a single intermediary gateway, but you can choose the gateway you want to use.
+    modal-access-vendor: Your access to the Dash p2p network is via proxy using only the vendor's servers.
+
+    modal-core-minimum-reqs: Minimum required versions
+    modal-core-header: Download Dash Core
+    modal-electrum-header: Download Dash Electrum
+    modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-security-key: Security
+    modal-win-core-security-value: .&#40full node/spv/hosted&#41
+    modal-win-core-source-code-key: Source Code
+    modal-win-core-source-code-value: .&#40link/ closed source&#41
+    modal-core-users-text: General Users
+    modal-core-users-value: 0.12.1.2
+    modal-core-masternode-text: Masternode Operators
+    modal-core-masternode-value: 0.12.1.2
+    modal-core-pool-text: Pool Operators
+    modal-core-pool-value: 0.12.1.2
 
   payments:
     title: Dash Payment Processors
     hero-heading: Dash Payment Processing
     hero-text: Quickly and easily integrate Dash as a payment method
     payments-desc-header: Payment Processors
-    payments-desc-subtitle: 
+    payments-desc-subtitle:
     payments-providers-header: Payment Processors
-    payments-providers-subtitle: 
+    payments-providers-subtitle:
 
     modal-header-vendor-label-descriptor: Wallet for Dash
     modal-download-action-button-label: Download
@@ -387,8 +501,6 @@ pages:
     modal-source-code-label: Source Code
     modal-source-closed-label: Proprietary
     modal-website-label: Website
-
-
     modal-control-label: Control
     modal-control-full: This wallet provides full control of your Dash, and you can verify the source code and binaries yourself.
     modal-control-semi: This wallet provides full control of your Dash, but you have to trust that your download doesn't contain malicious code
@@ -412,11 +524,11 @@ pages:
     modal-win-core-source-code-key: Source Code
     modal-win-core-source-code-value: .&#40link/ closed source&#41
     modal-core-users-text: General Users
-    modal-core-users-value: 0.12.1.1
+    modal-core-users-value: 0.12.1.2
     modal-core-masternode-text: Masternode Operators
-    modal-core-masternode-value: 0.12.1.1
+    modal-core-masternode-value: 0.12.1.2
     modal-core-pool-text: Pool Operators
-    modal-core-pool-value: 0.12.1.1
+    modal-core-pool-value: 0.12.1.2
 
 
   contact:
