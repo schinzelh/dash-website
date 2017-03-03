@@ -274,11 +274,11 @@ pages:
     modal-win-core-source-code-key: Code source
     modal-win-core-source-code-value: .&#40lien/source fermée&#41
     modal-core-users-text: Utilisateurs ordinaires
-    modal-core-users-value: 0.12.1.2
+    modal-core-users-value: 0.12.1.3
     modal-core-masternode-text: Opérateurs de masternode
-    modal-core-masternode-value: 0.12.1.2
+    modal-core-masternode-value: 0.12.1.3
     modal-core-pool-text: Opérateurs de pool
-    modal-core-pool-value: 0.12.1.2
+    modal-core-pool-value: 0.12.1.3
 
 
   contact:
@@ -373,7 +373,7 @@ pages:
     hero-image: get-dash-n.jpg
     hero-heading: Télécharger le portefeuille Dash
     hero-text: Pour commencer, téléchargez la dernière version du logiciel Dash
-    hero-wallet-version: Portefeuille Dash (v. 0.12.1.2) pour MacOS
+    hero-wallet-version: Portefeuille Dash (v. 0.12.1.3) pour MacOS
     hero-wallet-version-select: Choisissez-en un autre
     hero-platform-not-detected: "Nous sommes désolés, mais votre plateforme n'a pas pu être détectée automatiquement. Veuillez sélectionner \"Tous les portefeuilles\" pour trouver une version compatible."
     hero-download-btn: Télécharger
