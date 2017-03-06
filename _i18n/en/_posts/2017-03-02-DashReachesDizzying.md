@@ -14,7 +14,7 @@ Despite being available since March 2014, it is only recently that mainstream in
 
 Dash’s most recent 24-hour trade volumes now rival Ethereum’s, with Coinmarketcap data show it has the third-highest market capitalization in cryptocurrency.
 
-[Alt desc](/assets/img/81de5d4b2f0323275fe78d02a8259033.png)
+![Alt desc](/assets/img/81de5d4b2f0323275fe78d02a8259033.png)
 
 In February Dash debuted on the BitMEX exchange, while this week Wall of Coins released over-the-counter purchases for cash.
 
