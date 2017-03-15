@@ -36,12 +36,12 @@ pages:
     hero-text: Dash, like most other cryptocurrencies, is based on a decentralized ledger of all transactions, known as a blockchain. This blockchain is secured through a consensus mechanism; in the case of both Dash, the consensus mechanism is Proof of Work (PoW). Miners attempt to solve difficult problems with specialized computers, and when they solve the problem, they receive the right to add a new block to the blockchain. If all the other people running the software agree that the problem was solved correctly, the block is added to the blockchain and the miner is rewarded.
 
     hero-how-to-btn: How to start
-    hero-pools-btn: Tools
+    hero-asic-btn: ASIC HW
     hero-guides-btn: Guides
 
     pools-heading: Mining Pools
     pools-text: |
-      DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Dash developers and no guarantees are made as to the accuracy of this information. Please exercise discretion when using third-party services. If you’d like to be added to this list please reach out to <a href='mailto:coingun@masternode.io'>coingun@masternode.io</a>
+      DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Dash developers and no guarantees are made as to the accuracy of this information. Please exercise discretion when using third-party services. If you’d like to be added to this list please reach out to <a href='mailto:contact@dash.org'>contact@dash.org</a>
 
     pools-masternode-btn: Mining vs. Masternode
     pools-masternode-text: |
@@ -664,7 +664,11 @@ pages:
     trade-btn: Trade Dash
 
     otc-heading: Over the counter
+    otc-text: |
+      How does it work? If you want coins, we will exchange Dash for Fiat or Dash for BTC. Then we will use the fiat or BTC to pay for expenses within the project.
 
+      The benefit to the project is that we get to spend money on things that expand our reach to possible new users and spend money on other important things like a new website, pr budget, etc. The benefit to you is, you can get many more coins at the current price, then what are available on any exchange. So you can get into a Dash position much easier/cheaper than would otherwise be possible.
+    otc-btn: Full List
     integrate-btn: Integrate Dash
     full-list-btn: Full Exchanges List
 
@@ -875,6 +879,7 @@ nav:
   governance: Governance
   explorers: Block Explorers
   stats: Network Stats
+  exchanges-list: Full list of Exchanges
 
   community: Community
   discussion: Discussion
