@@ -660,13 +660,10 @@ pages:
     spend-btn: Spend Dash
     trade-btn: Trade Dash
 
-    otc-heading: Over the counter
+    otc-heading: Over the Counter (OTC)
     otc-text: |
-      How does it work? If you want coins, we will exchange Dash for Fiat or Dash for BTC. Then we will use the fiat or BTC to pay for expenses within the project.
-
-      The benefit to the project is that we get to spend money on things that expand our reach to possible new users and spend money on other important things like a new website, pr budget, etc. The benefit to you is, you can get many more coins at the current price, then what are available on any exchange. So you can get into a Dash position much easier/cheaper than would otherwise be possible.
+      Buying or selling large amounts of Dash on exchanges can cause price slippage, resulting in the buyer or seller receiving less value than intended. Large buy orders push the price higher, resulting in overpayment. Sizeable sell orders do the opposite, resulting in less value received for the Dash you sell. Fortunately there are “over the counter” or OTC solutions, where a vendor pairs buyers and sellers, allowing them to conduct large transactions off the exchanges and free from slippage.t things like a new website, pr budget, etc. The benefit to you is, you can get many more coins at the current price, then what are available on any exchange. So you can get into a Dash position much easier/cheaper than would otherwise be possible.
     otc-btn: Full List
-    integrate-btn: Integrate Dash
     full-list-btn: Full Exchanges List
 
     claim-heading: Buy, Sell, Exchange Dash
