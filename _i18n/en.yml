@@ -45,7 +45,7 @@ pages:
     pools-masternode-btn: Mining vs. Masternode
     pools-masternode-text: |
       Dash, like Bitcoin and most other cryptocurrencies, is based on a decentralized ledger of all transactions, known as a blockchain. This blockchain is secured through a consensus mechanism; in the case of both Dash and Bitcoin, the consensus mechanism is Proof of Work (PoW). Miners attempt to solve difficult problems with specialized computers, and when they solve the problem, they receive the right to add a new block to the blockchain. If all the other people running the software agree that the problem was solved correctly, the block is added to the blockchain and the miner is rewarded.
-    how-start-heading: How to start Mining
+    how-start-heading: How to Start Mining
     asic-heading: ASIC Miner Hardware
     asic-text: >
       Specialized computers called Application Specific Integrated Circuits (ASICs) are designed to solve Dash’s Proof of Work problems with the greatest possible efficiency. Current Dash ASICs on the market include:
@@ -57,7 +57,7 @@ pages:
 
     cpu-gpu-heading: Guides (CPU / GPU)
     cpu-gpu-text: >
-      This is a fairly simple procedure and examples will be given in order to achieve the fastest possible hash rate for your cpu, but remember that more optimized miners can exist, so I advise you to keep an eye out on mining sites such as these in order to keep up with the latest releases.
+      CPU / GPU Mining is no longer cost effective - be aware. This is a fairly simple procedure and examples will be given in order to achieve the fastest possible hash rate for your cpu, but remember that more optimized miners can exist, so I advise you to keep an eye out on mining sites such as these in order to keep up with the latest releases.
 
     cpu-mining-btn: CPU Mining
     sg-miner-btn: SGminer / graphics cards
