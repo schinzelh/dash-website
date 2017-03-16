@@ -33,8 +33,7 @@ pages:
 
     hero-heading: Mining
 
-    hero-text: Dash, like most other cryptocurrencies, is based on a decentralized ledger of all transactions, known as a blockchain. This blockchain is secured through a consensus mechanism; in the case of both Dash, the consensus mechanism is Proof of Work (PoW). Miners attempt to solve difficult problems with specialized computers, and when they solve the problem, they receive the right to add a new block to the blockchain. If all the other people running the software agree that the problem was solved correctly, the block is added to the blockchain and the miner is rewarded.
-
+    hero-text: The foundation of Dash is its blockchain, which is a decentralized ledger of all transactions that have ever taken place. This blockchain is secured through a consensus mechanism called “Proof of Work” (PoW). Through a process called “mining,” people use specialized computers to solve extremely difficult math problems. If their solution is correct, they receive the right to add a new block to the blockchain. Once the network verifies that the problem was correctly solved, a new block is added to the blockchain and the miner is rewarded with Dash currency.
     hero-how-to-btn: How to start
     hero-asic-btn: ASIC HW
     hero-guides-btn: Guides
@@ -49,9 +48,7 @@ pages:
     how-start-heading: How to start Mining
     asic-heading: ASIC Miner Hardware
     asic-text: >
-      A server or a VPS installed with Linux: For the purposes of this guide we will be used Ubuntu 14.04 LTS.
-      We recommend cheap VPSes such as from Vultr and DigitalOcean though any decent provider will do.
-      Generally a low specced one will do. I use the 5 USD ones from Vultr and they work fine.
+      Specialized computers called Application Specific Integrated Circuits (ASICs) are designed to solve Dash’s Proof of Work problems with the greatest possible efficiency. Current Dash ASICs on the market include:
     asic-pinidea-btn: ASIC Pinidea X11 Miner DR-1
     asic-pinidea-usb-btn: ASIC Pinidea X11 USB DU-1
     asic-ibelink-miner: ASIC iBeLink DM384M X11
