@@ -20,7 +20,7 @@ addons:
     packages:
     - g++-4.8
 before_install:
-- openssl aes-256-cbc -K $encrypted_f390c1eba1cb_key -iv $encrypted_f390c1eba1cb_iv -in dash.org-test-web.pem.enc -out dash.org-test-web.pem -d
+- openssl aes-256-cbc -K $encrypted_f390c1eba1cb_key -iv $encrypted_f390c1eba1cb_iv -in dash.org-test-web.pem.enc -out dash.org-test-web.pem 
 - rvm install 2.3.1
 before_deploy:
 - eval "$(ssh-agent -s)"

@@ -13,6 +13,41 @@ description: pages.mining.description
 
 	<section class="section">
 		<div class="section__content">
+			<h2 class="section__title"">{% t pages.mining.how-start-heading %}</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>{% t pages.mining.asic-heading %}</h2>
+					<div class="bottom-space">{% tmd pages.mining.asic-text %}</div>
+					<a href="#" class="btn-blue">{% t pages.mining.asic-pinidea-btn %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.asic-pinidea-usb-btn %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.asic-ibelink-miner %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.asic-baikal-mini-miner %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.asic-baikal-miner %}</a>
+				</div>
+				<div class="col-sm-6">
+					<h2>{% t pages.mining.cpu-gpu-heading %}</h2>
+					<div class="bottom-space">{% tmd pages.mining.cpu-gpu-text %}</div>
+					<a href="#" class="btn-blue">{% t pages.mining.cpu-mining-btn %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.sg-miner-btn %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.pools-stat-heading %}</a>
+					<a href="#" class="btn-blue">{% t pages.mining.amd-mining-btn %}</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="b-mining-section bottom-space">
+		<div class="content">
+			<div>
+				<a href="https://dashpay.atlassian.net/wiki/x/j5AxBg" class="btn-white-solid" target="_blank">{% t pages.mining.pools-masternode-btn %}</a>
+			</div>
+			{% tmd pages.mining.pools-masternode-text %}
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="section__content">
 			<h2 class="section__title">{% t pages.mining.pools-heading %}</h2>
 			<ul class="member-list member-list--merchants">
 			    <li class="member" data-mh="merchant" style="height: 219px;">
@@ -78,43 +113,6 @@ description: pages.mining.description
 			</ul>
 
 			<p class="warning-bg">{% t pages.mining.pools-text %}</p>
-		</div>
-	</section>
-
-	<section class="b-mining-section bottom-space">
-		<div class="content">
-
-			{% tmd pages.mining.pools-masternode-text %}
-			<div>
-				<a href="https://dashpay.atlassian.net/wiki/x/j5AxBg" class="btn-white-solid" target="_blank">{% t pages.mining.pools-masternode-btn %}</a>
-			</div>
-
-		</div>
-	</section>
-
-
-	<section class="section">
-		<div class="section__content">
-			<h2 class="section__title"">{% t pages.mining.how-start-heading %}</h2>
-			<div class="row">
-				<div class="col-sm-6">
-					<h2>{% t pages.mining.asic-heading %}</h2>
-					<div class="bottom-space">{% tmd pages.mining.asic-text %}</div>
-					<a href="#" class="btn-blue">{% t pages.mining.asic-pinidea-btn %}</a>
-					<a href="#" class="btn-blue">{% t pages.mining.asic-pinidea-usb-btn %}</a>
-					<a href="#" class="btn-blue">{% t pages.mining.asic-ibelink-miner %}</a>
-					<a href="#" class="btn-blue">{% t pages.mining.asic-baikal-mini-miner %}</a>
-					<a href="#" class="btn-blue">{% t pages.mining.asic-baikal-miner %}</a>
-				</div>
-				<div class="col-sm-6">
-					<h2>{% t pages.mining.cpu-gpu-heading %}</h2>
-					<div class="bottom-space">{% tmd pages.mining.cpu-gpu-text %}</div>
-					<a href="#" class="btn-blue">{% t pages.mining.cpu-mining-btn %}</a>
-					<a href="#" class="btn-blue">{% t pages.mining.sg-miner-btn %}</a>
-					<a href="#" class="btn-blue">{% t pages.mining.pools-stat-heading %}</a>
-					<a href="#" class="btn-blue">{% t pages.mining.amd-mining-btn %}</a>
-				</div>
-			</div>
 		</div>
 	</section>
 
