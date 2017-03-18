@@ -19,6 +19,11 @@
   url: https://algostrategic.com
   image: AlgoStrategic.jpg
 
+- name: Cryptosteel
+  title: Engraved Cold Storage
+  url: http://cryptosteel.com
+  image: Cryptosteel.jpg
+
 - name: Yipptee
   title: T Shirts
   url: http://www.yipptee.com
@@ -49,10 +54,10 @@
   url: http://healthiverse.net
   image: Healthiverse.jpg
 
-# - name: Above All House Plans
-#   title: House/ Garden
-#   url: http://www.aboveallhouseplans.com
-#   image: AboveAllHousePlants.jpg
+- name: Above All House Plans
+  title: House/ Garden
+  url: http://www.aboveallhouseplans.com
+  image: AboveAllHousePlants.jpg
 
 - name: The Reef Shop
   title: Aquarium Equipment
@@ -84,10 +89,10 @@
   url: http://www.fortgalt.com
   image: FortGalt.jpg
 
-# - name: BitFon
-#   title: Phone credits
-#   url: #
-#   image: Bitfon.jpg
+- name: BitFon
+  title: Phone credits
+  url: http://bitfon.pl
+  image: Bitfon.jpg
 
 - name: Ecigar
   title: Ecigarettes
