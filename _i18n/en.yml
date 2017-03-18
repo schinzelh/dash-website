@@ -33,7 +33,13 @@ pages:
 
     hero-heading: Mining
 
-    hero-text: The foundation of Dash is its blockchain, which is a decentralized ledger of all transactions that have ever taken place. This blockchain is secured through a consensus mechanism called “Proof of Work” (PoW). Through a process called “mining,” people use specialized computers to solve extremely difficult math problems. If their solution is correct, they receive the right to add a new block to the blockchain. Once the network verifies that the problem was correctly solved, a new block is added to the blockchain and the miner is rewarded with Dash currency.
+    hero-text: |
+      The foundation of Dash is its blockchain, which is a decentralized ledger of all transactions that have ever taken place. This blockchain is secured through a consensus mechanism called “Proof of Work” (PoW).
+
+      Through a process called “mining,” people use specialized computers to solve extremely difficult math problems. If their solution is correct, they receive the right to add a new block to the blockchain.
+
+      Once the network verifies that the problem was correctly solved, a new block is added to the blockchain and the miner is rewarded with Dash currency.
+
     hero-how-to-btn: How to start
     hero-asic-btn: ASIC HW
     hero-guides-btn: Guides
