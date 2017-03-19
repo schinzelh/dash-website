@@ -419,13 +419,13 @@
     MultiCurrency Wallet, securely with our cross-chain enabled mobile hybrid wallet.
     • Superb Security
       Your private keys never leave your device. Strong wallet encryption and cryptography guarantee that your funds will remain safe under your ultimate control.
-    • Enhanced Privacy & Anonymity
+    • Enhanced Privacy &amp; Anonymity
       No KYC bureaucracy to access your funds, no IP association, no identity linking, no transactions tracking. Our servers anonymize your requests by hiding your IP from prying eyes.
     • Exchange Inside
       Convert between altcoins instantly from within the app, through our strategic partner ShapeShift.
     • One-time Backup
       Hierarchical Deterministic Wallet (BIP44) enables you to keep everything accessible and secure with just one super-passphrase which you only have to back-up once and for all.
-    • Open Source & Transparent
+    • Open Source &amp; Transparent
       No hidden code, no malicious modules, no exploits, no small letters. Our code is publicly available and publicly reviewed.
   logo_url: "/assets/img/wallets/coinomi-logo-medium.png"
   os: android
@@ -449,7 +449,7 @@
 - name: Jaxx
   description: |
     <p>
-    Jaxx Blockchain Interface & Wallet
+    Jaxx Blockchain Interface &amp; Wallet
     </p>
     All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
   logo_url: "/assets/img/wallets/jaxx-logo.ico"

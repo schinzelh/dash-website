@@ -4,11 +4,12 @@ node_js:
 before_script:
 - chmod +x ./cibuild.sh
 - ssh-keyscan -H -t rsa,dsa $hostname >> ~/.ssh/known_hosts
-script: "./cibuild.sh"
+script: ./cibuild.sh
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - CXX=g++-4.8
+  - secure: aXYO6rBvt1dONEoYw0tScSTAoM+la0nfy7CJw/DTxhN05YjayJqLreZXEnHgCweeFyVIgmMJags0VAKfuUFPm8x5DOl7GF1t0KcvPb8acihgWS2p6pIeM7zJf3maGoC/AcOlvBZHMQcZAHsNi1O1Oc/+G/bvM3PaXXlEHb9cMbn8Kz+CzhMqRNMfu8c2REWB4OsR1HXf1KRTE7p4LhDgs7e9+0tDlfORID4jt9YgSou6flSjfovDNO3IWFvhIiwvipwSNw7XdCgPqyCoHjMFF0OctOKEwUnbkYt9ICEKbnmakqduShZVpKzhRI09dvmBks/t8ZJifopEjC+sxeQV9gWc/DALKgEeqIaKf4PQKfFs7OhksOaWhjxo17RQsUX3uMNIjuaszgh5Z2ppG/a4DQi1OqLOApp5AcDcGfh8u91E2nVUEtRgikQoxy5dwcAXgW8iu/ROVD/X0Vp7siKEchyek68SkOy6VK/fKa/sJX7zddIy8kx2bIeUnqR0yOD3yIzZGRinWm4R98DwMd38DuE+qdgVVO2n5npfSxfkvG67sahEGQ0UZWFZOi8le3FOR2f+LNqcA9NAlOeH14MQW8vd5MTbguUBeDew1E+NSQyT6P1K1bJHCio/OPi1TiaUSXXFeuuKqyC95VmD6Ln5uKDoo4DGg2JBgl2whkIGLpI=
 sudo: false
 addons:
   ssh_known_hosts:
@@ -20,7 +21,7 @@ addons:
     packages:
     - g++-4.8
 before_install:
-- openssl aes-256-cbc -K $encrypted_f390c1eba1cb_key -iv $encrypted_f390c1eba1cb_iv -in dash.org-test-web.pem.enc -out dash.org-test-web.pem -d
+- openssl aes-256-cbc -k "$dash_org_pem_pass" -in dash.org-test-web.pem.enc -out dash.org-test-web.pem -d
 - rvm install 2.3.1
 before_deploy:
 - eval "$(ssh-agent -s)"
@@ -29,6 +30,7 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r -c -v --delete-after --exclude-from 'ciexclude.txt' $TRAVIS_BUILD_DIR/_site/ $user@$hostname:$production_path
+  script: rsync -r -c -v --delete-after --exclude-from 'ciexclude.txt' $TRAVIS_BUILD_DIR/_site/
+    $user@$hostname:$production_path
   on:
     branch: master

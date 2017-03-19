@@ -309,7 +309,7 @@ pages:
     licence-link-text: Creative Commons Attribution-ShareAlike 4.0 International License.
     licence-link: https://creativecommons.org/licenses/by-sa/4.0/
 
-    logos-header: Logos & Icons
+    logos-header: "Logos &amp; Icons"
     merchants-header: Merchant Buttons
     dontaion-header: Donation Buttons
     community-header: Community
@@ -505,11 +505,11 @@ pages:
     modal-core-minimum-reqs: Minimum required versions
     modal-core-header: Download Dash Core
     modal-electrum-header: Download Dash Electrum
-    modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-description: Brief Description&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     modal-win-core-security-key: Security
-    modal-win-core-security-value: .&#40full node/spv/hosted&#41
+    modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
     modal-win-core-source-code-key: Source Code
-    modal-win-core-source-code-value: .&#40link/ closed source&#41
+    modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: General Users
     modal-core-users-value: 0.12.1.3
     modal-core-masternode-text: Masternode Operators
@@ -549,11 +549,11 @@ pages:
     modal-core-minimum-reqs: Minimum required versions
     modal-core-header: Download Dash Core
     modal-electrum-header: Download Dash Electrum
-    modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-description: Brief Description&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     modal-win-core-security-key: Security
-    modal-win-core-security-value: .&#40full node/spv/hosted&#41
+    modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
     modal-win-core-source-code-key: Source Code
-    modal-win-core-source-code-value: .&#40link/ closed source&#41
+    modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: General Users
     modal-core-users-value: 0.12.1.3
     modal-core-masternode-text: Masternode Operators
@@ -572,7 +572,7 @@ pages:
     form-pretext: For technical support or troubleshooting with wallets, mining, or other general questions, please visit DashTalk or one of the many other community resources.
     form-pretext-2: For other inquiries, use this link.
         # form-pretext-2: For other inquiries, use this form.
-    social-heading: Forums & Social Media
+    social-heading: "Forums &amp; Social Media"
     mail-list-heading: Mailing List
     mail-list-text: Have trouble keeping up-to-date? Join our mailing list.
     social-text-heading: VISIT DASH FORUM
@@ -705,7 +705,7 @@ pages:
     shop-join-btn: Become a Merchant
 
     visa-heading: Shop at Visa stores
-    visa-text: Dash-Visa debit card with no foreign transaction fees and mobile "tap & pay"
+    visa-text: 'Dash-Visa debit card with no foreign transaction fees and mobile "tap &amp; pay"'
     visa-btn: Get Shake
     visa-link: https://shakepay.co/#/
 
@@ -729,7 +729,7 @@ pages:
     email-heading: Email Providers
     vpn-heading: VPN Providers
     hosting-heading: Hosting and VPS
-    design-heading: Web & Graphic Design
+    design-heading: "Web &amp; Graphic Design"
     gifts-heading: Gift Cards
     games-heading: Games
     casinos-heading: Online Casinos
@@ -845,7 +845,7 @@ pages:
     # Need some Dash - get content from get-dash ^^
   blog:
       title: The Digital Cash Blog
-      description: Latest Dash news & information
+      description: "Latest Dash news &amp; information"
       search-btn: Search Blog
       community-news-btn: Community News
 

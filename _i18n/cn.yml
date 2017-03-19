@@ -268,11 +268,11 @@ pages:
     modal-core-minimum-reqs: 要求最低的版本
     modal-core-header: 下载Dash Core
     modal-electrum-header: 下载达世币轻钱包
-    modal-win-core-description: Brief Description&#58 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-description: Brief Description&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     modal-win-core-security-key: 安全
-    modal-win-core-security-value: .&#40full node/spv/hosted&#41
+    modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
     modal-win-core-source-code-key: 源代码
-    modal-win-core-source-code-value: .&#40link/ closed source&#41
+    modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: 普通用户
     modal-core-users-value: 0.12.1.0
     modal-core-masternode-text: 主节点运营者
@@ -290,7 +290,7 @@ pages:
     form-pretext: 请访问DashTalk 或其他社区资源获取技术支持，以便解决关于钱包、挖矿等方面的问题。
     form-pretext-2: 点击此链接进行其他查询
         # form-pretext-2: 使用此表单进行其他查询
-    social-heading: 论坛 & 社交媒体
+    social-heading: 论坛 &amp; 社交媒体
     mail-list-heading: 邮件列表
     mail-list-text: 无法及时跟进达世币新动向？加入我们的邮件列表吧！
     social-text-heading: 访问达世币论坛

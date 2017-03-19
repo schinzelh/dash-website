@@ -233,7 +233,7 @@ pages:
     hero-text: Votre portefeuille est le logiciel qui vous sert à envoyer, recevoir et conserver vos dashs. Il est facile à utiliser, et vous pouvez choisir d'envoyer des paiements anonymisés avec la fonction PrivateSend.
     wallets-desktop-header: Ordinateurs
     wallets-desktop-subtitle: Les portefeuilles Dash pour ordinateur sont disponibles avec différentes caractéristiques et niveaux de sécurité.
-    wallets-mobile-header: Téléphones mobiles et tablettes 
+    wallets-mobile-header: Téléphones mobiles et tablettes
     wallets-mobile-subtitle: Les portefeuilles mobiles Dash sont disponibles avec différentes caractéristiques et niveaux de sécurité, et ils fonctionnent sur votre appareil mobile (téléphone, tablette…).
     wallets-hardware-header: Portefeuilles matériels
     wallets-hardware-subtitle: Les portefeuilles matériels sont des appareils de sécurité qui protègent votre portefeuille des pirates et des voleurs. Les portefeuilles matériels fonctionnent en synchronisation avec le portefeuille logiciel de votre ordinateur, par gestion automatique de la génération et du stockage des clés privées, ainsi que des signatures des transactions.
@@ -270,9 +270,9 @@ pages:
     modal-electrum-header: Télécharger Dash Electrum
     modal-win-core-description: Brève description
     modal-win-core-security-key: Sécurité
-    modal-win-core-security-value: .&#40nœud complet/SPV/hébergé&#41
+    modal-win-core-security-value: .&#40;nœud complet/SPV/hébergé&#41;
     modal-win-core-source-code-key: Code source
-    modal-win-core-source-code-value: .&#40lien/source fermée&#41
+    modal-win-core-source-code-value: .&#40;lien/source fermée&#41;
     modal-core-users-text: Utilisateurs ordinaires
     modal-core-users-value: 0.12.1.3
     modal-core-masternode-text: Opérateurs de masternode
@@ -413,7 +413,7 @@ pages:
     shop-join-btn: Devenir un vendeur
 
     visa-heading: Achetez dans les magasins acceptant la carte Visa
-    visa-text: Carte de débit Visa Dash sans frais de transaction en devise étrangère, et avec “tap & pay” sur votre mobile
+    visa-text: 'Carte de débit Visa Dash sans frais de transaction en devise étrangère, et avec “tap &amp; pay” sur votre mobile'
     visa-btn: Obtenir la carte Shake
     visa-link: https://shakepay.co/#/
 

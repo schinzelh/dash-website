@@ -98,7 +98,7 @@ pages:
     shop-join-btn: Hai un negozio? Accetta Dash
 
     visa-heading: Acquista nei negozi Visa
-    visa-text: Carta di debito Dash-Visa. Nessuna commissione per transazione internazionali e funzionalità "tap & pay" dal tuo cellulare
+    visa-text: 'Carta di debito Dash-Visa. Nessuna commissione per transazione internazionali e funzionalità "tap &amp; pay" dal tuo cellulare'
     visa-btn: Scarica Shake
     visa-link: https://shakepay.co/#/
 

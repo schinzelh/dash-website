@@ -20,7 +20,7 @@
 - name: AllCrypt
   trading_pairs: BTC, LTC, DOGE
   fees: >
-    0.195%; Priority & Stop Orders: +.25%; Market Order: +.2%; Withdrawal: Flat coin-based fee (unknown)
+    0.195%; Priority &amp; Stop Orders: +.25%; Market Order: +.2%; Withdrawal: Flat coin-based fee (unknown)
   image: allcrypt_logo.png
   url: https://www.allcrypt.com/market
 

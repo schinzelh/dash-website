@@ -170,8 +170,8 @@
   core-team: true
 
 - name: Philipp Engelhorn
-  title: Press & Multitool
-  description: Philipp (AKA \"tungfa\") is a freelance photographer who brings 20 years of press, magazine & newspaper, promotion, design, social media and communications experience to the team. He is located in Asia
+  title: Press &amp; Multitool
+  description: Philipp (AKA \"tungfa\") is a freelance photographer who brings 20 years of press, magazine &amp; newspaper, promotion, design, social media and communications experience to the team. He is located in Asia
   image: philipp.png
   email: press@dash.org
   keybase: https://keybase.io/tungfa
@@ -189,7 +189,7 @@
 
 - name: Ryan Taylor
   title: Director of Finance
-  description: Ryan (AKA “babygiraffe”) has an MBA with a concentration in Finance & Economics. He has over 15 years of experience in technology, strategy consulting, and finance. As a consultant, he served many of the world’s largest financial institutions on a wide variety of strategy and technology topics. Most recently, Ryan was a hedge fund analyst covering both private equity and public market investments within the payments sector. He brings to the team a deep understanding of payments-specific business strategy, product management, and operations.
+  description: Ryan (AKA “babygiraffe”) has an MBA with a concentration in Finance &amp; Economics. He has over 15 years of experience in technology, strategy consulting, and finance. As a consultant, he served many of the world’s largest financial institutions on a wide variety of strategy and technology topics. Most recently, Ryan was a hedge fund analyst covering both private equity and public market investments within the payments sector. He brings to the team a deep understanding of payments-specific business strategy, product management, and operations.
   image: ryan_taylor.jpg
   email: ryan@dash.org
   keybase: https://keybase.io/ryanptaylor
@@ -264,7 +264,7 @@
 
 - name: Slawek
   title: Testing and Deployment
-  description: Slawek (AKA \“splawik21\”) has a degree in management & marketing. He brings 6 years of experience as a team leader in direct sales and another 5 years on leadership positions in automotive industry. IT hobbyist, Polish Dash sub-forum founder and crypto-currency enthusiast.
+  description: Slawek (AKA \“splawik21\”) has a degree in management &amp; marketing. He brings 6 years of experience as a team leader in direct sales and another 5 years on leadership positions in automotive industry. IT hobbyist, Polish Dash sub-forum founder and crypto-currency enthusiast.
   image: splawik21.png
   email: splawik21@dashpay.io
   keybase: https://keybase.io/splawik21

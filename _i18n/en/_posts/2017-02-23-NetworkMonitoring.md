@@ -29,7 +29,7 @@ It has been a banner week, you could say, with Dash currently trading at 21 US d
 Current price in USD: <http://coinmarketcap.com>
 
 In network statistics, today’s hashrate is 2.25 terahashes/second. Compare this to the hashrate of 3 months ago, one year ago, and three years ago. ASICs, huh? 
-Hashrate & full node count: <http://bitinfocharts.com>
+Hashrate &amp; full node count: <http://bitinfocharts.com>
 
 Also on the network, we have 4463 masternodes. Of these, between 7% and 10% have not yet upgraded to 12.1. Bad masternodes. After the Sentinel fix is pushed this weekend, that will probably open the network back up to the flipping of enforcement. So, if we have have to lose these roughly 350 masternodes who’ve not yet upgraded, that would be sad, but there’d still be more than 4,000 left on the network.
 Masternode count: <http://178.254.23.111/~pub/masternode_count.png>
