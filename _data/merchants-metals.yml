@@ -6,3 +6,7 @@
 - name: Bitgild
   url: http://www.bitgild.com
   image: Bitgild.jpg
+
+- name: Goldmoney
+  url: https://www.goldmoney.com
+  image: Goldmoney.jpg
