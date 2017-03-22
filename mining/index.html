@@ -140,28 +140,3 @@ description: pages.mining.description
 
 </div>
 
-<script type="text/javascript">
-	window.onload = function () {
-		$( document ).ready(function(){
-
-			// Get the blockchain info
-			$.ajax({
-				url: "{{ site.api }}/chain/latestBlocks/"
-			})
-			.done(function(response){
-				var blocks = response.blocks;
-
-				blocks.map(function(block){
-					var height 		= block.height,
-						age 		= moment.unix(block.time).format("LLL"),
-						txs 		= block.txlength,
-						out 		= block.cbvalue,
-						difficulty 	= block.difficulty;
-
-					$("#blocks>tbody").append('<tr><td data-header="Height">' + height + '</td><td data-header="Block Time">' + age + '</td><td data-header="Transactions">' + txs + '</td><td data-header="Value Out">' + out + '</td><td data-header="Difficulty">' + difficulty + '</td></tr>');
-				});
-			});
-
-		});
-	}
-</script>
