@@ -46,5 +46,29 @@
       }
     </script>
 
+    <!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 8655926;
+(function() {
+var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+
+//*********begin kickstart
+//for some reason the chat window doesn't play nicely immediately on load,
+//and is invisible... so this little jimmy kick starts it. ¯\_(ツ)_/¯ CCW_20170322_0356MST
+var LC_API = LC_API || {};
+LC_API.on_after_load = function() {
+  window.setTimeout(function () {
+  	LC_API.minimize_chat_window();
+  }, 1500);
+};
+//*********end kickstart
+
+</script>
+<!-- End of LiveChat code -->
+
   </body>
 </html>
