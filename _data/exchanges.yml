@@ -48,6 +48,12 @@
   image: bitfinex_logo.png
   url: https://www.bitfinex.com
 
+- name: Bitpanda
+  trading_pairs:
+  fees:
+  image: bitpanda_logo.png
+  url: https://www.bitpanda.com
+
 - name: Bittrex
   trading_pairs: BTC
   fees: 0.25%
