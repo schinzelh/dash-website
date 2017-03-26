@@ -127,12 +127,6 @@
   image: Dashous.png
   url: https://dashous.com
 
-- name: Dashcurex
-  trading_pairs: BTC, USD, PLN
-  fees: Trading 0.15 – 0.5%; Deposit/Withdrawal Varies
-  image: dashcurex_logo.png
-  url: https://dashcurex.com/
-
 - name: Exmo
   trading_pairs: BTC
   fees: N/A
