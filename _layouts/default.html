@@ -35,7 +35,12 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js" integrity="sha384-dfOR5hjVOg6B2OvgyHIS71mJWX5TgNQeFGo5cNNVglSep7ZvYcByrpEya6xbwwyB" crossorigin="anonymous"></script>
     <script src="/dist/js/main.min.js"></script>
     <script>
-      function formatNumber (num) {
+	  window.globals = {
+		siteApi : "{{ site.api }}"
+	  };
+
+	  ////////
+	  function formatNumber (num) {
           return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
       }
 

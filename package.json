@@ -30,7 +30,7 @@
     "build:font": "npm run font",
     "build:images": "npm run imagemin",
     "reload": "browser-sync reload",
-    "build": "run-s clean build:js build:css build:font build:jekyll copy",
+    "build": "run-s clean build:js build:css build:font build:jekyll copy htmlproof eslint",
     "watch:jekyll": "onchange 'index.html' '*/*.html' '_*/**/*.yml' '_includes/**/*.html' '_layouts/**/*.html' '_posts/*' -e '_site/*' -d 500 -- run-s build:jekyll:incremental copy reload",
     "watch:css": "onchange 'src/scss/**/*' -d 500 -- run-s sass prefix copy:css",
     "watch:js": "onchange 'src/js/*' -d 500 -- run-s uglify:dev copy:js reload",

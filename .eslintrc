@@ -5,6 +5,9 @@
   },
   "globals": {
     "Modernizr": false,
+    "moment": false,
+    "formatCurrency": false,
+    "formatNumber": false,
     "jQuery": false
   },
   "rules": {

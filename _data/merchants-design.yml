@@ -1,12 +1,12 @@
 
 - name: Ether Design
-  url: http://etherdesign.io
+  url: "http://etherdesign.io"
   image: EtherDesign.jpg
 
 - name: ISFX Media
-  url: http://isfx.co.uk/
+  url: "http://isfx.co.uk/"
   image: isfx.jpg
 
-  - name: West County Media
-  url: www.WestCountyMedia.com
+- name: West County Media
+  url: "http://www.WestCountyMedia.com"
   image: westcountymedia.jpg
