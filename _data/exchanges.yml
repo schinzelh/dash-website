@@ -26,6 +26,7 @@
 
 - name: AnytimeDirect
   trading_pairs:
+  fees:
   image: anycoin_logo.png
   url: https://anycoindirect.eu
 
