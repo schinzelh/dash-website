@@ -2,13 +2,13 @@
 	'use strict';
 	$(document).ready(function () {
 
-		var siteApi = window.globals.siteApi || '/api/v1/';
+		var siteApi = window.globals.siteApi || '/api/v1';
 
 		if ($('#blocks').length) {
 
 			// Get the blockchain info
 			$.ajax({
-				url: siteApi + 'chain/latestBlocks/'
+				url: siteApi + '/chain/latestBlocks/'
 			})
 			.done(function(response) {
 				var blocks = response.blocks;
@@ -29,7 +29,7 @@
 
 			// Get the exchange data
 			$.ajax({
-				url: siteApi + 'exchange/',
+				url: siteApi + '/exchange/',
 				error: function(jqXHR, textStatus, errorThrown) {
 					console.log(jqXHR);
 					console.log(textStatus);
@@ -58,7 +58,7 @@
 
 			// Get the current number of masternodes.
 			$.ajax({
-				url: siteApi + 'masternodes/stats/'
+				url: siteApi + '/masternodes/stats/'
 			})
 			.done(function(response) {
 				console.log('masternode stats', response.stats);
@@ -74,7 +74,7 @@
 
 			// Get the budget proposals
 			$.ajax({
-				url: siteApi + 'budgets/'
+				url: siteApi + '/budgets/'
 			})
 			.done(function(response) {
 				var proposals = response.proposals;
