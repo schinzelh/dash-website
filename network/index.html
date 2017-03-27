@@ -4,123 +4,144 @@ title: pages.currency.title
 description: pages.currency.description
 ---
 
+
 {% include hero/currency.html %}
 
 <div class="content page page--currency">
-
 	<section class="section section--currency" id="section-exchanges">
-		<h2 class="section__title">{% t pages.currency.markets-heading %}</h2>
-		<p class="section__lead">
-			Compare Sites
-		</p>
-		<div class="hero__buttons">
-			<a href="http://coinmarketcap.com/currencies/dash/#markets" target="_blank" class="btn-blue-solid">CoinMarketCap</a>
-			<a href="https://www.worldcoinindex.com/" target="_blank" class="btn-blue-solid">WorldCoinIndex</a>
-			<a href="http://coincap.io/" target="_blank" class="btn-blue-solid">CoinCap</a>
+		<div class="section__content">
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="">{% t pages.currency.markets-heading %}</h2>
+					<p class="section__lead">
+						Compare Sites
+					</p>
+					<div class="hero__buttons">
+						<a href="http://coinmarketcap.com/currencies/dash/#markets" target="_blank" class="btn-blue-solid">CoinMarketCap</a>
+						<a href="https://www.worldcoinindex.com/" target="_blank" class="btn-blue-solid">WorldCoinIndex</a>
+						<a href="http://coincap.io/" target="_blank" class="btn-blue-solid">CoinCap</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2>Exchanges</h2>
+					<table id="exchanges">
+						<thead>
+							<tr>
+								<th>Exchange</th>
+								<th>Volume (24h)</th>
+								<th>Price</th>
+								<th>Volume (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+			</div>
 		</div>
-		<table id="exchanges">
-			<thead>
-				<tr>
-					<th>Exchange</th>
-					<th>Volume (24h)</th>
-					<th>Price</th>
-					<th>Volume (%)</th>
-				</tr>
-			</thead>
-			<tbody>
-
-			</tbody>
-		</table>
-	</section>
-
-	<section class="section section--currency" id="section-governance">
-		<h2 class="section__title">{% t pages.currency.governance-heading %}</h2>
-		<p class="section__lead">
-			Governance Tools
-		</p>
-		<div class="hero__buttons">
-			<a href="http://dashvotetracker.com/" target="_blank" class="btn-blue-solid">DashVoteTracker</a>
-			<a href="https://www.dashcentral.org/" target="_blank" class="btn-blue-solid">DashCentral</a>
-			<a href="https://www.dashninja.pl/budgets.html" target="_blank" class="btn-blue-solid">DashNinja</a>
-			<a href="https://proposal.dash.org/" target="_blank" class="btn-blue-solid">Proposal Generator</a>
-		</div>
-
-		<table id="budgets">
-			<thead>
-				<tr>
-					<th>Title</th>
-					<th>Owner</th>
-					<th>Votes (yes/no)</th>
-					<th>Votes Required</th>
-					<th>Monthly Amount</th>
-					<th>Will be Funded</th>
-				</tr>
-			</thead>
-			<tbody>
-
-			</tbody>
-		</table>
 	</section>
 
 	<section class="section section--currency" id="section-network">
-		<h2 class="section__title">{% t pages.currency.network-heading %}</h2>
-
-		<p class="section__lead">
-			Masternode Info
-		</p>
-		<div class="hero__buttons">
-			<a href="http://178.254.23.111/~pub/Dash/Dash_Info.html" target="_blank" class="btn-blue-solid">DashInfo</a>
-			<a href="https://www.dashninja.pl/masternodes.html" target="_blank" class="btn-blue-solid">DashNinja</a>
+		<div class="section__content">
+			<h2 class="section__title bottom-space">{% t pages.currency.network-heading %}</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row bottom-space">
+						<div class="col-md-6">
+							<p>Current masternodes:</p>
+							 <span id="masternodes_count" class="big-accent"></span>
+						</div>
+						<div class="col-md-6">
+							<p>Maximum masternodes so far:</p>
+							<span id="masternodes_max " class="big-accent"></span>
+						</div>
+					</div>
+					<p>
+						{% t pages.currency.masternode-desc-text %}
+					</p>
+					<div class="hero__buttons">
+						<a href="http://178.254.23.111/~pub/Dash/Dash_Info.html" target="_blank" class="btn-blue-solid">DashInfo</a>
+						<a href="https://www.dashninja.pl/masternodes.html" target="_blank" class="btn-blue-solid">DashNinja</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<p>
+						<img src="http://178.254.23.111/~pub/masternode_count.png" width="100%">
+					</p>
+				</div>
+			</div>
 		</div>
-
-		<p>
-			Current masternodes: <span id="masternodes_count"></span><br>
-			Maximum masternodes so far: <span id="masternodes_max"></span>
-		</p>
-		<p>
-			<img src="http://178.254.23.111/~pub/masternode_count.png">
-		</p>
 	</section>
 
 	<section class="section section--currency" id="section-blockchain">
-		<h2 class="section__title">{% t pages.currency.blockchain-heading %}</h2>
-		<p class="section__lead">
-			Block Explorers
-		</p>
-		<div class="hero__buttons">
-			<a href="https://chainz.cryptoid.info/dash/" target="_blank" class="btn-blue-solid">CryptoID</a>
-			<a href="https://explorer.coinpayments.net/index.php?chain=7" target="_blank" class="btn-blue-solid">CoinPayments</a>
-			<a href="https://explorer.dashninja.pl/chain/Dash" target="_blank" class="btn-blue-solid">DashNinja</a>
-			<a href="https://bitinfocharts.com/darkcoin/explorer/" target="_blank" class="btn-blue-solid">BitInfoCharts</a>
+		<div class="section__content">
+			<h2 class="section__title">{% t pages.currency.blockchain-heading %}</h2>
+			<p class="section__lead">
+				Block Explorers
+			</p>
+			<div class="hero__buttons">
+				<a href="https://chainz.cryptoid.info/dash/" target="_blank" class="btn-blue-solid">CryptoID</a>
+				<a href="https://explorer.coinpayments.net/index.php?chain=7" target="_blank" class="btn-blue-solid">CoinPayments</a>
+				<a href="https://explorer.dashninja.pl/chain/Dash" target="_blank" class="btn-blue-solid">DashNinja</a>
+				<a href="https://bitinfocharts.com/darkcoin/explorer/" target="_blank" class="btn-blue-solid">BitInfoCharts</a>
+			</div>
+			<table id="blocks">
+				<thead>
+					<tr>
+						<th>Height</th>
+						<th>Block Time</th>
+						<th>Transactions</th>
+						<th>Value Out</th>
+						<th>Difficulty</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
 		</div>
+	</section>
 
-		<table id="blocks">
-			<thead>
-				<tr>
-					<th>Height</th>
-					<th>Block Time</th>
-					<th>Transactions</th>
-					<th>Value Out</th>
-					<th>Difficulty</th>
-				</tr>
-			</thead>
-			<tbody>
-
-			</tbody>
-		</table>
+	<section class="section section--currency" id="section-governance">
+		<div class="section__content">
+			<h2 class="section__title">{% t pages.currency.governance-heading %}</h2>
+			<p class="section__lead">
+				Governance Tools
+			</p>
+			<div class="hero__buttons">
+				<a href="http://dashvotetracker.com/" target="_blank" class="btn-blue-solid">DashVoteTracker</a>
+				<a href="https://www.dashcentral.org/" target="_blank" class="btn-blue-solid">DashCentral</a>
+				<a href="https://www.dashninja.pl/budgets.html" target="_blank" class="btn-blue-solid">DashNinja</a>
+				<a href="https://proposal.dash.org/" target="_blank" class="btn-blue-solid">Proposal Generator</a>
+			</div>
+			<table id="budgets">
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th>Owner</th>
+						<th>Votes (yes/no)</th>
+						<th>Votes Required</th>
+						<th>Monthly Amount</th>
+						<th>Will be Funded</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
 	</section>
 
 	<section class="section section--currency" id="section-mining">
-		<h2 class="section__title">{% t pages.currency.mining-heading %}</h2>
-		<p class="section__lead">
-			Mining Information
-		</p>
-		<div class="hero__buttons">
-			<a href="https://dashpay.atlassian.net/wiki/display/DOC/Pools" target="_blank" class="btn-blue-solid">Pools</a>
-			<a href="https://dashpay.atlassian.net/wiki/display/DOC/ASIC+Miner+Hardware" target="_blank" class="btn-blue-solid">ASICs</a>
-			<a href="https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=24019016" target="_blank" class="btn-blue-solid">Guides</a>
+		<div class="section__content">
+			<h2 class="section__title">{% t pages.currency.mining-heading %}</h2>
+			<p class="section__lead">
+				Mining Information
+			</p>
+			<div class="hero__buttons">
+				<a href="https://dashpay.atlassian.net/wiki/display/DOC/Pools" target="_blank" class="btn-blue-solid">Pools</a>
+				<a href="https://dashpay.atlassian.net/wiki/display/DOC/ASIC+Miner+Hardware" target="_blank" class="btn-blue-solid">ASICs</a>
+				<a href="https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=24019016" target="_blank" class="btn-blue-solid">Guides</a>
+			</div>
 		</div>
-
 	</section>
 
 </div>

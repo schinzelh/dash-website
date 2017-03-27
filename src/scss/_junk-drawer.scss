@@ -522,3 +522,7 @@ a.blog_link {
     z-index: -1;
   }
 }
+.big-accent{
+	@include font-title-xxlarge();
+}
+
