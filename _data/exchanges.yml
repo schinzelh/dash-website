@@ -24,7 +24,7 @@
   image: allcrypt_logo.png
   url: https://www.allcrypt.com/market
 
-- name: AnytimeDirect
+- name:  Anycoin Direct
   trading_pairs:
   fees:
   image: anycoin_logo.png
