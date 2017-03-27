@@ -24,6 +24,11 @@
   image: allcrypt_logo.png
   url: https://www.allcrypt.com/market
 
+- name: AnytimeDirect
+  trading_pairs:
+  image: anycoin_logo.png
+  url: https://anycoindirect.eu
+
 - name: AskCoin
   trading_pairs: BTC
   fees: 0.14% BTC
