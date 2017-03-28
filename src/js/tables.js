@@ -17,7 +17,7 @@
 				}
 
 				$.ajax({
-					url: "https://www.coincap.io/front/",
+					url: marketCapApi,
 					dataType: "jsonp",
 					jsonpCallback: "results"
 				});
