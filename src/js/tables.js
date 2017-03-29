@@ -3,23 +3,20 @@
 	$(document).ready(function () {
 
 		var siteApi = window.globals.siteApi || '/api/v1';
-		var marketCapApi = 'https://www.coincap.io/front/'
+		var marketCapApi = 'https://www.coincap.io/front/';
 
 		if ($('#marketcap_count').length) {
 
-				function results(json){
+				$.ajax({
+					url: marketCapApi,
+					dataType: "jsonp",
+				}).done(function(json) {
 					var $dash="DASH",
 						result = json.filter(function(itm){
 							return $dash.indexOf(itm.short) > -1;
 						});
 					var num = result[0].mktcap.toFixed(0).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
 					$('#marketcap_count').text(num);
-				}
-
-				$.ajax({
-					url: marketCapApi,
-					dataType: "jsonp",
-					jsonpCallback: "results"
 				});
 		}
 
@@ -73,7 +70,7 @@
 			});
 		}
 
-		if ($('#masternodes_count').length) {
+		if ( $('#masternodes_count').length && $('#masternodes_count').length ) {
 
 			// Get the current number of masternodes.
 			$.ajax({
