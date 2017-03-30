@@ -1,0 +1,29 @@
+<div class="hero" id="hero">
+	<div class="hero__background">
+		{% capture heroimage %}hero/{% t pages.get-dash.hero-image %}{% endcapture %}
+		{% srcset hero/get-dash-n.jpg ppi:1,2 class="hero__background-image" %}
+			{% srcset_source width:1920 %}
+			{% srcset_source width:960 %}
+		{% endsrcset %}
+	</div>
+
+	<!-- Navigation -->
+	{% include nav-desktop.html %}
+
+
+	<!-- Hero content -->
+	<div class="hero__content">
+		<h1 class="hero__title">{% t pages.legal.hero-heading %}</h1>
+		<p class="hero__lead">{% t pages.legal.hero-text %}</p>
+
+		<section>
+			<div class="hero__buttons hero__buttons--get-dash">
+				<a  href="#" class="btn-blue-solid btn-large">{% t pages.legal.hero-tax-btn %}</a>
+				<a href="" class="btn-large btn-white-solid">{% t pages.legal.hero-compliance-btn %}</a>
+			</div>
+		</section>
+	</div>
+
+	<!-- Hero stripe -->
+	<div class="hero__stripe"></div>
+</div>

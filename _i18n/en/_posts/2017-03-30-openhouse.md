@@ -1,7 +1,7 @@
 ---
 author: tungfa
 layout: post
-image: "2017-03-30-openhouse.jpb"
+image: "2017-03-30-openhouse.jpg"
 title: "Dash Open House"
 ---
 The Dash Open House promises to be an excellent experience. Complete with food, top-notch speakers, and a Dash giveaway to those present. All are invited!

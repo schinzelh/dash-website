@@ -2,6 +2,113 @@
 # For multiple paragraph content add two line breaks
 pages:
 
+  legal:
+    title: How the Law Applies to DASH
+    description: Download the wallet and get Dash at an exchange.
+
+    hero-heading: How the Law Applies to DASH
+    hero-text: The purpose of the DASH DAO is to promote, protect and standardize DASH. In the course of our mission, we have received inquiries into how some aspects of DASH are treated under United States law.
+    hero-tax-btn: Download
+    hero-compliance-btn: All Wallets
+
+    tax-text: What is the Tax Treatment of the Masternode Operators’ DASH?
+    tax-hero: Dash can be acquired, held and exchanged in many ways.
+    buy-btn: Buy Dash
+    spend-btn: Spend Dash
+    trade-btn: Trade Dash
+
+    сogent -heading: Cogent Law
+    criminally-text: |
+      Buying or selling large amounts of Dash on exchanges can cause price slippage, resulting in the buyer or seller receiving less value than intended. Large buy orders push the price higher, resulting in overpayment. Sizeable sell orders do the opposite, resulting in less value received for the Dash you sell. Fortunately there are “over the counter” or OTC solutions, where a vendor pairs buyers and sellers, allowing them to conduct large transactions off the exchanges and free from slippage.t things like a new website, pr budget, etc. The benefit to you is, you can get many more coins at the current price, then what are available on any exchange. So you can get into a Dash position much easier/cheaper than would otherwise be possible.
+    criminally-btn: FIAT - DASH / ATM Compliance
+
+    treatment-heading: What is the Tax Treatment of the Masternode Operators’ DASH?
+    treatment-text: >
+      The purpose of the DASH DAO is to promote, protect and standardize DASH. In the course of our mission, we have received inquiries into how some aspects of DASH are treated under United States law. The purpose of this document is to address the most common of these inquiries and explain how we believe the laws apply to DASH.
+
+      This is not meant as a legal opinion, and you should consult your own attorneys before relying upon it. However, it is meant to state our position on the law, and how the law should be properly interpreted. One of the most common questions we receive is “
+
+    treatment-text-hero: HOW ARE MASTERNODE OPERATORS TREATED UNDER THE U.S. TAX LAWS?
+    treatment-btn: Full List
+
+    treatment-masternode-btn: Tax Treatment of the Masternode
+
+    vitrtual-kiosk-heading: Quick Guide To Operating a Virtual Currency Kiosk
+    vitrtual-kiosk-btn: Learn More
+
+    audio-heading: Audio Guides
+    audio-text: Convert local currency to Dash and send it to your wallet
+    audio-text-btn: Buy Dash
+
+
+    report-heading: Get familiar with some of the reports
+    report-text: Get familiar with the documentation
+    report-heading-btn: Trade Dash
+
+    atm-heading: Buy Dash at an ATM
+    atm-text: Instant Dash purchases from an ATM in your country
+    atm-btn: ATM Locator
+
+
+    shop-heading: Shop direct with Dash
+    shop-text: Instant and private online purchases, direct from your Dash wallet
+    shop-btn: More Merchants
+
+
+    visa-stores: Shop at Visa stores
+    visa-text: Dash-Visa debit card with no foreign transaction fees and mobile "tap & pay"
+    visa-btn: Get Shake
+
+
+
+
+
+
+
+
+
+
+
+    claim-heading: Buy, Sell, Exchange Dash
+    claim-subline: Dash can be acquired, held and exchanged in many ways.
+
+    setup-heading: Learn how to setup your wallet
+    setup-text:
+    setup-btn: Learn More
+    setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
+
+    buy-heading: Buy Dash Online
+    buy-text: Convert local currency to Dash and send it to your wallet
+    buy-btn: Buy Dash
+    buy-link: https://dashpay.atlassian.net/wiki/x/JwDnAg
+
+    trade-heading: Trade Dash on an exchange
+    trade-text: Trade local currency for Dash on an exchange
+    trade-btn: Trade Dash
+    trade-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=48693307
+
+    atm-heading: Buy Dash at an ATM
+    atm-text: Instant Dash purchases from an ATM in your country
+    atm-btn: ATM Locator
+    atm-link: https://dashpay.atlassian.net/wiki/x/JgAFBQ
+
+    shop-heading: Shop direct with Dash
+    shop-text: Instant and private online purchases, direct from your Dash wallet
+    shop-btn: More Merchants
+    shop-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants
+    shop-join-btn: Become a Merchant
+
+    visa-heading: Shop at Visa stores
+    visa-text: 'Dash-Visa debit card with no foreign transaction fees and mobile "tap &amp; pay"'
+    visa-btn: Get Shake
+    visa-link: https://shakepay.co/#/
+
+    need-heading: Need some Dash?
+    need-text: Signup on our forum we'll send you some Dash!
+    need-btn: Sign up for Dash
+    need-link: https://www.dash.org/forum
+    need-input: Enter Your Email Address
+
   exchanges:
     title: Exchanges
     description: Buy Dash at these exchanges and brokers
