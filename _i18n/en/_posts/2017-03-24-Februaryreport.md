@@ -18,7 +18,7 @@ Begin work on Use Cases and Functional Requirements Specification for DAPI
 Preliminary implementation of SPV Methods (blockchain, DGW)
 Implementation of InstantSend using Bitcore Libraries (bitcore-p2p-dash)
 Dash Evolution Apps (lead developer: Chuck Williams)
-New, Old, and Renewed team members have ramped up mind-share with a strong team agreement on Evolution's design vision. Specific work with clear deliverables have been defined in JIRA to include an alpha (prototype) implementation using a team-agreed tech stack for interaction design, demo & review. Finally, a device agnostic "Dash-UI Design System" with example implementation in Vue.JS 2 and Bootstrap 4 is committed and will likely occupy the efforts of all evo team members for several weeks. Initial iterations expected early-mid April.
+New, Old, and Renewed team members have ramped up mind-share with a strong team agreement on Evolution's design vision. Specific work with clear deliverables have been defined in JIRA to include an alpha (prototype) implementation using a team-agreed tech stack for interaction design, demo &amp; review. Finally, a device agnostic "Dash-UI Design System" with example implementation in Vue.JS 2 and Bootstrap 4 is committed and will likely occupy the efforts of all evo team members for several weeks. Initial iterations expected early-mid April.
 Dash wallet for Android - updated features (lead developer: @HashEngineering)
 Upgrades of testnet and mainnet wallets
 Final Testing Stage: <https://github.com/HashEngineering/dash-wallet/releases/tag/v4.65.12.1H>
@@ -56,7 +56,7 @@ Q4 2016 Dash Core Team call
 <https://youtu.be/4te9Yydy8cc>
 Two General Bytes DASH ATMs Go Online in Slovakia
 <http://www.razor-forex.com/2017/02/first-general-bytes-dash-atm-goes.html>
-rogerkver list of #Bitcoin competitors he diversified into for better privacy & cheaper transaction costs as of 6m ago #anarchapulco"
+rogerkver list of #Bitcoin competitors he diversified into for better privacy &amp; cheaper transaction costs as of 6m ago #anarchapulco"
 <https://twitter.com/ToneVays/status/835233366203072513>
 The Cryptoshow with Daniel Diaz / Dash - and others
 <http://thecryptoshow.com/listenlive/>
