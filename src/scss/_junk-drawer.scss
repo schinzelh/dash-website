@@ -500,7 +500,7 @@ a.blog_link {
     padding: 10px 15px;
 }
 .youtube-small{
-	min-height: 315px;
+    min-height: 315px;
 }
 .b-mining-section {
   background-image: url(../../assets/img/mining/masternodes.jpeg);
@@ -523,6 +523,18 @@ a.blog_link {
   }
 }
 .big-accent{
-	@include font-title-xxlarge();
+    @include font-title-xxlarge();
 }
 
+.member-list--legal .member{
+  @include mq($from: extrasmall) {
+    width: 50%;
+  }
+  @include mq($from: medium) {
+    width: 33%;
+  }
+  &__avatar {
+    width: 100%;
+    max-width: 100%;
+  }
+}

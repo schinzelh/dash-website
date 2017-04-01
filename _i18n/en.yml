@@ -19,14 +19,17 @@ pages:
 
 
     сogent-heading: Cogent Law
+
+    criminally-heading: CAN MASTERNODE OPERATORS BE CRIMINALLY LIABLE FOR THE TRANSACTIONS THEY RELAY?
     criminally-text: |
-      Buying or selling large amounts of Dash on exchanges can cause price slippage, resulting in the buyer or seller receiving less value than intended. Large buy orders push the price higher, resulting in overpayment. Sizeable sell orders do the opposite, resulting in less value received for the Dash you sell. Fortunately there are “over the counter” or OTC solutions, where a vendor pairs buyers and sellers, allowing them to conduct large transactions off the exchanges and free from slippage.t things like a new website, pr budget, etc. The benefit to you is, you can get many more coins at the current price, then what are available on any exchange. So you can get into a Dash position much easier/cheaper than would otherwise be possible.
+      An aspect that required legal research is what are the compliance requirements to facilitate Dash FIAT exchange. This can be in the form of running ATM kiosks or using other mechanisms to personally offer DASH to FIAT exchange services.
+
     criminally-btn: FIAT - DASH / ATM Compliance
 
     treatment-heading: What is the Tax Treatment of the Masternode Operators’ DASH?
     treatment-text: >
       The purpose of the DASH DAO is to promote, protect and standardize DASH. In the course of our mission, we have received inquiries into how some aspects of DASH are treated under United States law. The purpose of this document is to address the most common of these inquiries and explain how we believe the laws apply to DASH.
-
+      <br/><br/>
       This is not meant as a legal opinion, and you should consult your own attorneys before relying upon it. However, it is meant to state our position on the law, and how the law should be properly interpreted. One of the most common questions we receive is “
 
     treatment-text-hero: HOW ARE MASTERNODE OPERATORS TREATED UNDER THE U.S. TAX LAWS?
