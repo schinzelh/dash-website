@@ -7,7 +7,8 @@ pages:
     description: Download the wallet and get Dash at an exchange.
 
     hero-heading: How the Law Applies to DASH
-    hero-text: The purpose of the DASH DAO is to promote, protect and standardize DASH. In the course of our mission, we have received inquiries into how some aspects of DASH are treated under United States law.
+    hero-text: The purpose of the DASH DAO is to promote, protect and standardize DASH. In the course of our mission, we have received inquiries into how some aspects of DASH are treated under United States law.  The purpose of this document is to address the most common of these inquiries and explain how we believe the laws apply to DASH.  This is not meant as a legal opinion, and you should consult your own attorneys before relying upon it. However, it is meant to state our position on the law, and how the law should be properly interpreted.
+      One of the most common questions we receive is “How are Masternode operators treated under the U.S. tax laws?”
     hero-tax-btn: Tax Treatment
     hero-compliance-btn: Compliance FIAT - DASH
 
@@ -29,7 +30,8 @@ pages:
     treatment-heading: What is the Tax Treatment of the Masternode Operators’ DASH?
     treatment-text: >
       The purpose of the DASH DAO is to promote, protect and standardize DASH. In the course of our mission, we have received inquiries into how some aspects of DASH are treated under United States law. The purpose of this document is to address the most common of these inquiries and explain how we believe the laws apply to DASH.
-      <br/><br/>
+
+
       This is not meant as a legal opinion, and you should consult your own attorneys before relying upon it. However, it is meant to state our position on the law, and how the law should be properly interpreted. One of the most common questions we receive is “
 
     treatment-text-hero: HOW ARE MASTERNODE OPERATORS TREATED UNDER THE U.S. TAX LAWS?
@@ -46,8 +48,10 @@ pages:
 
 
     report-heading: Get familiar with some of the reports
-    report-text: Get familiar with the documentation
-    report-heading-btn: Trade Dash
+    report-heading-btn: Learn More
+
+    docs-heading: Get familiar with the documentation
+    docs-heading-btn: Learn More
 
     atm-heading: Buy Dash at an ATM
     atm-text: Instant Dash purchases from an ATM in your country
