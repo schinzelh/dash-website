@@ -11,7 +11,6 @@ pages:
     hero-tax-btn: Tax Treatment
     hero-compliance-btn: Compliance FIAT - DASH
 
-
     tax-text: What is the Tax Treatment of the Masternode Operators’ DASH?
     tax-hero: Dash can be acquired, held and exchanged in many ways.
     buy-btn: Buy Dash
@@ -22,6 +21,7 @@ pages:
       Cogent Law Package:
 
     criminally-heading: CAN MASTERNODE OPERATORS BE CRIMINALLY LIABLE FOR THE TRANSACTIONS THEY RELAY?
+
     criminally-text: |
       An aspect that required legal research is what are the compliance requirements to facilitate Dash FIAT exchange. This can be in the form of running ATM kiosks or using other mechanisms to personally offer DASH to FIAT exchange services.
 
