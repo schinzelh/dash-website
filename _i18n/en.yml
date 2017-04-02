@@ -11,6 +11,7 @@ pages:
     hero-tax-btn: Tax Treatment
     hero-compliance-btn: Compliance FIAT - DASH
 
+
     tax-text: What is the Tax Treatment of the Masternode Operators’ DASH?
     tax-hero: Dash can be acquired, held and exchanged in many ways.
     buy-btn: Buy Dash
@@ -34,6 +35,7 @@ pages:
     treatment-btn: Full List
 
     treatment-masternode-heading: Tax Treatment of the Masternode
+
 
     vitrtual-kiosk-heading: Quick Guide To Operating a Virtual Currency Kiosk
     vitrtual-kiosk-btn: Learn More
@@ -62,56 +64,6 @@ pages:
     visa-stores: Shop at Visa stores
     visa-text: Dash-Visa debit card with no foreign transaction fees and mobile "tap & pay"
     visa-btn: Get Shake
-
-
-
-
-
-
-
-
-
-
-
-    claim-heading: Buy, Sell, Exchange Dash
-    claim-subline: Dash can be acquired, held and exchanged in many ways.
-
-    setup-heading: Learn how to setup your wallet
-    setup-text:
-    setup-btn: Learn More
-    setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
-
-    buy-heading: Buy Dash Online
-    buy-text: Convert local currency to Dash and send it to your wallet
-    buy-btn: Buy Dash
-    buy-link: https://dashpay.atlassian.net/wiki/x/JwDnAg
-
-    trade-heading: Trade Dash on an exchange
-    trade-text: Trade local currency for Dash on an exchange
-    trade-btn: Trade Dash
-    trade-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=48693307
-
-    atm-heading: Buy Dash at an ATM
-    atm-text: Instant Dash purchases from an ATM in your country
-    atm-btn: ATM Locator
-    atm-link: https://dashpay.atlassian.net/wiki/x/JgAFBQ
-
-    shop-heading: Shop direct with Dash
-    shop-text: Instant and private online purchases, direct from your Dash wallet
-    shop-btn: More Merchants
-    shop-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants
-    shop-join-btn: Become a Merchant
-
-    visa-heading: Shop at Visa stores
-    visa-text: 'Dash-Visa debit card with no foreign transaction fees and mobile "tap &amp; pay"'
-    visa-btn: Get Shake
-    visa-link: https://shakepay.co/#/
-
-    need-heading: Need some Dash?
-    need-text: Signup on our forum we'll send you some Dash!
-    need-btn: Sign up for Dash
-    need-link: https://www.dash.org/forum
-    need-input: Enter Your Email Address
 
   exchanges:
     title: Exchanges
