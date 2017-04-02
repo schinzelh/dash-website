@@ -18,8 +18,8 @@ pages:
     spend-btn: Spend Dash
     trade-btn: Trade Dash
 
-
-    сogent-heading: Cogent Law Package:
+    сogent-heading: >
+      Cogent Law Package:
 
     criminally-heading: CAN MASTERNODE OPERATORS BE CRIMINALLY LIABLE FOR THE TRANSACTIONS THEY RELAY?
     criminally-text: |
