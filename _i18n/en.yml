@@ -865,6 +865,9 @@ pages:
     hero-development-btn: Development
     hero-masternodes-btn: Masternodes
     hero-video-btn: Video &amp; Audio
+    hero-graphics-btn: Graphics
+    hero-legal-btn: Legal
+    hero-wiki-btn: Wiki
 
     discussion-heading: Discussion
     discussion-text: Discuss Dash on these forums
@@ -945,7 +948,7 @@ nav:
   stats: Network Stats
   exchanges-list: Full list of Exchanges
 
-  community: Community
+  community: Resources
   discussion: Discussion
   social-apps: Social Apps
   news: News &amp; Info
