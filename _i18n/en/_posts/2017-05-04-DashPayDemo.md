@@ -31,12 +31,12 @@ DEVELOPMENT UPDATES
 - Alex Moran / kodaxx on Slack: https://dashnation.slack.com/team/kodaxx
 - DashPay POS post: https://www.dash.org/forum/threads/dashpay-point-of-sale-project-updates.13108/#post-120921
 - How to buy Dash on Bitfinex: https://www.youtube.com/watch?v=vXIDOn7Jsgo
-- Dashvotetracker and DashNinja both listing voting deadline as well as funding allocation: http://dashvotetracker.com & https://www.dashninja.pl/governance.html
+- Dashvotetracker and DashNinja both listing voting deadline as well as funding allocation: http://dashvotetracker.com &amp; https://www.dashninja.pl/governance.html
 
 PRICE MOVEMENT
-- Price & market cap: http://coinmarketcap.com
+- Price &amp; market cap: http://coinmarketcap.com
 
-BUSINESS & HEADLINES
+BUSINESS &amp; HEADLINES
 - East Line Ranch accepting Dash: http://eastlineranch.com/dash-accepted-here/
 - Dash is the Tesla of cryptos article: http://www.c4chaos.com/2017/03/dash-is-the-tesla-tsla-of-cryptocurrency/
 - MaRSe covered in Finance Magnates: http://www.financemagnates.com/cryptocurrency/exchange/russians-can-now-exchange-dash-rubles-moscow-via-marse/
@@ -48,7 +48,7 @@ CURRENT OPPORTUNITIES
 MUSIC
 - “We Are One” by Vexento http://www.youtube.com/watch?v=Ssvu2yncgWU
 
-GET SOCIAL & LEARN MORE
+GET SOCIAL &amp; LEARN MORE
 - Dash Slack / Forum / Reddit: http://dashnation.com/chat
 - DASH: Detailed Homepage: http://dashdetailed.com
 - DASH: Detailed Twitter: http://twitter.com/dashdetailed

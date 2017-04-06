@@ -4,7 +4,7 @@ layout: post
 image: "2017-05-04-Enterprise.png"
 title: "Does your Enterprise have a Digital Currency Strategy?"
 ---
-The recent SEC decision on the ETF for the Winklevoss Fund had several communities around the world abuzz and bought to light Bitcoins and “altcoins” .  Ever since its inception in 2008, Bitcoin the peer to peer digital currency has steadily grown into limelight. Importantly the underlying technology of Bitcoin, ie Blockchain has numerous spheres in the Business community excited of its potential to cause major disruption in the way we do business.
+The recent SEC decision on the ETF for the Winklevoss Fund had several communities around the world abuzz and bought to light Bitcoins and "altcoins" .  Ever since its inception in 2008, Bitcoin the peer to peer digital currency has steadily grown into limelight. Importantly the underlying technology of Bitcoin, ie Blockchain has numerous spheres in the Business community excited of its potential to cause major disruption in the way we do business.
 
 The digital revolution has also ushered a new growth in digital payments
 
@@ -24,9 +24,9 @@ Hardforks –A significant change to the protocol software which may require upg
 Financial infrastructure-Review whether key wallet providers and exchanges deal in the currency
 Regulatory Environment- For multinational operations, assessments need to be made around countries that allow transactions in Digital currency. For eg India has discouraged the use digital currency sighting AML contraventions
 Integration into Enterprise software: Considerations have to be made towards undertaking impact assessment for systems used by corporations across areas such as order to cash, procure to pay and record to report.  As an example ERP packages such as SAP usually maintain currencies in two decimal numbers whereas Bitcoin is traded in upto 8 decimal numbers. Therefore configuration changes will be required  to accommodate a digital currency
-Another example would be Bank & Cash reconciliation functionalities which would need to be reviewed prior to trading in Digital currencies
+Another example would be Bank &amp; Cash reconciliation functionalities which would need to be reviewed prior to trading in Digital currencies
 
 Program Rollout and Governance-  Digital currency  implementation covers mutlidisplicnary functions in an organization and therefore would ideally be spun as a separate program Whilst a number of companies have digital departments with Chirft Delivery Officers  , assessment has to be made on the approach of the right structure of program governance and sponsorhip within the organization
-Whlist critics may argue that the evolution of digital currency will take time however for  enterprises to define a strategy and rollout would equally take time & effort .Therefore the need to recognize this new paradigm of digital disruption and draw competitive advantages will become important for companies worldwide
+Whlist critics may argue that the evolution of digital currency will take time however for  enterprises to define a strategy and rollout would equally take time &amp; effort .Therefore the need to recognize this new paradigm of digital disruption and draw competitive advantages will become important for companies worldwide
 
 <https://www.finextra.com/blogposting/13935/does-your-enterprise-have-a-digital-currency-strategy>
