@@ -843,8 +843,8 @@ pages:
     hero-blockchain-btn: Blockchain
     hero-mining-btn: Mining
 
-    markets-desc-text: site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
-    masternode-desc-text: Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
+    markets-desc-text:
+    masternode-desc-text:
 
     markets-heading: Market Cap (USD)
     governance-heading: Treasury
