@@ -24,7 +24,7 @@
   image: allcrypt_logo.png
   url: https://www.allcrypt.com/market
 
-- name:  Anycoin Direct
+- name: Anycoin Direct
   trading_pairs:
   fees:
   image: anycoin_logo.png
@@ -157,6 +157,11 @@
   image: jubi_logo.png
   url: http://www.jubi.com/
 
+- name: Kraken
+  trading_pairs:
+  fees:
+  image: kraken_logo.png
+  url: https://www.kraken.com
 
 - name: Laissez Faire
   trading_pairs: N/A
