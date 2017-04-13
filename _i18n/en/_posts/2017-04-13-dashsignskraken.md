@@ -1,7 +1,7 @@
 ---
 author: tungfa
 layout: post
-image: "2017-04-13-dashsignskraken.png.png"
+image: "2017-04-13-dashsignskraken.png"
 title: "Dash Cryptocurrency Signs on with Kraken"
 ---
 Dash, a potential competitor to bitcoin, has just announced they have signed on to the Kraken Digital Asset Exchange. The world’s fifth most valuable cryptocurrency is now open for trading on the platform with buy and sell pairings including DASH / EUR, DASH / USD, and DASH / BTC. The partnership between Dash and Kraken comes in the wake of a record surge for the cryptocurrency, which experienced a 6x increase in price per ($11 to $72 USD) and a 10x increase in trading volume ($3 million to $30 million USD) across Q1.
