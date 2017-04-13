@@ -1,7 +1,7 @@
 ---
 author: tungfa
 layout: post
-image: "2017-04-10-JOSHSEIGLER.png"
+image: "2017-04-11-announcement12.png"
 title: "Dash Core 0.12.1.5 Release Announcement"
 ---
 Please download the new Version here:
