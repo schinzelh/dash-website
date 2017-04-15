@@ -29,3 +29,16 @@
 		@include table-compact-mixin;
 	}
 }
+
+.page--currency table#exchanges {
+	@media (max-width: 850px) {
+		@include table-compact-mixin;
+		td, th {
+			text-align: left;
+			&:before {
+				display: block;
+				text-align: left;
+			}
+		}
+	}
+}
