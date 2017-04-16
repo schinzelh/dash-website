@@ -21,16 +21,12 @@ addons:
     packages:
     - g++-4.8
 before_install:
-- openssl aes-256-cbc -k "$dash_org_pem_pass" -in dash.org-test-web.pem.enc -out dash.org-test-web.pem -d
 - rvm install 2.3.1
 before_deploy:
-- eval "$(ssh-agent -s)"
-- chmod 600 $TRAVIS_BUILD_DIR/$IdentityFile
-- ssh-add $TRAVIS_BUILD_DIR/$IdentityFile
+- test $TRAVIS_TEST_RESULT = 0 && script/deploy-init.sh
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r -c -v --delete-after --exclude-from 'ciexclude.txt' $TRAVIS_BUILD_DIR/_site/
-    $user@$hostname:$production_path
+  script: test $TRAVIS_TEST_RESULT = 0 && script/deploy-rsync.sh
   on:
     branch: master
