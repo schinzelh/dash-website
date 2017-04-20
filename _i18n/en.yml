@@ -921,7 +921,10 @@ pages:
     core-approval-btn: Network Approval
     core-approval-link: http://dashvotetracker.com
     core-join-btn: Join Our Team
-    core-heading: Core Team
+    core-heading: Core Developer
+    forum-name: >
+      Dashforum:
+    strateg-heading:  Strategy Advisor
     dev-heading:  >
       Developers / Support:
 nav:

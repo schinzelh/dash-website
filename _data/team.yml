@@ -130,41 +130,41 @@
   team-title: Dash DAPI
 
 - name: Pierre van Rooyen
-  title: 
-  description: 
-  image: 
-  email: 
-  keybase: 
+  title:
+  description:
+  image:
+  email:
+  keybase:
   twitter:
-  dashforum: 
+  dashforum:
   team-title: Dash DAPI
-  
+
 - name: Pascal
-  title: 
-  description: 
-  image: 
-  email: 
-  keybase: 
+  title:
+  description:
+  image:
+  email:
+  keybase:
   twitter:
-  dashforum: 
+  dashforum:
   team-title: Dash DAPI
 
 - name: Madeleine Shang
-  title: 
-  description: 
-  image: 
-  email: 
-  keybase: 
+  title:
+  description:
+  image:
+  email:
+  keybase:
   twitter:
-  dashforum: 
+  dashforum:
   team-title: Dash DAPI
 
 - name: Marthinus Engelbrecht
-  title: 
-  description: 
-  image: 
-  email: 
-  keybase: 
+  title:
+  description:
+  image:
+  email:
+  keybase:
   twitter:
   dashforum: MarthinusEngelbrecht
   team-title: Dash DAPI
@@ -260,11 +260,11 @@
   team-title: UX
 
 - name: Etherdesign
-  title: 
-  description: 
-  image: 
-  email: 
-  keybase: 
+  title:
+  description:
+  image:
+  email:
+  keybase:
   twitter:
   dashforum:
   team-title: UX
@@ -278,12 +278,12 @@
   twitter:
   dashforum:
   team-title: Dash Web
-  
+
 - name: Jon Rudd
-  title: 
+  title:
   description:
-  image: 
-  email: 
+  image:
+  email:
   keybase:
   twitter:
   dashforum:
@@ -408,4 +408,3 @@
   twitter:
   dashforum: node40
   team-title: Strategy Advisor
-

@@ -29,4 +29,10 @@
 	<div class="member__detail member__detail--twitter"><a href="{{ member.twitter }}" target="_blank">{{ member.twitter }}</a></div>
 	{% endif %}
 
+	{% if member.dashforum %}
+	<h5>{% t pages.team.forum-name %}</h5>
+	<div class="member__detail member__detail--dashforum">{{ member.dashforum }}</div>
+	{% endif %}
+
+
 </li>
