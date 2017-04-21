@@ -157,7 +157,7 @@
   url: https://www.1bse.com/
 
 - name: HolyTransaction
-  trading_pairs: N/A
+  trading_pairs: BTC, LTC, ZEC, DCR, PPC, DOGE, BLK, GRC, GAME, FAIR
   fees: N/A
   image: holytransaction_logo.png
   url: https://holytransaction.com/
