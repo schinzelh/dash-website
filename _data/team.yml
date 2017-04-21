@@ -6,7 +6,8 @@
   email: evan@dash.org
   keybase: https://keybase.io/eduffield
   twitter:
-  core-team: true
+  dashforum: eduffield
+  team-title: Strategy Advisor
 
 - name: Holger Schinzel
   title: Quality Assurance, Automation, Testing
@@ -15,7 +16,8 @@
   email: holger@dash.org
   keybase: https://keybase.io/schinzelh
   twitter:
-  core-team: true
+  dashforum: flare
+  team-title: Dash Core DAO Management
 
 - name: UdjinM6
   title: Core Developer
@@ -24,7 +26,8 @@
   email: udjinm6@dash.org
   keybase: https://keybase.io/udjinm6
   twitter:
-  core-team: true
+  dashforum: UdjinM6
+  team-title: Dash Core DAO Management
 
 - name: Andy Freer
   title: Evolution Team Lead
@@ -33,7 +36,8 @@
   email: andy@dash.org
   keybase: https://keybase.io/andyfreer
   twitter:
-  core-team: true
+  dashforum: AndyDark
+  team-title: Dash Core DAO Management
 
 - name: Ryan Taylor
   title: Director of Finance
@@ -42,7 +46,8 @@
   email: ryan@dash.org
   keybase: https://keybase.io/ryanptaylor
   twitter:
-  core-team: true
+  dashforum: babygiraffe
+  team-title: Dash Core DAO Management
 
 - name: MooCowMoo
   title: Development / Testing
@@ -51,7 +56,8 @@
   email: moo@dash.org
   keybase: https://keybase.io/moocowmoo
   twitter:
-  core-team: true
+  dashforum: MooCowMoo
+  team-title: Dash Core DAO Management
 
 - name: Fernando Gutierrez
   title: Multitool
@@ -60,7 +66,8 @@
   email: fernando@dash.org
   keybase: https://keybase.io/fernandog
   twitter:
-  core-team: true
+  dashforum: fernando
+  team-title: Dash Core DAO Management
 
 - name: Philipp Engelhorn
   title: Press &amp; Multitool
@@ -69,7 +76,8 @@
   email: press@dash.org
   keybase: https://keybase.io/tungfa
   twitter:
-  core-team: true
+  dashforum: tungfa
+  team-title: Dash Core DAO Management
 
 - name: Daniel Diaz
   title: Business Development
@@ -78,7 +86,8 @@
   email: daniel@dash.org
   keybase:
   twitter:
-  core-team: true
+  dashforum: minotaur
+  team-title: Dash Core DAO Management
 
 - name: Robert Wiecko
   title: Project Manager
@@ -87,7 +96,8 @@
   email: robert@dash.org
   keybase: https://keybase.io/robertwiecko
   twitter:
-  core-team: true
+  dashforum: kot
+  team-title: Dash Core DAO Management
 
 - name: Timothy Flynn
   title: Core Developer
@@ -96,7 +106,8 @@
   email: timothy@dash.org
   keybase: https://keybase.io/tgflynn
   twitter:
-  core-team:
+  dashforum:
+  team-title: DashCore Developers
 
 - name: Nathan Marley
   title: Evolution Developer
@@ -105,7 +116,8 @@
   email: nathan@dash.org
   keybase: https://keybase.io/nmarley
   twitter:
-  core-team:
+  dashforum: nmarley
+  team-title: DashCore Developers
 
 - name: Jon Kindel
   title: Evolution Backend Lead
@@ -114,7 +126,48 @@
   email: jon@dash.org
   keybase: https://keybase.io/snogcel
   twitter:
-  core-team:
+  dashforum: snogcel
+  team-title: Dash DAPI
+
+- name: Pierre van Rooyen
+  title: 
+  description: 
+  image: 
+  email: 
+  keybase: 
+  twitter:
+  dashforum: 
+  team-title: Dash DAPI
+  
+- name: Pascal
+  title: 
+  description: 
+  image: 
+  email: 
+  keybase: 
+  twitter:
+  dashforum: 
+  team-title: Dash DAPI
+
+- name: Madeleine Shang
+  title: 
+  description: 
+  image: 
+  email: 
+  keybase: 
+  twitter:
+  dashforum: 
+  team-title: Dash DAPI
+
+- name: Marthinus Engelbrecht
+  title: 
+  description: 
+  image: 
+  email: 
+  keybase: 
+  twitter:
+  dashforum: MarthinusEngelbrecht
+  team-title: Dash DAPI
 
 - name: Crowning
   title: Core Development / Testing
@@ -123,6 +176,8 @@
   email: crowning@dash.org
   keybase:
   twitter:
+  dashforum: crowning
+  team-title: DashCore Developers
 
 - name: Chae-Pil Lim
   title: Core Development
@@ -131,6 +186,8 @@
   email: chaeplin@gmail.com
   keybase: https://keybase.io/chaeplin
   twitter:
+  dashforum: chaeplin
+  team-title: DashCore Developers
 
 - name: TheLazieR
   title: Core Developer
@@ -139,6 +196,8 @@
   email: thelazier@gmail.com
   keybase: https://keybase.io/thelazier
   twitter:
+  dashforum: TheLazieR
+  team-title: DashCore Developers
 
 - name: Cofresi
   title: Evolution Backend Developer
@@ -147,14 +206,8 @@
   email: cofresi@dash.org
   keybase: https://keybase.io/cofresi
   twitter:
-
-- name: Alex Werner
-  title: Evolution Backend Developer
-  description: While his academic background is in Chinese Studies, Political Science and International Law, \"Cofresi\" has been working for 15 years with different technologies in the telecom industry as a systems administrator and webmaster, for the most part concentrating on client/server backends and database administration.
-  image: alex_werner.png
-  email: alex.werner@dash.org
-  keybase: https://keybase.io/awerner
-  twitter:
+  dashforum: Cofresi
+  team-title: Dash DAPI
 
 - name: 0xfff
   title: Evolution Frontend Developer
@@ -163,6 +216,8 @@
   email: 0xfff@protonmail.com
   keybase: https://keybase.io/0xfff
   twitter:
+  dashforum:
+  team-title: UX
 
 - name: Joshua Seigler
   title: Evolution Frontend Developer
@@ -171,6 +226,8 @@
   email: joshua@seigler.net
   keybase: https://keybase.io/joshuaseigler
   twitter:
+  dashforum:
+  team-title: Dash Web
 
 - name: Quantum Explorer
   title: iOS Developer
@@ -179,6 +236,8 @@
   email: quantumexplorerdash@gmail.com
   keybase: https://keybase.io/quantumexplorer
   twitter:
+  dashforum: quantumexplorer
+  team-title: Mobile
 
 - name: Tomasz Ludek
   title: Android Developer
@@ -187,6 +246,8 @@
   email: tomasz@dash.org
   keybase: https://keybase.io/tomaszludek
   twitter:
+  dashforum: tomasz
+  team-title: Mobile
 
 - name: Chuck Williams
   title: UI/UX Development
@@ -195,6 +256,18 @@
   email: chuckwilliams37@gmail.com
   keybase: https://keybase.io/chuckwilliams
   twitter:
+  dashforum: ChuckWilliams
+  team-title: UX
+
+- name: Etherdesign
+  title: 
+  description: 
+  image: 
+  email: 
+  keybase: 
+  twitter:
+  dashforum:
+  team-title: UX
 
 - name: Lee Wong
   title: Evolution Developer
@@ -203,6 +276,18 @@
   email: leewong.dash@gmail.com
   keybase:
   twitter:
+  dashforum:
+  team-title: Dash Web
+  
+- name: Jon Rudd
+  title: 
+  description:
+  image: 
+  email: 
+  keybase:
+  twitter:
+  dashforum:
+  team-title: Dash Web
 
 - name: prtfw
   title: FrontEnd Developer
@@ -211,6 +296,8 @@
   email: mns_catdogmice@yahoo.ca
   keybase: https://keybase.io/longgamma_act
   twitter:
+  dashforum:
+  team-title: Integrations
 
 - name: Akhavr
   title: Developer
@@ -219,14 +306,8 @@
   email: akhavr@gmail.com
   keybase:
   twitter:
-
-- name: Mario Müller
-  title: Security Specialist
-  description: Mario “Aswan” Müller has been active in the crypto currency scene since early 2013. He quickly became interested in the technical aspect of bitcoin and some altcoins. He is an expert at blockchain technology with emphasis on Privacy, Anonymity, Coinjoin and Darksend. He joined the darkcoin community in june 2014 and has been actively working on improvements for darksend since november 2014. He also coined the term “Dead Change”.
-  image: anon.png
-  email: aswan@dash.org
-  keybase:
-  twitter:
+  dashforum: akhavr
+  team-title:
 
 - name: Alexandre Devilliers
   title: Testing and Deployment
@@ -235,6 +316,8 @@
   email: elberethz@dashninja.pl
   keybase: https://keybase.io/elbereth
   twitter:
+  dashforum: elbereth
+  team-title: Testing + Support
 
 - name: Slawek
   title: Testing and Deployment
@@ -243,6 +326,8 @@
   email: splawik21@protonmail.com
   keybase: https://keybase.io/splawik21
   twitter:
+  dashforum: splawik21
+  team-title: Testing + Support
 
 - name: Jeff Smith
   title: Network Operations
@@ -251,7 +336,8 @@
   email: jeff@dash.org
   keybase: https://keybase.io/coingun
   twitter:
-  core-team:
+  dashforum: coingun
+  team-title: Infrastructure
 
 - name: Matt Meek
   title: Business Development
@@ -260,6 +346,8 @@
   email: matt@dash.org
   keybase: https://keybase.io/itscrazybro
   twitter:
+  dashforum: itscrazybro
+  team-title: Business Development
 
 - name: Balu
   title: Project Manager
@@ -268,7 +356,8 @@
   email: balu@dash.org
   keybase: https://keybase.io/balu
   twitter:
-  core-team:
+  dashforum: balu
+  team-title: Project Managers
 
 - name: Alex-ru
   title: Dash Russia Coordinator
@@ -277,6 +366,8 @@
   email: alex.ru@dash.org
   keybase: https://keybase.io/alex_ru
   twitter:
+  dashforum: alex-ru
+  team-title: Testing + Support
 
 - name: Alexy
   title: Dash China Coordinator
@@ -285,6 +376,8 @@
   email: alexy@dash.org
   keybase: https://keybase.io/alexy_ys
   twitter:
+  dashforum: alexy
+  team-title: Testing + Support
 
 - name: Raico
   title: Dash China Coordinator
@@ -293,6 +386,8 @@
   email: raico@dash.org
   keybase: https://keybase.io/raico
   twitter:
+  dashforum: raico
+  team-title: Testing + Support
 
 - name: David Dinkins
   title: Writer / Editor
@@ -301,6 +396,8 @@
   email: david@dashpay.io
   keybase: https://keybase.io/ddink7
   twitter:
+  dashforum: ddink7
+  team-title: Testing + Support
 
 - name: Perry Woodin
   title: Advisor
@@ -309,3 +406,6 @@
   email: perry@node40.com
   keybase: https://keybase.io/perrywoodin
   twitter:
+  dashforum: node40
+  team-title: Strategy Advisor
+
