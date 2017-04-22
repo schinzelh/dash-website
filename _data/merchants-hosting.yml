@@ -1,4 +1,8 @@
 
+- name: Lacie Cloud
+  url: https://lacicloud.net
+  image: LacieCloud.jpg
+
 - name: QHoster
   url: http://www.qhoster.com
   image: qhoster.png
