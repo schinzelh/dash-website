@@ -925,8 +925,18 @@ pages:
     forum-name: >
       Dashforum:
     strateg-heading:  Strategy Advisor
-    dev-heading:  >
-      Developers / Support:
+    coredao: Dash Core DAO Management
+    dapidev: Dash DAPI
+    webdev: Dash Web
+    ui: Dash UI
+    integrations: Integrations
+    mobile: Mobile
+    infrastructure: Infrastructure
+    qa: QA
+    pm: Project Managers
+    business: Business Development
+    support: Testing + Support
+
 nav:
   what-is-dash: What is Dash
   get-dash: Get Dash
