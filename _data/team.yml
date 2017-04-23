@@ -6,37 +6,45 @@
   email: evan@dash.org
   keybase: https://keybase.io/eduffield
   twitter:
-  dashforum: /eduffield.104/
-  team-title: Dash Core DAO Management
+  dashforum-link: /eduffield.104/
+  dashforum: eduffield
+  team-title:
+    - Dash Core DAO Management
+    - Strategy Advisor
 
-  - name: Ryan Taylor
+- name: Ryan Taylor
   title: CEO
   description: Ryan (AKA “babygiraffe”) has an MBA with a concentration in Finance &amp; Economics. He has over 15 years of experience in technology, strategy consulting, and finance. As a consultant, he served many of the world’s largest financial institutions on a wide variety of strategy and technology topics. Most recently, Ryan was a hedge fund analyst covering both private equity and public market investments within the payments sector. He brings to the team a deep understanding of payments-specific business strategy, product management, and operations.
   image: ryan_taylor.jpg
   email: ryan@dash.org
   keybase: https://keybase.io/ryanptaylor
   twitter:
-  dashforum: /babygiraffe.1654/
+  dashforum-link: /babygiraffe.1654/
+  dashforum: babygiraffe
   team-title: Dash Core DAO Management
 
-  - name: UdjinM6
+- name: UdjinM6
   title: Lead Developer
   description: Brings a total of 12 years of programming experience writing in-house tools for IT companies, user support and quality assurance.
   image: udjinm6.png
   email: udjinm6@dash.org
   keybase: https://keybase.io/udjinm6
   twitter:
-  dashforum: /udjinm6.811/
-  team-title: Dash Core DAO Management
+  dashforum-link: /udjinm6.811/
+  dashforum: udjinm6
+  team-title:
+    - Dash Core DAO Management
+    - DashCore Developers
 
-  - name: Andy Freer
+- name: Andy Freer
   title: CTO
   description: Andy has 17 years experience as a developer and 12 years as a CTO in the E-commerce, Web, SaaS, ERP, P2P streaming, Supply Chain and Games spaces.
   image: andy_f.png
   email: andy@dash.org
   keybase: https://keybase.io/andyfreer
   twitter:
-  dashforum: /andydark.2146/
+  dashforum-link: /andydark.2146/
+  dashforum: andydark
   team-title: Dash Core DAO Management
 
 - name: Holger Schinzel
@@ -46,8 +54,11 @@
   email: holger@dash.org
   keybase: https://keybase.io/schinzelh
   twitter:
-  dashforum: /flare.783/
-  team-title: Dash Core DAO Management
+  dashforum-link: /flare.783/
+  dashforum: flare
+  team-title:
+    - Dash Core DAO Management
+    - QA
 
 - name: MooCowMoo
   title: Development / Testing
@@ -56,8 +67,11 @@
   email: moo@dash.org
   keybase: https://keybase.io/moocowmoo
   twitter:
-  dashforum: /moocowmoo.1413/
-  team-title: Dash Core DAO Management
+  dashforum-link: /moocowmoo.1413/
+  dashforum: moocowmoo
+  team-title:
+    - Dash Core DAO Management
+    - Infrastructure
 
 - name: Fernando Gutierrez
   title: Multitool
@@ -66,7 +80,8 @@
   email: fernando@dash.org
   keybase: https://keybase.io/fernandog
   twitter:
-  dashforum: /fernando.650/
+  dashforum-link: /fernando.650/
+  dashforum: fernando
   team-title: Dash Core DAO Management
 
 - name: Philipp Engelhorn
@@ -76,8 +91,11 @@
   email: press@dash.org
   keybase: https://keybase.io/tungfa
   twitter:
-  dashforum: /tungfa.269/
-  team-title: Dash Core DAO Management
+  dashforum-link: /tungfa.269/
+  dashforum: tungfa
+  team-title:
+    - Dash Core DAO Management
+    - Dash Web
 
 - name: Daniel Diaz
   title: Business Development
@@ -86,8 +104,11 @@
   email: daniel@dash.org
   keybase:
   twitter:
-  dashforum: /minotaur.247/
-  team-title: Dash Core DAO Management
+  dashforum-link: /minotaur.247/
+  dashforum: minotaur
+  team-title:
+    - Dash Core DAO Management
+    - Business Development
 
 - name: Robert Wiecko
   title: Project Manager
@@ -96,8 +117,11 @@
   email: robert@dash.org
   keybase: https://keybase.io/robertwiecko
   twitter:
-  dashforum: /kot.3244/
-  team-title: Dash Core DAO Management
+  dashforum-link: /kot.3244/
+  dashforum: kot
+  team-title:
+    - Dash Core DAO Management
+    - Project Managers
 
 - name: Timothy Flynn
   title: Core Developer
@@ -106,7 +130,8 @@
   email: timothy@dash.org
   keybase: https://keybase.io/tgflynn
   twitter:
-  dashforum: /tgf314.7156/
+  dashforum-link: /tgf314.7156/
+  dashforum: tgf314
   team-title: DashCore Developers
 
 - name: Nathan Marley
@@ -116,7 +141,8 @@
   email: nathan@dash.org
   keybase: https://keybase.io/nmarley
   twitter:
-  dashforum: /nmarley.1605/
+  dashforum-link: /nmarley.1605/
+  dashforum: nmarley
   team-title: DashCore Developers
 
 - name: Jon Kindel
@@ -126,8 +152,11 @@
   email: jon@dash.org
   keybase: https://keybase.io/snogcel
   twitter:
-  dashforum: /snogcel.1351/
-  team-title: DashCore Developers
+  dashforum-link: /snogcel.1351/
+  dashforum: snogcel
+  team-title:
+    - Dash DAPI
+    - Integrations
 
 - name: Crowning
   title: Core Development / Testing
@@ -136,7 +165,8 @@
   email: crowning@dash.org
   keybase:
   twitter:
-  dashforum: /crowning.1102/
+  dashforum-link: /crowning.1102/
+  dashforum: crowning
   team-title: DashCore Developers
 
 - name: Chae-Pil Lim
@@ -146,7 +176,8 @@
   email: chaeplin@gmail.com
   keybase: https://keybase.io/chaeplin
   twitter:
-  dashforum: /chaeplin.206/
+  dashforum-link: /chaeplin.206/
+  dashforum: chaeplin
   team-title: DashCore Developers
 
 - name: TheLazieR
@@ -156,7 +187,8 @@
   email: thelazier@gmail.com
   keybase: https://keybase.io/thelazier
   twitter:
-  dashforum: /thelazier.2745/
+  dashforum-link: /thelazier.2745/
+  dashforum: thelazier
   team-title: DashCore Developers
 
 - name: Cofresi
@@ -166,7 +198,8 @@
   email: cofresi@dash.org
   keybase: https://keybase.io/cofresi
   twitter:
-  dashforum: /cofres%C3%AD.2052/
+  dashforum-link: /cofres%C3%AD.2052/
+  dashforum: cofresi
   team-title: DashCore Developers
 
 - name: 0xfff
@@ -176,7 +209,8 @@
   email: 0xfff@protonmail.com
   keybase: https://keybase.io/0xfff
   twitter:
-  dashforum: /0xfff.6497/
+  dashforum-link: /0xfff.6497/
+  dashforum: 0xfff
   team-title: DashCore Developers
 
 - name: Joshua Seigler
@@ -186,8 +220,10 @@
   email: joshua@seigler.net
   keybase: https://keybase.io/joshuaseigler
   twitter:
-  dashforum: /j0shua.4693/
-  team-title: DashCore Developers
+  dashforum-link: /j0shua.4693/
+  dashforum: j0shua
+  team-title:
+    - Dash Web
 
 - name: Chuck Williams
   title: UI/UX Development
@@ -196,8 +232,10 @@
   email: chuckwilliams37@gmail.com
   keybase: https://keybase.io/chuckwilliams
   twitter:
+  dashforum-link: ChuckWilliams
   dashforum: ChuckWilliams
-  team-title: DashCore Developers
+  team-title:
+    - UX
 
 - name: prtfw
   title: FrontEnd Developer
@@ -206,8 +244,10 @@
   email: mns_catdogmice@yahoo.ca
   keybase: https://keybase.io/longgamma_act
   twitter:
+  dashforum-link:
   dashforum:
-  team-title: DashCore Developers
+  team-title:
+    - Integrations
 
 - name: Akhavr
   title: Developer
@@ -216,7 +256,8 @@
   email: akhavr@gmail.com
   keybase:
   twitter:
-  dashforum: /akhavr.2324/
+  dashforum-link: /akhavr.2324/
+  dashforum: akhavr
   team-title: DashCore Developers
 
 - name: Etherdesign
@@ -226,8 +267,9 @@
   email:
   keybase:
   twitter:
+  dashforum-link:
   dashforum:
-  team-title: DashCore Developers
+  team-title: UX
 
 - name: Lee Wong
   title: Evolution Developer
@@ -236,8 +278,10 @@
   email: leewong.dash@gmail.com
   keybase:
   twitter:
+  dashforum-link:
   dashforum:
-  team-title: DashCore Developers
+  team-title:
+    - Dash Web
 
 - name: Jon Rudd
   title:
@@ -246,8 +290,10 @@
   email:
   keybase:
   twitter:
+  dashforum-link:
   dashforum:
-  team-title: DashCore Developers
+  team-title:
+    - Dash Web
 
 - name: Pierre van Rooyen
   title:
@@ -256,8 +302,11 @@
   email:
   keybase:
   twitter:
+  dashforum-link:
   dashforum:
-  team-title: DashCore Developers
+  team-title:
+    - Dash DAPI
+    - Integrations
 
 - name: Pascal
   title:
@@ -266,8 +315,11 @@
   email:
   keybase:
   twitter:
+  dashforum-link:
   dashforum:
-  team-title: DashCore Developers
+  team-title:
+    - Dash DAPI
+    - Integrations
 
 - name: Madeleine Shang
   title:
@@ -276,8 +328,10 @@
   email:
   keybase:
   twitter:
+  dashforum-link:
   dashforum:
-  team-title: DashCore Developers
+  team-title:
+    - Dash DAPI
 
 - name: Marthinus Engelbrecht
   title:
@@ -286,8 +340,11 @@
   email:
   keybase:
   twitter:
+  dashforum-link:
   dashforum:
-  team-title: DashCore Developers
+  team-title:
+    - Dash DAPI
+    - Integrations
 
 - name: Quantum Explorer
   title: iOS Developer
@@ -296,7 +353,8 @@
   email: quantumexplorerdash@gmail.com
   keybase: https://keybase.io/quantumexplorer
   twitter:
-  dashforum: /quantumexplorer.2025/
+  dashforum-link: /quantumexplorer.2025/
+  dashforum: quantumexplorer
   team-title: Mobile
 
 - name: Tomasz Ludek
@@ -306,7 +364,8 @@
   email: tomasz@dash.org
   keybase: https://keybase.io/tomaszludek
   twitter:
-  dashforum: /tomasz-ludek.4173/
+  dashforum-link: /tomasz-ludek.4173/
+  dashforum: tomasz-ludek
   team-title: Mobile
 
 - name: Alexandre Devilliers
@@ -316,7 +375,8 @@
   email: elberethz@dashninja.pl
   keybase: https://keybase.io/elbereth
   twitter:
-  dashforum: /elbereth.175/
+  dashforum-link: /elbereth.175/
+  dashforum: elbereth
   team-title: Testing + Support
 
 - name: Slawek
@@ -326,7 +386,8 @@
   email: splawik21@protonmail.com
   keybase: https://keybase.io/splawik21
   twitter:
-  dashforum: /splawik21.264/
+  dashforum-link: /splawik21.264/
+  dashforum: splawik21
   team-title: Testing + Support
 
 - name: Jeff Smith
@@ -336,8 +397,10 @@
   email: jeff@dash.org
   keybase: https://keybase.io/coingun
   twitter:
-  dashforum: /coingun.1715/
-  team-title: DashCore Developers
+  dashforum-link: /coingun.1715/
+  dashforum: coingun
+  team-title:
+    - Infrastructure
 
 - name: Matt Meek
   title: Business Development
@@ -346,8 +409,9 @@
   email: matt@dash.org
   keybase: https://keybase.io/itscrazybro
   twitter:
-  dashforum: /itscrazybro.322/
-  team-title: Testing + Support
+  dashforum-link: /itscrazybro.322/
+  dashforum: itscrazybro
+  team-title: Business Development
 
 - name: Balu
   title: Project Manager
@@ -356,8 +420,10 @@
   email: balu@dash.org
   keybase: https://keybase.io/balu
   twitter:
-  dashforum: /balu.2312/
-  team-title: Testing + Support
+  dashforum-link: /balu.2312/
+  dashforum: balu
+  team-title:
+    - Project Managers
 
 - name: Alex-ru
   title: Dash Russia Coordinator
@@ -366,7 +432,8 @@
   email: alex.ru@dash.org
   keybase: https://keybase.io/alex_ru
   twitter:
-  dashforum: /alex-ru.1771/
+  dashforum-link: /alex-ru.1771/
+  dashforum: alex-ru
   team-title: Testing + Support
 
 - name: Alexy
@@ -376,7 +443,8 @@
   email: alexy@dash.org
   keybase: https://keybase.io/alexy_ys
   twitter:
-  dashforum: /alexy.2413/
+  dashforum-link: /alexy.2413/
+  dashforum: alexy
   team-title: Testing + Support
 
 - name: Raico
@@ -386,7 +454,8 @@
   email: raico@dash.org
   keybase: https://keybase.io/raico
   twitter:
-  dashforum: /raico.1053/
+  dashforum-link: /raico.1053/
+  dashforum: raico
   team-title: Testing + Support
 
 - name: David Dinkins
@@ -396,6 +465,7 @@
   email: david@dashpay.io
   keybase: https://keybase.io/ddink7
   twitter:
+  dashforum-link:
   dashforum:
   team-title: Testing + Support
 
@@ -406,5 +476,6 @@
   email: perry@node40.com
   keybase: https://keybase.io/perrywoodin
   twitter:
-  dashforum: /orangecycle.2279/
+  dashforum-link: /orangecycle.2279/
+  dashforum:
   team-title: Testing + Support

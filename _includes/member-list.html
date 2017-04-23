@@ -31,7 +31,7 @@
 
 	{% if member.dashforum %}
 	<h5>{% t pages.team.forum-name %}</h5>
-	<div class="member__detail member__detail--dashforum">{{ member.dashforum }}</div>
+	<div class="member__detail member__detail--dashforum"><a href="/forum/members{{ member.dashforum-link }}" target="_blank">{{ member.dashforum }}</a></div>
 	{% endif %}
 
 

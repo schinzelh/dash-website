@@ -8,6 +8,7 @@ description: pages.team.description
 {% assign strategs = site.data.team | where:"team-title","Strategy Advisor"  %}
 {% assign coredao = site.data.team | where:"team-title","Dash Core DAO Management" %}
 {% assign dapidev = site.data.team | where:"team-title","Dash DAPI" %}
+{% assign coredev = site.data.team | where:"team-title","DashCore Developers" %}
 {% assign webdev = site.data.team | where:"team-title","Dash Web" %}
 {% assign ui = site.data.team | where:"team-title","UX" %}
 {% assign integrations = site.data.team | where:"team-title","Integrations" %}
@@ -40,6 +41,17 @@ description: pages.team.description
 			</div>
 			<ul class="member-list">
 				{% for member in coredao %}
+					{% include member-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.team.coredev %}</h2>
+			</div>
+			<ul class="member-list">
+				{% for member in coredev %}
 					{% include member-list.html %}
 				{% endfor %}
 			</ul>
