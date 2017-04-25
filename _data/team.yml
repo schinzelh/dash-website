@@ -1,19 +1,7 @@
-
-- name: Evan Duffield
-  title: Strategy Advisor
-  description: Evan (AKA “eduffield”, “evan82”) brings Dash over 17 years of software development experience and an interest in artificial intelligence, financial markets and economics.
-  image: evan.png
-  email: evan@dash.org
-  keybase: https://keybase.io/eduffield
-  twitter:
-  dashforum-link: /eduffield.104/
-  dashforum: eduffield
-  team-title: Dash Core DAO Management
-
 - name: Ryan Taylor
   title: CEO
   description: Ryan (AKA “babygiraffe”) has an MBA with a concentration in Finance &amp; Economics. He has over 15 years of experience in technology, strategy consulting, and finance. As a consultant, he served many of the world’s largest financial institutions on a wide variety of strategy and technology topics. Most recently, Ryan was a hedge fund analyst covering both private equity and public market investments within the payments sector. He brings to the team a deep understanding of payments-specific business strategy, product management, and operations.
-  image: ryan_taylor.jpg
+  image: ryan.png
   email: ryan@dash.org
   keybase: https://keybase.io/ryanptaylor
   twitter:
@@ -107,6 +95,17 @@
   twitter:
   dashforum-link: /kot.3244/
   dashforum: kot
+  team-title: Dash Core DAO Management
+
+- name: Evan Duffield
+  title: Strategy Advisor
+  description: Evan (AKA “eduffield”, “evan82”) brings Dash over 17 years of software development experience and an interest in artificial intelligence, financial markets and economics.
+  image: evan.png
+  email: evan@dash.org
+  keybase: https://keybase.io/eduffield
+  twitter:
+  dashforum-link: /eduffield.104/
+  dashforum: eduffield
   team-title: Dash Core DAO Management
 
 - name: Timothy Flynn
@@ -307,39 +306,6 @@
   dashforum:
   team-title: DashCore Developers
 
-- name: Pascal
-  title:
-  description:
-  image:
-  email:
-  keybase:
-  twitter:
-  dashforum-link:
-  dashforum:
-  team-title: DashCore Developers
-
-- name: Madeleine Shang
-  title:
-  description:
-  image:
-  email:
-  keybase:
-  twitter:
-  dashforum-link:
-  dashforum:
-  team-title: DashCore Developers
-
-- name: Marthinus Engelbrecht
-  title:
-  description:
-  image:
-  email:
-  keybase:
-  twitter:
-  dashforum-link:
-  dashforum:
-  team-title: DashCore Developers
-
 - name: Alexandre Devilliers
   title: Testing and Deployment
   description: Alexandre (AKA “elbereth”) has computer science and management degree and 10 years of IT consulting experience. He operates the most used Masternode tools site.
@@ -435,8 +401,8 @@
   email: david@dashpay.io
   keybase: https://keybase.io/ddink7
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /david.1517/
+  dashforum: david
   team-title: Testing + Support
 
 - name: Perry Woodin
