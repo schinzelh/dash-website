@@ -229,6 +229,17 @@
   dashforum: 0xfff
   team-title: DashCore Developers
 
+- name: Alex Werner
+  title: Evolution Frontend Developer
+  description: Alex ("Obusco") has a degree in computing science and has been working for the last 8 years, as a self-taught web-freelancer (during his study), then tried his way for a good ol' IT service before quickly switching into the french start-up sphera as a full-stack developer.
+  image: alex_werner.png
+  email: alex@werner.fr
+  keybase: https://keybase.io/awerner
+  twitter:
+  dashforum-link: /obusco.6751/
+  dashforum: obusco
+  team-title: DashCore Developers
+
 - name: Joshua Seigler
   title: Evolution Frontend Developer
   description: \"Joshua\" has a degree in computer science and mathematics, and six years of professional experience in web development. He likes decentralized, permissionless systems, teaching, learning, board games, the internet, and the Oxford comma.
@@ -284,15 +295,15 @@
   dashforum:
   team-title: DashCore Developers
 
-- name: Jon Rudd
+- name: Acidburn
   title:
   description:
   image:
-  email:
+  email: acidburn@dash.org
   keybase:
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /acidburn.996/
+  dashforum: acidburn
   team-title: DashCore Developers
 
 - name: Pierre van Rooyen
