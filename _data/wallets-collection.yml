@@ -469,6 +469,29 @@
       label: Google Play Download
       url: "https://play.google.com/store/apps/details?id=com.kryptokit.jaxx"
 
+- name: Jaxx
+  description: |
+    <p>
+    Jaxx Blockchain Interface &amp; Wallet
+    </p>
+    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
+  logo_url: "/assets/img/wallets/jaxx-logo.ico"
+  os: ios
+  type: mobile
+  vendor_id: jaxx
+  vendor_label: Jaxx
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
+  product_id: jaxx
+  product_label: Jaxx Wallet
+  product_source_label: Github
+  product_source_url: "https://jaxx.io/support.html"
+  links:
+    -
+      label: AppStore
+      url: "https://itunes.apple.com/us/app/jaxx-blockchain-wallet/id1084514516?mt=8"
+
 - name: Exodus
   description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
   logo_url: "/assets/img/wallets/exodus.png"
