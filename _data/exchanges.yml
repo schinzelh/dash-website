@@ -138,6 +138,12 @@
   image: coinsquare_logo.png
   url: https://coinsquare.io/
 
+- name: Cryptobuyer
+  trading_pairs:
+  fees:
+  image: cryptobuyer_logo.png
+  url: https://cryptobuyer.io/en/
+
 - name: Dashous
   trading_pairs:
   fees:
