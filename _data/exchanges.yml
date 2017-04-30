@@ -54,6 +54,12 @@
   image: bitfinex_logo.png
   url: https://www.bitfinex.com
 
+- name: Bithumb
+  trading_pairs:
+  fees:
+  image: bithumb_logo.png
+  url: https://www.bithumb.com
+
 - name: Bitpanda
   trading_pairs:
   fees:
