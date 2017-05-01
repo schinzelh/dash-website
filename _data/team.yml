@@ -307,14 +307,14 @@
   team-title: Dash Evolution Developers
 
 - name: Pierre van Rooyen
-  title:
+  title: DashCore Developer
   description:
-  image:
-  email:
-  keybase:
+  image: pierre.png
+  email: pierre@dash.org
+  keybase: https://keybase.io/pvrooyen
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /pierre.12961/
+  dashforum: pierre
   team-title: DashCore Developers
 
 - name: Alexandre Devilliers
