@@ -10,3 +10,23 @@
 - name: West County Media
   url: "http://www.WestCountyMedia.com"
   image: westcountymedia.jpg
+
+- name: paart GmbH
+  title: Advertisement Agnecy
+  url: http://paart.one/
+  image: paart.jpg
+
+- name: Philipp Engelhorn
+  title: Photography
+  url: http://www.philippengelhorn.com
+  image: PhilippEngelhornPhotography.jpg
+
+- name: Dave Bazzel
+  title: Fine Art Photography
+  url: http://davebazzel.com
+  image: DaveBazzel.jpg
+
+- name: Centerless.jpg
+  title: 360 Visual Tours
+  url: https://www.philpeterman.net
+  image: Centerless.jpg

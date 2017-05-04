@@ -27,7 +27,8 @@ description: pages.wallets.description
 	<section class="section clearfix">
 		<div class="section__content">
 			<h3>{% t pages.wallets.wallets-security-header %}</h3>
-			<p>{% t pages.wallets.wallets-security-subtitle %} <a href="https://www.keepassx.org" target="_blank">keepassx.org</a>
+			<p>{% t pages.wallets.wallets-security-subtitle %}
+				<a href="https://www.keepassx.org" target="_blank">keepassx.org</a>
 			</p>
 			<div class="row">
 				{% for wallet in security-wallets %}
@@ -48,23 +49,24 @@ description: pages.wallets.description
 				{% for os-sequence in desktop-os-order-list %}
 				{% for wallet-group in desktop-os-collection %}
 				{% if os-sequence == wallet-group.name %}
-				<li role="tab" {%if forloop.first== true %}class="active" {% endif %}><a data-toggle="pill"
-																						 href="#{{wallet-group.name}}">
-					{% case wallet-group.name %}
-					{% when 'win64' %}
-					Windows (64bit)
-					{% when 'win32' %}
-					Windows (32bit)
-					{% when 'osx' %}
-					OSX
-					{% when 'linux' %}
-					Linux
-					{% when 'ppa' %}
-					PPA
-					{% else %}
-					Other OS
-					{% endcase %}
-				</a></li>
+				<li role="tab" {%if forloop.first== true %}class="active" {% endif %}>
+					<a data-toggle="pill" href="#{{wallet-group.name}}">
+						{% case wallet-group.name %}
+						{% when 'win64' %}
+						Windows (64bit)
+						{% when 'win32' %}
+						Windows (32bit)
+						{% when 'osx' %}
+						OSX
+						{% when 'linux' %}
+						Linux
+						{% when 'ppa' %}
+						PPA
+						{% else %}
+						Other OS
+						{% endcase %}
+					</a>
+				</li>
 				{% endif %}
 				{% endfor %}
 				{% endfor %}
@@ -87,17 +89,18 @@ description: pages.wallets.description
 			<p>{% t pages.wallets.wallets-mobile-subtitle %}</p>
 			<ul id="wallet-mobile-os-tabs" class="nav2 nav-tabs " role="">
 				{% for wallet-group in mobile-os-collection %}
-				<li {%if forloop.first== true %}class="active" {% endif %} role="tab"><a data-toggle="pill"
-																						 href="#{{wallet-group.name}}">
-					{% case wallet-group.name %}
-					{% when 'android' %}
-					Android
-					{% when 'ios' %}
-					iOS
-					{% else %}
-					Other Mobile OS
-					{% endcase %}
-				</a></li>
+				<li {%if forloop.first== true %}class="active" {% endif %} role="tab">
+					<a data-toggle="pill" href="#{{wallet-group.name}}">
+						{% case wallet-group.name %}
+						{% when 'android' %}
+						Android
+						{% when 'ios' %}
+						iOS
+						{% else %}
+						Other Mobile OS
+						{% endcase %}
+					</a>
+				</li>
 				{% endfor %}
 			</ul>
 			<div class="tab-content well">

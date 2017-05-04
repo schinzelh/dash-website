@@ -94,16 +94,6 @@
   url: http://www.thereefshop.com.au
   image: TheReefShop.jpg
 
-- name: Philipp Engelhorn
-  title: Photography
-  url: http://www.philippengelhorn.com
-  image: PhilippEngelhornPhotography.jpg
-
-- name: Dave Bazzel
-  title: Fine Art Photography
-  url: http://davebazzel.com
-  image: DaveBazzel.jpg
-
 - name: Ivan Liborio
   title: Law
   url: http://www.liborio.adv.br
@@ -138,6 +128,16 @@
   title: Water Bottles
   url: https://mywabo.com
   image: Wabo.png
+
+- name: PeterVan
+  title: REMOVALS + MAN and VAN
+  url: http://www.petervan.co.uk
+  image: petervan.jpg
+
+- name: Custom Muzzle Brakes
+  title: Custom Muzzle
+  url: https://www.custommuzzlebrakes.com
+  image: muzzle.jpg
 
 - name: Buy with Dash
   title: Buy with Dash

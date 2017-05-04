@@ -54,6 +54,12 @@
   image: bitfinex_logo.png
   url: https://www.bitfinex.com
 
+- name: Bithumb
+  trading_pairs:
+  fees:
+  image: bithumb_logo.png
+  url: https://www.bithumb.com
+
 - name: Bitpanda
   trading_pairs:
   fees:
@@ -114,6 +120,12 @@
   image: cex-io_logo.png
   url: https://cex.io/
 
+- name: Coinapult
+  trading_pairs:
+  fees:
+  image: Coinapult_logo.png
+  url: https://coinapult.com
+
 - name: Coinbroker
   trading_pairs: BTC
   fees: Trading 0.1%; Withdrawal 0.005 DASH
@@ -137,6 +149,12 @@
   fees: Trading 0.5% (Single), 1% (Double); Maker 0.1%; Taker 0.2%
   image: coinsquare_logo.png
   url: https://coinsquare.io/
+
+- name: Cryptobuyer
+  trading_pairs:
+  fees:
+  image: cryptobuyer_logo.png
+  url: https://cryptobuyer.io/en/
 
 - name: Dashous
   trading_pairs:

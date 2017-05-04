@@ -1,19 +1,7 @@
-
-- name: Evan Duffield
-  title: Strategy Advisor
-  description: Evan (AKA “eduffield”, “evan82”) brings Dash over 17 years of software development experience and an interest in artificial intelligence, financial markets and economics.
-  image: evan.png
-  email: evan@dash.org
-  keybase: https://keybase.io/eduffield
-  twitter:
-  dashforum-link: /eduffield.104/
-  dashforum: eduffield
-  team-title: Dash Core DAO Management
-
 - name: Ryan Taylor
   title: CEO
   description: Ryan (AKA “babygiraffe”) has an MBA with a concentration in Finance &amp; Economics. He has over 15 years of experience in technology, strategy consulting, and finance. As a consultant, he served many of the world’s largest financial institutions on a wide variety of strategy and technology topics. Most recently, Ryan was a hedge fund analyst covering both private equity and public market investments within the payments sector. He brings to the team a deep understanding of payments-specific business strategy, product management, and operations.
-  image: ryan_taylor.jpg
+  image: ryan.png
   email: ryan@dash.org
   keybase: https://keybase.io/ryanptaylor
   twitter:
@@ -109,6 +97,17 @@
   dashforum: kot
   team-title: Dash Core DAO Management
 
+- name: Evan Duffield
+  title: Strategy Advisor
+  description: Evan (AKA “eduffield”, “evan82”) brings Dash over 17 years of software development experience and an interest in artificial intelligence, financial markets and economics.
+  image: evan.png
+  email: evan@dash.org
+  keybase: https://keybase.io/eduffield
+  twitter:
+  dashforum-link: /eduffield.104/
+  dashforum: eduffield
+  team-title: Dash Core DAO Management
+
 - name: Timothy Flynn
   title: Core Developer
   description: With an educational background and early career experience in physics Tim transitioned to software engineering oriented roles beginning in the late 90's. He is a skilled C++ developer who has worked on a wide range of applications ranging from distributed control systems to neural networks for handwriting recognition.  His former employers include CERN, the CNRS (the French national research agency) and Lockheed-Martin.
@@ -171,7 +170,7 @@
   email: chuckwilliams37@gmail.com
   keybase: https://keybase.io/chuckwilliams
   twitter:
-  dashforum-link: ChuckWilliams
+  dashforum-link: /chuck-williams.10154/
   dashforum: ChuckWilliams
   team-title: DashCore Developers
 
@@ -230,6 +229,17 @@
   dashforum: 0xfff
   team-title: DashCore Developers
 
+- name: Alex Werner
+  title: Evolution Backend Developer
+  description: Alex ("Obusco") has a degree in computing science and has been working for the last 8 years, as a self-taught web-freelancer (during his study), then tried his way for a good ol' IT service before quickly switching into the french start-up sphera as a full-stack developer.
+  image: alex_werner.png
+  email: alex@werner.fr
+  keybase: https://keybase.io/awerner
+  twitter:
+  dashforum-link: /obusco.6751/
+  dashforum: obusco
+  team-title: DashCore Developers
+
 - name: Joshua Seigler
   title: Evolution Frontend Developer
   description: \"Joshua\" has a degree in computer science and mathematics, and six years of professional experience in web development. He likes decentralized, permissionless systems, teaching, learning, board games, the internet, and the Oxford comma.
@@ -285,59 +295,26 @@
   dashforum:
   team-title: DashCore Developers
 
-- name: Jon Rudd
-  title:
+- name: Acidburn
+  title: Evolution Developer
   description:
   image:
-  email:
+  email: acidburn@dash.org
   keybase:
   twitter:
-  dashforum-link:
-  dashforum:
-  team-title: DashCore Developers
+  dashforum-link: /acidburn.996/
+  dashforum: acidburn
+  team-title: Evolution Developer
 
 - name: Pierre van Rooyen
-  title:
+  title: Evolution Backend Developer
   description:
-  image:
-  email:
-  keybase:
+  image: pierre.png
+  email: pierre@dash.org
+  keybase: https://keybase.io/pvrooyen
   twitter:
-  dashforum-link:
-  dashforum:
-  team-title: DashCore Developers
-
-- name: Pascal
-  title:
-  description:
-  image:
-  email:
-  keybase:
-  twitter:
-  dashforum-link:
-  dashforum:
-  team-title: DashCore Developers
-
-- name: Madeleine Shang
-  title:
-  description:
-  image:
-  email:
-  keybase:
-  twitter:
-  dashforum-link:
-  dashforum:
-  team-title: DashCore Developers
-
-- name: Marthinus Engelbrecht
-  title:
-  description:
-  image:
-  email:
-  keybase:
-  twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /pierre.12961/
+  dashforum: pierre
   team-title: DashCore Developers
 
 - name: Alexandre Devilliers
@@ -435,8 +412,8 @@
   email: david@dashpay.io
   keybase: https://keybase.io/ddink7
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /david.1517/
+  dashforum: david
   team-title: Testing + Support
 
 - name: Perry Woodin
