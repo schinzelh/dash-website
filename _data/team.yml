@@ -277,7 +277,7 @@
   title: Graphic Design / UX
   description:
   image:
-  email:
+  email: http://etherdesign.io
   keybase:
   twitter:
   dashforum-link:
@@ -296,7 +296,7 @@
   team-title: DashCore Developers
 
 - name: Acidburn
-  title:
+  title: Evolution Developer
   description:
   image:
   email: acidburn@dash.org
@@ -304,7 +304,7 @@
   twitter:
   dashforum-link: /acidburn.996/
   dashforum: acidburn
-  team-title: Dash Evolution Developers
+  team-title: Evolution Developer
 
 - name: Pierre van Rooyen
   title: Evolution Backend Developer
