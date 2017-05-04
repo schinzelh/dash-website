@@ -5,7 +5,6 @@ image: "TeamRestructure.png"
 title: "DashCore Team Restructure and Recruitment"
 ---
 Hi there,
-
 On behalf of the Core Team I’m pleased to announce that we have completed the recruitment into the DashCore development team and hired 6 new fulltime C++ developers who started yesterday, May 1st, raising the total full-time DashCore developers to 9.
 
 Running in tandem to our recent team reorganization, this recruitment process took 3 months and from around 50 applicants we conducted dozens of interviews and code reviews to select the 6 applicants who matched best our requirements for fulltime contributors to DashCore.
@@ -31,11 +30,8 @@ We have also completed recruitment and restructuring in the Evolution backend (D
 Now that we have expanded and restructured the development teams and know what resources are in place, we will prepare a full roadmap for coming Dash releases through to Evolution, which we plan to publish later this month (May).
 
 Best,
-
 Andy Freer
-
 CTO
-
 Dash Core Team
 
 <https://www.dash.org/forum/threads/dashcore-team-restructure-and-recruitment.14711/>
