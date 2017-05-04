@@ -34,22 +34,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" integrity="sha384-CgeP3wqr9h5YanePjYLENwCTSSEz42NJkbFpAFgHWQz7u3Zk8D00752ScNpXqGjS" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js" integrity="sha384-dfOR5hjVOg6B2OvgyHIS71mJWX5TgNQeFGo5cNNVglSep7ZvYcByrpEya6xbwwyB" crossorigin="anonymous"></script>
     <script src="/dist/js/main.min.js"></script>
-    <script>
-	  window.globals = {
-		siteApi : "{{ site.api }}"
-	  };
-
-	  ////////
-	  function formatNumber (num) {
-          return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
-      }
-
-      function formatCurrency (num,decimal) {
-          var _decimal;
-          _decimal = typeof decimal !== "undefined" ? decimal : 2;
-          return parseFloat(num).toFixed(_decimal).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
-      }
-    </script>
+    {% include globals_js_data.html %}
 
   </body>
 </html>
