@@ -84,6 +84,12 @@
   image: btc-e_logo.png
   url: https://btc-e.com/
 
+- name: Btc38
+  trading_pairs:
+  fees:
+  image: btc38_logo.png
+  url: http://www.btc38.com
+
 - name: BTC-Market
   trading_pairs: BTC
   fees: N/A
