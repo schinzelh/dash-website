@@ -63,7 +63,7 @@ pages:
     title: Exchanges
     description: Comprar Dash nessas bolsas e corretores
 
-    hero-heading: Lista de Exchange 
+    hero-heading: Lista de Exchange
     hero-text: |
       Esta lista inclui todas as exchanges conhecidas com o comércio Dash (em ordem alfabética), incluindo aqueles com baixo volume de negociação. <a href='https://coinmarketcap.com/currencies/dash/#markets' target='_blank'>Ver Estatísticas do Mercado</a>  Para maiores informações.
     hero-btn: Integrar Dash
@@ -75,7 +75,7 @@ pages:
     hero-heading: >
       404
     hero-text: Página não encontrada
-    hero-forum-btn: Forums Oficial 
+    hero-forum-btn: Forums Oficial
     hero-discussion-btn: Discussão
     hero-social-btn: Social Apps
     hero-news-btn: News &amp; Info
@@ -123,7 +123,7 @@ pages:
 
     cpu-mining-btn: CPU Miner
     sg-miner-btn: SGminer / Placas de Video
-    pools-stat-heading: Estatistica Pool 
+    pools-stat-heading: Estatistica Pool
     amd-mining-btn: AMD GPU on Windows
 
 
@@ -131,18 +131,18 @@ pages:
     description-text-hero: >
       Governança em um projeto descentralizado é difícil,
       Porque, por definição, não há autoridades centrais para tomar decisões para o projeto.
-	  Na Dash, tais decisões são tomadas pela rede, ou seja, pelos proprietários de masternodes. O sistema DGBB permite os masternodes
+      Na Dash, tais decisões são tomadas pela rede, ou seja, pelos proprietários de masternodes. O sistema DGBB permite os masternodes
       Votar a favor ou contra as propostas, que podem então ser implementadas (ou não) pelos desenvolvedores do Dash. Um exemplo chave é no início de 2016,
-      Quando a Core Team da Dash enviou uma proposta à rede perguntando se o tamanho do bloco deveria ser aumentado para 2 MB. Dentro de 24 horas,
-      Foi alcançado um consenso para aprovar esta mudança. Compare isso com o Bitcoin, onde o debate sobre o tamanho de blocos vem se intensificando há quase três anos.
+      Quando a Core Team da Dash enviou uma proposta à rede perguntando se o tamanho do bloco deveria ser aumentado para 2 MB. Dentro de 24 horas,
+      Foi alcançado um consenso para aprovar esta mudança. Compare isso com o Bitcoin, onde o debate sobre o tamanho de blocos vem se intensificando há quase três anos.
 
     description: >
-	   A DGBB também fornece um meio para a Dash financiar seu próprio desenvolvimento. Enquanto outros projetos têm de depender de doações.
-       Dash usa 10% da recompensa do bloco para financiar seu próprio desenvolvimento. Cada vez que um bloco é minerado, 45% da recompensa vai para o minerador, 45% vai para um
-       Masternode, e o restante 10% não é criado até o final do mês. Durante o mês, qualquer pessoa pode fazer uma proposta de orçamento para a rede.
-       Se essa proposta for aprovada em pelo menos 10% da rede masternode, então no final do mês será criada uma série de "superblocos".
-       Nessa altura, as recompensas do bloco que não foram pagas (10% de cada bloco) serão utilizadas para financiar propostas aprovadas. A rede financia assim
-       Reservando 10% do prêmio do bloco para projetos do orçamento.
+     A DGBB também fornece um meio para a Dash financiar seu próprio desenvolvimento. Enquanto outros projetos têm de depender de doações.
+      Dash usa 10% da recompensa do bloco para financiar seu próprio desenvolvimento. Cada vez que um bloco é minerado, 45% da recompensa vai para o minerador, 45% vai para um
+      Masternode, e o restante 10% não é criado até o final do mês. Durante o mês, qualquer pessoa pode fazer uma proposta de orçamento para a rede.
+      Se essa proposta for aprovada em pelo menos 10% da rede masternode, então no final do mês será criada uma série de "superblocos".
+      Nessa altura, as recompensas do bloco que não foram pagas (10% de cada bloco) serão utilizadas para financiar propostas aprovadas. A rede financia assim
+      Reservando 10% do prêmio do bloco para projetos do orçamento.
 
     governance-meaning: O que é Governança e o que isso significa para a Dash
 
@@ -257,19 +257,19 @@ pages:
 
     description-text-hero: >
       Governança em um projeto descentralizado é difícil,
-      Porque, por definição, não há autoridades centrais para tomar decisões para o projeto.
-      Na Dash, tais decisões são tomadas pela rede, ou seja, pelos proprietários de masternodes. O sistema DGBB permite os masternodes
-      Votar a favor ou contra as propostas, que podem então ser implementadas (ou não) pelos desenvolvedores da Dash. Um exemplo no início de 2016,
-      Quando a Core Team da Dash enviou uma proposta à rede perguntando se o tamanho do bloco deveria ser aumentado para 2 MB. Dentro de 24 horas,
-      Foi alcançado um consenso para aprovar esta mudança. Compare isso com o Bitcoin, onde o debate sobre o tamanho de blocos vem se intensificando há quase três anos.
+      Porque, por definição, não há autoridades centrais para tomar decisões para o projeto.
+      Na Dash, tais decisões são tomadas pela rede, ou seja, pelos proprietários de masternodes. O sistema DGBB permite os masternodes
+      Votar a favor ou contra as propostas, que podem então ser implementadas (ou não) pelos desenvolvedores da Dash. Um exemplo no início de 2016,
+      Quando a Core Team da Dash enviou uma proposta à rede perguntando se o tamanho do bloco deveria ser aumentado para 2 MB. Dentro de 24 horas,
+      Foi alcançado um consenso para aprovar esta mudança. Compare isso com o Bitcoin, onde o debate sobre o tamanho de blocos vem se intensificando há quase três anos.
 
     description: >
       A DGBB também fornece um meio para a Dash financiar seu próprio desenvolvimento. Enquanto outros projetos têm de depender de doações
-      Dash usa 10% da recompensa do bloco para financiar seu próprio desenvolvimento. Cada vez que um bloco é extraído, 45% da recompensa vai para o minerador, 45% vai para um
-      Masternode, e o restante 10% não é criado até o final do mês. Durante o mês, qualquer pessoa pode fazer uma proposta de orçamento para a rede.
-      Se essa proposta for aprovada em pelo menos 10% da rede masternode, então no final do mês será criada uma série de "superblocos".
-      Nessa altura, as recompensas em bloco que não foram pagas (10% de cada bloco) serão utilizadas para financiar propostas aprovadas. A rede financia assim
-      Reservando 10% do prêmio do bloco para projetos aprovados.
+      Dash usa 10% da recompensa do bloco para financiar seu próprio desenvolvimento. Cada vez que um bloco é extraído, 45% da recompensa vai para o minerador, 45% vai para um
+      Masternode, e o restante 10% não é criado até o final do mês. Durante o mês, qualquer pessoa pode fazer uma proposta de orçamento para a rede.
+      Se essa proposta for aprovada em pelo menos 10% da rede masternode, então no final do mês será criada uma série de "superblocos".
+      Nessa altura, as recompensas em bloco que não foram pagas (10% de cada bloco) serão utilizadas para financiar propostas aprovadas. A rede financia assim
+      Reservando 10% do prêmio do bloco para projetos aprovados.
 
     governance-meaning: O que é Governança e o que isso significa para a Dash
 
@@ -277,9 +277,9 @@ pages:
     voting-automatic: Votação automatizada
     voting-automatic-text: >
       Um dos maiores desafios da construção de uma plataforma de criptomoeda é garantir que você criar um sistema descentralizado de governança para gerenciar,
-      Financiar, manter e expandir o projeto. Este elemento chave está ausente em todas as moedas até a data, a resposta natural é criar uma organização sem fins lucrativos
-      Que é encarregada de manter e promover a moeda, mas não está realmente ligado aos titulares de moedas de qualquer forma significativa.
-      Esta abordagem tem algumas questões que foram tornadas a partir da experiência de plataformas de criptomoedas mais antigas.
+      Financiar, manter e expandir o projeto. Este elemento chave está ausente em todas as moedas até a data, a resposta natural é criar uma organização sem fins lucrativos
+      Que é encarregada de manter e promover a moeda, mas não está realmente ligado aos titulares de moedas de qualquer forma significativa.
+      Esta abordagem tem algumas questões que foram tornadas a partir da experiência de plataformas de criptomoedas mais antigas.
     voting-guide-btn: Guia - Amanda B.
     voting-manual-btn: Votação Manual (em QT Wallet)
     voting-central-btn: DashCentral
@@ -287,8 +287,8 @@ pages:
     voting-tools: Governança Tools
     voting-tools-text: >
       O sistema funcionaria como um mecanismo de votação descentralizado no software, onde os orçamentos para projetos específicos são propostos,
-      Então os masternodes como um todo vota neles. Cada projeto, se for aprovado, é adicionado ao orçamento total e pago diretamente do blockchain
-      Para a pessoa que faz o trabalho. Com isso, poderíamos contratar desenvolvedores principais e pagá-los diretamente após a aprovação do trabalho de forma descentralizada.
+      Então os masternodes como um todo vota neles. Cada projeto, se for aprovado, é adicionado ao orçamento total e pago diretamente do blockchain
+      Para a pessoa que faz o trabalho. Com isso, poderíamos contratar desenvolvedores principais e pagá-los diretamente após a aprovação do trabalho de forma descentralizada.
     generator-link: Gerador de Propostas Orçamentárias
     dashcentral-link: DashCentral
     votetracker-link: VoteTracker
