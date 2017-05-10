@@ -264,3 +264,15 @@
   fees: N/A
   image: yobit_logo.png
   url: https://yobit.net
+
+- name: Wall of coin
+  trading_pairs: BTC
+  fees: N/A
+  image: woc_logo.png
+  url: https://wallofcoins.com/en/
+
+- name: Changelly
+  trading_pairs: BTC
+  fees: N/A
+  image: changelly_logo.png
+  url: https://wallofcoins.com/en/
