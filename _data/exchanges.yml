@@ -11,12 +11,6 @@
   image: alfacashier_logo.png
   url: https://www.alfacashier.com
 
-- name: AllCoin
-  trading_pairs: BTC
-  fees: Trading 0.15%; Withdrawal 0.01 DASH
-  image: allcoin_logo.png
-  url: https://www.allcoin.com/
-
 - name: AllCrypt
   trading_pairs: BTC, LTC, DOGE
   fees: >
@@ -114,18 +108,6 @@
   image: ccedk_logo.png
   url: https://c-cex.com/
 
-- name: CCEDK (Crypto Coins Exchange Denmark)
-  trading_pairs: BTC, LTC, DOGE, BTS, RDD, USD, EUR, RUB, DKK, CNY
-  fees: Trading 0.2%; Deposit/Withdrawal Varies
-  image: c-cex_logo.png
-  url: https://www.ccedk.com/
-
-- name: CEX.IO
-  trading_pairs: BTC, LTC, USD, EUR
-  fees: Trading 0.2%
-  image: cex-io_logo.png
-  url: https://cex.io/
-
 - name: Coinapult
   trading_pairs:
   fees:
@@ -191,12 +173,6 @@
   fees: N/A
   image: inkapay_logo.png
   url: https://www.inkapay.com/inka/home
-
-- name: Jubi
-  trading_pairs: CNY
-  fees: N/A
-  image: jubi_logo.png
-  url: http://www.jubi.com/
 
 - name: Kraken
   trading_pairs:
