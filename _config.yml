@@ -23,10 +23,6 @@ url: https://www.dash.org
 
 api: /api/v1
 
-rss_path: "/rss"
-rss_name: "dash_blog_rss.xml"
-#rss_post_limit: - (optional) the number of posts in the feed
-
 #languages: ["en", "es", "cn", "pt", "ru", "it"]
 languages: ["en", "cn", "ru", "pt", "fr"]
 exclude_from_localizations: ["assets","dist","style-guide"]
@@ -50,6 +46,7 @@ sitemap:
     - "/feed.xml"
     - "/feed/index.xml"
     - "/style-guide/index.html"
+    - "/rss/dash_blog_rss.xml"
   include_posts:
     - "/index.html"
   change_frequency_name: "change_frequency"
