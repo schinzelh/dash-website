@@ -277,9 +277,9 @@ pages:
     voting-header: Cómo votar
     voting-automatic: Voto Automatizado
     voting-automatic-text: >
-      Uno de los mayores retos de construir una plataforma de criptodivisas es asegurarte de crear un sistema descentralizado de gobernancia para administrar, financiar, mantener y 
-      expandir el proyecto. Este elemento clave esta ausente en todas las demás criptodivisas a la fecha, la respuesta natural es crear una fundación sin motivos de lucro que tiene el         
-      objetivo de mantener el protocolo central y promover la moneda, pero que no tiene realmente una conexión significativa con ninguno 
+      Uno de los mayores retos de construir una plataforma de criptodivisas es asegurarte de crear un sistema descentralizado de gobernancia para administrar, financiar, mantener y
+      expandir el proyecto. Este elemento clave esta ausente en todas las demás criptodivisas a la fecha, la respuesta natural es crear una fundación sin motivos de lucro que tiene el
+      objetivo de mantener el protocolo central y promover la moneda, pero que no tiene realmente una conexión significativa con ninguno
       de los dueños de las monedas.
       Esta aproximación tiene algunos errores que han sido evidentes en plataformas de criptodivisas más viejas.
     voting-guide-btn: Guía - Amanda B.
@@ -350,7 +350,7 @@ pages:
       Lee el archivo "readme" detenidamente para asegurarte de seguir las instrucciones de instalación.
       Con tu programa FTP, carga la carpeta del Plugin a la carpeta wp-content/plugins en tu Directorio En Línea WordPress.
     how-text-plugin:  Ve a la pantalla de Plugins y encuentra la actualización más reciente del Plugin en la lista.
-      Haz clic en "Activar" para activarlo.    
+      Haz clic en "Activar" para activarlo.
 
 Revisa los detalles del archivo "readme" para ajustes e instrucciones avanzadas.
     how-text-link: Obtén el Plugin
@@ -528,14 +528,14 @@ Revisa los detalles del archivo "readme" para ajustes e instrucciones avanzadas.
     hero-wallets-btn: Carteras
     hero-guide-btn: Guía
     hero-security-btn: Seguridad
-    hero-text: Tu cartera es el software que utilizas para enviar, recibir y almacenar Dash. Es sencilla de usar y puedes envíar pagos anónimamente eligiendo el Envío Privado (PrivateSend)  
+    hero-text: Tu cartera es el software que utilizas para enviar, recibir y almacenar Dash. Es sencilla de usar y puedes envíar pagos anónimamente eligiendo el Envío Privado (PrivateSend)
     wallets-desktop-header: Escritorio
     wallets-desktop-subtitle: Las carteras Dash para el escritorio están disponibles con diferentes características y nivel de seguridad.
     wallets-desktop-latest: >
       Más reciente: 25 Febrero 2017
     wallets-desktop-current-version: v0.12.1.4
     wallets-mobile-header: Móvil
-    wallets-mobile-subtitle: Las carteras para móviles de Dash están disponibles con diversas características y nivel de seguridad, funcionan desde tu dispositivo móvil (teléfono celular, tableta) 
+    wallets-mobile-subtitle: Las carteras para móviles de Dash están disponibles con diversas características y nivel de seguridad, funcionan desde tu dispositivo móvil (teléfono celular, tableta)
     wallets-hardware-header: Hardware
     wallets-hardware-subtitle: Las carteras Hardware son dispositivos de seguridad que protegen tus Dash frente a hackeos y robos. Las carteras Hardware funcionan con el software en tu computadora manejando la generación de tu llave privada, almacenar tu llave privada y firmar las transacciones.
     wallets-paper-header: Papel
