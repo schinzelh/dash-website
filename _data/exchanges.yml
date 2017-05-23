@@ -114,6 +114,12 @@
   image: Coinapult_logo.png
   url: https://coinapult.com
 
+- name: Coinapult
+  trading_pairs:
+  fees:
+  image: Coinapult_logo.png
+  url: https://coinapult.com
+
 - name: Coinbroker
   trading_pairs: BTC
   fees: Trading 0.1%; Withdrawal 0.005 DASH
