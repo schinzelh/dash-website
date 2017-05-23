@@ -204,6 +204,12 @@
   image: masterxchange_logo.png
   url: https://www.masterxchange.com/index.php
 
+- name: Megachange
+  trading_pairs:
+  fees:
+  image: megachange_logo.png
+  url: https://www.megachange.is/
+
 - name: Poloniex
   trading_pairs: BTC, XMR, USDT
   fees: Trading 0.2%
