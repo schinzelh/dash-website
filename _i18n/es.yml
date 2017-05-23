@@ -345,14 +345,14 @@ pages:
 
 
 
+
       Descarga tu Plugin de WordPress en tu escritorio.
       Si se descargó como un archivo .zip extrae el contenido de la carpeta del Plugin en tu escritorio.
       Lee el archivo "readme" detenidamente para asegurarte de seguir las instrucciones de instalación.
       Con tu programa FTP, carga la carpeta del Plugin a la carpeta wp-content/plugins en tu Directorio En Línea WordPress.
-    how-text-plugin:  Ve a la pantalla de Plugins y encuentra la actualización más reciente del Plugin en la lista.
-      Haz clic en "Activar" para activarlo.
-
-Revisa los detalles del archivo "readme" para ajustes e instrucciones avanzadas.
+    how-text-plugin:  >
+      Ve a la pantalla de Plugins y encuentra la actualización más reciente del Plugin en la lista.
+      Haz clic en "Activar" para activarlo. Revisa los detalles del archivo "readme" para ajustes e instrucciones avanzadas.
     how-text-link: Obtén el Plugin
     how-install-link: Instala el Plugin
 
