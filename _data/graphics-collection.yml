@@ -55,6 +55,14 @@
       url: dash_heart_highres.png
 
 - type: logo
+  img-link: Dash_Logo_Vector_Digital_Cash.png
+  format: png
+  links:
+    -
+      label: Hi-Res
+      url: Dash_Logo_Vector_Digital_Cash.png
+
+- type: logo
   img-link: instantx_logo_normal.png
   format: png
   links:

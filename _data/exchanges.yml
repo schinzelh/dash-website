@@ -11,12 +11,6 @@
   image: alfacashier_logo.png
   url: https://www.alfacashier.com
 
-- name: AllCoin
-  trading_pairs: BTC
-  fees: Trading 0.15%; Withdrawal 0.01 DASH
-  image: allcoin_logo.png
-  url: https://www.allcoin.com/
-
 - name: AllCrypt
   trading_pairs: BTC, LTC, DOGE
   fees: >
@@ -84,6 +78,12 @@
   image: btc-e_logo.png
   url: https://btc-e.com/
 
+- name: Btc38
+  trading_pairs:
+  fees:
+  image: btc38_logo.png
+  url: http://www.btc38.com
+
 - name: BTC-Market
   trading_pairs: BTC
   fees: N/A
@@ -107,18 +107,6 @@
   fees: Trading 0.2%
   image: ccedk_logo.png
   url: https://c-cex.com/
-
-- name: CCEDK (Crypto Coins Exchange Denmark)
-  trading_pairs: BTC, LTC, DOGE, BTS, RDD, USD, EUR, RUB, DKK, CNY
-  fees: Trading 0.2%; Deposit/Withdrawal Varies
-  image: c-cex_logo.png
-  url: https://www.ccedk.com/
-
-- name: CEX.IO
-  trading_pairs: BTC, LTC, USD, EUR
-  fees: Trading 0.2%
-  image: cex-io_logo.png
-  url: https://cex.io/
 
 - name: Coinapult
   trading_pairs:
@@ -186,12 +174,6 @@
   image: inkapay_logo.png
   url: https://www.inkapay.com/inka/home
 
-- name: Jubi
-  trading_pairs: CNY
-  fees: N/A
-  image: jubi_logo.png
-  url: http://www.jubi.com/
-
 - name: Kraken
   trading_pairs:
   fees:
@@ -258,3 +240,15 @@
   fees: N/A
   image: yobit_logo.png
   url: https://yobit.net
+
+- name: Wall of coin
+  trading_pairs: BTC
+  fees: N/A
+  image: woc_logo.png
+  url: https://wallofcoins.com/en/
+
+- name: Changelly
+  trading_pairs: BTC
+  fees: N/A
+  image: changelly_logo.png
+  url: https://wallofcoins.com/en/
