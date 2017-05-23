@@ -115,20 +115,13 @@ $line-height-heading: 1.2;
 }
 
 html {
-	font-size: ($font-size-base / 16px * 100%);
+	font-size: calc(#{$font-size-base} * 0.7 + 0.5vw);
 }
 body {
-	font-size: ($font-size-base / 16px * 100%);
 	font-family: $font-family-body;
 	line-height: $line-height-base;
 	font-weight: $font-weight-light;
 	@include fontSmoothing();
-}
-
-@include mq($to: small) {
-	html, body {
-		font-size: 100%;
-	}
 }
 
 h1 {

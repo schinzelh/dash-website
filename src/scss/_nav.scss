@@ -3,8 +3,11 @@ $m: 'nav';
 $nav-height: 90px;
 
 .#{$m} {
-	float: right;
-	text-align: right;
+
+	@media (min-width: 1000px) {
+		float: right;
+		text-align: right;
+	}
 
 	@include mq($to: large) {
 		display: none;
@@ -19,7 +22,10 @@ $nav-height: 90px;
 		display: inline-block;
 		font-weight: 300;
 		letter-spacing: 0.02em;
-		line-height: $nav-height;
+		line-height: 2;
+		@media (min-width: 1000px) {
+			line-height: $nav-height;
+		}
 		&:last-child > .nav__link {
 			padding-right: 0;
 		}
