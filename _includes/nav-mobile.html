@@ -2,15 +2,15 @@
 
 <nav class="overlay-menu" id="overlaynavigation" aria-hidden="true">
 
- 	<div class="overlay-menu__nav">
-      	<a href="/" class="overlay-menu__logo">
-      		<img src="/assets/img/logo-white.png" alt="Dash" class="logo">
-  		</a>
+    <div class="overlay-menu__nav">
+        <a href="/" class="overlay-menu__logo">
+            <img src="/assets/img/logo-white.png" alt="Dash" class="logo">
+        </a>
         <ul class="overlay-menu__list">
             <li class="overlay-menu__item"><a href="{{ basenav }}/get-dash/" class="overlay-menu__link">{% t nav.get-dash %}</a></li>
-			<li class="overlay-menu__item"><a href="{{ basenav }}/merchants/" class="overlay-menu__link">{% t nav.merchants %}</a></li>
-			<li class="overlay-menu__item"><a href="{{ basenav }}/network/" class="overlay-menu__link">{% t nav.currency %}</a></li>
-			<li class="overlay-menu__item"><a href="{{ basenav }}/community/" class="overlay-menu__link">{% t nav.community %}</a></li>
+            <li class="overlay-menu__item"><a href="{{ basenav }}/merchants/" class="overlay-menu__link">{% t nav.merchants %}</a></li>
+            <li class="overlay-menu__item"><a href="{{ basenav }}/network/" class="overlay-menu__link">{% t nav.currency %}</a></li>
+            <li class="overlay-menu__item"><a href="{{ basenav }}/community/" class="overlay-menu__link">{% t nav.community %}</a></li>
             <li class="overlay-menu__item"><a href="{{ basenav }}/team" class="overlay-menu__link">{% t nav.team %}</a></li>
             <li class="overlay-menu__item"><a href="{{ basenav }}/blog/" class="overlay-menu__link">{% t nav.blog %}</a></li>
             <li class="overlay-menu__item"><a href="{{ basenav }}/evolution/" class="overlay-menu__link">{% t nav.evolution %}</a></li>
@@ -22,21 +22,21 @@
                     <li class="overlay-menu__subitem">
                         <a href="{{ page.url }}" class="overlay-menu__link {% if site.lang == 'en' %}is-active{% endif %}"><span class="flag us"></span> English</a>
                     </li>
-                    <!--<li class="overlay-menu__subitem">-->
-                    <!--    <a href="/es{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'es' %}is-active{% endif %}"><span class="flag es"></span> Español</a>-->
-                    <!--</li>-->
-                    <!--<li class="overlay-menu__subitem">-->
-                    <!--    <a href="/pt{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'pt' %}is-active{% endif %}"><span class="flag pt"></span> Portugese</a>-->
-                    <!--</li>-->
+                    <li class="overlay-menu__subitem">
+                    <a href="/es{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'es' %}is-active{% endif %}"><span class="flag es"></span> Español</a>
+                    </li>
+                    <li class="overlay-menu__subitem">
+                    <a href="/pt{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'pt' %}is-active{% endif %}"><span class="flag pt"></span> Portugese</a>
+                    </li>
                     <!--<li class="overlay-menu__subitem">-->
                     <!--    <a href="/it{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'it' %}is-active{% endif %}"><span class="flag it"></span> Italiano</a>-->
                     <!--</li>-->
-                    <!--<li class="overlay-menu__subitem">-->
-                    <!--    <a href="/cn{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'cn' %}is-active{% endif %}"><span class="flag cn"></span> 简体中文</a>-->
-                    <!--</li>-->
-                    <!--<li class="overlay-menu__subitem">-->
-                    <!--    <a href="/ru{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'ru' %}is-active{% endif %}"><span class="flag ru"></span> Русский</a>-->
-                    <!--</li>-->
+                    <li class="overlay-menu__subitem">
+                    <a href="/cn{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'cn' %}is-active{% endif %}"><span class="flag cn"></span> 简体中文</a>
+                    </li>
+                    <li class="overlay-menu__subitem">
+                    <a href="/ru{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'ru' %}is-active{% endif %}"><span class="flag ru"></span> Русский</a>
+                    </li>
                 </ul>
             </li>
             {% endif %}
