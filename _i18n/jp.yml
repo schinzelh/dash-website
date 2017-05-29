@@ -1,0 +1,922 @@
+
+# For multiple paragraph content add two line breaks
+pages:
+
+  legal:
+    title: 仮想通貨DASHへの法律の適用について
+    description: ウォレットをダウンロードして取引所で仮想通貨DASHを購入
+
+    hero-heading: 仮想通貨DASHへの法律の適用について
+    hero-text: DASHの自律分散組織（DAO）は仮想通貨DASHの普及、保護及び標準化に取り組んでいます。DASHの発展にあたって、アメリカの法律のもと仮想通貨DASHに対する各方面の審査を受けました。本文の目的は普及された審査の強調と仮想通貨DASHへの法律の適用についての説明となります。これは法律意見書ではないため、ご使用の際に弁護士にご相談ください。ここでは、法律における立場及びそれに関する法律の正しい取り扱い方をご説明いたします。
+    hero-tax-btn: 税収待遇
+    hero-compliance-btn: 法定貨幣 — 仮想通貨DASH
+
+    сogent-heading: >
+      Cogent Law Package:
+
+    criminally-heading: マスターノードを運営する人は、サポートするネット上の取引に対して刑事責任を負うべきかどうか。
+
+    criminally-text: |
+      DASHで取引をする際に、適用される法律について確認する必要があります。たとえば、DASH ATMを設置する時や他のアカウントのDASHを利用し、サービスを購入する際に、適用される法律を予めご確認ください。
+
+    criminally-btn: 法定貨幣 — DASH/ATM
+
+    treatment-heading: DASHのマスターノードの税収待遇？
+    treatment-text: >
+      ブロック奨励/DASHの採掘/資本収益/主な責任/副次的な責任などは、ここでお答えします
+
+    treatment-text-hero: マスターノードへの米国税法の適用について
+    treatment-btn: 完全リスト
+
+    treatment-masternode-heading: マスターノードの税収待遇
+
+
+    vitrtual-kiosk-heading: 仮想通貨ガイド
+    learn-more-btn: 追加情報
+
+    audio-heading: オーディオガイド
+    audio-text: 法定貨幣をDASHに変換してウォレットに送る
+    audio-text-btn: DASHを購入する
+
+
+    report-heading: レポートを調べる
+    report-heading-btn: 追加情報
+
+    docs-heading: レポートを調べる
+    docs-heading-btn: 追加情報
+
+    atm-heading: ATMでのDASH購入
+    atm-text: 自国のATMですばやくDASH購入
+    atm-btn: GPSでATMを追跡する
+
+
+    shop-heading: DASHを利用する店舗
+    shop-text: DASHウォレットを通して即時匿名でオンラインショッピング
+    shop-btn: 他の店舗
+
+
+    visa-stores: Visaカードが使える店舗
+    visa-text: DASH－Visaデビットカードをご利用の際に、国境を越える取引手数料がかかりません。移動端末でのお支払いはできます。
+    visa-btn: Shakeカードを入手する
+
+  exchanges:
+    title: 取引所
+    description: 指定された取引所の代理店でDASHを購入する
+
+    hero-heading: 取引所リスト
+    hero-text: |
+      このリストは、取引量の少ない取引所を含め、すべて既存の取引所（アルファベット順）を取り扱っています。<a href='https://coinmarketcap.com/currencies/dash/#markets' target='_blank'>取引データをチェック</a>  追加情報
+    hero-btn: DASHをリンクする
+    hero-getlisted-btn: リストに追加
+
+    disclaimer-text: >
+      免責事項：上記リストはご参考までとなっております。上述のサービス代理店はDASHの開発チームによるテスト又は承認がされてないので、情報の正確性は保障されません。ご自分の判断でサードパーティーサービスをご利用ください。
+
+  404-page:
+    hero-heading: >
+      404
+    hero-text: Webページが見つかりません
+    hero-forum-btn: 公式フォーラム
+    hero-discussion-btn: ディスカッション
+    hero-social-btn: SNSアプリ
+    hero-news-btn: ニュース &amp; 情報
+    hero-development-btn: 開発
+    hero-masternodes-btn: マスターノード
+    hero-video-btn: ビデオ &amp; オーディオ
+
+  mining:
+    title: DASH公式サイト | DASH暗号通貨
+    description: DASHは デジタル通貨である
+
+    hero-heading: マイニング
+
+    hero-text: |
+      ブロックチェーンはDASHの基礎です。つまり、あらゆる取引を記録する分散型元帳のことです。コンセンサスアルゴリズムはブロックチェーンの安全を保障し、“プルーフ・オブ ・ワーク”ともいわれます。（PoW）
+
+      このような採掘をするには、特別な計算設備を用いた高度な数学的知識が求められます。これに相当する人は、新たなデータブロックに書き入れる資格を取得できます(鉱員と呼ぶ)。
+
+      数学的な難題の解決がネットで承認された場合、新たなデータブロックがブロックチェーンに追加されるとともに、鉱員は報酬としてDASHを取得できます。
+
+    hero-how-to-btn: どうやって始めるか
+    hero-asic-btn: ASIC ハードウェア
+    hero-guides-btn: ガイド
+
+    pools-heading: マイニングプール
+    pools-text: |
+      免責事項：上記リストはご参考までとなっております。上述のサービス代理店はDASHの開発チームによってテスト又は承認されてないので、情報の正確性は保障されません。ご自分の判断でサードパーティーサービスをご利用ください。このリストに入りたいと希望されるお客様は、お気軽にご連絡ください。<a href='mailto:contact@dash.org'>contact@dash.org</a>
+    pools-masternode-btn: マイニング vs. マスターノード
+    pools-masternode-text: |
+      DASHは、ビットコインと他の暗号通貨のように、あらゆる取引を記録する分散型元帳に基づいています。分散型元帳とは、よく知られているブロックチェーンのことです。ブロックチェーンの安全はコンセンサスアルゴリズムによって保障されます。DASHとビットコインを例にして考えましょう。このコンセンサス・アルゴリズムはプルーフ・オブ ・ワーク（PoW）ともいわれています。このような採掘をするには、特別な計算設備を用いた高度な数学的知識が求められます。これに相当する人は、新たなデータブロックに書き入れる資格を取得できます(鉱員と呼ぶ)。同じソフトを使う鉱員が問題を解決したと承認された場合、新たなデータブロックがブロックチェーンに追加し、鉱員は報酬としてDASHを取得できます。
+    how-start-heading: マイニングを始めるには
+    asic-heading: ASIC マイナーハードウェア
+    asic-text: >
+      特定用途向け集積回路(ASICs) で特化されたコンピュータは、DASHのProof of Work(プルーフ・オブ・ワーク)を一番効率的に解決するように作られました。現在、市場に出ているDASH特定用途向け集積回路(ASICs) は下記となります:
+    asic-pinidea-btn: ASIC Pinidea X11 Miner DR-1
+    asic-pinidea-usb-btn: ASIC Pinidea X11 USB DU-1
+    asic-ibelink-miner: ASIC iBeLink DM384M X11
+    asic-baikal-mini-miner: ASIC X11 Baikal Mini Miner
+    asic-baikal-miner: ASIC Baikal A900 X11
+
+    cpu-gpu-heading: ガイド (CPU / GPU)
+    cpu-gpu-text: >
+      CPU / GPU マイニングはもはやコスパのよい方法ではなくなりました。手続きは割と簡単で、あなたのCPUの一番早い採掘速度（ハッシュレート）を実現するため、手本も用意しています。しかし、マイニングに適するマイナーも増えるので、最新情報に遅れないよう、こちらのマイニングサイトを常にチェックしてください。
+
+    cpu-mining-btn: CPU マイニング
+    sg-miner-btn: SGminer / グラフィックスカード
+    pools-stat-heading: プール統計
+    amd-mining-btn: AMD GPUが搭載されたWindows
+
+    description-text-hero: >
+      分散化システムの管理は非常に難しい。
+      その原因は、分散化の定義にあります。分散化とは、プログラムに決断を下す中心がないことです。
+      その原因は、分散化の定義にあります。分散化とは、プログラムに決断を下す中心がないことです。
+      開発者の提案に対し、DGBBシステムはマスターノードの持ち主の投票を許可します。持ち主の賛成や反対によって、実行に移るかどうかを決められます。例えば、２０１６年の始めに、
+      DASHのコアチームがネットに「ブロックチェーンが２ＭＢに拡大する必要がある」という提案をネット上で提出しました。その結果、２４時間以内で合意に達し、その提案は通過されました。
+      これに対して、ビットコインの容量拡大について議論は三年近くも続いてきました。
+
+    description: >
+      他の仮想通貨が寄付や資金の予約採掘に頼っている時、DGBBシステムはもうDASHに発展資金を提供し始めていました。
+      DASHは10％のブロックを報酬資金として自身の開発に使用します。一つのブロックが掘られた場合、報酬の45％をマイナーに、45％をマスターノードに配分し、殘りの10％は月末に再構成されます。
+      この一ヶ月間で、誰でもネットワックに予算案を提出できます。
+      月末のシリーズ「スーパーブロック」の構成には、少なくとも10％のマスターノードが提案を同意する必要があります。
+      この時、報酬に配分されていないブロックの報酬（各ブロックの中の10％）が許可を得られた提案の資金に回します。
+      そうすると、10 %のブロックの報酬を使うことで、ネットワークが自分自身に資金を提供できます。
+
+    governance-meaning: 管理とは何か、またDASHに対する意味
+
+    voting-header: どうやって投票する
+    voting-automatic: 自動的投票
+    voting-automatic-text: >
+      提案に投票するのはいくつの方法があります。ガイド下のリンクをご覧ください。
+    voting-guide-btn: ガイド - Amanda B.
+    voting-manual-btn: 手動投票 (QT Wallet)
+    voting-central-btn: DashCentral
+
+    voting-tools: 管理ツール
+    voting-tools-text: >
+      Dashコミュニティは、予算の進行を監視し、投票をサポートするように、いくつかのツールを開発しました。また、DASHコアチームは、提案のネットワークの提出をよりスムーズにするように、ご提案ジェネレーターをリリースしました。
+    generator-link: 予算提案を作成する
+    dashcentral-link: DashCentral
+    votetracker-link: 投票トレース
+    budget-monitoring-link: 予算モニタリング
+    proposal-status-link: 提案状態
+    proposal-service: 自動的提案サービス
+
+  masternodes:
+    title: DASH公式サイト | DASH暗号通貨
+    description: DASHは一種のデジタル通貨
+
+    hero-heading: マスターノード
+    hero-text: マスターノードとは、DASHウォレットを実行し、さらに決断を下すコンピュータのことです。例えば、インスタント送金で取引をロックすることやコインの連動、予算提案に投票するなどのことを決断します。
+    hero-what-btn: マスターノードとは
+    hero-how-btn: マスターノードを設置するには
+    hero-network-btn: マスターノードネットワーク
+    hero-masternode-mining-btn: マスターノードVSマイニング
+
+    marsternode-text: >
+      マスターノードを設置するには、1000 DASHの金額を担保として用意する必要があります。また、専用のIPアドレスと毎日24時間休み無しのサポート(接続損失は1時間以下)も必要です。
+      ブロックが掘られた場合、報酬の45％をマスターノードに配分します。一般的に、一つのマスターノードにつき、1週間ごとに約2 DASHがもらえます。
+
+    what-heading: マスターノードとは？
+
+    earn-heading: マスターノードの収入
+    earn-text: |
+      マスターノードの維持には、時間もお金もかかるため、インセンティブシステムによってブロックの報酬の一部がもらえます。現在のマスターノードの数や報酬によって、2016年に1000 DASHに約11%の報酬がもらえます。報酬は翌年になると減少しますが、DASHの価値が上昇し、DASHの供給が減っていくとともに、マスターノードの報酬が依然と充実でしょう。
+
+      そこで、マスターノードのサービス（インスタント送金または匿名送金）が利用される際に、マスターノードがもらえる報酬をまだ計算していません。
+
+    what-hero-heading: マスターノードとは？
+    instantiend-text: インスタント送金。それに比べ、ビットコインによってお支払いを確認するのに10分がかかります。
+    private-send-text: （匿名送金）それに比べ、ビットコインの取引は公開かつ追跡可能です。匿名にするのはウォレットアドレスの持ち主の個人情報だけです。
+    governance-text: （マスターノード管理システムは、ブロックのインセンティブを通じて自分自身の発展をサポートします。）それに比べて、ビットコインはいくつかの大手マイナー企業によって管理され、その開発資金も利益を目的としてのサードパーティーから出されたものです。
+    evolution-text: 分散トランザクション（分散されたPaypalと思われる）
+
+    host-heading: マスターノードの設置
+    host-text: |
+      1000 Dash: これは間違いなく一番難しいところです。DASHはPoloniex, Bittrexなどの取引所から購入できます。あるいはShapeshiftのようなサービス代理店で交換できます。詳しい情報はこちらで。
+
+      LinuxシステムサーバまたはVPSの設置：このガイドの目的を果たすため、Ubuntu 14.04 LTSが必要です。VultrやDigitalOceanのような安いVPSサプライヤーがお勧めですが、ほかの正規のサプライヤーもご利用いただけます。値段が比較的に安いサプライヤーを選ぶのが一般的です。例えば、私が現在使ってるVultrシリーズのVPSは5ドルしかかかりませんが、何の問題もなく普通に動いています。
+
+      A dedicated IP address: VPS / サーバーとバインディングするのは一般的です。
+
+      A little time: 初めてマスターノードを設置した時、ガイドは数えるほどしかなく、内容も不完全でした。最善の設置方法を見つけるのに何日間もかかりました。しかし、今は少しの時間で十分です。下記の方法によって、もっと簡単に設置できると思います。
+
+      もしマスターノードの設置に困っていて、しかも追加料金を払っても構わないのなら、プロバイダーより設置サービスをご利用いただけます。少しの追加料金で設置手順が大幅に簡素化されます。ここでは良いプロバイダーが見つけられます。
+
+    host-btn: マスターノードを起動させる
+
+    hosting-services: プロバイダーによりマスターノードを設置するサービス
+    hosting-services-text: |
+      ここではたくさんの非信頼性ホスティングサービスがご利用いただけます。VPSとプロバイダー環境の設置だけを提供しますので、ウォレットもDASHも渡す必要がありません（他の人に送る必要がありません）。
+
+      マスターノードシェアサービスによって1000 DASHを持っていないユーザーもマスターノードを設置する（数人のユーザーで一つの公共のマスターノードを設置する）ことができます。
+
+    hosting-services-btn: プロバイダーによりマスターノードを設置するサービス
+
+    p2p-text: |
+      インセンティブのおかげで、2014年DASH発行以来、4100個を超えるマスターノードを持つネットワークまで成長しました。それはつまり、世界最大のピア・ツー・ピアネットワークの一つになりました。
+      より多くのノードはより安全なザービスにつながると同時に、世界中のユーザーによる７＊２４時間のデジタル通貨使用にもサポートできます。
+
+      Text about peer2peer インセンティブのおかげで、2014年 DASH発行以来、4100以上マスターノードを持ってる世界最大のピア・ツー・ピアネットワークの一つになりました。
+      より多くのノードでより安全なザービスを確保できます。全世界のユーザーに７＊２４時間のデジタル通貨サービスをご提供します。
+
+    p2p-btn: ネットワークの状態
+
+  buy:
+    title: DASH公式サイト | DASH　暗号通貨
+    description: DASHはデジタル通貨である。
+
+    hero-heading: DASHの購入方法
+    hero-text: ネットでDASHを簡単に購入するには？
+
+    exchanges-btn: 法定貨幣で購入できる
+    brokers-btn: 仮想通貨で購入できる
+    otc-btn: 場外取引
+    local-btn: ローカル市場
+
+    exchanges-heading: 取引所
+    brokers-heading: 代理店
+
+    otc-heading: 場外取引
+    dashous-text: 使い方
+    woc-text: Wall of Coinsの使い方
+    local-heading: ローカル市場
+
+  governance:
+    title: DASH公式サイト | DASH　暗号通貨
+    description: DASHはデジタル通貨である
+
+    hero-heading: 分散化管理システム
+
+    hero-text: >
+      ブロックチェーンで実現する分散化管理システムは、DGBBとも呼ばれ、DASHが暗号通貨の管理と資金問題を解決する方法です。
+
+    hero-how-to-btn: DGBBとは
+    hero-tools-btn: ツール
+
+    description-text-hero: >
+      分散化システムの管理は非常に難しい。
+      その原因は、分散化の定義にあります。分散化とは、プログラムに決断を下す中心がないことです。
+      DASHでは全てのことはマスターノードネットワーク、つまり、マスターノードの持ち主によって決まります。開発者の提案に対し、DGBBシステムはマスターノードの持ち主の投票を許可します。
+      持ち主の賛成や反対によって、実行に移るかどうかを決められます。例えば、２０１６年の始めに、
+      DASHのコアチームがネットに「ブロックチェーンが２ＭＢに拡大する必要がある」という提案をネット上で提出しました。その結果、２４時間以内で合意に達し、その提案は通過されました。
+      これに対して、ビットコインの容量拡大について議論は三年近くも続いてきました。
+
+    description: >
+      他の仮想通貨が寄付や資金の予約採掘に頼っている時、DGBBシステムはもうDASHに発展資金を提供し始めていました。
+      DASHは10％のブロックを報酬資金として自身の開発に使用します。一つのブロックが掘られた場合、報酬の45％をマイナーに、45％をマスターノードに配分し、
+      殘りの10％は月末に再構成されます。この一ヶ月間で、誰でもネットワックに予算案を提出できます。
+      月末のシリーズ「スーパーブロック」の構成には、少なくとも10％のマスターノードが提案を同意する必要があります。
+      この時、報酬に配分されていないブロックの報酬（各ブロックの中の10％）が許可を得られた提案の資金に回します。
+      そうすると、10 %のブロックの報酬を使うことで、ネットワークが自分自身に資金を提供できます。
+
+    governance-meaning: 管理とは何か、またDASHに対する意味
+
+    voting-header: どうやって投票する
+    voting-automatic: 自動的投票
+    voting-automatic-text: >
+      仮想通貨プラットフォームの作成に当たる最大のチャレンジは、分散化の管理システムによってプロジェクトを管理、サポート、メンテナンスおよび展開です。
+      この要素は今までの仮想通貨にはありません。
+      折衷の方法は、非営利の基金協会を設立し、それをコアプロトコルの維持とプロジェクの展開に使用することです。しかし、このような方法は仮想通貨の持ち主たちとのつながりをなくしています。
+      この方法にある問題は、すでに幾つかの古い仮想貨幣のプラットフォームに現れました。
+    voting-guide-btn: ガイド - Amanda B.
+    voting-manual-btn: 手動投票 (QT Wallet)
+    voting-central-btn: DashCentral
+
+    voting-tools: 管理ツール
+    voting-tools-text: >
+      このシステムは、ソフトウェアに内蔵した分散化投票システムのように、具体的なプロジェクトによって適切な予算案を提出できます。
+      その後マスターノードの持ち主たちは一定時間内に投票を行います。提案が通過した場合、次回の総予算に入り、ブロックのチェーンが直接報酬を支払います。
+      この方法を通じて、分散化システムに同意したコア開発者を募集し、直接報酬を支払えます。
+    generator-link: 予算提案を作成する
+    dashcentral-link: DashCentral
+    votetracker-link: 投票トレース
+    budget-monitoring-link: 予算モニタリング
+    proposal-status-link: 提案状態
+
+    proposal-service: 自動的提案サービス
+
+  woocommerce:
+    title: DASH公式サイト　|　DASH暗号通貨
+    description: DASHは一種のデジタル通貨
+
+    hero-heading: WooCommerce
+    hero-text: DASHのWooCommerceの使用
+
+    hero-btn: Github報告
+    hero-btn-download: 圧縮ファイルをダウンロード
+    hero-description: あなたのウェブサイトが
+    hero-description-link: 最低限の技術要求に満たすことをご確認ください
+
+    plugin-heading: >
+      WooCommerceとは
+    plugin-text: WooCommercとは、あらゆる製品の販売任務に役立つ無料の電子ビジネスプラグインのことです。ワードプレス（WordPress）とシームレスに合わせられる上、店と開発者に完全な自主権を与え、まさに世界最高の電子ビジネスプラットフォームと言えます。
+
+    feature-private-heading: プライバシー
+    feature-private-text: あなた財務情報のプライバシーを保護します。匿名送信機能があなたの資産管理操作記録と財務殘高情報のプライバシーを守ります。
+    feature-instant-heading: 即時性
+    feature-instant-text: あなたの貴重な時間を大切にし、リアルタイムの送信機能で一秒以内に支払いをご確認いただけます。
+    feature-secure-heading: 安全性
+    feature-secure-text: 堅実なセキュリティ機能を搭載しています。1000Gの計算力を持ち、X11専用集積回路のコンピュータで計算を行い、さらに全世界で4100台以上のサーバーを所有しています。
+
+    video-heading:
+    video-btn: Woocommerce紹介ビデオ
+
+    install-heading: WordPressプラグインのインストール
+    install-text:
+    install-btn: 追加情報
+
+    how-heading: 手動インストール
+    how-text: >
+      下記の場合で、ワードプレス（WordPress）プラグインを手動インストールした方が妥当です：
+
+      プラグインの入れ替わりまたはインストールプロセスを把握したい場合；
+
+      サーバーがこのプラグインの自動インストールを支持しない場合；
+
+      このプラグインがワードプレス（WordPress）プラグイン一覧に存在しない場合。
+
+      ワードプレス（WordPress）プラグインを手動インストールにはFTPを把握する必要があります。正規ルート以外のルートで、現在のバージョンと合わないプラグインをダウンロードした場合、あなたのウェブサイトは一定なリスクを背負うことになる。
+
+      そのため、インストール前にあなたのウェブサイトのバックアップをお勧めします。
+
+
+
+      ワードプレスプラグインをデスクトップにダウンロード
+      (ダウンロードしたのは圧縮ファイルの場合、デスクトップまで解凍してください)
+      readmeファイルをきちんと読んで、手順通りに操作してください。
+      FTPプログラムを使って、プラグインをワードプレスのオンライン一覧のwp-content/pluginsフォルダーにアップロードする。
+    how-text-plugin:  プラグイン一覧を開いて、アップロードされたファイルを探してください。
+      Activateボタンをクリックしてそれを起動させてください。
+      Details readmeファイルを読んで、カスタムインストールの手順や他の手順を確認してください。
+    how-text-link: プラグインの取得
+    how-install-link: プラグインのインストール
+
+  graphics:
+    title: DASH公式サイト | DASH暗号通貨
+    description: DASHはデジタルマネーの一種です
+
+    hero-image:
+    hero-heading: 宣材写真
+    hero-text:
+      DASHエボリューション（Evolution）は、業界で初めてのサードパーティを通らず、ユーザーがネットあるいは端末で直接操作できる暗号通貨を作りました。
+      これらのアイコンは、オンラインサービス、小売店、新聞発表、またはその他の宣伝メディアで使用できます。
+    licence: DASHのロゴとワードマークはクリエイティブ・コモンズ・ライセンス 表示 - 継承 4.0 国際 (CC BY-SA 4.0)を取得しました。
+    licence-link-text: クリエイティブ・コモンズ・ライセンス 表示 - 継承 4.0 国際 (CC BY-SA 4.0)
+    licence-link: https://creativecommons.org/licenses/by-sa/4.0/
+
+    logos-header: ロゴとアイコン
+    merchants-header: 店舗の方
+    dontaion-header: 寄付する
+    community-header: コミュニティー
+    indent-header: DASHのビジュアル・ アイデンティティ
+
+    color-header: カラーデザイン
+    color-text: DASHの美学を守るため、下記の使用ガイドをお勧めします
+
+    typography-header: グラフィックデザイン
+    typography-text: DASHの美学を守るため、下記の使用ガイドをお勧めします
+
+  evolution:
+    title: DASH公式サイト| DASH暗号通貨
+    description: DASHはデジタル通貨の一種である
+
+    hero-image:
+    hero-heading: DASH エボリューション（EVOLUTION）
+    hero-text: 将来の支払い方法について考えましょう
+    hero-btn:  追加情報
+
+    subscribe-btn: 購読する
+
+    video-heading: 使命
+    video-text: エボリューション（Evolution）は技術専攻ではない人でも簡単に使用できるデジタル通貨に取り組んでいます。 誰でもブロックチェーンにアカウントを作成でき、連絡先を作るたけで名前で支払うことができます。必要なのはクリックするだけ、ウェブサイトまたはスマホでの支払いは非常に簡単になります。
+    video-btn: モデルビデオ
+    video-btn2: ウォレット概要
+    sentinel-btn: Sentinel
+
+    slack-btn: スラック（Slack）チャンネル
+    forum-btn: DASHフォーラム
+
+    evo-prototype-heading: ライトウォレット
+    evo-prototype-text: エボリューション（Evolution）は間もなく新しいライトウォレットを公開します。 SPV安全性とブラウザーの互換性を備えていると同時に、4000以上のノードからなっているP2Pにリンクされている。
+    evo-prototype-btn: DASHのプロトタイプ
+
+    slack-btn: スラック（Slack）ツール
+    forum-btn: DASHフォーラム
+
+    component-heading: 構成部分
+    component-text: >
+      下記は新たな特徴をたくさん備えるエボリューション（Evolution）の仕事です：
+
+
+    docs-heading: 使いやすさ（消費者にとって）
+
+    docs-text: エボリューション（Evolution）を通じて、出品者との直接連絡、商品やサービスの購入、費用を自動的に引き落とされる購読サービスの利用などを楽しんでいただけます。ブロックチェーンでDASHと提携しているすべての会社を検索できます。その上、 会社の信用度を評価し、商品やサービスのクォリティーをコミュニティに共有することができます。
+
+    docs-btn: 追加情報
+    docs-link: https://www.dash.org/forum/threads/january-2017-budget-report.12601/
+
+    update-heading: EVOLUTIONアップデート
+    update-text:
+      エボリューション（Evolution）の首席研究員であるアンディ・フリー（Andy Freer）はエボリューションの概念を人々に知らせるために、多くの文献を執筆しています。 その前に、私は彼と数ヶ月にもわたる相談で、エボリューションの各部分の動きの研究と改善をし、有機的なシステムを形成させました。
+
+      研究段階の初めから、多くの文献、技術仕様、計画とグラフを作成しました。資料をまとまり次第、デザインから実行まですべて揃っているウィキペディア（Wikipedia）データベースとして公開します。
+    proposal-btn: 提案
+    proposal-submit-btn: 提案をアップロードする
+
+    prototype-heading: エボリューション アルファ（EVOLUTION ALPHA）
+    prototype-text:
+      DASH12.1 は既にリリースされた以上、次の仕事は、主に2017年年末でリリースされる予定のエボリューションテストバージョンに関わります。その前、ホワイトペーパーのフルバージョンの発行など、関連の仕事にも着手します。引き続き情報のアップデートをお待ちください。よろしくお願いいたします。
+
+    prototype-btn: ネットワークデータ
+
+    explore-heading: DASH全機能を楽しむ
+    explore-text:
+      会員登録、アカウントのアクティベート、ログイン、SNS、支払いリストまたはDASH支払いなどなど、DASHエボリューションのプロトタイプの全機能を楽しんでいただけます。
+
+
+      研究段階の初めから、多くの文献、技術仕様、計画とグラフを作成しました。資料をまとまり次第、デザインから実行まですべて揃っているウィキペディア（Wikipedia）データベースとして公開します。
+
+    subscribe-btn: ニュースを購読する
+    follow-soc-btn: ツイッターをフォローする
+
+    merchants-heading: 使いやすさ（出品者にとって）
+    merchants-text:
+      分散化システムで、わずか数分でウェブサイト又はスマホアプリにDASH支払い機能を追加できます。
+
+      複雑な設備やサードパーティに頼らず、ブロックチェーンだけで取引先と直接連絡できます。
+
+    merchants-btn: 出品者専用
+    merchants-plugin-btn: 插件プラグイン
+
+    social-heading: DASH SNS
+
+    social-text: >
+      新規アカウントを開設すれば、いつでもどこでも安全にあらゆる端末からDASHのネットワークにログインできる. その上、家族や友達を誘って、名前だけで支払いをできる。
+
+      受取人との取引履歴を遡り、取引の詳細を共有することができる。ブラウズの閲覧履歴を消去するように、いつでも取引履歴をすべて削除できることによって、情報の安全性と匿名性が保証されます。
+
+    social-btn: 予算
+    social-link: https://www.dashcentral.org/budget
+
+  update:
+    title: DASH公式サイト | DASH暗号通貨
+    description: DASHは一種のデジタル通貨である
+
+    hero-image:
+    hero-heading: バージョン12.1にアップグレード
+    hero-text: 現在、DASHのネットワークで新しいソフトウェアが公開されました。一般ユーザー、鉱山所有者とマスターノードの持ち主を含め、ユーザー全員がアップグレードする必要があります。すべての予算案をもう一度システムに提出しなければならなりません。注意：アップグレード期間に、予算の支払いは一時停止します。したがって、アップグレードされていないマスターノードは報酬を獲得できません。
+
+    hero-btn: >
+      Launch date: 2017年2月5日
+
+    video-heading: Dash Core発展の概略
+    video-text: DASH発展の最前線はDash Coreです。既存のネットワークを運営する以外、エボリューション（Evolution）の開発をサポートしています。
+    video-btn: ビデオ紹介
+
+    merchants-heading: 強制アップグレードの関連情報について
+    merchants-text: 全部のマイナー、鉱山、ウォレット、取引所、会社などは必ず更新を完了させなければなりません。
+    merchants-btn: Pool
+    masternodes-btn: マスターノード
+    exchanges-btn: 取引所
+
+    proposal-heading: 提案セルフサービス
+    proposal-text:
+    proposal-btn: 追加情報
+
+    execution-heading: 「エボリューション（Evolution）」とは何か
+    execution-text:
+      エボリューション（Evolution）とは、暗号通貨の複雑な操作を改善し、DASHの支払いをより簡単に変えることです。Evolution はPayPalでの操作の簡易性を実現したほか、PayPal操作により、完全なる分散化と手数料ゼロの支払いという２つのメリットがあります。
+
+
+
+    execution-btn: 追加情報
+    execution-link: https://dashpay.atlassian.net/wiki/x/DQBcAg
+
+    update-heading: Sentinel
+    update-text:
+      万能のDASH開発ツール
+      DASHの新しいSentinel技術がエボリューション（Evolution）の技術的サポートになります。強い機能と高度な柔軟性で、ネットワークのアップグレードをさらに簡易化しました。また、個性的なデザインによって、ネットワークに適応する様々なプログラムに開発できます。例えば、Sentinel技術を利用し、デジタル技術会社を創立することもできます。
+    proposal-btn: 提案
+    proposal-submit-btn: 提出する
+
+    evolution-research-heading: EVOLUTIONの開発
+    evolution-research-text:
+      2016年1月、Evolutionのプロトタイプに基づくライトウォレットを発表しました。それから、文献や資料の編集に取り組んでいると同時に、デザインの目標を全面的に概述し、それを実践に移しました。
+
+      プロトタイプでは、DASHの支払いができる友達の人数が限られていることや、ユーザーデータは簡単なサーバーに保存するなど、いくつか基礎機能しか備えていませんでした。しかし、プロトタイプによってDASHのコンセプトは検証されました。
+      当時の目標は、コア技術をすべて取り入れ、最終的にP2P（ピア・ツー・ピア）通信の形で下記の機能を実現できるモデルの設計と創造でした。データをDASHブロックチェーンに保存し、ユーザーがいつでもどこでもどのデバイスでも取得する；集成SPVをもとに、サードパーティーを通らず、安全な操作を提供する；HTTPを使うことによって審査を免れる。
+    evolution-research-btn: ネットワークのデータ
+
+    launching-heading: 発行日
+    launching-text: >
+      新しいバージョンをリリースする際に、すべての提案を再び提出しなければならなりません。
+
+      スーパーブロックのスケジュールを考え、新しいバージョンがリリースされる月初めまではそう遠くありません。高い安定性と予算管理システムに影響を及ばさないことを確保するため、バージョン12.1の発行日を2月5日に変更しました。
+    launching-btn: 予算
+    launching-link: https://www.dashcentral.org/budget
+
+  wallets:
+    title: DASHウォレット
+    description: あなたのプラットフォームにぴったりなDASHウォレットをインストール
+    hero-heading: DASHウォレットを取得する
+    hero-image: get-dash-n.jpg
+    hero-wallets-btn: ウォレット
+    hero-guide-btn: ガイド
+    hero-security-btn: セキュリティ
+    hero-text: ウォレットはDASHの発送、受け取りと保存を実現したソフトです。手軽に使用できます。匿名送信機能を通して、匿名のお支払いが実現できます。
+    wallets-desktop-header: デスクトップウォレット
+    wallets-desktop-subtitle: デスクトップウォレットは様々な機能と高い安全性を実現できます。
+    wallets-mobile-header: モバイルウォレット(モバイル端末でご利用いただける財布)
+    wallets-mobile-subtitle: DASHモバイルウォレットはスマートフォンやタブレットなどのモバイル端末で操作できます。様々な機能と高い安全性を実現したアプリです。
+    wallets-hardware-header: ハードウェアウォレット(専用財布端末)
+    wallets-hardware-subtitle: ハードウェアウォレットは安全な設備であり、ハッキングや窃盗を防ぐことができます。インストールしたウォレットを通して秘密鍵の作成と管理及び取引承認を引き継ぐことができます。
+    wallets-paper-header: ペーパーウォレット
+    wallets-paper-subtitle: ペーパーウォレットは「コールドストレージ」(cold storage)の一種で、本質は無記名証券です。
+    wallets-security-header: セキュリティ
+    modal-platform: プラットフォーム
+
+    wallets-security-subtitle: あなたのウォレットを保護するため、安全性の高いパスワードを設定し、そのパスワードを安全な場所に保管してください。盗難に遭った場合は、なくしたお金を取り返せませんので、ウォレットやあらゆるバックアップを暗号化してください。ペーパーウォレットやKeepassのようなハードウェアウォレットをご利用になる場合は、普通のウォレットパスワードを保管するように、最初のウォレットファイルをきちんと保管してください。それはウォレットファイルを元に戻す唯一の方法です。パスワードのセキュリティの追加情報はこちらへ：
+    modal-header-vendor-label-descriptor: DASHウォレット
+    modal-download-action-button-label: ダウンロード
+    modal-source-code-view: ビュー
+    modal-source-code-label: ソースコード
+    modal-source-closed-label: 特許
+    modal-website-label: ウェブサイト
+
+
+    modal-control-label: コントロール
+    modal-control-full: このウォレットでDASHを完全にコントロールできます。また、ソースコードや二進法によって表示されるファイルの検証を許可できます。
+    modal-control-semi: このウォレットによってDASHに対して全面的に制御することができます。ただし、それは不要コードをダウンロードしないことを前提とした話です。
+
+    modal-validation-label: 確認
+    modal-validation-full: 完全な検証プロセスはお支払いの送信また受信状況を確認する必要がありますが、一番安全な検証プロセスとしてディスクの使用量も一番多いです。
+    modal-validation-spv: より簡単な検証プロセスはより短い時間でお支払いの送信と受信状況を確認できます。
+    modal-validation-hosted: プロキシサーバーでお支払い送信また受信状況を確認する必要があります。
+
+    modal-access-label: サイトにアクセス
+    modal-access-p2p: 直接DASH P2Pサイトに接続できます。これは世界中で審査されない分散化ネットワーク接続モデルです。
+    modal-access-multi: DASHネットにアクセルするのは仲介ゲートウエイが必要ですが、適用のゲートウエイを自由に選べます。
+    modal-access-vendor: サプライヤーのプロキシサーバーによりDASHのP2Pサイトに接続できます。
+
+    modal-core-minimum-reqs: 最低限のバージョンが要求されます
+    modal-core-header: Dash Coreをダウンロード
+    modal-electrum-header: DASH ライトウォレットをダウンロード
+    modal-win-core-description: Brief Description&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    modal-win-core-security-key: セキュリティ
+    modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
+    modal-win-core-source-code-key: ソースコード
+    modal-win-core-source-code-value: .&#40;link/ closed source&#41;
+    modal-core-users-text: 一般ユーザー
+    modal-core-users-value: 0.12.1.0
+    modal-core-masternode-text: マスターノード運営者
+    modal-core-masternode-value: 0.12.1.0
+    modal-core-pool-text: マイニングプール運営者
+    modal-core-pool-value: 0.12.1.0
+
+
+  contact:
+    title: DASHチームに連絡
+    description: DASHチームに連絡
+    hero-image:
+    hero-heading: お問い合わせ
+    hero-text:
+    form-pretext: ウォレットやマイニングについては、DashTalk或いは他のコミュニティフォーラムで技術サポートを求めてください。
+    form-pretext-2: 追加情報はこちらのリンクで
+        # form-pretext-2: さらに調べるにはこのフォームで
+    social-heading: フォーラム &amp; ソーシャルメディア
+    mail-list-heading: メールリスト
+    mail-list-text: DASHの最新情報に追いつかない？今すぐこちらのメールリストに加入ください！
+    social-text-heading: DASHフォーラムへ
+    forum-btn: フォーラムへ
+    social-text: ウォレットやマイニングについては、DashTalk或いは他のコミュニティフォーラムで技術サポートを求めてください。
+    volunteer-heading: ボランティア
+    join-btn: 加入
+
+  home:
+    title: DASH公式サイト | DASH暗号通貨
+    description: DASHはデジタル通貨
+    hero-image:
+    hero-heading: DASHはデジタル通貨
+    hero-text: 革命的なデジタル通貨システム<br />デジタル通貨を見届ける
+
+    video-heading: DASHはオンライン操作可能なデジタル通貨である
+    video-text: 一般ユーザーはDASHを通して、安全な即時払いを利用できます。会社の方は全世界千万人のユーザーがサポートしているオープンソース決済プラットフォームを利用できます。
+    video-btn: ビデオプレビュー
+
+    feature-private-heading: プライバシー
+    feature-private-text: 個人の財務情報を守ります。匿名送信機能は財務管理記録や残高情報を保護できます。
+    feature-instant-heading: 即時性
+    feature-instant-text: あなたの 一秒一秒の時間を大切にするため、即時払いは一秒以内に確認できます。
+    feature-secure-heading: セキュリティ
+    feature-secure-text: 信頼できるセキュリティ。１０００G計算力を持つX11 ASICと全世界4,100台以上のサーバーで確認されます。
+
+    merchants-heading: 直接DASHでお買い物
+    merchants-text: DASHでリアルタイムかつ安全の取引ができる
+    merchants-btn: 利用できる店舗一覧
+    merchants-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchant+Directory+Listing
+    merchants-join-btn: 加盟店舗になる
+    merchants-join-link: https://dashpay.atlassian.net/wiki/display/DOC/Dash+Payment+Processor+Overview
+
+    architecture-heading: 次世代のP2Pネット
+    architecture-text: >
+      DASHの核は独特のインセンティブP2Pネットからなっています。マイニングはブロックチェーンを保守することによって報酬を受け取り、マスターノードの持ち主は取引検証、データ保存やサービス提供で報酬を受け取ります。
+
+
+      マスターノードは新しいネット段階を代表しています。これによって高度な安全性を確保できる集合団体–仲裁チェーンが成り立っています。即時払い、匿名性、分散化管理など様々な分散化サービスの提供と共に、低コストのサイバー攻撃も防げます。
+
+    architecture-btn: 追加情報
+    architecture-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=8585240
+
+    governance-heading: 世界初の自主管理と資金面自給自足を実現したシステム
+    governance-text: >
+      誰でも直接DASHサイトに提案できます。マーゲティングや開発など DASHの発展に役立つ提案である限り、資金での支持を得ることができます。すなわち、 DASHは自分の発展とアプリの展開に資金を提供し、ネット上の合意を達し、ユーザーの信頼性を確保します。
+      ネットワークに提案し、資金の支持をもらえるように頑張りましょう。マスターノードの持ち主も積極的に投票してください。
+    proposal-btn: 提案
+    proposal-submit-btn: 提出する
+
+    network-growth-heading: 発展スピードが一番早いサイト
+    network-growth-text:
+      インセンティブのおかげで、2014年 DASH発行以来、4100以上マスターノードを持ってる世界最大のピア・ツー・ピアネットワークの一つになりました。
+
+
+      より多くのノードでより安全なザービスを確保できます。全世界のユーザーに７＊２４時間のデジタル通貨サービスをご提供します。
+    network-growth-btn: 网络数据
+
+    evolution-heading: デジタル通貨Evolution
+    evolution-text:
+
+      エボリューション（Evolution）は他に、どんな情報がありますか？エボリューション（Evolution）を通して、DASHをおばあちゃんでも使える暗号化デジタル通貨にします。
+
+
+      DASHエボリューション（Evolution）によって、あらゆる設備からDASHネットワークにログインでき、取引を簡単に完成させます。PayPalと似ていますが、完全に分散化システムになっていますので、お楽しみに。
+    evolution-btn: 追加情報
+    evolution-link: https://dashpay.atlassian.net/wiki/x/DQBcAg
+
+    news-heading: 最新情報
+    news-btn: ニュース一覧
+
+    get-started-heading: DASHを始める
+    get-started-text: ウォレットをダウンロード、DASHを始める。
+    get-started-btn: DASHについて
+
+  get-dash:
+    title: DASHについて
+    description: ウォレットをダウンロードし、取引所でDASHを取得する
+    hero-image: get-dash-n.jpg
+    hero-heading: ダウンロードDASHウォレット
+    hero-text: DASHウォレットの最新クライアントをダウンロードし、ソフトを起動させます。
+    hero-wallet-version: OSXに適用するDASHウォレット（バージョンFullclient v12.0.56）
+    hero-wallet-version-select: その他のバージョン
+    hero-platform-not-detected: 「申し訳ございませんが、プラットフォーム自動チェックが失敗しました。『各ウォレット』の中で互換できるバージョンをお選びください。」
+    hero-download-btn: ダウンロード
+    hero-all-wallets-btn: すべてのウォレット
+    hero-guide-btn: ガイドを作成する
+    hero-buy-btn: DASH購入
+    hero-spend-btn: DASH売却
+    hero-trade-btn: DASH取引
+
+    claim-heading: DASHの購入、売却と取引
+    claim-subline: いろいろなルートでDASHを取得、所有と取引をしてください。
+
+    setup-heading: DASHウォレットの設置を勉強する
+    setup-text:
+    setup-btn: 追加情報
+    setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
+
+    buy-heading: オンラインでDASHを購入する
+    buy-text: 現地の貨幣でDASHを購入し、ウォレットに保存する
+    buy-btn: DASHを購入する
+    buy-link: https://dashpay.atlassian.net/wiki/x/JwDnAg
+
+    trade-heading: 取引所でDASHの取引をする
+    trade-text: 取引所で現地の貨幣と交換する
+    trade-btn: DASH取引
+    trade-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=48693307
+
+    atm-heading: ATMでDASHを購入
+    atm-text: ATMによって直ちに現地DASHの取引を始めます
+    atm-btn: ATMロケーター
+    atm-link: https://dashpay.atlassian.net/wiki/x/JgAFBQ
+
+    shop-heading: DASHで買い物する
+    shop-text: DASHウォレットで、即時的かつ匿名的なオンラインショッピングを楽しむ
+    shop-btn: 店舗一覧
+    shop-link: https://dashpay.atlassian.net/wiki/display/DOC/Merchants
+    shop-join-btn: DASH店舗に加盟する
+
+    visa-heading: VISAカードがご利用になれる店で買い物する
+    visa-text: DASH支払いをご利用いただけるVISAデビットカードで支払う場合は、手数料がかからず、スマホでクリックするだけで支払いを完了できます
+    visa-btn: Shakeで支払う
+    visa-link: https://shakepay.co/#/
+
+    need-heading: DASHが必要？
+    need-text: フォーラムにログインし、無料のDASHを受け取る！
+    need-btn: DASHにログインする
+    need-link: https://www.dash.org/forum
+    need-input: メールアドレスを入力してください。
+
+  merchants:
+    title: 店舗
+    description: DASH支払いがご利用いただける店舗及びサービス代理店
+    hero-image: participate.jpg
+    hero-heading: DASHで支払う
+    hero-text: 即時で安全に店舗及びサービス代理店にDASHを送り、取引を始めます。
+    hero-map-btn: 店舗リスト
+    hero-integrate-btn: DASH支払いに加盟する
+    hero-getlisted-btn: DASH支払いに加盟済みの店舗リスト
+    hero-woo-btn: WooCommerce
+    cards-heading: デビットカード
+    email-heading: Eメールサプライヤー
+    vpn-heading: VPNサプライヤー
+    hosting-heading: ホストサーバ及び仮想サーバ
+    design-heading: ウェブサイト及びグラフィックデザイン
+    gifts-heading: ギフト券
+    games-heading: ゲーム
+    casinos-heading: オンラインカジノ
+    stores-heading: オンラインショッピングモール
+    metals-heading: 貴金属
+
+
+  participate:
+    title: DASHネットワークに入る
+    description: DASHネットワークに入る
+    hero-image: participate.jpg
+    hero-heading: デジタル通貨の開発をサポートする
+    hero-text: DASHネットワークの開発と安全性の維持をサポートし、DASHを稼ぐ
+    hero-masternodes-btn: マスターノード
+    hero-mining-btn: マイニング
+    hero-funding-btn: 資金支持
+
+    claim-heading: DASHネットワークをサポートする
+    claim-subline: 誰でもDASHに貢献できる
+
+    masternode-heading: マスターノードを設置し、DASHネットワークをサポートする
+    masternode-text: マスターノードの所有またはマスターノード共有サービスの参加でDASHの発展をサポートします。 マスターノードの運営者は、ユーザーに分散化サービスを提供することで報酬を受け取ります。
+    masternode-btn: マスターノードを設置する
+    masternode-link: https://dashpay.atlassian.net/wiki/display/DOC/Masternode
+
+    mining-heading: マイニングを始め、DASHネットワークの安全性を強化する
+    mining-text: パソコンや専用設備でDASHを採掘し、DASHネットワークの安全性を強化することで報酬を受け取ります。
+    mining-btn: マイニングを始める
+    mining-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
+
+    funding-heading: ブロックチェーン資金でDASHネットワークを発展する
+    funding-text: DASHネットワークは、DASH開発に関わる提案をサポートするため、承認された提案に毎月資金支持を提供しています。提案として、開発者の雇用、発展戦略の制定、より多くのオンラインショップや実際の店舗にDASH支払いの普及などが挙げられています。
+    funding-btn: 提案を提出する
+    funding-link: https://dashcentral.org/
+
+    integrate-heading: DASH機能を導入しませんか？
+    integrate-text: DASHの即時的な匿名支払い機能をあなたのオンラインショップやアプリ、小売店に導入する。
+    integrate-btn: DASH機能を導入する
+    integrate-link: https://dashpay.atlassian.net/wiki/x/k4EkBQ
+    integrate-payment-processor-btn: 支払い処理装置
+    integrate-payment-processor-link: https://dashpay.atlassian.net/wiki/x/moD8AQ
+    integrate-contact-btn: お問い合わせ
+
+  currency:
+    title: ASHネットワーク
+    description: DASH
+    hero-image: currency.jpg
+    hero-heading: ネット状態
+    hero-text: DASH取引、予算、マスターノード、ブロックチェーン動的データの最新情報
+    hero-markets-btn: 取引データ
+    hero-governance-btn: 予算
+    hero-network-btn: マスターノード
+    hero-blockchain-btn: ブロックチェーン
+    hero-mining-btn: マイニング
+
+    markets-heading: 取引データ
+    governance-heading: 予算
+    network-heading: マスターノード
+    blockchain-heading: ブロックチェーン
+    mining-heading: マイニング
+
+  community:
+    title: DASHコミュニティに入る
+    description: DASHコミュニティに入る
+    hero-image: community.jpg
+    hero-heading: コミュニティに入る
+    hero-text: DASHコミュニティの一員になる
+    hero-forum-btn: 公式フォーラム
+    hero-discussion-btn: ディスカッション
+    hero-social-btn: SNSアプリ
+    hero-news-btn: ニュース &amp; 情報
+    hero-development-btn: 開発
+    hero-masternodes-btn: マスターノード
+    hero-video-btn: ビデオ &amp; オーディオ
+
+    discussion-heading: ディスカッション
+    discussion-text: フォーラムのDASHディスカッションに参加する
+
+    social-heading: SNS
+    social-text: SNSアプリでDASH関連情報をフォローする
+
+    news-heading: ニュース &amp; 情報
+    news-text: DASHコミュニティメンバーが作成したウェブサイト
+
+    development-heading: 開発
+    development-text: ウェブサイト &amp; 開発ツール
+
+    masternode-heading: マスターノードツール
+    masternode-text: マスターノード設置、管理と運営
+
+    media-heading: DASHマスコミ
+
+    conferences-heading: 会議
+    technology-heading: 技術
+    community-heading: コミュニティ
+
+    youtube-btn: DASH YouTube
+
+  tos:
+    title: 使用条例
+    terms:
+      DASHは合法的な利用のみに使用します。違法なご利用は断じてお断りします。DASH開発者と編集者は、あらゆる形の違法アプリに対して抗議し、違法活動を一切サポートいたしかねますのでご了承ください。
+
+
+      DASHはほとんどの地域で合法アプリとして認められています。しかし、暗号通貨あるいはプライバシー保護のアプリを制限する地域もありますので、そのような地域の場合はDASHを利用する前に、慎重に考慮された上でDASHをご使用下さい。分からないことがあれば、法律違反にならないように現地の弁護士に連絡してください。
+
+
+      本ウェブサイトの内容及びDASH関連の情報は、法律意見書ではありません。法律関連の疑問をお持ちの場合は、現地の弁護士に連絡してください。
+
+
+      本ウェブサイトと他のDASHに関わるウェブサイトは投資活動についてアドバイスをいたしかねます。DASHを投資する前に、ご自分で研究し、慎重にお考えください。
+
+    # Need some Dash - get content from get-dash ^^
+  blog:
+      title: DASHブログ
+      description: DASHの最新情報
+      search-btn: ブログ検索
+      community-news-btn: コミュニティニュース
+
+  team:
+    title: DASHチーム
+    description: DASHチームはDASHネットワークに雇われ、DASHコア技術の開発を目的とし、ブロックチェーンから毎月資金を受け取ります。
+    core-proposal-btn: コア提案
+    core-proposal-link: https://www.dashcentral.org/p/core-team
+    core-approval-btn: 提案が承認されました
+    core-approval-link: http://dashvotetracker.com/history.html?ProposalID=12
+    core-join-btn: チームに入る
+    core-heading: コアチーム
+    dev-heading: >
+      Developers / Support:
+nav:
+  what-is-dash: DASHはなんですか？
+  get-dash: DASHについて
+  merchants: 店舗
+  download: ウォレットをダウンロードする
+  buy: DASHを購入する
+  shop: DASHで支払う
+  debit: DASHデポジットカード
+  update: アップグレード
+  evolution: Evolution
+
+  participate: ガイドをサポートする
+  mining: マイニングを始める
+  masternode: マスターノードの設置
+  wallet: ウォレットを作る
+  funding: 予算を申し込む
+
+  currency: ネットワーク
+  exchange: 取引データ
+  governance: 管理
+  explorers: ブロック研究開発
+  stats: ネットワークデータ
+
+  community: コミュニティ
+  discussion: ディスカッション
+  social-apps: SNSアプリ
+  news: ニュース &amp; メッセージ
+  tools-dev: 開発ツール
+  tools-masternodes: マスターノードツール
+
+  project: プロジェクト
+  help: ヘルプ &amp; サポート
+  info: プロジェクト情報
+  team: チーム
+  contact: 連絡先
+  foundation: 基金会
+  philosophy: 概念
+  technology: 技術
+  wiki: ウィキペディア
+
+
+  search: 検索
+
+  social: SNS
+  blog: ブログ
+  reddit: Reddit
+  twitter: ツイッター
+  youtube: YouTube
+  google: グーグル
+  linkedin: Linkedin
+  facebook: Facebook
+  instagram: Instagram
+  github: GitHub
+
+  tos: 使用条例
+  sitemap: ウェブサイト案内
+  sitesource: ソースコード
+
+

@@ -12,14 +12,30 @@
 	$(function() {
 		$('[data-js-popup]').each(function() {
 			var $this = $(this),
-				type = $this.data('js-popup');
+				type = $this.data('js-popup'),
+				lang = $this.data('lang');
 
 			if (type === 'video') {
 				type = 'iframe';
 			}
 
 			if (type) {
-				$this.magnificPopup({ type: type });
+				if (lang !== 'cn'){
+					$this.magnificPopup({ type: type });
+				} else {
+					$this.magnificPopup({
+					 type: type,
+					 iframe: {
+						 patterns: {
+								youku: {
+									index: 'http://v.youku.com/v_show/',
+									id: 'id_',
+									src: 'http://player.youku.com/embed/%id%'
+								}
+							}
+						}
+					});
+				}
 			}
 		});
 	});
