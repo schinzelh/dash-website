@@ -24,7 +24,7 @@ url: https://www.dash.org
 api: /api/v1
 
 #languages: ["en", "es", "cn", "pt", "ru", "it"]
-languages: ["en","es", "cn", "ru", "pt", "fr"]
+languages: ["en","es", "cn", "ru", "pt", "fr", "jp"]
 exclude_from_localizations: ["assets","dist","style-guide"]
 
 gems:
