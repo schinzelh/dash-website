@@ -1,41 +1,46 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
-  <head>
-    {% include base.html %}
-    <meta charset="UTF-8">
-    <title>{% if page.title %}{% t page.title %} &mdash; {% endif %}Dash</title>
-    <meta name="description" content="{% t page.description %}">
+	<head>
+		{% include base.html %}
+		<meta charset="UTF-8">
+		<title>{% if page.title %}{% t page.title %} &mdash; {% endif %}Dash</title>
+		<meta name="description" content="{% t page.description %}">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
 		<link rel="alternate" type="application/rss+xml" title="Dash Blog" href="/rss/dash_blog_rss.xml">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" type="text/css" href="/dist/css/main.min.css">
-  </head>
+		<link rel="stylesheet" type="text/css" href="/dist/css/main.min.css">
+		<!-- Analytics -->
+		{% include analytics-script.html %}
+	</head>
 
-  <body>
+	<body>
 
-    {{ content }}
+		{{ content }}
 
-    <!-- Footer -->
-    <footer class="footer">
-      {% include footer.html %}
-    </footer>
+		<!-- Footer -->
+		<footer class="footer">
+			{% include footer.html %}
+		</footer>
 
-    <!-- Mobile Nav -->
-    <div class="overlay" id="overlay" data-js-overlay-menu>
-      {% include nav-mobile.html %}
-    </div>
+		<!-- Mobile Nav -->
+		<div class="overlay" id="overlay" data-js-overlay-menu>
+			{% include nav-mobile.html %}
+		</div>
 
-    <!-- JavaScript -->
-    <script src="//cdn.jsdelivr.net/lodash/4.12.0/lodash.min.js" integrity="sha384-MYg5v6RiLsgqDiKOs6hcDXVblLg+Ls5F/jimSFosIUeDjW5VYViY1eMBMazbV5Mr" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" integrity="sha384-CgeP3wqr9h5YanePjYLENwCTSSEz42NJkbFpAFgHWQz7u3Zk8D00752ScNpXqGjS" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js" integrity="sha384-dfOR5hjVOg6B2OvgyHIS71mJWX5TgNQeFGo5cNNVglSep7ZvYcByrpEya6xbwwyB" crossorigin="anonymous"></script>
-    <script src="/dist/js/main.min.js"></script>
-    {% include globals_js_data.html %}
+		<!-- Fallback analytics -->
+		{% include analytics-noscript.html %}
 
-  </body>
+		<!-- JavaScript -->
+		<script src="//cdn.jsdelivr.net/lodash/4.12.0/lodash.min.js" integrity="sha384-MYg5v6RiLsgqDiKOs6hcDXVblLg+Ls5F/jimSFosIUeDjW5VYViY1eMBMazbV5Mr" crossorigin="anonymous"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" integrity="sha384-CgeP3wqr9h5YanePjYLENwCTSSEz42NJkbFpAFgHWQz7u3Zk8D00752ScNpXqGjS" crossorigin="anonymous"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js" integrity="sha384-dfOR5hjVOg6B2OvgyHIS71mJWX5TgNQeFGo5cNNVglSep7ZvYcByrpEya6xbwwyB" crossorigin="anonymous"></script>
+		<script src="/dist/js/main.min.js"></script>
+		{% include globals_js_data.html %}
+
+	</body>
 </html>
