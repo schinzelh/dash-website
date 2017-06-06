@@ -1,0 +1,17 @@
+#!/bin/bash
+jsfiles=$(git diff --cached --name-only --diff-filter=M | grep '\.js\?$')
+jsfailed=0
+
+if [[ $jsfiles != "" ]] ; then
+  for file in ${jsfiles}; do
+    git show :$file | eslint --stdin --stdin-filename "$file"
+    if [[ $? != 0 ]] ; then
+      jsfailed=1
+    fi
+  done;
+fi
+
+if [[ $jsfailed != 0 ]] ; then
+  echo "🚫🚫🚫ESLint must pass before committing .js files"
+  exit 1
+fi
