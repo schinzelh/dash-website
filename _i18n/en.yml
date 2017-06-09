@@ -852,6 +852,7 @@ pages:
     network-heading: Masternodes
     blockchain-heading: Blockchain
     mining-heading: Mining
+    mining-guide-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
 
   community:
     title: Join the Dash Community

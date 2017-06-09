@@ -500,6 +500,7 @@ pages:
     network-heading: Мастерноды
     blockchain-heading: Блокчейн
     mining-heading: Майнинг
+    mining-guide-link: https://dashpay.atlassian.net/wiki/x/doAc
 
   community:
     title: Присоединяйтесь к Сообществу Dash
