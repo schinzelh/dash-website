@@ -1,7 +1,7 @@
 <div class="hero" id="hero">
 	<div class="hero__background">
 		{% capture heroimage %}hero/{% t pages.get-dash.hero-image %}{% endcapture %}
-		{% srcset hero/get-dash-n.jpg ppi:1,2 class="hero__background-image" %}
+		{% srcset hero/get-dash.jpg ppi:1,2 class="hero__background-image" %}
 			{% srcset_source width:1920 %}
 			{% srcset_source width:960 %}
 		{% endsrcset %}
@@ -21,9 +21,11 @@
 
 			<div class="hero__buttons hero__buttons--get-dash">
 				<button id="download-detected-platform-button" href="#" class="btn-blue-solid btn-large">{% t pages.get-dash.hero-download-btn %}</button>
-				<a href="../wallets/" class="btn-large btn-white-solid">{% t pages.get-dash.hero-all-wallets-btn %}</a>
+				<a href="../wallets/" class="btn-large btn-transparent">{% t pages.get-dash.hero-all-wallets-btn %}</a>
+				<a href="#" class="btn-large btn-transparent">security</a>
 			</div>
 		</section>
+		<p>first time here? read <a href="#">dash guide</a> for new users</p>
 	</div>
 
 	<!-- Hero stripe -->

@@ -548,3 +548,12 @@ a.blog_link {
     font-size: smaller;
   }
 }
+.page.page--get-dash section{
+    &:nth-child(2n+1) {
+      background-color: $color-gray-light;
+    }
+    &:nth-child(2n) {
+      background-color: $color-white;
+    }
+}
+
