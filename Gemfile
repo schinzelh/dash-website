@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll'
+gem 'jekyll', '3.4.3'
 gem 'jekyll-paginate'
 gem 'html-proofer'
 gem 'classifier-reborn'
