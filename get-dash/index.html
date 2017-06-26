@@ -12,12 +12,12 @@ description: pages.get-dash.description
 	<section class="section section--claim">
 		<div class="section__content content">
 			<div class="section__number">1</div>
-			<h2 class="bottom-space section__title">Download wallet</h2>
+			<h1 class="bottom-space section__title">Download wallet</h1>
 			<p class="info-grid__item-text">Your wallet is the software you use to send, receive and store Dash. It’s simple to use and you can choose to send payments anonymously from your wallet using PrivateSend</p>
 			<div class="row">
     
-		      	<div class="col-sm-3 col-sm-push-1">
-				    <div class="wallet-tile" data-toggle="modal" data-target="#win64-dash_core--dash_core_win_64_install-modal">
+		      	<div class="col-sm-4">
+				    <div class="get-wallet-tile" data-toggle="modal" data-target="#win64-dash_core--dash_core_win_64_install-modal">
 				        <div class="thumbnail">
 				            <div class="logo-container">
 				                <img src="/assets/img/dash_circle_normal.png">
@@ -31,15 +31,15 @@ description: pages.get-dash.description
 				            <div class="wallet-links-container">
 				                
 				                <div class="link">
-				                    <a href="/binaries/dashcore-0.12.1.5-win64-setup.exe" target="_blank">Download Installer </a>
+				                    <a href="/binaries/dashcore-0.12.1.5-win64-setup.exe" target="_blank">Download </a>
 				                </div>
 				            </div>
 				        </div>
 				    </div>
 				</div>
 				    
-				<div class="col-sm-3 col-sm-push-1">
-				    <div class="wallet-tile" data-toggle="modal" data-target="#win64-dash_core--dash_core_win_64_zip-modal">
+				<div class="col-sm-4">
+				    <div class="get-wallet-tile" data-toggle="modal" data-target="#win64-dash_core--dash_core_win_64_zip-modal">
 				        <div class="thumbnail">
 				            <div class="logo-container">
 				                <img src="/assets/img/dash_circle_normal.png">
@@ -53,7 +53,7 @@ description: pages.get-dash.description
 				            <div class="wallet-links-container">
 				                
 				                <div class="link">
-				                    <a href="/binaries/dashcore-0.12.1.5-win64.zip" target="_blank">Download ZIP </a>
+				                    <a href="/binaries/dashcore-0.12.1.5-win64.zip" target="_blank">Download </a>
 				                </div>
 				                
 				            </div>
@@ -61,8 +61,8 @@ description: pages.get-dash.description
 				    </div>
 				</div>
 				    
-				<div class="col-sm-3 col-sm-push-1">
-				    <div class="wallet-tile" data-toggle="modal" data-target="#win64-jaxx--jaxx-modal">
+				<div class="col-sm-4">
+				    <div class="get-wallet-tile" data-toggle="modal" data-target="#win64-jaxx--jaxx-modal">
 				        <div class="thumbnail">
 				            <div class="logo-container">
 				                <img src="/assets/img/wallets/jaxx-logo.ico">
@@ -77,7 +77,7 @@ description: pages.get-dash.description
 				            <div class="wallet-links-container">
 				                
 				                <div class="link">
-				                    <a href="https://jaxx.io/support.html" target="_blank">Jaxx Downloads </a>
+				                    <a href="https://jaxx.io/support.html" target="_blank">Downloads </a>
 				                </div>
 				                
 				            </div>
@@ -91,7 +91,48 @@ description: pages.get-dash.description
 	<section>
 		<div class="content">
 			<div class="section__number">2</div>
+			<h2 class="bottom-space section__title">Buy Dash</h2>
+			<div class="row">
+				<div class="col-md-6">I want to buy with 
+					<select class="get-dash-select" name="currency" id="currency">
+						  <option value="USD">USD</option>
+						  <option value="eur">Euro</option>
+						  <option value="Rub">Rub</option>
+						  <option value="AUD">AUD</option>
+					</select>
 
+				</div>
+				<div class="col-md-6">
+					Using
+					<select name="transfer" id="transfer">
+						<option value="transfer">Traditional Bank Transfer</option>
+						<option value="Cash">Cash</option>
+					</select>
+				</div>
+			</div>
+			<table width="100%">
+				<thead>
+					<tr>
+						<th>Service Type   
+							<select name="" id="">
+								<option value="">Exchange</option>
+								<option value="">Brokers</option>
+							</select>
+						</th>
+						<th>Exchange Rate</th>
+						<th>Payments Method</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>KRAKEN</td>
+						<td>1923</td>
+						<td>WIRE</td>
+						<td>TRANSFER</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 		
 	</section>

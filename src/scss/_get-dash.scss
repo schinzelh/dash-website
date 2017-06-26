@@ -1,0 +1,116 @@
+$get-wallet-tile-min-height: 20em;
+$get-wallet-tile-max-width: 21em;
+$get-wallet-tile-logo-container-height: 5.5em;
+$get-wallet-tile-logo-container-width: 5.5em;
+$get-wallet-tile-spacing: .7em;
+$get-wallet-tile-caption-fine-print-font-size: 0.7em;
+$get-wallet-tile-caption-fine-print-height: $get-wallet-tile-caption-fine-print-font-size*20.9;
+$get-wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
+.get-wallet-tile {
+    animation: fadein 0.4s;
+    cursor: pointer;
+    text-align: center;
+    margin: $get-wallet-tile-spacing*2 auto;
+    border: 1px solid $color-gray;
+    border-radius: 4px;
+    min-height: $get-wallet-tile-min-height;
+    .payments & {
+        min-height: 12em;
+    }
+    max-width: $get-wallet-tile-max-width;
+    overflow: hidden;
+    transition: .25s;
+    &:hover,
+    &:focus {
+        border-color: $color-blue;
+        a {
+            color: darken($color-blue, 15);
+        }
+        & .thumbnail .caption .fine-print {
+            color: darken($color-gray-dark, 15);
+        }
+        & .thumbnail .wallet-links-container .link {
+            border-top: solid 1px darken($color-gray, 15);
+        }
+    }
+    & .thumbnail {
+        & .logo-container {
+            margin: $get-wallet-tile-spacing*3 auto;
+            padding: 0;
+            display: block;
+            max-width: $get-wallet-tile-logo-container-width;
+            max-height: $get-wallet-tile-logo-container-height;
+            overflow: hidden;
+            img {
+                max-height: 55px;
+            }
+        }
+        & .caption {
+            line-height: 1 !important;
+            margin: $get-wallet-tile-spacing;
+            h4 {
+                font-size: $font-size-medium;
+                padding: 0 0 $get-wallet-tile-spacing 0;
+            }
+            & .fine-print {
+                overflow-y: auto;
+                min-height: $get-wallet-tile-caption-fine-print-height;
+                max-height: $get-wallet-tile-caption-fine-print-height*2;
+                margin: 0 0 $get-wallet-tile-spacing 0;
+                font-size: $get-wallet-tile-caption-fine-print-font-size;
+                line-height: 1.5 !important;
+                color: $color-gray-dark;
+            }
+        }
+        & .wallet-links-container {
+            width: 100%;
+            & .link {
+                border-top: solid 1px $color-gray;
+                margin: 0 auto;
+                width: 90%;
+                display: block;
+                transition: 1.25s;
+                & a {
+                    display: inline-block;
+                    margin-top: .6em;
+                    margin-bottom: .8em;
+                    padding: $get-wallet-tile-spacing*.6 $get-wallet-tile-spacing*.9;
+                    height: 100%;
+                    transition: .5s;
+                    border: 1px solid $color-blue;
+                    border-radius: 4px;
+                    color: $color-blue;
+                    &:hover,
+                    &:focus {
+                        background-color: $color-blue;
+                        border-color: $color-blue;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+select.get-dash-select {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+    width: 150px;
+    padding: 5px 35px 5px 20px;
+    font-size: 16px;
+    border: 1px solid $color-gray;
+    height: 43px;
+    color: $color-black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  //background: url(http://www.stackoverflow.com/favicon.ico) 96% / 15% no-repeat transparent;
+}
+
+select.get-dash-select::-ms-expand { 
+    display: none; 
+}
+
+
