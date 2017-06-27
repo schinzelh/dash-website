@@ -264,3 +264,10 @@
   fees: N/A
   image: changelly_logo.png
   url: https://wallofcoins.com/en/
+
+- name: Bitsane
+  trading_pairs: BTC, USD, EUR
+  fees: N/A
+  image: bitsane-logo.png
+  url: https://bitsane.com/exchange/btc-dash
+
