@@ -538,3 +538,13 @@ a.blog_link {
     max-width: 100%;
   }
 }
+.page--post .section--post {
+  ul {
+    list-style-type: disc;
+    margin-left: 40px;
+  }
+  sup {
+    vertical-align: super;
+    font-size: smaller;
+  }
+}
