@@ -93,30 +93,31 @@ description: pages.get-dash.description
 			<div class="section__number">2</div>
 			<h2 class="bottom-space section__title">Buy Dash</h2>
 			<div class="row">
-				<div class="col-md-6">I want to buy with 
+				<div class="col-md-6">
+					<label class="get-dash-select-label" for="currency">I want to buy with </label>
 					<select class="get-dash-select" name="currency" id="currency">
 						  <option value="USD">USD</option>
 						  <option value="eur">Euro</option>
 						  <option value="Rub">Rub</option>
 						  <option value="AUD">AUD</option>
 					</select>
-
 				</div>
 				<div class="col-md-6">
-					Using
-					<select name="transfer" id="transfer">
-						<option value="transfer">Traditional Bank Transfer</option>
-						<option value="Cash">Cash</option>
+					<label class="get-dash-select-label" for="currency">Using </label>
+					<select class="get-dash-select" name="currency" id="currency">
+						  <option value="transfer">Traditional Bank Transfer</option>
+						  <option value="Cash">Cash</option>
 					</select>
 				</div>
 			</div>
-			<table width="100%">
+			<table width="100%" class="get-dash-table" cellspacing="0" cellpadding="0">
 				<thead>
 					<tr>
-						<th>Service Type   
-							<select name="" id="">
-								<option value="">Exchange</option>
-								<option value="">Brokers</option>
+						<th>
+							<label class="get-dash-select-label" for="currency">Service Type </label>
+							<select class="get-dash-select" name="currency" id="currency">
+								  <option value="Exchange">Exchange</option>
+								  <option value="Brokers">Brokers</option>
 							</select>
 						</th>
 						<th>Exchange Rate</th>
