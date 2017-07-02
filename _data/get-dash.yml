@@ -1,0 +1,12 @@
+- name: Kraken
+  using: traditional
+  methods: 
+    - Wire Transfer
+    - SEPA
+  type: exchange
+  currency:
+    - USD
+    - EUR
+  fees: N/A
+  image: alcurex_logo.png
+  url: https://alcurex.org/

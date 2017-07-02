@@ -96,8 +96,7 @@ select.get-dash-select {
     text-transform: uppercase;
     border-radius: 4px;
     outline: none;
-    width: 150px;
-    padding: 5px 35px 5px 20px;
+    padding: 5px 55px 5px 20px;
     font-size: 16px;
     border: 1px solid $color-gray;
     height: 43px;
@@ -117,26 +116,112 @@ select.get-dash-select::-ms-expand {
 }
 
 .get-dash-select-label{
+    margin-right: 10px;
     color: #858585;
 }
 
 
 .get-dash-table {
+    text-align: left;
     border-collapse: inherit;
+    border-collapse: collapse;
+    border-radius: 4px;
+    overflow: hidden;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px $color-gray; /* this draws the table border  */ 
+
     td {
-      border-right-width: 0px;
-      border-bottom-width: 0px;
+        border: 1px solid $color-gray;
+        padding-left: 20px;
+        vertical-align: top;
     }
     th {
-        font-size: normal;
-    }
-    tr:last-child td:first-child {
+        padding-left: 20px;
+        font-weight: normal;
+        color: #858585;
+        font-size: 16px;
         border: 1px solid $color-gray;
-        border-bottom-left-radius: 10px;
     }
-
-    tr:last-child td:last-child {
-        border: 1px solid $color-gray;
-        border-bottom-right-radius: 10px;
+    &__popup {
+        display: inline-block;
+        border-radius: 50%;
+        background: $color-gray;
+        color: $color-white;
+        width: 19px;
+        height: 19px;
+        line-height: 19px;
+        text-align: center;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    &__exchange {
+        margin-left: 0.7em;
+    }
+    &__exchange-name {
+        font-size: 2em;
+    }
+    &__exchange-link{
+        cursor: pointer;
+        text-decoration: underline;
+        margin-top: 2px;
+    }
+    &__rates {
+        text-align: left;
+        font-size: 2em;
+        font-weight: $font-weight-light;
+    }
+    &__volume {
+        text-align: left;
+        font-size: 0.75em;
+        color: $color-black;
+    }
+    &__show {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.7em;
+        color: $color-black;
+        &:visited, &:hover{
+            color: $color-black;
+        }
+    }
+    &__currency{
+        font-size: 0.5em;
+        vertical-align: super;
+    }
+    &__method{
+        color: $color-black;
+        font-weight: $font-weight-light;
     }
 }
+.buy-dash-btn {
+    display: inline-block;
+    border-radius: 4px; 
+    border: 1px solid #b6b6b6;
+    color: $color-black;
+    transition: all .3s;
+    padding-left: 20px;
+    padding-right: 27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    cursor: pointer;
+    &__dash {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: $color-blue;
+        font-family: $font-family-brand;
+        font-weight: $font-weight-bold;
+        transition: all .3s;
+    }
+    &:hover{
+        background: $color-blue;
+        color: $color-white;
+        border: 1px solid transparent;
+        .buy-dash-btn__dash {
+            color: $color-white;
+        }
+    }
+}
+
