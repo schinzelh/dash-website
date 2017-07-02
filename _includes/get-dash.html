@@ -1,0 +1,46 @@
+<tr
+	data-index="{{ forloop.index }}"
+	data-using="{{ exchange.using }}"
+	data-type="{{ exchange.type }}"
+	data-name="{{ exchange.name }}"
+	class="{% for curr in exchange.currency %}js-{{curr | downcase}} {% endfor %} {% for method in exchange.methods %}js-{{ method | replace: ' ',''| downcase }} {% endfor %} js-exchange-row js-type-{{ exchange.type }}"
+	{% if forloop.index > 6 %}
+	style="display:none;"
+	{% endif %}
+>
+	<td class="clear-fix">
+		<div class="get-dash-table__img-container">
+			<img src="/assets/img/get-dash/{{ exchange.image }}" alt="">
+		</div>
+		<div class="get-dash-table__exchange">
+			<div class="get-dash-table__exchange-name">{{ exchange.name }}</div>
+			<a href="https://dashpay.atlassian.net/wiki/display/DOC/How+to+buy" data-exchange="link" class="get-dash-table__exchange-link" target="_blank">More Information</a>
+		</div>
+	</td>
+	<td data-cell="price" class="get-dash-table__price-cell">
+		<div data-price="result" class="hidden">
+			<div class="get-dash-table__rates" >
+				<span data-rate="rate"></span>
+				<sup class="get-dash-table__currency" data-rate="currency">$</sup>
+			</div>
+			<div class="get-dash-table__volume js-dash-table-volume">
+				<span class="get-dash-table__volume-summ" >
+					<span data-rate="volume"></span>$
+				</span>
+				<span class="get-dash-table__volume-time">24h volume </span>
+			</div>
+		</div>
+		<a href="{{ exchange.url }}" class="get-dash-price-req" target="_blank" data-price="click">Click to get price</a>
+	</td>
+	<td>
+	{% for method in exchange.methods %}
+	<div>{{ method }}</div>
+	{% endfor %} 
+	</td>
+	<td> 
+		<a href="{{ exchange.url }}" class="buy-dash-btn" target="_blank">
+			Buy
+			<span class="buy-dash-btn__dash">Dash</span>
+		</a>
+	</td>
+</tr>

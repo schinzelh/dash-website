@@ -19,6 +19,9 @@
 		if (typeof(walletsCollectionByOs) !== 'undefined' && walletsCollectionByOs) {
 			initDownloadButton();
 		}
+		if ($('[data-wallet]').length) {
+			initTileWallet();
+		}
 	});
 
 	function getBestWalletMatch() {
@@ -72,7 +75,6 @@
 			detectedWallet = _.find(_walletsCollection,{ os: _walletOs, vendor_id: _vendor, type: _type});
 		}
 
-		console.info('detectedWallet: ' , detectedWallet, { os: _walletOs, vendor_id: _vendor, type: _type});
 		return detectedWallet;
 	}
 
@@ -90,7 +92,7 @@
 			_notDetectedMessage = $('#platform-not-detected'),
 			_platform = platform
 			;
-
+		console.log(_detectedWallet);
 		if (_downloadButton && _downloadButton.length > 0) {
 			if (_detectedWallet && _platform) {
 				_downloadButton.html(_detectedWallet.name)
@@ -108,6 +110,17 @@
 			}
 		}
 		return _downloadButton;
+	}
+
+	function initTileWallet() {
+		var _tile = $('[data-wallet="auto-detect"]'),
+			_wallet = getBestWalletMatch();
+
+		_tile.find('[data-wallet="os"]').html(_wallet.name);
+		_tile.find('[data-wallet="img"]').attr('src', _wallet.logo_url);
+		_tile.find('[data-wallet="version"]').html(_wallet.type + ' Wallet');
+		_tile.find('[data-wallet="text"]').html(_wallet.description);
+		_tile.find('[data-wallet="link"]').attr('href', _wallet.links[0].url);
 	}
 
 }(jQuery));

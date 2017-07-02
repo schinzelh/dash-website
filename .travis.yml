@@ -26,4 +26,4 @@ deploy:
   skip_cleanup: true
   script: test $TRAVIS_TEST_RESULT = 0 && script/deploy-rsync.sh
   on:
-    branch: master
+    all_branches: true
