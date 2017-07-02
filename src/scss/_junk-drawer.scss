@@ -29,8 +29,9 @@ you're in a hurry or lost or you just need to Make It Work©
 .text-left {
   text-align: left;
 }
-
-
+.no-padding{
+  padding: 0;
+}
 
 $wallet-tile-min-height: 20em;
 $wallet-tile-max-width: 25em;

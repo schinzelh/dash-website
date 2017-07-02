@@ -90,8 +90,9 @@ description: pages.get-dash.description
 	</section>
 	<section>
 		<div class="content">
-			<div class="section__number">2</div>
+			<div class="section__number bottom-space ">2</div>
 			<h2 class="bottom-space section__title">Buy Dash</h2>
+			<p class="bottom-space">Select your preferences and we will offer you the best way to buy Dash</p>
 			<div class="row">
 				<div class="col-md-6">
 					<label class="get-dash-select-label" for="currency">I want to buy with </label>
@@ -120,17 +121,44 @@ description: pages.get-dash.description
 								  <option value="Brokers">Brokers</option>
 							</select>
 						</th>
-						<th>Exchange Rate</th>
+						<th>
+							Exchange Rate 
+							<span class="get-dash-table__popup">?</span>
+						</th>
 						<th>Payments Method</th>
 						<th></th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>KRAKEN</td>
-						<td>1923</td>
-						<td>WIRE</td>
-						<td>TRANSFER</td>
+						<td class="clear-fix">
+							<div class="pull-left">
+								<img src="/assets/img/get-dash/kraken-small.png" alt="">
+							</div>
+							<div class="pull-left get-dash-table__exchange">
+								<div class="get-dash-table__exchange-name">Kraken</div>
+								<a href="" class="get-dash-table__exchange-link">More Information</a>
+							</div>
+						</td>
+						<td>
+							<div class="get-dash-table__rates">1923<sup class="get-dash-table__currency">$</sup></div>
+							<div class="get-dash-table__volume">34,000,000 $ 24h volume </div>
+						</td>
+						<td>
+							<div class="get-dash-table__method">Wire Transfer</div>
+							<div class="get-dash-table__method">SEPA</div>
+						</td>
+						<td> 
+							<a href="#" class="buy-dash-btn">
+								Buy
+								<span class="buy-dash-btn__dash">Dash</span>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4" class="no-padding">
+							<a href="#" class="get-dash-table__show">Show All</a>
+						</td>
 					</tr>
 				</tbody>
 			</table>
