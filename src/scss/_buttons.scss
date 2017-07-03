@@ -73,3 +73,18 @@
 		color: $color-white !important;
 	}
 }
+
+.btn-transparent {
+	@extend .btn;
+	background-color: transparent;
+	color: $color-white !important;
+	border: 1px solid $color-white;
+}
+
+.btn-gray {
+	@extend .btn;
+	box-shadow: none;
+	background-color: transparent;
+	color: $color-black !important;
+	border: 1px solid #b5b5b5
+}
