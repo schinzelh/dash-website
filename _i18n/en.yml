@@ -2,6 +2,55 @@
 # For multiple paragraph content add two line breaks
 pages:
 
+  school:
+    title: School
+    description: Dash. How to?
+
+    hero-heading: Dash School
+    hero-text: |
+      by Amanda B. Johnson
+    hero-btn: Watch Now
+    hero-you-btn: YouTube
+
+    header-video-1: |
+      What Is a Blockchain? | DASH School #1
+    description-video-1: |
+      Maybe you saw the word on the cover of The Economist. Or maybe you've seen it dropped on Bloomberg, Yahoo Finance, or even Wired. Wherever you heard it, it probably wasn't explained to you very well. Let Amanda B. Johnson introduce you to the concept without using technical jargon or buzzwords in episode one of Dash School.
+
+    header-video-2: |
+      How Does a Blockchain Work? | DASH School #2
+    description-video-2: |
+      So now you get the basics of what a blockchain is -- but how does it do what we say it does? Who gets to "write" to it, when, and why? How is a blockchain different from a good ol' fashioned database? Amanda B. Johnson takes you there in episode two of Dash School.
+    
+    header-video-3: |
+      How Can a Blockchain Be a Monetary System? | DASH School #3
+    description-video-3: |
+      You now understand the basics of a blockchain and how it functions -- now what does that have to do with money? What is this business about blockchain networks being able to natively offer both currency and payments? Amanda B. Johnson explains in episode three of Dash School.
+
+    header-video-4: |
+      How is Dash's Blockchain Funded & Governed? | DASH School #4
+    description-video-4: |
+      Now that you grasp how a blockchain network can offer money-as-a-service, learn the various ways that Dash's is organized -- why and how we function as a DAO (decentralized autonomous organization) to serve up monetary services to customers. Amanda B. Johnson takes you there in episode four of Dash School.
+    
+    header-video-5: |
+      How Does Dash Offer Instant & Private Payments? | DASH School #5
+    description-video-5: |
+      Did you know that Dash's blockchain is the only one which offers both instant and private payments? True story. Learn how our unique "masternodes" make this possible in episode five of Dash School, hosted by Amanda B. Johnson.
+    
+    header-video-6: |
+      How Can Digital Cash Become Accessible to All? | DASH School #6
+    description-video-6: |
+      So now that you get the full story -- how Dash works -- you want to know how we plan on making this stuff usable to the average consumer. Glad you asked! This sixth and final episode of Dash School, hosted by Amanda B. Johnson, introduces "Evolution": the product we predict will put digital cash into the hands of the average person for the first time.
+    
+    school-about-heading: >
+      About Dash: detailed
+    school-descr: >
+      DASH: Detailed has been published every Wednesday since it was launched in June, 2016.
+    school-text: >
+      Hosted and written by Amanda B. Johnson, and produced by Pete Eyre, the series is funded directly by Dash's treasury according to stakeholder vote, making it the world's first Youtube show to be funded by blockchain. Featuring event analysis, product updates, and industry interviews, DASH: Detailed is suitable for seasoned investors and newcomers alike.
+    school-team-heading: >
+      Dash Detailed: Team
+      
   legal:
     title: How the Law Applies to DASH
     description: Download the wallet and get Dash at an exchange.
@@ -387,7 +436,7 @@ pages:
     hero-heading: DASH EVOLUTION
     hero-text: A glimpse at the future of payments
     hero-btn:  More about Evolution
-
+    hero-roadmap-btn: Roadmap
     subscribe-btn: Subscribe
 
     video-heading: MISSION
@@ -983,7 +1032,7 @@ nav:
   technology: Technology
   wiki: Wiki
 
-
+  school: School
   search: Search
 
   forum: Dash forums
