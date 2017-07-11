@@ -8,6 +8,7 @@ description: pages.team.description
 {% assign coredao = site.data.team | where:"team-title","Dash Core DAO Management" %}
 {% assign coredev = site.data.team | where:"team-title","DashCore Developers" %}
 {% assign support = site.data.team | where:"team-title","Testing + Support" %}
+{% assign hr = site.data.team | where:"team-title","Human Resources" %}
 
 
 <div class="page page--team">
@@ -30,6 +31,17 @@ description: pages.team.description
 			</div>
 			<ul class="member-list">
 				{% for member in coredev %}
+					{% include member-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.team.hr %}</h2>
+			</div>
+			<ul class="member-list">
+				{% for member in hr %}
 					{% include member-list.html %}
 				{% endfor %}
 			</ul>

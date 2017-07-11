@@ -3,7 +3,7 @@
 pages:
 
   school:
-    title: School
+    title:  Dash School
     description: Dash. How to?
 
     hero-heading: Dash School
@@ -965,6 +965,7 @@ pages:
       community-news-btn: Community News
 
   team:
+
     title: The Dash Team
     description: Appointed by our Network and funded from the blockchain on a monthly basis to develop Dash's core technology.
     core-proposal-btn: Core Proposal
@@ -973,6 +974,7 @@ pages:
     core-approval-link: http://dashvotetracker.com
     core-join-btn: Join Our Team
     core-heading: Core Developer
+    hr: Human Resources
     forum-name: >
       Dashforum:
     strateg-heading:  Strategy Advisor
