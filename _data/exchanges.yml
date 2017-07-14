@@ -271,3 +271,9 @@
   image: bitsane-logo.png
   url: https://bitsane.com/exchange/btc-dash
 
+- name: Etoro
+  trading_pairs: BTC, USD
+  fees: N/A
+  image: etorro_logo.png
+  url: https://www.etoro.com
+
