@@ -492,6 +492,30 @@
       label: AppStore
       url: "https://itunes.apple.com/us/app/jaxx-blockchain-wallet/id1084514516?mt=8"
 
+- name: Dash Core iOS
+  description: |
+    <p>
+    Official Dash Core 
+    </p>
+    Dashwallet is the first and only iPhone wallet which connects directly to the dash network. This means that there are no servers to get hacked or go down - your funds are always safe. Even if your phone is lost, damaged or stolen, you can easily recover your funds using your personal recovery phrase. 
+  logo_url: "/assets/img/wallets/dash-ios.jpeg"
+  os: ios
+  type: mobile
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
+  product_id: dash_core_ios
+  product_label: Dash Core iOS
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: AppStore
+      url: "http://itunes.apple.com/us/app/dash-wallet/id1206647026"
+
 - name: Exodus
   description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
   logo_url: "/assets/img/wallets/exodus.png"
