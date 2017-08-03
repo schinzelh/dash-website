@@ -283,3 +283,11 @@
   image: dashnearby_logo.png
   url: https://www.dashnearby.com
 
+- name: Bitcoin Fundi
+  trading_pairs: BTC
+  fees: N/A
+  image: bitcoinfundi_logo.png
+  url: https://bitcoinfundi.com/
+
+  
+
