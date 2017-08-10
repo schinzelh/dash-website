@@ -289,5 +289,11 @@
   image: bitcoinfundi_logo.png
   url: https://bitcoinfundi.com/
 
+- name: Cryptosaurus
+  trading_pairs: BTC
+  fees: N/A
+  image: Cryptosaurus_logo.png
+  url: https://www.cryptosaurus.cc
+
   
 
