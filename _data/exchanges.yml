@@ -295,5 +295,11 @@
   image: Cryptosaurus_logo.png
   url: https://www.cryptosaurus.cc
 
+- name: Coingi
+  trading_pairs: BTC
+  fees: N/A
+  image: coingi.png
+  url: https://coingi.com/
+
   
 
