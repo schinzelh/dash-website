@@ -1,7 +1,7 @@
 ---
 author: tungfa
 layout: post
-image: "ukraineresto copy.jpg"
+image: "ukraineresto_copy.jpg"
 title: "How u pay your food in a Restaurant in Ukraine with Dash"
 original-author: Crypto.Group
 original-link: https://youtu.be/VlWoVeKWXbA
