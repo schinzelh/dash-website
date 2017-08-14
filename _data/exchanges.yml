@@ -301,5 +301,16 @@
   image: coingi.png
   url: https://coingi.com/
 
+- name: BuyUcoin
+  trading_pairs: INR
+  fees: N/A
+  image: BuyUCoin.jpg
+  url: https://www.buyucoin.com/
+
   
 
+- name: Bitbay
+  trading_pairs: BTC
+  fees: N/A
+  image: BitBay.jpg
+  url: https://www.bitbay.net

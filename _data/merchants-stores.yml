@@ -174,9 +174,12 @@
   url: http://eacoders.com/
   image: EACoders.jpg
 
-
-
 - name:  Hackerz online
   title:  Online gaming 
   url: http://hackerz.online
   image: Hackersonline_logo.png
+
+- name: Fudmart Ng
+  title:  Online store
+  url: http://fudmartng.com/
+  image: FudMartng.jpg
