@@ -307,8 +307,6 @@
   image: BuyUCoin.jpg
   url: https://www.buyucoin.com/
 
-  
-
 - name: Bitbay
   trading_pairs: BTC
   fees: N/A
