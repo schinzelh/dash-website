@@ -78,12 +78,6 @@
   image: bleutrade_logo.png
   url: https://bleutrade.com/
 
-- name: BTC-e
-  trading_pairs: BTC
-  fees: 0.2%
-  image: btc-e_logo.png
-  url: https://btc-e.com/
-
 - name: Btc38
   trading_pairs:
   fees:
