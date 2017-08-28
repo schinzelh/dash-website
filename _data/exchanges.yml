@@ -306,3 +306,10 @@
   fees: N/A
   image: BitBay.jpg
   url: https://www.bitbay.net
+
+- name: Byte-federal
+  trading_pairs: BTC
+  fees: N/A
+  image: bytefederal.jpg
+  url: http://bytefederal.com
+
