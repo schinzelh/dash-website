@@ -313,3 +313,23 @@
   image: bytefederal.jpg
   url: http://bytefederal.com
 
+- name: Bitcoin India
+  trading_pairs: BTC
+  fees: N/A
+  image: bitcoinindia.jpg
+  url: https://bitcoin-india.org
+
+
+- name: Hitbtc
+  trading_pairs: BTC
+  fees: N/A
+  image: hitbtc.jpg
+  url: https://hitbtc.com/
+
+- name: Bittylicious
+  trading_pairs: BTC
+  fees: N/A
+  image: bittylicious.jpg
+  url: https://bittylicious.com
+
+
