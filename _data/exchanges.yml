@@ -332,4 +332,10 @@
   image: bittylicious.jpg
   url: https://bittylicious.com
 
+- name: Liberalcoins
+  trading_pairs: BTC
+  fees: N/A
+  image: liberalcoins.jpg
+  url: https://liberalcoins.com
+
 
