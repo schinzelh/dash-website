@@ -5,7 +5,11 @@
 		var siteApi = window.globals.siteApi || '/api/v1',
 			marketCapApi = 'https://www.coincap.io/front/',
 			resultExchanges,
+<<<<<<< HEAD
 			exchanges = siteApi+'/exchange';
+=======
+			cryptoCompare = '/data/cryptocompare_data.json';
+>>>>>>> 8e4a071... fixed API
 
 		if ($('#getDashTable').length) {
 			$.ajax({
