@@ -165,36 +165,41 @@
   image: alfino.jpg
   
 - name:  Life Art Soul
-  title:  Life Art Soul
+  title: Life Art Soul
   url: http://www.lifeartsoul.com/
   image: lifeartsoul.jpg
 
 - name:  EA Coders
-  title:   Software Development 
+  title: Software Development
   url: http://eacoders.com/
   image: EACoders.jpg
 
 - name:  Hackerz online
-  title:  Online gaming 
+  title: Online gaming
   url: http://hackerz.online
   image: Hackersonline_logo.png
 
 - name: Fudmart Ng
-  title:  Online store
+  title: Online store
   url: http://fudmartng.com/
   image: FudMartng.jpg
 
 - name: Meci group
-  title:  Meci group
+  title: Meci group
   url: http://www.meci-group.com/membership/
   image: meci.jpg
 
 - name: Window Doctor
-  title:  Isle of Man. Windows and Doors repair service  
+  title: Isle of Man. Windows and Doors repair service
   url: http://windowdoctor.im/index.html
   image: windowsdoctor.jpg
 
 - name: Dewadloper
-  title:  B & B  
+  title: B & B
   url: http://www.dewadloper.nl/
   image: dewadloper.jpg
+
+- name: Dewadloper
+  title: Organic Coffee
+  url: https://contraband.store
+  image: contraband.jpg

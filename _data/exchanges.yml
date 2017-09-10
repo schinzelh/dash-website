@@ -338,4 +338,10 @@
   image: liberalcoins.jpg
   url: https://liberalcoins.com
 
+- name: Beatcoin
+  trading_pairs: BTC
+  fees: N/A
+  image: beatcoin.jpg
+  url: https://beatcoin.pl
+
 
