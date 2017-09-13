@@ -19,7 +19,10 @@
   url: http://www.palastcasino.com/en/index.html
   image: Palastcasino.jpg
 
-
 - name: Dashbets
   url: https://dashbets.com
   image: Dashbets_logo.png
+
+- name: Dash Poker
+  url: https://dash-poker.com
+  image: dashpoker.jpg

@@ -99,11 +99,6 @@
   url: http://www.liborio.adv.br
   image: LiborioLawOffice.jpg
 
-- name: Talisman Apartments
-  title: Housing
-  url: http://talismanapts.wix.com/talisman
-  image: TalismanApts.jpg
-
 - name: FortGalt
   title: Retreats Chile
   url: http://www.fortgalt.com
@@ -203,3 +198,8 @@
   title: Organic Coffee
   url: https://contraband.store
   image: contraband.jpg
+
+- name: Dash Bargain
+  title: Anything for coins
+  url: http://www.dashbargain.com
+  image: dashbargain.jpg
