@@ -1,0 +1,29 @@
+---
+author: tungfa
+layout: post
+image: "Cryptocurrency-and-Humanitarian-Aid-800x478.jpg"
+title: "Bitcoin and Dash Serve Victims of Hurricane Harvey"
+original-author: Liam Kelly 
+original-link: https://btcmanager.com/bitcoin-serves-victims-hurricane-harvey/
+---
+
+Danny Sessoms, host of an Austin-based cryptocurrency radio broadcast, announced on August 27 that he would be accepting cryptocurrency to help victims of Hurricane Harvey. Sessoms has typically partnered with Unsung.org to deliver food to the homeless, but this time he charged his RV with relief stocks and drove to Port Aransas, Texas. He bought hygiene packs, dry towels and other supplies at regional Walmarts using the donations he received since making the announcement.
+Less than two days later, a listener to The Crypto Show and AnthemGold Founder investor, stated publicly that he would, “match up to 10 BTC donated to help…[and]…This will go straight to the people in need”. Shortly thereafter, Bill Kline followed up his own promise by giving over $42,000 in bitcoin directly to the radio program.
+Kline told BTCManager that, “the reason [he] donated right away [was] because [Sessoms] was already on his way…[and Kline] figured [Sessoms] needed supplies right away.” Thus, with aid pressed for time, Kline concluded that if he, “was willing to match 10 btc, [he] better put [his] money where [his] mouth is.”
+The relief efforts continued to mount as Kline also reported that Sessoms has reached nearly $60,000 since August 30.
+Bitcoin in Crises
+This relief effort may seem anecdotal and peripheral to the surge of interest in cryptocurrencies over the past decade, but there have been a number of cases that would prove otherwise. In fact, cryptocurrencies may become the ideal solution for disaster situations in the future.
+On his blog blog.veritythink.com, information management officer for UN-OCHA, Andre J. Verity speculates on the efficacy of a cryptocurrency in a crisis situation. He draws from a particular experience in the Philippines in which the Cash-Working-Group was facing problems with how to monitor the ways in which unconditional cash transfers were being spent. Once money passed hands, the transparency ended and recipients were left to use these monies as they wished. This blinded relief efforts as aid groups were less able to determine exactly what recipients most needed.
+Verity concludes his piece with, “As a comparison, between 2008 and 2011, the number of [World Food Programme] cash and voucher projects increased from five in 2008 to 51 in 2011. In that year WFP set aside $208 million for distributions using cash or vouchers, but still spent over one billion dollars on food.”
+Thus with the greater transparency that a cryptocurrency can provide, aid programs will have a better means of monitoring points of sale. This would ultimately make aid more efficient and better targeted, whilst potentially saving millions.
+
+The two cases that follow explore the reasons why cryptocurrencies could be a more efficient alternative to relief efforts. The first will examine the side effects of the Venezuelan Oil Crisis, of which has appeared at BTCManager in 2016. The second case analyzes the way in which the United Nations used ethereum to distribute funds to Jordanian refugees on May 1 of this year.  Each layout the advantages to using cryptocurrencies in humanitarian projects.
+Venezuelan Oil Crisis
+As with many financial crises in recent times, Venezuela is facing problems related to oil exportation. The country is one of the richest in the world when it comes to the resource, but poor leadership from Hugo Chavez and the staggering inflation rate of the bolivar have hit the country hard.
+From 1999 to 2002, President Chavez sought to empower his nation by leveraging the world’s need for the country’s number one resource; oil. Everything was imported, no matter the price tag. Soon things like hospital provisions, food, and clothes were being bought with the money earned from oil exports. Even after Chavez was sacked, the system worked well and the country was profitable; the price for a barrel of oil in June of 2008 was $156.
+Today, however, the price is $46.16 and the country is in the midst of yet another nation-wide violent protest.
+Venezuelan workers have responded by finding different ways to navigate around the government and banks. Naturally, Bitcoin has become very popular for these exact reasons. As the Bolivar stands nearly valueless in the world market and citizens weighing instead of counting their currency, the ease and stability of Bitcoin is very appealing. Moreover, as long as a worker has access to a smartphone, he or she can be paid in cryptocurrency and doesn’t need access to a bank account.
+Refugee Crisis
+In May 2016, the United Nations opened a blockchain project that would use Ethereum to distribute unconditional funds to refugees in Jordan. The UN evaded banks and central governments by donating, “cryptographically unique coupons representing a certain amount of Jordanian dinars to various shops across five refugee camps in Jordan, where they will be distributed among the people” writes BTCManager. In this way, refugees would not need internet access, thus streamlining the dissemination of funds to recipients.
+Bitcoin and Humanitarian Aid
+Despite the reputation that cryptocurrencies have for stimulating illegal transactions, the aforementioned cases represent an alternative possibility for the monies. As the world becomes more connected via technology, it seems only natural that the way in which we pay for goods and services should mimic these developments. Moreover, the stability that cryptocurrencies can provide during times of crises is irrevocable. Whether it be due to natural disasters, economic malpractice, or individuals fleeing warzones, cryptocurrencies are providing a solution that local currencies cannot.
