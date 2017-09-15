@@ -344,4 +344,9 @@
   image: beatcoin.jpg
   url: https://beatcoin.pl
 
+- name: Qryptos
+  trading_pairs: BTC
+  fees: N/A
+  image: qryptos.jpg
+  url: https://www.qryptos.com
 
