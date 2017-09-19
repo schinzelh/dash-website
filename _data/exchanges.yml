@@ -350,3 +350,8 @@
   image: qryptos.jpg
   url: https://www.qryptos.com
 
+- name: CEX.IO
+  trading_pairs: BTC
+  fees: N/A
+  image: cex.jpg
+  url: https://cex.io
