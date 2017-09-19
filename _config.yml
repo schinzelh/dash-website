@@ -13,6 +13,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - package.json
+  - package-lock.json
 paginate: 12
 paginate_path: "/blog/page:num/"
 name: Dash
