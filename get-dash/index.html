@@ -25,8 +25,8 @@ description: pages.get-dash.description
 	<section class="section">
 		<div class="section__content content">
 			<div class="section__number">1</div> 
-			<h2  class="bottom-space section__title">Download wallet</h2>
-			<div class="get-dash-info-text">Your wallet is the software you use to send, receive and store Dash. It’s simple to use and you can choose to send payments anonymously from your wallet using PrivateSend</div>
+			<h2  class="bottom-space section__title">{% t pages.get-dash.download-title %}</h2>
+			<div class="get-dash-info-text">{% t pages.get-dash.download-text %}</div>
 			<div class="row" id="download">
 				<div class="col-sm-4">
 					<div class="get-wallet-tile" data-wallet="auto-detect">
@@ -99,14 +99,14 @@ description: pages.get-dash.description
 					</div>
 				</div>
 			</div>
-			<a href="{{ basenav }}/wallets/" class="btn-large btn-gray" target="_blank">All wallets</a>
+			<a href="{{ basenav }}/wallets/" class="btn-large btn-gray" target="_blank">{% t pages.get-dash.all-wallets-btn %}</a>
 		</div>
 	</section>
 	<section class="section">
 		<div class="content">
 			<div class="section__number">2</div>
-			<h2 class="bottom-space section__title">Buy Dash</h2>
-			<div class="get-dash-info-text"  id="buydash">Select your preferences and we will offer you the best way to buy Dash</div>
+			<h2 class="bottom-space section__title">{% t pages.get-dash.buy-dash-table %}</h2>
+			<div class="get-dash-info-text"  id="buydash">{% t pages.get-dash.dash-select-label%} </div>
 			<div class="text-center">
 				<div class="get-dash__select-section">
 					<label class="get-dash-select-label" for="currency">I want to buy with </label>
@@ -140,7 +140,7 @@ description: pages.get-dash.description
 				<thead>
 					<tr>
 						<th>
-							<label class="get-dash-select-label" for="type">Service Type </label>
+							<label class="get-dash-select-label" for="type">{% t pages.get-dash.service-type %}</label>
 							<select class="get-dash-select" name="type" id="type">
 								<option value="all">Any</option>
 								<option value="exchange">Exchange</option>
@@ -148,14 +148,14 @@ description: pages.get-dash.description
 							</select>
 						</th>
 						<th>
-							Exchange Rate 
+							{% t pages.get-dash.exchange-rate %}
 							<span class="get-dash-table__popup tooltips">
 								?
-								<span>Tooltip</span>
+								<span>{% t pages.get-dash.tooltip %}</span>
 							</span>
 						</th>
-						<th>Payments Method</th>
-						<th>Buy Dash</th>
+						<th>{% t pages.get-dash.payments-method %}</th>
+						<th>{% t pages.get-dash.buy-dash-table %}</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -164,7 +164,7 @@ description: pages.get-dash.description
 					{% endfor %} 
 					<tr>
 						<td colspan="4" class="no-padding">
-							<div data-btn="show-more" class="get-dash-table__show">Show More</div>
+							<div data-btn="show-more" class="get-dash-table__show">{% t pages.get-dash.show-more-btn %}</div>
 						</td>
 					</tr>
 				</tbody>
