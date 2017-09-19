@@ -5,15 +5,11 @@
 		var siteApi = window.globals.siteApi || '/api/v1',
 			marketCapApi = 'https://www.coincap.io/front/',
 			resultExchanges,
-<<<<<<< HEAD
-			exchanges = siteApi+'/exchange';
-=======
-			cryptoCompare = '/data/cryptocompare_data.json';
->>>>>>> 8e4a071... fixed API
+			exchangesApi = siteApi + '/exchange';
 
 		if ($('#getDashTable').length) {
 			$.ajax({
-				url: exchanges,
+				url: exchangesApi,
 				error: function(jqXHR, textStatus, errorThrown) {
 					console.log(jqXHR);
 					console.log(textStatus);
@@ -21,7 +17,6 @@
 				}
 			}).done(function(json) {
 				resultExchanges = json;
-				console.log(resultExchanges);
 				$('[data-name]').each(function() {
 					var that = $(this),
 						exchangeName = that.data('name'),
@@ -29,10 +24,11 @@
 							return el.exchange === exchangeName;
 						}),
 						$result = that.find('[data-price="result"]');
+
 					if (resultName[0] && resultName[0].price !== 'undefined') {
 						that.find('[data-price="click"]').addClass('hidden');
 						$result.removeClass('hidden').find('[data-rate="rate"]').text(formatCurrency(resultName[0].price));
-						if (resultName[0].volume){
+						if (resultName[0].volume) {
 							$result.find('[data-rate="volume"]').text(formatCurrency(resultName[0].volume));
 						} else {
 							$result.find('.js-dash-table-volume').addClass('hidden');
@@ -136,7 +132,7 @@
 
 			// Get the exchange data
 			$.ajax({
-				url: siteApi + '/exchange/',
+				url: exchangesApi,
 				error: function(jqXHR, textStatus, errorThrown) {
 					console.log(jqXHR);
 					console.log(textStatus);
