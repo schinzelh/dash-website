@@ -7,20 +7,13 @@ $get-wallet-tile-caption-fine-print-font-size: 0.7em;
 $get-wallet-tile-caption-fine-print-height: $get-wallet-tile-caption-fine-print-font-size*20.9;
 $get-wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
 .get-wallet-tile {
-    background: #fff;
     animation: fadein 0.4s;
     cursor: pointer;
     text-align: center;
-    margin: $get-wallet-tile-spacing*2 auto 50px;
+    margin: $get-wallet-tile-spacing*2 auto;
     border: 1px solid $color-gray;
     border-radius: 4px;
     min-height: $get-wallet-tile-min-height;
-    .version-text {
-        text-transform: uppercase;
-        font-size: 0.75em;
-        color: #5e5e5e;
-        margin-bottom: 40px;
-    }
     .payments & {
         min-height: 12em;
     }
@@ -79,9 +72,9 @@ $get-wallet-tile-hover-background-base-color: lighten($color-blue-light, 9);
                 transition: 1.25s;
                 & a {
                     display: inline-block;
-                    margin-top: 1.4em;
-                    margin-bottom: 1.9em;
-                    padding: $get-wallet-tile-spacing*.63 $get-wallet-tile-spacing*1.9;
+                    margin-top: .6em;
+                    margin-bottom: .8em;
+                    padding: $get-wallet-tile-spacing*.6 $get-wallet-tile-spacing*.9;
                     height: 100%;
                     transition: .5s;
                     border: 1px solid $color-blue;
@@ -125,24 +118,8 @@ select.get-dash-select::-ms-expand {
 .get-dash-select-label{
     margin-right: 10px;
     color: #858585;
-    font-weight: $font-weight-light;
 }
 
-.get-dash-info-text{
-    color: #5e5e5e;
-    font-size: 1.2em;
-    max-width: 768px;
-    text-align: center;
-    margin: 0  auto 50px;
-    font-weight: $font-weight-light;
-}
-.get-dash{
-    &__select-section{
-        display: inline-block;
-        margin-right: 23px;
-    }
-
-}
 
 .get-dash-table {
     text-align: left;
@@ -152,7 +129,7 @@ select.get-dash-select::-ms-expand {
     overflow: hidden;
     border-style: hidden; /* hide standard table (collapsed) border */
     box-shadow: 0 0 0 1px $color-gray; /* this draws the table border  */ 
-    margin-top: 50px;
+
     td {
         border: 1px solid $color-gray;
         padding-left: 20px;
@@ -164,19 +141,11 @@ select.get-dash-select::-ms-expand {
         color: #858585;
         font-size: 16px;
         border: 1px solid $color-gray;
-        font-weight: $font-weight-light;
-    }
-    &__price-cell{
-        @at-root {
-            td#{&} {
-                vertical-align: text-top;
-            }
-        }
     }
     &__popup {
         display: inline-block;
         border-radius: 50%;
-        background: #d1d1d1;
+        background: $color-gray;
         color: $color-white;
         width: 19px;
         height: 19px;
@@ -187,7 +156,6 @@ select.get-dash-select::-ms-expand {
     }
     &__exchange {
         margin-left: 0.7em;
-        float: left;
     }
     &__exchange-name {
         font-size: 2em;
@@ -207,21 +175,14 @@ select.get-dash-select::-ms-expand {
         font-size: 0.75em;
         color: $color-black;
     }
-    &__volume-summ{
-        color: #666666;
-    }
-    &__volume-time{
-        color: #9f9f9f;
-    }
     &__show {
         display: block;
         width: 100%;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 1.2em;
+        font-size: 1.7em;
         color: $color-black;
-        cursor: pointer;
         &:visited, &:hover{
             color: $color-black;
         }
@@ -234,41 +195,25 @@ select.get-dash-select::-ms-expand {
         color: $color-black;
         font-weight: $font-weight-light;
     }
-    &__img-container {
-        float: left;
-        width: 85px;
-        margin-left: 31px;
-        img {
-            max-width: 55px;
-        }
-    }
 }
 .buy-dash-btn {
     display: inline-block;
-    border-radius: 4px;
+    border-radius: 4px; 
     border: 1px solid #b6b6b6;
-    color: #131415;
+    color: $color-black;
     transition: all .3s;
     padding-left: 20px;
-    padding-right: 33px;
-    line-height: 1;
-    padding-top: 11px;
-    font-size: 13px;
-    padding-bottom: 11px;
+    padding-right: 27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
     cursor: pointer;
-    font-weight: 700;
-    &:visited {
-        color: $color-black;
-    }
     &__dash {
-        font-size: 2em;
-        line-height: 1;
+        font-size: 1.5em;
         text-transform: uppercase;
         color: $color-blue;
         font-family: $font-family-brand;
         font-weight: $font-weight-bold;
         transition: all .3s;
-        margin-left: 10px;
     }
     &:hover{
         background: $color-blue;
@@ -279,48 +224,4 @@ select.get-dash-select::-ms-expand {
         }
     }
 }
-span.tooltips {
-  position: relative;
-}
-span.tooltips span {
-  position: absolute;
-  width:140px;
-  color: #FFFFFF;
-  background: #000000;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  visibility: hidden;
-  border-radius: 6px;
-}
-span.tooltips span:after {
-    content: '';
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -4px;
-    width: 0; height: 0;
-    border-bottom: 8px solid #000000;
-    border-right: 8px solid transparent;
-    border-left: 8px solid transparent;
-}
-span:hover.tooltips span {
-    visibility: visible;
-    opacity: 0.8;
-    top: 30px;
-    left: 50%;
-    margin-left: -76px;
-    z-index: 999;
-}
 
-.page--get-dash {
-    .section__title {
-        font-weight: 400;
-    }
-}
-.get-dash-price-req {
-    color: #1076bc;
-    font-size: 19.5px;
-    font-weight: 400;
-    line-height: 1.2;
-}
