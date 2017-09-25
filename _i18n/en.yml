@@ -773,19 +773,6 @@ pages:
     hero-download-btn: Download
     hero-all-wallets-btn: All Wallets
 
-    download-title: Download wallet
-    download-text: Your wallet is the software you use to send, receive and store Dash. It’s simple to use and you can choose to send payments anonymously from your wallet using PrivateSend
-    all-wallets-btn: All wallets
-    buy-dash-title: Buy Dash
-    buy-dash-info-text: Select your preferences and we will offer you the best way to buy Dash
-    dash-select-label: I want to buy with
-    show-more-btn: Show More
-    service-type: Service Type
-    exchange-rate: Exchange Rate
-    payments-method: Payments Method
-    tooltip: Tooltip
-    buy-dash-table: Buy Dash
-
     guide-btn: Setup Guide
     buy-btn: Buy Dash
     spend-btn: Spend Dash
