@@ -194,7 +194,7 @@
   url: http://www.dewadloper.nl/
   image: dewadloper.jpg
 
-- name: Dewadloper
+- name: Organic Coffee
   title: Organic Coffee
   url: https://contraband.store
   image: contraband.jpg
@@ -203,3 +203,19 @@
   title: Anything for coins
   url: http://www.dashbargain.com
   image: dashbargain.jpg
+
+- name: CNR
+  title: Consulting
+  url: https://cnr-web.com/
+  image: CNR.jpg
+
+- name: ZBOTANICALS
+  title: Herbal products
+  url: https://zbotanicals.net/
+  image: Zbotanicles.jpg
+
+- name: Motionimation
+  title: Graphics and animation studio
+  url: http://www.motionimation.com/
+  image: motionimage.jpg
+

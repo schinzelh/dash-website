@@ -355,3 +355,9 @@
   fees: N/A
   image: cex.jpg
   url: https://cex.io
+
+- name: Cointed
+  trading_pairs: BTC
+  fees: N/A
+  image: cointed.jpg
+  url: https://www.cointed.com/en/
