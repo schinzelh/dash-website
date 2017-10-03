@@ -1,7 +1,7 @@
 <div class="hero" id="hero">
 	<div class="hero__background">
 		{% capture heroimage %}hero/{% t pages.get-dash.hero-image %}{% endcapture %}
-		{% srcset hero/get-dash.jpg ppi:1,2 class="hero__background-image" %}
+		{% srcset hero/get-dash-n.jpg ppi:1,2 class="hero__background-image" %}
 			{% srcset_source width:1920 %}
 			{% srcset_source width:960 %}
 		{% endsrcset %}
@@ -17,15 +17,15 @@
 		<p class="hero__lead">{% t pages.get-dash.hero-text %}</p>
 
 		<section>
+			<p id="platform-not-detected" class="callout-blue">{% t pages.get-dash.hero-platform-not-detected %}</p>
+
 			<div class="hero__buttons hero__buttons--get-dash">
-				<a href="#download" class="btn-white-solid">{% t pages.get-dash.hero-download-btn %}</a>
-				<a href="#buydash" class="btn-transparent">{% t pages.get-dash.buy-btn %}</a>
-				<a href="https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=31326247" class="btn-transparent" target="_blank">{% t pages.get-dash.security-btn %}</a>
+				<button id="download-detected-platform-button" href="#" class="btn-blue-solid btn-large">{% t pages.get-dash.hero-download-btn %}</button>
+				<a href="../wallets/" class="btn-large btn-white-solid">{% t pages.get-dash.hero-all-wallets-btn %}</a>
 			</div>
 		</section>
-		<p>{% t pages.get-dash.hero-text %}</p>
 	</div>
 
 	<!-- Hero stripe -->
-	<div class="hero__stripe hero__stripe--grey"></div>
+	<div class="hero__stripe"></div>
 </div>

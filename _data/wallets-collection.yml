@@ -437,14 +437,14 @@
   access_type: vendor
   product_id: coinomi_wallet
   product_label: Coinomi Wallet
-  product_source_url: "https://github.com/Coinomi/coinomi-android"
+  product_source_url: "https://coinomi.com/downloads/"
   links:
     -
       label: Google Play Download
       url: "https://play.google.com/store/apps/details?id=com.coinomi.wallet"
     -
       label: Download APK
-      url: "https://github.com/Coinomi/coinomi-android/releases/download/gb-final/coinomi-1.6.5.apk"
+      url: "https://coinomi.com/downloads/"
 
 - name: Jaxx
   description: |

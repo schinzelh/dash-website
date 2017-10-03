@@ -30,9 +30,7 @@ you're in a hurry or lost or you just need to Make It Work©
   text-align: left;
 }
 
-.no-padding{
-  padding: 0;
-}
+
 
 $wallet-tile-min-height: 20em;
 $wallet-tile-max-width: 25em;
@@ -550,16 +548,3 @@ a.blog_link {
     font-size: smaller;
   }
 }
-.page.page--get-dash section{
-    text-align: center;
-    &:nth-child(2n+1) {
-      background-color: $color-gray-light;
-    }
-    &:nth-child(2n) {
-      background-color: $color-white;
-    }
-    .info-grid {
-      text-align: left;
-    }
-}
-
