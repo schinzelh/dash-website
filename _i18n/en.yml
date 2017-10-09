@@ -777,19 +777,33 @@ pages:
       Buy and Sell Dash every time, when you want.
       Dash can be acquired, held and exchanged in many ways
     hero-text: |
-      First time here? Read <a href='https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=29360130' target='_blank'>Dash guide</a> for new users
+      First time here? Read <a href='https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=29360130' target='_blank'>Dash Guide</a> for new users
     hero-wallet-version: Dash Wallet (Fullclient v12.0.56) for OSX
     hero-wallet-version-select: Choose Another
     hero-platform-not-detected: "We're sorry, but your platform could not be automatically detected. Please select \"All Wallets\" to find a compatible version."
-    hero-download-btn: Download
+    hero-download-btn: Download Wallet
     hero-all-wallets-btn: All Wallets
+
+    download-title: Download wallet
+    download-text: Your wallet is the software you use to send, receive and store Dash. It’s simple to use and you can choose to send payments anonymously from your wallet using PrivateSend
+    all-wallets-btn: All wallets
+    buy-dash-title: Buy Dash
+    buy-dash-info-text: Select your preferences and we will offer you the best way to buy Dash
+    dash-select-label: I want to buy with
+    show-more-btn: Show More
+    service-type: Service Type
+    exchange-rate: Exchange Rate
+    payments-method: Payment Methods
+    tooltip: |
+      Please note: that’s a current price for one Dash on the market. It can be changed rapidly and we can’t guarantee that you will buy Dash for the same price. The price does not include service and transfer fees.
+    buy-dash-table: Buy Dash
 
     guide-btn: Setup Guide
     buy-btn: Buy Dash
     spend-btn: Spend Dash
     trade-btn: Trade Dash
-
-    otc-heading: Over the Counter (OTC)
+    security-btn: Security
+    otc-heading: Over <br />the Counter (OTC)
     otc-text: |
       Buying or selling large amounts of Dash on exchanges can cause price slippage, resulting in the buyer or seller receiving less value than intended. Large buy orders push the price higher, resulting in overpayment. Sizeable sell orders do the opposite, resulting in less value received for the Dash you sell. Fortunately there are “over the counter” or OTC solutions, where a vendor pairs buyers and sellers, allowing them to conduct large transactions off the exchanges and free from slippage to things like a new website, pr budget, etc. The benefit to you is, you can get many more coins at the current price, than what are available on any exchange. So you can get into a Dash position much easier/cheaper than would otherwise be possible.
     otc-btn: Full List
