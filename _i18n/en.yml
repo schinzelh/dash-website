@@ -95,7 +95,6 @@ pages:
     audio-text: Convert local currency to Dash and send it to your wallet
     audio-text-btn: Buy Dash
 
-
     report-heading: Get familiar with some of the reports
     report-heading-btn: Learn More
 
@@ -790,14 +789,15 @@ pages:
     buy-dash-title: Buy Dash
     buy-dash-info-text: Select your preferences and we will offer you the best way to buy Dash
     dash-select-label: I want to buy with
+    dash-select-label-method: using
     show-more-btn: Show More
     service-type: Service Type
     exchange-rate: Exchange Rate
     payments-method: Payment Methods
+    buy-dash-preference-title: Select your preferences and we will offer you the best way to buy Dash
     tooltip: |
       Please note: that’s a current price for one Dash on the market. It can be changed rapidly and we can’t guarantee that you will buy Dash for the same price. The price does not include service and transfer fees.
     buy-dash-table: Buy Dash
-
     guide-btn: Setup Guide
     buy-btn: Buy Dash
     spend-btn: Spend Dash

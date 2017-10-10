@@ -105,10 +105,10 @@ description: pages.get-dash.description
 		<div class="content">
 			<div class="section__number">2</div>
 			<h2 class="bottom-space section__title">{% t pages.get-dash.buy-dash-table %}</h2>
-			<div class="get-dash-info-text"  id="buydash">{% t pages.get-dash.dash-select-label%} </div>
+			<div class="get-dash-info-text"  id="buydash">{% t pages.get-dash.buy-dash-preference-title %} </div>
 			<div class="text-center">
 				<div class="get-dash__select-section">
-					<label class="get-dash-select-label" for="currency">I want to buy with </label>
+					<label class="get-dash-select-label" for="currency">{% t pages.get-dash.dash-select-label %} </label>
 					<select class="get-dash-select" name="currency" id="currency">
 						<option value="all">any</option>
 						{% for cur in currencies_total  %}
@@ -124,7 +124,7 @@ description: pages.get-dash.description
 					</select>
 				</div>
 				<div class="get-dash__select-section">
-					<label class="get-dash-select-label" for="method">Using </label>
+					<label class="get-dash-select-label" for="method">{% t pages.get-dash.dash-select-label-method %}</label>
 					<select class="get-dash-select" name="method" id="method">
 						<option value="all" data-method="all">any</option>
 						{% for x in methods  %}
