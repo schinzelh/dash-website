@@ -234,3 +234,19 @@
     - EUR
   image: litebit-eu_logo-small.jpg
   url: https://www.litebit.eu/
+
+- name: CEX.IO
+  using: traditional
+  methods: 
+    - iDeal
+    - SEPA
+    - Sofort
+    - GiroPay
+    - Bancontact
+  type: exchange
+  currency:
+    - EUR
+    - BTC
+    - USD
+  image: cex-io-logo_small.jpg
+  url: https://cex.io/
