@@ -7,7 +7,10 @@ $m: 'info-grid';
 	&__item {
 		@extend .col-md-4;
 		@extend .col-sm-6;
+		// background-color: $color-gray-light;	
 		margin-bottom: 70px;
+		text-align: center;
+		padding: 10px;
 
 
 		@include mq($to: small) {
@@ -24,7 +27,9 @@ $m: 'info-grid';
 			border-radius: 50%;
 			// border: 1px solid rgba($color-gray-dark, 0.1);
 			background-color: rgba($color-white, 0.5);
-			margin-bottom: 40px;
+			// margin-bottom: 40px;
+			margin-left: auto;
+			margin-right: auto;
 
 			@include mq($to: small) {
 				margin-left: auto;
@@ -42,10 +47,12 @@ $m: 'info-grid';
 			@include font-title-small();
 			text-transform: none;
 			margin-bottom: 0.5em;
+			// text-align: center;
 		}
 		&-text {
 			color: $color-gray-dark;
 			margin-bottom: 0.5em;
+			// text-align: center;
 		}
 		&-link {
 			@extend .btn-blue;
