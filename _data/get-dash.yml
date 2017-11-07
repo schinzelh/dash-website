@@ -133,6 +133,7 @@
   type: exchange
   currency:
     - BTC
+    - USD
   image: hitbtc_logo-small.png
   url: https://hitbtc.com/
   
