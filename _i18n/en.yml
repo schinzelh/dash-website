@@ -961,8 +961,9 @@ pages:
   blog:
       title: The Digital Cash Blog
       description: "Latest Dash news &amp; information"
-      search-btn: Search Blog
+      search-btn: Search Blogs
       community-news-btn: Community News
+      search-heading: Search Blogs
 
   team:
 
