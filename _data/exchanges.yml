@@ -373,3 +373,15 @@
   fees: N/A
   image: binance.jpg
   url: https://www.binance.com/
+
+- name: Changenow
+  trading_pairs: BTC
+  fees: N/A
+  image: changenow.jpg
+  url: https://changenow.io
+
+- name: Anybits
+  trading_pairs: BTC
+  fees: N/A
+  image: anybits.jpg
+  url: https://anybits.com
