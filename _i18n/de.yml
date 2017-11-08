@@ -571,7 +571,7 @@ pages:
     wallets-desktop-subtitle: DASH Desktop Wallets sind mit verschiedenen Features und Sicherheitsmechanismen ausgestattet 
     wallets-desktop-latest: >
       Latest: 11th Apr 2017
-    wallets-desktop-current-version: v0.12.1.5
+    wallets-desktop-current-version: v0.12.2.0
     wallets-mobile-header: Mobile
     wallets-mobile-subtitle: DASH Mobile Wallets sind mit verschiedenen Features und Sicherheitsmechanismen f&uuml;r dein Mobiles Endger&auml;t (Handy, Tablet,..) ausgestattet.
     wallets-hardware-header: Hardware
@@ -608,11 +608,11 @@ pages:
     modal-win-core-source-code-key: Quellcode
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: Normale Nutzer
-    modal-core-users-value: 0.12.1.5
+    modal-core-users-value: 0.12.2.0
     modal-core-masternode-text: Masternode Betreiber
-    modal-core-masternode-value: 0.12.1.5
+    modal-core-masternode-value: 0.12.2.0
     modal-core-pool-text: Mining Pool Betreiber
-    modal-core-pool-value: 0.12.1.5
+    modal-core-pool-value: 0.12.2.0
 
   payments:
     title: DASH Zahlungsabwickler
@@ -651,11 +651,11 @@ pages:
     modal-win-core-source-code-key: Quellcode
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: Normale Nutzer
-    modal-core-users-value: 0.12.1.5
+    modal-core-users-value: 0.12.2.0
     modal-core-masternode-text: Masternode Betreiber
-    modal-core-masternode-value: 0.12.1.5
+    modal-core-masternode-value: 0.12.2.0
     modal-core-pool-text: Mining Pool Betreiber
-    modal-core-pool-value: 0.12.1.5
+    modal-core-pool-value: 0.12.2.0
     disclaimer-text: >
       Haftungsausschluss: Diese Liste ist rein zu Informationszwecken gedacht. Hier aufgef&uuml;hrte Dienste wurden von DASH Entwicklern weder &uuml;berpr&uuml;ft noch werden sie offiziell unterst&uuml;tzt, so dass die Exaktheit der Information nicht garantiert werden kann. Bitte wenden sie die n&ouml;tigen Vorsichtsma&szlig;nahmen an, wenn sie Dienste von Drittanbietern verwenden. 
 

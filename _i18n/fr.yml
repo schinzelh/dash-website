@@ -373,7 +373,7 @@ pages:
     hero-image: get-dash-n.jpg
     hero-heading: Télécharger le portefeuille Dash
     hero-text: Pour commencer, téléchargez la dernière version du logiciel Dash
-    hero-wallet-version: Portefeuille Dash (v. 0.12.1.5) pour MacOS
+    hero-wallet-version: Portefeuille Dash (v. 0.12.2.0) pour MacOS
     hero-wallet-version-select: Choisissez-en un autre
     hero-platform-not-detected: "Nous sommes désolés, mais votre plateforme n'a pas pu être détectée automatiquement. Veuillez sélectionner \"Tous les portefeuilles\" pour trouver une version compatible."
     hero-download-btn: Télécharger

@@ -570,11 +570,11 @@ pages:
     modal-win-core-source-code-key: 源代码
     modal-win-core-source-code-value: .&#40;link/ closed source&#41;
     modal-core-users-text: 普通用户
-    modal-core-users-value: 0.12.1.5
+    modal-core-users-value: 0.12.2.0
     modal-core-masternode-text: 主节点运营者
-    modal-core-masternode-value: 0.12.1.5
+    modal-core-masternode-value: 0.12.2.0
     modal-core-pool-text: 矿池运营者
-    modal-core-pool-value: 0.12.1.5
+    modal-core-pool-value: 0.12.2.0
 
 
   contact:
