@@ -11,6 +11,7 @@
       - AdvCash
       - NixMoney
       - MoneyPolo
+      - Liqpay
     eur: 
       - Wire Transfer 
       - SEPA
@@ -20,6 +21,11 @@
       - Mybank
       - Sofort
       - TrustPay
+      - Online Bank Transfer
+      - Mistercash
+      - VISA/Master Card
+      - Neteller
+      - Skrill
     btc: 
       - Cryptocurrency
     rur:
@@ -164,6 +170,7 @@
     - Wire Transfer
     - MoneyPolo
     - Cryptocurrency
+    - Liqpay
   type: exchange
   currency:
     - USD
@@ -181,6 +188,7 @@
     - SEPA
     - Sofort
     - TrustPay
+    - Mistercash
   type: exchange
   currency:
     - EUR
@@ -216,9 +224,16 @@
   using: traditional
   methods: 
     - Cryptocurrency
+    - VISA/Master Card
+    - Sofort
+    - Neteller
+    - Skrill
+    - GIROPAY/EPS
+    - SEPA
   type: exchange
   currency:
     - BTC
+    - EUR
   image: bitpanda_logo-small.png
   url: https://www.bitpanda.com/
 
