@@ -37,69 +37,59 @@
 					{
 						"exchange": "Kraken",
 						"url": "https://www.kraken.com/",
-						"price": "308.981000",
+						"price_usd": "308.981000",
+						"price_eur": "338.981000",
 						"volume": 658503.4595477544
 					},
 					{
 						"exchange": "Bittrex",
 						"url": "https://bittrex.com/",
-						"price": 307.37616884199997,
+						"price_usd": 307.37616884199997,
+						"price_eur": "338.981000",
 						"volume": 3096805.670604463
 					},
 					{
 						"exchange": "Bitfinex",
 						"url": "https://www.bitfinex.com/",
-						"price": "305.91",
+						"price_usd": "305.91",
+						"price_eur": "338.981000",
 						"volume": 6612461.183936392
 					},
 					{
 						"exchange": "Livecoin",
 						"url": "https://www.livecoin.net",
-						"price": 294.53749,
+						"price_usd": 294.53749,
+						"price_eur": "338.981000",
 						"volume": 52340.84100252646
 					},
 					{
 						"exchange": "Exmo",
 						"url": "https://exmo.me/",
-						"price": "299.1",
+						"price_usd": "299.1",
+						"price_eur": "338.981000",
 						"volume": "237357.8569642"
 					},
 					{
 						"exchange": "Yobit",
 						"url": "https://yobit.net/",
-						"price": 301.00000012,
+						"price_usd": 301.00000012,
+						"price_eur": "338.981000",
 						"volume": 2169445.060733555
 					},
 					{
 						"exchange": "Poloniex",
 						"url": "https://poloniex.com/",
-						"price": 307.452357998
+						"price_eur": "338.981000",
+						"price_usd": 307.452357998
 					},
 					{
 						"exchange": "Cex.io",
 						"url": "https://cex.io/",
-						"price": "308.94"
+						"price_eur": "338.981000",
+						"price_usd": "308.94"
 					}
 				];
-					$('[data-name]').each(function() {
-
-					var that = $(this),
-						exchangeName = that.data('name'),
-						resultName = resultExchanges.filter(function(el) {
-							return el.exchange === exchangeName;
-						}),
-						$result = that.find('[data-price="result"]');
-
-					if (resultName[0] && resultName[0].price !== 'undefined') {
-						that.find('[data-price="click"]').addClass('hidden');
-						$result.removeClass('hidden').find('[data-rate="rate"]').text(formatCurrency(resultName[0].price));
-						if (resultName[0].volume) {
-							$result.find('[data-rate="volume"]').text(formatCurrency(resultName[0].volume));
-						} else {
-							$result.find('.js-dash-table-volume').addClass('hidden');
-						}
-					}
-				});
+				//renderPrice(resultExchanges, 'usd');
 			//});
 
 			var getRows = function() {
@@ -119,11 +109,59 @@
 							return selectedMethod.indexOf(method) !== -1;
 						}
 					}).show();
-				};
+				},
+				renderPrice = function(res, currency) {
+					var price = 'price_' + currency;
+					$('[data-name]').each(function() {
+						var that = $(this),
+							exchangeName = that.data('name'),
+							resultName = resultExchanges.filter(function(el) {
+								return el.exchange === exchangeName;
+							}),
+							$result = that.find('[data-price="result"]');
 
+						if (resultName[0] && resultName[0][price] !== 'undefined') {
+							that.find('[data-price="click"]').addClass('hidden');
+							$result.removeClass('hidden')
+								.find('[data-rate="rate"]')
+								.text(formatCurrency(resultName[0][price]));
+							if (resultName[0].volume) {
+								$result.find('[data-rate="volume"]').text(formatCurrency(resultName[0].volume));
+							} else {
+								$result.find('.js-dash-table-volume').addClass('hidden');
+							}
+						}
+					});
+				};
+			renderPrice(resultExchanges, 'usd');
 			$('select').on('change', function() {
 				var $resultRow = getRows();
+				if ( $(this).attr('id') == "currency" ) {
+					var currency = $(this).val();
+					switch (currency) {
+						case 'usd':
+							console.log(currency);
+							break
+						case 'eur':
+							renderPrice(resultExchanges, 'eur');
+							break;
+						case 'btc':
+							console.log(currency);
+							break;
+						case 'rur':
+							console.log(currency);
+							break;
+						case 'cny':
+							console.log(currency);
+							break
+						case 'cad':
+							console.log(currency);
+							break
+						default:
+							return
+					}
 
+				}
 				$('.js-exchange-row').hide();
 				if (!$resultRow) {
 					$('.js-exchange-row:hidden').slice(0, 6).show();
