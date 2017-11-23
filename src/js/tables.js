@@ -5,92 +5,20 @@
 		var siteApi = window.globals.siteApi || '/api/v1',
 			marketCapApi = 'https://www.coincap.io/front/',
 			resultExchanges,
-			exchangesApi = siteApi + '/exchange';
+			exchangesApi = 'http://localhost:9090/exchange';
 
 		if ($('#getDashTable').length) {
-//			$.ajax({
-//				url: exchangesApi,
-//				error: function(jqXHR, textStatus, errorThrown) {
-//					console.log(jqXHR);
-//					console.log(textStatus);
-//					console.log('errorThrown:', errorThrown);
-//				}
-//			}).done(function(json) {
-				resultExchanges = [{
-						"btcPrice": "7484.2"
-					},
-					{
-						"exchange": "WorldCoinIndex",
-						"url": "https://www.worldcoinindex.com",
-						"price": 307.24994584,
-						"volume": 9176.16775932,
-						"percent_change": -1
-					},
-					{
-						"exchange": "CoinCap",
-						"url": "http://coincap.io/",
-						"price": "307.339",
-						"volume": "77786900.0",
-						"percent_change": "6.67",
-						"market_cap": "2359199712.0"
-					},
-					{
-						"exchange": "Kraken",
-						"url": "https://www.kraken.com/",
-						"price_usd": "308.981000",
-						"price_eur": "338.981000",
-						"volume": 658503.4595477544
-					},
-					{
-						"exchange": "Bittrex",
-						"url": "https://bittrex.com/",
-						"price_usd": 307.37616884199997,
-						"price_eur": "338.981000",
-						"volume": 3096805.670604463
-					},
-					{
-						"exchange": "Bitfinex",
-						"url": "https://www.bitfinex.com/",
-						"price_usd": "305.91",
-						"price_eur": "338.981000",
-						"volume": 6612461.183936392
-					},
-					{
-						"exchange": "Livecoin",
-						"url": "https://www.livecoin.net",
-						"price_usd": 294.53749,
-						"price_eur": "338.981000",
-						"volume": 52340.84100252646
-					},
-					{
-						"exchange": "Exmo",
-						"url": "https://exmo.me/",
-						"price_usd": "299.1",
-						"price_eur": "338.981000",
-						"volume": "237357.8569642"
-					},
-					{
-						"exchange": "Yobit",
-						"url": "https://yobit.net/",
-						"price_usd": 301.00000012,
-						"price_eur": "338.981000",
-						"volume": 2169445.060733555
-					},
-					{
-						"exchange": "Poloniex",
-						"url": "https://poloniex.com/",
-						"price_eur": "338.981000",
-						"price_usd": 307.452357998
-					},
-					{
-						"exchange": "Cex.io",
-						"url": "https://cex.io/",
-						"price_eur": "338.981000",
-						"price_usd": "308.94"
-					}
-				];
-				//renderPrice(resultExchanges, 'usd');
-			//});
+			$.ajax({
+				url: exchangesApi,
+				error: function(jqXHR, textStatus, errorThrown) {
+					console.log(jqXHR);
+					console.log(textStatus);
+					console.log('errorThrown:', errorThrown);
+				}
+			}).done(function(json) {
+				resultExchanges = json;
+				renderPrice(resultExchanges, 'usd');
+			});
 
 			var getRows = function() {
 					var $typeClass = $('#type').val() === 'all' ? '' : '.js-type-' + $('#type').val(),
@@ -120,7 +48,7 @@
 							}),
 							$result = that.find('[data-price="result"]');
 
-						if (resultName[0] && resultName[0][price] !== 'undefined') {
+						if (resultName[0] && !isNaN(resultName[0][price]) && resultName[0][price] !== 'undefined') {
 							that.find('[data-price="click"]').addClass('hidden');
 							$result.removeClass('hidden')
 								.find('[data-rate="rate"]')
@@ -133,7 +61,6 @@
 						}
 					});
 				};
-			renderPrice(resultExchanges, 'usd');
 			$('select').on('change', function() {
 				var $resultRow = getRows();
 				if ( $(this).attr('id') == "currency" ) {
