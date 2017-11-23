@@ -5,7 +5,7 @@
 		var siteApi = window.globals.siteApi || '/api/v1',
 			marketCapApi = 'https://www.coincap.io/front/',
 			resultExchanges,
-			exchangesApi = 'http://localhost:9090/exchange';
+			exchangesApi = siteApi + '/exchange';
 
 		if ($('#getDashTable').length) {
 			$.ajax({
@@ -65,29 +65,7 @@
 				var $resultRow = getRows();
 				if ( $(this).attr('id') == "currency" ) {
 					var currency = $(this).val();
-					switch (currency) {
-						case 'usd':
-							console.log(currency);
-							break
-						case 'eur':
-							renderPrice(resultExchanges, 'eur');
-							break;
-						case 'btc':
-							console.log(currency);
-							break;
-						case 'rur':
-							console.log(currency);
-							break;
-						case 'cny':
-							console.log(currency);
-							break
-						case 'cad':
-							console.log(currency);
-							break
-						default:
-							return
-					}
-
+					renderPrice(resultExchanges, currency);
 				}
 				$('.js-exchange-row').hide();
 				if (!$resultRow) {

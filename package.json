@@ -6,7 +6,7 @@
   "scripts": {
     "eslint:dist": "eslint src/js/*.js || exit 0",
     "eslint": "npm run eslint:dist",
-    "uglify:dist": "mkdir -p dist/js/ && ./node_modules/uglify-js/bin/uglifyjs src/js/*.js -o dist/js/main.min.js",
+    "uglify:dist": "mkdir -p dist/js/ && ./node_modules/uglify-js/bin/uglifyjs src/js/*.js -m -o dist/js/main.min.js",
     "uglify:dev": "mkdir -p dist/js/ && ./node_modules/uglify-js/bin/uglifyjs src/js/*.js -c -o dist/js/main.min.js",
     "uglify": "npm run uglify:dist",
     "htmlproof": "htmlproofer ./_site --disable-external --allow-hash-href --assume-extension --alt-ignore '/.*/' --file-ignore /assets/,/dist/,/style-guide/,/blog/ --url-ignore '/^/binaries/.+$/,/^/forum/?.*$/'",
