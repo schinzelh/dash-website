@@ -14,9 +14,9 @@
   url: http://coinotron.com/
   image: coinotron.jpg
 
-- name: Ltcrabbit.com
-  url: http://ltcrabbit.com/
-  image: rabbit.jpg
+- name: Give me coins
+  url: http://give-me-coins.com/
+  image: givemecoins.jpg
 
 - name: Coinmine.pl
   url: https://www2.coinmine.pl/dash
@@ -66,3 +66,6 @@
   url: https://dash.miningpoolhub.com/
   image: hub.png
 
+- name: Antpool
+  url: https://www.antpool.com
+  image: antpool.jpg
