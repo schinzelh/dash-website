@@ -44,11 +44,14 @@
 						var that = $(this),
 							exchangeName = that.data('name'),
 							resultName = resultExchanges.filter(function(el) {
-								return el.exchange === exchangeName;
+								if (el){
+									return el.exchange === exchangeName;
+								}
+								return null;
 							}),
 							$result = that.find('[data-price="result"]');
 
-						if (resultName[0] && !isNaN(resultName[0][price]) && resultName[0][price] !== 'undefined') {
+						if (resultName && resultName[0] && !isNaN(resultName[0][price]) && resultName[0][price] !== 'undefined') {
 							that.find('[data-price="click"]').addClass('hidden');
 							$result.removeClass('hidden')
 								.find('[data-rate="rate"]')
