@@ -794,8 +794,8 @@ pages:
     claim-heading: Buy, Sell, Exchange Dash
     claim-subline: Dash can be acquired, held and exchanged in many ways.
 
-    setup-heading: Learn how to set up your wallet
-    setup-text:
+    setup-heading: Set up your wallet
+    setup-text: Explore different kinds of wallets and learn how to set up your wallet
     setup-btn: Learn More
     setup-link: https://dashpay.atlassian.net/wiki/pages/viewpage.action?pageId=1146941
 
@@ -969,8 +969,9 @@ pages:
   blog:
       title: The Digital Cash Blog
       description: "Latest Dash news &amp; information"
-      search-btn: Search Blog
+      search-btn: Search Blogs
       community-news-btn: Community News
+      search-heading: Search Blogs
 
   team:
 
