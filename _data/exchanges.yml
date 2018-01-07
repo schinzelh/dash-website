@@ -360,3 +360,9 @@
   image: uphold.jpg
   url: https://uphold.com/
 
+- name: Spectrocoin
+  trading_pairs: BTC
+  fees: N/A
+  image: spectrocoin.jpg
+  url: https://spectrocoin.com
+

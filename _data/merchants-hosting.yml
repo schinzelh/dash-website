@@ -11,11 +11,6 @@
   url: https://www.flokinet.is/en/
   image: FlokiNet.jpg
 
-- name: OcculusOmega
-  title: (Tor service - url accessible using tor browser)
-  url: http://occuomegawqtkl6j.onion/
-  image: OcculusOmega.png
-
 - name: COINSHOST
   title: Swiss approach to Web Hosting and DDoS Protection
   url: https://coinshost.com/
