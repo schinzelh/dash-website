@@ -86,7 +86,7 @@ $nav-height: 90px;
 			margin-left: pxToRem(10px);
 		}
 	  	&:hover {
-			color: $color-blue-highlight;
+		  	color: $color-hover-nav;
 	  	}
 	}
 

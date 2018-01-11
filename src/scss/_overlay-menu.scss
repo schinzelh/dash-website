@@ -64,6 +64,10 @@
 			margin-top: 2px;
 			margin-right: 4px;
 		}
+
+	  &:hover {
+			color: $color-hover-nav;
+	  }
 	}
 
 	&__list {
