@@ -39,7 +39,9 @@
 					}).show();
 				},
 				renderPrice = function(res, currency) {
-					var price = 'price_' + currency;
+					var price;
+						currency == 'usd' ? price = 'price' : 'price_' + currency;
+
 					$('[data-name]').each(function() {
 						var that = $(this),
 							exchangeName = that.data('name'),
@@ -83,7 +85,6 @@
 					$('#method option').show();
 				} else {
 					var methods = $(this).find(':selected').data('method') + 'all'.split(' ').filter(String);
-
 					showMethod(methods);
 				}
 			});
@@ -97,7 +98,7 @@
 					$($resultRow + ':hidden').slice(0, 6).show();
 				}
 				if (!$('.js-exchange-row:hidden').length || !$($resultRow + ':hidden').length) {
-					$(this).addClass('hidden');
+					$(this).parent().addClass('hidden');
 				}
 			});
 		}
