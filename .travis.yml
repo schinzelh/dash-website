@@ -18,7 +18,8 @@ addons:
   ssh_known_hosts:
     - www-test.dash.org
     - 146.185.153.42
-
+    - 138.197.193.209
+    - www-mrv.dash.org
 deploy:
   # deploy master to the staging/test environment
   - provider: script
