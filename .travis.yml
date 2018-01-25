@@ -1,29 +1,28 @@
-language: node_js
-node_js:
-- 4.5.0
-before_script:
-- chmod +x ./cibuild.sh
-- ssh-keyscan -H -t rsa,dsa $hostname >> ~/.ssh/known_hosts
-script: ./cibuild.sh
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - CXX=g++-4.8
-sudo: false
+sudo: required
+dist: trusty
+language: python
+python:
+  - '3.6'
+
+script:
+  - bash cibuild.sh
+  - test -d _site/ && test -s _site/index.html
+
+before_deploy:
+  - openssl aes-256-cbc -k "$dash_org_pem_pass" -in dash.org-test-web.pem.enc -out /tmp/deploy_rsa -d
+  - eval "$(ssh-agent -s)"
+  - chmod 0600 /tmp/deploy_rsa
+  - ssh-add /tmp/deploy_rsa
+
 addons:
   ssh_known_hosts:
-  - www-test.dash.org
-  - 146.185.153.42
-  apt:
-    sources:
-    - ubuntu-toolchain-r-test
-    packages:
-    - g++-4.8
-before_install:
-- rvm install 2.3.1
+    - www-test.dash.org
+    - 146.185.153.42
+
 deploy:
-  provider: script
-  skip_cleanup: true
-  script: test $TRAVIS_TEST_RESULT = 0 && script/deploy-rsync.sh
-  on:
-    all_branches: true
+  # deploy master to the staging/test environment
+  - provider: script
+    skip_cleanup: true
+    script: DEPLOY_USER=$STAGE_DEPLOY_USER DEPLOY_HOST=$STAGE_DEPLOY_HOST DEPLOY_PATH=$STAGE_DEPLOY_PATH bash script/deploy-rsync.sh
+    on:
+      branch: buydash
