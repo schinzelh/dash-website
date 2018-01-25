@@ -389,3 +389,9 @@
   fees: N/A
   image: coin2001.jpg
   url: https://www.coin2001.com/
+
+- name: Einstein
+  trading_pairs: BTC
+  fees: N/A
+  image: einstein-black.jpg
+  url: https://einstein.exchange/
