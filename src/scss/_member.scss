@@ -7,7 +7,6 @@ $m: 'member';
 	&__avatar {
 		display: inline-block;
 		width: 100%;
-		max-width: 140px;
 		margin-bottom: 20px;
 	}
 	&__image-wrapper {
@@ -20,14 +19,12 @@ $m: 'member';
 	}
 
 	&__name {
-		@include font-claim();
-		// color: $color-blue;
-		margin-bottom: 5px;
-    	word-wrap: break-word;
+		font-size: $font-size-small;
+    		word-wrap: break-word;
 	}
 
 	&__title {
-		margin-bottom: 10px;
+		font-size: $font-size-micro;
 		color: $color-gray-dark;
 	}
 
@@ -55,16 +52,16 @@ $m: 'member';
 			display: inline-block;
 			max-width: 500px;
 			width: 100%;
-			padding: 0 20px;
+			padding: 20px;
 			vertical-align: top;
 			text-align:  left;
 			font-size: $font-size-base;
 
-			@include mq($from: small) {
+			@include mq($from: 500px) {
 				width: 50%;
 			}
 			@include mq($from: medium) {
-				width: 33.3%;
+				width: 25%;
 			}
 		}
 

@@ -88,3 +88,8 @@
 	color: $color-black !important;
 	border: 1px solid #b5b5b5
 }
+
+.icon {
+	margin-right: 10px;
+	color: lighten($color-black, 40) !important;
+}

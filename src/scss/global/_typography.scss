@@ -3,6 +3,7 @@
 @import "../fonts/montserrat/regular";
 @import "../fonts/montserrat/medium";
 @import "../fonts/gunshipital/regular";
+@import "../icons/fontawesome-all";
 
 $font-family-body: 'Montserrat', Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
 $font-family-heading: $font-family-body;
@@ -15,6 +16,8 @@ $font-weight-medium: 500;
 $font-weight-bold: 700;
 
 $font-size-base: $font-size-base; // This is stored in the _variables.scss because it is required earlier
+$font-size-micro: 14px;
+$font-size-small: 16px;
 $font-size-base-plus: 19px;
 $font-size-medium: 24px;
 $font-size-large: 30px;

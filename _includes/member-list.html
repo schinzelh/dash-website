@@ -17,21 +17,21 @@
 
 	<div class="member__description"></div>
 
+
 	{% if member.email %}
-	<div class="member__detail member__detail--email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></div>
+	<a class="icon" href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a>
 	{% endif %}
 
 	{% if member.keybase %}
-	<div class="member__detail member__detail--pgp"><a href="{{ member.keybase }}"  target="_blank">Keybase Identity</a></div>
+	<a class="icon" href="{{ member.keybase }}" target="_blank"><i class="fas fa-key"></i></a>
 	{% endif %}
 
 	{% if member.twitter %}
-	<div class="member__detail member__detail--twitter"><a href="{{ member.twitter }}" target="_blank">{{ member.twitter }}</a></div>
+	<a class="icon" href="{{ member.twitter }}" target="_blank"><i class="fas fa-twitter"></i></a>
 	{% endif %}
 
 	{% if member.dashforum %}
-	<h5>{% t pages.team.forum-name %}</h5>
-	<div class="member__detail member__detail--dashforum"><a href="/forum/members{{ member.dashforum-link }}" target="_blank">{{ member.dashforum }}</a></div>
+	<a class="icon" href="/forum/members{{ member.dashforum-link }}" target="_blank"><i class="fas fa-comments"></i></a>
 	{% endif %}
 
 
