@@ -15,23 +15,20 @@
 	<div class="member__name" data-mh="member-name">{{ member.name }}</div>
 	<div class="member__title" data-mh="member-title">{{ member.title }}</div>
 
-	<div class="member__description"></div>
-
-
 	{% if member.email %}
-	<a class="icon" href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a>
+	<a class="btn-icon" href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a>
 	{% endif %}
 
 	{% if member.keybase %}
-	<a class="icon" href="{{ member.keybase }}" target="_blank"><i class="fas fa-key"></i></a>
+	<a class="btn-icon" href="{{ member.keybase }}" target="_blank"><i class="fas fa-key"></i></a>
 	{% endif %}
 
 	{% if member.twitter %}
-	<a class="icon" href="{{ member.twitter }}" target="_blank"><i class="fas fa-twitter"></i></a>
+	<a class="btn-icon" href="{{ member.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
 	{% endif %}
 
 	{% if member.dashforum %}
-	<a class="icon" href="/forum/members{{ member.dashforum-link }}" target="_blank"><i class="fas fa-comments"></i></a>
+	<a class="btn-icon" href="/forum/members{{ member.dashforum-link }}" target="_blank"><i class="fas fa-comments"></i></a>
 	{% endif %}
 
 
