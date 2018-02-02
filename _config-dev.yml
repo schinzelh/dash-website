@@ -1,0 +1,11 @@
+exclude:
+ - assets
+ - node_modules
+ - dist
+ - _i18n
+
+languages: ["en"]
+
+gems:
+  - jekyll-paginate
+  - jekyll-multiple-languages-plugin
