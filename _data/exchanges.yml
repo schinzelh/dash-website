@@ -407,3 +407,9 @@
   fees: N/A
   image: godex.jpg
   url: https://godex.io
+
+- name: Abucoins
+  trading_pairs: BTC
+  fees: N/A
+  image: abucoins.jpg
+  url: http://abucoins.com

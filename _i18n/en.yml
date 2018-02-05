@@ -168,12 +168,13 @@ pages:
     how-start-heading: How to Start Mining
     asic-heading: ASIC Miner Hardware
     asic-text: >
-      Specialized computers called Application Specific Integrated Circuits (ASICs) are designed to solve Dash’s Proof of Work problems with the greatest possible efficiency. Current Dash ASICs on the market include:
+      Specialized computers called Application Specific Integrated Circuits (ASICs) are designed to solve Dash’s Proof of Work problems with the greatest possible efficiency. Details of current Dash ASICs on the market can be viewed here:
     asic-pinidea-btn: ASIC Pinidea X11 Miner DR-1
     asic-pinidea-usb-btn: ASIC Pinidea X11 USB DU-1
     asic-ibelink-miner: ASIC iBeLink DM384M X11
     asic-baikal-mini-miner: ASIC X11 Baikal Mini Miner
     asic-baikal-miner: ASIC Baikal A900 X11
+    asic-all-btn: ASIC Mining
 
     cpu-gpu-heading: Guides (CPU / GPU)
     cpu-gpu-text: >
@@ -784,7 +785,7 @@ pages:
 
     otc-heading: Over the Counter (OTC)
     otc-text: |
-      Buying or selling large amounts of Dash on exchanges can cause price slippage, resulting in the buyer or seller receiving less value than intended. Large buy orders push the price higher, resulting in overpayment. Sizeable sell orders do the opposite, resulting in less value received for the Dash you sell. Fortunately there are “over the counter” or OTC solutions, where a vendor pairs buyers and sellers, allowing them to conduct large transactions off the exchanges and free from slippage.t things like a new website, pr budget, etc. The benefit to you is, you can get many more coins at the current price, than what are available on any exchange. So you can get into a Dash position much easier/cheaper than would otherwise be possible.
+      Buying or selling large amounts of Dash on exchanges can cause price slippage, resulting in the buyer or seller receiving less value than intended. Large buy orders push the price higher, resulting in overpayment. Sizeable sell orders do the opposite, resulting in less value received for the Dash you sell. Fortunately there are “over the counter” or OTC solutions, where a vendor pairs buyers and sellers, allowing them to conduct large transactions off the exchanges and free from slippage to things like a new website, pr budget, etc. The benefit to you is, you can get many more coins at the current price, than what are available on any exchange. So you can get into a Dash position much easier/cheaper than would otherwise be possible.
     otc-btn: Full List
 
     exchanges-heading: Biggest Exchanges
@@ -1048,6 +1049,8 @@ nav:
   school: School
   search: Search
 
+  telegram: Telegram
+  discord: Discord
   forum: Dash forums
   social: Social
   blog: Blog
