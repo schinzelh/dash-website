@@ -168,12 +168,13 @@ pages:
     how-start-heading: How to Start Mining
     asic-heading: ASIC Miner Hardware
     asic-text: >
-      Specialized computers called Application Specific Integrated Circuits (ASICs) are designed to solve Dash’s Proof of Work problems with the greatest possible efficiency. Current Dash ASICs on the market include:
+      Specialized computers called Application Specific Integrated Circuits (ASICs) are designed to solve Dash’s Proof of Work problems with the greatest possible efficiency. Details of current Dash ASICs on the market can be viewed here:
     asic-pinidea-btn: ASIC Pinidea X11 Miner DR-1
     asic-pinidea-usb-btn: ASIC Pinidea X11 USB DU-1
     asic-ibelink-miner: ASIC iBeLink DM384M X11
     asic-baikal-mini-miner: ASIC X11 Baikal Mini Miner
     asic-baikal-miner: ASIC Baikal A900 X11
+    asic-all-btn: ASIC Mining
 
     cpu-gpu-heading: Guides (CPU / GPU)
     cpu-gpu-text: >
