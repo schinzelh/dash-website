@@ -5,7 +5,8 @@
 		var siteApi = window.globals.siteApi || '/api/v1',
 			marketCapApi = 'https://www.coincap.io/front/',
 			resultExchanges,
-			exchangesApi = siteApi + '/exchange';
+			exchangesApi = siteApi + '/exchange',
+			renderPrice;
 
 		if ($('#getDashTable').length) {
 			$.ajax({
@@ -37,39 +38,45 @@
 							return selectedMethod.indexOf(method) !== -1;
 						}
 					}).show();
-				},
-				renderPrice = function(res, currency) {
-					var price;
-						currency == 'usd' ? price = 'price' : 'price_' + currency;
-
-					$('[data-name]').each(function() {
-						var that = $(this),
-							exchangeName = that.data('name'),
-							resultName = resultExchanges.filter(function(el) {
-								if (el){
-									return el.exchange === exchangeName;
-								}
-								return null;
-							}),
-							$result = that.find('[data-price="result"]');
-
-						if (resultName && resultName[0] && !isNaN(resultName[0][price]) && resultName[0][price] !== 'undefined') {
-							that.find('[data-price="click"]').addClass('hidden');
-							$result.removeClass('hidden')
-								.find('[data-rate="rate"]')
-								.text(formatCurrency(resultName[0][price]));
-							if (resultName[0].volume) {
-								$result.find('[data-rate="volume"]').text(formatCurrency(resultName[0].volume));
-							} else {
-								$result.find('.js-dash-table-volume').addClass('hidden');
-							}
-						}
-					});
 				};
+
+			renderPrice = function(res, currency) {
+				var price = 'price';
+
+				if (!currency === 'usd') {
+					price = 'price_' + currency;
+				}
+				$('[data-name]').each(function() {
+					var that = $(this),
+						exchangeName = that.data('name'),
+						resultName = resultExchanges.filter(function(el) {
+							if (el) {
+								return el.exchange === exchangeName;
+							}
+							return null;
+						}),
+						$result = that.find('[data-price="result"]');
+
+					if (resultName && resultName[0] && !isNaN(resultName[0][price]) && resultName[0][price] !== 'undefined') {
+						that.find('[data-price="click"]').addClass('hidden');
+						$result.removeClass('hidden')
+							.find('[data-rate="rate"]')
+							.text(formatCurrency(resultName[0][price]));
+						if (resultName[0].volume) {
+							$result.find('[data-rate="volume"]').text(formatCurrency(resultName[0].volume));
+						} else {
+							$result.find('.js-dash-table-volume').addClass('hidden');
+						}
+					}
+				});
+			};
+
 			$('select').on('change', function() {
-				var $resultRow = getRows();
-				if ( $(this).attr('id') == "currency" ) {
-					var currency = $(this).val();
+				var $resultRow = getRows(),
+					currency;
+
+				if ($(this).attr('id') === 'currency') {
+					currency = $(this).val();
 					renderPrice(resultExchanges, currency);
 				}
 				$('.js-exchange-row').hide();
@@ -80,24 +87,29 @@
 					$($resultRow).slice(0, 6).show();
 				}
 			});
+
+			// Show exchanges filtered by currency selector
 			$('select#currency').on('change', function() {
 				if ($(this).val() === 'all') {
 					$('#method option').show();
 				} else {
 					var methods = $(this).find(':selected').data('method') + 'all'.split(' ').filter(String);
+
 					showMethod(methods);
 				}
 			});
 
+			// Shows more  exchanges on button click
 			$('[data-btn="show-more"]').on('click', function() {
-				var $resultRow = getRows();
+				var $resultRow = getRows(),
+					$hiddenRow = $('.js-exchange-row:hidden');
 
 				if (!$resultRow) {
-					$('.js-exchange-row:hidden').slice(0, 6).show();
+					$hiddenRow.slice(0, 6).show();
 				} else {
 					$($resultRow + ':hidden').slice(0, 6).show();
 				}
-				if (!$('.js-exchange-row:hidden').length || !$($resultRow + ':hidden').length) {
+				if (!$hiddenRow.length || !$($resultRow + ':hidden').length) {
 					$(this).parent().addClass('hidden');
 				}
 			});
