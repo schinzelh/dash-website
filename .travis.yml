@@ -17,13 +17,19 @@ before_deploy:
 addons:
   ssh_known_hosts:
     - www-test.dash.org
-    - 146.185.153.42
-    - 138.197.193.209
-    - www-mrv.dash.org
+    - admin.www.dash.org
+
 deploy:
   # deploy master to the staging/test environment
   - provider: script
     skip_cleanup: true
     script: DEPLOY_USER=$STAGE_DEPLOY_USER DEPLOY_HOST=$STAGE_DEPLOY_HOST DEPLOY_PATH=$STAGE_DEPLOY_PATH bash script/deploy-rsync.sh
     on:
-      branch: buydash
+      branch: master
+
+  # deploy release to the production environment
+  - provider: script
+    skip_cleanup: true
+    script: DEPLOY_USER=$PROD_DEPLOY_USER DEPLOY_HOST=$PROD_DEPLOY_HOST DEPLOY_PATH=$PROD_DEPLOY_PATH bash script/deploy-rsync.sh
+    on:
+      branch: release
