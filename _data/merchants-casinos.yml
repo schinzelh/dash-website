@@ -30,3 +30,7 @@
 - name: Bitsler
   url: https://www.bitsler.com/
   image: bitsler.jpg
+
+- name: Jetwin
+  url: https://www.jetwin.com/en-us
+  image: jetwin.jpg
