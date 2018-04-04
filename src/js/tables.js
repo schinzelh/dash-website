@@ -83,6 +83,11 @@
 				if (!$resultRow) {
 					$('.js-exchange-row:hidden').slice(0, 6).show();
 					$('[data-btn="show-more"]').removeClass('hidden');
+					return;
+				}
+				if ($($resultRow).length > 6) {
+					$($resultRow).slice(0, 6).show();
+					$('[data-btn="show-more"]').removeClass('hidden').parent().removeClass('hidden');
 				} else {
 					$($resultRow).slice(0, 6).show();
 				}
