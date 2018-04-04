@@ -873,6 +873,8 @@ pages:
     stores-heading: Web Stores
     metals-heading: Precious Metals
     bills-heading: Bill Payments
+    payment-heading: Merchants Payment Gateways
+    prepaid-phone-heading: Reloading PrePaid Phone
     cards-disclaimer: >
       Disclaimer: Please check your country of residency with Card Providers due to limited distribution
 
@@ -1082,7 +1084,7 @@ nav:
   facebook: Facebook
   instagram: Instagram
   github: GitHub
-
+  jobs: Join Us
   tos: Terms of Use
   sitemap: Sitemap
   sitesource: Source code

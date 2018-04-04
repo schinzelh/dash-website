@@ -455,3 +455,22 @@
   fees: N/A
   image: styx24.jpg
   url: https://www.styx24.com
+
+- name: Indacoin
+  trading_pairs: BTC
+  fees: N/A
+  image: indacoin.jpg
+  url: https://indacoin.com/en_GB
+
+- name: Crex24
+  trading_pairs: BTC
+  fees: N/A
+  image: crex24.jpg
+  url: https://crex24.com/exchange/DASH-BTC
+
+- name: Bitit
+  trading_pairs: BTC
+  fees: N/A
+  image: bitit.jpg
+  url: https://bitit.io
+

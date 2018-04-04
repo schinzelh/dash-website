@@ -108,6 +108,17 @@
   dashforum: Bradley Zastrow
   team-title: DashCore Developers
 
+- name: Glenn Austin
+  title: CFO
+  description:
+  image: GlennAustin.jpg
+  email: glenn.austin@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /glennaustin.17900/
+  dashforum: glennaustin
+  team-title: DashCore Developers
+
 - name: Nathan Marley
   title: Lead Evolution Developer
   description: Nathan has 15+ years experience as a software developer and systems administrator working with primarily open-source systems, languages and platforms. He is vegan, and a passionate gardener and tea enthusiast.
@@ -194,17 +205,6 @@
   twitter:
   dashforum-link: /tomasz-ludek.4173/
   dashforum: tomasz-ludek
-  team-title: DashCore Developers
-
-- name: 0xfff
-  title: Evolution Frontend Developer
-  description: \"0xfff\" is a frontend-developer and designer. With a background in both Design and Computer Science he's able to deliver the whole process. From concept to design to implementation. He brings 5 years of experience doing work in an agency context and later as a freelancer.
-  image: anon.png
-  email: 0xfff@protonmail.com
-  keybase: https://keybase.io/0xfff
-  twitter:
-  dashforum-link: /0xfff.6497/
-  dashforum: 0xfff
   team-title: DashCore Developers
 
 - name: Alex Werner
@@ -384,7 +384,7 @@
   team-title: Administration + Support
 
 - name: Ivan Borovkov
-  title: Network Operations
+  title: Infrastructure Engineer
   description:
   image: ivanborovkov.jpg
   email: ivan@dash.org
@@ -395,7 +395,7 @@
   team-title: Administration + Support
 
 - name: Jeff Smith
-  title: Network Operations
+  title: Infrastructure Engineer
   description: Jeff (AKA “coingun”) has a computer science background with specialization in Network Operations and Distributed Dynamic Network Asset scaling. He comes to Dash with a decade of experience designing, developing, and deploying dynamically scaling web assets built around the LAMPS stack. He has a passion for security, cryptography, and hardware hacking.
   image: coingun.png
   email: jeff@dash.org
@@ -558,3 +558,4 @@
   dashforum-link: /splawik21.264/
   dashforum: splawik21
   team-title: Administration + Support
+

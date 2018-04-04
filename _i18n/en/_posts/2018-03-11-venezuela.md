@@ -1,0 +1,27 @@
+---
+author: tungfa
+layout: post
+image: "venezuelaMarch11.jpg"
+title: "Dash is breaching Opportunities for Venezuela"
+original-author:  Amram Carciente
+original-link: https://ebitnews.com/digital-wallets/dash-breaching-opportunities-venezuela/
+---
+
+
+"Dash is an opportunity for Venezuela "
+
+Currently, the organization is in a cycle of lectures on the cryptocurrency and Blockchain innovation, which points to advance its acknowledgment and ease of use. According to Eugenia Alcalá (CEO), the Dash Venezuela community is developing and has a good presence in a few states of the country.
+
+Dash Venezuela is committed to an information project, whose objective is the presentation of the cryptocurrency and Blockchain technology. Alcalá said that the ventures that Dash is carrying out in the nation are pointed at showing diverse arrangements to the issues confronted by Venezuelans on a day-to-day basis, beyond the financial challenges confronting the nation.
+
+The organization has advanced a few ventures in the nation, two of which have as of now been approved by the Dash Treasury. These are the cases of Colibit and Criptolifex, trade activities that seek for the integration of Dashin their platform. They would like to see activities endorsed that could encourage to move forward the daily life of Venezuelans, in perspectives such as open transport, sending remittances and purchases over the Web. Alcalá dreams that administration such as Mercadolibre and Nekso (
+
+Dash would like to see activities endorsed that could encourage to move forward the daily life of Venezuelans, in perspectives such as open transport, sending remittances and purchases over the Web. Alcalá dreams that administrations such as Mercadolibre and Nekso (an app that offers taxi benefit) begin to integrate the digital currency.
+
+"I think Dash can solve many problems that affect Venezuelans, not only the issue of the devaluation of the bolivar but the cash crisis or the collapse of the points of sale, also, we have more and more limitations regarding the number of bolivares (Venezuelan currency) that we can move ".
+
+The Dash Venezuela community offers free talks, conferences, and advice on cryptocurrency issues aimed at the entire Venezuelan population. The project, which began in June 2017, "has exceeded expectations" with massive attendance of up to 600 participants per event.
+
+Among other alliances with Dash, the founder says: "the most beautiful" are the social entrepreneurs: around five NGOs in Venezuela accept the cryptocurrency as a method of financial support.
+
+by; Amram Carciente
