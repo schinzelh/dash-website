@@ -1,0 +1,4 @@
+- name: Gocoin
+  title: Payment Gateways
+  url: https://dashboard.gocoin.com/login
+  image: gocoin.jpg

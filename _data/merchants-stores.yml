@@ -19,11 +19,6 @@
   url: http://www.parallelminer.com
   image: ParallelMiner.jpg
 
-- name: Algo Strategic
-  title: Algorithmic Internet Marketing Agency
-  url: https://algostrategic.com
-  image: AlgoStrategic.jpg
-
 - name: Cryptosteel
   title: Engraved Cold Storage
   url: http://cryptosteel.com
@@ -298,3 +293,8 @@
   title: Spend Dash anywhere online
   url: https://www.thebigcoin.io
   image: thebigcoin.jpg
+
+- name: Cheapair
+  title: Flights. Deals. Easy.
+  url: https://www.cheapair.com/
+  image: cheapair.jpg
