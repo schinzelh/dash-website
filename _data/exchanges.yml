@@ -503,3 +503,10 @@
   fees: N/A
   image: chaoex.png
   url: https://www.chaoex.com/home
+
+- name: Lbank
+  trading_pairs: BTC
+  fees: N/A
+  image: lbank.png
+  url: https://www.lbank.info
+
