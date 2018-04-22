@@ -88,3 +88,13 @@
 	color: $color-black !important;
 	border: 1px solid #b5b5b5
 }
+
+.btn-icon {
+	margin-right: 10px;
+	color: lighten($color-black, 40) !important;
+	transition: all .2s ease-in-out;
+	&:hover i {
+		color: lighten($color-black, 50) !important;
+		transform: scale(1.1);
+	}
+}
