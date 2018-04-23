@@ -12,7 +12,10 @@
 		{% endif %}
 	</div>
 
-	<div class="member__name" data-mh="member-name">{{ member.name }}</div>
+	<div class="member__name" data-mh="member-name">
+		{{ member.name }}
+		{% if member.board-member %}<span class="member__name-marked">*</span>{% endif%}
+	</div>
 	<div class="member__title" data-mh="member-title">{{ member.title }}</div>
 
 	<div class="member__description"></div>

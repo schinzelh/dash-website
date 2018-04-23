@@ -1023,6 +1023,14 @@ pages:
     pm: Project Managers
     business: Business Development
     support: Administration + Support
+    management: Management
+    development: Development
+    operations: Operations
+    marketing: Marketing
+    strategy: Strategy
+    finance: Finance
+    associated: Close Assosiated
+
 
 nav:
   what-is-dash: What is Dash

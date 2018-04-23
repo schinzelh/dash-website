@@ -1,0 +1,397 @@
+- name: UdjinM6
+  title: Lead Developer
+  description: Brings a total of 12 years of programming experience writing in-house tools for IT companies, user support and quality assurance.
+  image: udjinm6.png
+  email: udjinm6@dash.org
+  keybase: https://keybase.io/udjinm6
+  twitter:
+  dashforum-link: /udjinm6.811/
+  dashforum: udjinm6
+  team-title:
+    - Development
+  board-member: true
+
+- name: Nathan Marley
+  title: Lead Evolution Developer
+  description: Nathan has 15+ years experience as a software developer and systems administrator working with primarily open-source systems, languages and platforms. He is vegan, and a passionate gardener and tea enthusiast.
+  image: nathan.jpeg
+  email: nathan@dash.org
+  keybase: https://keybase.io/nmarley
+  twitter:
+  dashforum-link: /nmarley.1605/
+  dashforum: nmarley
+  team-title:
+    - Management
+    - Development
+
+- name: Crowning
+  title: Core Development / Testing
+  description: Crowning is trained in Computer Science and Mathematics and has 35 years of experience in software development in languages from C to Java, client/server architecture, databases, security, data encryption and rich web applications.
+  image: crowning.png
+  email: crowning@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /crowning.1102/
+  dashforum: crowning
+  team-title: 
+    - Development
+
+- name: Chae-Pil Lim
+  title: Core Development
+  description: Chaep-pil(AKA \"chaeplin\") has a degree in electronic engineering and over 15 years experience as a networkwork engineer.
+  image: chaeplin.jpeg
+  email: chaeplin@gmail.com
+  keybase: https://keybase.io/chaeplin
+  twitter:
+  dashforum-link: /chaeplin.206/
+  dashforum: chaeplin
+  team-title: 
+    - Development
+
+- name: Chuck Williams
+  title: Head of UI/UX Development
+  description: Codemonkey with a penchant for people.
+  image: chuckwilliams.jpg
+  email: chuck@dash.org
+  keybase: https://keybase.io/chuckwilliams
+  twitter:
+  dashforum-link: /chuck-williams.10154/
+  dashforum: ChuckWilliams
+  team-title:
+    - Development
+
+- name: TheLazieR
+  title: Core Developer
+  description: “thelazier” has a background in Freelance Programming, Security Admin in *nix, System Admin for ISP , System and Network Admin for Domain Registrar and Hosting Companies, IT Infrastructure for Card Payment Company for 2 year, IT Infrastructure for Television Broadcaster. Now he works as Project Manager for Card Management System Software.
+  image: thelazier.jpeg
+  email: thelazier@gmail.com
+  keybase: https://keybase.io/thelazier
+  twitter:
+  dashforum-link: /thelazier.2745/
+  dashforum: thelazier
+  team-title: 
+    - Development
+
+- name: Cofresi
+  title: Evolution Backend Developer
+  description: While his academic background is in Chinese Studies, Political Science and International Law, \"Cofresi\" has been working for 15 years with different technologies in the telecom industry as a systems administrator and webmaster, for the most part concentrating on client/server backends and database administration.
+  image: cofresi.png
+  email: cofresi@dash.org
+  keybase: https://keybase.io/cofresi
+  twitter:
+  dashforum-link: /cofres%C3%AD.2052/
+  dashforum: cofresi
+  team-title:
+    -Development
+
+- name: Quantum Explorer
+  title: iOS Developer
+  description: QuantumExplorer is a Lead Software Engineer with over 2 years experience leading teams and 6 years experience developing iOS solutions. He has built many successful in-house projects that served multiple millions of users. By night he is a cryptocurrency aficionado who believes that our current economic system is flawed and could be greatly improved by emerging technology. He believes that Dash is the leader of this trend.
+  image: anon.png
+  email: quantumexplorerdash@gmail.com
+  keybase: https://keybase.io/quantumexplorer
+  twitter:
+  dashforum-link: /quantumexplorer.2025/
+  dashforum: quantumexplorer
+  team-title:
+    - Development
+
+- name: Tomasz Ludek
+  title: Android Developer
+  description: \"Tomasz\" is an experienced software craftsman, bringing 7 years of commercial experience with Android and excellent practical knowledge of Java. He is a passionate programmer with a proven ability to develop efficient, stable, and user-friendly software. In his spare time he likes to play tri-sport.
+  image: tomasz.png
+  email: tomasz@dash.org
+  keybase: https://keybase.io/tomaszludek
+  twitter:
+  dashforum-link: /tomasz-ludek.4173/
+  dashforum: tomasz-ludek
+  team-title: 
+    - Development
+
+- name: Alex Werner
+  title: Evolution Backend Lead
+  description: Alex ("Obusco") has a degree in computing science and has been working for the last 8 years, as a self-taught web-freelancer (during his study), then tried his way for a good ol' IT service before quickly switching into the french start-up sphera as a full-stack developer.
+  image: alex_werner.png
+  email: alex.werner@dash.org
+  keybase: https://keybase.io/awerner
+  twitter:  https://twitter.com/obusco
+  dashforum-link: /obusco.6751/
+  dashforum: obusco
+  team-title: 
+    - Development
+
+- name: Joshua Seigler
+  title: Evolution Frontend Developer
+  description: \"Joshua\" has a degree in computer science and mathematics, and six years of professional experience in web development. He likes decentralized, permissionless systems, teaching, learning, board games, the internet, and the Oxford comma.
+  image: joshua.png
+  email: joshua@seigler.net
+  keybase: https://keybase.io/joshuaseigler
+  twitter:
+  dashforum-link: /j0shua.4693/
+  dashforum: j0shua
+  team-title:
+    - Development
+
+- name: Akhavr
+  title: Developer
+  description:
+  image: akhavr.jpeg
+  email: akhavr@gmail.com
+  keybase:
+  twitter:
+  dashforum-link: /akhavr.2324/
+  dashforum: akhavr
+  team-title:
+    - Development
+
+- name: Pierre van Rooyen
+  title: Evolution Backend Developer
+  description:
+  image: pierre.png
+  email: pierre@dash.org
+  keybase: https://keybase.io/pvrooyen
+  twitter:
+  dashforum-link: /pierre.12961/
+  dashforum: pierre
+  team-title:
+    - Development
+
+- name: gladcow
+  title: Core Developer
+  description:
+  image: jahr.png
+  email: sergey@dash.org
+  keybase: https://keybase.io/gladcow
+  twitter:
+  dashforum-link: /jahr.13007/
+  dashforum: jahr
+  team-title:
+    - Development
+
+- name: Oleg Girko
+  title: Dash Core Developer
+  description:
+  image: oleg.png
+  email: ol@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /ol.13002/
+  dashforum: ol
+  team-title: 
+    - Development
+
+- name: Darren Tapp
+  title: Research
+  description:
+  image: darren.jpg
+  email: darren@dash.org
+  keybase: https://keybase.io/darren_tapp
+  twitter:
+  dashforum-link: /darren.5875/
+  dashforum: darren
+  team-title: 
+    - Development
+
+- name: Will Wray
+  title: Core C++ Dev
+  description:
+  image: WillWray.jpg
+  email: will@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /doodlefax.14057/
+  dashforum: doodlefax
+  team-title: 
+    - Development
+
+- name: Ian Marshall
+  title: Evolution DashDrive Developer
+  description:
+  image: meian.jpg
+  email: ian@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /imarshall.14947/
+  dashforum: imarshall
+  team-title: 
+    - Development
+
+- name: Alexander Block
+  title: Core Developer
+  description:
+  image: codablocker.jpeg
+  email: alexander.block@dash.org
+  keybase: https://keybase.io/codablock
+  twitter:
+  dashforum-link: /codablock.12000/
+  dashforum: codablock
+  team-title:
+    - Development
+
+- name: Ilya Savinov
+  title: Core Developer
+  description:
+  image:
+  email: ilya@dash.org
+  keybase: https://keybase.io/schnibble
+  twitter:
+  dashforum-link: /schnibble.13003/
+  dashforum: schnibble
+  team-title: 
+    - Development
+
+- name: Kamuela Franco
+  title: Evolution Backend Developer
+  description:
+  image: kamuela.jpg
+  email: kamuela.franco@dash.org
+  keybase: https://keybase.io/kamuela
+  twitter:
+  dashforum-link: /kamuela.18261/
+  dashforum: kamuela
+  team-title: 
+    - Development
+
+- name: David Rey Acosta
+  title: DashDrive Developer
+  description: 
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum: 
+  team-title:
+    - Development
+
+- name: Ivan Shumkov
+  title: DashDrive Developer
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development
+
+- name: Anton Suprunchuk
+  title:
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development
+
+- name: Sam Barbosa
+  title: Android Developer
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development
+
+- name: Guilemon Villemin
+  title:
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development
+
+- name: Eric Britten
+  title:
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development
+
+- name: Andrew Podkovyrin
+  title: iOS Developer
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development
+
+- name: Denis Stepanov
+  title:
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development
+
+- name: Suba Radhakrishnan
+  title:
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development
+
+- name: Chris Adam
+  title:
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development
+
+- name: thepherz
+  title:
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development
+
+- name: Pablo Lema
+  title:
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Development

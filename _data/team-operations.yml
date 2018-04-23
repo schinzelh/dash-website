@@ -1,0 +1,191 @@
+- name: Charif El MaMouni
+  title: Head of Infrastructure
+  description:
+  image: charif.png
+  email: charif@dash.org
+  keybase: https://keybase.io/charif
+  twitter:
+  dashforum-link: /charif.25894/
+  dashforum: Charif
+  team-title:
+    - Operations
+
+- name: Alexander Hirsch
+  title:
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Operations
+
+- name: Luba S.
+  title: Project Manager
+  description:
+  image: rainbow_dash.jpg
+  email: luba@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /luba.14579/
+  dashforum: luba
+  team-title:
+    - Operations
+
+- name: Alexandre Devilliers
+  title: Testing and Deployment
+  description: Alexandre (AKA “elbereth”) has computer science and management degree and 10 years of IT consulting experience. He operates the most used Masternode tools site.
+  image: alexandre.png
+  email: elberethz@dashninja.pl
+  keybase: https://keybase.io/elbereth
+  twitter:
+  dashforum-link: /elbereth.175/
+  dashforum: elbereth
+  team-title:
+    - Operations
+
+- name: Ivan Borovkov
+  title: Infrastructure Engineer
+  description:
+  image: ivanborovkov.jpg
+  email: ivan@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /v2nek.18326/
+  dashforum: v2nek
+  team-title:
+    - Operations
+
+- name: Jeff Smith
+  title: Infrastructure Engineer
+  description: Jeff (AKA “coingun”) has a computer science background with specialization in Network Operations and Distributed Dynamic Network Asset scaling. He comes to Dash with a decade of experience designing, developing, and deploying dynamically scaling web assets built around the LAMPS stack. He has a passion for security, cryptography, and hardware hacking.
+  image: coingun.png
+  email: jeff@dash.org
+  keybase: https://keybase.io/coingun
+  twitter:
+  dashforum-link: /coingun.1715/
+  dashforum: coingun
+  team-title:
+    - Operations
+
+- name: Balu
+  title: Project Manager
+  description: Balazs (AKA \"balu\") has an MSc. in Finance, and brings 7 years of experience working in mostly IT projects. He's a PSM-II certified Scrum Master who loves spending his time helping development teams increase their efficiency. He's an avid fan of fintech, self-improvement, and good food.
+  image: balu.png
+  email: balu@dash.org
+  keybase: https://keybase.io/balu
+  twitter:
+  dashforum-link: /balu.2312/
+  dashforum: balu
+  team-title:
+    - Operations
+
+- name: Janusz Piasecki
+  title: Project Manager
+  description:
+  image: janusz.jpg
+  email: janusz.piasecki@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /janusz.17557/
+  dashforum: janusz
+  team-title:
+    - Operations
+
+- name: David Dinkins
+  title: Writer / Editor
+  description: David Dinkins (AKA \"ddink7\") works in retail management, and has his master's degree in history. He has been part of the Dash project since a few months after its inception. His role is primarily writing and editing. David is also currently working on his MBA.
+  image: david.jpg
+  email: david@dashpay.io
+  keybase: https://keybase.io/ddink7
+  twitter:
+  dashforum-link: /david.1517/
+  dashforum: david
+  team-title:
+    - Operations
+
+- name: Perry Woodin
+  title: Advisor
+  description: Co-founder of <a href=\"https://node40.com\" target=\"_blank\">Node40</a>
+  image: perry_sm.jpg
+  email: perry@node40.com
+  keybase: https://keybase.io/perrywoodin
+  twitter:
+  dashforum-link: /orangecycle.2279/
+  dashforum:
+  team-title:
+    - Operations
+
+- name: Etherdesign
+  title: Graphic Design / UX
+  description:
+  image: eth.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Operations
+
+- name: Slawek
+  title: Testing and Deployment
+  description: Slawek (AKA \“splawik21\”) has a degree in management &amp; marketing. He brings 6 years of experience as a team leader in direct sales and another 5 years on leadership positions in automotive industry. IT hobbyist, Polish Dash sub-forum founder and crypto-currency enthusiast.
+  image: splawik21.png
+  email: splawik21@dash.org
+  keybase: https://keybase.io/splawik21
+  twitter:
+  dashforum-link: /splawik21.264/
+  dashforum: splawik21
+  team-title:
+    - Operations
+
+- name: Olga Gnezdyonova
+  title: Quality Assurance, Automation, Testing
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Operations
+
+- name: Djavid Gabibiyan
+  title: Quality Assurance, Automation, Testing
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Operations
+
+- name: Kira Bronskaia
+  title: Quality Assurance, Automation, Testing
+  description:
+  image: kira.jpg
+  email: kira.bronskaya@dash.org
+  keybase: https://keybase.io/kapusha
+  twitter:
+  dashforum-link: /kira.17471/
+  dashforum: Kira
+  team-title:
+    - Operations
+
+- name: MooCowMoo
+  title: Support / Testing
+  description: Has two decades experience developing backend software and custom toolchains for automating development, testing, and deployment. He built the first automated masternode service masternode.me and is the author of dashman, a masternode management utility and dashvend, example point-of-sale software leveraging InstantX. He is self taught in computer science, cryptography, software engineering, and electrical engineering with primary focuses in Linux, Bash, Python, git, and vim.
+  image: moo.png
+  email: moo@dash.org
+  keybase: https://keybase.io/moocowmoo
+  twitter:
+  dashforum-link: /moocowmoo.1413/
+  dashforum: moocowmoo
+  team-title:
+    - Operations

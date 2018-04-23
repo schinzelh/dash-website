@@ -5,20 +5,29 @@ description: pages.team.description
 ---
 
 {% include hero/team.html %}
-{% assign coredao = site.data.team | where:"team-title","Dash Core DAO Management" %}
-{% assign coredev = site.data.team | where:"team-title","DashCore Developers" %}
-{% assign support = site.data.team | where:"team-title","Administration + Support" %}
+{% assign team = site.data.team-management | concat: site.data.team-development | concat: site.data.team-operations | concat: site.data.team-marketing | concat: site.data.team-business | concat: site.data.team-strategy | concat: site.data.team-hr | concat: site.data.team-associated %}
 
+{% assign management = team | where:"team-title","Management" %}
+{% assign development = team | where:"team-title","Development" %}
+{% assign operations = team | where:"team-title","Operations" %}
+{% assign marketing = team | where:"team-title","Marketing" %}
+{% assign business = team | where:"team-title","Business Development" %}
+{% assign strategy = team | where:"team-title","Strategy" %}
+{% assign hr = team | where:"team-title","Human Resources" %}
+{% assign finance = team | where:"team-title","Finance" %}
+{% assign associated = team | where:"team-title","Close Associated" %}
 
 <div class="page page--team">
-
 	<section class="section section--intro-lead">
 		<div class="section__content content">
 			<div class="section__intro">
-				<h2 class="section__title">{% t pages.team.coredao %}</h2>
+				<h2 class="section__title">{% t pages.team.management %}</h2>
+				<p class="warning-bg text-left">Dash is a decentralized open source project with a governance and funding mechanism that fosters the creation of indepentent entities that serve the network. Dash Core Group Inc. leads development and maintenance of the project, but there are other oganizations whose members are not listed here.
+				</p>
+				<p class="text-left">Board members marked with (*)</p>
 			</div>
 			<ul class="member-list">
-				{% for member in coredao %}
+				{% for member in management %}
 					{% include member-list.html %}
 				{% endfor %}
 			</ul>
@@ -26,25 +35,92 @@ description: pages.team.description
 
 		<div class="section__content content">
 			<div class="section__intro">
-				<h2 class="section__title">{% t pages.team.coredev %}</h2>
+				<h2 class="section__title">{% t pages.team.development %}</h2>
 			</div>
 			<ul class="member-list">
-				{% for member in coredev %}
+				{% for member in development %}
 					{% include member-list.html %}
 				{% endfor %}
 			</ul>
 		</div>
- 
+
 		<div class="section__content content">
 			<div class="section__intro">
-				<h2 class="section__title">{% t pages.team.support %}</h2>
+				<h2 class="section__title">{% t pages.team.operations %}</h2>
 			</div>
 			<ul class="member-list">
-				{% for member in support %}
+				{% for member in operations %}
 					{% include member-list.html %}
 				{% endfor %}
 			</ul>
 		</div>
+
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.team.marketing %}</h2>
+			</div>
+			<ul class="member-list">
+				{% for member in marketing %}
+					{% include member-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.team.business %}</h2>
+			</div>
+			<ul class="member-list">
+				{% for member in business %}
+					{% include member-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.team.strategy %}</h2>
+			</div>
+			<ul class="member-list">
+				{% for member in strategy %}
+					{% include member-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.team.finance %}</h2>
+			</div>
+			<ul class="member-list">
+				{% for member in finance %}
+					{% include member-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.team.hr %}</h2>
+			</div>
+			<ul class="member-list">
+				{% for member in hr %}
+					{% include member-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.team.associated %}</h2>
+			</div>
+			<ul class="member-list">
+				{% for member in associated %}
+					{% include member-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+
 	</section>
 
 </div>
