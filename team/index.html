@@ -5,7 +5,7 @@ description: pages.team.description
 ---
 
 {% include hero/team.html %}
-{% assign team = site.data.team-management | concat: site.data.team-development | concat: site.data.team-operations | concat: site.data.team-marketing | concat: site.data.team-business | concat: site.data.team-strategy | concat: site.data.team-hr | concat: site.data.team-associated %}
+{% assign team = site.data.team-management | concat: site.data.team-development | concat: site.data.team-operations | concat: site.data.team-marketing | concat: site.data.team-business | concat: site.data.team-strategy | concat: site.data.team-hr | concat: site.data.team-associated | concat: site.data.team-advisor %}
 
 {% assign management = team | where:"team-title","Management" %}
 {% assign development = team | where:"team-title","Development" %}
@@ -16,6 +16,7 @@ description: pages.team.description
 {% assign hr = team | where:"team-title","Human Resources" %}
 {% assign finance = team | where:"team-title","Finance" %}
 {% assign associated = team | where:"team-title","Close Associated" %}
+{% assign advisor = team | where:"team-title","Advisor" %}
 
 <div class="page page--team">
 	<section class="section section--intro-lead">
@@ -116,6 +117,17 @@ description: pages.team.description
 			</div>
 			<ul class="member-list">
 				{% for member in associated %}
+					{% include member-list.html %}
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="section__content content">
+			<div class="section__intro">
+				<h2 class="section__title">{% t pages.team.advisor %}</h2>
+			</div>
+			<ul class="member-list">
+				{% for member in advisor %}
 					{% include member-list.html %}
 				{% endfor %}
 			</ul>

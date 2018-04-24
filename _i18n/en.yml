@@ -1030,7 +1030,7 @@ pages:
     strategy: Strategy
     finance: Finance
     associated: Close Assosiated
-
+    advisor: Senior Advisor
 
 nav:
   what-is-dash: What is Dash
