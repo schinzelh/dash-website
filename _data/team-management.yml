@@ -11,20 +11,6 @@
     - Management
   board-member: true
 
-- name: Andy Freer
-  title: CTO
-  description: Andy has 17 years experience as a developer and 12 years as a CTO in the E-commerce, Web, SaaS, ERP, P2P streaming, Supply Chain and Games spaces.
-  image: andy_f.png
-  email: andy@dash.org
-  keybase: https://keybase.io/andyfreer
-  twitter:
-  dashforum-link: /andydark.2146/
-  dashforum: andydark
-  team-title: 
-    - Management
-    - Development
-  board-member: true
-
 - name: Holger Schinzel
   title: Quality Assurance, Automation, Testing
   description: Holger (AKA “flare”) has a degree in applied computer science and brings 7 years of experience in IT quality management and testing.

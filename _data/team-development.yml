@@ -1,3 +1,16 @@
+- name: Nathan Marley
+  title: Deputy CTO
+  description: Nathan has 15+ years experience as a software developer and systems administrator working with primarily open-source systems, languages and platforms. He is vegan, and a passionate gardener and tea enthusiast.
+  image: nathan.jpeg
+  email: nathan@dash.org
+  keybase: https://keybase.io/nmarley
+  twitter:
+  dashforum-link: /nmarley.1605/
+  dashforum: nmarley
+  team-title:
+    - Development
+    - Management
+
 - name: UdjinM6
   title: Lead Developer
   description: Brings a total of 12 years of programming experience writing in-house tools for IT companies, user support and quality assurance.
@@ -11,18 +24,19 @@
     - Development
   board-member: true
 
-- name: Nathan Marley
-  title: Lead Evolution Developer
-  description: Nathan has 15+ years experience as a software developer and systems administrator working with primarily open-source systems, languages and platforms. He is vegan, and a passionate gardener and tea enthusiast.
-  image: nathan.jpeg
-  email: nathan@dash.org
-  keybase: https://keybase.io/nmarley
+- name: Andy Freer
+  title: Architect
+  description: Andy has 17 years experience as a developer and 12 years as a CTO in the E-commerce, Web, SaaS, ERP, P2P streaming, Supply Chain and Games spaces.
+  image: andy_f.png
+  email:
+  keybase: https://keybase.io/andyfreer
   twitter:
-  dashforum-link: /nmarley.1605/
-  dashforum: nmarley
+  dashforum-link: /andydark.2146/
+  dashforum: andydark
   team-title:
-    - Management
     - Development
+    - Management
+  board-member: true
 
 - name: Crowning
   title: Core Development / Testing
