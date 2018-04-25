@@ -527,3 +527,10 @@
   fees: N/A
   image: omnitrade.jpg
   url: https://www.omnitrade.io/
+
+- name: Btcbit
+  trading_pairs: BTC
+  fees: N/A
+  image: btcbit.png
+  url: https://btcbit.net/
+
