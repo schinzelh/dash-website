@@ -47,7 +47,7 @@
   twitter:
   dashforum-link: /crowning.1102/
   dashforum: crowning
-  team-title: 
+  team-title:
     - Development
 
 - name: Chae-Pil Lim
@@ -59,7 +59,7 @@
   twitter:
   dashforum-link: /chaeplin.206/
   dashforum: chaeplin
-  team-title: 
+  team-title:
     - Development
 
 - name: Chuck Williams
@@ -83,7 +83,7 @@
   twitter:
   dashforum-link: /thelazier.2745/
   dashforum: thelazier
-  team-title: 
+  team-title:
     - Development
 
 - name: Cofresi
@@ -96,12 +96,12 @@
   dashforum-link: /cofres%C3%AD.2052/
   dashforum: cofresi
   team-title:
-    -Development
+    - Development
 
 - name: Quantum Explorer
   title: iOS Developer
   description: QuantumExplorer is a Lead Software Engineer with over 2 years experience leading teams and 6 years experience developing iOS solutions. He has built many successful in-house projects that served multiple millions of users. By night he is a cryptocurrency aficionado who believes that our current economic system is flawed and could be greatly improved by emerging technology. He believes that Dash is the leader of this trend.
-  image: anon.png
+  image: quantumexplorer.jpg
   email: quantumexplorerdash@gmail.com
   keybase: https://keybase.io/quantumexplorer
   twitter:
@@ -119,7 +119,7 @@
   twitter:
   dashforum-link: /tomasz-ludek.4173/
   dashforum: tomasz-ludek
-  team-title: 
+  team-title:
     - Development
 
 - name: Alex Werner
@@ -131,7 +131,7 @@
   twitter:  https://twitter.com/obusco
   dashforum-link: /obusco.6751/
   dashforum: obusco
-  team-title: 
+  team-title:
     - Development
 
 - name: Joshua Seigler
@@ -191,7 +191,7 @@
   twitter:
   dashforum-link: /ol.13002/
   dashforum: ol
-  team-title: 
+  team-title:
     - Development
 
 - name: Darren Tapp
@@ -203,7 +203,7 @@
   twitter:
   dashforum-link: /darren.5875/
   dashforum: darren
-  team-title: 
+  team-title:
     - Development
 
 - name: Will Wray
@@ -215,7 +215,7 @@
   twitter:
   dashforum-link: /doodlefax.14057/
   dashforum: doodlefax
-  team-title: 
+  team-title:
     - Development
 
 - name: Ian Marshall
@@ -227,7 +227,7 @@
   twitter:
   dashforum-link: /imarshall.14947/
   dashforum: imarshall
-  team-title: 
+  team-title:
     - Development
 
 - name: Alexander Block
@@ -242,18 +242,6 @@
   team-title:
     - Development
 
-- name: Ilya Savinov
-  title: Core Developer
-  description:
-  image:
-  email: ilya@dash.org
-  keybase: https://keybase.io/schnibble
-  twitter:
-  dashforum-link: /schnibble.13003/
-  dashforum: schnibble
-  team-title: 
-    - Development
-
 - name: Kamuela Franco
   title: Evolution Backend Developer
   description:
@@ -263,18 +251,18 @@
   twitter:
   dashforum-link: /kamuela.18261/
   dashforum: kamuela
-  team-title: 
+  team-title:
     - Development
 
-- name: David Rey Acosta
+- name: David Rey
   title: DashDrive Developer
-  description: 
-  image: anon.png
-  email:
-  keybase:
+  description:
+  image: DavidRey.jpg
+  email: david.rey@dash.org
+  keybase: https://keybase.io/dreyacosta
   twitter:
-  dashforum-link:
-  dashforum: 
+  dashforum-link: /dreyacosta.24889/
+  dashforum: dreyacosta
   team-title:
     - Development
 
@@ -291,26 +279,26 @@
     - Development
 
 - name: Anton Suprunchuk
-  title:
+  title: Evolution Backend Developer
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: AntonSuprunchuk.jpg
+  email: anton.suprunchuk@dash.org
+  keybase: https://keybase.io/antouhou
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /antouhou.18068/
+  dashforum: antouhou
   team-title:
     - Development
 
 - name: Sam Barbosa
   title: Android Developer
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: SamBarbosa.jpg
+  email: sam.barbosa@dash.org
+  keybase: https://keybase.io/sambarboza
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /samuel-barbosa.22315/
+  dashforum: samuel-barbosa
   team-title:
     - Development
 
@@ -326,39 +314,27 @@
   team-title:
     - Development
 
-- name: Eric Britten
-  title:
-  description:
-  image: anon.png
-  email:
-  keybase:
-  twitter:
-  dashforum-link:
-  dashforum:
-  team-title:
-    - Development
-
 - name: Andrew Podkovyrin
   title: iOS Developer
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: AndrewPodkovyrin.jpg
+  email: andrew.podkovyrin@dash.org
+  keybase: https://keybase.io/podkovyrin
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /podkovyrin.25920/
+  dashforum: podkovyrin
   team-title:
     - Development
 
 - name: Denis Stepanov
-  title:
+  title: Mobile Developer
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: DenisStepanov.jpg
+  email: denis.stepanov@dash.org
+  keybase: https://keybase.io/stdenis
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /stdenis.25972/
+  dashforum: stdenis
   team-title:
     - Development
 
@@ -386,26 +362,14 @@
   team-title:
     - Development
 
-- name: thepherz
-  title:
+- name: thephez
+  title: Technical Content Developer
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: thephez.png
+  email: thephez@dash.org
+  keybase: https://keybase.io/thephez
   twitter:
-  dashforum-link:
-  dashforum:
-  team-title:
-    - Development
-
-- name: Pablo Lema
-  title:
-  description:
-  image: anon.png
-  email:
-  keybase:
-  twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /thephez.4665/
+  dashforum: thephez
   team-title:
     - Development
