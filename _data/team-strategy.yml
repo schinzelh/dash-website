@@ -2,36 +2,36 @@
   title:
   description:
   image: anon.png
-  email:
+  email: alexander.chopan@dash.org
   keybase:
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /alexander-chopan.15335/
+  dashforum: alexander-chopan
   team-title:
     - Management
     - Strategy
 
 - name: Hunter Colleran
-  title:
+  title: Business Strategy Intern
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: HunterColleran.jpg
+  email: hunter.colleran@dash.org
+  keybase: https://keybase.io/huntercolleran
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /huntercolleran.18823/
+  dashforum: huntercolleran
   team-title:
     - Strategy
 
 - name: Elizabeth Robuck
-  title:
+  title: Product Manager
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: ElizabethRobuck.jpg
+  email: elizabeth.robuck@dash.org
+  keybase: https://keybase.io/lizro
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /liz-r.24041/
+  dashforum: liz-r
   team-title:
     - Strategy
 

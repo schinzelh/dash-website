@@ -13,7 +13,7 @@
 - name: Alexander Hirsch
   title:
   description:
-  image: anon.png
+  image: AlexanderHirsch.jpg
   email:
   keybase:
   twitter:
@@ -187,5 +187,17 @@
   twitter:
   dashforum-link: /moocowmoo.1413/
   dashforum: moocowmoo
+  team-title:
+    - Operations
+
+- name: Pablo Lema
+  title: Head of Service Desk
+  description:
+  image: PableLema.jpg
+  email: Pablo@Dash.org
+  keybase: https://keybase.io/fible1
+  twitter:
+  dashforum-link: /fible1.666/
+  dashforum: fible1
   team-title:
     - Operations
