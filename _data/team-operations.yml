@@ -145,12 +145,12 @@
 - name: Olga Gnezdyonova
   title: Quality Assurance, Automation, Testing
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: OlgaGnezdyonova.jpg
+  email: olga.gnezdyonova@dash.org
+  keybase: https://keybase.io/profiler
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /profiler.26134/
+  dashforum: profiler
   team-title:
     - Operations
 
@@ -201,3 +201,4 @@
   dashforum: fible1
   team-title:
     - Operations
+

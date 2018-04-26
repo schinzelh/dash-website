@@ -269,12 +269,12 @@
 - name: Ivan Shumkov
   title: DashDrive Developer
   description:
-  image: anon.png
+  image: shumkov.jpg
   email:
   keybase:
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /ivan-shumkov.22383/
+  dashforum: ivan-shumkov
   team-title:
     - Development
 
@@ -371,5 +371,17 @@
   twitter:
   dashforum-link: /thephez.4665/
   dashforum: thephez
+  team-title:
+    - Development
+    
+- name: hashengineering
+  title: Android Developer
+  description:
+  image: HashEngineering.png
+  email: eric.britten@dash.org
+  keybase: 
+  twitter:
+  dashforum-link: /hashengineering.463/
+  dashforum: hashengineering
   team-title:
     - Development
