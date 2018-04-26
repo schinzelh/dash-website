@@ -449,7 +449,8 @@ pages:
 
     video-heading: MISSION
     video-text: Evolution’s mission is to make digital cash easy to use and access for all users, even those who aren’t technologically savvy. Anybody will be able to setup an account on the blockchain, add contacts and pay them by name. Purchases from websites or mobile apps will be simple, requiring only a single click.
-    video-btn: Prototype Video
+    prototype-video-1: Prototype Video 1
+    prototype-video-2: Prototype Video 2
     video-btn2: Wallet Preview
     sentinel-btn: Sentinel
 
