@@ -23,7 +23,14 @@ $m: 'member';
 		@include font-claim();
 		// color: $color-blue;
 		margin-bottom: 5px;
-    	word-wrap: break-word;
+		word-wrap: break-word;
+	}
+
+	&__name-marked {
+		vertical-align: super;
+		font-size: 0.8em;
+		text-align: center;
+		font-weight: 400;
 	}
 
 	&__title {

@@ -19,11 +19,6 @@
   url: http://www.parallelminer.com
   image: ParallelMiner.jpg
 
-- name: Algo Strategic
-  title: Algorithmic Internet Marketing Agency
-  url: https://algostrategic.com
-  image: AlgoStrategic.jpg
-
 - name: Cryptosteel
   title: Engraved Cold Storage
   url: http://cryptosteel.com
@@ -268,3 +263,44 @@
   title: Chicagos BEER HALL
   url: https://www.dasradler.com/
   image: dasradler.png
+
+- name: Man Cave Cargo
+  title: T Shirts
+  url: https://mancavecargo.com/
+  image: mancave.jpg
+
+- name: Check Coin
+  title: Online store
+  url: https://check-coin.com/
+  image: CheckCoin.jpg
+
+- name: Max5dollars
+  title: Online store
+  url: https://www.max5dollars.com/shop/
+  image: max5dollar.jpg
+
+- name: Vaporizers Direct
+  title: Vaporizer Store
+  url: https://vaporizersdirect.com.au
+  image: vaporizerAU.jpg
+
+- name: Insight Media
+  title: Dedicated music
+  url: https://www.insight-media.co/
+  image: insight.jpg
+
+- name: Thebigcoin
+  title: Spend Dash anywhere online
+  url: https://www.thebigcoin.io
+  image: thebigcoin.jpg
+
+- name: Cheapair
+  title: Flights. Deals. Easy.
+  url: https://www.cheapair.com/
+  image: cheapair.jpg
+
+- name: Actionart
+  title: Videos into a Flipbook
+  url: https://www.actionart.com.au/
+  image: flipbooks-action-art.png
+

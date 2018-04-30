@@ -1,0 +1,7 @@
+- name: Piiko
+  url: https://www.piiko.co/
+  image: piko.jpg
+
+- name: Bitrefill
+  url: https://en.bitrefill.com/
+  image: bitrefill-logo.jpg

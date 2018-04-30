@@ -260,6 +260,383 @@
 #      label: PGP
 #      url: "/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.asc"
 
+- name: Dash Core
+  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
+  logo_url: /assets/img/dash_circle_normal.png
+  os: osx
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core
+  control_type: full
+  validation_type: full
+  access_type: p2p
+  product_label: Dash Core
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: Download DMG
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.2.3/dashcore-0.12.2.3-osx.dmg"
+    -
+      label: Hash File
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.2.3/SHA256SUMS.asc"
+    -
+      label: PGP
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.2.3/dashcore-0.12.2.3-osx.dmg.asc"
+
+#- name: Dash Electrum
+#  description: Dash Core "Light" Wallet, provides basic payment functions with SPV based security for low powered systems.
+#  logo_url: /assets/img/wallets/electrum_banner.png
+#  os: osx
+#  type: desktop
+#  vendor_id: dash_core
+#  vendor_label: Dash Core
+#  control_type: full
+#  validation_type: full
+#  access_type: p2p
+#  product_id: dash_electrum
+#  product_label: Dash Electrum
+#  product_source_url: "https://github.com/dashpay/electrum-dash"
+#  links:
+#    -
+#      label: Download PKG
+#      url: "/binaries/Electrum-DASH-2.4.1-Installer.pkg"
+#    -
+#      label: Hash File
+#      url: "/binaries/Electrum-DASH-2.4.1-Installer.pkg.DIGESTS.txt"
+#    -
+#      label: PGP
+#      url: "/binaries/Electrum-DASH-2.4.1-Installer.pkg.asc"
+
+- name: Dash Wallet by Hash Engineering
+  description: |
+    Have your Dash always with you, in your pocket! You pay by quickly scanning a QR code. As a merchant, you receive payments reliably and instantly. Dash Wallet is the first mobile Dash app, and arguably also the most secure! (Requires Android 4 or higher)
+     FEATURES
+    • InstantSend available
+    • No registration, web service or cloud needed! This wallet is de-centralized and peer to peer.
+    • Display of Dash amount in DASH, mDASH and µDASH.
+    • Conversion to and from national currencies.
+    • Sending and receiving of Dash via NFC, QR codes or Dash URLs.
+    • Address book for regularly used Dash addresses.
+    • When you're offline, you can still pay via Bluetooth.
+    • System notification for received coins.
+    • Sweeping of paper wallets (e.g. those used for cold storage).
+    • App widget for Dash balance.
+  logo_url: /assets/img/dash_circle_normal.png
+  os: android
+  type: mobile
+  vendor_id: hash_engineering_solutions
+  vendor_label: Hash Engineering Solutions
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: dash_android_wallet
+  product_label: Dash Wallet
+  product_source_url: "https://github.com/HashEngineering/dash-wallet"
+  links:
+    -
+      label: Google Play Download
+      url: "https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet"
+
+- name: Dash Core iOS
+  description: |
+    <p>
+    Official Dash Core
+    </p>
+    Dashwallet is the first and only iPhone wallet which connects directly to the dash network. This means that there are no servers to get hacked or go down - your funds are always safe. Even if your phone is lost, damaged or stolen, you can easily recover your funds using your personal recovery phrase.
+  logo_url: "/assets/img/wallets/dash-ios.jpeg"
+  os: ios
+  type: mobile
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
+  product_id: dash_core_ios
+  product_label: Dash Core iOS
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: AppStore
+      url: "http://itunes.apple.com/us/app/dash-wallet/id1206647026"
+
+- name: Dash Electrum
+  description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
+  logo_url: /assets/img/wallets/electrum.jpg
+  os: osx
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: spv
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_source_url: "https://github.com/akhavr/electrum-dash"
+  links:
+    -
+     label: Download DMG
+     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.4/electrum-dash-2.9.4-macosx.dmg"
+
+- name: Dash Electrum
+  description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
+  logo_url: /assets/img/wallets/electrum.jpg
+  os: linux
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_source_url: "https://github.com/akhavr/electrum-dash"
+  links:
+    -
+     label: Download TGZ
+     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.4/Electrum-DASH-2.9.4.tar.gz"
+
+- name: Dash Electrum
+  description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
+  logo_url: /assets/img/wallets/electrum.jpg
+  os: win64
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: dash_electrum
+  product_label: Dash Electrum
+  product_source_url: "https://github.com/akhavr/electrum-dash"
+  links:
+    -
+     label: Download Installer
+     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.4/electrum-dash-2.9.4-setup.exe"
+
+- name: Edge Wallet
+  description: |
+    Super-user friendly multi-asset wallet (Dash, Bitcoin, Ethereum, and more) from the folks that brought you the Airbitz Bitcoin Wallet.
+     FEATURES
+    • Log in with username and password
+    • Pin or fingerprint access.
+    • "Edge Secure" 2-factor authentication
+    • Segwit enabled for BTC and LTC
+    • In app exchange of assets (Shapeshift)
+    • Open source!
+     COMING FEATURES
+    • Transaction history reports
+    • In app fiat exchange
+    • Spending limits
+    • and more...
+  logo_url: "/assets/img/wallets/edge.png"
+  os: android
+  type: mobile
+  vendor_id: edge
+  vendor_label: Edge (Airbitz)
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: edge_wallet
+  product_label: Edge Wallet
+  product_source_label: Github
+  product_source_url: "https://github.com/airbitz/"
+  links:
+    -
+      label: Edge
+      url: "https://edgesecure.co/"
+    -
+      label: Google Play Download
+      url: "https://play.google.com/store/apps/details?id=co.edgesecure.app"
+    -
+      label: Download APK
+      url: "https://edgesecure.co/app"
+
+- name: Edge Wallet
+  description: |
+    Super-user friendly multi-asset wallet (Dash, Bitcoin, Ethereum, and more) from the folks that brought you the Airbitz Bitcoin Wallet.
+     FEATURES
+    • Log in with username and password
+    • Pin or fingerprint access.
+    • "Edge Secure" 2-factor authentication
+    • Segwit enabled for BTC and LTC
+    • In app exchange of assets (Shapeshift)
+    • Open source!
+     COMING FEATURES
+    • Transaction history reports
+    • In app fiat exchange
+    • Spending limits
+    • and more...
+  logo_url: "/assets/img/wallets/edge.png"
+  os: ios
+  type: mobile
+  vendor_id: edge
+  vendor_label: Edge (Airbitz)
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: edge_wallet
+  product_label: Edge Wallet
+  product_source_label: Github
+  product_source_url: "https://github.com/airbitz/"
+  links:
+    -
+      label: Edge
+      url: "https://edgesecure.co/"
+    -
+      label: Apple iTunes Download
+      url: "https://itunes.apple.com/us/app/edge-bitcoin-wallet/id1344400091?mt=8"
+
+- name: Coinomi
+  description: |
+    MultiCurrency Wallet, securely with our cross-chain enabled mobile hybrid wallet.
+    • Superb Security
+      Your private keys never leave your device. Strong wallet encryption and cryptography guarantee that your funds will remain safe under your ultimate control.
+    • Enhanced Privacy &amp; Anonymity
+      No KYC bureaucracy to access your funds, no IP association, no identity linking, no transactions tracking. Our servers anonymize your requests by hiding your IP from prying eyes.
+    • Exchange Inside
+      Convert between altcoins instantly from within the app, through our strategic partner ShapeShift.
+    • One-time Backup
+      Hierarchical Deterministic Wallet (BIP44) enables you to keep everything accessible and secure with just one super-passphrase which you only have to back-up once and for all.
+    • Open Source &amp; Transparent
+      No hidden code, no malicious modules, no exploits, no small letters. Our code is publicly available and publicly reviewed.
+  logo_url: "/assets/img/wallets/coinomi-logo-medium.png"
+  os: android
+  type: mobile
+  vendor_id: coinomi
+  vendor_label: Coinomi
+  control_type: full
+  validation_type: hosted
+  access_type: vendor
+  product_id: coinomi_wallet
+  product_label: Coinomi Wallet
+  product_source_url: "https://coinomi.com/downloads/"
+  links:
+    -
+      label: Google Play Download
+      url: "https://play.google.com/store/apps/details?id=com.coinomi.wallet"
+    -
+      label: Download APK
+      url: "https://coinomi.com/downloads/"
+
+- name: Exodus
+  description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
+  logo_url: "/assets/img/wallets/exodus.png"
+  os: win64
+  type: desktop
+  vendor_id: exodus
+  vendor_label: Exodus
+  control_type: semi
+  validation_type: hosted
+  access_type: p2p
+  product_id: exodus
+  product_label: Exodus Wallet
+  links:
+    -
+      label: Exodus Downloads
+      url: "https://www.exodus.io/releases/"
+
+- name: Exodus
+  description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
+  logo_url: "/assets/img/wallets/exodus.png"
+  os: osx
+  type: desktop
+  vendor_id: exodus
+  vendor_label: Exodus
+  control_type: semi
+  validation_type: hosted
+  access_type: p2p
+  product_id: exodus
+  product_label: Exodus Wallet
+  links:
+    -
+      label: Exodus Downloads
+      url: "https://www.exodus.io/releases/"
+
+- name: Exodus
+  description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
+  logo_url: "/assets/img/wallets/exodus.png"
+  os: linux
+  type: desktop
+  vendor_id: exodus
+  vendor_label: Exodus
+  control_type: semi
+  validation_type: hosted
+  access_type: p2p
+  product_id: exodus
+  product_label: Exodus Wallet
+  links:
+    -
+      label: Exodus Downloads
+      url: "https://www.exodus.io/releases/"
+
+- name: Jaxx
+  description: |
+    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
+  logo_url: "/assets/img/wallets/jaxx-logo.ico"
+  os: osx
+  type: desktop
+  vendor_id: jaxx
+  vendor_label: Jaxx
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
+  product_id: jaxx
+  product_label: Jaxx
+  product_source_url: "https://jaxx.io/support.html"
+  links:
+    -
+      label: Jaxx Downloads
+      url: "https://jaxx.io/support.html"
+
+- name: Jaxx
+  description: |
+    <p>
+    Jaxx Blockchain Interface &amp; Wallet
+    </p>
+    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
+  logo_url: "/assets/img/wallets/jaxx-logo.ico"
+  os: android
+  type: mobile
+  vendor_id: jaxx
+  vendor_label: Jaxx
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
+  product_id: jaxx
+  product_label: Jaxx Wallet
+  product_source_label: Github
+  product_source_url: "https://jaxx.io/support.html"
+  links:
+    -
+      label: Google Play Download
+      url: "https://play.google.com/store/apps/details?id=com.kryptokit.jaxx"
+
+- name: Jaxx
+  description: |
+    <p>
+    Jaxx Blockchain Interface &amp; Wallet
+    </p>
+    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
+  logo_url: "/assets/img/wallets/jaxx-logo.ico"
+  os: ios
+  type: mobile
+  vendor_id: jaxx
+  vendor_label: Jaxx
+  control_type: semi
+  validation_type: hosted
+  access_type: vendor
+  product_id: jaxx
+  product_label: Jaxx Wallet
+  product_source_label: Github
+  product_source_url: "https://jaxx.io/support.html"
+  links:
+    -
+      label: AppStore
+      url: "https://itunes.apple.com/us/app/jaxx-blockchain-wallet/id1084514516?mt=8"
+
 - name: Jaxx
   description: |
    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
@@ -317,255 +694,6 @@
       label: Jaxx Downloads
       url: "https://jaxx.io/support.html"
 
-- name: Dash Core
-  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
-  logo_url: /assets/img/dash_circle_normal.png
-  os: osx
-  type: desktop
-  vendor_id: dash_core
-  vendor_label: Dash Core
-  product_id: dash_core
-  control_type: full
-  validation_type: full
-  access_type: p2p
-  product_label: Dash Core
-  product_source_url: "https://github.com/dashpay/dash"
-  links:
-    -
-      label: Download DMG
-      url: "https://github.com/dashpay/dash/releases/download/v0.12.2.3/dashcore-0.12.2.3-osx.dmg"
-    -
-      label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.12.2.3/SHA256SUMS.asc"
-    -
-      label: PGP
-      url: "https://github.com/dashpay/dash/releases/download/v0.12.2.3/dashcore-0.12.2.3-osx.dmg.asc"
-
-#- name: Dash Electrum
-#  description: Dash Core "Light" Wallet, provides basic payment functions with SPV based security for low powered systems.
-#  logo_url: /assets/img/wallets/electrum_banner.png
-#  os: osx
-#  type: desktop
-#  vendor_id: dash_core
-#  vendor_label: Dash Core
-#  control_type: full
-#  validation_type: full
-#  access_type: p2p
-#  product_id: dash_electrum
-#  product_label: Dash Electrum
-#  product_source_url: "https://github.com/dashpay/electrum-dash"
-#  links:
-#    -
-#      label: Download PKG
-#      url: "/binaries/Electrum-DASH-2.4.1-Installer.pkg"
-#    -
-#      label: Hash File
-#      url: "/binaries/Electrum-DASH-2.4.1-Installer.pkg.DIGESTS.txt"
-#    -
-#      label: PGP
-#      url: "/binaries/Electrum-DASH-2.4.1-Installer.pkg.asc"
-
-- name: Jaxx
-  description: |
-    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
-  logo_url: "/assets/img/wallets/jaxx-logo.ico"
-  os: osx
-  type: desktop
-  vendor_id: jaxx
-  vendor_label: Jaxx
-  control_type: semi
-  validation_type: hosted
-  access_type: vendor
-  product_id: jaxx
-  product_label: Jaxx
-  product_source_url: "https://jaxx.io/support.html"
-  links:
-    -
-      label: Jaxx Downloads
-      url: "https://jaxx.io/support.html"
-
-- name: Dash Wallet by Hash Engineering
-  description: |
-    Have your Dash always with you, in your pocket! You pay by quickly scanning a QR code. As a merchant, you receive payments reliably and instantly. Dash Wallet is the first mobile Dash app, and arguably also the most secure! (Requires Android 4 or higher)
-     FEATURES
-    • InstantSend available
-    • No registration, web service or cloud needed! This wallet is de-centralized and peer to peer.
-    • Display of Dash amount in DASH, mDASH and µDASH.
-    • Conversion to and from national currencies.
-    • Sending and receiving of Dash via NFC, QR codes or Dash URLs.
-    • Address book for regularly used Dash addresses.
-    • When you're offline, you can still pay via Bluetooth.
-    • System notification for received coins.
-    • Sweeping of paper wallets (e.g. those used for cold storage).
-    • App widget for Dash balance.
-  logo_url: /assets/img/dash_circle_normal.png
-  os: android
-  type: mobile
-  vendor_id: hash_engineering_solutions
-  vendor_label: Hash Engineering Solutions
-  control_type: full
-  validation_type: spv
-  access_type: p2p
-  product_id: dash_android_wallet
-  product_label: Dash Wallet
-  product_source_url: "https://github.com/HashEngineering/dash-wallet"
-  links:
-    -
-      label: Google Play Download
-      url: "https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet"
-
-- name: Dash Core iOS
-  description: |
-    <p>
-    Official Dash Core 
-    </p>
-    Dashwallet is the first and only iPhone wallet which connects directly to the dash network. This means that there are no servers to get hacked or go down - your funds are always safe. Even if your phone is lost, damaged or stolen, you can easily recover your funds using your personal recovery phrase. 
-  logo_url: "/assets/img/wallets/dash-ios.jpeg"
-  os: ios
-  type: mobile
-  vendor_id: dash_core
-  vendor_label: Dash Core
-  control_type: semi
-  validation_type: hosted
-  access_type: vendor
-  product_id: dash_core_ios
-  product_label: Dash Core iOS
-  product_website_label: Dash.org
-  product_website_url: "https://www.dash.org"
-  product_source_url: "https://github.com/dashpay/dash"
-  links:
-    -
-      label: AppStore
-      url: "http://itunes.apple.com/us/app/dash-wallet/id1206647026"
-
-- name: Coinomi
-  description: |
-    MultiCurrency Wallet, securely with our cross-chain enabled mobile hybrid wallet.
-    • Superb Security
-      Your private keys never leave your device. Strong wallet encryption and cryptography guarantee that your funds will remain safe under your ultimate control.
-    • Enhanced Privacy &amp; Anonymity
-      No KYC bureaucracy to access your funds, no IP association, no identity linking, no transactions tracking. Our servers anonymize your requests by hiding your IP from prying eyes.
-    • Exchange Inside
-      Convert between altcoins instantly from within the app, through our strategic partner ShapeShift.
-    • One-time Backup
-      Hierarchical Deterministic Wallet (BIP44) enables you to keep everything accessible and secure with just one super-passphrase which you only have to back-up once and for all.
-    • Open Source &amp; Transparent
-      No hidden code, no malicious modules, no exploits, no small letters. Our code is publicly available and publicly reviewed.
-  logo_url: "/assets/img/wallets/coinomi-logo-medium.png"
-  os: android
-  type: mobile
-  vendor_id: coinomi
-  vendor_label: Coinomi
-  control_type: full
-  validation_type: hosted
-  access_type: vendor
-  product_id: coinomi_wallet
-  product_label: Coinomi Wallet
-  product_source_url: "https://coinomi.com/downloads/"
-  links:
-    -
-      label: Google Play Download
-      url: "https://play.google.com/store/apps/details?id=com.coinomi.wallet"
-    -
-      label: Download APK
-      url: "https://coinomi.com/downloads/"
-
-- name: Jaxx
-  description: |
-    <p>
-    Jaxx Blockchain Interface &amp; Wallet
-    </p>
-    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
-  logo_url: "/assets/img/wallets/jaxx-logo.ico"
-  os: android
-  type: mobile
-  vendor_id: jaxx
-  vendor_label: Jaxx
-  control_type: semi
-  validation_type: hosted
-  access_type: vendor
-  product_id: jaxx
-  product_label: Jaxx Wallet
-  product_source_label: Github
-  product_source_url: "https://jaxx.io/support.html"
-  links:
-    -
-      label: Google Play Download
-      url: "https://play.google.com/store/apps/details?id=com.kryptokit.jaxx"
-
-- name: Jaxx
-  description: |
-    <p>
-    Jaxx Blockchain Interface &amp; Wallet
-    </p>
-    All keys are created on your local device and never sent to any servers. This means you have full control of your wallet and Jaxx neither holds nor has access to your funds.
-  logo_url: "/assets/img/wallets/jaxx-logo.ico"
-  os: ios
-  type: mobile
-  vendor_id: jaxx
-  vendor_label: Jaxx
-  control_type: semi
-  validation_type: hosted
-  access_type: vendor
-  product_id: jaxx
-  product_label: Jaxx Wallet
-  product_source_label: Github
-  product_source_url: "https://jaxx.io/support.html"
-  links:
-    -
-      label: AppStore
-      url: "https://itunes.apple.com/us/app/jaxx-blockchain-wallet/id1084514516?mt=8"
-
-- name: Exodus
-  description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
-  logo_url: "/assets/img/wallets/exodus.png"
-  os: win64
-  type: desktop
-  vendor_id: exodus
-  vendor_label: Exodus
-  control_type: semi
-  validation_type: hosted
-  access_type: p2p
-  product_id: exodus
-  product_label: Exodus Wallet
-  links:
-    -
-      label: Exodus Downloads
-      url: "https://www.exodus.io/releases/"
-
-- name: Exodus
-  description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
-  logo_url: "/assets/img/wallets/exodus.png"
-  os: osx
-  type: desktop
-  vendor_id: exodus
-  vendor_label: Exodus
-  control_type: semi
-  validation_type: hosted
-  access_type: p2p
-  product_id: exodus
-  product_label: Exodus Wallet
-  links:
-    -
-      label: Exodus Downloads
-      url: "https://www.exodus.io/releases/"
-
-- name: Exodus
-  description: Exodus is the first desktop multi-asset wallet with ShapeShift built in. Exodus encrypts private keys and transaction data locally for your eyes only - no accounts, no servers, no data sharing. Track the value of your blockchain asset portfolio, in real time, as market conditions change.
-  logo_url: "/assets/img/wallets/exodus.png"
-  os: linux
-  type: desktop
-  vendor_id: exodus
-  vendor_label: Exodus
-  control_type: semi
-  validation_type: hosted
-  access_type: p2p
-  product_id: exodus
-  product_label: Exodus Wallet
-  links:
-    -
-      label: Exodus Downloads
-      url: "https://www.exodus.io/releases/"
 - name: Dash Core Paper Wallet
   description: Paper wallets are a form of cold wallet and essentially a bearer instrument – whoever holds them has access to both the Dash private key and therefore the address.
   logo_url: /assets/img/dash_circle_normal.png
@@ -624,3 +752,36 @@
     -
       label: Usage Instructions
       url: "https://dashpay.atlassian.net/wiki/display/DOC/Using+Trezor+with+Dash"
+
+- name: MyDashWallet
+  description: |
+    MyDashWallet is a web interface to the Dash blockchain, inspired by MyEtherWallet and created by DeltaEngine.net. It is explicitly not an online wallet, meaning you maintain control over your private keys at all times. Unlike many other light wallets, MyDashWallet also supports advanced Dash features such as InstantSend and PrivateSend. The project is non-profit, open source and free to use. You can load a wallet and transact in a variety of wallet formats:
+    
+    Keystore wallet (file-based)
+    
+    Ledger hardware wallet
+    
+    Trezor hardware wallet
+    
+    Private key
+    
+    BIP39/44 HD recovery phrase (coming soon)
+    
+    BIP32 HD recovery phrase (coming soon)
+
+    Multiplatform / Web Browser
+  logo_url: /assets/img/dash_circle_normal.png
+  os: web
+  type: web
+  vendor_id: delta_engine
+  vendor_label: delta_engine
+  control_type: full
+  validation_type: spv
+  access_type: p2p
+  product_id: delta_engine
+  product_label: Delta Engine
+  product_source_url: "https://github.com/DeltaEngine/MyDashWallet"
+  links:
+    -
+     label: Web link
+     url: "https://mydashwallet.org"

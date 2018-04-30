@@ -1,0 +1,81 @@
+- name: Ryan Taylor
+  title: CEO
+  description: Ryan (AKA “babygiraffe”) has an MBA with a concentration in Finance &amp; Economics. He has over 15 years of experience in technology, strategy consulting, and finance. As a consultant, he served many of the world’s largest financial institutions on a wide variety of strategy and technology topics. Most recently, Ryan was a hedge fund analyst covering both private equity and public market investments within the payments sector. He brings to the team a deep understanding of payments-specific business strategy, product management, and operations.
+  image: ryan.png
+  email:
+  keybase: https://keybase.io/ryanptaylor
+  twitter:
+  dashforum-link: /babygiraffe.1654/
+  dashforum: babygiraffe
+  team-title: 
+    - Management
+  board-member: true
+
+- name: Holger Schinzel
+  title: Quality Assurance, Automation, Testing
+  description: Holger (AKA “flare”) has a degree in applied computer science and brings 7 years of experience in IT quality management and testing.
+  image: holger.png
+  email: holger@dash.org
+  keybase: https://keybase.io/schinzelh
+  twitter:
+  dashforum-link: /flare.783/
+  dashforum: flare
+  team-title:
+    - Management
+    - operations
+  board-member: true
+
+- name: Fernando Gutierrez
+  title: Chief Marketing Officer
+  description: Fernando (AKA “fernando”, “fgumo”) is a lawyer and entrepreneur. He brings 15 years of experience in finance, law, sales and marketing to the team.
+  image: fernando.png
+  email: fernando@dash.org
+  keybase: https://keybase.io/fernandog
+  twitter:
+  dashforum-link: /fernando.650/
+  dashforum: fernando
+  team-title:
+    - Management
+    - Marketing
+  board-member: true
+
+- name: Robert Wiecko
+  title: Project Manager
+  description: Robert (AKA “__kot__”, “kot”) brings 14+ years of professional experience in the IT industry. He is certified Scrum Master, PM and ITIL professional, fascinated by digital currencies, global economics, music and healthy lifestyle.
+  image: robert.wiecko.jpg
+  email: robert@dash.org
+  keybase: https://keybase.io/robertwiecko
+  twitter:
+  dashforum-link: /kot.3244/
+  dashforum: kot
+  team-title:
+    - Management
+    - Operations
+  board-member: true
+
+- name: Philipp Engelhorn
+  title: Press &amp; Multitool
+  description: Philipp (AKA \"tungfa\") is a freelance photographer who brings 20 years of press, magazine &amp; newspaper, promotion, design, social media and communications experience to the team. He is located in Asia
+  image: philipp.png
+  email: press@dash.org
+  keybase: https://keybase.io/tungfa
+  twitter:
+  dashforum-link: /tungfa.269/
+  dashforum: tungfa
+  team-title:
+    - Management
+    - Marketing
+  board-member: true
+
+- name: Glenn Austin
+  title: CFO
+  description:
+  image: GlennAustin.jpg
+  email: glenn.austin@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /glennaustin.17900/
+  dashforum: glennaustin
+  team-title:
+    - Management
+    - Finance

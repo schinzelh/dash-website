@@ -14,6 +14,7 @@ description: pages.wallets.description
 {% assign vendor-collection = site.data.wallets-collection |  group_by:"vendor_id" %}
 {% assign hardware-wallets = site.data.wallets-collection | sort: "product_label" | where:"type","hardware" %}
 {% assign paper-wallets = site.data.wallets-collection | sort: "product_label" | where:"type","paper" %}
+{% assign web-wallets = site.data.wallets-collection | sort: "product_label" | where:"type","web" %}
 {% assign security-wallets = site.data.wallets-collection| sort: "product_label" | where:"type","security" %}
 
 {% include wallets_js_data.html %}
@@ -28,7 +29,7 @@ description: pages.wallets.description
 		<div class="section__content">
 			<h3>{% t pages.wallets.wallets-security-header %}</h3>
 			<p>{% t pages.wallets.wallets-security-subtitle %}
-				<a href="https://www.keepassx.org" target="_blank">keepassx.org</a>
+				<a href="https://keepassxc.org" target="_blank">keepassxc.org</a>
 			</p>
 			<div class="row">
 				{% for wallet in security-wallets %}
@@ -129,6 +130,19 @@ description: pages.wallets.description
 
 			<div class="row">
 				{% for wallet in paper-wallets %}
+				{% include wallet-tile.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section class="section clearfix">
+		<div class="section__content">
+			<h3>{% t pages.wallets.wallets-web-header %}</h3>
+			<p>{% t pages.wallets.wallets-web-subtitle %}</p>
+
+			<div class="row">
+				{% for wallet in web-wallets %}
 				{% include wallet-tile.html %}
 				{% endfor %}
 			</div>

@@ -1,0 +1,267 @@
+- currencies:
+    usd:
+      - Wire Transfer
+      - SWIFT
+      - PerfectMoney
+      - OkPay
+      - SWIFT
+      - Capitalist
+      - EPAY
+      - Payeer
+      - AdvCash
+      - NixMoney
+      - MoneyPolo
+      - Liqpay
+    eur: 
+      - Wire Transfer 
+      - SEPA
+      - Bancontact
+      - Giropay
+      - iDEAL
+      - Mybank
+      - Sofort
+      - TrustPay
+      - Online Bank Transfer
+      - Mistercash
+      - VISA/Master Card
+      - Neteller
+      - Skrill
+    btc: 
+      - Cryptocurrency
+    rur:
+      - QIWI 
+      - AdvCash 
+      - Payeer
+      - Capitalist 
+      - Sberbank
+      - Tinkoff
+      - VTB24
+    cny:
+      - ChinaUnionPay
+    cad:
+      - Flexepin
+
+- name: Kraken
+  using: traditional
+  methods: 
+    - Wire Transfer
+    - SEPA
+    - SEPA
+    - SWIFT
+    - Wire Transfer
+    - Cryptocurrency
+  type: exchange
+  currency:
+    - USD
+    - EUR
+    - BTC
+  image: kraken_logo-small.png
+  url: http://kraken.com/
+
+- name: Bitfinex
+  using: traditional
+  methods:
+    - USD
+    - Cryptocurrency
+  type: exchange
+  currency:
+    - USD
+    - BTC
+  image: bitfinex_logo-small.png
+  url: https://www.bitfinex.com/
+
+- name: Poloniex
+  using: traditional
+  methods: 
+    - Cryptocurrency
+  type: exchange
+  currency:
+    - BTC
+  image: poloniex_logo-small.png
+  url: https://poloniex.com/
+
+- name: Bithumb
+  using: traditional
+  methods: 
+    - Cryptocurrency
+  type: exchange
+  currency:
+    - BTC
+  image: bithumb_logo-small.png
+  url: https://www.bithumb.com/
+
+- name: Livecoin
+  using: traditional
+  methods: 
+    - Payeer
+    - PerfectMoney
+    - OkPay
+    - SWIFT
+    - Capitalist
+    - Cryptocurrency
+  type: exchange
+  currency:
+    - BTC
+    - USD
+  image: livecoin_logo-small.png
+  url: https://www.livecoin.net/
+
+- name: Bittrex
+  using: traditional
+  methods: 
+    - Cryptocurrency
+  type: exchange
+  currency:
+    - BTC
+  image: bittrex_logo-small.png
+  url: https://bittrex.com/
+
+- name: Exmo
+  using: traditional
+  methods: 
+    - MoneyPolo
+    - Capitalist
+    - Perfect Money
+    - EPAY
+    - OKPAY
+  type: exchange
+  currency:
+    - BTC
+    - USD
+  image: exmo_logo-small.png
+  url: https://exmo.com/
+
+- name: Hitbtc
+  using: traditional
+  methods: 
+    - Cryptocurrency
+  type: exchange
+  currency:
+    - BTC
+    - USD
+  image: hitbtc_logo-small.png
+  url: https://hitbtc.com/
+  
+- name: Yobit
+  using: traditional
+  methods: 
+    - OKPay
+    - Payeer
+    - AdvCash
+    - PerfectMoney
+    - Capitalist
+  type: exchange
+  currency:
+    - USD
+    - RUR
+    - BTC
+  image: yobit_logo-small.png
+  url: https://yobit.net/
+
+- name: C-cex
+  using: traditional
+  methods: 
+    - Payeer
+    - Perfect Money
+    - OKPAY
+    - NixMoney
+    - Sberbank
+    - Wire Transfer
+    - MoneyPolo
+    - Cryptocurrency
+    - Liqpay
+  type: exchange
+  currency:
+    - USD
+    - BTC
+  image: ccx_logo-small.png
+  url: https://c-cex.com/
+
+- name: ANYCOIN DIRECT
+  using: traditional
+  methods: 
+    - Bancontact
+    - Giropay
+    - iDEAL
+    - Mybank
+    - SEPA
+    - Sofort
+    - TrustPay
+    - Mistercash
+  type: exchange
+  currency:
+    - EUR
+  image: anycoin_logo-small.png
+  url: https://anycoindirect.eu/
+
+- name: ALFACASHIER
+  using: traditional
+  methods: 
+    - Cryptocurrency
+    - Perfect Money
+    - OkPay
+    - MoneyPolo
+    - SWIFT
+    - SEPA
+    - Online Bank Transfer
+    - ChinaUnionPay
+    - Flexepin
+    - Tinkoff
+    - VTB24
+  type: exchange
+  currency:
+    - USD
+    - EUR
+    - BTC
+    - CNY
+    - CAD
+    - RUR
+  image: alpha_logo-small.png
+  url: https://www.alfacashier.com/
+
+- name: BITPANDA
+  using: traditional
+  methods: 
+    - Cryptocurrency
+    - VISA/Master Card
+    - Sofort
+    - Neteller
+    - Skrill
+    - GIROPAY/EPS
+    - SEPA
+  type: exchange
+  currency:
+    - BTC
+    - EUR
+  image: bitpanda_logo-small.png
+  url: https://www.bitpanda.com/
+
+- name: LITEBIT.EU
+  using: traditional
+  methods: 
+    - iDeal
+    - SEPA
+    - Sofort
+    - GiroPay
+    - Bancontact
+  type: exchange
+  currency:
+    - EUR
+  image: litebit-eu_logo-small.jpg
+  url: https://www.litebit.eu/
+
+- name: CEX.IO
+  using: traditional
+  methods: 
+    - iDeal
+    - SEPA
+    - Sofort
+    - GiroPay
+    - Bancontact
+  type: exchange
+  currency:
+    - EUR
+    - BTC
+    - USD
+  image: cex-io-logo_small.jpg
+  url: https://cex.io/

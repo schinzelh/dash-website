@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /blogapi
+pagination:
+  permalink: ''
+  enabled: true
+  extension: .json
+  indexpage: 'feed-:num'
+  per_page: 50
+---
+{% assign postsshowlimit = 200 %}
+
+[
+	{% for post in paginator.posts limit: postsshowlimit %}
+		{
+            "title"      : "{{ post.title | escape }}",
+            "url"        : "{{ post.url }}",
+            "image"      : "/assets/img/blog/{{ post.image }}",
+            "date"       : "{{ post.date }}",
+            "shortdate"  : "{{ post.date | date : '%B %d, %Y' }}"
+		} {% if forloop.last %}{% else %},{% endif %}
+	{% endfor %}
+]

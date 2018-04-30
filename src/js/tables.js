@@ -3,7 +3,122 @@
 	$(document).ready(function () {
 
 		var siteApi = window.globals.siteApi || '/api/v1',
-			marketCapApi = 'https://www.coincap.io/front/';
+			marketCapApi = 'https://www.coincap.io/front/',
+			resultExchanges,
+			exchangesApi = siteApi + '/exchange',
+			renderPrice;
+
+		if ($('#getDashTable').length) {
+			$.ajax({
+				url: exchangesApi,
+				error: function(jqXHR, textStatus, errorThrown) {
+					console.log(jqXHR);
+					console.log(textStatus);
+					console.log('errorThrown:', errorThrown);
+				}
+			}).done(function(json) {
+				resultExchanges = json;
+				renderPrice(resultExchanges, 'usd');
+			});
+
+			var getRows = function() {
+					var $typeClass = $('#type').val() === 'all' ? '' : '.js-type-' + $('#type').val(),
+						$methodClass = $('#method').val() === 'all' ? '' : '.js-' + $('#method').val(),
+						$currencyClass = $('#currency').val() === 'all' ? '' : '.js-' + $('#currency').val(),
+						$resultClass = $typeClass + $methodClass + $currencyClass;
+
+					return $resultClass;
+				},
+				showMethod = function(selectedMethod) {
+					$('#method option').hide();
+					$('#method').find('option').filter(function() {
+						if ($(this).data('method') !== 'undefined') {
+							var method = $(this).data('method');
+
+							return selectedMethod.indexOf(method) !== -1;
+						}
+					}).show();
+				};
+
+			renderPrice = function(res, currency) {
+				var price = 'price';
+
+				if (!currency === 'usd') {
+					price = 'price_' + currency;
+				}
+				$('[data-name]').each(function() {
+					var that = $(this),
+						exchangeName = that.data('name'),
+						resultName = resultExchanges.filter(function(el) {
+							if (el) {
+								return el.exchange === exchangeName;
+							}
+							return null;
+						}),
+						$result = that.find('[data-price="result"]');
+
+					if (resultName && resultName[0] && !isNaN(resultName[0][price]) && resultName[0][price] !== 'undefined') {
+						that.find('[data-price="click"]').addClass('hidden');
+						$result.removeClass('hidden')
+							.find('[data-rate="rate"]')
+							.text(formatCurrency(resultName[0][price]));
+						if (resultName[0].volume) {
+							$result.find('[data-rate="volume"]').text(formatCurrency(resultName[0].volume));
+						} else {
+							$result.find('.js-dash-table-volume').addClass('hidden');
+						}
+					}
+				});
+			};
+
+			$('select').on('change', function() {
+				var $resultRow = getRows(),
+					currency;
+
+				if ($(this).attr('id') === 'currency') {
+					currency = $(this).val();
+					renderPrice(resultExchanges, currency);
+				}
+				$('.js-exchange-row').hide();
+				if (!$resultRow) {
+					$('.js-exchange-row:hidden').slice(0, 6).show();
+					$('[data-btn="show-more"]').removeClass('hidden');
+					return;
+				}
+				if ($($resultRow).length > 6) {
+					$($resultRow).slice(0, 6).show();
+					$('[data-btn="show-more"]').removeClass('hidden').parent().removeClass('hidden');
+				} else {
+					$($resultRow).slice(0, 6).show();
+				}
+			});
+
+			// Show exchanges filtered by currency selector
+			$('select#currency').on('change', function() {
+				if ($(this).val() === 'all') {
+					$('#method option').show();
+				} else {
+					var methods = $(this).find(':selected').data('method') + 'all'.split(' ').filter(String);
+
+					showMethod(methods);
+				}
+			});
+
+			// Shows more  exchanges on button click
+			$('[data-btn="show-more"]').on('click', function() {
+				var $resultRow = getRows(),
+					$hiddenRow = $('.js-exchange-row:hidden');
+
+				if (!$resultRow) {
+					$hiddenRow.slice(0, 6).show();
+				} else {
+					$($resultRow + ':hidden').slice(0, 6).show();
+				}
+				if (!$hiddenRow.length || !$($resultRow + ':hidden').length) {
+					$(this).parent().addClass('hidden');
+				}
+			});
+		}
 
 		if ($('#marketcap_count').length) {
 
@@ -46,7 +161,7 @@
 
 			// Get the exchange data
 			$.ajax({
-				url: siteApi + '/exchange/',
+				url: exchangesApi,
 				error: function(jqXHR, textStatus, errorThrown) {
 					console.log(jqXHR);
 					console.log(textStatus);
@@ -57,7 +172,7 @@
 				var exchanges = response;
 
 				exchanges.map(function(exchange) {
-					if (exchange) {
+					if (exchange && exchange.volume && exchange.price && exchange.percent_change) {
 						console.log('exchange',exchange);
 						var name 	= exchange.exchange,
 							url 	= exchange.url,

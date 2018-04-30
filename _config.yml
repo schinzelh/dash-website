@@ -16,8 +16,14 @@ exclude:
   - package.json
   - package-lock.json
   - dash.org-test-web.pem.enc
-paginate: 12
-paginate_path: "/blog/page:num/"
+pagination:
+  enabled: true
+  per_page: 12
+  permalink: '/blog/page:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 name: Dash
 url: https://www.dash.org
 description: Digital Cash
@@ -31,7 +37,8 @@ languages: ["en","es", "cn", "ru", "pt", "fr", "jp", "kr", "de"]
 exclude_from_localizations: ["assets","dist","style-guide"]
 
 gems:
-  - jekyll-paginate
+  - jekyll-paginate-v2
+  - jekyll-feed
   - jekyll-multiple-languages-plugin
   - jekyll-srcset-tag
 

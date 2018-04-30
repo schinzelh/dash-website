@@ -36,3 +36,16 @@
     -
       label: gourl.io
       url: "https://gourl.io/"
+
+- name: Mycryptocheckout
+  description: 'Fees: N/A'
+  logo_url: "/assets/img/payments/mycryptocheckout.jpg"
+  type: payment
+  vendor_id: mycryptocheckout
+  vendor_label: mycryptocheckout
+  product_id: mycryptocheckout
+  product_label: mycryptocheckout
+  links:
+    -
+      label: mycryptocheckout
+      url: "https://mycryptocheckout.com"

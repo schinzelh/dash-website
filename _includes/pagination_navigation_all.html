@@ -10,7 +10,7 @@
     {% elsif page == 1 %}
       <a href="/blog" class="pagination__link pagination__link--start">{{ page }}</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="pagination__link">{{ page }}</a>
+      <a href="{{site.baseurl}}/blog{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}" class="pagination__link">{{ page }}</a>
     {% endif %}
   {% endfor %}
 

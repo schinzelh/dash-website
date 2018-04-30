@@ -346,7 +346,7 @@
   trading_pairs: BTC
   fees: N/A
   image: epay.jpg
-  url: https://www.epay.com 
+  url: https://www.epay.com
 
 - name: Uphold
   trading_pairs: BTC
@@ -413,3 +413,124 @@
   fees: N/A
   image: abucoins.jpg
   url: http://abucoins.com
+
+- name: Qcashpay
+  trading_pairs: BTC
+  fees: N/A
+  image: qcashlogo.jpg
+  url: https://qcashpay.com
+
+- name: Cryptomonster
+  trading_pairs: BTC
+  fees: N/A
+  image: cryptomonster.jpg
+  url: https://www.cryptomonster.co.uk/buy/dash
+
+- name: Acx
+  trading_pairs: BTC
+  fees: N/A
+  image: acx.jpg
+  url: https://acx.io
+
+- name: Evonax
+  trading_pairs: BTC
+  fees: N/A
+  image: Evonax.jpg
+  url: https://www.evonax.com/
+
+- name: CoinSwitch
+  trading_pairs: BTC
+  fees: N/A
+  image: CoinSwitch.jpg
+  url: http://CoinSwitch.co
+
+- name: Simplefx
+  trading_pairs: BTC
+  fees: N/A
+  image: simpleFX.jpg
+  url: https://simplefx.com/dashboard/
+
+- name: Styx24
+  trading_pairs: BTC
+  fees: N/A
+  image: styx24.jpg
+  url: https://www.styx24.com
+
+- name: Indacoin
+  trading_pairs: BTC
+  fees: N/A
+  image: indacoin.jpg
+  url: https://indacoin.com/en_GB
+
+- name: Crex24
+  trading_pairs: BTC
+  fees: N/A
+  image: crex24.jpg
+  url: https://crex24.com/exchange/DASH-BTC
+
+- name: Bitit
+  trading_pairs: BTC
+  fees: N/A
+  image: bitit.jpg
+  url: https://bitit.io
+
+- name: Flyp
+  trading_pairs: BTC
+  fees: N/A
+  image: flypme.png
+  url: https://flyp.me
+
+- name: Coinroom
+  trading_pairs: BTC
+  fees: N/A
+  image: coinroom.png
+  url: https://coinroom.com
+
+- name: Coinfield
+  trading_pairs: BTC
+  fees: N/A
+  image: coinfield.png
+  url:  https://www.coinfield.com
+
+- name: Lykke
+  trading_pairs: BTC
+  fees: N/A
+  image: lykke.png
+  url: https://www.lykke.com
+
+- name: Chaoex
+  trading_pairs: BTC
+  fees: N/A
+  image: chaoex.png
+  url: https://www.chaoex.com/home
+
+- name: Lbank
+  trading_pairs: BTC
+  fees: N/A
+  image: lbank.png
+  url: https://www.lbank.info
+
+- name: Moneypolo
+  trading_pairs: BTC
+  fees: N/A
+  image: moneypolo.png
+  url: https://moneypolo.com/int-en/
+
+- name: Bitexbook
+  trading_pairs: BTC
+  fees: N/A
+  image: bitexbook.png
+  url: https://bitexbook.com
+
+- name: Omnitrade
+  trading_pairs: BTC
+  fees: N/A
+  image: omnitrade.jpg
+  url: https://www.omnitrade.io/
+
+- name: Btcbit
+  trading_pairs: BTC
+  fees: N/A
+  image: btcbit.png
+  url: https://btcbit.net/
+

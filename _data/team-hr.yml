@@ -1,0 +1,24 @@
+- name: Kelly Kopp-Schuetz
+  title: Human Resources Director
+  description:
+  image: kelly.jpg
+  email: kelly@dash.org
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Management
+    - Human Resources
+
+- name: Spencer Stepnicka
+  title:
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - Human Resources
