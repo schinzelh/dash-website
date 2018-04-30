@@ -534,3 +534,8 @@
   image: btcbit.png
   url: https://btcbit.net/
 
+- name: Simpleswap
+  trading_pairs: BTC
+  fees: N/A
+  image: simpleswap.png
+  url: https://www.simpleswap.io
