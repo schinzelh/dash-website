@@ -585,11 +585,11 @@
   access_type: vendor
   product_id: jaxx
   product_label: Jaxx
-  product_source_url: "https://jaxx.io/support.html"
+  product_source_url: "https://jaxx.io/downloads.html"
   links:
     -
       label: Jaxx Downloads
-      url: "https://jaxx.io/support.html"
+      url: "https://jaxx.io/downloads.html"
 
 - name: Jaxx
   description: |
@@ -608,7 +608,7 @@
   product_id: jaxx
   product_label: Jaxx Wallet
   product_source_label: Github
-  product_source_url: "https://jaxx.io/support.html"
+  product_source_url: "https://jaxx.io/downloads.html"
   links:
     -
       label: Google Play Download
@@ -631,7 +631,7 @@
   product_id: jaxx
   product_label: Jaxx Wallet
   product_source_label: Github
-  product_source_url: "https://jaxx.io/support.html"
+  product_source_url: "https://jaxx.io/downloads.html"
   links:
     -
       label: AppStore
@@ -650,11 +650,11 @@
   access_type: vendor
   product_id: jaxx
   product_label: Jaxx
-  product_source_url: "https://jaxx.io/support.html"
+  product_source_url: "https://jaxx.io/downloads.html"
   links:
     -
       label: Jaxx Downloads
-      url: "https://jaxx.io/support.html"
+      url: "https://jaxx.io/downloads.html"
 
 - name: Jaxx
   description: |
@@ -669,11 +669,11 @@
   access_type: vendor
   product_id: jaxx
   product_label: Jaxx
-  product_source_url: "https://jaxx.io/support.html"
+  product_source_url: "https://jaxx.io/downloads.html"
   links:
     -
       label: Jaxx Downloads
-      url: "https://jaxx.io/support.html"
+      url: "https://jaxx.io/downloads.html"
 
 - name: Jaxx
   description: |
@@ -688,11 +688,11 @@
   access_type: vendor
   product_id: jaxx
   product_label: Jaxx
-  product_source_url: "https://jaxx.io/support.html"
+  product_source_url: "https://jaxx.io/downloads.html"
   links:
     -
       label: Jaxx Downloads
-      url: "https://jaxx.io/support.html"
+      url: "https://jaxx.io/downloads.html"
 
 - name: Dash Core Paper Wallet
   description: Paper wallets are a form of cold wallet and essentially a bearer instrument – whoever holds them has access to both the Dash private key and therefore the address.
