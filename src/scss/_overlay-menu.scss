@@ -84,8 +84,8 @@
 		&--languages {
 			margin-top: 20px;
 			.overlay-menu__subitem{
-				margin-right: 0;
-				margin-left: 30px;
+				margin-right: 15px;
+				margin-left: 15px;
 			}
 		}
 	}
@@ -93,14 +93,18 @@
 	&__sublist {
 		width: 100%;
 		max-width: 420px;
-		padding: 0 30px;
+		padding: 40px;
+		margin-top: 40px;
 		text-align: left;
 		display: inline-block;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		border-top: 1px solid $color-white;
 	}
 
 	&__subitem {
 		display: inline-block;
-		text-align: center;
+    		text-align: left;
 		@include font-base();
 		line-height: 40px;
 		margin-right: 10px;
