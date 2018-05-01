@@ -341,24 +341,24 @@
 - name: Suba Radhakrishnan
   title:
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: SubaRadhakrishnan.png
+  email: suba.radhakrishnan@dash.org
+  keybase: https://keybase.io/subakumaran
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /subakumaran.26228/
+  dashforum: subakumaran
   team-title:
     - Development
 
 - name: Chris Adam
-  title:
+  title: UX Designer
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: ChrisAdam.png
+  email: chris.adam@dash.org
+  keybase: https://keybase.io/chrisadam
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /chrisadam.26237/
+  dashforum: chrisadam
   team-title:
     - Development
 
