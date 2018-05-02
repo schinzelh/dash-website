@@ -11,13 +11,14 @@ pagination:
 {% assign postsshowlimit = 200 %}
 
 [
-	{% for post in paginator.posts limit: postsshowlimit %}
-		{
+  {% for post in paginator.posts limit: postsshowlimit %}
+  {% capture image_exist %}{% file_exists /assets/img/blog/resized/{{ post.image }} %}{% endcapture %}
+    {
             "title"      : "{{ post.title | escape }}",
             "url"        : "{{ post.url }}",
-            "image"      : "/assets/img/blog/{{ post.image }}",
+            "image": {% if image_exist == "true" %}"/assets/img/blog/resized/{{ post.image }}",{% else %}"/assets/img/blog/{{ post.image }}",{% endif %}
             "date"       : "{{ post.date }}",
             "shortdate"  : "{{ post.date | date : '%B %d, %Y' }}"
-		} {% if forloop.last %}{% else %},{% endif %}
-	{% endfor %}
+    } {% if forloop.last %}{% else %},{% endif %}
+  {% endfor %}
 ]
