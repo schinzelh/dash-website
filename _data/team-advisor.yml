@@ -9,3 +9,15 @@
   dashforum: eduffield
   team-title:
     - Advisor
+
+- name: Perry Woodin
+  title: Advisor
+  description: Co-founder of <a href=\"https://node40.com\" target=\"_blank\">Node40</a>
+  image: perry_sm.jpg
+  email: perry@node40.com
+  keybase: https://keybase.io/perrywoodin
+  twitter:
+  dashforum-link: /orangecycle.2279/
+  dashforum:
+  team-title:
+    - Advisor

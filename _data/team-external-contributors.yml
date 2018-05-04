@@ -1,0 +1,23 @@
+- name: Etherdesign
+  title: Graphic Design / UX
+  description:
+  image: eth.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link:
+  dashforum:
+  team-title:
+    - External contributors
+    
+- name: Alexandre Devilliers
+  title: Testing and Deployment
+  description: Alexandre (AKA “elbereth”) has computer science and management degree and 10 years of IT consulting experience. He operates the most used Masternode tools site.
+  image: alexandre.png
+  email: elberethz@dashninja.pl
+  keybase: https://keybase.io/elbereth
+  twitter:
+  dashforum-link: /elbereth.175/
+  dashforum: elbereth
+  team-title:
+    - External contributors

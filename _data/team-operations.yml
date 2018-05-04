@@ -11,17 +11,17 @@
     - Operations
 
 - name: Alexander Hirsch
-  title:
+  title: Project Portfolio Manager
   description:
   image: AlexanderHirsch.jpg
-  email:
+  email: alexander.hirsch@dash.org
   keybase:
   twitter:
   dashforum-link:
   dashforum:
   team-title:
     - Operations
-
+ 
 - name: Luba S.
   title: Project Manager
   description:
@@ -31,18 +31,6 @@
   twitter:
   dashforum-link: /luba.14579/
   dashforum: luba
-  team-title:
-    - Operations
-
-- name: Alexandre Devilliers
-  title: Testing and Deployment
-  description: Alexandre (AKA “elbereth”) has computer science and management degree and 10 years of IT consulting experience. He operates the most used Masternode tools site.
-  image: alexandre.png
-  email: elberethz@dashninja.pl
-  keybase: https://keybase.io/elbereth
-  twitter:
-  dashforum-link: /elbereth.175/
-  dashforum: elbereth
   team-title:
     - Operations
 
@@ -103,30 +91,6 @@
   twitter:
   dashforum-link: /david.1517/
   dashforum: david
-  team-title:
-    - Operations
-
-- name: Perry Woodin
-  title: Advisor
-  description: Co-founder of <a href=\"https://node40.com\" target=\"_blank\">Node40</a>
-  image: perry_sm.jpg
-  email: perry@node40.com
-  keybase: https://keybase.io/perrywoodin
-  twitter:
-  dashforum-link: /orangecycle.2279/
-  dashforum:
-  team-title:
-    - Operations
-
-- name: Etherdesign
-  title: Graphic Design / UX
-  description:
-  image: eth.png
-  email:
-  keybase:
-  twitter:
-  dashforum-link:
-  dashforum:
   team-title:
     - Operations
 

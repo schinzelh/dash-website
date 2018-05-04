@@ -50,18 +50,6 @@
   team-title:
     - Development
 
-- name: Chae-Pil Lim
-  title: Core Development
-  description: Chaep-pil(AKA \"chaeplin\") has a degree in electronic engineering and over 15 years experience as a networkwork engineer.
-  image: chaeplin.jpeg
-  email: chaeplin@gmail.com
-  keybase: https://keybase.io/chaeplin
-  twitter:
-  dashforum-link: /chaeplin.206/
-  dashforum: chaeplin
-  team-title:
-    - Development
-
 - name: Chuck Williams
   title: Head of UI/UX Development
   description: Codemonkey with a penchant for people.
@@ -143,18 +131,6 @@
   twitter:
   dashforum-link: /j0shua.4693/
   dashforum: j0shua
-  team-title:
-    - Development
-
-- name: Akhavr
-  title: Developer
-  description:
-  image: akhavr.jpeg
-  email: akhavr@gmail.com
-  keybase:
-  twitter:
-  dashforum-link: /akhavr.2324/
-  dashforum: akhavr
   team-title:
     - Development
 
@@ -303,14 +279,14 @@
     - Development
 
 - name: Guilemon Villemin
-  title:
+  title: Evolution Backend Developer
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: gilemon.jpg
+  email: gilemon@dash.org
+  keybase: https://keybase.io/gilemon
   twitter:
-  dashforum-link:
-  dashforum:
+  dashforum-link: /gilemon.15997/
+  dashforum: gilemon
   team-title:
     - Development
 
