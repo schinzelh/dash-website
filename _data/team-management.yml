@@ -79,16 +79,4 @@
   team-title:
     - Management
     - Finance
-    
-- name: Bradley Zastrow
-  title: Business Development
-  description:
-  image: Bradley_Zastrow.jpg
-  email: bradley.zastrow@dash.org
-  keybase: https://keybase.io/bradleyzastrow
-  twitter:
-  dashforum-link: /bradley-zastrow.20550/
-  dashforum: Bradley Zastrow
-  team-title:
-    - Business Development
-    - Management
+
