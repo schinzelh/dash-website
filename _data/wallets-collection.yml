@@ -378,7 +378,7 @@
   links:
     -
      label: Download DMG
-     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.4/electrum-dash-2.9.4-macosx.dmg"
+     url: "https://github.com/akhavr/electrum-dash/releases/download/3.0.6/electrum-dash-3.0.6-macosx.dmg"
 
 - name: Dash Electrum
   description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
@@ -396,7 +396,7 @@
   links:
     -
      label: Download TGZ
-     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.4/Electrum-DASH-2.9.4.tar.gz"
+     url: "https://github.com/akhavr/electrum-dash/releases/download/3.0.6/Electrum-DASH-3.0.6.tar.gz"
 
 - name: Dash Electrum
   description: Dash Electrum is a simple and secure light wallet. SPV technology allows you safely create transactions using keys stored on your device, without downloading the entire blockchain. Certain Dash features such as InstantSend and PrivateSend are not yet supported.
@@ -414,7 +414,7 @@
   links:
     -
      label: Download Installer
-     url: "https://github.com/akhavr/electrum-dash/releases/download/2.9.4/electrum-dash-2.9.4-setup.exe"
+     url: "https://github.com/akhavr/electrum-dash/releases/download/3.0.6/electrum-dash-3.0.6-setup.exe"
 
 - name: Edge Wallet
   description: |
