@@ -546,3 +546,14 @@
   image: CoinEx.png
   url: https://www.coinex.com
 
+- name: Coindeal
+  trading_pairs: BTC
+  fees: N/A
+  image: coindeal.png
+  url: https://coindeal.com
+
+- name: Paycent
+  trading_pairs: BTC
+  fees: N/A
+  image: Paycent.png
+  url:  https://paycent.com
