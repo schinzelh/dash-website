@@ -414,7 +414,7 @@
   links:
     -
      label: Download Installer
-     url: "https://github.com/akhavr/electrum-dash/releases/download/3.0.6/electrum-dash-3.0.6-setup.exe"
+     url: "https://github.com/akhavr/electrum-dash/releases/download/3.0.6/electrum-dash-3.0.6-setup-win64.exe"
 
 - name: Edge Wallet
   description: |
