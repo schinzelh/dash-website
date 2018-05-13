@@ -182,84 +182,6 @@
       label: PGP
       url: "https://github.com/dashpay/dash/releases/download/v0.12.2.3/dashcore-0.12.2.3-RPi2.tar.gz.asc"
 
-#- name: Dash Electrum 32/64bit
-#  description: Dash Core "Light" Wallet, provides basic payment functions with SPV based security for low powered systems.
-#  logo_url: /assets/img/wallets/electrum_banner.png
-#  os: linux
-#  type: desktop
-#  vendor_id: electrum
-#  vendor_label: Electrum
-#  control_type: full
-#  validation_type: spv
-#  access_type: multi
-#  product_id: dash_electrum
-#  product_label: Dash Electrum
-#  product_website_label: Electrum-Dash.org
-#  product_website_url: "https://electrum-dash.org/"
-#  product_source_url: "https://github.com/dashpay/electrum-dash"
-#  links:
-#    -
-#      label: Download PKG
-#      url: "https://www.dash.org/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin"
-#    -
-#      label: Hash File
-#      url: "/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin.DIGESTS.txt"
-#    -
-#      label: PGP
-#      url: "/binaries/Electrum-DASH-2.4.1_Linux_x86_64-Installer.bin.asc"
-
-#- name: Dash Electrum 32/64bit
-#  description: Dash Core "Light" Wallet, provides basic payment functions with SPV based security for low powered systems.
-#  logo_url: /assets/img/wallets/electrum_banner.png
-#  os: win32
-#  type: desktop
-#  vendor_id: dash_core
-#  vendor_label: Dash Core
-#  control_type: full
-#  validation_type: spv
-#  access_type: multi
-#  product_id: dash_electrum
-#  product_label: Dash Electrum
-#  product_website_label: Electrum-Dash.org
-#  product_website_url: "https://electrum-dash.org/"
-#  product_source_url: "https://github.com/dashpay/electrum-dash"
-#  links:
-#    -
-#      label: Download
-#      url: "/binaries/Electrum-DASH-2.4.1-Windows-setup.exe"
-#    -
-#      label: Hash File
-#      url: "/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.DIGESTS.txt"
-#    -
-#      label: PGP
-#      url: "/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.asc"
-
-#- name: Dash Electrum 32/64bit
-#  description: Dash Core "Light" Wallet, provides basic payment functions with SPV based security for low powered systems.
-#  logo_url: /assets/img/wallets/electrum_banner.png
-#  os: win64
-#  type: desktop
-#  vendor_id: dash_core
-#  vendor_label: Dash Core
-#  control_type: full
-#  validation_type: spv
-#  access_type: multi
-#  product_id: dash_electrum
-#  product_label: Dash Electrum
-#  product_website_label: Electrum-Dash.org
-#  product_website_url: "https://electrum-dash.org/"
-#  product_source_url: "https://github.com/dashpay/electrum-dash"
-#  links:
-#    -
-#      label: Download
-#      url: "/binaries/Electrum-DASH-2.4.1-Windows-setup.exe"
-#    -
-#      label: Hash File
-#      url: "/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.DIGESTS.txt"
-#    -
-#      label: PGP
-#      url: "/binaries/Electrum-DASH-2.4.1-Windows-setup.exe.asc"
-
 - name: Dash Core
   description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
@@ -283,30 +205,6 @@
     -
       label: PGP
       url: "https://github.com/dashpay/dash/releases/download/v0.12.2.3/dashcore-0.12.2.3-osx.dmg.asc"
-
-#- name: Dash Electrum
-#  description: Dash Core "Light" Wallet, provides basic payment functions with SPV based security for low powered systems.
-#  logo_url: /assets/img/wallets/electrum_banner.png
-#  os: osx
-#  type: desktop
-#  vendor_id: dash_core
-#  vendor_label: Dash Core
-#  control_type: full
-#  validation_type: full
-#  access_type: p2p
-#  product_id: dash_electrum
-#  product_label: Dash Electrum
-#  product_source_url: "https://github.com/dashpay/electrum-dash"
-#  links:
-#    -
-#      label: Download PKG
-#      url: "/binaries/Electrum-DASH-2.4.1-Installer.pkg"
-#    -
-#      label: Hash File
-#      url: "/binaries/Electrum-DASH-2.4.1-Installer.pkg.DIGESTS.txt"
-#    -
-#      label: PGP
-#      url: "/binaries/Electrum-DASH-2.4.1-Installer.pkg.asc"
 
 - name: Dash Wallet by Hash Engineering
   description: |
@@ -367,7 +265,7 @@
   logo_url: /assets/img/wallets/electrum.jpg
   os: osx
   type: desktop
-  vendor_id: dash_core
+  vendor_id:
   vendor_label: Dash Core
   control_type: full
   validation_type: full
@@ -385,7 +283,7 @@
   logo_url: /assets/img/wallets/electrum.jpg
   os: linux
   type: desktop
-  vendor_id: dash_core
+  vendor_id:
   vendor_label: Dash Core
   control_type: full
   validation_type: spv
@@ -403,7 +301,7 @@
   logo_url: /assets/img/wallets/electrum.jpg
   os: win64
   type: desktop
-  vendor_id: dash_core
+  vendor_id:
   vendor_label: Dash Core
   control_type: full
   validation_type: spv
