@@ -435,6 +435,12 @@ pages:
     typography-header: Typography
     typography-text: These are recommended usage guidelines for maintaining a consistent design aesthetic for the Dash brand.
     download-link: Vector Graphics (zip)
+    cmyk: Cmyk for print
+    monochrome: Monochrome
+    pantone: Pantone for print
+    rgb-for-screens: Rgb for screens
+    disclaimer-text: First version of new style guide. Please keep in mind that data on this page could be changed.
+    download-style-guide: Style guide.
 
   evolution:
     title: Dash Official Website | Dash Crypto Currency

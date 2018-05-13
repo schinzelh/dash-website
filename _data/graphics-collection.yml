@@ -1,378 +1,67 @@
-- type: logo
-  img-link: dash_logo_s.png
-  format: png
+- type: cmyk-for-print
+  img-link: /cmyk-for-print/dash_logo_2018_cmyk_for_print.jpg
+  format: cmyk
   links:
     -
-      label: Small
-      url: dash_logo_s.png
+      label: jpg
+      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.jpg
     -
-      label: Medium
-      url: dash_logo_m.png
+      label: ai
+      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.ai
     -
-      label: Large
-      url: dash_logo_l.png
+      label: eps
+      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.eps
     -
-      label: Full
-      url: dash_logo_f.png
+      label: pdf
+      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.pdf
 
-- type: logo
-  img-link: dash_icon_s.png
-  format: png
+- type: monochrome
+  img-link: /monochrome/black/dash_logo_2018_black.jpg
+  format: monochrome
   links:
     -
-      label: Small
-      url: dash_icon_s.png
+      label: black jpg
+      url: monochrome/black/dash_logo_2018_black.jpg
     -
-      label: Medium
-      url: dash_icon_m.png
+      label: black pdf
+      url: monochrome/black/dash_logo_2018_black.pdf
     -
-      label: Large
-      url: dash_icon_l.png
+      label: black png
+      url: monochrome/black/dash_logo_2018_black.png
     -
-      label: Full
-      url: dash_icon_f.png
+      label: white pdf
+      url: monochrome/white/dash_logo_2018_white.pdf
+    -
+      label: white png
+      url: monochrome/white/dash_logo_2018_white.png
 
-- type: logo
-  img-link: dash_circle_normal.png
-  format: png
+- type: pantone-for-print
+  img-link: rgb-for-screens/dash_logo_2018_rgb_for_screens.jpg
+  format: pantone-for-print
   links:
     -
-      label: Normal
-      url: dash_circle_normal.png
+      label: ai
+      url: pantone-for-print/dash_logo_2018_pantone-2925c.ai
     -
-      label: Hi-Res
-      url: dash_circle_highres.png
+      label: eps
+      url: pantone-for-print/dash_logo_2018_pantone-2925c.eps
+    -
+      label: pdf
+      url: pantone-for-print/dash_logo_2018_pantone-2925c.pdf
 
-- type: logo
-  img-link: dash_heart_normal.png
-  format: png
+- type: rgb-for-screens
+  img-link: /rgb-for-screens/dash_logo_2018_rgb_for_screens.jpg
+  format: rgb-for-screens
   links:
     -
-      label: Normal
-      url: dash_heart_normal.png
+      label: jpg
+      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.jpg
     -
-      label: Hi-Res
-      url: dash_heart_highres.png
-
-- type: logo
-  img-link: Dash_Logo_Vector_Digital_Cash.png
-  format: png
-  links:
+      label: svg
+      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.svg
     -
-      label: Hi-Res
-      url: Dash_Logo_Vector_Digital_Cash.png
-
-- type: logo
-  img-link: instantx_logo_normal.png
-  format: png
-  links:
+      label: png
+      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.png
     -
-      label: Normal
-      url: instantx_logo_normal.png
-    -
-      label: Hi-Res
-      url: instantx_logo_highres.png
-
-- type: logo
-  img-link: x11_logo_s.png
-  format: png
-  links:
-    -
-      label: Small
-      url: x11_logo_s.png
-    -
-      label: Medium
-      url: x11_logo_m.png
-    -
-      label: Large
-      url: x11_logo_l.png
-
-- type: merchants
-  img-link: accepted_here_beveled_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: accepted_here_beveled_normal.png
-    -
-      label: Hi-Res
-      url: accepted_here_beveled_highres.png
-
-- type: merchants
-  img-link: accepted_here_squared_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: accepted_here_squared_normal.png
-    -
-      label: Hi-Res
-      url: accepted_here_squared_highres.png
-
-
-- type: merchants
-  img-link: accepted_here_borderless_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: accepted_here_borderless_normal.png
-    -
-      label: Hi-Res
-      url: accepted_here_borderless_highres.png
-
-
-- type: merchants
-  img-link: accepted_here_light_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: accepted_here_light_normal.png
-    -
-      label: Hi-Res
-      url: accepted_here_light_highres.png
-
-
-- type: merchants
-  img-link: accepted_here_light_mono_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: accepted_here_light_mono_normal.png
-    -
-      label: Hi-Res
-      url: accepted_here_light_mono_highres.png
-
-- type: merchants
-  img-link: privately_accepted_here_beveled_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: privately_accepted_here_beveled_normal.png
-    -
-      label: Hi-Res
-      url: privately_accepted_here_beveled_highres.png
-
-- type: merchants
-  img-link: privately_accepted_here_squared_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: privately_accepted_here_squared_normal.png
-    -
-      label: Hi-Res
-      url: privately_accepted_here_squared_highres.png
-
-
-- type: merchants
-  img-link: privately_accepted_here_borderless_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: privately_accepted_here_borderless_normal.png
-    -
-      label: Hi-Res
-      url: privately_accepted_here_borderless_highres.png
-
-- type: merchants
-  img-link: privately_accepted_here_light_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: privately_accepted_here_light_normal.png
-    -
-      label: Hi-Res
-      url: privately_accepted_here_light_highres.png
-
-- type: merchants
-  img-link: privately_accepted_here_light_mono_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: privately_accepted_here_light_mono_normal.png
-    -
-      label: Hi-Res
-      url: privately_accepted_here_light_mono_highres.png
-
-- type: merchants
-  img-link: accepted_here_modern_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: accepted_here_modern_normal.png
-    -
-      label: Hi-Res
-      url: accepted_here_modern_highres.png
-
-- type: merchants
-  img-link: accepted_here_modern_vertical_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: accepted_here_modern_vertical_normal.png
-    -
-      label: Hi-Res
-      url: accepted_here_modern_vertical_highres.png
-
-- type: merchants
-  img-link: paywithdashbutton-01.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: paywithdashbutton-01.png
-    -
-      label: Hi-Res
-      url: paywithdashbutton_HR_-01.png
-
-- type: merchants
-  img-link: paywithdashbutton-02.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: paywithdashbutton-02.png
-    -
-      label: Hi-Res
-      url: paywithdashbutton_HR_-02.png
-
-- type: merchants
-  img-link: paywithdashbutton-03.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: paywithdashbutton-03.png
-    -
-      label: Hi-Res
-      url: paywithdashbutton_HR_-03.png
-
-- type: merchants
-  img-link: paywithdashbutton-04.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: paywithdashbutton-04.png
-    -
-      label: Hi-Res
-      url: paywithdashbutton_HR_-04.png
-
-- type: merchants
-  img-link: paywithdashbutton-05.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: paywithdashbutton-05.png
-    -
-      label: Hi-Res
-      url: paywithdashbutton_HR_-05.png
-
-- type: merchants
-  img-link: paywithdashbutton-06.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: paywithdashbutton-06.png
-    -
-      label: Hi-Res
-      url: paywithdashbutton_HR_-06.png
-
-- type: buttons
-  img-link: donations_accepted_beveled_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: donations_accepted_beveled_normal.png
-    -
-      label: Hi-Res
-      url: donations_accepted_beveled_highres.png
-
-- type: buttons
-  img-link: donations_accepted_squared_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: donations_accepted_squared_normal.png
-    -
-      label: Hi-Res
-      url: donations_accepted_squared_highres.png
-
-- type: buttons
-  img-link: donations_accepted_borderless_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: donations_accepted_borderless_normal.png
-    -
-      label: Hi-Res
-      url: donations_accepted_borderless_highres.png
-
-- type: buttons
-  img-link: donations_accepted_light_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: donations_accepted_light_normal.png
-    -
-      label: Hi-Res
-      url: donations_accepted_light_highres.png
-
-- type: buttons
-  img-link: donations_accepted_light_mono_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: donations_accepted_light_mono_normal.png
-    -
-      label: Hi-Res
-      url: donations_accepted_light_mono_highres.png
-
-- type: buttons
-  img-link: donate_modern_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: donate_modern_normal.png
-    -
-      label: Hi-Res
-      url: donate_modern_highres.png
-
-- type: buttons
-  img-link: donate_modern_vertical_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: donate_modern_vertical_normal.png
-    -
-      label: Hi-Res
-      url: donate_modern_vertical_highres.png
-
-- type: buttons
-  img-link: donate_minimal_normal.png
-  format: png
-  links:
-    -
-      label: Normal
-      url: donate_minimal_normal.png
-    -
-      label: Hi-Res
-      url: donate_minimal_highres.png
+      label: pdf
+      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.pdf

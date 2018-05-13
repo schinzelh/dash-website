@@ -8,47 +8,58 @@ description: pages.graphics.description
 {% assign logos =  site.data.graphics-collection | where:"type","logo" %}
 {% assign merchants =  site.data.graphics-collection | where:"type","merchants" %}
 {% assign buttons =  site.data.graphics-collection | where:"type","buttons" %}
+{% assign cmyk =  site.data.graphics-collection | where:"type","cmyk-for-print" %}
+{% assign monochrome =  site.data.graphics-collection | where:"type","monochrome" %}
+{% assign pantone-for-print =  site.data.graphics-collection | where:"type","pantone-for-print" %}
+{% assign rgb-for-screens =  site.data.graphics-collection | where:"type","rgb-for-screens" %}
 
 <div class="page">
-	<section class="section">
-		<div class="section__content">
-			<h2>{% t pages.graphics.logos-header %}</h2>
-			<div class="row">
-				{% for graphic in logos %}
-					{% include graphics-tile.html %}
-				{% endfor %}
-			</div>
-		</div>
-	</section>
 
 	<section class="section">
-		<div class="section__content">
-			<h2>{% t pages.graphics.merchants-header %}</h2>
-			<div class="row">
-				{% for graphic in merchants %}
-					{% include graphics-tile.html %}
-				{% endfor %}
-			</div>
-		</div>
-	</section>
 
-	<section class="section">
 		<div class="section__content">
-			<h2>{% t pages.graphics.dontaion-header %}</h2>
-			<div class="row">
-				{% for graphic in buttons %}
-					{% include graphics-tile.html %}
-				{% endfor %}
-			</div>
-		</div>
-	</section>
+			<p class="warning-bg text-left">
+				{% t pages.graphics.disclaimer-text %}
+			</p>
+			<br/>
 
-	<section class="section">
-		<div class="section__content">
-			<a href="/assets/Dash_Vector_Graphics_Collection.zip"  class="btn-blue-solid" download>
-			{% t pages.graphics.download-link %}
+			<a href="/assets/Dash_brand_style_guide_2018.pdf" class="btn-blue-solid">
+				{% t pages.graphics.download-style-guide %}
 			</a>
-			<hr>
+
+			<hr class="bottom-space">
+
+			<div class="row bottom-space">
+
+				<div class="col-xs-12 col-md-3">
+					<h2 class="text-center">{% t pages.graphics.cmyk %}</h2>
+					{% for graphic in cmyk %}
+						{% include graphics-tile.html %}
+					{% endfor %}
+				</div>
+
+				<div class="col-xs-12 col-md-3">
+					<h2 class="text-center">{% t pages.graphics.monochrome %}</h2>
+					{% for graphic in monochrome %}
+						{% include graphics-tile.html %}
+					{% endfor %}
+				</div>
+
+				<div class="col-xs-12 col-md-3">
+					<h2 class="text-center">{% t pages.graphics.pantone %}</h2>
+					{% for graphic in pantone-for-print %}
+						{% include graphics-tile.html %}
+					{% endfor %}
+				</div>
+
+				<div class="col-xs-12 col-md-3">
+					<h2 class="text-center">{% t pages.graphics.rgb-for-screens %}</h2>
+					{% for graphic in rgb-for-screens %}
+						{% include graphics-tile.html %}
+					{% endfor %}
+				</div>
+
+			</div>
 		</div>
 
 	</section>
@@ -70,14 +81,14 @@ description: pages.graphics.description
 							<div class="color-box color-box_blue"></div>
 							<div class="color-article">
 								<p>RGB: 30,113,184</p>
-								<p>CMYK: 85,50,0,0</p>
-								<p>Hex: #1d71b8</p>
+								<p>CMYK: 76, 38, 0, 0</p>
+								<p>Hex: #008de4</p>
 							</div>
 						</div>
 						<div class="col-xs-6">
 							<div class="color-box color-box_gray"></div>
 							<div class="color-article">
-								<p>RGB: 227,227,227</p>
+								<p>RGB: 0,141,228</p>
 								<p>CMYK: 13,9,11,0</p>
 								<p>Hex: #e3e3e3</p>
 							</div>
@@ -124,6 +135,7 @@ description: pages.graphics.description
 				</div>
 			</div>
 		</div>
+
 	</section>
 
 
