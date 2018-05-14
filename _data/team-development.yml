@@ -87,7 +87,7 @@
     - Development
 
 - name: Quantum Explorer
-  title: iOS Developer
+  title: Head of Mobile Team
   description: QuantumExplorer is a Lead Software Engineer with over 2 years experience leading teams and 6 years experience developing iOS solutions. He has built many successful in-house projects that served multiple millions of users. By night he is a cryptocurrency aficionado who believes that our current economic system is flawed and could be greatly improved by emerging technology. He believes that Dash is the leader of this trend.
   image: quantumexplorer.jpg
   email: quantumexplorerdash@gmail.com
@@ -349,13 +349,13 @@
   dashforum: thephez
   team-title:
     - Development
-    
+
 - name: hashengineering
   title: Android Developer
   description:
   image: HashEngineering.png
   email: eric.britten@dash.org
-  keybase: 
+  keybase:
   twitter:
   dashforum-link: /hashengineering.463/
   dashforum: hashengineering
