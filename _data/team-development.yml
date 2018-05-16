@@ -361,3 +361,15 @@
   dashforum: hashengineering
   team-title:
     - Development
+
+- name: Dana Alibrandi
+  title: Product Owner
+  description:
+  image: danaalibrandi.jpg
+  email: dana.alibrandi@dash.org
+  keybase: https://keybase.io/dalibran
+  twitter:
+  dashforum-link: /dalibran.26517/
+  dashforum: dalibran
+  team-title:
+    - Development
