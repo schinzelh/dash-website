@@ -1,5 +1,22 @@
+{% if page.original-author %}
+<div class="author">
+	Original author:
+	<h6>{{ page.original-author }}</h6>
+	<br>
+	Original link:
+	<a
+		href="{{ page.original-link }}"
+		title="{{ page.original-author }}"
+		target="_blank">
+		{{ page.original-link }}
+	</a>
+</div>
+{% else %}
+
 {% if page.author %}
 <div class="author">
+	Author:
+	<br>
 	{% assign author = site.data.people[page.author] %}
 
 	{% if author.image %}
@@ -21,14 +38,5 @@
 	</a>
 </div>
 {% endif %}
-
-{% if page.original-author %}
-<div class="author">
-	<a
-		href="{{ page.original-link }}"
-		title="{{ page.orginal-author }}"
-		target="_blank">
-		{{ page.original-author }}
-	</a>
-</div>
 {% endif %}
+
