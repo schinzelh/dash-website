@@ -1,20 +1,17 @@
-<div class="col-xs-12 col-md-3">
-
-	<div class="b-graphic-tile">
-		<div class="thumbnail">
-			<div class="logo-container {{ graphic.background }}">
-				<img src="/assets/img/graphics/{{ graphic.img-link }}"/>
+<div class="b-graphic-tile">
+	<div class="thumbnail">
+		<div class="logo-container">
+			<img src="/assets/img/graphics/{{ graphic.img-link }}"/>
+		</div>
+		<div class="caption">
+			<h4>{{ graphic.format }}</h4>
+		</div>
+		<div class="wallet-links-container">
+			{% for link in graphic.links %}
+			<div class="link">
+				<a href="/assets/img/graphics/{{link.url}}" target="_blank">{{link.label}} </a>
 			</div>
-			<div class="caption">
-				<h4>{{ graphic.format }}</h4>
-			</div>
-			<div class="wallet-links-container">
-				{% for link in graphic.links %}
-				<div class="link">
-					<a href="/assets/img/graphics/{{link.url}}" target="_blank">{{link.label}} </a>
-				</div>
-				{% endfor %}
-			</div>
+			{% endfor %}
 		</div>
 	</div>
 
