@@ -5,13 +5,8 @@ description: pages.graphics.description
 ---
 {% include hero/graphics.html %}
 
-{% assign logos =  site.data.graphics-collection | where:"type","logo" %}
-{% assign merchants =  site.data.graphics-collection | where:"type","merchants" %}
-{% assign buttons =  site.data.graphics-collection | where:"type","buttons" %}
-{% assign cmyk =  site.data.graphics-collection | where:"type","cmyk-for-print" %}
-{% assign monochrome =  site.data.graphics-collection | where:"type","monochrome" %}
-{% assign pantone-for-print =  site.data.graphics-collection | where:"type","pantone-for-print" %}
-{% assign rgb-for-screens =  site.data.graphics-collection | where:"type","rgb-for-screens" %}
+{% assign logos = site.data.graphics-collection | where:"type","logos" %}
+{% assign icons = site.data.graphics-collection | where:"type","icons" %}
 
 <div class="page">
 
@@ -22,44 +17,37 @@ description: pages.graphics.description
 				{% t pages.graphics.disclaimer-text %}
 			</p>
 			<br/>
-
-			<a href="/assets/Dash_brand_style_guide_2018.pdf" class="btn-blue-solid">
-				{% t pages.graphics.download-style-guide %}
-			</a>
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<img src="/assets/img/graphics/brandstyle.jpg" alt="brandstyle" class="brandstyle-img">
+					<br>
+					<div class="text-left">
+						<a href="/assets/dash_styleguide_2018.pdf" class="btn-blue-solid">
+							{% t pages.graphics.download-style-guide %}
+						</a>
+						<a href="/assets/dash_style_guide_resources.zip" class="btn-blue-solid">
+							{% t pages.graphics.download-all-resources %}
+						</a>
+					</div>
+				</div>
+			</div>
 
 			<hr class="bottom-space">
 
 			<div class="row bottom-space">
-
-				<div class="col-xs-12 col-md-3">
-					<h2 class="text-center">{% t pages.graphics.cmyk %}</h2>
-					{% for graphic in cmyk %}
-						{% include graphics-tile.html %}
-					{% endfor %}
-				</div>
-
-				<div class="col-xs-12 col-md-3">
-					<h2 class="text-center">{% t pages.graphics.monochrome %}</h2>
-					{% for graphic in monochrome %}
-						{% include graphics-tile.html %}
-					{% endfor %}
-				</div>
-
-				<div class="col-xs-12 col-md-3">
-					<h2 class="text-center">{% t pages.graphics.pantone %}</h2>
-					{% for graphic in pantone-for-print %}
-						{% include graphics-tile.html %}
-					{% endfor %}
-				</div>
-
-				<div class="col-xs-12 col-md-3">
-					<h2 class="text-center">{% t pages.graphics.rgb-for-screens %}</h2>
-					{% for graphic in rgb-for-screens %}
-						{% include graphics-tile.html %}
-					{% endfor %}
-				</div>
-
+				<h2 class="text-center">{% t pages.graphics.logos %}</h2>
+				{% for graphic in logos %}
+					{% include graphics-tile.html %}
+				{% endfor %}
 			</div>
+
+			<div class="row bottom-space">
+				<h2 class="text-center">{% t pages.graphics.icons %}</h2>
+				{% for graphic in icons %}
+					{% include graphics-tile.html %}
+				{% endfor %}
+			</div>
+
 		</div>
 
 	</section>
@@ -76,43 +64,75 @@ description: pages.graphics.description
 				</div>
 
 				<div class="col-md-6">
-					<div class="row">
+					<div class="row bottom-space">
 						<div class="col-xs-6">
 							<div class="color-box color-box_blue"></div>
 							<div class="color-article">
-								<p>RGB: 30,113,184</p>
+								<span class="brand-color-name">Blue</span>
+								<p>RGB: 0, 141, 228</p>
 								<p>CMYK: 76, 38, 0, 0</p>
 								<p>Hex: #008de4</p>
+								<p>PANTONE: 2925c</p>
+							</div>
+						</div>
+						
+						<div class="col-xs-6">
+							<div class="color-box color-box_white"></div>
+							<div class="color-article">
+								<span class="brand-color-name">White</span>
+								<p>RGB: 255,255,255</p>
+								<p>CMYK: 0,0,0,0</p>
+								<p>Hex: #ffffff</p>
+								<p>PANTONE: -</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="row bottom-space">
+						<div class="col-xs-6">
+							<div class="color-box color-box_deep-blue"></div>
+							<div class="color-article">
+								<span class="brand-color-name">Deep blue</span>
+								<p>RGB:  1, 32, 96</p>
+								<p>CMYK: 100, 94, 31, 29</p>
+								<p>Hex: #012060</p>
+								<p>PANTONE: 534c</p>
 							</div>
 						</div>
 						<div class="col-xs-6">
 							<div class="color-box color-box_gray"></div>
 							<div class="color-article">
-								<p>RGB: 0,141,228</p>
-								<p>CMYK: 13,9,11,0</p>
-								<p>Hex: #e3e3e3</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-6">
-							<div class="color-box color-box_black"></div>
-							<div class="color-article">
-								<p>RGB: 0,0,0</p>
-								<p>CMYK: 91,79,62,97</p>
-								<p>Hex: #000000</p>
-							</div>
-						</div>
-						<div class="col-xs-6">
-							<div class="color-box color-box_white"></div>
-							<div class="color-article">
-								<p>RGB: 255,255,255</p>
-								<p>CMYK: 0,0,0,0</p>
-								<p>Hex: #ffffff</p>
+								<span class="brand-color-name">Gray</span>
+								<p>RGB: 120, 120, 120</p>
+								<p>CMYK: 54, 46, 45, 11</p>
+								<p>Hex: #787878</p>
+								<p>PANTONE: Cool Gray 9 C</p>
 							</div>
 						</div>
 					</div>
 
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="color-box color-box_midnight-blue"></div>
+							<div class="color-article">
+								<span class="brand-color-name">Midnight Blue</span>
+								<p>RGB:  11, 15, 59</p>
+								<p>CMYK: 100, 96, 41, 53</p>
+								<p>Hex: #0b0f3b</p>
+								<p>PANTONE: 5255c</p>
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="color-box color-box_black"></div>
+							<div class="color-article">
+								<span class="brand-color-name">Black</span>
+								<p>RGB: 17, 25, 33</p>
+								<p>CMYK:  82, 71, 59, 75</p>
+								<p>Hex: #111921</p>
+								<p>PANTONE: Black 6 C</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -124,12 +144,12 @@ description: pages.graphics.description
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-xs-6">
-							<p>Roboto</p>
+							<p>Roboto Condensed</p>
 							<span class="text-word-wrap graphic-exmaple-brand">ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!%</span>
 						</div>
 						<div class="col-xs-6">
-							<p>Montserrat Light</p>
-							<span class="text-word-wrap graphic-exmaple-light">ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!%</span>
+							<p>Montserrat</p>
+							<span class="text-word-wrap graphic-exmaple">ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!%</span>
 						</div>
 					</div>
 				</div>

@@ -442,14 +442,20 @@ a.blog_link {
     background-color: #008de4;
   }
   &_gray {
-    background-color: #e3e3e3;
+    background-color: #787878;
   }
   &_black {
-    background-color: #000000;
+    background-color: #111921;
   }
   &_white {
     border: 2px solid #ebebea;
     background-color: #ffffff;
+  }
+  &_deep-blue {
+    background-color: #012060;
+  }
+  &_midnight-blue{
+    background-color: #0b0f3b;
   }
 }
 
@@ -479,6 +485,9 @@ a.blog_link {
 }
 .graphic-exmaple-light{
     font-weight: $font-weight-xlight;
+}
+.graphic-exmaple{
+    font-weight: $font-weight-regular;
 }
 .graphic-exmaple-brand{
     font-family: $font-family-brand;
@@ -572,5 +581,12 @@ a.blog_link {
 }
 .page--post .author h6{
   display: inline;
+  font-weight: 400;
+}
+
+.brandstyle-img{
+  width: 100%;
+}
+.brand-color-name{
   font-weight: 400;
 }

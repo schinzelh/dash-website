@@ -1,23 +1,387 @@
-- type: cmyk-for-print
-  img-link: /cmyk-for-print/dash_logo_2018_cmyk_for_print.jpg
-  format: cmyk
+- type: icons
+  img-link: /icons/dash_D_icons/Dash-D-white_on_blue_rounded_square_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_D_icons/Dash-D-white_on_blue_rounded_square_s.png
+    -
+      label: Full
+      url: icons/dash_D_icons/Dash-D-white_on_blue_rounded_square.pdf
+
+- type: icons
+  img-link: /icons/dash_D_icons/dash-D-blue_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_D_icons/dash-D-blue_s.png
+    -
+      label: Full PNG
+      url: icons/dash_D_icons/dash-D-blue.png
+    -
+      label: Full PDF
+      url: icons/dash_D_icons/dash_d_blue.pdf
+
+- type: icons
+  img-link: /icons/dash_D_icons/Dash-D-white_s.png
+  format:
+  background: blue
+  links:
+    -
+      label: Small
+      url: icons/dash_D_icons/Dash-D-white_s.png
+    -
+      label: Full PNG
+      url: icons/dash_D_icons/Dash-D-white.png
+    -
+      label: Full PDF
+      url: icons/dash_D_icons/dash_d_white.pdf
+
+- type: icons
+  img-link: /icons/dash_coin_icons/Dash-D-white_on_blue_circle_s.png
+  format:
+  links:
+    -
+      label: small png
+      url: icons/dash_coin_icons/Dash-D-white_on_blue_circle_s.png
+    -
+      label: full png
+      url: icons/dash_coin_icons/Dash-D-white_on_blue_circle.png
+
+- type: icons
+  img-link: /icons/dash_coin_icons/Dash-D-blue_on_white_circle_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_coin_icons/Dash-D-blue_on_white_circle_s.png
+    -
+      label: Full
+      url: icons/dash_coin_icons/Dash-D-blue_on_white_circle.png
+
+- type: icons
+  img-link: /icons/dash_coin_icons/coin_dash_D_icon_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_coin_icons/coin_dash_D_icon_s.png
+    -
+      label: full
+      url: icons/dash_coin_icons/coin_dash_D_icon.png
+
+- type: icons
+  img-link: /icons/dash_coin_icons/coin_dashLogo_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_coin_icons/coin_dashLogo_s.png
+    -
+      label: Full
+      url: icons/dash_coin_icons/coin_dashLogo.png
+
+
+
+
+- type: icons
+  img-link: /icons/dash_icons/wallet/dash_wallet_icon_withLogo.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/wallet/dash_wallet_icon_withLogo.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/wallet/dash_wallet_icon_withLogo.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/wallet/dash_wallet_icon_withLogo.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/wallet/dash_wallet_icon_withLogo.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/wallet/dash_wallet_icon_withLogo.jpg
+
+- type: icons
+  img-link: /icons/dash_icons/wallet/dash_wallet_noText_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/wallet/dash_wallet_noText_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/wallet/dash_wallet_noText.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/wallet/dash_wallet_noText.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/wallet/dash_wallet_noText.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/wallet/dash_wallet_noText.jpg
+
+- type: icons
+  img-link: /icons/dash_icons/wallet/dash_wallet_enclosed.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/wallet/dash_wallet_enclosed_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/wallet/dash_wallet_enclosed.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/wallet/dash_wallet_enclosed.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/wallet/dash_wallet_enclosed.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/wallet/dash_wallet_enclosed.jpg
+
+
+- type: icons
+  img-link: /icons/dash_icons/masternode/dash_masterNode_icon_withLogo_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/masternode/dash_masterNode_icon_withLogo_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/masternode/dash_masterNode_icon_withLogo.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/masternode/dash_masterNode_icon_withLogo.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/masternode/dash_masterNode_icon_withLogo.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/masternode/dash_masterNode_icon_withLogo.jpg
+
+- type: icons
+  img-link: /icons/dash_icons/masternode/dash_masterNode_noText_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/masternode/dash_masterNode_noText_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/masternode/dash_masterNode_noText.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/masternode/dash_masterNode_noText.svg
+    -
+      label: Full pdf
+      url: icons/dash_icons/masternode/dash_masterNode_noText.pdf
+    -
+      label: Full jpg
+      url: icons/dash_icons/masternode/dash_masterNode_noText.jpg
+
+
+- type: icons
+  img-link: /icons/dash_icons/masternode/dash_masterNode_icon_enclosed_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/masternode/dash_masterNode_icon_enclosed_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/masternode/dash_masterNode_icon_enclosed.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/masternode/dash_masterNode_icon_enclosed.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/masternode/dash_masterNode_icon_enclosed.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/masternode/dash_masterNode_icon_enclosed.jpg
+
+- type: icons
+  img-link: /icons/dash_icons/instantSend/dash_instantSend_icon_withLogo_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/instantSend/dash_instantSend_icon_withLogo_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/instantSend/dash_instantSend_icon_withLogo.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/instantSend/dash_instantSend_icon_withLogo.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/instantSend/dash_instantSend_icon_withLogo.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/instantSend/dash_instantSend_icon_withLogo.jpg
+
+- type: icons
+  img-link: /icons/dash_icons/instantSend/dash_instantSend_noText_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/instantSend/dash_instantSend_noText_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/instantSend/dash_instantSend_noText.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/instantSend/dash_instantSend_noText.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/instantSend/dash_instantSend_noText.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/instantSend/dash_instantSend_noText.jpg
+
+
+- type: icons
+  img-link: /icons/dash_icons/instantSend/dash_instantSend_enclosed_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/instantSend/dash_instantSend_enclosed_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/instantSend/dash_instantSend_enclosed.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/instantSend/dash_instantSend_enclosed.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/instantSend/dash_instantSend_enclosed.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/instantSend/dash_instantSend_enclosed.jpg
+
+
+- type: icons
+  img-link: /icons/dash_icons/privateSend/dash_privateSend_icon_withLogo_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/privateSend/dash_privateSend_icon_withLogo_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/privateSend/dash_privateSend_icon_withLogo.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/privateSend/dash_privateSend_icon_withLogo.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/privateSend/dash_privateSend_icon_withLogo.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/privateSend/dash_privateSend_icon_withLogo.jpg
+
+- type: icons
+  img-link: /icons/dash_icons/privateSend/dash_privateSend_noText_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/privateSend/dash_privateSend_noText_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/privateSend/dash_privateSend_noText.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/privateSend/dash_privateSend_noText.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/privateSend/dash_privateSend_noText.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/privateSend/dash_privateSend_noText.jpg
+
+- type: icons
+  img-link: /icons/dash_icons/privateSend/dash_privateSend_enclosed_s.png
+  format:
+  links:
+    -
+      label: Small
+      url: icons/dash_icons/privateSend/dash_privateSend_enclosed_s.png
+    -
+      label: Full PNG
+      url: icons/dash_icons/privateSend/dash_privateSend_enclosed.png
+    -
+      label: Full SVG
+      url: icons/dash_icons/privateSend/dash_privateSend_enclosed.svg
+    -
+      label: Full PDF
+      url: icons/dash_icons/privateSend/dash_privateSend_enclosed.pdf
+    -
+      label: Full JPG
+      url: icons/dash_icons/privateSend/dash_privateSend_enclosed.jpg
+
+- type: logos
+  img-link: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens_s.png
+  format:
+  background:
+  links:
+    -
+      label: Small
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens_s.png
+    -
+      label: Full PNG
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens.png
+    -
+      label: Full PDF
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens.pdf
+    -
+      label: Full AI
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens.ai
+
+- type: logos
+  img-link: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens_s.png
+  format:
+  background: blue
+  links:
+    -
+      label: Small
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens_s.png
+    -
+      label: Full PNG
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens.png
+    -
+      label: Full PDF
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens.pdf
+
+- type: logos
+  img-link: /rgb-for-screens/dash_logo_2018_rgb_for_screens.jpg
+  format: RGB for screens
   links:
     -
       label: jpg
-      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.jpg
+      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.jpg
     -
-      label: ai
-      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.ai
+      label: svg
+      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.svg
     -
-      label: eps
-      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.eps
+      label: png
+      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.png
     -
       label: pdf
-      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.pdf
+      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.pdf
 
-- type: monochrome
+- type: logos
   img-link: /monochrome/black/dash_logo_2018_black.jpg
-  format: monochrome
+  format: Monochrome
   links:
     -
       label: black jpg
@@ -35,9 +399,26 @@
       label: white png
       url: monochrome/white/dash_logo_2018_white.png
 
-- type: pantone-for-print
+- type: logos
+  img-link: /cmyk-for-print/dash_logo_2018_cmyk_for_print.jpg
+  format: CMYK for print
+  links:
+    -
+      label: jpg
+      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.jpg
+    -
+      label: ai
+      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.ai
+    -
+      label: eps
+      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.eps
+    -
+      label: pdf
+      url: cmyk-for-print/dash_logo_2018_cmyk_for_print.pdf
+
+- type: logos
   img-link: rgb-for-screens/dash_logo_2018_rgb_for_screens.jpg
-  format: pantone-for-print
+  format: Pantone for print
   links:
     -
       label: ai
@@ -49,19 +430,3 @@
       label: pdf
       url: pantone-for-print/dash_logo_2018_pantone-2925c.pdf
 
-- type: rgb-for-screens
-  img-link: /rgb-for-screens/dash_logo_2018_rgb_for_screens.jpg
-  format: rgb-for-screens
-  links:
-    -
-      label: jpg
-      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.jpg
-    -
-      label: svg
-      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.svg
-    -
-      label: png
-      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.png
-    -
-      label: pdf
-      url: rgb-for-screens/dash_logo_2018_rgb_for_screens.pdf
