@@ -1040,6 +1040,7 @@ pages:
     associated: Close Associated
     advisor: Senior Advisor
     external: External contributors
+
 nav:
   what-is-dash: What is Dash
   get-dash: Get Dash
@@ -1091,7 +1092,7 @@ nav:
   discord: Discord
   forum: Dash forums
   social: Social
-  blog: Blog
+  blog: News
   reddit: Reddit
   twitter: Twitter
   youtube: YouTube
@@ -1104,4 +1105,6 @@ nav:
   tos: Terms of Use
   sitemap: Sitemap
   sitesource: Source code
+  service: Service Desk
+  support: Support
 
