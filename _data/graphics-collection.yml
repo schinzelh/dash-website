@@ -330,39 +330,6 @@
       url: icons/dash_icons/privateSend/dash_privateSend_enclosed.jpg
 
 - type: logos
-  img-link: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens_s.png
-  format:
-  background:
-  links:
-    -
-      label: Small
-      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens_s.png
-    -
-      label: Full PNG
-      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens.png
-    -
-      label: Full PDF
-      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens.pdf
-    -
-      label: Full AI
-      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens.ai
-
-- type: logos
-  img-link: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens_s.png
-  format:
-  background: blue
-  links:
-    -
-      label: Small
-      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens_s.png
-    -
-      label: Full PNG
-      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens.png
-    -
-      label: Full PDF
-      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens.pdf
-
-- type: logos
   img-link: /rgb-for-screens/dash_logo_2018_rgb_for_screens.jpg
   format: RGB for screens
   links:
@@ -430,3 +397,35 @@
       label: pdf
       url: pantone-for-print/dash_logo_2018_pantone-2925c.pdf
 
+- type: logos
+  img-link: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens_s.png
+  format:
+  background:
+  links:
+    -
+      label: Small
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens_s.png
+    -
+      label: Full PNG
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens.png
+    -
+      label: Full PDF
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens.pdf
+    -
+      label: Full AI
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens.ai
+
+- type: logos
+  img-link: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens_s.png
+  format:
+  background: blue
+  links:
+    -
+      label: Small
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens_s.png
+    -
+      label: Full PNG
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens.png
+    -
+      label: Full PDF
+      url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens.pdf
