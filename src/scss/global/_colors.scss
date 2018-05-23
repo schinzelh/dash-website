@@ -9,7 +9,7 @@ $color-white:		#ffffff;
 
 $color-blue-dark:	#0b3b5a;
 $color-blue-strong: #0077d6;
-$color-blue:		#1c75bc;
+$color-blue:		#008de4;
 $color-blue-highlight: #3297e8;
 $color-blue-light: 	#addbff;
 $color-blue-offshade: #658cad;
@@ -21,7 +21,7 @@ $color-green-light: #b9f4bc;
 
 $gradient-dash-sky: linear-gradient(to top right, #3094E3, #247FC8 9%, #186AAC 30%, #163B80 73%, #001D38);
 $gradient-atmosphere-blue-violet: linear-gradient(to top right,#4cddff,#3b9aca 10%,#2d6ca5 20%,#2a5291 27%,#283d81 35%,#222654 50%,#1e1635 63%,#0c0010 93%,#000);
-$gradient-default-overlay-blue: linear-gradient(-225deg, rgba(#283d81,0.7) 0%, rgba(#1c75bc,0.8) 100%);
+$gradient-default-overlay-blue: linear-gradient(-225deg, rgba(#283d81,0.7) 0%, rgba(0, 141, 228, 0.75) 100%);
 $gradient-overlay-green: linear-gradient(-225deg, rgba(36, 180, 94, 0.56) 0%, rgba(76,144,98,0.8) 100%);
 // for the style guide:
 @function contrast-color($color, $dark, $light, $threshold: 50) {
