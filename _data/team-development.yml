@@ -158,18 +158,6 @@
   team-title:
     - Development
 
-- name: Oleg Girko
-  title: Dash Core Developer
-  description:
-  image: oleg.png
-  email: ol@dash.org
-  keybase:
-  twitter:
-  dashforum-link: /ol.13002/
-  dashforum: ol
-  team-title:
-    - Development
-
 - name: Darren Tapp
   title: Research
   description:
@@ -191,18 +179,6 @@
   twitter:
   dashforum-link: /doodlefax.14057/
   dashforum: doodlefax
-  team-title:
-    - Development
-
-- name: Ian Marshall
-  title: Evolution DashDrive Developer
-  description:
-  image: meian.jpg
-  email: ian@dash.org
-  keybase:
-  twitter:
-  dashforum-link: /imarshall.14947/
-  dashforum: imarshall
   team-title:
     - Development
 
