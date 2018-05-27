@@ -590,3 +590,9 @@ a.blog_link {
 .brand-color-name{
   font-weight: 400;
 }
+.center-flex-sm{
+  @media (min-width: $screen-sm-min) {
+    display: flex;
+    align-items: center;
+  }
+}

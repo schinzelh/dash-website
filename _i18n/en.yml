@@ -154,7 +154,7 @@ pages:
       Once the network verifies that the problem was correctly solved, a new block is added to the blockchain and the miner is rewarded with Dash currency.
 
     hero-how-to-btn: How to start
-    hero-asic-btn: ASIC HW
+    hero-asic-btn: ASIC Hardware
     hero-guides-btn: Guides
 
     pools-heading: Mining Pools
@@ -182,7 +182,7 @@ pages:
     cpu-mining-btn: CPU Mining
     sg-miner-btn: SGminer / graphics cards
     pools-stat-heading: Pool Statistics
-    amd-mining-btn: AMD GPU on Windows
+    amd-mining-btn: GPU Mining
 
 
 
@@ -1054,8 +1054,8 @@ nav:
 
   participate: Contribute
   mining: Start Mining
-  masternode: Setup a Masternode
-  wallet: Setup a Wallet
+  masternode: Set Up a Masternode
+  wallet: Set Up a Wallet
   funding: Apply for Funding
 
   currency: Network
@@ -1087,6 +1087,7 @@ nav:
   whitepaper: Whitepaper
   school: School
   search: Search
+  docs: Documentation
 
   telegram: Telegram
   discord: Discord
