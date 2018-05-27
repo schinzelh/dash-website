@@ -20,10 +20,11 @@
             <li class="nav__item"><a href="{{ basenav }}/merchants/" class="nav__link">{% t nav.merchants %}</a></li>
             <li class="nav__item"><a href="{{ basenav }}/network/" class="nav__link">{% t nav.currency %}</a></li>
             <li class="nav__item"><a href="{{ basenav }}/community/" class="nav__link">{% t nav.community %}</a></li>
-            <li class="nav__item"><a href="{{ basenav }}/blog/" class="nav__link">{% t nav.blog %}</a></li>
+            <li class="nav__item"><a href="{{ basenav }}/news/" class="nav__link">{% t nav.blog %}</a></li>
             <li class="nav__item"><a href="{{ basenav }}/evolution/" class="nav__link">{% t nav.evolution %}</a></li>
             <li class="nav__item"><a href="https://support.dash.org/" class="nav__link" target="_blank">{% t nav.support %}</a></li>
             {% if page.layout != 'post' %}
+            {% unless page.url != '/news/index.html' %}
             <li class="nav__item nav__item--languages">
                 <a href="#" class="nav__link" style="text-transform:uppercase;"><span class="flag {% if 'en' == site.lang %}gb{% else %}{{site.lang}}{% endif %}"></span></a>
                 <ul class="nav__sublist">
@@ -61,6 +62,7 @@
                     </li>
                 </ul>
             </li>
+            {% endunless%}
             {% endif %}
 
            <!--  <li class="nav__item nav__item--search"><a href="{{ basenav }}" class="nav__link" title="{% t nav.search %}">S</a></li> -->

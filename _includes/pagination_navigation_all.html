@@ -8,9 +8,9 @@
     {% if page == paginator.page %}
       <em class="pagination__current">{{ page }}</em>
     {% elsif page == 1 %}
-      <a href="/blog" class="pagination__link pagination__link--start">{{ page }}</a>
+      <a href="/news" class="pagination__link pagination__link--start">{{ page }}</a>
     {% else %}
-      <a href="{{site.baseurl}}/blog{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}" class="pagination__link">{{ page }}</a>
+      <a href="{{site.baseurl}}/news{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}" class="pagination__link">{{ page }}</a>
     {% endif %}
   {% endfor %}
 

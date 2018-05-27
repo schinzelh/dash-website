@@ -10,7 +10,7 @@
 
 	<!-- Hero content -->
 	<div class="hero__content">
-		<a href="{{ basenav }}/blog/">{% t nav.blog %}{% if page.categories | size == 1 %} – {{ page.categories | first }}{% if page.categories | size > 1 %}{% for category in page.categories offset: 1  %} / {{ category }} {% endfor %} {% endif %}{% endif %}</a><!-- TODO: Add category page and link to it -->
+		<a href="{{ basenav }}/news/">{% t nav.blog %}{% if page.categories | size == 1 %} – {{ page.categories | first }}{% if page.categories | size > 1 %}{% for category in page.categories offset: 1  %} / {{ category }} {% endfor %} {% endif %}{% endif %}</a><!-- TODO: Add category page and link to it -->
 		<h1 class="hero__title">{% if page.title %}{{ page.title }}{% endif %}</h1>
 		<p class="hero__lead">{{ page.date | date: "%b %d, %Y" }}</p>
 	</div>

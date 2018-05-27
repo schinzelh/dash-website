@@ -19,7 +19,7 @@ exclude:
 pagination:
   enabled: true
   per_page: 12
-  permalink: '/blog/page:num/'
+  permalink: '/news/page:num/'
   title: ':title - page :num of :max'
   limit: 0
   sort_field: 'date'

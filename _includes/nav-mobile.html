@@ -12,10 +12,11 @@
             <li class="overlay-menu__item"><a href="{{ basenav }}/network/" class="overlay-menu__link">{% t nav.currency %}</a></li>
             <li class="overlay-menu__item"><a href="{{ basenav }}/community/" class="overlay-menu__link">{% t nav.community %}</a></li>
             <li class="overlay-menu__item"><a href="{{ basenav }}/team/" class="overlay-menu__link">{% t nav.team %}</a></li>
-            <li class="overlay-menu__item"><a href="{{ basenav }}/blog/" class="overlay-menu__link">{% t nav.blog %}</a></li>
+            <li class="overlay-menu__item"><a href="{{ basenav }}/news/" class="overlay-menu__link">{% t nav.blog %}</a></li>
             <li class="overlay-menu__item"><a href="{{ basenav }}/evolution/" class="overlay-menu__link">{% t nav.evolution %}</a></li>
             <li class="overlay-menu__item"><a href="https://support.dash.org/" class="overlay-menu__link">{% t nav.support %}</a></li>
-            {% if page.layout != 'post' %}
+            {% if page.layout != 'post'  %}
+            {% unless page.url != '/news/index.html' %}
             <li class="overlay-menu__item overlay-menu__item--languages">
                 <ul class="overlay-menu__sublist">
                     <!-- TODO: dynamically generate this list -->
@@ -52,6 +53,7 @@
                     </li>
                 </ul>
             </li>
+            {% endunless%}
             {% endif %}
         </ul>
     </div>
