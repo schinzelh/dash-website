@@ -46,8 +46,30 @@
       label: small png
       url: icons/dash_coin_icons/Dash-D-white_on_blue_circle_s.png
     -
-      label: full png
+      label: Full png
       url: icons/dash_coin_icons/Dash-D-white_on_blue_circle.png
+
+- type: icons
+  img-link: /icons/dash_coin_icons/Dash-D-white_on_deep-blue_circle.png
+  format:
+  links:
+    -
+      label: small png
+      url: icons/dash_coin_icons/Dash-D-white_on_deep-blue_circle.png
+    -
+      label: Full AI
+      url: icons/dash_coin_icons/Dash-D-white_on_deep-blue_circle.ai
+
+- type: icons
+  img-link: /icons/dash_coin_icons/Dash-D-blue_on_midnight-blue_circle.png
+  format:
+  links:
+    -
+      label: small png
+      url: icons/dash_coin_icons/Dash-D-blue_on_midnight-blue_circle.png
+    -
+      label: Full AI
+      url: icons/dash_coin_icons/Dash-D-blue_on_midnight-blue_circle.ai
 
 - type: icons
   img-link: /icons/dash_coin_icons/Dash-D-blue_on_white_circle_s.png
@@ -57,8 +79,11 @@
       label: Small
       url: icons/dash_coin_icons/Dash-D-blue_on_white_circle_s.png
     -
-      label: Full
+      label: Full PNG
       url: icons/dash_coin_icons/Dash-D-blue_on_white_circle.png
+    -
+      label: Full AI
+      url: icons/dash_coin_icons/Dash-D-blue_on_white_circle.ai
 
 - type: icons
   img-link: /icons/dash_coin_icons/coin_dash_D_icon_s.png
@@ -68,7 +93,7 @@
       label: Small
       url: icons/dash_coin_icons/coin_dash_D_icon_s.png
     -
-      label: full
+      label: Full
       url: icons/dash_coin_icons/coin_dash_D_icon.png
 
 - type: icons
@@ -396,6 +421,21 @@
     -
       label: pdf
       url: pantone-for-print/dash_logo_2018_pantone-2925c.pdf
+
+- type: logos
+  img-link: /logos/dash/dash_logo_s.png
+  format:
+  background:
+  links:
+    -
+      label: Small
+      url: /logos/dash/dash_logo_s.png
+    -
+      label: Full PNG
+      url: /logos/dash/dash_logo.png
+    -
+      label: Full AI
+      url: /logos/dash/dash_logo.ai
 
 - type: logos
   img-link: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens_s.png
