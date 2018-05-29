@@ -47,7 +47,43 @@ description: pages.graphics.description
 					{% include graphics-tile.html %}
 				{% endfor %}
 			</div>
-
+			<div class="row bottom-space">
+					<h2 class="text-center bottom-space">Raw Code snippet for scalable SVG</h2>
+				<div class="col-xs-12 col-md-7">
+					<p class="bottom-space">Copy and paste code below</p>
+				<pre class="raw-html"><code>&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 275 275" width="100" height="100"&gt;
+	&lt;defs&gt;
+		&lt;style&gt;.dash-blue{fill:#008de4;}&lt;/style&gt;
+	&lt;/defs&gt;
+	&lt;title&gt;D_coin&lt;/title&gt;
+	&lt;g id="D" data-name="D"&gt;
+		&lt;path class="dash-blue"
+					d="M84.72,85.42l40,0c19.7,0,25.53,7.15,25.36,19-.09,6.08-2.72,16.36-3.86,19.69-3,8.88-9.27,19-32.65,19H74.68L71,163.69h44.22c15.6,0,22.23-1.81,29.26-5.06,15.57-7.19,24.84-22.56,28.55-42.62,5.53-29.86-1.35-51.11-40.29-51.12H88.39Z"/&gt;
+		&lt;path class="dash-blue"
+						d="M53,124.53H98.37c11.61,0,13.27-7.56,14.37-12.13,1.44-6,1.91-8.41,1.91-8.41H69.27C57.66,104,56,111.55,54.9,116.12c-1.44,6-1.91,8.4-1.91,8.41Z"/&gt;
+		&lt;path class="dash-blue"
+					d="M114.32,228.63A114.32,114.32,0,1,1,228.63,114.32,114.44,114.44,0,0,1,114.32,228.63Zm0-225.83A111.52,111.52,0,1,0,225.84,114.32,111.64,111.64,0,0,0,114.32,2.8Z"/&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;</code></pre>
+				</div>
+				<div class="col-xs-12 col-md-5 text-center">
+					<p class="bottom-space">Result</p>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 275 275" width="100" height="100">
+						<defs>
+							<style>.dash-blue{fill:#008de4;}</style>
+						</defs>
+						<title>D_coin</title>
+						<g id="D" data-name="D">
+							<path class="dash-blue"
+										d="M84.72,85.42l40,0c19.7,0,25.53,7.15,25.36,19-.09,6.08-2.72,16.36-3.86,19.69-3,8.88-9.27,19-32.65,19H74.68L71,163.69h44.22c15.6,0,22.23-1.81,29.26-5.06,15.57-7.19,24.84-22.56,28.55-42.62,5.53-29.86-1.35-51.11-40.29-51.12H88.39Z"/>
+							<path class="dash-blue"
+										d="M53,124.53H98.37c11.61,0,13.27-7.56,14.37-12.13,1.44-6,1.91-8.41,1.91-8.41H69.27C57.66,104,56,111.55,54.9,116.12c-1.44,6-1.91,8.4-1.91,8.41Z"/>
+							<path class="dash-blue"
+										d="M114.32,228.63A114.32,114.32,0,1,1,228.63,114.32,114.44,114.44,0,0,1,114.32,228.63Zm0-225.83A111.52,111.52,0,1,0,225.84,114.32,111.64,111.64,0,0,0,114.32,2.8Z"/>
+						</g>
+					</svg>
+				</div>
+			</div>
 		</div>
 
 	</section>

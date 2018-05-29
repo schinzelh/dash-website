@@ -596,3 +596,15 @@ a.blog_link {
     align-items: center;
   }
 }
+.raw-html{
+    white-space: normal;
+    line-height: 0.35em;
+    background: #8080801a;
+    padding: 10px;
+    border: 1px solid #80808069;
+  code{
+    white-space: pre-wrap;
+    font-size: 0.2em;
+    vertical-align: top;
+  }
+}
