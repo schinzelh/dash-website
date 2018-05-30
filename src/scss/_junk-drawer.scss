@@ -597,14 +597,38 @@ a.blog_link {
   }
 }
 .raw-html{
-    white-space: normal;
-    line-height: 0.35em;
-    background: #8080801a;
-    padding: 10px;
-    border: 1px solid #80808069;
-  code{
+  position: relative;
+  white-space: normal;
+  line-height: 0.4em;
+  background: #8080801a;
+  padding: 10px;
+  border: 1px solid #80808069;
+  text-align: right;
+  textarea{
+    text-align: left;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    resize: none;
     white-space: pre-wrap;
     font-size: 0.2em;
     vertical-align: top;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+}
+.copy-button{
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  padding: 6px;
+  border: 1px solid #80808069;
+  border-radius: 5px;
+  display: inline-block;
+  background: transparent;
+  svg{
+    fill: #5e5e5ed9;
   }
 }
