@@ -82,6 +82,18 @@
   team-title:
     - Operations
 
+- name: Brian Foster
+  title: Project Manager
+  description:
+  image: anon.png
+  email: brian.foster@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /bfoster.27332/
+  dashforum: bfoster
+  team-title:
+    - Operations
+
 - name: David Dinkins
   title: Writer / Editor
   description: David Dinkins (AKA \"ddink7\") works in retail management, and has his master's degree in history. He has been part of the Dash project since a few months after its inception. His role is primarily writing and editing. David is also currently working on his MBA.
