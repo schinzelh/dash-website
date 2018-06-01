@@ -16,7 +16,7 @@
             <li class="overlay-menu__item"><a href="{{ basenav }}/evolution/" class="overlay-menu__link">{% t nav.evolution %}</a></li>
             <li class="overlay-menu__item"><a href="https://support.dash.org/" class="overlay-menu__link">{% t nav.support %}</a></li>
             {% if page.layout != 'post'  %}
-            {% unless page.url != '/news/index.html' %}
+            {% unless page.url contains '/news/' %}
             <li class="overlay-menu__item overlay-menu__item--languages">
                 <ul class="overlay-menu__sublist">
                     <!-- TODO: dynamically generate this list -->

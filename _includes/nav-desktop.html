@@ -24,7 +24,7 @@
             <li class="nav__item"><a href="{{ basenav }}/evolution/" class="nav__link">{% t nav.evolution %}</a></li>
             <li class="nav__item"><a href="https://support.dash.org/" class="nav__link" target="_blank">{% t nav.support %}</a></li>
             {% if page.layout != 'post' %}
-            {% unless page.url != '/news/index.html' %}
+            {% unless page.url contains '/news/' %}
             <li class="nav__item nav__item--languages">
                 <a href="#" class="nav__link" style="text-transform:uppercase;"><span class="flag {% if 'en' == site.lang %}gb{% else %}{{site.lang}}{% endif %}"></span></a>
                 <ul class="nav__sublist">
