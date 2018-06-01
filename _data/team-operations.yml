@@ -34,18 +34,6 @@
   team-title:
     - Operations
 
-- name: Jeff Smith
-  title: Infrastructure Engineer
-  description: Jeff (AKA “coingun”) has a computer science background with specialization in Network Operations and Distributed Dynamic Network Asset scaling. He comes to Dash with a decade of experience designing, developing, and deploying dynamically scaling web assets built around the LAMPS stack. He has a passion for security, cryptography, and hardware hacking.
-  image: coingun.jpg
-  email: jeff@dash.org
-  keybase: https://keybase.io/coingun
-  twitter:
-  dashforum-link: /coingun.1715/
-  dashforum: coingun
-  team-title:
-    - Operations
-
 - name: Balu
   title: Project Manager
   description: Balazs (AKA \"balu\") has an MSc. in Finance, and brings 7 years of experience working in mostly IT projects. He's a PSM-II certified Scrum Master who loves spending his time helping development teams increase their efficiency. He's an avid fan of fintech, self-improvement, and good food.
