@@ -22,18 +22,6 @@
   team-title:
     - Operations
 
-- name: Luba S.
-  title: Project Manager
-  description:
-  image: rainbow_dash.jpg
-  email: luba@dash.org
-  keybase:
-  twitter:
-  dashforum-link: /luba.14579/
-  dashforum: luba
-  team-title:
-    - Operations
-
 - name: Ivan Borovkov
   title: Infrastructure Engineer
   description:
