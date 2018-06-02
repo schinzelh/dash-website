@@ -80,3 +80,14 @@
     - Management
     - Finance
 
+- name: Bob Carroll
+  title: CTO
+  description:
+  image: anon.png
+  email:
+  keybase:
+  twitter:
+  dashforum-link: /bob.27367/
+  dashforum: bob
+  team-title:
+    - Management
