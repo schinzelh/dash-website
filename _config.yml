@@ -33,7 +33,7 @@ url: https://www.dash.org
 api: /api/v1
 
 #languages: ["en", "es", "cn", "pt", "ru", "it"]
-languages: ["en","es", "cn", "ru", "pt", "fr", "jp", "kr", "de"]
+languages: ["en","es", "zh", "ru", "pt", "fr", "ja", "ko", "de"]
 exclude_from_localizations: ["assets","dist","style-guide"]
 
 gems:
@@ -66,4 +66,4 @@ srcset:
   source: assets/img
   output: assets/img/resized
 
-keep_files: ['assets/img/resized','fr/assets/img/resized','es/assets/img/resized','cn/assets/img/resized','pt/assets/img/resized','ru/assets/img/resized','it/assets/img/resized']
+keep_files: ['assets/img/resized','fr/assets/img/resized','es/assets/img/resized','zh/assets/img/resized','pt/assets/img/resized','ru/assets/img/resized','it/assets/img/resized']
