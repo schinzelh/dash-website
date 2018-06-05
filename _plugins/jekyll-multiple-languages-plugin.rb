@@ -27,19 +27,15 @@ module Jekyll
     # render
     #======================================
     def render(context)
-      if      "#{context[@key]}" != "" # Check for page variable
-        key = "#{context[@key]}"
+      if  context[@key].nil? or context[@key].empty? # Check for page variable
+        key = @key
       else
-        key =            @key
+        key = context[@key]
       end
-      
+
       site = context.registers[:site] # Jekyll site object
-      
+
       lang = site.config['lang']
-      
-      # unless site.parsed_translations.has_key?(lang)
-      #   puts              "Loading translation from file #{site.source}/_i18n/#{lang}.yml"
-      #   site.parsed_translations[lang] = YAML.load_file("#{site.source}/_i18n/#{lang}.yml")+      
 
       unless site.parsed_translations.has_key?(lang)
         puts "Loading translation from file #{site.source}/_i18n/#{lang}.yml"
@@ -47,17 +43,16 @@ module Jekyll
         site.parsed_translations[lang] = site.translation_file_content[lang]
       end
 
-      
-      translation = site.parsed_translations[lang].access(key) if key.is_a?(String)
+      translation = site.parsed_translations[lang].access(key)
       
       if translation.nil? or translation.empty?
          translation = site.parsed_translations[site.config['default_lang']].access(key)
-        
+
         puts "Missing i18n key: #{lang}:#{key}"
         puts "Using translation '%s' from default language: %s" %[translation, site.config['default_lang']]
       end
-      
-      translation
+
+      translation.to_s
     end
   end
 
