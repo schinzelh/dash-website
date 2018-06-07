@@ -80,3 +80,15 @@
     - Management
     - Finance
 
+- name: Bob Carroll
+  title: CTO
+  description:
+  image: bob_carroll.jpg
+  email: bob@dash.org
+  keybase: https://keybase.io/bobcarroll
+  twitter:
+  dashforum-link: /bob.27367/
+  dashforum: bob
+  team-title:
+    - Management
+    - Development
