@@ -83,11 +83,12 @@
 - name: Bob Carroll
   title: CTO
   description:
-  image: anon.png
-  email:
-  keybase:
+  image: bob_carroll.jpg
+  email: bob@dash.org
+  keybase: https://keybase.io/bobcarroll
   twitter:
   dashforum-link: /bob.27367/
   dashforum: bob
   team-title:
     - Management
+    - Development
