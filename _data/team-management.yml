@@ -41,7 +41,10 @@
 
 - name: Robert Wiecko
   title: COO
-  description: Robert (AKA “__kot__”, “kot”) brings 14+ years of professional experience in the IT industry. He is certified Scrum Master, PM and ITIL professional, fascinated by digital currencies, global economics, music and healthy lifestyle.
+  description: >
+    Robert (AKA “__kot__”, “kot”) With 17+ years of professional experince, Robert manages the company operations, project portfolio and organization of the open-source project teams, working on definition and implementation of internal processes for the unique Dash Decentralized Autonomous Organization (DAO) and crypto-currency project.
+    IT professional and entrepreneur living in Switzerland, spanning a career of seventeen years in IT sector. He previously held management roles at some of the world’s leading IT and financial institutions such as Hewlett Packard or UBS.
+    Robert holds a Master of Science degree from Bialystok University of Technology with a specialisation in Software Engineering.
   image: robert.wiecko.jpg
   email: robert@dash.org
   keybase: https://keybase.io/robertwiecko
