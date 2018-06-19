@@ -289,11 +289,10 @@ select.get-dash-select::-ms-expand {
         color: $color-black;
     }
     &__dash {
-        font-size: 2em;
+        font-size: 1.8em;
         line-height: 1;
         text-transform: uppercase;
         color: $color-blue;
-        font-family: $font-family-brand;
         font-weight: $font-weight-bold;
         transition: all .3s;
         margin-left: 10px;

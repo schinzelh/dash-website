@@ -13,7 +13,7 @@
       - MoneyPolo
       - Liqpay
     eur: 
-      - Wire Transfer 
+      - Wire Transfer
       - SEPA
       - Bancontact
       - Giropay
@@ -40,15 +40,17 @@
       - ChinaUnionPay
     cad:
       - Flexepin
+    pln:
+      - Wire Transfer
+    gbp:
+      - Wire Transfer
 
 - name: Kraken
   using: traditional
   methods: 
     - Wire Transfer
     - SEPA
-    - SEPA
     - SWIFT
-    - Wire Transfer
     - Cryptocurrency
   type: exchange
   currency:
@@ -89,6 +91,43 @@
     - BTC
   image: bithumb_logo-small.png
   url: https://www.bithumb.com/
+
+- name: Binance
+  using: traditional
+  methods: 
+    - Cryptocurrency
+  type: exchange
+  currency:
+    - BTC
+  image: binance_logo-small.png
+  url: https://www.binance.com/
+
+- name: Huobi
+  using: traditional
+  methods: 
+    - Cryptocurrency
+  type: exchange
+  currency:
+    - BTC
+  image: huobi_logo-small.png
+  url: https://www.huobi.pro/
+
+- name: Coinroom
+  using: traditional
+  methods:
+    - Wire Transfer
+    - SEPA
+    - SWIFT
+    - Cryptocurrency
+  type: exchange
+  currency:
+    - BTC
+    - PLN
+    - GBP
+    - EUR
+    - USD
+  image: coinroom_logo-small.png
+  url: https://coinroom.com/
 
 - name: Livecoin
   using: traditional
@@ -265,3 +304,4 @@
     - USD
   image: cex-io-logo_small.jpg
   url: https://cex.io/
+
