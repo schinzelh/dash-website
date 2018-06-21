@@ -3,7 +3,7 @@ author: tungfa
 layout: post
 image: "1FPwRjydl7VPW7ohNkqiiw.jpg"
 title: "Dash vs Bitcoin: Has Dash Successfully Overcome Bitcoin’s Shortcomings"
-original-author: CoinCentral 
+original-author: CoinCentral
 original-link: https://medium.com/@CoinCentral/dash-vs-bitcoin-has-dash-successfully-overcome-bitcoins-shortcomings-88524dd0ec1f
 ---
 
@@ -23,7 +23,7 @@ PrivateSend. While Bitcoin transactions are pseudonymous and can be traced to th
 Self-Sustainable Decentralized Governance. While Masternodes are incentivized and can govern the blockchain with 1 vote per Masternode, the Dash blockchain is also self-funded. A portion of each block — currently 10%–is allocated to the Network Development and Promotion Budget. This means Dash developers and promoters receive payments for their contributions, unlike on Bitcoin where contributions are voluntary and unincentivized.
 So what does the market think of Dash?
 Despite its features, Dash is still catching up to reigning champion Bitcoin’s 5-year headstart. Dash ranks behind Bitcoin as the 6th biggest currency in terms of total market capitalization.
-A coin’s market cap is one way of measuring the size of a cryptocurrency. The volatility of a crypto’s price influences the market cap of cryptos. Daily trade volume — calculated in USD — is argubly a more useful measure. Trading volume reflects how much a particular cryptocurrency is actually used. Bitcoin still reigns king here: Today Dash trade volume ranks 11th with $61.27 million behind Bitcoin’s $1.9 billion first place value.
+A coin’s market cap is one way of measuring the size of a cryptocurrency. The volatility of a crypto’s price influences the market cap of cryptos. Daily trade volume — calculated in USD — is arguably a more useful measure. Trading volume reflects how much a particular cryptocurrency is actually used. Bitcoin still reigns king here: Today Dash trade volume ranks 11th with $61.27 million behind Bitcoin’s $1.9 billion first place value.
 Even daily trade volume does not give the full picture though, as much of it consists of trading activity on exchanges rather than real world purchases. This is an important distinction. Many exchanges use Bitcoin to trade so you so you would have to initially buy bitcoin to then trade for other cryptocurrencies. This may skew the figures, but it also shows the strength of Bitcoin’s first mover advantage.
 With Bitcoin’s first mover advantage, Bitcoin has become a clear market leader. This makes for a skewed and unfair comparison with all other cryptocurrencies. Yet, while looking at market caps and trade volumes, it is important to note that other cryptocurrencies that share similar features to Dash are sometimes higher up in the pecking order. Litecoin also generates new blocks every 2.5-minutes and has long held a higher market cap than Dash. Monero, another privacy focused coin, released in the same year as Dash, has a higher daily trade volume. Ripple also has fast transaction confirmations and is firmly positioned in the top 5.
 The Verdict

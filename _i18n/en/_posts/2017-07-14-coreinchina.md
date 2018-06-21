@@ -37,7 +37,7 @@ One of the highlights of the summit is the much-anticipated premiere of what is 
 
 According to a representative of BitKan:
 
-The documentary introduces the history of Bitcoin in China since 2009. From mining factories to headquarters of exchanges, we have interviewed 20+ industry’s leaders to witness the developement of the whole bitcoin industry in China.
+The documentary introduces the history of Bitcoin in China since 2009. From mining factories to headquarters of exchanges, we have interviewed 20+ industry’s leaders to witness the development of the whole bitcoin industry in China.
 Shaping the Future of Cryptocurrency and Blockchain Tech
 
 SHAPING THE FUTURE OF CRYPTOCURRENCY AND BLOCKCHAIN TECH
@@ -48,9 +48,8 @@ Such international attention also puts us at a crossroads. In a world of increas
 
 These are all questions that will impact the future of Bitcoin, cryptocurrency as a whole, and blockchain technology. The BTC & Blockchain International Summit, and events like it, give us a voice in shaping that future.
 
-These are exciting times to be a part of the cryptocurrency community. 
+These are exciting times to be a part of the cryptocurrency community.
 
 ABOUT BITKAN
 
 Headquartered in Shenzhen, China, BitKan is a comprehensive all-in-one Bitcoin services application. In addition to their OTC bitcoin trading platform, BitKan offers real-time price alerts, charts, mining pool monitoring, and more. Please visit their website to learn more or click here to download the BitKan app, available on both Google Play and the App Store.
-
