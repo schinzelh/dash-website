@@ -258,7 +258,7 @@ de:
       proposal-service: Der DASH-Proposal Service auf einen Blick
     masternodes:
       title: Offizielle DASH Homepage | DASH Masternodes
-      description: DASH Masternodes auf der Blockchain
+      description: Dash ist Digitales Bargeld
       hero-heading: Masternodes
       hero-text: Die Masternodes stellen einen enorm wichtigen Bestandteil des DASH Netzwerks dar. Sie sind f&uuml;r das Handling von Transaktionen und den damit verbundenen Services InstantSend und PrivatSend verantwortlich. Dar&uuml;ber hinaus entscheiden sie &uuml;ber die Budgetvergabe f&uuml;r Proposals aus der DASH Community.
       hero-what-btn: Was ist eine Masternode?
@@ -470,7 +470,7 @@ de:
       how-install-link: Installiere das Plug-In
     graphics:
       title: Offizielle DASH Homepage| DASH Logo
-      description: DASH ist Digitales Cash
+      description: DASH ist Digitales Bargeld
       hero-heading: DASH Logos und Batches
       hero-text: 'Du akzeptierst DASH in deinem Online-Shop oder Laden und willst es zeigen oder ben&ouml;tigst grafisches Ausgangsmaterial f&uuml;r ein Proposal? Dann bist du hier genau richtig!
 
@@ -559,7 +559,7 @@ de:
       social-link: https://www.dashcentral.org/budget
     update:
       title: Offizielle DASH Homepage | DASH Kryptow&auml;hrung
-      description: DASH ist Digitales Cash
+      description: DASH ist Digitales Bargeld
       hero-heading: 12.1 Update
       hero-text: Wir ver&ouml;ffentliche ein neues Software Release im Netzwerk. Jeder ist angehalten auf die neue Version zu updaten, also auch normale Nutzer, Pools, MIner und die Masternodes. Alle Budgetantr&auml;ge m&uuml;ssen ferner neu eingereicht werden. Wichtig! Das Enforcement wird w&auml;hrend dieses Upgrades abgeschaltet, so dass Masternodes die nicht rechtzeitig updaten, keine Zahlungen mehr erhalten werden.
       hero-btn: >
@@ -723,10 +723,10 @@ de:
       join-btn: Tritt bei
     home:
       title: DASH´s offizielle Website | DASH Kryptow&auml;hrung
-      description: DASH ist digitales Cash
-      hero-heading: DASH ist digitales Cash
+      description: DASH ist digitales Bargeld
+      hero-heading: DASH ist digitales Bargeld
       hero-text: Ein revolution&auml;res, dezentrales Geldsystem. </br>Wie Bargeld, nur dezentral und digital.
-      video-heading: DASH ist Digitales Cash, das Du &uuml;berall ausgeben kannst.
+      video-heading: DASH ist Digitales Bargeld, das Du überall ausgeben kannst.
       video-text: Nutze DASH um blitzschnelle anonyme Zahlungen online oder im Gesch&auml;ft abzuwickeln, mit der Open Source Plattform, die von tausenden Nutzern auf der ganzen Welt aufrecht erhalten wird.
       video-btn: Video
       video-link: https://www.youtube.com/watch?v=S0oNO3mbBE8
@@ -765,7 +765,7 @@ de:
       news-heading: Aktuelle News
       news-btn: Alle Artikel
       get-started-heading: Leg los
-      get-started-text: Lade dein Wallet runter und fange an Digital Cash zu nutzen!
+      get-started-text: Lade dein Wallet runter und fange an Digitales Bargeld zu nutzen!
       get-started-btn: Hol´dir DASH
     get-dash:
       title: Hol´dir DASH
