@@ -3,20 +3,21 @@ $m: 'info-grid';
 .#{$m} {
 	&__content {
 		@include clearfix();
+		@media (min-width: 767px) {
+			display:flex;
+			align-items:stretch;
+		}
+		&:before{
+			content: '';
+		}
 	}
 	&__item {
-		@extend .col-md-4;
-		@extend .col-sm-6;
 		margin-bottom: 70px;
-
-
-		@include mq($to: small) {
-			width: 100%;
-			max-width: 400px;
-			margin-left: auto;
-			margin-right: auto;
+		@media (min-width: 767px) {
+			width: calc(100% / 3);
+			display: flex;
+			flex-direction: column;
 		}
-
 		&-icon {
 			position: relative;
 			width: 120px;
@@ -24,7 +25,7 @@ $m: 'info-grid';
 			border-radius: 50%;
 			// border: 1px solid rgba($color-gray-dark, 0.1);
 			background-color: rgba($color-white, 0.5);
-			margin-bottom: 40px;
+			margin-bottom: 1.15em;
 
 			@include mq($to: small) {
 				margin-left: auto;
@@ -42,14 +43,21 @@ $m: 'info-grid';
 			@include font-title-small();
 			text-transform: none;
 			margin-bottom: 0.5em;
+			padding-right: 2em;
 		}
 		&-text {
 			color: $color-gray-dark;
-			margin-bottom: 0.5em;
+			margin-bottom: auto;
+			padding-right: 2em;
+			padding-bottom: 2em;
 		}
 		&-link {
 			@extend .btn-blue;
 			margin-bottom: 0.25em;
+			display: flex;
+			align-self: baseline;
+			align-items: center;
+			line-height: 1em;
 			&::after {
 				content: '→';
 				margin-left: 0.5em;
