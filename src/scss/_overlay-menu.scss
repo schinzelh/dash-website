@@ -14,9 +14,9 @@
 	z-index: 105;
 	top: 23px;
 	right: 25px;
-    height: 45px;
-    width: 50px;
-    padding: 5px;
+	height: 45px;
+	width: 50px;
+	padding: 5px;
 
 	@include mq($from: large) {
 		display: none;
@@ -39,7 +39,7 @@
 	&__nav {
 		position: relative;
 		height: 100%;
-    	height: 100vh;
+		height: 100vh;
 		padding-top: 120px;
 		padding-bottom: 120px;
 		overflow-y: scroll;
@@ -93,7 +93,7 @@
 	&__sublist {
 		width: 100%;
 		max-width: 420px;
-		padding: 40px;
+		padding: 40px 20px 90px;
 		margin-top: 40px;
 		text-align: left;
 		display: inline-block;
@@ -104,7 +104,7 @@
 
 	&__subitem {
 		display: inline-block;
-    		text-align: left;
+		text-align: left;
 		@include font-base();
 		line-height: 40px;
 		margin-right: 10px;
@@ -119,6 +119,8 @@
 	// background: $gradient-dash-sky;
 	top: 0;
 	left: 0;
+	right: 0;
+	bottom: 0;
 	width: 100%;
 	height: 0%;
 	opacity: 0;
