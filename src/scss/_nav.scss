@@ -32,7 +32,14 @@ $nav-height: 90px;
 				padding: 0 25px;
 			}
 			.nav__sublist {
-				// padding-right: 25px;
+				background: rgba(0, 0, 0, 0.35);
+				padding-right: 1em;
+				padding-left: 1em;
+				padding-top: 1em;
+				box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.57);
+				border-radius: 4px;
+				right: -25px;
+				margin-top: -18px;
 			}
 		}
 

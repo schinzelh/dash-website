@@ -27,7 +27,7 @@
             {% unless page.url contains '/news/' %}
             <li class="nav__item nav__item--languages">
                 <a href="#" class="nav__link" style="text-transform:uppercase;"><span class="flag {% if 'en' == site.lang %}gb{% else %}{{site.lang}}{% endif %}"></span></a>
-                <ul class="nav__sublist">
+                <ul class="nav__sublist nav__sublist_lang">
                     <!-- TODO: dynamically generate this list -->
 
                     <li class="nav__subitem">
