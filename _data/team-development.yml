@@ -50,18 +50,6 @@
   team-title:
     - Development
 
-- name: Chuck Williams
-  title: Head of UI/UX Development
-  description: Codemonkey with a penchant for people.
-  image: chuckwilliams.jpg
-  email: chuck@dash.org
-  keybase: https://keybase.io/chuckwilliams
-  twitter:
-  dashforum-link: /chuck-williams.10154/
-  dashforum: ChuckWilliams
-  team-title:
-    - Development
-
 - name: TheLazieR
   title: Core Developer
   description: “thelazier” has a background in Freelance Programming, Security Admin in *nix, System Admin for ISP , System and Network Admin for Domain Registrar and Hosting Companies, IT Infrastructure for Card Payment Company for 2 year, IT Infrastructure for Television Broadcaster. Now he works as Project Manager for Card Management System Software.
@@ -167,18 +155,6 @@
   twitter:
   dashforum-link: /darren.5875/
   dashforum: darren
-  team-title:
-    - Development
-
-- name: Will Wray
-  title: Core C++ Dev
-  description:
-  image: WillWray.jpg
-  email: will@dash.org
-  keybase:
-  twitter:
-  dashforum-link: /doodlefax.14057/
-  dashforum: doodlefax
   team-title:
     - Development
 
