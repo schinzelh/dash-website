@@ -16,7 +16,7 @@
   links:
     -
       label: Download Installer
-      url: "https://github.com/dashpay/dash/releases/download/v0.12.3.1/dashcore-0.12.3.1-win32-setup-unsigned.exe"
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.3.1/dashcore-0.12.3.1-win64-setup-unsigned.exe"
     -
       label: Hash File
       url: "https://github.com/dashpay/dash/releases/download/v0.12.3.1/SHA256SUMS.asc"
