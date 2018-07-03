@@ -156,28 +156,28 @@
     #  label: PGP
     #  url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-linux64.tar.gz.asc"
 
-# - name: Dash Core Raspberry Pi 2
-#   description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
-#   logo_url: /assets/img/dash_circle_normal.png
-#   os: linux
-#   type: desktop
-#   vendor_id: dash_core
-#   vendor_label: Dash Core
-#   product_id: dash_core_linux_64
-#   product_label: Dash Core
-#   control_type: full
-#   validation_type: full
-#   access_type: p2p
-#   product_website_label: Dash.org
-#   product_website_url: "https://www.dash.org"
-#   product_source_url: "https://github.com/dashpay/dash"
-#   links:
-#     -
-#       label: Download TGZ
-#       url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-RPi2.tar.gz"
-#     -
-#       label: Hash File
-#       url: "https://github.com/dashpay/dash/releases/download/v0.12.3/SHA256SUMS.asc"
+- name: Dash Core Raspberry Pi 2
+  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
+  logo_url: /assets/img/dash_circle_normal.png
+  os: linux
+  type: desktop
+  vendor_id: dash_core
+  vendor_label: Dash Core
+  product_id: dash_core_linux_64
+  product_label: Dash Core
+  control_type: full
+  validation_type: full
+  access_type: p2p
+  product_website_label: Dash.org
+  product_website_url: "https://www.dash.org"
+  product_source_url: "https://github.com/dashpay/dash"
+  links:
+    -
+      label: Download TGZ
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.3.1/dashcore-0.12.3.1-arm-linux-gnueabihf.tar.gz"
+    -
+      label: Hash File
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.3.1/SHA256SUMS.asc"
 #     -
 #       label: PGP
 #       url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-RPi2.tar.gz.asc"
