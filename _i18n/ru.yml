@@ -570,11 +570,8 @@ ru:
       modal-win-core-source-code-key: Исходный Код
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Обычные Пользователи
-      modal-core-users-value: 0.12.1.0
       modal-core-masternode-text: Операторы Мастернод
-      modal-core-masternode-value: 0.12.1.0
       modal-core-pool-text: Операторы Майнинг-пулов
-      modal-core-pool-value: 0.12.1.0
 
 
     contact:

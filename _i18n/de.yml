@@ -620,8 +620,7 @@ de:
       wallets-desktop-header: Desktop
       wallets-desktop-subtitle: DASH Desktop Wallets sind mit verschiedenen Features und Sicherheitsmechanismen ausgestattet
       wallets-desktop-latest: >
-          Letzte: 12.01.2018
-      wallets-desktop-current-version: v0.12.2.3
+          Letzte: 03.07.2018
       wallets-mobile-header: Mobile
       wallets-mobile-subtitle: DASH Mobile Wallets sind mit verschiedenen Features und Sicherheitsmechanismen f&uuml;r dein Mobiles Endger&auml;t (Handy, Tablet,..) ausgestattet.
       wallets-hardware-header: Hardware
@@ -659,11 +658,9 @@ de:
       modal-win-core-source-code-key: Quellcode
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Normale Nutzer
-      modal-core-users-value: 0.12.2.3
       modal-core-masternode-text: Masternode Betreiber
-      modal-core-masternode-value: 0.12.2.3
       modal-core-pool-text: Mining Pool Betreiber
-      modal-core-pool-value: 0.12.2.3
+
     payments:
       title: DASH Zahlungsabwickler
       hero-heading: DASH Zahlungsabwicklung
@@ -696,11 +693,8 @@ de:
       modal-win-core-source-code-key: Quellcode
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Normale Nutzer
-      modal-core-users-value: 0.12.2.3
       modal-core-masternode-text: Masternode Betreiber
-      modal-core-masternode-value: 0.12.2.3
       modal-core-pool-text: Mining Pool Betreiber
-      modal-core-pool-value: 0.12.2.3
       disclaimer-text: >
           Haftungsausschluss: Diese Liste ist rein zu Informationszwecken gedacht.
           Hier aufgef&uuml;hrte Dienste wurden von DASH Entwicklern weder &uuml;berpr&uuml;ft
