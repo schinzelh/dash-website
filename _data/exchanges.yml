@@ -1,4 +1,4 @@
-
+ 
 - name: ALFAcashier
   trading_pairs: BTC, LTC, ChinaUnionPay CNY, BTC-E USD, MoneyPolo USD, Yandex Money RUB, Visa/Mastercard USD, Paypal USD
   fees: N/A
@@ -563,3 +563,9 @@
   fees: N/A
   image: Morphtoken.png
   url:  https://www.morphtoken.com
+
+- name: Ebitcoinics
+  trading_pairs: BTC
+  fees: N/A
+  image: ebitcoinics.png
+  url:  http://www.ebitcoinics.com
