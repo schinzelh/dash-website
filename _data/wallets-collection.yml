@@ -398,8 +398,6 @@
       Convert between altcoins instantly from within the app, through our strategic partner ShapeShift.
     • One-time Backup
       Hierarchical Deterministic Wallet (BIP44) enables you to keep everything accessible and secure with just one super-passphrase which you only have to back-up once and for all.
-    • Open Source &amp; Transparent
-      No hidden code, no malicious modules, no exploits, no small letters. Our code is publicly available and publicly reviewed.
   logo_url: "/assets/img/wallets/coinomi-logo-medium.png"
   os: android
   type: mobile
