@@ -7,7 +7,7 @@ th:
       hero-text: |
           HODL เป็นพันธมิตรทางการค้าของ Dash แล้วตอนนี้  เข้าเยี่ยมชมได้ที่ <a href='https://alwayshodl.com/' target='_blank'>www.alwayshodl.com</a>
       disclaimer-text: |
-          <a href='https://alwayshodl.com/' target='_blank'>alwayshodl.com</a> เป็นร้านจำหน่ายสินค้าอิสระ  Dash.org ไม่ส่วนรับผิดชอบต่อการสั่งซื้อและจัดส่งให้ทันเวลา
+          <a href='https://alwayshodl.com/' target='_blank'>alwayshodl.com</a> เป็นร้านจำหน่ายสินค้าอิสระ  ทาง Dash.org ไม่มีส่วนรับผิดชอบต่อการสั่งซื้อและจัดส่งสินค้า
     school:
       title: โรงเรียน Dash
       description: Dash ทำอย่างไร?
@@ -33,9 +33,9 @@ th:
       description-video-4: |
           ตอนนี้คุณเข้าใจว่าเครือข่าย blockchain สามารถเสนอให้เงินเป็นบริการได้อย่างไร เรียนรู้วิธีการต่างๆที่ Dash จัดไว้ -- ทำไมเราจึงทำหน้าที่เป็น DAO (องค์กรอิสระแบบกระจายอำนาจ) เพื่อให้บริการทางการเงินแก่ลูกค้า Amanda B. Johnson จะอธิบายในตอนที่สี่ของ Dash School
       header-video-5: |
-          Dash มีการชำระเงินแบบรวดเร็วและแบบส่วนตัวอย่างไร? | DASH School #5
+          Dash มีการชำระเงินแบบด่วนและแบบส่วนตัวอย่างไร? | DASH School #5
       description-video-5: |
-          คุณรู้หรือไม่ว่า blockchain ของ Dash คืออันเดียวที่มีทั้งการชำระเงินแบบรวดเร็วและแบบส่วนตัว ? เรื่องจริง มาเรียนรู้ว่า "masternodes" ที่เป็นเอกลักษณ์ของเราทำให้เป็นไปได้อย่างไรในตอนที่ห้าของ Dash School โดย Amanda B. Johnson
+          คุณรู้หรือไม่ว่า blockchain ของ Dash คืออันเดียวที่มีทั้งการชำระเงินแบบด่วนและแบบส่วนตัว ? เรื่องจริง เรียนรู้ว่า "masternodes" ที่เป็นเอกลักษณ์ของเราทำให้เป็นไปได้อย่างไรในตอนที่ห้าของ Dash School โดย Amanda B. Johnson
       header-video-6: |
           เงินสดดิจิตอลจะสามารถเข้าถึงกับทุกคนได้อย่างไร? | DASH School #6
       description-video-6: |
@@ -70,7 +70,7 @@ th:
           บล็อกรางวัล / เงินเดิมพัน Dash / กำไรจากเงินทุน / ความรับผิดชอบเบื้องต้น
           / ความรับผิดชอบรอง /... คือประเด็นที่เราจะตอบในส่วนนี้
       treatment-text-hero: ผู้ดำเนินการ masternode ปฏิบัติตามกฎหมายภาษีของสหรัฐอเมริกาอย่างไร?
-      treatment-btn: รายชื่อเต็มรูปแบบ
+      treatment-btn: รายชื่อทั้งหมด
       treatment-masternode-heading: ภาระภาษีของ masternode
       vitrtual-kiosk-heading: คู่มือฉบับย่อสำหรับการใช้ตู้เงินสกุลเงินเสมือนจริง
       learn-more-btn: เรียนรู้เพิ่มเติม
@@ -84,20 +84,20 @@ th:
       atm-heading: ซื้อ Dash  ที่ ATM
       atm-text: ซื้อ Instant Dash จากตู้ ATM ในประเทศของคุณ
       atm-btn: ที่ตั้ง ATM
-      shop-heading: ช้อปโดยตรงกับ Dash
-      shop-text: สั่งซื้อออนไลน์แบบทันทีและแบบส่วนตัวโดยตรงจาก wallet  Dash ของคุณ
+      shop-heading: ร้านค้าโดยตรงกับ Dash
+      shop-text: สั่งซื้อออนไลน์แบบด่วนและแบบส่วนตัวโดยตรงจาก wallet  Dash ของคุณ
       shop-btn: ร้านค้าเพิ่มเติม
-      visa-stores: ช้อปที่ร้าน Visa
+      visa-stores: ซื้อที่ Visa stores
       visa-text: บัตรเดบิต Dash-Visa โดยไม่มีค่าธรรมเนียมการทำธุรกรรมจากต่างประเทศและบนมือถือ "แตะและจ่าย"
-      visa-btn: 'รับ Shake '
+      visa-btn: 'โหลด Shake '
     exchanges:
       title: ตลาดแลกเปลี่ยน
       description: ซื้อ Dash  ที่ตลาดแลกเปลี่ยนเหล่านี้และโบรกเกอร์
-      hero-heading: รายชื่อตลาดหลักทรัพย์
+      hero-heading: รายชื่อตลาดแลกเปลี่ยน
       hero-text: |
           รายการนี้รวมถึงตลาดแลกเปลี่ยนที่เป็นที่รู้จักทั้งหมดที่ซื้อขาย Dash (เรียงตามตัวอักษร), รวมทั้งตลาดที่มีปริมาณการซื้อขายที่ต่ำ<a href='https://coinmarketcap.com/currencies/dash/#markets' target='_blank'>ดูสถิติการตลาด</a>สำหรับข้อมูลเพิ่มเติม
-      hero-btn: เข้าร่วมรวมตัว Dash
-      hero-getlisted-btn: รับการจดทะเบียน
+      hero-btn: เข้าร่วม Dash
+      hero-getlisted-btn: จดทะเบียน
       disclaimer-text: >
           หมายเหตุ: รายการนี้มีไว้เพื่อเป็นข้อมูลเท่านั้น บริการที่ระบุในที่นี้ไม่ได้รับการประเมินหรือรับรองโดยนักพัฒนาซอฟต์แวร์
           Dash และไม่มีการรับประกันใด ๆ เกี่ยวกับความถูกต้องของข้อมูลนี้ โปรดใช้วิจารณญาณเมื่อใช้บริการของบุคคลที่สาม
@@ -114,7 +114,7 @@ th:
       hero-video-btn: วิดิโอและเสียง
     mining:
       title: เว็บไซต์ทางการ Dash | สกุลเงินของ Dash Crypto
-      hero-heading: ไมนิ่ง
+      hero-heading: Mining
       hero-text: |
           พื้นฐานของ Dash คือ blockchain ซึ่งเป็นบัญชีแยกประเภทแบบแยกประเภทของธุรกรรมทั้งหมดที่เกิดขึ้น blockchain นี้ถูกรักษาความปลอดภัยผ่านทางกลไกที่เป็นเอกฉันท์ที่เรียกว่า "Proof of  Work" (PoW)
 
@@ -124,13 +124,13 @@ th:
       hero-how-to-btn: วิธีการเริ่มต้น
       hero-asic-btn: ฮาร์ดแวร์ ASIC
       hero-guides-btn: คำแนะนำ
-      pools-heading: เครื่องมือการไมนิ่ง
+      pools-heading: เครื่องมือสำหรับ Mining
       pools-text: |
           หมายเหตุ: รายการนี้มีไว้เพื่อเป็นข้อมูลเท่านั้น บริการที่ระบุในนี้ไม่ได้รับการประเมินหรือรับรองโดยนักพัฒนาซอฟต์แวร์ Dash และไม่มีการรับประกันใด ๆ เกี่ยวกับความถูกต้องของข้อมูลนี้ โปรดใช้วิจารณญาณเมื่อใช้บริการของบุคคลที่สาม หากต้องการเพิ่มรายการนี้โปรดติดต่อ <a href='mailto:contact@dash.org'>contact@dash.org</a>
       pools-masternode-btn: Mining vs. Masternode
       pools-masternode-text: |
           Dash เช่น Bitcoin และ cryptocurrencies อื่น ๆ ส่วนใหญ่จะขึ้นอยู่กับบัญชีแยกประเภทการกระจายอำนาจของธุรกรรมทั้งหมดเรียกว่า blockchain  Blockchain นี้เป็นหลักประกันผ่านกลไกเอกฉันท์; ในกรณีของ Dash และ Bitcoin กลไกการเป็นเอกฉันท์คือ Proof of Work (PoW)  ไมเนอร์พยายามที่จะแก้ปัญหาที่ยากด้วยคอมพิวเตอร์พิเศษเฉพาะและเมื่อพวกเขาแก้ปัญหาพวกเขาจะได้รับสิทธิในการเพิ่มบล็อกใหม่ใน blockchain  ถ้าคนอื่น ๆ ที่รันซอฟต์แวร์ยอมรับว่าปัญหาได้รับการแก้ไขอย่างถูกต้องบล็อกจะถูกเพิ่มลงใน blockchain และไมเนอร์ก็จะได้รับรางวัล
-      how-start-heading: วิธีเริ่มต้นการไมนิ่ง
+      how-start-heading: วิธีเริ่มต้น Mining
       asic-heading: ฮาร์ดแวร์ไมเนอร์  ASIC
       asic-text: >
           คอมพิวเตอร์พิเศษเฉพาะที่เรียกว่า Application Specific Integrated Circuits
@@ -141,16 +141,16 @@ th:
       asic-ibelink-miner: ASIC iBeLink DM384M X11
       asic-baikal-mini-miner: ASIC X11 Baikal Mini Miner
       asic-baikal-miner: ASIC Baikal A900 X11
-      asic-all-btn: ไมนิ่ง ASIC
+      asic-all-btn: ASIC Mining
       cpu-gpu-heading: คำแนะนำ  (CPU / GPU)
       cpu-gpu-text: >
-          การไมนิ่ง CPU/GPU มันไม่คุ้มค่าอีกต่อไปแล้ว -  โปรดระวัง   นี่เป็นขั้นตอนง่ายๆและคุณจะได้รับตัวอย่างเกี่ยวกับวิธีทำให้ได้อัตรา
+          CPU/GPU Mining มันไม่คุ้มค่าอีกต่อไปแล้ว -  โปรดระวัง   นี่เป็นขั้นตอนง่ายๆและคุณจะได้รับตัวอย่างเกี่ยวกับวิธีทำให้ได้อัตรา
           "Hash" สูงสุดสำหรับ CPU ของคุณ แต่โปรดจำไว้ว่าไมเนอร์ที่ได้รับการพัฒนาให้มีประสิทธิภาพมากขึ้นก็สามารถเข้าร่วมได้
           ดังนั้นฉันแนะนำให้คุณตรวจดูไซต์ไมนิ่งเพื่อให้ทันกับการเผยแพร่ล่าสุด
-      cpu-mining-btn: ไมนิ่ง CPU
+      cpu-mining-btn: CPU Mining
       sg-miner-btn: SGminer / กราฟิกการ์ด
       pools-stat-heading: 'ข้อมูลสถิติ  Pool '
-      amd-mining-btn: ไมนิ่ง GPU
+      amd-mining-btn: GPU Mining
       description-text-hero: >
           การบริหารจัดการในโครงการกระจายอำนาจเป็นเรื่องยาก เนื่องจากตามคำนิยามไม่มีผู้มีอำนาจส่วนกลางในการตัดสินใจโครงการ  ใน
           Dash การตัดสินใจดังกล่าวดำเนินการโดยเครือข่าย นั่นคือโดยเจ้าของของ masternodes  ระบบ
@@ -203,7 +203,7 @@ th:
 
           การวางแผนการนี้ยังไม่รวมถึงค่าธรรมเนียมที่ masternodes ได้รับเมื่อมีผู้ใช้บริการ  (InstantSend and PrivateSend)
       what-hero-heading: Masternode คืออะไร ?
-      instantiend-text: InstantSend (ธุรกรรมแบบทันที) ในทางตรงกันข้าม Bitcoin จะใช้เวลาประมาณ 10 นาทีเพื่อยืนยันการชำระเงิน
+      instantiend-text: InstantSend (ธุรกรรมแบบด่วน) ในทางตรงกันข้าม Bitcoin จะใช้เวลาประมาณ 10 นาทีเพื่อยืนยันการชำระเงิน
       private-send-text: (ธุรกรรมที่ไม่ระบุตัวตน) ในทางตรงกันข้ามการทำธุรกรรมของ Bitcoin นั้นเป็นข้อมูลสาธารณะและตรวจสอบย้อนกลับได้ทั้งหมด เฉพาะตัวตนของที่อยู่จะไม่ระบุชื่อ
       governance-text: (masternodes ควบคุมในขณะที่การพัฒนากองทุน blockchain) ในทางตรงกันข้าม Bitcoin ถูกควบคุมโดยไมเนอร์ขนาดใหญ่เพียงไม่กี่คนและได้รับสนับสนุนจากสถาบันที่เป็นศูนย์กลางของบุคคลที่ 3 ด้วยความสนใจของตนเอง
       evolution-text: ตัวประมวลผลการชำระเงินแบบกระจายอำนาจ (นึกถึง Paypal แบบกระจายอำนาจ)
@@ -294,12 +294,12 @@ th:
       votetracker-link: VoteTracker
       budget-monitoring-link: การตรวจสอบงบประมาณ
       proposal-status-link: สถานะข้อเสนอ
-      proposal-service: เสนอบริการอัตโนมัติ
+      proposal-service: บริการข้อเสนออัตโนมัติ
     woocommerce:
       title: เว็บไซต์ทางการ Dash | สกุลเงินของ Dash Crypto
       description: Dash คือ เงินสดดิจิตอล
       hero-heading: WooCommerce
-      hero-text: รับ  WooCommerce สำหรับ  Dash
+      hero-text: WooCommerce สำหรับ  Dash
       hero-btn: Github Repo
       hero-btn-download: ดาวน์โหลดซิป
       hero-description: โปรดตรวจสอบให้แน่ใจว่าไซต์ของคุณตรงตามข้อกำหนด
@@ -307,7 +307,7 @@ th:
       plugin-heading: >
           อะไรคือ WooCommerce
       plugin-text: WooCommerce เป็น eCommerce plugin ฟรีที่ช่วยให้คุณสามารถขายอะไรได้ WooCommerce เป็นโซลูชันอีคอมเมิร์ซที่เป็นที่ชื่นชอบของโลกซึ่งช่วยให้เจ้าของและนักพัฒนาซอฟต์แวร์สามารถควบคุมได้อย่างสมบูรณ์
-      feature-private-heading: ส่วนตัว
+      feature-private-heading: ความเป็นส่วนตัว
       feature-private-text: ปกป้องข้อมูลทางการเงินของคุณ  PrivateSend ช่วยให้มั่นใจได้ว่าประวัติการใช้งานและยอดคงเหลือของคุณเป็นแบบส่วนตัว
       feature-instant-heading: รวดเร็ว
       feature-instant-text: เวลาของคุณมีค่ามาก การชำระเงินด้วย InstantSend ได้รับการยืนยันภายในเวลาไม่ถึงหนึ่งวินาที
@@ -338,7 +338,7 @@ th:
           FTP ของคุณให้อัปโหลดโฟลเดอร์ Plugin ไปยังโฟลเดอร์ wp-content / plugins ใน
           WordPress Online Directory ของคุณ
       how-text-plugin: ไปที่หน้าจอ Plugin และค้นหา Plugin ที่เพิ่งอัปโหลดในรายการ  คลิก "เปิดใช้งาน" เพื่อเปิดใช้งาน ตรวจสอบรายละเอียดของไฟล์ "readme" สำหรับการตั้งค่าขั้นสูงและคำแนะนำ
-      how-text-link: รับ Plugin
+      how-text-link: Plugin
       how-install-link: ติดตั้ง Plugin
     graphics:
       title: เว็บไซต์ทางการ Dash | สกุลเงินของ Dash Crypto
@@ -396,7 +396,7 @@ th:
       proposal-btn: ข้อเสนอ
       proposal-submit-btn: ยื่นข้อเสนอ
       prototype-heading: EVOLUTION ALPHA
-      prototype-text: ตอนนี้ Dash 12.2 ได้รับการเผยแพร่แล้ว ขั้นตอนต่อไปของเราคือการเผยแพร่ Evolution เวอร์ชันอัลฟาในกลางปี 2018 เราจะทำการเผยแพร่เพิ่มเติมก่อนหน้านั้น รวมถึงรายงายบทสรุปฉบับเต็ม ดังนั้นโปรดกลับมาดูการอัปเดตที่นี่อีกครั้ง ติดตามต่อไป!
+      prototype-text: ตอนนี้ Dash 12.2 ได้รับการเผยแพร่แล้ว ขั้นตอนต่อไปของเราคือการเผยแพร่ Evolution เวอร์ชันอัลฟาในกลางปี 2018 เราจะทำการเผยแพร่เพิ่มเติมก่อนหน้านั้น รวมถึง whitepaper ทั้งหมด ดังนั้นโปรดกลับมาดูการอัปเดตที่นี่อีกครั้ง ติดตามต่อไป!
       prototype-btn: สถิติเครือข่าย
       explore-heading: สำรวจ Dash
       explore-text: 'สำรวจคุณลักษณะทั้งหมดของต้นแบบ Dash Evolution รวมถึงการลงทะเบียน, การตรวจสอบความถูกต้องของบัญชี, เข้าสู่ระบบ, เพื่อน, จ่ายถึงนามแฝงและจ่ายด้วยปุ่ม Dash
@@ -411,7 +411,7 @@ th:
         ลืมเรื่องโครงสร้างพื้นฐานที่ซับซ้อนหรือวางใจบุคคลที่สามในการจัดการการชำระเงินของลูกค้าของคุณและสร้างความสัมพันธ์โดยตรงกับลูกค้าของคุณโดยใช้ blockchain'
       merchants-btn: สำหรับร้านค้า
       merchants-plugin-btn: Woocommerce Plugin
-      social-heading: โซเชียล Dash
+      social-heading: Dash Social
       social-text: >
           สร้างบัญชีที่คุณสามารถเข้าถึงได้อย่างปลอดภัยจากที่ทุกบนใดก็ได้ เชิญและเชื่อมต่อกับเพื่อนเพื่อจ่ายและรับการชำระเงินโดยใช้ชื่อผู้ใช้
 
@@ -429,11 +429,11 @@ th:
       video-text: พื้นที่แรกของความคืบหน้าคือ Dash Core นอกเหนือจากการใช้งานเครือข่ายในปัจจุบัน Dash Core ยังทำหน้าที่เป็นหัวใจของกลไก Evolution
       video-btn: วิดิโอภาพรวม
       merchants-heading: โปรดตรวจสอบรายละเอียดการอัปเดตที่จำเป็นของคุณ
-      merchants-text: ไมเนอร์ทั้งหมด ,  Pools , Wallet , Exchanges, ร้านค้า จะต้องอัพเดต
+      merchants-text: 'จะต้องอัพเดต ไมเนอร์ทั้งหมด ,  Pools , Wallet , ตลาดแลกเปลี่ยนและร้านค้า '
       merchants-btn: Pools
       masternodes-btn: Masternodes
-      exchanges-btn: ตลาดแลกเปลี่ยน
-      proposal-heading: เสนอบริการอัตโนมัติ
+      exchanges-btn: Exchanges
+      proposal-heading: บริการข้อเสนออัตโนมัติ
       execution-heading: Evolution คืออะไร
       execution-text: Dash Evolution จะทำให้ความซับซ้อนของสกุลเงินดิจิทัลทั้งหมดทำให้การชำระเงินกับ Dash ทำได้ง่ายดายเหมือนกับการชำระเงินผ่าน PayPal ข้อดีคือไม่เหมือนกับ PayPal ระบบ Dash Evolution จะกระจายอำนาจและไม่หวังผลกำไรอย่างเต็มที่
       execution-btn: เรียนรู้เพิ่มเติม
@@ -456,7 +456,7 @@ th:
     wallets:
       title: Dash Wallets
       description: รับ Dash Wallet ที่เหมาะสมสำหรับแพลตฟอร์มของคุณ
-      hero-heading: รับ Dash Wallet
+      hero-heading: Dash Wallet
       hero-image: get-dash-n.jpg
       hero-wallets-btn: Wallets
       hero-guide-btn: คู่มือ
@@ -471,7 +471,7 @@ th:
       wallets-mobile-subtitle: Dash Desktop Wallets สามารถใช้ได้กับคุณสมบัติและความปลอดภัยที่แตกต่างกัน ทำงานจากโทรศัพท์มือถือของคุณ (ไอโฟน,แท็ปเลต,...) อุปกรณ์
       wallets-hardware-header: ฮาร์ดแวร์
       wallets-hardware-subtitle: ฮาร์ดแวร์ของ wallet เป็นอุปกรณ์รักษาความปลอดภัยที่ช่วยป้องกัน Wallet ของคุณจากแฮกเกอร์และโจร Wallet Wallets ทำงานร่วมกับซอฟต์แวร์กระเป๋าสตางค์ในคอมพิวเตอร์ของคุณโดยดำเนินการจัดการการสร้างคีย์ส่วนตัวการจัดเก็บคีย์ส่วนตัวและการทำธุรกรรม   อาร์ดแวร์ Wallets ทำงานร่วมกับซอฟต์แวร์ก wallet ในคอมพิวเตอร์ของคุณโดยดำเนินการจัดการการสร้างคีย์ส่วนตัวการจัดเก็บคีย์ส่วนตัวและการทำธุรกรรม
-      wallets-paper-header: กระดาษ
+      wallets-paper-header: Paper
       wallets-paper-subtitle: Paper wallet เป็นแบบฟอร์มของ cold wallet และเป็นเอกสารสำคัญของผู้ถือ
       wallets-web-header: เว็บ
       wallets-web-subtitle: เว็บ wallets
@@ -480,7 +480,7 @@ th:
       modal-platform: แพลตฟอร์ม
       modal-header-vendor-label-descriptor: wallet สำหรับ Dash
       modal-download-action-button-label: ดาวน์โหลด
-      modal-source-code-view: 0.12.2.3
+      modal-source-code-view: ดู
       modal-source-code-label: ซอร์ซโค้ด
       modal-source-closed-label: เจ้าของ
       modal-website-label: เว็บไซต์
@@ -552,16 +552,16 @@ th:
     contact:
       title: ติดต่อ Dash
       description: ติดต่อ Dash
-      hero-heading: ติดต่อ
-      form-pretext: สำหรับการสนับสนุนด้านเทคนิคหรือการแก้ไขปัญหาเกี่ยวกับ wallets ,การไมนิ่ง หรือคำถามทั่วไปอื่น ๆ โปรดเข้าไปที่ DashTalk หรือแหล่งข้อมูลชุมชนอื่น ๆ อีกมากมาย
+      hero-heading: การติดต่อ
+      form-pretext: สำหรับการสนับสนุนด้านเทคนิคหรือการแก้ไขปัญหาเกี่ยวกับ wallets , Mining หรือคำถามทั่วไปอื่น ๆ โปรดเข้าไปที่ DashTalk หรือแหล่งข้อมูลชุมชนอื่น ๆ อีกมากมาย
       form-pretext-2: สำหรับคำถามอื่น ๆ ให้ใช้ลิงก์นี้
-      social-heading: "ฟอรั่ม &amp; โซเชียลมีเดีย"
-      mail-list-heading: รายชื่อผู้รับอีเมล์
+      social-heading: "Forums &amp; Social Media"
+      mail-list-heading: Mailing List
       mail-list-text: หากมีปัญหาในการอัปเดตอยู่เสมอ?  เข้าร่วมในรายการส่งจดหมายของเรา
       social-text-heading: เยี่ยมชมฟอรั่ม Dash
-      forum-btn: เยี่ยมชมฟอรั่ม
-      social-text: สำหรับการสนับสนุนด้านเทคนิคหรือการแก้ไขปัญหาเกี่ยวกับ wallets ,การไมนิ่ง หรือคำถามทั่วไปอื่น ๆ  โปรดเข้าไปที่  ฟอรั่ม Dash  หรือแหล่งข้อมูลชุมชนอื่น ๆ อีกมากมาย
-      volunteer-heading: อาสาสมัคร
+      forum-btn: ไปที่ฟอรั่ม
+      social-text: สำหรับการสนับสนุนด้านเทคนิคหรือการแก้ไขปัญหาเกี่ยวกับ wallets , Mining หรือคำถามทั่วไปอื่น ๆ  โปรดเข้าไปที่  ฟอรั่ม Dash  หรือแหล่งข้อมูลชุมชนอื่น ๆ อีกมากมาย
+      volunteer-heading: Volunteer
       join-btn: เข้าร่วม
     home:
       title: เว็บไซต์ทางการ Dash | สกุลเงินของ Dash Crypto
@@ -569,52 +569,52 @@ th:
       hero-heading: Dash คือ เงินสดดิจิตอล
       hero-text: ระบบการเงินดิจิตอลแบบปฏิวัติ <br />พบกับเงินสดดิจิตอล
       video-heading: Dash คือ เงินสดดิจิตอล คุณสามารถใช้ที่ไหนก็ได้
-      video-text: ใช้ Dash เพื่อที่สามารถชำระเงินแบบทันที ชำระออนไลน์แบบส่วนตัวหรือใช้ในร้านค้า โดยใช้แพลตฟอร์มโอเพนซอร์สที่ปลอดภัยซึ่งจัดทำโดยผู้ใช้หลายพันรายทั่วโลก
+      video-text: ใช้ Dash เพื่อที่สามารถชำระเงินแบบด่วน ชำระออนไลน์แบบส่วนตัวหรือใช้ในร้านค้า โดยใช้แพลตฟอร์มโอเพนซอร์สที่ปลอดภัยซึ่งจัดทำโดยผู้ใช้หลายพันรายทั่วโลก
       video-btn: วิดิโอภาพรวม
       video-link: https://www.youtube.com/watch?v=S0oNO3mbBE8
-      feature-private-heading: ส่วนตัว
+      feature-private-heading: ความเป็นส่วนตัว
       feature-private-text: ปกป้องข้อมูลทางการเงินของคุณ PrivateSend ช่วยให้มั่นใจได้ว่าประวัติการใช้งานและยอดคงเหลือของคุณเป็นแบบส่วนตัว
       feature-instant-heading: รวดเร็ว
       feature-instant-text: เวลาของคุณมีค่ามาก การชำระเงินด้วย InstantSend ได้รับการยืนยันภายในเวลาไม่ถึงหนึ่งวินาที
       feature-secure-heading: ความปลอดภัย
       feature-secure-text: การรักษาความปลอดภัยที่คุณสามารถวางใจได้ การทำธุรกรรมได้รับการยืนยันโดย 200 TerraHash จาก X11 ASIC  และมากกว่า 4,500 เซิร์ฟเวอร์ที่โฮสต์ทั่วโลก
-      merchants-heading: ช้อปโดยตรงกับ Dash
-      merchants-text: สั่งซื้อแบบทันทีและแบบส่วนตัวโดยตรงจาก wallet Dash ของคุณ
+      merchants-heading: ร้านค้าโดยตรงกับ Dash
+      merchants-text: สั่งซื้อแบบด่วนและแบบส่วนตัวโดยตรงจาก wallet Dash ของคุณ
       merchants-btn: ร้านค้าเพิ่มเติม
       merchants-link: https://discoverdash.com
-      merchants-join-btn: กลายเป็นผู้ค้า
+      merchants-join-btn: กลายมาเป็นร้านค้า
       merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
       architecture-heading: เครือข่าย Next-Gen P2P 
       architecture-text: 'ที่แกนหลักของ Dash เป็นเครือข่าย peer-to-peer แบบเต็มรูปแบบที่ไม่เหมือนใคร Miner ได้รับรางวัลในการรักษาความปลอดภัยของ blockchain และ Masternodes ได้รับรางวัลในการตรวจสอบการจัดเก็บและการให้บริการ blockchain แก่ผู้ใช้
 
 
-        Masternodes เป็นเซิร์ฟเวอร์ใหม่ที่ทำงานในกลุ่มที่มีความปลอดภัยสูงเรียกว่าโควรัมเพื่อให้บริการแบบกระจายอำนายที่หลากหลาย เช่นการทำธุรกรรมแบบรวดเร็ว,ความเป็นส่วนตัวและการกำกับดูแลในขณะเดียวกันก็ช่วยขจัดภัยคุกคามของการโจมตีเครือข่ายต้นทุนต่ำ'
+        Masternodes เป็นเซิร์ฟเวอร์ใหม่ที่ทำงานในกลุ่มที่มีความปลอดภัยสูงเรียกว่าโควรัมเพื่อให้บริการแบบกระจายอำนายที่หลากหลาย เช่นการทำธุรกรรมแบบด่วน,ความเป็นส่วนตัวและการกำกับดูแลในขณะเดียวกันก็ช่วยขจัดภัยคุกคามของการโจมตีเครือข่ายต้นทุนต่ำ'
       architecture-btn: เรียนรู้เพิ่มเติม
       architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
-      governance-heading: การปกครองตนเองครั้งแรก โปรโตคอลการระดมทุนด้วยตนเอง
+      governance-heading: การปกครองตนเองครั้งแรก โปรโตคอลระดมทุนด้วยตนเอง
       governance-text: 'ใน Dash  ทุกคนมีสิทธิ์และสามารถเสนอโครงการถึงเครือข่ายได้โดยตรง  คุณสามารถทำอะไรก็ได้จากการตลาดจนถึงการพัฒนาซึ่งจะช่วยให้ Dash สามารถเติบโตและปรับปรุงได้ ซึ่งหมายความว่าเงินทุนของ Dash มีการเจริญเติบโตและการยอมรับของตัวเอง ความสอดคล้องกันเป็นการประกันและทุกคนต้องรับผิดชอบต่อเครือข่าย
 
 
-        เพียงส่งข้อเสนอตั๋วเงินคลังและนำเสนอแนวคิดของคุณไปยังเครือข่ายเพื่อขอรับเงินทุนและจัดทำกรณีของคุณหรือหากคุณทำงานเป็น Masternode อย่าลืมโหวต!'
+        เพียงส่งข้อเสนอกองคลังและนำเสนอแนวคิดของคุณไปยังเครือข่ายเพื่อขอรับเงินทุนและจัดทำกรณีของคุณหรือหากคุณทำงานเป็น Masternode อย่าลืมโหวต!'
       proposal-btn: ข้อเสนอ
       proposal-submit-btn: ยื่นข้อเสนอ
       network-growth-heading: เครือข่ายที่เติบโตเร็วที่สุด
       network-growth-text: "ขอบคุณการสร้างแรงจูงใจ เครือข่ายของ Dash จึงเติบโตขึ้นเป็น 4,100 masternodes ตั้งแต่เปิดตัวในปี 2014 ซึ่งหมายความว่าเครือข่าย Peer-to-peer ของ Dash เป็นหนึ่งในเครือข่ายที่ใหญ่ที่สุดในโลก \n\nโหนดเพิ่มมากขึ้นหมายถึงบริการที่มีความปลอดภัยมากขึ้นและความสามารถมากขึ้นสำหรับผู้ใช้ปลายทางในการเข้าถึง Digital Cash จากทั่วโลกตลอด 24 ชั่วโมง"
       network-growth-btn: สถิติเครือข่าย
-      evolution-heading: วิวัฒนาการสกุลเงินดิจิตอล
-      evolution-text: 'ต่อไปคืออะไร?  เราต้องการสกุลเงินดิจิตอลนั้นง่ายต่อการใช้ง่าย แม้กระทั่งคุณยายก็จะใช้มัน
+      evolution-heading: Evolution สกุลเงินดิจิตอล
+      evolution-text: 'ต่อไปคืออะไร?  เราต้องการสกุลเงินดิจิตอลที่ง่ายต่อการใช้ง่าย แม้กระทั่งคุณยายก็จะใช้มันได้
 
 
-        Dash Evolution จะช่วยให้คุณสามารถลงชื่อสมัครใช้และเข้าถึง Dash จากอุปกรณ์ใดก็ได้และทำธุรกรรมได้อย่างง่ายดายอย่างที่คุณสามารถทำได้กับ PayPal แต่ด้วยวิธีการกระจายอำนาจแบบเต็มรูปแบบ ติดตามต่อไป...'
+        Dash Evolution จะช่วยให้คุณสามารถลงชื่อเข้าใช้และเข้าถึง Dash จากอุปกรณ์ใดก็ได้และทำธุรกรรมได้อย่างง่ายดายอย่างที่คุณสามารถทำได้กับ PayPal แต่ด้วยวิธีการกระจายอำนาจแบบเต็มรูปแบบ ติดตามต่อไป...'
       evolution-btn: เรียนรู้เพิ่มเติม
       evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
       news-heading: ข่าวล่าสุด
       news-btn: ดูข่าวทั้งหมด
-      get-started-heading: เริ่ม
+      get-started-heading: เริ่มต้นกันเถอะ
       get-started-text: ดาวน์โหลด wallet และเริ่มใช้เงินสดดิจิตอล
-      get-started-btn: 'รับ Dash '
+      get-started-btn: 'โหลด Dash '
     get-dash:
-      title: 'รับ Dash '
+      title: 'โหลด Dash '
       description: ดาวน์โหลด wallet และรับ Dash ได้ที่ exchange
       hero-image: get-dash-n.jpg
       hero-heading: 'รับ Dash '
@@ -634,7 +634,7 @@ th:
       buy-dash-title: ซื้อ Dash
       buy-dash-info-text: เลือกการวิธีที่คุณชอบของคุณและเราจะเสนอวิธีที่ดีที่สุดในการซื้อ Dash
       dash-select-label: ฉันต้องการซื้อด้วย
-      dash-select-label-method: การใช้
+      dash-select-label-method: โดยใช้
       show-more-btn: แสดงเพิ่มเติม
       service-type: ประเภทบริการ
       exchange-rate: อัตราแลกเปลี่ยน
@@ -646,10 +646,10 @@ th:
       guide-btn: คู่มือการติดตั้ง
       spend-btn: ใช้จ่าย Dash
       security-btn: ความปลอดภัย
-      otc-heading: Over <br /> the Counter (OTC) การซื้อขายกันเองโดยตรง
+      otc-heading: "Over <br /> the Counter (OTC)\n การซื้อขายกันเองโดยตรง"
       otc-text: |
           การซื้อหรือขาย Dash จำนวนมากในการแลกเปลี่ยนอาจส่งผลให้เกิดส่วนต่างราคาสินค้าทำให้ผู้ซื้อหรือผู้ขายได้รับมูลค่าน้อยกว่าที่ตั้งใจ การสั่งซื้อจำนวนมากจะดันราคาสูงขึ้นส่งผลให้มีการจ่ายเงินเกินจำนวน คำสั่งขายที่มีจำนวนมากจะเป็นในทางตรงข้ามส่งผลให้ได้รับมูลค่าที่น้อยลงสำหรับ Dash ที่คุณขาย   แต่ยังดีที่มี over the counter  หรือ OTC solutions ซึ่งผู้ขายจับคู่ผู้ซื้อและผู้ขายช่วยให้พวกเขาสามารถทำธุรกรรมขนาดใหญ่นอกตลาดหลักทรัพย์และปราศจากการเกิดส่วนต่างของราคาไปยังสิ่งต่างๆ เช่น เว็บไซต์ใหม่งบประมาณและอื่น ๆ  ประโยชน์ของคุณคือคุณสามารถได้รับเหรียญอื่น ๆ อีกมากมายในราคาปัจจุบันกว่าสิ่งที่มีอยู่ในการแลกเปลี่ยนใดก็ตาม แล้วคุณก็สามารถเข้าสู่  Dash ได้ง่ายขึ้น / ราคาถูกกว่าอย่างอื่นจะเป็นไปได้
-      otc-btn: รายชื่อเต็มรูปแบบ
+      otc-btn: รายการทั้งหมด
       exchanges-heading: ตลาดแลกเปลี่ยนที่ใหญ่ที่สุด
       full-list-btn: รายชื่อตลาดแลกเปลี่ยนทั้งหมด
       claim-heading: ซื้อ,ขาย, แลกเปลี่ยน Dash
@@ -669,14 +669,14 @@ th:
       atm-text: 'Instant Dash ซื้อจ่ายจาก ATM ในประเทศของคุณ '
       atm-btn: ที่ต้ังเครื่องเอทีเอ็ม
       atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
-      shop-heading: ช้อปโดยตรงกับ Dash
-      shop-text: สั่งซื้อออนไลน์แบบทันทีและแบบส่วนตัวโดยตรงจาก wallet Dash ของคุณ
+      shop-heading: ร้านค้าโดยตรงกับ Dash
+      shop-text: สั่งซื้อออนไลน์แบบด่วนและแบบส่วนตัวโดยตรงจาก wallet Dash ของคุณ
       shop-btn: ร้านค้าเพิ่มเติม
       shop-link: https://discoverdash.com
-      shop-join-btn: กลายเป็นผู้ค้า
-      visa-heading: ซื้อที่ร้านรับบัตรเดบิต
+      shop-join-btn: กลายมาเป็นร้านค้า
+      visa-heading: ซื้อที่ Visa stores
       visa-text: 'บัตรเดบิต Dash-Visa โดยไม่มีค่าธรรมเนียมการทำธุรกรรมจากต่างประเทศและบนมือถือ "แตะและจ่ายเงิน"'
-      visa-btn: รับบัตรเขย่า
+      visa-btn: โหลด Shake
       visa-link: https://shakepay.co/#/
       need-heading: ต้องการ Dash หรือไม่?
       need-text: ลงทะเบียนบนฟอรั่มของเรา เราจะส่ง Dash ให้คุณ!
@@ -687,10 +687,10 @@ th:
       title: ร้านค้า
       description: ใช้จ่าย Dash ที่ร้านค้าและบริการเหล่านี้
       hero-image: participate.jpg
-      hero-heading: ช้อปกับ Dash
-      hero-text: ใช้จ่าย Dash ทันทีและปลอดภัยกับร้านค้าและบริการเหล่านี้
+      hero-heading: ใช้จ่ายด้วย Dash
+      hero-text: ใช้จ่าย Dash รวดเร็วและปลอดภัยกับร้านค้าและบริการเหล่านี้
       hero-map-btn: แผนที่ร้านค้า
-      hero-integrate-btn: เข้าร่วมรวมตัว Dash
+      hero-integrate-btn: เข้าร่วม Dash
       hero-getlisted-btn: ได้รับการจดทะเบียน
       hero-woo-btn: WooCommerce
       cards-heading: บัตรเดบิต
@@ -702,10 +702,10 @@ th:
       games-heading: เกมส์
       casinos-heading: คาสิโนออนไลน์
       stores-heading: เว็บสโตร์
-      metals-heading: โลหะมีค่า
+      metals-heading: Precious Metals
       bills-heading: การชำระเงินตามใบแจ้งหนี้
       payment-heading: เกตเวย์การชำระเงินร้านค้า
-      prepaid-phone-heading: กำลังเติมเงินโทรศัพท์
+      prepaid-phone-heading: เติมเงินโทรศัพท์
       cards-disclaimer: >
           หมายเหตุ: โปรดตรวจสอบประเทศของที่อยู่อาศัยกับผู้ให้บริการบัตร เนื่องจากมีการแจกจ่ายอย่างจำกัด
     participate:
@@ -715,7 +715,7 @@ th:
       hero-heading: ช่วยสร้างเงินสดดิจิตอล
       hero-text: ลงทุนและได้รับ Dash โดยการเปิดใช้งาน การรักษาความปลอดภัยหรือการพัฒนาเครือข่าย Dash
       hero-masternodes-btn: Masternodes
-      hero-mining-btn: ไมนิ่ง
+      hero-mining-btn: Mining
       hero-funding-btn: เงินทุน
       claim-heading: สนับสนุนเครือข่าย
       claim-subline: ทุกคนสามารถสนับสนุน Dash ได้
@@ -723,9 +723,9 @@ th:
       masternode-text: ช่วยให้พลัง Dash โดย hosting masternode หรือเข้าร่วมบริการโฮสติ้งที่ใช้ร่วมกัน  ผู้ให้บริการ Masternodes ได้รับรางวัลสำหรับการให้บริการที่กระจายอำนาจแก่ผู้ใช้ของเรา
       masternode-btn: ตั้งค่า Masternode
       masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
-      mining-heading: เริ่มต้นไมนิ่งและความปลอดภัยเครือข่ายของ Dash
+      mining-heading: เริ่มต้น Mining และรักษาความปลอดภัยเครือข่ายของ Dash
       mining-text: Mine Dash ใช้คอมพิวเตอร์หรือฮาร์ดแวร์เฉพาะของคุณ ไมเนอร์ได้รับรางวัลสำหรับการรักษาความปลอดภัยเครือข่าย Dash
-      mining-btn: เริ่มต้นไมนิ่ง
+      mining-btn: เริ่มต้น Mining
       mining-link: https://docs.dash.org/en/latest/mining/index.html
       funding-heading: พัฒนาเครือข่ายด้วยการจัดหาเงินทุน Blockchain
       funding-text: เครือข่าย Dash จะจัดหาเงินทุนให้กับข้อเสนอที่ดีที่สุดในแต่ละเดือนเพื่ออะไรก็ตามที่สามารถปรับปรุง Dash ให้ดีขึ้นได้ เช่นการจ้างนักพัฒนา การตัดสินใจหรือการรวมการชำระเงินแบบ Dash เข้ากับร้านค้าออนไลน์หรือร้านค้า
@@ -733,7 +733,7 @@ th:
       funding-link: https://dashcentral.org/
       integrate-heading: คุณยอมรับ Dash หรือไม่?
       integrate-text: เข้าร่วมการชำระเงินแบบรวดเร็ว,แบบส่วนตัวกับเว็บสโตร์แอปหรือร้านค้าปลีกของคุณ
-      integrate-btn: เข้าร่วมรวมตัว Dash
+      integrate-btn: เข้าร่วม Dash
       integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: ตัวประมวลผลการชำระเงิน
       integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
@@ -744,23 +744,23 @@ th:
       hero-image: สกุลเงิน.jpg
       hero-heading: สถานะเครือข่าย
       hero-text: สถานะล่าสุดของตลาด Dash และคลังสมบัติ, Masternodess และ Blockchain
-      hero-markets-btn: ตลาด
-      hero-governance-btn: คลัง
+      hero-markets-btn: การตลาด
+      hero-governance-btn: การคลัง
       hero-network-btn: Masternodes
       hero-blockchain-btn: Blockchain
-      hero-mining-btn: ไมนิ่ง
+      hero-mining-btn: Mining
       markets-heading: มูลค่าตามตลาด (USD)
-      governance-heading: คลัง
+      governance-heading: การคลัง
       network-heading: Masternodes
       blockchain-heading: Blockchain
-      mining-heading: ไมนิ่ง
+      mining-heading: Mining
       mining-guide-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
     community:
       title: เข้าร่วมชุมชน Dash
       description: เข้าร่วมชุมชน Dash
       hero-image: ชุมชน.jpg
       hero-heading: เข้าร่วมชุมชนของเรา
-      hero-text: เป็นส่วนหนึ่งของชุมชน Dash
+      hero-text: กลายมาเป็นส่วนหนึ่งของชุมชน Dash
       hero-forum-btn: ฟอรั่มทางการ
       hero-discussion-btn: การสนทนา
       hero-social-btn: แอพโซเชียล
@@ -769,11 +769,11 @@ th:
       hero-masternodes-btn: Masternodes
       hero-video-btn: วิดิโอ &amp; เสียง
       hero-graphics-btn: กราฟฟิก
-      hero-legal-btn: ถูกต้องตามกฎหมาย
+      hero-legal-btn: เกี่ยวกับกฎหมาย
       hero-wiki-btn: Wiki
-      discussion-heading: การสนทนา
+      discussion-heading: บทสนทนา
       discussion-text: พูดคุยเกี่ยวกับ Dash บนฟอรั่มเหล่านี้
-      social-heading: โซเชียล
+      social-heading: Social
       social-text: ค้นหา Dash บนแอพโซเชียลเหล่านี้
       news-heading: ข่าวสาร &amp; ข้อมูล
       news-text: เว็บไซต์ที่สร้างขึ้นโดยสมาชิกชุมชน Dash
@@ -790,12 +790,12 @@ th:
       title: เงื่อนไขการใช้งาน
       terms: "Dash มีไว้เพื่อวัตถุประสงค์ที่ถูกต้องตามกฎหมายเท่านั้นและไม่ควรใช้ในลักษณะอื่นใด  Dash ไม่ได้เป็นผู้พัฒนาหรือผู้ร่วมให้การสนับสนุนกิจกรรมที่ผิดกฎหมายใด ๆ และจะไม่ช่วยเหลือพวกเขาไม่ว่าทางไหนก็ตาม \n\nเท่าที่เรารู้การใช้ Dash ไม่ใช่เรื่องผิดกฎหมายในอำนาจศาลสูงสุด  อย่างไรก็ตามบางเขตอำนาจศาล อาจกำหนดข้อ จำกัด ในการใช้สกุลเงินดิจิตอลและ / หรือเครื่องมือการป้องกันข้อมูลส่วนบุคคล,  ดังนั้นผู้ใช้ที่อยู่ในขอบเขตอำนาจศาลเหล่านั้นควรพิจารณาเรื่องนี้ก่อนที่จะใช้ Dash หากมีข้อสงสัยโปรดติดต่อทนายความท้องถิ่นเพื่อหลีกเลี่ยงการทำอะไรที่อาจถือได้ว่าผิดกฎหมายในขอบเขตอำนาจศาลของคุณได้\n\nเนื้อหาของเว็บไซต์นี้หรืออื่น ๆ ที่เกี่ยวข้องกับ Dash ไม่ใช่คำแนะนำทางกฎหมาย คุณควรใช้วิจารณญาณของตนเองและค้นคว้าข้อมูลแหล่งข้อมูลต่างๆก่อนที่จะลงทุนใน Dash"
     blog:
-      title: บล็อคเงินดิจิตอล
+      title: Blog เงินดิจิตอล
       description: "ข่าวสารล่าสุดของ Dash &amp; ข้อมูล"
       search-btn: ค้นหาบล็อค
       community-news-btn: ข่าวชุมชน
     team:
-      title: ทีม Dash
+      title: ทีมงาน Dash
       description: ได้รับการแต่งตั้งจากเครือข่ายของเราและได้รับเงินสนับสนุนจาก blockchain เป็นรายเดือนเพื่อพัฒนาเทคโนโลยีหลักของ Dash
       core-proposal-btn: ข้อเสนอหลัก
       core-proposal-link: https://www.dashcentral.org/p/core-team
@@ -817,36 +817,36 @@ th:
       infrastructure: โครงสร้างพื้นฐาน
       qa: ระบบประกันคุณภาพ
       pm: ผู้จัดการโครงการ
-      business: การพัฒนาธุรกิจ
+      business: ฝ่ายพัฒนาธุรกิจ
       support: การบริการ + การสนับสนุน
-      management: การจัดการ
-      development: การพัฒนา
-      operations: การดำเนินงาน
-      marketing: การตลาด
-      strategy: กลยุทธิ์
-      finance: การเงิน
-      associated: ปิดที่เกี่ยวข้อง
+      management: การบริหารจัดการ
+      development: ฝ่ายพัฒนา
+      operations: ฝ่ายปฏิบัติงาน
+      marketing: ฝ่ายการตลาด
+      strategy: ฝ่ายกลยุทธิ์
+      finance: ฝ่ายการเงิน
+      associated: ผู้ที่เกี่ยวข้อง
       advisor: ที่ปรึกษาอาวุโส
       external: ผู้สนับสนุนภายนอก
   nav:
     what-is-dash: Dash คืออะไร
-    get-dash: 'รับ Dash '
-    merchants: ผู้ขาย
+    get-dash: 'Dash '
+    merchants: ร้านค้า
     download: ดาวน์โหลด wallet
     buy: ซื้อ Dash
-    shop: ช้อปกับ Dash
+    shop: ซื้อสินค้ากับ Dash
     debit: บัตรเดบิต Dash
     update: อัพเดต
-    evolution: วิวัฒนาการ
+    evolution: Evolution
     participate: สนับสนุน
-    mining: เริ่มต้นไมนิ่ง
-    masternode: 'ตั้งค่า  Masternode '
-    wallet: ตั้งค่า wallet
+    mining: เริ่มต้น Mining
+    masternode: 'ติดตั้ง  Masternode '
+    wallet: ติดตั้ง Wallet
     funding: สมัครขอเงินทุน
     currency: เครือข่าย
     exchange: ตลาดแลกเปลี่ยน
     governance: การกำกับดูแล
-    explorers: สำรวจกลุ่ม
+    explorers: นักสำรวจ
     stats: สถิติเครือข่าย
     exchanges-list: รายชื่อทั้งหมดของตลาดแลกเปลี่ยน
     community: ทรัพยากร
@@ -856,7 +856,7 @@ th:
     tools-dev: เครื่องมือพัฒนา
     tools-masternodes: เครื่องมือ Masternode
     graphics: กราฟฟิก
-    legal: ถูกต้องตามกฎหมาย
+    legal: เกี่ยวกับกฎหมาย
     merchandise: สินค้า
     project: โครงการ
     help: 'ช่วยเหลือ & สนับสนุน '
