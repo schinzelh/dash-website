@@ -13,8 +13,8 @@ ru:
       description: Dash. Инструкции.
       hero-heading: Школа Dash
       hero-text: |
-          Аманда Б. Джонсон
-      hero-btn: Просмотреть
+          с Амандой Б. Джонсон
+      hero-btn: Смотреть сейчас
       hero-you-btn: YouTube
       header-video-1: |
           Урок #1 - Что такое Блокчейн?
@@ -508,7 +508,7 @@ ru:
       wallets-desktop-header: Кошельки для компьютеров
       wallets-desktop-subtitle: Декстопные Dash кошельки имеют различные опции безопасности и специальные возможности.
       wallets-desktop-latest: >
-          Последнее обновление: 3 июль 2018
+          Последнее обновление: 3 июля 2018
       wallets-desktop-current-version: v0.12.3.1
       wallets-mobile-header: Мобильные кошельки
       wallets-mobile-subtitle: Мобильные Dash Кошельки имеют различные опции и оптимизированы для работы на мобильных устройствах (Телефоны, Планшеты, ...)
@@ -556,8 +556,8 @@ ru:
       title: Платёжные процессоры Dash
       hero-heading: Обработка платежей Dash
       hero-text: Быстро и легко внедрите Dash в качестве способа оплаты
-      payments-desc-header: Обработчики платежей
-      payments-providers-header: Обработчики платежей
+      payments-desc-header: Платёжные процессоры
+      payments-providers-header: Платёжные процессоры
       modal-header-vendor-label-descriptor: Кошелёк для Dash
       modal-download-action-button-label: Скачать
       modal-source-code-view: Посмотреть
@@ -573,8 +573,8 @@ ru:
       modal-validation-hosted: Вам придётся доверять стороннему серверу в вопросах точности информации о фактах получения и отправки платежей.
       modal-access-label: Доступ
       modal-access-p2p: Обеспечивает прямое подсоединение к Dash p2p сети. Это самый децентрализованный и неподвластный цензуре тип доступа.
-      modal-access-multi: Ваше подсоединение к сети Dash производится через один промежуточный шлюз, но вы можете выбрать любой из доступных шлюзов.
-      modal-access-vendor: Ваш доступ к децентрализованной сети Dash производится через один определённый канал, диктуемый сервером вендора.
+      modal-access-multi: Ваше соединение с p2p сетью Dash производится через один промежуточный шлюз, но вы можете выбрать любой из доступных шлюзов.
+      modal-access-vendor: Ваше соединение с p2p сетью Dash производится через один определённый канал, диктуемый сервером вендора.
       modal-core-minimum-reqs: Минимальная требуемая версия
       modal-core-header: Скачать Dash Core
       modal-electrum-header: Скачать Dash Electrum
@@ -598,14 +598,14 @@ ru:
       title: Связаться с Dash
       description: Контакты Dash
       hero-heading: Контакты
-      form-pretext: Для получения технической поддержки или решения проблем с Кошельками, Майнингом и по всем остальным общим вопросам - посетите наш форум DashTalk или любой другой ресурс сообщества Dash.
-      form-pretext-2: Для остальных запросов - используйте это ссылку.
+      form-pretext: Для получения технической поддержки или решения проблем с кошельками, майнингом и по всем остальным общим вопросам - посетите наш форум DashTalk или любой другой ресурс сообщества Dash.
+      form-pretext-2: Для остальных запросов - используйте эту ссылку.
       social-heading: "Форумы и Социальные сети"
       mail-list-heading: Список E-mail рассылки
       mail-list-text: Хотите быть в курсе всех последних новостей? Подпишитесь на нашу новостную рассылку.
       social-text-heading: ПОСЕТИТЕ DASH ФОРУМ
       forum-btn: Посетите Форумы
-      social-text: Для получения технической поддержки или решения проблем с Кошельками, Майнингом и по всем остальным общим вопросам - посетите наш DASH ФОРУМ или любой другой ресурс сообщества Dash.
+      social-text: Для получения технической поддержки или решения проблем с кошельками, майнингом и по всем остальным общим вопросам - посетите наш DASH ФОРУМ или любой другой ресурс сообщества Dash.
       volunteer-heading: Стать волонтёром
       join-btn: Присоединиться
     home:
@@ -622,14 +622,14 @@ ru:
       feature-instant-heading: Мгновенный
       feature-instant-text: Ваше время имеет ценность. InstantSend подтверждает платежи менее чем за секунду.
       feature-secure-heading: Безопасный
-      feature-secure-text: Безопасность, на которую можно положиться. Транзакции подтверждаются вычистительной мощностью более 1.000 Gigahash X11 ASIC-майнеров и сетью из более чем 4.100 серверов, хостящихся по всему миру.
+      feature-secure-text: Безопасность, на которую можно положиться. Транзакции подтверждаются вычистительной мощностью более 200 TerraHash X11 ASIC-майнеров и сетью из более чем 4500 серверов, хостящихся по всему миру.
       merchants-heading: Расплачивайтесь напрямую с помощью Dash
       merchants-text: Мгновенные приватные платежи, напрямую из вашего кошелька Dash
       merchants-btn: Больше точек продаж
       merchants-link: https://discoverdash.com
       merchants-join-btn: Принимайте платежи в Dash
       merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
-      architecture-heading: P2P Сеть Следующего Поколения
+      architecture-heading: P2P сеть следующего поколения
       architecture-text: 'Основа технологии Dash - уникальная двухуровневая P2P сетевая архитектура со встроенной системой поощрений. Майнеры поощряются за обеспечение безопасности блокчейна, а сетевые узлы (Мастерноды) вознаграждаются за проверку, хранение и предоставление блокчейна пользователям.
 
 
@@ -646,16 +646,14 @@ ru:
 
         '
       proposal-btn: Предложения
-      proposal-submit-btn: Разместите Предложение
-      network-growth-heading: Самая Быстро Растущая Сеть
-      network-growth-text: 'Благодаря встроенной системе поощрений, сеть Dash выросла уже до 4.100 Мастернод с момента своего запуска в 2014 году, став таким образом одной из крупнейших в мире peer-to-peer сетей.
+      proposal-submit-btn: Разместите предложение
+      network-growth-heading: Самая быстрорастущая сеть
+      network-growth-text: 'Благодаря встроенной системе поощрений, сеть Dash выросла уже до 4100 Мастернод с момента своего запуска в 2014 году, став таким образом одной из крупнейших в мире peer-to-peer сетей.
 
 
-        Большое число сетевых узлов на практике означает большую защищенность сервисов и большие возможности для конечных пользователей в получении доступа к Цифровой Наличности из любой точки мира, круглосуточно и гарантированно.
-
-        '
+        Большое число сетевых узлов на практике означает большую защищенность сервисов и большие возможности для конечных пользователей в получении доступа к Цифровой Наличности из любой точки мира, 24/7 и гарантированно.'
       network-growth-btn: Статистика Сети
-      evolution-heading: Эволюция Цифровых Денег
+      evolution-heading: Эволюция цифровых денег
       evolution-text: 'Что же дальше? Мы хотим, чтобы цифровая валюта стала настолько простой в использовании, что даже ваша бабушка захотела бы пользоваться ей.
 
 
@@ -665,11 +663,11 @@ ru:
       news-heading: Последние новости
       news-btn: Посмотреть все новости
       get-started-heading: Начать использование
-      get-started-text: Скачайте Кошелёк и начните использовать Цифровую Наличность!
+      get-started-text: Скачайте кошелёк и начните использовать Цифровую Наличность!
       get-started-btn: Получить Dash
     get-dash:
       title: Получить Dash
-      description: Скачайте Кошелёк и пополните его средствами Dash через Биржу.
+      description: Скачайте кошелёк и пополните его средствами Dash через биржу.
       hero-image: get-dash-n.jpg
       hero-heading: Получить Dash
       hero-heading-text: |
@@ -678,37 +676,37 @@ ru:
       hero-text: |
           Вы здесь впервые? Прочтите <a href='https://docs.dash.org/en/latest/' target='_blank'>Руководство по Dash </a>для новых пользователей
       hero-wallet-version: Кошелёк Dash (полный клиент v12.0.56) для OSX
-      hero-wallet-version-select: Выбрать Другой
+      hero-wallet-version-select: Выбрать другой
       hero-platform-not-detected: "К сожалению, ваша платформа не распознана автоматически. Пожалуйста, выберите «Все кошельки» для выбора совместимой версии."
-      hero-download-btn: Скачать Кошелёк
+      hero-download-btn: Скачать кошелёк
       hero-all-wallets-btn: Все кошельки
-      download-title: Скачать Кошелёк
+      download-title: Скачать кошелёк
       download-text: Ваш кошелёк - это программное обеспечение, используемое для получения, хранения и отправки средств Dash. Он прост в использовании, и как опцию вы сможете отправлять платежи анонимно, с использованием функции PrivateSend.
       all-wallets-btn: Все кошельки
       buy-dash-title: Купить Dash
       buy-dash-info-text: Укажите ваши предпочтения, и мы подберём для вас лучший способ купить Dash.
       dash-select-label: Я хочу купить за
       dash-select-label-method: с помощью
-      show-more-btn: Показать Больше
-      service-type: Вид Услуги
-      exchange-rate: Обменный Курс
-      payments-method: Способ Оплаты
+      show-more-btn: Показать больше
+      service-type: Вид услуги
+      exchange-rate: Обменный курс
+      payments-method: Способ оплаты
       buy-dash-preference-title: Укажите ваши предпочтения, и мы подберём для вас лучший способ купить Dash.
       tooltip: |
           Пожалуйста, обратите внимание: указана текущая рыночная цена за один Dash. Она может стремительно меняться, и мы не можем гарантировать, что вы купите Dash по той же цене. Эта цена не включает в себя комиссии за услуги и перевод.
       buy-dash-table: Купить Dash
-      guide-btn: Руководство по Установке
+      guide-btn: Руководство по установке
       spend-btn: Потратить Dash
       security-btn: Безопасность
       otc-heading: <br />Внебиржевая сделка (OTC)
       otc-text: |
           Покупка или продажа больших объемов Dash на биржах может вызвать колебания цены, и в результате продавец или покупатель получит меньше, чем ожидалось. Крупные ордеры на покупку поднимают цену, что заканчивается переплатой. Большие ордера на продажу работают в противоположном направлении, снижая цену, которую вы получите за проданные Dash. К счастью, существуют "внебиржевые сделки", или OTC, где посредник находит пару для продавца или покупателя, тем самым давая им возможность провести значительные суммы вне биржи, не отвлекаясь на такие вещи, как создание нового вебсайта, планирование pr бюджета и т.д. Ваша выгода заключается в том, что вы можете получить гораздо большее количество монет по текущей цене, чем может вам предложить любая биржа. Таким образом, вы получите Dash наиболее лёгким и малозатратным способом из всех возможных.
-      otc-btn: Полный Список
-      exchanges-heading: Крупнейшие Биржи
-      full-list-btn: Полный Список Бирж
-      claim-heading: Купить, Продать и Обменять Dash
+      otc-btn: Полный список
+      exchanges-heading: Крупнейшие биржи
+      full-list-btn: Полный список бирж
+      claim-heading: Купить, продать и обменять Dash
       claim-subline: Получать, хранить и обменивать Dash возможно различными способами.
-      setup-heading: Узнайте, как Установить Кошелёк
+      setup-heading: Узнайте, как установить кошелёк
       setup-btn: Узнать больше
       setup-link: https://docs.dash.org/en/latest/wallets/index.html
       buy-heading: Купить Dash
@@ -748,18 +746,18 @@ ru:
       hero-getlisted-btn: Попасть в этот список
       hero-woo-btn: WooCommerce
       cards-heading: Дебетовые карты
-      email-heading: E-mail Провайдеры
-      vpn-heading: VPN Провайдеры
+      email-heading: E-mail провайдеры
+      vpn-heading: VPN провайдеры
       hosting-heading: Хостинг и VPS
-      business-heading: Бизнес Услуги (Маркетинг / Веб / Графический Дизайн)
+      business-heading: Бизнес услуги (Маркетинг / Веб / Графический Дизайн)
       gifts-heading: Подарочные карты
       games-heading: Игры
-      casinos-heading: Онлайн Казино
+      casinos-heading: Онлайн казино
       stores-heading: Интернет магазины
       metals-heading: Драгоценные металлы
-      bills-heading: Оплата Счетов
-      payment-heading: Коммерческие Платёжные Системы
-      prepaid-phone-heading: Перезагрузка Предоплаченного Телефона
+      bills-heading: Оплата счетов
+      payment-heading: Коммерческие платёжные системы
+      prepaid-phone-heading: Пополнение счёта мобильного телефона
       cards-disclaimer: >
           Объявление: Пожалуйста, уточните у поставщиков, распространяются ли карты
           в вашей стране проживания.
@@ -768,7 +766,7 @@ ru:
       description: Присоединяйтесь к Сети Dash
       hero-image: participate.jpg
       hero-heading: Участвуйте в создании Цифровой Наличности
-      hero-text: Зарабатывайте Dash, делая Сеть более мощной, безопасной и функциональной
+      hero-text: Зарабатывайте Dash, делая сеть более мощной, безопасной и функциональной
       hero-masternodes-btn: Мастерноды
       hero-mining-btn: Майнинг
       hero-funding-btn: Финансирование
@@ -778,34 +776,34 @@ ru:
       masternode-text: Помогите сделать сеть Dash ещё лучше, запустив собственную Мастерноду или присоединившись к сервису по совместному хостингу Мастернод. Операторы Мастернод получают вознаграждение за оказание децентрализованных услуг пользователям Dash.
       masternode-btn: Запустить Мастерноду
       masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
-      mining-heading: Займитесь Майнингом и помогите защищать сеть Dash
+      mining-heading: Займитесь майнингом и помогите защищать сеть Dash
       mining-text: Займитесь майнингом Dash с помощью своего компьютера или специального оборудования. Майнеры Dash получают вознаграждение за помощь в обеспечении безопасности сети Dash.
-      mining-btn: Заняться Майнингом
+      mining-btn: Заняться майнингом
       mining-link: https://docs.dash.org/en/latest/mining/index.html
       funding-heading: Развивайте Сеть Dash на средства из Блокчейна
       funding-text: Сеть Dash каждый месяц финансирует различные усилия, направленные на развитие проекта, такие как найм разработчиков, мероприятия по продвижению и интеграция платежей Dash в новые популярные сервисы и магазины.
-      funding-btn: Разместить Предложение
+      funding-btn: Разместить предложение
       funding-link: https://dashcentral.org/
       integrate-heading: Вы принимаете к оплате Dash?
-      integrate-text: Интегрируйте приём мгновенных анонимных платежей в ваши Интернет-магазин, Приложение или Торговую точку
+      integrate-text: Интегрируйте приём мгновенных анонимных платежей в ваши Интернет-магазин, приложение или торговую точку
       integrate-btn: Интегрировать Dash
       integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
-      integrate-payment-processor-btn: Процессинговые компании
+      integrate-payment-processor-btn: Платёжные процессоры
       integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
       integrate-contact-btn: Свяжитесь с командой Dash
     currency:
       title: Сеть Dash
       description: Валюта Dash
       hero-image: currency.jpg
-      hero-heading: Состояние Сети
-      hero-text: Текущее состояние Рынков, Сокровищницы, Мастернод и Блокчейна
+      hero-heading: Состояние сети
+      hero-text: Текущее состояние рынков, Бюджета, Мастернод и блокчейна
       hero-markets-btn: Рынки
-      hero-governance-btn: Сокровищница
+      hero-governance-btn: Бюджет
       hero-network-btn: Мастерноды
       hero-blockchain-btn: Блокчейн
       hero-mining-btn: Майнинг
       markets-heading: Рынки
-      governance-heading: Сокровищница
+      governance-heading: Бюджет
       network-heading: Мастерноды
       blockchain-heading: Блокчейн
       mining-heading: Майнинг
@@ -833,9 +831,9 @@ ru:
       news-heading: Новости и Информация
       news-text: Сайты, созданные членами сообщества Dash
       development-heading: Разработка
-      development-text: Сайты и Инструменты для Разработчиков
+      development-text: Сайты и инструменты для разработчиков
       masternode-heading: Инструменты для Мастернод
-      masternode-text: Запуск, Управление и Хостинг для ваших Мастернод
+      masternode-text: Запуск, управление и хостинг для ваших Мастернод
       media-heading: Dash Медиа
       conferences-heading: Конференции
       technology-heading: Технологии
@@ -854,7 +852,7 @@ ru:
 
         Содержание этого веб-сайта, а также других источников информации, имеющих отношение к Dash, не является инвестиционными советами. Вы должны руководствоваться своими собственными суждениями и исследовать различные источники информации, прежде чем решите инвестировать в Dash.'
     blog:
-      title: Блог о Цифровой Валюте
+      title: Блог о Цифровой Наличности
       description: "Свежие Новости и Информация о Dash"
       search-btn: Искать в Блоге
       community-news-btn: Новости Сообщества
@@ -865,12 +863,12 @@ ru:
       core-proposal-link: https://www.dashcentral.org/p/core-team
       core-approval-btn: Одобрение сетью
       core-approval-link: http://dashvotetracker.com/history.html?ProposalID=12
-      core-join-btn: Присоединиться к Команде
+      core-join-btn: Присоединиться к команде
       core-heading: Команда Dash Core
       hr: Кадры
       forum-name: >
           Dashforum:
-      strateg-heading: Стратегический Советник
+      strateg-heading: Стратегический советник
       coredao: Руководство Dash Core DAO
       coredev: Разработчики
       dapidev: Dash DAPI
@@ -881,7 +879,7 @@ ru:
       infrastructure: Инфраструктура
       qa: ПО
       pm: Руководители Проектов
-      business: Бизнес Развитие
+      business: Бизнес развитие
       support: Администрирование и Поддержка
       management: Управление
       development: Разработка
@@ -890,7 +888,7 @@ ru:
       strategy: Стратегия
       finance: Финансы
       associated: Локальные представители
-      advisor: Старший Советник
+      advisor: Старший советник
       external: Внешние поставщики
   nav:
     what-is-dash: Что такое Dash
@@ -901,30 +899,30 @@ ru:
     shop: Потратить Dash
     debit: Пластиковые карты Dash
     update: Обновление
-    evolution: Эволюция
+    evolution: Evolution
     participate: Участвовать
-    mining: Заняться Майнингом
+    mining: Заняться майнингом
     masternode: Установить Мастерноду
-    wallet: Установить Кошелёк
-    funding: Запросить Финансирование
+    wallet: Установить кошелёк
+    funding: Запросить финансирование
     currency: Сеть
-    exchange: Обменные Сервисы
+    exchange: Обменные сервисы
     governance: Система Управления
-    explorers: Мониторинг Блокчейна
-    stats: Статистика Сети
-    exchanges-list: Полный Список Бирж
+    explorers: Обозреватели блоков
+    stats: Статистика сети
+    exchanges-list: Полный список бирж
     community: Сообщество
     discussion: Обсуждение
-    social-apps: Социальные Сети
+    social-apps: Социальные сети
     news: Новости и Информация
-    tools-dev: Средства Разработки
+    tools-dev: Средства разработки
     tools-masternodes: Инструменты для Мастернод
     graphics: Графики
     legal: Юридическое сопровождение
     merchandise: Товары с символикой Dash
     project: Проект
     help: Помощь и Поддержка
-    info: Информация о Проекте
+    info: Информация о проекте
     team: Команда
     contact: Контакты
     foundation: Foundation
@@ -952,5 +950,5 @@ ru:
     tos: Условия использования
     sitemap: Карта сайта
     sitesource: Исходный код
-    service: Сервисный Центр
-    support: Служба Поддержки
+    service: Служба поддержки
+    support: Поддержка
