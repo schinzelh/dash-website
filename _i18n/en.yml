@@ -274,12 +274,7 @@ en:
       hosting-services-btn: Masternode Hosting Services
 
       p2p-text: |
-        Text about peer2peer Thanks to incentivization, Dash’s network has grown to 4,100 masternodes since launch in 2014, meaning Dash’s peer-to-peer network is one of the largest in the world.
-        More nodes means more secure services, and more capacity for end-users to access Digital Cash from anywhere in the world, 24/7.
-
-        Text about peer2peer Thanks to incentivization, Dash’s network has grown to 4,100 masternodes since launch in 2014, meaning Dash’s peer-to-peer network is one of the largest in the world.
-        More nodes means more secure services, and more capacity for end-users to access Digital Cash from anywhere in the world, 24/7.
-
+        Thanks to incentivization, Dash’s network has grown to 4,100 masternodes since launch in 2014, meaning Dash’s peer-to-peer network is one of the largest in the world. More nodes means more secure services, and more capacity for end-users to access Digital Cash from anywhere in the world, 24/7.
       p2p-btn: Network Stats
 
     buy:
