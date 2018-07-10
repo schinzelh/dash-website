@@ -47,18 +47,21 @@
 					price = 'price_' + currency;
 				}
 				$('[data-name]').each(function() {
-					var that = $(this),
-						exchangeName = that.data('name'),
+					var self = $(this),
+						exchangeName = self.data('name'),
+						$result = self.find('[data-price="result"]'),
+						resultName;
+					if (resultExchanges) {
 						resultName = resultExchanges.filter(function(el) {
 							if (el) {
-								return el.exchange === exchangeName;
+								return el && el.exchange === exchangeName;
 							}
 							return null;
-						}),
-						$result = that.find('[data-price="result"]');
+						});
+					}
 
 					if (resultName && resultName[0] && !isNaN(resultName[0][price]) && resultName[0][price] !== 'undefined') {
-						that.find('[data-price="click"]').addClass('hidden');
+						self.find('[data-price="click"]').addClass('hidden');
 						$result.removeClass('hidden')
 							.find('[data-rate="rate"]')
 							.text(formatCurrency(resultName[0][price]));
