@@ -575,3 +575,15 @@
   fees: N/A
   image: switchain.png
   url:  https://www.switchain.com
+
+- name: NewCash
+  trading_pairs: BTC
+  fees: N/A
+  image: newcash.png
+  url:  https://newc.com.br
+
+- name: 3xbit
+  trading_pairs: BTC
+  fees: N/A
+  image: bxbit.png
+  url:  https://3xbit.com.br
