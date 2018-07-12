@@ -558,7 +558,6 @@ en:
 
       update-heading: Sentinel
       update-text:
-        An all-powerful toolset for Dash
         Dash’s new Sentinel technology is the engine that will power Dash Evolution. It’s extremely powerful and flexible, which will allow much easier network updates. Additionally, Sentinel can be customized to create numerous new applications that will run on the network. It’s possible to create digital companies, for instance, using Sentinel.
       proposal-btn: Proposals
       proposal-submit-btn: Submit a Proposal
@@ -757,7 +756,7 @@ en:
       evolution-heading: Digital Currency Evolution
       evolution-text:
 
-        What's next? We want digital currencies to be so easy to use your Grandma would use them.
+        What's next? We want digital currencies to be so easy to use your grandmother could use them.
 
 
         Dash Evolution will enable you to sign up and access your Dash from any device and transact as easily as you can with PayPal, but in a fully decentralized way. Stay tuned...
@@ -807,7 +806,7 @@ en:
       spend-btn: Spend Dash
       trade-btn: Trade Dash
       security-btn: Security
-      otc-heading: Over <br />the Counter (OTC)
+      otc-heading: Over the Counter (OTC)
       otc-text: |
         Buying or selling large amounts of Dash on exchanges can cause price slippage, resulting in the buyer or seller receiving less value than intended. Large buy orders push the price higher, resulting in overpayment. Sizeable sell orders do the opposite, resulting in less value received for the Dash you sell. Fortunately there are “over the counter” or OTC solutions, where a vendor pairs buyers and sellers, allowing them to conduct large transactions off the exchanges and free from slippage to things like a new website, pr budget, etc. The benefit to you is, you can get many more coins at the current price, than what are available on any exchange. So you can get into a Dash position much easier/cheaper than would otherwise be possible.
       otc-btn: Full List
@@ -983,7 +982,7 @@ en:
     tos:
       title: Terms of Use
       terms:
-        Dash is only intended for legal purposes and should not be used in any other way. Neither Dash, nor any of it is developers or contributors, support any illegal activities and won’t assist them in any way.
+        Dash is only intended for legal purposes and should not be used in any other way. Neither Dash, nor any of its developers or contributors, support any illegal activities and won’t assist them in any way.
 
 
         As far as we know, the use of Dash is not illegal in most jurisdictions. However, some jurisdictions may impose limitations on the use of cryptocurrencies and/or privacy protection tools, so users in those jurisdictions should consider this before using Dash. If in doubt, please contact a local attorney to avoid doing anything that could be considered illegal in your jurisdiction.
