@@ -248,7 +248,7 @@ it:
 
           Riguardo peer2peer Grazie alla incentivazione, la rete di Dash è cresciuta fino a 4.100 masternodes dal lancio nel 2014, il che significa che la rete peer-to-peer di Dash è una delle più grandi al mondo.
           Più nodi significa più servizi sicuri e più capacità per gli utenti finali di accedere a Digital Cash da qualsiasi parte del mondo, 24 ore su 24, 7 giorni su 7.
-      p2p-btn: Statistiche di rete
+      p2p-btn: Statistiche della rete
     buy:
       title: 'Sito Ufficiale Dash | Dash Criptovaluta '
       description: Dash è denaro digitale
@@ -407,7 +407,7 @@ it:
       hero-btn: Di più riguardo Evolution
       hero-roadmap-btn: Tabella di marcia
       video-heading: MISSIONE
-      video-text: La missione di Evolution è rendere il denaro digitale facile da usare e accedere a tutti gli utenti, anche a quelli che non sono tecnologicamente esperti. Chiunque sarà in grado di configurare un account sulla blockchain, aggiungere contatti e pagarli usuando il nome. Gli acquisti da siti Web o applicazioni per dispositivi mobili saranno semplici e richiedono solo un clic.
+      video-text: La missione di Evolution è rendere il denaro digitale facile da usare e accedere a tutti gli utenti, anche a quelli che non sono tecnologicamente esperti. Chiunque sarà in grado di configurare un account sulla blockchain, aggiungere contatti e pagarli usuando il nome. Gli acquisti da siti Web o applicazioni per dispositivi mobili saranno semplici e richiederanno solo un clic.
       prototype-video-1: Prototipo Video 1
       prototype-video-2: Prototipo video 2
       video-btn2: Anteprima portafoglio
@@ -444,7 +444,7 @@ it:
       merchants-heading: MERCHANT FRIENDLY
       merchants-text: 'Aggiungi pagamenti Dash al tuo sito o alla tua app per dispositivi mobili in pochi minuti utilizzando un''API semplice e decentralizzata.
 
-        Dimentica infrastrutture complesse o l''affidarso a terzi per gestire i pagamenti dei tuoi clienti e creare relazioni dirette con i tuoi clienti utilizzando la blockchain.'
+        Dimentica infrastrutture complesse o l''affidarsi a terzi per gestire i pagamenti dei tuoi clienti e creare relazioni dirette con i tuoi clienti utilizzando la blockchain.'
       merchants-btn: Per i commercianti
       merchants-plugin-btn: Woocommerce Plugin
       social-heading: Dash Social
@@ -487,7 +487,7 @@ it:
       evolution-research-text: 'A gennaio 2016 abbiamo rilasciato un prototipo di Evolution basato su Electrum. Da allora, abbiamo creato una serie di documentazione e abbiamo completamente delineato gli obiettivi di progettazione e iniziato a implementarli.
 
         Il prototipo era piuttosto semplice, con l''interazione dell''utente limitata al solo pagamento di pochi amici e dati utente memorizzati su un server di sviluppo, ma almeno dimostrò le sue potenzialità. Ciò che abbiamo deciso di fare era quindi progettare e prototipare tutte le tecnologie chiave che avrebbero consentito a queste funzioni di operare in modo puramente P2P, con i dati protetti sulla blockchain di Dash e accessibili da qualsiasi dispositivo su qualsiasi dispositivo, con protezione basata su SPV e no servizi di intermediazione centralizzati richiesti e utilizzo del protocollo più comune e resistente alla censura disponibile - HTTP (S)'
-      evolution-research-btn: Statistiche di rete
+      evolution-research-btn: Statistiche della rete
       launching-heading: DATE DI LANCIO
       launching-text: >
           L'avvio di una nuova versione del software sulla rete richiede che tutte
@@ -645,7 +645,7 @@ it:
       governance-text: 'In Dash, ognuno ha una voce e la capacità di proporre progetti direttamente alla rete. Tutto ciò che immagini , dal marketing allo sviluppo, che aiuta Dash a crescere e migliorare, può essere finanziato. Ciò significa che Dash finanzia la propria crescita e adozione, il consenso è garantito e tutti sono responsabili verso la rete.
 
 
-        Invia una proposta di tesoreria e presenta la tua idea alla rete per il finanziamento e il tuo caso, o se gestisci un Masternode, assicurati di votare!'
+        Invia una proposta alla tesoreria e presenta la tua idea alla rete per il finanziamento e il tuo caso, o se gestisci un Masternode, assicurati di votare!'
       proposal-btn: Proposte
       proposal-submit-btn: Invia una proposta
       network-growth-heading: Il network con la crescita più veloce
@@ -653,7 +653,7 @@ it:
 
 
         Più nodi significa più servizi sicuri e più capacità per gli utenti finali di accedere a Digital Cash da qualsiasi parte del mondo, 24 ore su 24, 7 giorni su 7.'
-      network-growth-btn: Stato della Rete
+      network-growth-btn: Statistiche della rete
       evolution-heading: Moneta Digitale "Evolution"
       evolution-text: 'Qual''è il nostro prossimo obbiettivo? Vogliamo che le valute digitali siano così facili da usare che anche tua nonna le userebbe.
 
@@ -673,7 +673,7 @@ it:
       hero-heading: Ottieni Dash
       hero-heading-text: |
           Compra e Vendi dash in ogni momento e quando vuoi
-          Dash può essere acquisito, detenuto e scambiato in molti modi
+          Dash può essere aquistato, conservato o scambiato in molti modi
       hero-text: |
           Prima volta qui? Leggi <a href='https://docs.dash.org/en/latest/' target='_blank'>Guida Dash</a>Per nuovi utenti
       hero-wallet-version: Portafoglio Dash (Fullclient v12.0.56) per OSX
@@ -701,7 +701,7 @@ it:
       security-btn: Sicurezza
       otc-heading: Over <br />the Counter (OTC)
       otc-text: |
-          L'acquisto o la vendita di grandi quantità di Dash negli Exchanges può causare uno slittamento del prezzo, con il risultato che l'acquirente o il venditore ricevono meno valore del previsto. I grandi ordini di acquisto spingono il prezzo più alto, con conseguente pagamento in eccesso. Gli ordini di vendita consistenti fanno il contrario, con conseguente minor valore ricevuto per il Dash che vendi. Fortunatamente ci sono soluzioni "over the counter" o OTC, in cui un venditore abbina compratori e venditori, permettendo loro di condurre grandi transazioni fuori dagli scambi e senza slittamenti su cose come un nuovo sito web, un budget di pr, ecc. Il vantaggio per te è , puoi ottenere molte più monete al prezzo corrente, rispetto a quelle disponibili su qualsiasi Exchanges. Quindi puoi entrare in una posizione per Dash in modo molto più facile / economico di quanto sarebbe altrimenti possibile.
+          L'acquisto o la vendita di grandi quantità di Dash negli Exchanges può causare uno slittamento del prezzo, con il risultato che l'acquirente o il venditore ricevono meno valore del previsto. I grandi ordini di acquisto spingono il prezzo più alto, con conseguente pagamento in eccesso. Gli ordini di vendita consistenti fanno il contrario, con conseguente minor valore ricevuto per il Dash che vendi. Fortunatamente ci sono soluzioni "over the counter" o OTC, in cui un venditore abbina compratori e venditori, permettendo loro di condurre grandi transazioni fuori dagli scambi e senza slittamenti su cose come un nuovo sito web, un budget di pr, ecc. Il vantaggio per te è che puoi ottenere molte più monete al prezzo corrente, rispetto a quelle disponibili su qualsiasi Exchanges. Quindi puoi entrare in una posizione per Dash in modo molto più facile / economico di quanto sarebbe altrimenti possibile.
       otc-btn: Lista Completa
       exchanges-heading: Exchange Maggiori
       full-list-btn: Lista Completa Exchanges
@@ -741,7 +741,7 @@ it:
       description: Spendi Dash presso questi commercianti e servizi
       hero-image: participate.jpg
       hero-heading: Compera con dash
-      hero-text: Spendi il tuo Dash in modo istantaneo e sicuro presso questi commercianti e servizi
+      hero-text: Spendi i tuoi Dash in modo istantaneo e sicuro presso questi commercianti e servizi
       hero-map-btn: Mappa dei Commercianti
       hero-integrate-btn: Integra Dash
       hero-getlisted-btn: Ottenere Elenchi
@@ -911,7 +911,7 @@ it:
     exchange: Exchange Markets
     governance: Governance
     explorers: Block Explorers
-    stats: Statistiche di Rete
+    stats: Statistiche della rete
     exchanges-list: Lista completa Exchanges
     community: Community
     discussion: Discussione
