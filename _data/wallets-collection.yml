@@ -125,7 +125,7 @@
       url: "https://github.com/dashpay/dash/releases/download/v0.12.3.2/dashcore-0.12.3.2-i686-pc-linux-gnu.tar.gz"
     -
       label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.12.3/SHA256SUMS.asc"
+      url: "https://github.com/dashpay/dash/releases/download/v0.12.3.2/SHA256SUMS.asc"
     # -
     #   label: PGP
     #   url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-linux32.tar.gz.asc"
