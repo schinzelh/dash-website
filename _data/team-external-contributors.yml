@@ -9,3 +9,27 @@
   dashforum: elbereth
   team-title:
     - External contributors
+
+- name: Crowning
+  title: Core Development / Testing
+  description: Crowning is trained in Computer Science and Mathematics and has 35 years of experience in software development in languages from C to Java, client/server architecture, databases, security, data encryption and rich web applications.
+  image: crowning.png
+  email: crowning@dash.org
+  keybase:
+  twitter:
+  dashforum-link: /crowning.1102/
+  dashforum: crowning
+  team-title:
+    - Development
+
+- name: TheLazieR
+  title: Core Developer
+  description: “thelazier” has a background in Freelance Programming, Security Admin in *nix, System Admin for ISP , System and Network Admin for Domain Registrar and Hosting Companies, IT Infrastructure for Card Payment Company for 2 year, IT Infrastructure for Television Broadcaster. Now he works as Project Manager for Card Management System Software.
+  image: thelazier.jpeg
+  email: thelazier@gmail.com
+  keybase: https://keybase.io/thelazier
+  twitter:
+  dashforum-link: /thelazier.2745/
+  dashforum: thelazier
+  team-title:
+    - Development

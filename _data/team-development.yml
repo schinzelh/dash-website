@@ -25,7 +25,7 @@
   board-member: true
 
 - name: Andy Freer
-  title: Architect
+  title: Chief Architect
   description: Andy has 17 years experience as a developer and 12 years as a CTO in the E-commerce, Web, SaaS, ERP, P2P streaming, Supply Chain and Games spaces.
   image: andy_f.png
   email:
@@ -37,30 +37,6 @@
     - Development
     - Management
   board-member: true
-
-- name: Crowning
-  title: Core Development / Testing
-  description: Crowning is trained in Computer Science and Mathematics and has 35 years of experience in software development in languages from C to Java, client/server architecture, databases, security, data encryption and rich web applications.
-  image: crowning.png
-  email: crowning@dash.org
-  keybase:
-  twitter:
-  dashforum-link: /crowning.1102/
-  dashforum: crowning
-  team-title:
-    - Development
-
-- name: TheLazieR
-  title: Core Developer
-  description: “thelazier” has a background in Freelance Programming, Security Admin in *nix, System Admin for ISP , System and Network Admin for Domain Registrar and Hosting Companies, IT Infrastructure for Card Payment Company for 2 year, IT Infrastructure for Television Broadcaster. Now he works as Project Manager for Card Management System Software.
-  image: thelazier.jpeg
-  email: thelazier@gmail.com
-  keybase: https://keybase.io/thelazier
-  twitter:
-  dashforum-link: /thelazier.2745/
-  dashforum: thelazier
-  team-title:
-    - Development
 
 - name: Cofresi
   title: Evolution Backend Developer
@@ -75,7 +51,7 @@
     - Development
 
 - name: Quantum Explorer
-  title: Head of Mobile Team
+  title: Mobile Lead
   description: QuantumExplorer is a Lead Software Engineer with over 2 years experience leading teams and 6 years experience developing iOS solutions. He has built many successful in-house projects that served multiple millions of users. By night he is a cryptocurrency aficionado who believes that our current economic system is flawed and could be greatly improved by emerging technology. He believes that Dash is the leader of this trend.
   image: quantumexplorer.jpg
   email: quantumexplorerdash@gmail.com
@@ -99,7 +75,7 @@
     - Development
 
 - name: Alex Werner
-  title: Evolution Backend Lead
+  title: DashPay Lead
   description: Alex ("Obusco") has a degree in computing science and has been working for the last 8 years, as a self-taught web-freelancer (during his study), then tried his way for a good ol' IT service before quickly switching into the french start-up sphera as a full-stack developer.
   image: alex_werner.png
   email: alex.werner@dash.org
@@ -111,7 +87,7 @@
     - Development
 
 - name: Joshua Seigler
-  title: Evolution Frontend Developer
+  title: UX/UI Engineer
   description: \"Joshua\" has a degree in computer science and mathematics, and six years of professional experience in web development. He likes decentralized, permissionless systems, teaching, learning, board games, the internet, and the Oxford comma.
   image: joshua.png
   email: joshua@seigler.net
@@ -267,7 +243,7 @@
     - Development
 
 - name: Suba Radhakrishnan
-  title:
+  title: UX/UI Engineer
   description:
   image: SubaRadhakrishnan.png
   email: suba.radhakrishnan@dash.org
