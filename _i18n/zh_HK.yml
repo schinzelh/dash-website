@@ -1,0 +1,874 @@
+zh_HK:
+  pages:
+    merch:
+      title: 達世幣商品
+      description: 從我們的合作夥伴購買我們的商品
+      hero-heading: 我們的商品
+      hero-text: |
+          HODL 現在是達世幣的官方商品合作夥伴。請到這裡訪問他們 <a href='https://alwayshodl.com/' target='_blank'>www.alwayshodl.com</a>
+      disclaimer-text: |
+          <a href='https://alwayshodl.com/' target='_blank'>alwayshodl.com</a> 是一家獨立的商品店，Dash.org對訂單，準時交貨等不會負上任何責任
+    school:
+      title: 達世幣學堂
+      description: 達世幣，如何去?
+      hero-heading: 達世幣學堂
+      hero-text: |
+          由 Amanda B. Johnson
+      hero-btn: 立即觀看
+      hero-you-btn: YouTube
+      header-video-1: |
+          什麼是區塊鏈? | DASH學堂＃1
+      description-video-1: |
+          也許你在經濟學人的封面上看到了這個詞。 也許你已經看到它在彭博，雅虎財經甚至連線上面。 無論你在哪裡聽到，它可能都沒有向你解釋得很好。 讓Amanda B. Johnson在達世幣學堂向你介紹這個概念，而不使用技術用語或時髦術語來解釋。
+      header-video-2: |
+          區塊鏈如何運作? | DASH學堂 #2
+      description-video-2: |
+          現在你已經掌握了區塊鏈的基礎知識 - 但它是如何做到我們所說的呢?誰可以“寫入”它，在何時以及為什麼?區塊鏈與一個舊式的數據庫有什麼不同? Amanda B. Johnson 將會在第2集達世幣學堂解釋以上的東西。
+      header-video-3: |
+          區塊鏈如何成為貨幣系統? | 達世幣學堂 #3
+      description-video-3: |
+          您現在了解區塊鏈的基本知識以及它的功能了 - 但是這與金錢有什麼關係呢?這個區塊鏈網絡如何能夠成為提供貨幣和付款的業務是什麼呢? Amanda B. Johnson 將會在第3集達世幣學堂解釋上述的東西。
+      header-video-4: |
+          達世幣的區塊鏈如何資助和管理呢? | 達世幣學堂 #4
+      description-video-4: |
+          現在您已掌握區塊鍊網絡如何提供貨幣服務，了解達世幣組織的各種方式 -- 我們為什麼以及如何作為 DAO (decentralized autonomous organization) 向客戶提供貨幣服務。Amanda B. Johnson 在第四集的達世幣學堂將帶你了解這些。
+      header-video-5: |
+          達世幣如何提供即時和私人的付款功能呢? | 達世幣學堂 #5
+      description-video-5: |
+          你知道達世幣的區塊鍊是唯一一個提供即時和私人付款功能的區塊鏈嗎? 真實的故事。在第五集的達世幣學堂了將由主持Amanda B. Johnson帶我們了解獨特的“主節點”如何實現這個功能。
+      header-video-6: |
+          數字現金如何讓所有人都能夠使用它呢? | 達世幣學堂 #6
+      description-video-6: |
+          您已經了解了達世幣的工作原理 -- 現在您想知道我們如何計劃將這些東西普及至一般消費者吧。 很高興你會問這個問題！第六集也是最後一集由Amanda B. Johnson主持的達世幣學堂將會介紹"Evolution": 我們預計這樣的產品將首次將數字現金推廣到普通人手中。
+      school-about-heading: >
+          關於: 達世幣透視
+      school-descr: >
+          達世幣: 透視由2016年6月推開始播放，並於每週三發布。
+      school-text: >
+          由Amanda B. Johnson主持並由Pete Eyre製作，該系列的視頻是按照主節點持有者的意願投票後，再經由達世幣的預算系統直接資助，使其成為世界上第一個由區塊鏈資助的Youtube節目。通過事件分析，產品更新和行業訪談，達世幣
+          : 透視 適用於經驗豐富的投資者和新人。
+      school-team-heading: >
+          達世幣透視的團隊
+    legal:
+      title: 法律如何適用於達世幣
+      description: 下載錢包並在交易所購買達世幣.
+      hero-heading: 法律如何適用於達世幣
+      hero-text: 達世幣去中心化自治組織致力於推廣, 防護, 以及標準化達世幣項目. 在我們的發展過程中接受了來自美國法律的對於達世幣各個方面的審查. 本文檔的目的在於強調最常見的審查, 以及詮釋我們認為法律如何適用於達世幣. 這並不等於法律意見書, 所以請在使用前諮詢您的律師. 這裡強調了我們在法律中的位置, 以及如何正確看待相關法律.
+      hero-tax-btn: 稅收待遇
+      hero-compliance-btn: 法幣 - 達世幣
+      сogent-heading: >
+          權威法律證書:
+      criminally-heading: 主節點營運者是否要對其幫助網路交易承擔刑事責任?
+      criminally-text: |
+          需要做法律研究的一點是指促成達世幣法幣交易要遵循怎樣的法律規定. 例如設立達世幣ATM或者使用其他商家的個人達世幣法幣兌換服務時.
+      criminally-btn: 法幣 - 達世幣 / ATM
+      treatment-heading: 達世幣主節點營運者的稅收待遇?
+      treatment-text: >
+          區塊獎勵 / 挖達世幣 / 資本收益 / 主要責任 / 次要責任 / .... 我們會在此作答
+      treatment-text-hero: 主節點營運者如何遵從美國稅法?
+      treatment-btn: 完整列表
+      treatment-masternode-heading: 主節點的稅收待遇
+      vitrtual-kiosk-heading: 使用虛擬貨幣的快速教學
+      learn-more-btn: 了解更多
+      audio-heading: 語音指南
+      audio-text: 將本地法幣轉換成達世幣後發送到您的個人錢包
+      audio-text-btn: 購買達世幣
+      report-heading: 通過一些報告進行了解
+      report-heading-btn: 了解更多
+      docs-heading: 通過文獻資料進行了解
+      docs-heading-btn: 了解更多
+      atm-heading: 通過ATM購買達世幣
+      atm-text: 在您的國家通過ATM即時購買達世幣
+      atm-btn: ATM 定位
+      shop-heading: 直接使用達世幣購物
+      shop-text: 直接通過您的達世幣錢包, 即時匿名地線上購物
+      shop-btn: 更多商家
+      visa-stores: 支持visa卡的商家
+      visa-text: 達世幣-Visa借記卡不收取跨境手續費, 支持移動端點擊支付
+      visa-btn: 獲得Shake卡
+    exchanges:
+      title: 交易所
+      description: 在這些交易所代理商購買達世幣
+      hero-heading: 交易所列表
+      hero-text: |
+          此列表包括了所有已知的達世幣交易所(按字母先後排序), 也包括了那些交易量較低的. <a href='https://coinmarketcap.com/currencies/dash/#markets' target='_blank'>查看交易數據</a> 獲得更多資訊.
+      hero-btn: 整合達世幣
+      hero-getlisted-btn: 加入列表
+      disclaimer-text: >
+          免責聲明: 此列表僅供參考使用. 這些服務商並未被達世幣開發團隊測試或認可, 不保證參考資訊的準確性. 請自行判斷, 酌情使用第三方服務.
+    404-page:
+      hero-heading: >
+          404
+      hero-text: 網頁未找到
+      hero-forum-btn: 官方論壇
+      hero-discussion-btn: 討論
+      hero-social-btn: 社交Apps
+      hero-news-btn: 新聞 &amp; 資訊
+      hero-development-btn: 開發
+      hero-masternodes-btn: 主節點
+      hero-video-btn: 影片 &amp; 語音
+    mining:
+      title: 達世幣官方網站 | 達世幣 加密數字貨幣
+      hero-heading: 挖礦
+      hero-text: |
+          達世幣的基礎是它的區塊鏈, 也就是記錄所有交易的分佈式賬本. 區塊鏈的安全來自 它的共識機制, 稱為“工作量證明” (PoW).
+
+          進行這種“挖礦”, 人們使用特定的計算設備去解決極其困難的數學難題. 若成功解開, 他們便獲得了寫入新區塊的資格.
+
+          一旦網路驗證這個數學難題已被解決, 新的區塊被添加到區塊鏈的同時, 礦工會得到達世幣作為工作回報.
+      hero-how-to-btn: 如何開始
+      hero-asic-btn: ASIC 硬體
+      hero-guides-btn: 教學
+      pools-heading: 礦池
+      pools-text: |
+          免責聲明: 此列表僅供參考使用. 這些服務商並未被達世幣開發團隊測試或認可, 不保證參考資訊的準確性. 請自行判斷, 酌情使用第三方服務. 如果您也想加入此列表, 請聯繫我們<a href='mailto:contact@dash.org'>contact@dash.org</a>
+      pools-masternode-btn: 挖礦 vs. 主節點
+      pools-masternode-text: |
+          達世幣, 如比特幣和其他大多數數字加密貨幣一樣, 基於記錄所有交易的分佈式賬本, 也就是被熟知的區塊鏈. 這個區塊鏈的安全來自一種共識機制; 以達世幣和比特幣為例, 這種共識機制稱為工作量證明(PoW). 礦工嘗試通過特定的計算設備解決複雜的數學難題. 當他們成功解決後, 他們就獲得了添加新區塊的權力. 若其他所有使用同樣軟體進行挖礦的人同意問題已經成功被解決, 那麼新的區塊會被添加到區塊鏈中, 並且礦工會得到一定獎勵.
+      how-start-heading: 如何開始挖礦
+      asic-heading: ASIC 挖礦設備
+      asic-text: >
+          特定計算設備被稱為專用集成電路 (ASICs), 它被用來以最高效的方式解決達世幣的工作量證明問題. 當前市場上的達世幣ASICs包括:
+      asic-pinidea-btn: ASIC Pinidea X11 Miner DR-1
+      asic-pinidea-usb-btn: ASIC Pinidea X11 USB DU-1
+      asic-ibelink-miner: ASIC iBeLink DM384M X11
+      asic-baikal-mini-miner: ASIC X11 Baikal Mini Miner
+      asic-baikal-miner: ASIC Baikal A900 X11
+      asic-all-btn: ASIC 挖礦
+      cpu-gpu-heading: 教學 (CPU / GPU)
+      cpu-gpu-text: >
+          請注意- CPU / GPU 挖礦效率已經非常低了. 這是相當簡單的程序, 它讓您的CPU盡可能達到最高的算力, 但請記住更為優化的軟體是可能出現的,
+          所以建議您留意挖礦網站的相關資訊, 以便保持更新.
+      cpu-mining-btn: CPU 挖礦
+      sg-miner-btn: SGminer / 顯卡
+      pools-stat-heading: 礦池數據
+      amd-mining-btn: Windows端的AMD顯卡
+      description-text-hero: >
+          在去中心化項目中進行管理是非常困難的, 因為去中心化的定義是沒有中央集權來為項目做決定. 在達世幣項目中, 所有的決定來自於主節點網路, 也就是說,
+          來自主節點持有者. DGBB系統允許主節點 投票贊成或反對提案, 從而(不)被達世幣開發者執行. 一個很好的例子, 比如2016年初, 當達世幣核心團隊向網路提交了一份提案,
+          詢問區塊大小是否有必要增加至2MB. 在24小時以內, 共識達成, 同意進行這項更改. 與比特幣相比, 它的擴容爭吵已經持續了近三年.
+      description: >
+          DGBB系統也為達世幣提供自己的發展資金. 當其他項目還要依賴捐贈或預挖資金, 達世幣使用其10%的區塊獎勵來資助它自身的開發. 每當一個區塊被挖取,
+          45%的獎勵分給礦工, 45%分給主節點, 剩下的10%直到月底才被創建. 在這一個月期間, 任何人都可以向網路進行提交預算提案. 如果該提案被至少10%的主節點網路同意,
+          那麼在該月末會有一系列的"超級塊"被創建. 這時, 所有沒有被分配的區塊獎勵 (每個區塊中的10%) 將用來資助獲准的提案. 如此, 網路就可以資助自身
+          通過使用這10%的區塊獎勵資助各個項目.
+      governance-meaning: 什麼是管理 它對達世幣有什麼意義
+      voting-header: 如何投票
+      voting-automatic: 如何投票
+      voting-automatic-text: >
+          主節點對提案進行投票的方法有幾種. 請查詢各說明方法下方的連結.
+      voting-guide-btn: 教學 - Amanda B.
+      voting-manual-btn: 手動投票 (QT Wallet)
+      voting-central-btn: DashCentral
+      voting-tools: 管理工具
+      voting-tools-text: >
+          達世幣社區創建了幾種不同的工具來監測預算過程並輔助投票. 達世幣核心團隊發布了提案產生工具來幫助向網路上傳提案..
+      generator-link: 預算提案產生器
+      dashcentral-link: 達世中心
+      votetracker-link: 投票追踪
+      budget-monitoring-link: 預算監測
+      proposal-status-link: 提案狀態
+      proposal-service: 自動提案服務
+    masternodes:
+      title: 達世幣官方網站 | 達世幣加密數字貨幣
+      description: 達世幣是數字貨幣
+      hero-heading: 主節點
+      hero-text: 主節點是運行達世幣錢包並提供特殊服務的伺服器, 如為即時到帳鎖定交易, 協同混幣, 為預算提案投票等.
+      hero-what-btn: 什麼是主節點
+      hero-how-btn: 如何架設主節點
+      hero-network-btn: 主節點網路
+      hero-masternode-mining-btn: 主節點 vs 挖礦
+      marsternode-text: 主節點需要擁有1000個達世幣作為抵押, 獨立IP地址, 24小時在線且離線時間不能超過1小時. 每個區塊獎勵中的45%會在一定時間分配給所有主節點. 通常來說, 一個主節點每7天會獲得2個左右的達世幣.
+      what-heading: 什麼是主節點?
+      earn-heading: 主節點收益
+      earn-text: |
+          主節點的架設需要投入財力和精力, 所以一部分區塊獎勵用作對他們的激勵獎賞. 根據當前主節點數量和獎勵值, 2016年一個主節點的回報率大約是1000個幣的11%. 這個收益比會逐年降低, 但是隨著達世幣價值的增加, 供應量的減小, 架設主節點的收益仍然是非常可觀的.
+
+          這預測不包含一些用戶通過主節點使用一些服務所要繳納的手續費(即時到帳和匿名發送).
+      what-hero-heading: 什麼是主節點?
+      instantiend-text: 即時到帳 (即時交易). 與此對比, 比特幣需要10分鐘進行交易確認.
+      private-send-text: (匿名交易). 與此對比, 比特幣的交易是公開且可追踪的. 匿名的僅僅是錢包地址的主人身份.
+      governance-text: (主節點管理系統, 通過區塊獎勵資助自身發展). 與此對比, 比特幣被幾大礦工所管理, 其發展資金也來自帶有利益目的的第三方中心化機構.
+      evolution-text: 一個去中心化的付款處理商 (可想作去中心化的Paypal).
+      host-heading: 架設主節點
+      host-text: |
+          1000 達世幣: 無疑這是最難的一項. 達世幣可以通過如Poloniex, Bittrex這樣的交易所購買, 或者Shapeshift這樣的服務商兌換獲得. 完整列表請點擊這裡.
+
+          安裝有Linux系統的伺服器或VPS: 為了本教學的目的, 我們需要使用Ubuntu 14.04 LTS. 我們推薦較為實惠的VPS供應商, 如Vultr和DigitalOcean, 當然其他正規供應商也可以. 通常可以選擇價格相對低廉的. 我使用的是Vultr上5美元的VPS, 它們也工作正常.
+
+          獨立IP地址: 它一般綁定VPS / 伺服器.
+
+          一點時間: 當我第一次架設主節點時, 只有幾種教學, 並且並沒有涵蓋所有方面. 那次花費了我幾天的時間來找出最優的架設方法. 但是, 現在僅需要一些時間就可以. 以下是幾種教學, 我希望它能使得架設更為簡單.
+
+          如果你不想自己為架設和維護主節點而煩惱, 不介意付一點額外費用的話, 你可以使用一些架設服務, 它們會大為簡化架設步驟. 可以在這裡找到一些不錯的架設服務商.
+      host-btn: 啟動主節點
+      hosting-services: 主節點架設服務
+      hosting-services-text: |
+          這裡有許多非信任制的架設服務可供使用. 這些服務僅提供VPS及伺服器環境搭建, 錢包和幣仍在您的手中(無需發送給別人).
+
+          主節點共享服務也可以使沒有1000個達世幣的用戶架設主節點 (多用戶共同架設1個主節點)
+      hosting-services-btn: 主節點架設服務
+      p2p-text: |
+          得益於獎勵機制, 達世幣自2014年發布以來, 已成長為擁有超過4,100個主節點伺服器的網路, 意味著達世幣網路是全球最大的點對點網路之一.
+          更多的節點帶來更安全的服務, 同時能支持更多來自全球用戶7*24小時接入數字貨幣.
+
+          得益於獎勵機制, 達世幣自2014年發布以來, 已成長為擁有超過4,100個主節點伺服器的網路, 意味著達世幣網路是全球最大的點對點網路之一.
+          更多的節點帶來更安全的服務, 同時能支持更多來自全球用戶7*24小時接入數字貨幣.
+      p2p-btn: 網路狀態
+    buy:
+      title: 達世幣官方網站 | 達世幣 加密數字貨幣
+      description: 達世幣是數字貨幣
+      hero-heading: 如何購買達世幣
+      hero-text: 線上交易所購買達世幣簡易教學
+      exchanges-btn: 通過法幣購買
+      brokers-btn: 通過加密貨幣購買
+      otc-btn: 場外交易
+      local-btn: 本地市場
+      exchanges-heading: 交易所
+      brokers-heading: 代理商
+      otc-heading: 場外交易
+      dashous-text: 如何使用
+      woc-text: 如何使用 Wall of Coins
+      local-heading: 本地市場
+    governance:
+      title: 達世幣官方網站 | 達世幣 加密數字貨幣
+      hero-heading: 去中心化管理系統
+      hero-text: >
+          通過區塊鏈的去中心化管理系統, 也稱為DGBB, 是達世幣嘗試解決加密數字貨幣兩大重要難題的方法: 管理和資金.
+      hero-how-to-btn: 什麼是DGBB
+      hero-tools-btn: 工具
+      description-text-hero: >
+          在去中心化項目中進行管理是非常困難的, 因為去中心化的定義是沒有中央集權來為項目做決定. 在達世幣項目中, 所有的決定來自於主節點網路, 也就是說,
+          來自主節點持有者. DGBB系統允許主節點 投票贊成或反對提案, 從而(不)被達世幣開發者執行. 一個很好的例子, 比如2016年初, 當達世幣核心團隊向網路提交了一份提案,
+          詢問區塊大小是否有必要增加至2MB. 在24小時以內, 共識達成, 同意進行這項更改. 與比特幣相比, 它的擴容爭吵已經持續了近三年.
+      description: >
+          DGBB系統也為達世幣提供自己的發展資金. 當其他項目還要依賴捐贈或預挖資金, 達世幣使用其10%的區塊獎勵來資助它自身的開發. 每當一個區塊被挖取,
+          45%的獎勵分給礦工, 45%分給主節點, 剩下的10%直到月底才被創建. 在這一個月期間, 任何人都可以向網路進行提交預算提案. 如果該提案被至少10%的主節點網路同意,
+          那麼在該月末會有一系列的"超級塊"被創建. 這時, 所有沒有被分配的區塊獎勵 (每個區塊中的10%) 將用來資助獲准的提案. 如此, 網路就可以資助自身
+          通過使用這10%的區塊獎勵資助各個項目.
+      governance-meaning: 什麼是管理及它對於達世幣的意義
+      voting-header: 如何投票
+      voting-automatic: 自動投票
+      voting-automatic-text: >
+          打造虛擬貨幣平台最大的挑戰在於確保你創造了一種去中心化的管理系統進行管理, 資助, 維護以及擴張項目. 而這一項要素是現在所有虛擬貨幣所沒有的,
+          折衷的辦法是創辦一個非營利的 基金會用於維護核心協議並進行項目推廣, 但是這種方式卻脫離了與該虛擬幣持有者們的聯繫. 這種方法存在的問題已經在一些相對老舊的虛擬貨幣平台中有所提現.
+      voting-guide-btn: 教學 - Amanda B.
+      voting-manual-btn: 手動投票 (QT Wallet)
+      voting-central-btn: DashCentral
+      voting-tools: 管理工具
+      voting-tools-text: >
+          此系統如同軟體內建的去中心化投票系統, 可以根據具體項目提出相應的預算提案, 之後主節點持有者們可以在一定時間內對其進行投票. 若這些提案通過,
+          便會增加到下一回的總預算中, 並且由區塊鏈直接進行支付 到個人手中進行相關工作. 通過這種方法, 我們可以招募核心開發者, 在去中心化同意共識達成後直接為他們支付酬勞.
+      generator-link: 預算提案產生器
+      dashcentral-link: DashCentral
+      votetracker-link: 投票追踪
+      budget-monitoring-link: 預算監測
+      proposal-status-link: 提案狀態
+      proposal-service: 自動提案服務
+    woocommerce:
+      title: 達世幣官網 | 達世幣加密數字貨幣
+      description: 達世幣是一種數字貨幣
+      hero-heading: WooCommerce
+      hero-text: 啟用達世幣的WooCommerce
+      hero-btn: Github報告
+      hero-btn-download: 壓縮檔下載
+      hero-description: 請確保您的網站滿足
+      hero-description-link: 技術要求
+      plugin-heading: >
+          什麼是WooCommerce
+      plugin-text: WooCommerce是一個免費的電子商務外掛. 它可以幫助用戶出色地完成各種產品的銷售任務. 它可以和WordPress無縫對接, 並賦予商家和開發人員完全的自主權, 是全球最棒的一個電子商務平台.
+      feature-private-heading: 隱私性
+      feature-private-text: 保護您財務資訊的隱私性. 匿名發送功能確保您的理財活動記錄和財務餘額資訊的隱私性.
+      feature-instant-heading: 即時性
+      feature-instant-text: 珍惜您寶貴的時間. 即時到帳功能可在一秒之內確認支付.
+      feature-secure-heading: 安全性
+      feature-secure-text: 具備可靠的安全性. 交易經由擁有1,000G算力、X11專用集成電路的計算機計算, 並且在全球共有超過4100台伺服器.
+      video-btn: Woocommerce影片簡介
+      install-heading: WordPress外掛安裝
+      install-btn: 更多資訊
+      how-heading: 手動安裝
+      how-text: >
+          幾種情況下手動安裝WordPress外掛更為穩妥：
+
+          如果您想要把握該外掛的替換或安裝進程；
+
+          如果您的伺服器不支持該外掛的自動安裝；
+
+          該外掛並不在WordPress外掛目錄中.
+
+          手動安裝WordPress外掛要求了解FTP. 此外, 您還需要知道, 如果您通過不可靠的資源下載了與當前版本不兼容的外掛, 那麼您的網站將承擔一定風險.
+
+          因此, 請在安裝前備份好您的網站.
+
+
+
+          將WordPress外掛下載到您的桌面. 如果您下載的是壓縮包, 請解壓到桌面. 仔細閱讀readme文件, 確保您按指示步驟操作. 借助您的FTP程序,
+          將外掛文件上傳到WordPress在線目錄的wp-content/plugins文件夾.
+      how-text-plugin: 訪問外掛頁面並找到列表中新上傳的外掛文件. 點擊Activate按鈕將它啟用. 閱讀Details readme 文件, 獲取自定義安裝教學和其他指示.
+      how-text-link: 獲取外掛
+      how-install-link: 安裝外掛
+    graphics:
+      title: 達世幣官網 | 達世幣加密數字貨幣
+      description: 達世幣是一種數字貨幣
+      hero-heading: 宣傳圖片
+      hero-text: 達世幣Evolution創造了業內首個無需借助第三方, 用戶即可通過網頁或移動終端進行操作的加密數字貨幣. 這些圖標可用於在線服務、零售商店、新聞發布或其他宣傳用途.
+      licence: 達世幣的徽標和字標已獲得知識共享協議-相同方式共享4.0協議國際認證.
+      licence-link-text: 知識共享協議-相同方式共享4.0協議國際認證
+      licence-link: https://creativecommons.org/licenses/by-sa/4.0/
+      logos-header: "標誌和圖示"
+      merchants-header: 商家按鈕
+      dontaion-header: 捐贈按鈕
+      community-header: 社群
+      indent-header: 達世幣視覺識別
+      color-header: 色彩設計
+      color-text: 我們向您推薦以下使用教學, 以維護達世幣品牌設計美學
+      typography-header: 平面設計
+      typography-text: 我們向您推薦以下使用教學, 以維護達世幣品牌設計美學
+      download-link: 矢量圖形 (zip)
+      icons: 圖標
+      print-or-screens: 用於打印或屏幕
+      disclaimer-text: 達世幣目前正在將此網站和所有其他資產調整為最近由網絡批准的新視覺標識。 請使用下面的資源和样式指南來替換舊的圖示。
+      download-style-guide: 風格指南
+      download-all-resources: 所有資源
+      logos: 商標
+    evolution:
+      title: 達世幣官網 | 達世幣加密數字貨幣
+      description: 達世幣是一種數字貨幣
+      hero-heading: 達世幣EVOLUTION
+      hero-text: 未來支付方式驚鴻一瞥
+      hero-btn: 更多資訊
+      hero-roadmap-btn: 路線圖
+      video-heading: 使命
+      video-text: Evolution致力於打造非技術精英也能操作的簡便易用的數字貨幣. 任何人都能在區塊鏈上設立帳戶, 創建聯繫人, 並以名字為準向他們支付資金. 通過網頁或手機進行的支付將非常簡單, 您需要做的僅僅是一次點擊.
+      prototype-video-1: 原型視頻1
+      prototype-video-2: 原型視頻2
+      video-btn2: 錢包概述
+      sentinel-btn: 哨兵系統
+      evo-prototype-heading: 輕錢包
+      evo-prototype-text: Evolution將推出一款新型的輕錢包. 它同時具備SPV安全性和瀏覽器兼容性, 同時它還連接著我們四千多個節點組成的P2P網路.
+      evo-prototype-btn: 達世幣雛形
+      slack-btn: Slack工具
+      forum-btn: 達世幣論壇
+      component-heading: 組成部分
+      component-text: >
+          下列是我們當前關於Evolution的工作, 它為我們新增了許多新特色：
+      docs-heading: 易於讓消費者使用
+      docs-text: 通過Evolution, 您可以直接與商家溝通, 購買他們的商品或服務, 也可以啟動自動扣款的訂閱支付服務. 您可以在區塊鏈上檢索到任何與達世幣達成合作關係的商家, 並對他們進行信用評級, 以便整個社區了解他們的商品和服務品質.
+      docs-btn: 更多資訊
+      docs-link: /forum/threads/january-2017-budget-report.12601/
+      update-heading: E​​VOLUTION更新
+      update-text: 'Evolution的首席研究人員Andy Freer正投身於海量文獻的撰寫, 以便向人們介紹Evolution的各種概念. 在此之前, 我和他進行了長達數月的商討, 研究Evolution的各個組成部分將怎樣運行, 構思並優化各個組成部分, 並將它們構成有機的系統.
+
+        從最初的研究階段開始, 我們就撰寫了大量的文獻資料、技術規範、規劃和圖表. 它們將匯成一個囊括Evolution從設計到執行的全部文獻資料的維基資料庫.'
+      proposal-btn: 提案
+      proposal-submit-btn: 提交提案
+      prototype-heading: EVOLUTION ALPHA
+      prototype-text: 現在達世幣12.2的版本已經發布了，我們的下一步將是在2018年中期發布一個alpha版本的Evolution。我們將在此之前發布其他相關的資料，包括完整的白皮書，因此請密切關注此處的更新。 敬請期待!
+      prototype-btn: 網路數據
+      explore-heading: 探索達世幣
+      explore-text: '探索達世幣Evolution原型的一切特色功能, 包括註冊、帳戶啟用、登錄、交友、支付名單和以達世幣支付等等.
+
+
+        從最初的研究階段開始, 我們就撰寫了大量的文獻資料、技術規範、規劃和圖表. 它們將匯成一個囊括Evolution從設計到執行的全部文獻資料的維基資料庫.'
+      subscribe-btn: 訂閱新聞
+      follow-soc-btn: 關注推特動向
+      merchants-heading: 易於讓商戶使用
+      merchants-text: '您可以通過簡單的去中心化應用程式介面, 在幾分鐘內為網頁或手機應用增添達世幣支付功能.
+
+        您無需依賴複雜的設備或第三方來處理顧客的支付. 您需要做的只是通過區塊鏈建立與客戶的直接聯繫.'
+      merchants-btn: 商家專用
+      merchants-plugin-btn: Woocommerce外掛
+      social-heading: 達世幣社交
+      social-text: >
+          您只需創建一個帳戶, 即可隨時隨地、安全地通過各種設備登錄達世幣網路. 並且, 您還可以邀請親友進行互動, 以他們的名字為準完成彼此間的支付.
+
+          您可以追溯與聯繫人之間的支付記錄, 分享支付詳情. 就像清空瀏覽記錄一樣, 您也可以隨時清空交易歷史, 以此保證資訊的安全和隱秘性.
+      social-btn: 預算
+      social-link: https://www.dashcentral.org/budget
+    update:
+      title: 達世幣官網 | 達世幣加密數字貨幣
+      description: 達世幣是一種數字貨幣
+      hero-heading: 12.1版本更新
+      hero-text: 我們正在達世幣網路上發行一款新的軟體, 包括一般用戶、礦池主和主節點持有人在內的所有用戶都需要進行升級. 所有的預算提案都必須重新向系統提交. 注意：升級期間將暫停預算支付, 因此, 沒有完成升級的主節點將不會得到返利.
+      hero-btn: >
+          Launch date: 2017年2月5日
+      video-heading: Dash Core發展概況
+      video-text: 達世幣的前沿發展是Dash Core. 除了運行現有的網路之外, 它還支撐著Evolution的開發.
+      video-btn: 影片簡介
+      merchants-heading: 請瀏覽強制升級的相關詳情
+      merchants-text: 所有礦工、礦池、錢包、交易中心、商家等等都必須完成更新.
+      merchants-btn: 礦池
+      masternodes-btn: 主節點
+      exchanges-btn: 交易所
+      proposal-heading: 提案自助服務
+      execution-heading: 什麼是Evolution
+      execution-text: Evolution將摒棄加密數字貨幣操作的複雜繁瑣, 使達世幣支付變得尤為簡便. 它既實現了PayPal的操作簡易性, 卻又比PayPal多了兩個優勢——完全的去中心化和支付不收取手續費用.
+      execution-btn: 更多資訊
+      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      update-heading: Sentinel
+      update-text: 全能型的達世幣開發工具 達世幣新的Sentinel技術為Evolution提供了驅動力. 它具備極其強大的功能和極高的靈活性, 使得網路更新更加簡單易行. 此外, 在經過個性化設計後, 它還能被開發成適用於網路的各種新型應用. 舉個例子, 您可以通過Sentinel建立數字技術公司.
+      proposal-btn: 提案列表
+      proposal-submit-btn: 提交提案
+      evolution-research-heading: E​​VOLUTION研發
+      evolution-research-text: '2016年1月, 我們發行了基於輕錢包的Evolution早期模型. 從那時起, 我們一直致力於文獻資料的編撰, 此外, 我們還全面地概述了設計目標, 並著手將它們付諸實踐.
+
+        這款早期模型只具備一些基礎功能, 例如用戶只能向少數好友支付達世幣, 以及用戶數據被存儲到簡易伺服器中. 不過, 它至少對達世幣的概念進行了驗證. 我們當時的目標是設計並創造一個模型, 將所有的關鍵技術融入其中, 並最終以P2P網路的形式實現下列功能：將數據存儲到達世幣區塊鏈上並允許用戶通過任何設備隨時隨地獲取數據；以集成SPV為基礎提供安全操作而無需借助第三方的幫助；以及, 通過使用安全超文本傳輸協議規避審查.'
+      evolution-research-btn: 網路數據
+      launching-heading: 發佈日期
+      launching-text: >
+          發行新的軟體版本意味著必須重新提交網路上所有的現行提案.
+
+          考慮到超級塊的時間安排, 我們距離原定月初的新版本發行已經不遠了. 為了使新版本具備盡可能高的穩定性, 同時不影響預算系統, 我們將12.1版本的發行時間延遲到了2月份,
+          具體時間是2017年2月5日.
+      launching-btn: 預算
+      launching-link: https://www.dashcentral.org/budget
+    wallets:
+      title: 達世幣錢包
+      description: 為您的平台安裝適用的達世幣錢包
+      hero-heading: 獲取達世幣錢包
+      hero-image: get-dash-n.jpg
+      hero-wallets-btn: 錢包
+      hero-guide-btn: 教學
+      hero-security-btn: 安全
+      hero-text: 錢包是用於發送、接收和儲存達世幣的軟體. 錢包操作簡單, 您還可以通過匿名發送功能實現匿名支付.
+      wallets-desktop-header: 桌面錢包
+      wallets-desktop-subtitle: 桌面錢包提供多樣化的功能和安全性.
+      wallets-desktop-latest: >
+          最新消息: 2018年7月3日
+      wallets-desktop-current-version: v0.12.3.1
+      wallets-mobile-header: 流動錢包
+      wallets-mobile-subtitle: 達世幣流動錢包通過手機或平板電腦等移動設備進行操作, 它提供多樣化的功能和安全性.
+      wallets-hardware-header: 硬體錢包
+      wallets-hardware-subtitle: 硬體錢包是一種安全的設備, 它能保護您的達世幣資產不受黑客和竊賊的侵擾. 它藉助您在電腦上安裝的錢包軟體運行, 可接管私鑰產生和保管, 以及交易簽署.
+      wallets-paper-header: 紙錢包
+      wallets-paper-subtitle: 紙錢包屬於冷錢包的一種, 其實質是一種不記名票券.
+      wallets-web-header: 網頁
+      wallets-web-subtitle: 網頁錢包。
+      wallets-security-header: 安全
+      wallets-security-subtitle: 請設置複雜難猜的密碼來保護您的錢包, 並把密碼安全地保存起來. 考慮到資金一旦失竊將無法尋回, 因此請加密您的錢包以及任何備份. 如果您使用的是紙錢包或Keepass這類硬體錢包, 請像保管常規錢包密碼一樣保管好您的“種子”. 它們是恢復錢包的唯一途徑. 如需保障密碼安全的相關資訊, 請訪問：
+      modal-platform: 平台
+      modal-header-vendor-label-descriptor: 達世幣錢包
+      modal-download-action-button-label: 下載
+      modal-source-code-view: 瀏覽
+      modal-source-code-label: 源代碼
+      modal-source-closed-label: 專利
+      modal-website-label: 網站
+      modal-control-label: 控制
+      modal-control-full: 這款錢包賦予您對所擁有的達世幣的全面控制, 並允許您驗證源代碼與二進位文件.
+      modal-control-semi: 這款錢包賦予您對所擁有的達世幣的全面控制, 前提是您能確保您下載的檔案不包含惡意代碼.
+      modal-validation-label: 確認
+      modal-validation-full: 完整的驗證流程無需確認支付的發送或接收情況, 不過, 這種最安全的模式所消耗的硬碟空間也最大.
+      modal-validation-spv: 簡化的驗證流程意味著您能以更低的時間成本確認支付的發送或接收情況.
+      modal-validation-hosted: 您需要依賴代理伺服器來確認支付的發送或接收情況.
+      modal-access-label: 訪問
+      modal-access-p2p: 提供對p2p網絡的直接訪問。 這是最不具審查限制的免費和去中心化式的訪問。
+      modal-access-multi: 您是透過單一中介網關來訪問達世幣p2p網絡的，但您可以選擇要使用的網關。
+      modal-access-vendor: 您是透過服務供應商的代理服務器來訪問達世幣p2p的網絡。
+      modal-core-minimum-reqs: 最低的版本要求
+      modal-core-header: 下載Dash Core
+      modal-electrum-header: 下載達世幣輕錢包
+      modal-win-core-description: Brief Description&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+      modal-win-core-security-key: 安全
+      modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
+      modal-win-core-source-code-key: 源代碼
+      modal-win-core-source-code-value: .&#40;link/ closed source&#41;
+      modal-core-users-text: 一般用戶
+      modal-core-users-value: 0.12.3.1
+      modal-core-masternode-text: 主節點營運者
+      modal-core-masternode-value: 0.12.3.1
+      modal-core-pool-text: 礦池營運者
+      modal-core-pool-value: 0.12.3.1
+    payments:
+      title: 達世幣付款處理商
+      hero-heading: 達世幣付款處理過程
+      hero-text: 簡單並快捷地添加達世幣為支付方法
+      payments-desc-header: 付款處理商
+      payments-providers-header: 付款處理商
+      modal-header-vendor-label-descriptor: 達世幣錢包
+      modal-download-action-button-label: 下載
+      modal-source-code-view: 檢視
+      modal-source-code-label: 源代碼
+      modal-source-closed-label: 專利
+      modal-website-label: 網站
+      modal-control-label: 控制
+      modal-control-full: 這款錢包賦予您對所擁有的達世幣的全面控制, 並允許您自行驗證源代碼與二進位文件.
+      modal-control-semi: 這款錢包賦予您對所擁有的達世幣的全面控制, 前提是您能確保您下載的檔案不包含惡意代碼
+      modal-validation-label: 驗證
+      modal-validation-full: 全面驗證的錢包，無需信任第三方發送或接收款項。 這是最安全的錢包，但使用最多的磁盤空間。
+      modal-validation-spv: 簡化的驗證，意味著您可以用最小的信任度來驗證款項的發送和接收。
+      modal-validation-hosted: 您需要信任供應商的服務器以了解付款是否已發送或已接收。
+      modal-access-label: 訪問
+      modal-access-p2p: 提供對p2p網絡的直接訪問。 這是最不具審查限制的免費和去中心化式的訪問。
+      modal-access-multi: 您是透過單一中介網關來訪問達世幣p2p網絡的，但您可以選擇要使用的網關。
+      modal-access-vendor: 您是透過服務供應商的代理服務器來訪問達世幣p2p的網絡。
+      modal-core-minimum-reqs: 最低的版本要求
+      modal-core-header: 下載達世幣核心
+      modal-electrum-header: 下載達世幣Electrum錢包
+      modal-win-core-description: Brief Description&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+      modal-win-core-security-key: 安全
+      modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
+      modal-win-core-source-code-key: 源代碼
+      modal-win-core-source-code-value: .&#40;link/ closed source&#41;
+      modal-core-users-text: 一般使用者
+      modal-core-users-value: 0.12.3.1
+      modal-core-masternode-text: 主節點營運者
+      modal-core-masternode-value: 0.12.3.1
+      modal-core-pool-text: 礦池運營者
+      modal-core-pool-value: 0.12.3.1
+      disclaimer-text: >
+          免責聲明 : 此列表僅供參考。 此處列出的服務尚未得到達世幣開發人員的評估或認可，也不保證此信息的準確性。 使用第三方服務時請謹慎行事
+    contact:
+      title: 聯繫達世幣團隊
+      description: 聯繫達世幣團隊
+      hero-heading: 聯繫
+      form-pretext: 請訪問DashTalk 或其他社區資源獲取技術支援, 以便解決關於錢包、挖礦等方面的問題.
+      form-pretext-2: 點擊此連結進行其他查詢
+      social-heading: "論壇 &amp; 社交媒體"
+      mail-list-heading: 郵件列表
+      mail-list-text: 無法及時取得達世幣新動向？加入我們的郵件列表吧！
+      social-text-heading: 訪問達世幣論壇
+      forum-btn: 訪問論壇
+      social-text: 請訪問達世幣論壇或其他社區資源獲取技術支援, 以便解決關於錢包、挖礦等方面的問題.
+      volunteer-heading: 志願者
+      join-btn: 加入
+    home:
+      title: 達世幣官網 | 達世幣加密數字貨幣
+      description: 達世幣是一種數字貨幣
+      hero-heading: 達世幣是一種數字貨幣
+      hero-text: 一個革命性的數字貨幣系統. <br />見證數字貨幣
+      video-heading: 達世幣是一種可線上操作的數字貨幣
+      video-text: 用戶可以使用達世幣進行安全的線上即時支付, 商家則可以為店內添加由全球千萬用戶所建立的開源支付平台.
+      video-btn: 預覽影片
+      video-link: https://www.youtube.com/watch?v=S0oNO3mbBE8
+      feature-private-heading: 隱私性
+      feature-private-text: 保護您的財務資訊. 匿名發送功能確保您的理財活動記錄和財務餘額資訊的隱私性.
+      feature-instant-heading: 即時性
+      feature-instant-text: 珍惜您寶貴的時間. 即時到帳功能可在一秒之內確認支付.
+      feature-secure-heading: 安全性
+      feature-secure-text: 具備可信賴的安全性. 交易經由擁有1,000G算力的X11 ASIC礦機以及全球超過4,100台的伺服器確認.
+      merchants-heading: 直接使用達世幣購物
+      merchants-text: 通過達世幣錢包進行即時、安全的交易
+      merchants-btn: 更多商家
+      merchants-link: https://discoverdash.com
+      merchants-join-btn: 成為加盟商家
+      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      architecture-heading: 下一代P2P網路
+      architecture-text: '達世幣核心由獨特的獎勵制P2P網路構成. 礦工們維護區塊鏈安全得到獎勵；而主節點持有者則是為用戶驗證交易、存儲數據以及提供多種服務而獲得獎勵.
+
+
+        主節點代表著新一層級的網路. 它們可組成高度安全的叢集– 仲裁鏈, 提供多種類的去中心化服務, 如即時交易、匿名性、去中心化管理等等, 同時它還可以防止低成本的網路攻擊.
+
+        '
+      architecture-btn: 更多資訊
+      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      governance-heading: 全球首個管理自主、資金自足的系統
+      governance-text: '每個人都有權直接向達世幣網路提案. 任何有助於達世幣發展的提案, 例如市場營銷和研發等等, 都可能獲得資金支持. 也就是說, 達世幣為自己的發展和應用推廣投資, 由此保證了網路共識的達成和網路用戶的可靠性.
+
+
+        請向網路送出提案, 為您的建議爭取資金支持. 如果您擁有主節點, 歡迎為提案投票！'
+      proposal-btn: 提案列表
+      proposal-submit-btn: 提交提案
+      network-growth-heading: 發展速度最快的網路
+      network-growth-text: '得益於達世幣的獎勵機制, 它的網路主節點自2014年發行以來已經增長到了4100個, 這意味著達世幣P2P網路已經成為全球最大的網路之一.
+
+
+        更多的節點意味著更高的安全性能, 達世幣能為更多來自全球各地的終端用戶提供全天候的數字貨幣服務.'
+      network-growth-btn: 網路數據
+      evolution-heading: 數字貨幣Evolution
+      evolution-text: 'Evolution還有什麼新動向？我們將通過它把達世幣打造成奶奶們都會用的加密數字貨幣.
+
+
+        達世幣Evolution可以幫助您通過任何設備登錄達世幣網路, 並輕而易舉地完成交易. 其方式類似於PayPal, 但是完全地去中心化. 敬請期待...'
+      evolution-btn: 更多資訊
+      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      news-heading: 最新消息
+      news-btn: 瀏覽所有新聞
+      get-started-heading: 開啟達世幣之旅
+      get-started-text: 下載錢包, 並開始使用達世幣！
+      get-started-btn: 了解達世幣
+    get-dash:
+      title: 了解達世幣
+      description: 下載錢包並通過交易所獲取達世幣
+      hero-image: get-dash-n.jpg
+      hero-heading: 下載達世幣錢包
+      hero-heading-text: |
+          你想要的任何時候都能買賣達世幣。
+          達世幣可以通過多種方式來獲取，持有及交易的
+      hero-text: |
+          第一次來這裡? 閱讀為新用戶準備的 <a href='https://docs.dash.org/en/latest/' target='_blank'>達世幣指南</a>
+      hero-wallet-version: 達世幣錢包 (Fullclient v12.0.56) 在 OSX 上使用
+      hero-wallet-version-select: 選擇其他
+      hero-platform-not-detected: "“非常抱歉！您的平台無法完成自動檢測. 請在‘各類錢包’中選擇兼容版本. ”"
+      hero-download-btn: 下載
+      hero-all-wallets-btn: 所有錢包
+      download-title: 下載錢包
+      download-text: 您的錢包是用於發送，接收和存儲達世幣的軟件。 它操作簡單，您還可以選擇使用在您的錢包中的匿名發送功能來實現匿名付款
+      all-wallets-btn: 所有錢包
+      buy-dash-title: 購買達世幣
+      buy-dash-info-text: 選擇您的偏好，我們將為您提供購買達世幣的最佳方法
+      dash-select-label: 我想用這個方式來買
+      dash-select-label-method: 使用
+      show-more-btn: 顯示更多
+      service-type: 服務類型
+      exchange-rate: 匯率
+      payments-method: 付款方式
+      buy-dash-preference-title: 選擇您的偏好，我們將為您提供購買達世幣的最佳方法
+      tooltip: |
+          請注意 : 這是目前市場上一個達世幣的價格。 它可以快速改變，我們無法保證您將以相同的價格購買達世幣。 價格不包括服務費和手續費。
+      buy-dash-table: 購買達世幣
+      guide-btn: 安裝指南
+      spend-btn: 使用達世幣
+      security-btn: 安全
+      otc-heading: 場外 <br />交易 (OTC)
+      otc-text: |
+          在交易所買入或賣出大量的達世幣可能導致價格下滑，從而導致買方或賣方獲得的價值低於預期。大買單推高價格，導致多付。相當大的賣單執行相反的操作，導致您賣出的Dash的價值減少。幸運的是，有“場外交易”或場外交易解決方案，供應商與買賣雙方配對，允許他們在交易所之外進行大額交易，免於出現價格大幅波動，公關或預算等問題。給你的好處是，你可以在當前的價格內獲得在任何交易所上交易所得的更多。 因此，您可以比其他方式更容易/更便宜地進入達世幣巿場。
+      otc-btn: 完整列表
+      exchanges-heading: 最大的交易所
+      full-list-btn: 完整的交易所列表
+      claim-heading: 購買、出售和交易達世幣
+      claim-subline: 通過多種方式獲取、持有和交易達世幣
+      setup-heading: 學習如何創建達世幣錢包
+      setup-btn: 更多資訊
+      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      buy-heading: 在線購買達世幣
+      buy-text: 用當地貨幣購買達世幣並存儲到錢包
+      buy-btn: 購買達世幣
+      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-heading: 通過交易所交易達世幣
+      trade-text: 通過交易所兌換當地貨幣
+      trade-btn: 達世幣交易
+      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      atm-heading: 通過ATM購買達世幣
+      atm-text: 通過ATM即可立刻在您的所在地進行達世幣交易
+      atm-btn: ATM定位器
+      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      shop-heading: 直接用達世幣來購物
+      shop-text: 通過達世幣錢包進行即時和隱私的線上購物
+      shop-btn: 更多商家
+      shop-link: https://discoverdash.com
+      shop-join-btn: 成為達世幣商家
+      visa-heading: 在visa卡商店購物
+      visa-text: '支持達世幣的visa借記卡無需支付交易手續費, 僅需在手機上點擊完成支付'
+      visa-btn: 通過Shake支付
+      visa-link: https://shakepay.co/#/
+      need-heading: 需要達世幣？
+      need-text: 到我們的論壇註冊並免費領取達世幣！
+      need-btn: 註冊來獲取達世幣
+      need-link: /forum/
+      need-input: 輸入電子郵件
+    merchants:
+      title: 商家
+      description: 在這些商家和服務上使用達世幣
+      hero-image: participate.jpg
+      hero-heading: 使用達世幣來購物
+      hero-text: 安全即時地向商家和服務商發送達世幣進行交易
+      hero-map-btn: 商家名錄
+      hero-integrate-btn: 整合達世幣
+      hero-getlisted-btn: 加入商家名錄
+      hero-woo-btn: WooCommerce
+      cards-heading: 借記卡
+      email-heading: 電郵供應商
+      vpn-heading: VPN供應商
+      hosting-heading: 託管及虛擬專用伺服器
+      business-heading: 商業服務 (市場營銷 / 網絡 / 平面設計)
+      gifts-heading: 禮券
+      games-heading: 遊戲
+      casinos-heading: 線上賭場
+      stores-heading: 網路商店
+      metals-heading: 貴金屬
+      bills-heading: 繳付帳單
+      payment-heading: 商家支付網關
+      prepaid-phone-heading: 重新加載預付費電話
+      cards-disclaimer: >
+          免責聲明 : 由於分發區域限制，請與卡提供商核實您所居住國家/地區是否在配送範圍內
+    participate:
+      title: 加入達世幣網路
+      description: 加入達世幣網路
+      hero-image: participate.jpg
+      hero-heading: 支持數字貨幣開發
+      hero-text: 支持、維護並促進達世幣網路的開發及安全, 並賺取達世幣
+      hero-masternodes-btn: 主節點
+      hero-mining-btn: 挖礦
+      hero-funding-btn: 資金支持
+      claim-heading: 支持達世幣網路
+      claim-subline: 任何人都可以為達世幣做出貢獻
+      masternode-heading: 架設主節點, 支持達世幣網路
+      masternode-text: 通過持有主節點或加入主節點共享服務來支持達世幣發展. 主節點營運者通過為用戶提供去中心化的服務獲得報酬.
+      masternode-btn: 架設主節點
+      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      mining-heading: 開始挖礦, 加強達世幣網路安全
+      mining-text: 通過電腦或專用設備挖取達世幣. 加強達世幣網路安全的礦機將獲得獎勵.
+      mining-btn: 開始挖礦
+      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      funding-heading: 借助區塊鏈資金發展達世幣網路
+      funding-text: 達世幣網路為獲准執行的提案提供每月資金支持, 扶持一系列達世幣開發相關的方案, 例如聘用開發人員、制定發展決策、將達世幣支付方式推廣到更多網路商店或實體零售店等等.
+      funding-btn: 提交提案
+      funding-link: https://dashcentral.org/
+      integrate-heading: 你願意接受達世幣嗎？
+      integrate-text: 為您的網路商店、應用和零售商店加入達世幣即時、匿名支付功能
+      integrate-btn: 整合達世幣
+      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-btn: 付款處理商
+      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-contact-btn: 聯繫我們的團隊
+    currency:
+      title: 達世幣網路
+      description: 達世幣貨幣
+      hero-image: currency.jpg
+      hero-heading: 網路狀態
+      hero-text: 最新的達世幣交易、預算資金、主節點、和區塊鏈動態數據
+      hero-markets-btn: 交易數據
+      hero-governance-btn: 預算資金
+      hero-network-btn: 主節點
+      hero-blockchain-btn: 區塊鏈
+      hero-mining-btn: 挖礦
+      markets-heading: 交易數據
+      governance-heading: 預算資金
+      network-heading: 主節點
+      blockchain-heading: 區塊鏈
+      mining-heading: 挖礦
+      mining-guide-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
+    community:
+      title: 加入達世幣社群
+      description: 加入達世幣社群
+      hero-image: community.jpg
+      hero-heading: 加入我們的社群
+      hero-text: 成為達世幣社群的一員
+      hero-forum-btn: 官方論壇
+      hero-discussion-btn: 討論
+      hero-social-btn: 社群應用
+      hero-news-btn: 新聞 &amp; 資訊
+      hero-development-btn: 開發
+      hero-masternodes-btn: 主節點
+      hero-video-btn: 影片 &amp; 語音
+      hero-graphics-btn: 相關圖像
+      hero-legal-btn: 法律相關
+      hero-wiki-btn: 維基
+      discussion-heading: 討論
+      discussion-text: 參與論壇上的達世幣討論
+      social-heading: 社交
+      social-text: 關注社交應用上的達世幣動態
+      news-heading: 新聞 &amp; 資訊
+      news-text: 達世幣社區成員創建的網站
+      development-heading: 開發
+      development-text: 網站 &amp; 開發工具
+      masternode-heading: 主節點工具
+      masternode-text: 主節點創建、管理和運營
+      media-heading: 達世幣媒體
+      conferences-heading: 會議
+      technology-heading: 技術
+      community-heading: 社群
+      youtube-btn: 達世幣YouTube
+    tos:
+      title: 使用條款
+      terms: '達世幣僅供合法使用, 嚴禁任何非法用途. 達世幣及其開發人員或撰稿人反對任何形式的非法應用, 並拒絕予以非法活動任何形式的支持.
+
+
+        據我們所知, 達世幣目前在大多數轄區內都屬於合法應用. 不過, 一些轄區對加密數字貨幣或隱私保護工具的應用有所限制, 因此, 此類轄區內的用戶在使用達世幣前需要謹慎抉擇. 如有疑問, 請聯繫轄區內的律師了解相關資訊, 以免觸犯相關法律規定.
+
+
+        本網站的內容或其他與達世幣相關的資訊不作司法參考. 如有司法方面的疑問或需要法律援助, 請聯繫轄區內的律師.
+
+
+        本網站或其他與達世幣相關的網站不提供投資建議. 請您在投資達世幣之前研究不同資訊並謹慎抉擇.'
+    blog:
+      title: 達世幣部落格
+      description: "達世幣的最新消息"
+      search-btn: 搜尋部落格
+      community-news-btn: 社群新聞
+    team:
+      title: 達世幣團隊
+      description: 達世幣團隊受命於達世幣網路, 並由區塊鏈提供每月資金支持. 其目的是研發達世幣核心技術.
+      core-proposal-btn: 核心提案
+      core-proposal-link: https://www.dashcentral.org/p/core-team
+      core-approval-btn: 已獲准的提案
+      core-approval-link: http://dashvotetracker.com
+      core-join-btn: 加入團隊
+      core-heading: 核心團隊
+      hr: 人力資源
+      forum-name: >
+          達世幣論壇:
+      strateg-heading: 策略顧問
+      coredao: 達世幣核心 DAO 管理團隊
+      coredev: 開發人員
+      dapidev: 達世幣 DAPI
+      webdev: 達世幣網站
+      ui: 達世幣 UI
+      integrations: 整合
+      mobile: 流動錢包
+      infrastructure: 基礎設施
+      qa: QA
+      pm: 項目經理
+      business: 業務發展
+      support: 行政 + 支援
+      management: 管理
+      development: 開發
+      operations: 營運
+      marketing: 市場營銷
+      strategy: 策略
+      finance: 財務
+      associated: 密切合作
+      advisor: 高級顧問
+      external: 外部貢獻者
+  nav:
+    what-is-dash: 達世幣是什麼
+    get-dash: 了解達世幣
+    merchants: 商家
+    download: 下載錢包
+    buy: 購買達世幣
+    shop: 使用達世幣來購物
+    debit: 達世幣借記卡
+    update: 更新
+    evolution: Evolution
+    participate: 幫助教學
+    mining: 開始挖礦
+    masternode: 架設主節點
+    wallet: 創建錢包
+    funding: 申請預算資金
+    currency: 網路
+    exchange: 交易市場
+    governance: 管理
+    explorers: 區塊研發
+    stats: 網路數據
+    exchanges-list: 交易所的完整列表
+    community: 社群
+    discussion: 討論
+    social-apps: 社群應用
+    news: 新聞 &amp; 資訊
+    tools-dev: 開發工具
+    tools-masternodes: 主節點工具
+    graphics: 相關圖像
+    legal: 法律相關
+    merchandise: 商品
+    project: 項目
+    help: 幫助 &amp; 支持
+    info: 項目資訊
+    team: 團隊
+    contact: 聯繫方式
+    foundation: 基金會
+    philosophy: 概念
+    technology: 技術
+    wiki: 維基
+    whitepaper: 白皮書
+    school: 學堂
+    search: 搜尋
+    docs: 文檔資料
+    telegram: Telegram
+    discord: Discord
+    forum: 達世幣論壇
+    social: 社群
+    blog: 部落格
+    reddit: Reddit
+    twitter: Twitter
+    youtube: YouTube
+    google: Google
+    linkedin: Linkedin
+    facebook: Facebook
+    instagram: Instagram
+    github: GitHub
+    jobs: 加入我們
+    tos: 使用條款
+    sitemap: 網站導覽
+    sitesource: 源代碼
+    service: 服務台
+    support: 支援服務
