@@ -12,8 +12,6 @@ RUN (curl -sL https://deb.nodesource.com/setup_6.x | bash -) && apt-get -y insta
 RUN gem install jekyll bundler
 RUN bundle config --global silence_root_warning 1
 
-RUN echo 1
-
 COPY . /data/
 WORKDIR /data
 
