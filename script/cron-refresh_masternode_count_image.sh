@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -x
-
 # cron-refresh_masternode_count_image.sh
 # pulls, resizes, and places an image from service that hasn't installed ssl
 # self-hosting the content avoids mixed-content/insecure browser warnings
