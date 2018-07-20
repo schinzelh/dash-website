@@ -26,5 +26,5 @@ RUN bundler exec jekyll build --config _config.yml | egrep -v '^(Missing i18n ke
 RUN npm run copy
 RUN npm run htmlproof
 RUN npm run eslint
-RUN bash script/cron-refresh_masternode_count_image.sh && rm -rf cript/
+RUN bash script/cron-refresh_masternode_count_image.sh && rm -rf script/
 
