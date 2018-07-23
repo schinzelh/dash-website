@@ -54,24 +54,24 @@ ja:
       description: ウォレットをダウンロードして取引所でDashを購入
       hero-heading: Dashへの法律の適用について
       hero-text: Dashの自律分散組織（DAO）はDashの普及、保護及び標準化に取り組んでいます。Dashの発展にあたって、アメリカの法律のもとDashに対する各方面の審査を受けました。本文の目的は最も頻繁に聞かれる疑問に対処することとDashへの法律の適用についての説明となります。これは法律意見書ではないため、ご使用の際には弁護士にご相談ください。ここでは、法律における私たちの立場及び法律がどのように適切に解釈されるかについてご説明いたします。
-      hero-tax-btn: 税制措置
-      hero-compliance-btn: コンプライアンス　法定貨幣 - DASH
+      hero-tax-btn: 税務処理
+      hero-compliance-btn: コンプライアンス　法定通貨 - DASH
       сogent-heading: >
           適切な法的支援:
       criminally-heading: マスターノードを運営する人は、サポートするネットワーク上の取引に対して法的責任を負うべき？
       criminally-text: |
           DASHで取引をする際に、適用される法律について確認する必要があります。たとえば、DASH ATMを設置する時や他のアカウントのDASHを利用し、サービスを購入する際に、適用される法律を予めご確認ください。
-      criminally-btn: コンプライアンス　法定貨幣 - DASH/ATM
-      treatment-heading: DASHのマスターノードの税制措置とは？
+      criminally-btn: コンプライアンス　法定通貨 - DASH/ATM
+      treatment-heading: Dashのマスターノード報酬の税務処理とは？
       treatment-text: >
           ブロック報酬/担保としてのDASH/資本収益/主な責任/副次的な責任などはこのセクションでお答えします
       treatment-text-hero: マスターノード運営者への米国税法の適用について
       treatment-btn: 完全なリスト
-      treatment-masternode-heading: マスターノードの税制措置
+      treatment-masternode-heading: マスターノードの税務処理
       vitrtual-kiosk-heading: 暗号通貨を扱う店舗の運営ガイド
       learn-more-btn: さらに調べる
       audio-heading: オーディオガイド
-      audio-text: 法定貨幣をDashに変換してウォレットに送金する
+      audio-text: 現地の通貨をDashに変換してウォレットに送金する
       audio-text-btn: Dashを購入
       report-heading: レポートを見る
       report-heading-btn: さらに調べる
@@ -215,7 +215,7 @@ ja:
       description: Dashはデジタル通貨です
       hero-heading: Dashの購入方法
       hero-text: オンライン取引所でDashを購入するには？
-      exchanges-btn: 法定貨幣で購入
+      exchanges-btn: 法定通貨で購入
       brokers-btn: 暗号通貨で購入
       otc-btn: 場外取引
       local-btn: 現地のマーケット
@@ -619,7 +619,7 @@ ja:
       buy-btn: Dashを購入
       buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
       trade-heading: 取引所でDashの取引をする
-      trade-text: 取引所で現地の貨幣とDashを交換する
+      trade-text: 取引所で現地の通貨とDashを交換する
       trade-btn: Dashを取引
       trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
       atm-heading: ATMでDashを購入
@@ -636,7 +636,7 @@ ja:
       visa-btn: Shakeを取得
       visa-link: https://shakepay.co/#/
       need-heading: Dashが必要ですか？
-      need-text: フォーラムにサインアップし、無料のDASHを受け取りましょう！
+      need-text: フォーラムにサインアップし、無料のDashを受け取りましょう！
       need-btn: DASHにサインアップ
       need-link: https://www.dash.org/forum
       need-input: あなたのメールアドレスを入力してください。
@@ -726,7 +726,7 @@ ja:
       hero-masternodes-btn: マスターノード
       hero-video-btn: ビデオ &amp; オーディオ
       hero-graphics-btn: グラフィックス
-      hero-legal-btn: リーガル
+      hero-legal-btn: 法務
       hero-wiki-btn: Wiki
       discussion-heading: ディスカッション
       discussion-text: フォーラムのディスカッションに参加する
@@ -748,7 +748,7 @@ ja:
       terms: 'Dashは合法的な利用のみが想定されています。それ以外の利用は推奨されません。Dashとその開発者は、あらゆる形の違法取引をサポートしません。
 
 
-        Dashはほとんどの地域で違法ではありません。しかし、暗号通貨あるいはプライバシー保護ツールを制限する地域もありますので、そのような地域の場合はDashを利用する前に、慎重に考慮した上でDASHを使用して下さい。不明な点があれば、違法にならないように現地の弁護士に連絡してください。
+        Dashはほとんどの地域で違法ではありません。しかし、暗号通貨あるいはプライバシー保護ツールを制限する地域もありますので、そのような地域の場合はDashを利用する前に、慎重に考慮した上でDashを使用して下さい。不明な点があれば、違法にならないように現地の弁護士に連絡してください。
 
 
         本ウェブサイトの内容及びDash関連の情報は、投資を推奨するものではありません。Dashに投資する前に自身で調査し、判断してください。'
@@ -793,7 +793,7 @@ ja:
       external: 外部協力者
   nav:
     what-is-dash: DASHとは
-    get-dash: DASHを取得
+    get-dash: Dashを取得
     merchants: 店舗
     download: ウォレットをダウンロード
     buy: Dashを購入
@@ -819,7 +819,7 @@ ja:
     tools-dev: 開発ツール
     tools-masternodes: マスターノードツール
     graphics: グラフィックス
-    legal: リーガル
+    legal: 法務
     merchandise: 商品
     project: プロジェクト
     help: ヘルプ &amp; サポート
