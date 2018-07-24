@@ -27,6 +27,9 @@ $nav-height: 90px;
 		&--languages {
 			.nav__link {
 				padding-right: 0;
+				&:hover{
+					text-decoration: underline;
+				}
 			}
 			& > .nav__link {
 				padding: 0 25px;
@@ -74,7 +77,7 @@ $nav-height: 90px;
 	}
 
 	&__subitem {
-		line-height: 40px;
+		line-height: 30px;
 		white-space: nowrap;
 	}
 
