@@ -302,9 +302,7 @@ de:
           Wer keine vollst&auml;ndige Masternode betreiben kann oder will, hat die M&ouml;glichkeit &uuml;ber sogenannte Pooling-Dienste in Masternode-Shares zu investieren. Hierbei stellen die Investoren Dritten ihre DASH (z.B. 25 DASH) zur Verf&uuml;gung, die dann f&uuml;r den Betrieb einer Masternode verwendet werden. In der Regel fallen bei diesem Modell Geb&uuml;hren an, die die Rendite mindern. Zu beachten ist auch, dass die Investoren bei diesem Modell in den meisten F&auml;llen keinerlei Einfluss auf das Stimmrecht der durch sie finanzierten Masternodes nehmen k&ouml;nnen.
       hosting-services-btn: Masternode Betreiberdienste
       p2p-text: |
-          Seit seinem Launch in 2014 ist das DASH-Netzwerk dank seines Anreizsystems auf eine Gr&ouml;&szlig;e von mehr als 4.500 Masternodes gewachsen. Damit z&auml;hlt DASH zu den gr&ouml;&szlig;ten Peer-to-Peer-Netzwerken der Welt - Tendenz steigend.
-          </br></br>
-          Mit jeder weiteren Masternode erh&ouml;hen sich die Sicherheit und die Kapazit&auml;ten des Netzwerks, was daf&uuml;r sorgt, dass DASH rund um die Uhr und &uuml;berall auf der Welt selbst bei steigender Transaktionszahl ohne Komplikationen verwendet werden kann.
+          Durch sein ausgekl&uuml;geltes Anreizsystem ist das DASH Netzwerk seit seinem Start in 2014 auf &uuml;ber 4100 Masternodes angewachsen, was DASH’s Peer-to-Peer Netzwerk zu einem der gr&ouml;&szlig;ten der Welt macht. Mehr Masternodes bedeuten eine h&ouml;here Sicherheit der Dienste und eine h&ouml;here Kapazit&auml;t f&uuml;r Endnutzer &uuml;berall auf der Welt, rund um die Uhr.
       p2p-btn: Netzwerkstatistiken
     buy:
       title: Offizielle DASH Website | DASH kaufen
@@ -582,9 +580,7 @@ de:
       execution-btn: Erfahre mehr
       execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
       update-heading: Sentinel
-      update-text: 'Ein m&auml;chtiger Werkzeugkasten f&uuml;r DASH. DASHs neue Sentinel Technologie ist der Motor unter der Haube von DASH Evolution. Sentinel ist leistungsstark, flexibel und anpassungsf&auml;hig, was die Updates f&uuml;r das Netzwerk extrem vereinfachen und eine Vielzahl neuer Anwendungen erm&ouml;glichen wird. So k&ouml;nnen mit Sentinel beispielsweise vollkommen digitale Unternehmen gegr&uuml;ndet werden.
-
-        '
+      update-text: Ein m&auml;chtiger Werkzeugkasten f&uuml;r DASH. DASHs neue Sentinel Technologie ist der Motor unter der Haube von DASH Evolution. Sentinel ist leistungsstark, flexibel und anpassungsf&auml;hig, was die Updates f&uuml;r das Netzwerk extrem vereinfachen und eine Vielzahl neuer Anwendungen erm&ouml;glichen wird. So k&ouml;nnen mit Sentinel beispielsweise vollkommen digitale Unternehmen gegr&uuml;ndet werden.
       proposal-btn: Antr&auml;ge
       proposal-submit-btn: Reiche einen Antrag ein
       evolution-research-heading: EVOLUTION FORSCHUNG
@@ -660,7 +656,6 @@ de:
       modal-core-users-text: Normale Nutzer
       modal-core-masternode-text: Masternode Betreiber
       modal-core-pool-text: Mining Pool Betreiber
-
     payments:
       title: DASH Zahlungsabwickler
       hero-heading: DASH Zahlungsabwicklung
@@ -794,7 +789,7 @@ de:
       guide-btn: Setup Guide
       spend-btn: DASH verkaufen
       security-btn: Sicherheit
-      otc-heading: Over <br />the Counter (OTC)
+      otc-heading: Over the Counter (OTC)
       otc-text: |
           Beim Kaufen und Verkaufen von größeren Beträgen auf Tauschbörsen können während der Abschlüsse Wertverschiebungen stattfinden. Käufer und Verkäufer erhalten nach dem Handel also nicht immer den Wert, den sie zuvor vermutet hatten, da große Kauf- und Verkaufsangebote Einfluss auf die Preisentwicklung nehmen können. Große Kaufangebote erhöhen den Kurs, große Verkaufsangebote bewirken das Gegenteil.
 
@@ -941,15 +936,17 @@ de:
       title: Nutzungsbedingungen
       terms: 'DASH beabsichtigt ausschlie&szlig;lich f&uuml;r legale Anwendungszwecke verwendet zu werden. Weder DASH noch die Entwickler, F&ouml;rderer oder andere Teammitglieder verfolgen illegale Aktivit&auml;ten und f&ouml;rdern diese auch nicht.
 
+
         Nach unseren Informationen ist die Verwendung von DASH nicht illegal. Generell gilt allerdings, dass jeder Verwender von DASH sich &uuml;ber allgemeine rechtliche Situation zu Kryptow&auml;hrungen in seinem/ihren Land informieren sollte, bevor er/sie DASH nutzt.
+
 
         Im Zweifelsfall empfehlen wir sich mit ausgebildeten Juristen des jeweiligen Rechtsraums in Verbindung zu setzen und sich von diesen beraten zu lassen.
 
+
         Diese und andere mit DASH verbundene Websites erheben keinerlei Anspruch darauf die rechtlichen Bedingungen zu erl&auml;utern oder darzustellen. Im Zweifelsfall empfehlen wir die Konsultierung einer mit der Rechtsprechung des jeweiligen Landes vertrauten Institution oder Person.
 
-        Diese und andere mit DASH verbundene Websites stellen keinerlei Empfehlung f&uuml;r ein eventuelles Investment dar.
 
-        '
+        Diese und andere mit DASH verbundene Websites stellen keinerlei Empfehlung f&uuml;r ein eventuelles Investment dar.'
     blog:
       title: DASH Blog
       description: "Aktuelle News &amp; Informationen auf einen Blick"

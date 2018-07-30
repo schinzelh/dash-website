@@ -242,11 +242,7 @@ pt:
           Pooled Services fornecem acesso Masternode para usuários com menos de 1k Dash (muitos usuários compartilham 1 Masternode)
       hosting-services-btn: Serviços de Hospedagem Masternode
       p2p-text: |
-          Texto sobre o peer2peer Graças ao incentivo, a rede do Dash cresceu a 4.100 masternodes desde o lançamento em 2014, significando a rede peer-to-peer do Dash é uma do maior no mundo.
-          Mais nós significa serviços mais seguros e mais capacidade para os usuários finais acessarem o Dinheiro Digital de qualquer lugar do mundo, 24 horas por dia, 7 dias por semana.
-
-          Texto sobre o peer2peer Graças ao incentivo, a rede do Dash cresceu a 4.100 masternodes desde o lançamento em 2014, significando a rede peer-to-peer do Dash é uma do maior no mundo.
-          Mais nós significa serviços mais seguros e mais capacidade para os usuários finais acessarem o Dinheiro Digital de qualquer lugar do mundo, 24 horas por dia, 7 dias por semana.
+          Graças ao incentivo, a rede da Dash cresceu para 4.100 masternodes desde o lançamento em 2014, o que significa que a rede peer-to-peer da Dash é uma das maiores do mundo. Mais nós significa serviços mais seguros e mais capacidade para os usuários finais acessarem o Dinheiro Digital de qualquer lugar do mundo, 24 horas por dia, 7 dias por semana.
       p2p-btn: Estatísticas de rede
     buy:
       title: Dash Oficial Website | Dash Criptomoeda
@@ -482,9 +478,7 @@ pt:
       execution-btn: Leia Mais
       execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
       update-heading: Sentinel
-      update-text: 'Um conjunto de ferramentas poderosa para Dash A nova tecnologia Sentinel da Dash é o motor que impulsionará a Dash Evolution. É extremamente poderoso e flexível, o que permitirá atualizações de rede muito mais fáceis. Além disso, o Sentinel pode ser personalizado para criar numerosas novas aplicações que serão executadas na rede. É possível criar empresas digitais, por exemplo, usando o Sentinel.
-
-        '
+      update-text: Um conjunto de ferramentas poderosa para Dash A nova tecnologia Sentinel da Dash é o motor que impulsionará a Dash Evolution. É extremamente poderoso e flexível, o que permitirá atualizações de rede muito mais fáceis. Além disso, o Sentinel pode ser personalizado para criar numerosas novas aplicações que serão executadas na rede. É possível criar empresas digitais, por exemplo, usando o Sentinel.
       proposal-btn: Propostas
       proposal-submit-btn: Envie uma Proposta
       evolution-research-heading: EVOLUTION RESEARCH
@@ -518,8 +512,7 @@ pt:
       wallets-desktop-header: Desktop
       wallets-desktop-subtitle: Dash Desktop Wallets estão disponíveis com diferentes recursos e segurança.
       wallets-desktop-latest: >
-          Mais tarde: 12 de janeiro de 2018
-      wallets-desktop-current-version: v0.12.2.3
+          Mais tarde: 3 de julho de 2018
       wallets-mobile-header: Mobile
       wallets-mobile-subtitle: Dash Mobile Wallets estão disponíveis com diferentes recursos e segurança, executado a partir do seu dispositivo móvel (telefone, Tablet, ..)
       wallets-hardware-header: Hardware
@@ -557,11 +550,8 @@ pt:
       modal-win-core-source-code-key: Source Code
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Usuários Gerais
-      modal-core-users-value: 0.12.2.3
       modal-core-masternode-text: Operadores Masternode
-      modal-core-masternode-value: 0.12.2.3
       modal-core-pool-text: Operadores Pool
-      modal-core-pool-value: 0.12.2.3
     payments:
       title: Processadores de Pagamento em Dash
       hero-heading: Processando Pagamento em Dash
@@ -594,11 +584,8 @@ pt:
       modal-win-core-source-code-key: Código Fonte
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Usos Gerais
-      modal-core-users-value: 0.12.2.3
       modal-core-masternode-text: Operadores de Masternode
-      modal-core-masternode-value: 0.12.2.3
       modal-core-pool-text: Operadores de Pool
-      modal-core-pool-value: 0.12.2.3
       disclaimer-text: >
           DISCLAIMER: Esta lista é fornecida apenas para fins informativos. Os serviços
           listados aqui não foram avaliados ou aprovados pelos desenvolvedores do
@@ -661,6 +648,7 @@ pt:
       evolution-heading: Evolução da Moeda Digital
       evolution-text: 'O que vem em seguida? Queremos que moedas digitais sejam tão fáceis de usar que até sua vó conseguiria usá-las.
 
+
         A Dash Evolution irá possibilitar que você assine e acesse seu Dash de qualquer dispositivo e transacione tão facilmente quanto como com PayPal, mas de uma forma completamente descentralizada. Fique ligado...'
       evolution-btn: Leia Mais
       evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
@@ -702,7 +690,7 @@ pt:
       guide-btn: Guida de Configuração
       spend-btn: Gaste Dash
       security-btn: Segurança
-      otc-heading: Em cima <br /> do balcão (OTC)
+      otc-heading: Em cima do balcão (OTC)
       otc-text: |
           Comprar ou vender grandes quantidades de Dash nas exchanges pode causar mudança de preços, resultando no comprador ou vendedor recebendo menos valor do que o pretendido. Grandes ordens de compra aumentam o preço, resultando em pagamento excessivo. Pedidos de venda consideráveis fazem o oposto, resultando em menos valor recebido pelo Dash que você vende. Felizmente, existem soluções “over the counter” ou soluções OTC, em que um fornecedor combina compradores e vendedores, permitindo-lhes conduzir grandes transações fora das exchanges e livres dessas mudanças para coisas como um novo site, orçamento de relações públicas, etc. O benefício para você é , você pode obter muito mais moedas no preço atual do que as disponíveis em qualquer exchange. Então você pode adquirir uma posição em Dash de forma muito mais fácil/mais barata do que seria possível de outra forma.
       otc-btn: Lista Completa
@@ -847,13 +835,14 @@ pt:
       title: Termos de uso
       terms: 'Dash destina-se apenas para fins legais e não deve ser usado de qualquer outra forma. Nem o Dash, nem qualquer um desenvolvedor ou contribuidores, apoia quaisquer atividades ilegais e não irá ajudá-los de alguma forma.
 
+
         Tanto quanto sabemos, o uso do Dash não é ilegal na maioria das jurisdições. No entanto, algumas jurisdições podem impor limitações ao uso de criptomoedas e / ou ferramentas de proteção de privacidade, de modo que os usuários nessas jurisdições devem considerar isso antes de usar a Dash. Em caso de dúvida, entre em contato com um advogado local para evitar fazer qualquer coisa que possa ser considerada ilegal em sua jurisdição.
+
 
         O conteúdo deste website, ou de outros associados ao Dash, não constitui conselho legal. Se você tiver dúvidas legais ou precisar de ajuda, entre em contato com um advogado em sua jurisdição.
 
-        O conteúdo deste site ou de outros associados ao Dash não é um conselho de investimento. Você deve usar seu próprio julgamento e pesquisar várias fontes de informação antes de investir no Dash.
 
-        '
+        O conteúdo deste site ou de outros associados ao Dash não é um conselho de investimento. Você deve usar seu próprio julgamento e pesquisar várias fontes de informação antes de investir no Dash.'
     blog:
       title: O Blog do Dinheiro Digital
       description: "Últimas notícias e informações sobre Dash"

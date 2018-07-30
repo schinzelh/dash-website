@@ -247,11 +247,7 @@ es:
           Estos servicios proveen accesibilidad a los Nodos Maestros para personas que tienen menos de 1,000 Dash (muchos usuarios comparten 1 Nodo Maestro)
       hosting-services-btn: Servicios de Alojamiento de Nodos Maestros
       p2p-text: |
-          Texto sobre p2p - Gracias a sus incentivos, la red Dash ha crecido a más de 4,100 Nodos Maestros desde su lanzamiento en 2014, lo que significa que la red peer-to-peer de Dash es una de las más grandes del mundo.
-          Más nodos significan más servicios seguros y mayor capacidad para que los usuarios finales puedan acceder a dinero digital desde cualquier lugar 24/7.
-
-          Texto sobre p2p - Gracias a sus incentivos, la red Dash ha crecido a más de 4,100 Nodos Maestros desde su lanzamiento en 2014, lo que significa que la red peer-to-peer de Dash es una de las más grandes del mundo.
-          Más nodos significan más servicios seguros y mayor capacidad para que los usuarios finales puedan acceder a dinero digital desde cualquier lugar 24/7.
+          Gracias a los incentivos la red Dash ha crecido hasta los 4,100 Nodos Maestros, lo que significa que Dash es la única moneda que puede competir con Bitcoin en poder de procesamiento de transacciones y en capacidad de ampliación futura.
       p2p-btn: Estadísticas de la Red
     buy:
       title: Sitio Web Oficial de Dash | Dash Criptodivisa
@@ -517,8 +513,7 @@ es:
       wallets-desktop-header: Escritorio
       wallets-desktop-subtitle: Los monederos Dash para el escritorio están disponibles con diferentes características y niveles de seguridad.
       wallets-desktop-latest: >
-          Más reciente: 12 de Enero de 2018
-      wallets-desktop-current-version: v0.12.2.3
+          Más reciente: 3 de Julio de 2018
       wallets-mobile-header: Móvil
       wallets-mobile-subtitle: Los monederos para móviles de Dash están disponibles con diversas características y niveles de seguridad, funcionan desde su dispositivo móvil (teléfono celular, tableta)
       wallets-hardware-header: Hardware
@@ -556,11 +551,8 @@ es:
       modal-win-core-source-code-key: Código Fuente
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Usuarios Generales
-      modal-core-users-value: 0.12.2.3
       modal-core-masternode-text: Operadores de Nodos Maestros
-      modal-core-masternode-value: 0.12.2.3
       modal-core-pool-text: Operadores de Pools
-      modal-core-pool-value: 0.12.2.3
     payments:
       title: Procesadores de Pagos de Dash
       hero-heading: Proceso de Pagos en Dash
@@ -593,11 +585,8 @@ es:
       modal-win-core-source-code-key: Código Fuente
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Usuarios Generales
-      modal-core-users-value: 0.12.2.3
       modal-core-masternode-text: Operadores de Nodos Maestros
-      modal-core-masternode-value: 0.12.2.3
       modal-core-pool-text: Operadores de Pools
-      modal-core-pool-value: 0.12.2.3
       disclaimer-text: >
           ACLARACIÓN: Esta lista se provee con fines informativos únicamente. Los
           servicios aquí enlistados no han sido evaluados o aprobados por los desarrolladores
@@ -696,7 +685,7 @@ es:
       guide-btn: Guía de Configuración
       spend-btn: Gasta Dash
       security-btn: Seguridad
-      otc-heading: Over <br />the Counter (OTC) o extrabursátil
+      otc-heading: Over the Counter (OTC) o extrabursátil
       otc-text: |
           Comprar o vender grandes cantidades de Dash en las casas de cambio puede provocar el deslizamiento de los precios, lo que da como resultado que el comprador o el vendedor reciba menos valor de lo previsto. Las grandes órdenes de compra empujan el precio más alto, lo que resulta en un pago en exceso. Las órdenes de venta considerables hacen lo contrario, lo que genera menos valor recibido por el Dash que se vende. Afortunadamente, hay soluciones "extrabursátiles" o OTC, en las que un proveedor empareja compradores y vendedores,lo que les permite realizar grandes transacciones fuera de las casas de cambio y sin deslizamientos a cosas como un nuevo sitio web, presupuesto, etc.. El beneficio para usted es que puede obtener muchas más monedas al precio actual, que las que están disponibles en cualquier casa de cambio. Por lo tanto, puede acceder a una posición en Dash mucho más fácil / más barato de lo que sería posible.
       otc-btn: Lista completa
@@ -839,7 +828,16 @@ es:
       youtube-btn: Dash YouTube
     tos:
       title: Condiciones de Uso
-      terms: Dash está diseñada para ser usada únicamente de forma legal. Ni Dash, ni ninguno de sus desarrolladores o colaboradores, apoya ninguna actividad ilegal, ni la favorecerá de ninguna manera. Hasta donde podemos saber, Dash no es ilegal en ninguna jurisdicción. Sin embargo, algunas jurisdicciones limitan de alguna manera el uso de criptomonedas y/o herramientas de protección de la privacidad, algo que debe ser tenido en cuenta por los usuarios en esas jurisdicciones antes de usar Dash. En caso de duda, consulte con un abogado local para evitar hacer nada que sea ilegal en su jurisdicción. El contenido de este sitio web, u otros asociados con Dash, no es asesoramiento legal. Si tiene dudas legales o necesita asistencia jurídica, por favor contacte con un abogado local. El contenido de este sitio web, u otros asociados con Dash, no es asesoramiento para invertir. Use su propio juicio e investigue múltiples fuentes de información antes de invertir en Dash.
+      terms: 'Dash está diseñada para ser usada únicamente de forma legal. Ni Dash, ni ninguno de sus desarrolladores o colaboradores, apoya ninguna actividad ilegal, ni la favorecerá de ninguna manera.
+
+
+        Hasta donde podemos saber, Dash no es ilegal en ninguna jurisdicción. Sin embargo, algunas jurisdicciones limitan de alguna manera el uso de criptomonedas y/o herramientas de protección de la privacidad, algo que debe ser tenido en cuenta por los usuarios en esas jurisdicciones antes de usar Dash. En caso de duda, consulte con un abogado local para evitar hacer nada que sea ilegal en su jurisdicción.
+
+
+        El contenido de este sitio web, u otros asociados con Dash, no es asesoramiento legal. Si tiene dudas legales o necesita asistencia jurídica, por favor contacte con un abogado local.
+
+
+        El contenido de este sitio web, u otros asociados con Dash, no es asesoramiento para invertir. Use su propio juicio e investigue múltiples fuentes de información antes de invertir en Dash.'
     blog:
       title: El blog del dinero digital
       description: "Últimas noticias &amp; información"

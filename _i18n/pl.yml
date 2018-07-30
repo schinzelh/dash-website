@@ -247,8 +247,7 @@ pl:
           Usługi Udziałowe zapewniają korzystanie z masternoda użytkownikom, którzy nie mają 1000 dashy (wielu użytkowników posiada udziały w 1 masternodzie)
       hosting-services-btn: Usługi Hostingowe Masternode
       p2p-text: |
-          Tekst o peer2peer Dzięki mechanizmowi wynagradzania, sieć Dash urosła do ilości 4100 masternodów od momentu jej uruchomienia w 2014 r., oznacza to, że sieć peer-to-peer Dash jest jedną z największych na świecie.
-          Więcej węzłów oznacza bezpieczniejsze usługi i zwiększa zdolność użytkowników końcowych do uzyskiwania dostępu do Cyfrowej Waluty z dowolnego miejsca na świecie, 24 godziny na dobę, 7 dni w tygodniu.
+          Dzięki mechanizmowi wynagradzania, sieć Dash urosła do 4,100 masternodów od momentu startu w 2014 roku. Oznacza to, że sieć P2P Dasha jest jedną z największych na świecie. Więcej węzłów oznacza bezpieczniejsze usługi oraz większa zdolność użytkowników do uzyskania dostępu do Dash z dowolnego miejsca na ziemi 24/7.
       p2p-btn: Statystyki Sieci
     buy:
       title: Dash Oficjalna Strona | Kryptowaluta Dash
@@ -482,9 +481,7 @@ pl:
       execution-btn: Dowiedz się więcej
       execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
       update-heading: Sentinel
-      update-text: 'Niezbędna paczka narzędzi dla Dash
-
-        Nowa technologia Dash - Sentinel - jest silnikiem, który napędza Dash Evolution. Jest niezwykle wydajny i elastyczny, co znacznie ułatwia aktualizacje sieci. Dodatkowo Sentinel może zostać dostosowany do tworzenia licznych nowych aplikacji, które będą działały w sieci. Możliwe jest na przykład tworzenie cyfrowych firm.'
+      update-text: Nowa technologia Dash - Sentinel - jest silnikiem, który napędza Dash Evolution. Jest niezwykle wydajny i elastyczny, co znacznie ułatwia aktualizacje sieci. Dodatkowo Sentinel może zostać dostosowany do tworzenia licznych nowych aplikacji, które będą działały w sieci. Możliwe jest na przykład tworzenie cyfrowych firm.
       proposal-btn: Propozycje
       proposal-submit-btn: Zgłoś Propozycję
       evolution-research-heading: BADANIA NAD ROZWOJEM EVOLUTION
@@ -515,7 +512,6 @@ pl:
       wallets-desktop-subtitle: Portfele Dash na komputer oferują różny zestaw funkcjonalności i bezpieczeństwo.
       wallets-desktop-latest: >
           Najpóźniej: 3 Lipiec 2018
-      wallets-desktop-current-version: v0.12.3.1
       wallets-mobile-header: Mobilne
       wallets-mobile-subtitle: Mobilne portfele Dash oferują różne zestawy funkcjonalności i różny poziom bezpieczeństwa. Uruchamiane są na urządzeniu przenośnym (smartfonie, tablecie,..)
       wallets-hardware-header: Sprzętowe
@@ -553,11 +549,8 @@ pl:
       modal-win-core-source-code-key: Kod Źródłowy
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Zwyczajni Użytkownicy
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: Operatorzy Masternodów
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: Operatorzy Kopalni
-      modal-core-pool-value: 0.12.3.1
     payments:
       title: Procesory Płatnicze Dash
       hero-heading: Procesory Płatnicze Dash
@@ -590,11 +583,8 @@ pl:
       modal-win-core-source-code-key: Kod Źródłowy
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Zwyczajni Użytkownicy
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: Operatorzy Masternodów
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: Operatorzy Kopalni
-      modal-core-pool-value: 0.12.3.1
       disclaimer-text: >
           OŚWIADCZENIE: Ta lista jest przedstawiona wyłącznie w celach informacyjnych.
           Wymienione tutaj usługi nie zostały sprawdzone, ani zatwierdzone przez programistów
@@ -691,7 +681,7 @@ pl:
       guide-btn: Przewodnik Instalacji
       spend-btn: Wydaj Dash
       security-btn: Bezpieczeństwo
-      otc-heading: Rynek <br />poza-giełdowy (OTC)
+      otc-heading: Rynek poza-giełdowy (OTC)
       otc-text: |
           Kupowanie lub sprzedawanie dużej ilości Dash na giełdach może spowodować obniżenie ceny co w rezultacie może być przyczyną otrzymania trochę niższej ilości Dash niż pierwotnie ktoś zamierzał kupić. Duże zlecenia kupna powodują wzrost ceny co z kolei może prowadzić do przepłacenia. Duże zlecenia sprzedaży zachowują się odwrotnie. Obniżają one cenę co może być przyczyną otrzymania trochę niższej sumy ze sprzedaży. Na szczęście istnieją usług handlu poz-giełdowego, gdzie kupcy są dobierani do sprzedawców, pozwalając na dokonywanie dużych transakcji nie zmieniając przy tym kursu giełdowego. Zaletą takiego rozwiązania jest to, że możesz otrzymać więcej Dash po konkretnej cenie, co wychodzi trochę taniej niż gdybyś używał samej giełdy.
       otc-btn: Pełna Lista

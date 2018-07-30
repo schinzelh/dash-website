@@ -242,12 +242,7 @@ it:
           I servizi in pool o "Pooled Services" forniscono l'accessibilità ai Masternode agli utenti con meno di 1k Dash (molti utenti condividono 1 Masternode)
       hosting-services-btn: Servizi di Hosting Masternode
       p2p-text: |
-          Riguardo  peer2peer Grazie alla incentivazione, la rete di Dash è cresciuta fino a 4.100 masternodes dal lancio nel 2014, il che significa che la rete peer-to-peer di Dash è una delle più grandi al mondo.
-          Più nodi significa più servizi sicuri e più capacità per gli utenti finali di accedere a Digital Cash da qualsiasi parte del mondo, 24 ore su 24, 7 giorni su 7.
-
-
-          Riguardo peer2peer Grazie alla incentivazione, la rete di Dash è cresciuta fino a 4.100 masternodes dal lancio nel 2014, il che significa che la rete peer-to-peer di Dash è una delle più grandi al mondo.
-          Più nodi significa più servizi sicuri e più capacità per gli utenti finali di accedere a Digital Cash da qualsiasi parte del mondo, 24 ore su 24, 7 giorni su 7.
+          Grazie alla incentivazione, la rete di Dash è cresciuta fino a 4.100 masternodes dal lancio nel 2014, il che significa che la rete peer-to-peer di Dash è una delle più grandi al mondo. Più nodi significa più servizi sicuri e più capacità per gli utenti finali di accedere a Digital Cash da qualsiasi parte del mondo, 24 ore su 24, 7 giorni su 7.
       p2p-btn: Statistiche della rete
     buy:
       title: 'Sito Ufficiale Dash | Dash Criptovaluta '
@@ -407,7 +402,7 @@ it:
       hero-btn: Di più riguardo Evolution
       hero-roadmap-btn: Tabella di marcia
       video-heading: MISSIONE
-      video-text: La missione di Evolution è rendere il denaro digitale facile da usare e accedere a tutti gli utenti, anche a quelli che non sono tecnologicamente esperti. Chiunque sarà in grado di configurare un account sulla blockchain, aggiungere contatti e pagarli usuando il nome. Gli acquisti da siti Web o applicazioni per dispositivi mobili saranno semplici e richiederanno solo un clic.
+      video-text: La missione di Evolution è rendere il denaro digitale facile da usare e accedere a tutti gli utenti, anche a quelli che non sono tecnologicamente esperti. Chiunque sarà in grado di configurare un account sulla blockchain, aggiungere contatti, pagare o ricevere pagamenti  usuando un  "nome". Gli acquisti da siti Web o applicazioni per dispositivi mobili saranno semplici e richiederanno solo un clic.
       prototype-video-1: Prototipo Video 1
       prototype-video-2: Prototipo video 2
       video-btn2: Anteprima portafoglio
@@ -513,7 +508,6 @@ it:
       wallets-desktop-subtitle: I Dash Desktop Wallet sono disponibili con diverse funzionalità e sicurezza.
       wallets-desktop-latest: >
           Il più recente: 3 luglio 2018
-      wallets-desktop-current-version: v0.12.3.1
       wallets-mobile-header: Mobile
       wallets-mobile-subtitle: I Dash Mobile Wallet sono disponibili con diverse funzionalità e sicurezza, eseguiti dal tuo dispositivo mobile (telefono, tablet, ..)
       wallets-hardware-header: Hardware
@@ -551,11 +545,8 @@ it:
       modal-win-core-source-code-key: Codice Sorgente
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Utenti Generali
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: Operatori Masternode
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: Squadra Operatori
-      modal-core-pool-value: 0.12.3.1
     payments:
       title: Elaborazione Pagamento Dash
       hero-heading: Elaborazione Pagamento Dash
@@ -588,11 +579,8 @@ it:
       modal-win-core-source-code-key: Codice Sorgente
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: Utenti Generali
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: Operatori Masternode
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: Squadra Operativa
-      modal-core-pool-value: 0.12.3.1
       disclaimer-text: >
           DICHIARAZIONE DI NON RESPONSABILITÀ: questa lista è fornita solo a scopo
           informativo. I servizi elencati qui non sono stati valutati o approvati
@@ -638,7 +626,7 @@ it:
       architecture-text: 'Al centro di Dash c''è una rete peer-to-peer completamente incentivata. I minatori sono premiati per la sicurezza della blockchain e i masternodes sono ricompensati per la convalida, l''archiviazione e il servizio della blockchain agli utenti.
 
 
-        Masternodes rappresenta un nuovo livello di server di rete , lavorano in cluster altamente sicuri chiamati "quorum" per fornire una varietà di servizi decentralizzati, come transazioni istantanee, privacy e governance, eliminando la minaccia di attacchi alla rete a basso costo.'
+        Masternodes rappresenta un nuovo livello di server di rete , lavorano in cluster altamente sicuri chiamati "quorum" per fornire una varietà di servizi decentralizzati, con transazioni istantanee, privacy e governance, eliminando la minaccia di attacchi alla rete a basso costo.'
       architecture-btn: Voglio saperne di più
       architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
       governance-heading: Il primo protocollo autogestito e autofinanziato
@@ -699,7 +687,7 @@ it:
       guide-btn: Guida alle impostazioni
       spend-btn: Spendi Dash
       security-btn: Sicurezza
-      otc-heading: Over <br />the Counter (OTC)
+      otc-heading: Over the Counter (OTC)
       otc-text: |
           L'acquisto o la vendita di grandi quantità di Dash negli Exchanges può causare uno slittamento del prezzo, con il risultato che l'acquirente o il venditore ricevono meno valore del previsto. I grandi ordini di acquisto spingono il prezzo più alto, con conseguente pagamento in eccesso. Gli ordini di vendita consistenti fanno il contrario, con conseguente minor valore ricevuto per il Dash che vendi. Fortunatamente ci sono soluzioni "over the counter" o OTC, in cui un venditore abbina compratori e venditori, permettendo loro di condurre grandi transazioni fuori dagli scambi e senza slittamenti su cose come un nuovo sito web, un budget di pr, ecc. Il vantaggio per te è che puoi ottenere molte più monete al prezzo corrente, rispetto a quelle disponibili su qualsiasi Exchanges. Quindi puoi entrare in una posizione per Dash in modo molto più facile / economico di quanto sarebbe altrimenti possibile.
       otc-btn: Lista Completa
@@ -895,7 +883,7 @@ it:
   nav:
     what-is-dash: Cos'è Dash
     get-dash: Ottieni Dash
-    merchants: Merchants
+    merchants: Commercianti
     download: Scarica il portafoglio
     buy: Acquista Dash
     shop: Acquista con Dash

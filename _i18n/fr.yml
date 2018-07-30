@@ -248,8 +248,7 @@ fr:
           Les services de parts de masternode permettent à des utilisateurs détenant moins de 1000 dashs de les faire fructifier.
       hosting-services-btn: Services d'hébergement de masternode
       p2p-text: |
-          Grâce à l'incitation financière, le réseau Dash, depuis son lancement en 2014, s'est agrandi jusqu'à atteindre 4500 masternodes, faisant du réseau pair-à-pair Dash l'un des plus grands au monde.
-          Plus de nœuds est synonyme de plus de services sécurisés, et de plus de capacités mises à disposition des utilisateurs de Dash depuis n'importe où dans le monde, 24 heures sur 24.
+          Grâce à la rétribution, le réseau Dash s'est étendu à plus de 4100 masternodes depuis son lancement en 2014, ce qui signifie que le réseau pair-à-pair Dash est un des plus grands au monde. Plus de nœuds veut dire plus de services sûrs, mais aussi plus de capacités pour les utilisateurs d'accéder à Dash depuis n'importe où dans le monde, 24 heures sur 24 et 7 jours sur 7.
       p2p-btn: Statistiques de réseau
     buy:
       title: Site officiel Dash | cryptomonnaie Dash
@@ -402,7 +401,7 @@ fr:
       download-link: Éléments graphiques vectoriels (.zip)
       icons: Icônes
       print-or-screens: Pour imprimer ou pour écran
-      disclaimer-text: Dash est actuellement en train d'adapter son site internet et tout autre élément à une nouvelle identité visuelle approuvée par le réseau. Utilisez les nouveaux fichiers et styles ci-dessous afin de remplacer les anciens.
+      disclaimer-text: Dash est actuellement en train d'adapter son site internet ainsi que tout autre élément à une nouvelle identité visuelle approuvée par le réseau. Utilisez les nouveaux fichiers et styles ci-dessous afin de remplacer les anciens.
       download-style-guide: Guide de style
       download-all-resources: Tous les fichiers
       logos: Logos
@@ -520,7 +519,6 @@ fr:
       wallets-desktop-subtitle: Les portefeuilles Dash pour ordinateur sont disponibles avec différentes caractéristiques et niveaux de sécurité.
       wallets-desktop-latest: >
           Dernière version : 3 juillet 2018
-      wallets-desktop-current-version: v0.12.3.1
       wallets-mobile-header: Téléphones mobiles et tablettes
       wallets-mobile-subtitle: Les portefeuilles mobiles Dash sont disponibles avec différentes caractéristiques et niveaux de sécurité, et ils fonctionnent sur votre appareil mobile (téléphone, tablette…).
       wallets-hardware-header: Portefeuilles matériels
@@ -558,11 +556,8 @@ fr:
       modal-win-core-source-code-key: Code source
       modal-win-core-source-code-value: .&#40;lien/source fermée&#41;
       modal-core-users-text: Utilisateurs ordinaires
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: Opérateurs de masternode
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: Opérateurs de pool
-      modal-core-pool-value: 0.12.3.1
     payments:
       title: Processeurs de paiement Dash
       hero-heading: Processus de paiement Dash
@@ -595,11 +590,8 @@ fr:
       modal-win-core-source-code-key: Code source
       modal-win-core-source-code-value: .&#40;lien/source fermée&#41;
       modal-core-users-text: Utilisateurs ordinaires
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: Opérateurs de masternode
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: Opérateurs de pool
-      modal-core-pool-value: 0.12.3.1
       disclaimer-text: >
           ATTENTION : cette liste n'est fournie qu'à titre informatif. Les services
           répertoriés n'ont pas été évalués ni approuvés par les développeurs Dash
@@ -664,7 +656,7 @@ fr:
       evolution-text: 'Quelle sera la suite ? Notre objectif est que les monnaies virtuelles deviennent si faciles d''utilisation que même votre grand-mère pourrait en avoir.
 
 
-        Dash Evolution permettra de s''inscrire et d''accéder à vos dashs depuis n''importe quel appareil ainsi que d''effectuer des paiements aussi facilement qu''avec PayPal, mais de manière complètement décentralisée. '
+        Dash Evolution permettra d''accéder à vos dashs depuis n''importe quel appareil ainsi que d''effectuer des paiements aussi facilement qu''avec PayPal, mais de manière complètement décentralisée. '
       evolution-btn: En savoir plus
       evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
       news-heading: Dernières nouvelles
@@ -701,12 +693,12 @@ fr:
       payments-method: Méthodes de paiement
       buy-dash-preference-title: Choisissez vos préférences et nous vous proposerons la meilleure solution pour acheter des dashs
       tooltip: |
-          Important : il s'agit du prix actuel pour un dash sur le marché. Le prix peut évoluer rapidement et nous ne pouvons garantir que vous pourrez acheter des dashs au même prix. Le prix n'inclut par les frais de transactions ou autre commission.
+          Important : il s'agit du prix actuel pour un dash sur le marché. Le prix peut évoluer rapidement et nous ne pouvons garantir que vous pourrez acheter des dashs au même prix. Le prix n'inclut pas les frais de transactions ou autre commission.
       buy-dash-table: Achetez des dashs
       guide-btn: Guide d'installation
       spend-btn: Dépenser vos dashs
       security-btn: Sécurité
-      otc-heading: De<br />gré à gré (OTC)
+      otc-heading: De gré à gré (OTC)
       otc-text: |
           Acheter ou vendre de larges quantités de dashs sur les plateformes d'échange peut entraîner un glissement du cours, conduisant l'acheteur ou le vendeur à recevoir moins qu'attendu. Les ordres d'achat importants font monter le cours, entraînant un surcoût. Les ordres de vente importants font l'inverse, entraînant un retour moindre pour les dashs que vous vendez. Heureusement, il existe les transactions de gré à gré (“over the counter”, OTC) dans lesquelles un tiers met en relation les acheteurs et les vendeurs, leur permettant de mener de larges transactions en-dehors des plateformes d'échange, sans glissement du cours. Il est ainsi possible d'obtenir ses dashs à un meilleur prix qu'en passant par une plateforme d'échange classique.
       otc-btn: Liste complète
@@ -905,7 +897,7 @@ fr:
     download: Télécharger le portefeuille
     buy: Acheter des dashs
     shop: Faire du shopping en dashs
-    debit: carte de débit Dash
+    debit: Carte de débit Dash
     update: Mise à jour
     evolution: Evolution
     participate: Contribuer
@@ -945,7 +937,7 @@ fr:
     discord: Discord
     forum: Forums Dash
     social: Réseaux sociaux
-    blog: News
+    blog: Actualités
     reddit: Reddit
     twitter: Twitter
     youtube: YouTube

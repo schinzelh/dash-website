@@ -218,13 +218,8 @@ ko:
 
           풀(Pool) 서비스는 1000개 미만의 대시를 소유한 사용자에게 마스터노드 접근성을 제공합니다(다수의 사용자가 1개 마스터노드 공유).
       hosting-services-btn: 마스터노드 호스팅 서비스
-      p2p-text: |+
-          p2p에 관한 텍스트. 인센티브 제도 덕분에, Dash 네트워크는 2014년 시작된 이래 4,100개의 마스터노드로 성장했으며, 이로써 Dash의 P2P 네트워크는 전세계 가장 큰 네트워크 중 하나가 되었습니다.
-          노드의 숫자가 많다는 것은 곧 안전한 서비스를 의미할 뿐만 아니라, 최종 사용자들이 전세계 언제 어디에서나 디지털 캐시에 접근할 수 있음을 나타냅니다.
-
-          p2p에 관한 텍스트. 인센티브 제도 덕분에, Dash 네트워크는 2014년 시작된 이래 4,100개의 마스터노드로 성장했으며, 이로써 Dash의 P2P 네트워크는 전세계 가장 큰 네트워크 중 하나가 되었습니다.
-          노드의 숫자가 많다는 것은 곧 안전한 서비스를 의미할 뿐만 아니라, 최종 사용자들이 전세계 언제 어디에서나 디지털 캐시에 접근할 수 있음을 나타냅니다.
-
+      p2p-text: |
+          인센티브 제도 덕분에, Dash의 네트워크는 2014년 시작된 이래로 4,100개의 마스터노드로 성장했으며, Dash의 P2P 네트워크는 전세계 가장 큰 네트워크 중 하나입니다. 노드가 많다는 것은 서비스의 안전성 역시 향상되었으며, 최종사용자가 디지털 캐시에 언제 어디서나 접근할 수 있도록 더 큰 거래 처리 용량을 제공한다는 것을 의미합니다.
       p2p-btn: 네트워크 통계
     buy:
       title: Dash 공식 웹사이트 | Dash 암호 화폐
@@ -460,7 +455,6 @@ ko:
       wallets-desktop-subtitle: Dash 데스크톱 지갑은 보안을 갖추었으며 다양한 기능을 제공합니다.
       wallets-desktop-latest: >
           가장 최신: 2018년 7월 3일
-      wallets-desktop-current-version: v0.12.3.1
       wallets-mobile-header: 모바일
       wallets-mobile-subtitle: Dash 모바일 지갑은 귀하의 모바일 기기(휴대폰, 태블릿...)을 통해 실행할 수 있으며, 강력한 보안을 비롯한 다양한 기능을 제공합니다.
       wallets-hardware-header: 하드웨어
@@ -498,11 +492,8 @@ ko:
       modal-win-core-source-code-key: 소스 코드
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: 일반 사용자
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: 마스터노드 운영자
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: 풀 운영자
-      modal-core-pool-value: 0.12.3.1
     payments:
       title: Dash 결제 프로세서
       hero-heading: Dash 결제 프로세싱
@@ -535,11 +526,8 @@ ko:
       modal-win-core-source-code-key: 소스 코드
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: 일반 사용자
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: 마스터노드 운영자
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: 풀 운영자
-      modal-core-pool-value: 0.12.3.1
       disclaimer-text: >
           DISCLAIMER: 이 목록은 정보 제공의 목적으로만 제공됩니다. 이곳에 나열된 서비스는 대시 개발자에 의하여 평가 및 보증되지
           않았으며, 이 정보의 정확성에 대해서도 보장하지 않습니다. 제3자 서비스를 사용할 때에는 주의를 기울여주십시오.
@@ -643,7 +631,7 @@ ko:
       guide-btn: 설치 가이드
       spend-btn: Dash 사용
       security-btn: 보안
-      otc-heading: 장외<br />거래 (OTC)
+      otc-heading: 장외거래(OTC)
       otc-text: |
           거래소 상에서 대량의 대시를 매도하거나 매수하는 경우 가격 하락이 발생하여 매도자나 매수자가 의도한 바 보다 적은 가치를 얻을 수 있습니다. 대량 매수 주문은 가격 인상을 초래하고, 더 많은 금액을 지불해야 합니다. 대량 매도 주문은 반대의 결과를 초래함으로써 당신이 매도한 Dash에 대해 더 적은 가치를 가져올 수 있습니다. 다행히도 '장외주문', 혹은 OTC라 불리는 솔루션이 존재합니다. 이 기능은 매도자와 매수자를 묶어 거래소 밖에서 큰 규모의 거래를 처리하여 새로운 웹사이트, PR 예산 등을 가격 하락 없이 처리할 수 있습니다. 이로써 귀하는  현재의 가격으로 여타 다른 거래소에서 가능한 것 보다 더 많은 코인을 얻을 수 있습니다. 따라서 그 외의 방법을 통하는 것 보다 더욱 쉽고 저렴하게 대시 포지션을 획득할 수 있습니다.
       otc-btn: 전체 목록

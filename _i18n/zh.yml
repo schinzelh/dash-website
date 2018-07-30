@@ -209,11 +209,7 @@ zh:
           主节点共享服务也可以使没有1000个达世币的用户架设主节点 (多用户共同架设1个主节点)
       hosting-services-btn: 主节点架设服务
       p2p-text: |
-          得益于奖励机制, 达世币自2014年发布以来, 已成长为拥有超过4,100个主节点服务器的网络, 意味着达世币网络是全球最大的点对点网络之一.
-          更多的节点带来更安全的服务, 同时能支持更多来自全球用户7*24小时接入数字货币.
-
-          得益于奖励机制, 达世币自2014年发布以来, 已成长为拥有超过4,100个主节点服务器的网络, 意味着达世币网络是全球最大的点对点网络之一.
-          更多的节点带来更安全的服务, 同时能支持更多来自全球用户7*24小时接入数字货币.
+          得益于达世币的奖励机制, 它的网络主节点自2014年发行以来已经增长到了4100个, 这意味着达世币P2P网络已经成为全球最大的网络之一. 更多的节点意味着更高的安全性能, 达世币能为更多来自全球各地的终端用户提供全天候的数字货币服务.
       p2p-btn: 网络状态
     buy:
       title: 达世币官方网站 | 达世币 加密数字货币
@@ -434,8 +430,7 @@ zh:
       wallets-desktop-header: 桌面钱包
       wallets-desktop-subtitle: 桌面钱包提供多样化的功能和安全性.
       wallets-desktop-latest: >
-          最新: 12th Jan 2018
-      wallets-desktop-current-version: v0.12.2.3
+          最新: 2018年7月3日
       wallets-mobile-header: 移动钱包
       wallets-mobile-subtitle: 达世币移动钱包通过手机或平板电脑等移动设备进行操作, 它提供多样化的功能和安全性.
       wallets-hardware-header: 硬件钱包
@@ -473,11 +468,8 @@ zh:
       modal-win-core-source-code-key: 源代码
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: 普通用户
-      modal-core-users-value: 0.12.2.3
       modal-core-masternode-text: 主节点运营者
-      modal-core-masternode-value: 0.12.2.3
       modal-core-pool-text: 矿池运营者
-      modal-core-pool-value: 0.12.2.3
     payments:
       title: 达世币支付处理商
       hero-heading: 达世币支付处理中
@@ -510,11 +502,8 @@ zh:
       modal-win-core-source-code-key: 源代码
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: 普通用户
-      modal-core-users-value: 0.12.2.3
       modal-core-masternode-text: 主节点运营者
-      modal-core-masternode-value: 0.12.2.3
       modal-core-pool-text: 矿池运营者
-      modal-core-pool-value: 0.12.2.3
       disclaimer-text: >
           免责声明: 此列表仅供参考使用. 这些服务商并未被达世币开发团队测试或认可, 不保证参考信息的准确性. 请自行判断, 酌情使用第三方服务.
     contact:
@@ -619,7 +608,7 @@ zh:
       guide-btn: 设置教程
       spend-btn: 使用达世币
       security-btn: 安全性
-      otc-heading: 场外 <br />交易 (OTC)
+      otc-heading: 场外交易 (OTC)
       otc-text: |
           在交易所购买或出售大量的达世币会导致价格的滑动, 相应造成买家或卖家所获得比预想要低的收益. 大量的买单会将价格推高, 支付过高费用, 而另一方面,大量卖单会造成相应的收益较少. 幸运的是有"场外交易",也就是OTC这样的解决方案,中间商将买家和买家匹配后,双方即可在交易所场外进行大额交易并避免价格滑动.对于每一个用户来说,这样的解决方案可以在相同的币价上获得比在任意交易所交易所获得的更多的币,也因此可以以更便宜的价格和更便捷的方式进入达世币市场.
       otc-btn: 完整列表

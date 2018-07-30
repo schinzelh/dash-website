@@ -205,10 +205,9 @@ ja:
 
           マスターノードシェアサービスによって1000 Dashを持っていないユーザーもマスターノードをセットアップする（数人のユーザーで一つのマスターノードをセットアップする）ことができます。
       hosting-services-btn: マスターノードホスティングサービス
-      p2p-text: |+
+      p2p-text: |
           マスターノードのインセンティブのおかげで、2014年Dashがローンチして以来4100個を超えるマスターノードを持つネットワークまで成長しました。これは世界最大のP2Pネットワークの一つです。
           より多くのノードはより安全なサービスにつながると同時に、世界中のユーザーが24時間いつでもデジタル通貨にアクセスできるようサポートできます。
-
       p2p-btn: ネットワークのデータ
     buy:
       title: Dash公式サイト | Dash
@@ -429,7 +428,6 @@ ja:
       wallets-desktop-subtitle: デスクトップ用のウォレットは様々な機能と高度なセキュリティーが実現されています。
       wallets-desktop-latest: >
           最新版: 2018年7月3日
-      wallets-desktop-current-version: バージョン0.12.3.1
       wallets-mobile-header: モバイルウォレット
       wallets-mobile-subtitle: モバイルウォレットはスマートフォンやタブレットなどのモバイル端末で操作できます。様々な機能と高度なセキュリティーが実現されています。
       wallets-hardware-header: ハードウェアウォレット
@@ -467,11 +465,8 @@ ja:
       modal-win-core-source-code-key: ソースコード
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: 一般ユーザー
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: マスターノードオペレーター
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: マイニングプールオペレーター
-      modal-core-pool-value: 0.12.3.1
     payments:
       title: Dash決済システム
       hero-heading: Dash決済処理
@@ -504,11 +499,8 @@ ja:
       modal-win-core-source-code-key: ソースコード
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: 一般ユーザー
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: マスターノードオペレーター
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: マイニングプールオペレーター
-      modal-core-pool-value: 0.12.3.1
       disclaimer-text: >
           免責事項：上記リストは参考として提供されております。上述の取引所はDashの開発チームによるテスト又は承認がされてないので、情報の正確性は保障されません。ご自分の判断でサードパーティーサービスをご利用ください。
     contact:
@@ -563,7 +555,10 @@ ja:
         より多くのノードはより安全なサービスにつながると同時に、世界中のユーザーが24時間いつでもデジタル通貨にアクセスできるようサポートできます。'
       network-growth-btn: ネットワークのデータ
       evolution-heading: Dashエボリューション（Evolution）
-      evolution-text: 次に私たちはデジタル通貨をおばあちゃんが使えるくらいシンプルにしたいと思っています。Dashエボリューション（Evolution）を使えば簡単に登録が完了し、どの端末からでも自分のアカウントにアクセスできます。また取引もPayPalのように簡単ですが、完全に非中央集権的に実行することができます。
+      evolution-text: '次に私たちはデジタル通貨をおばあちゃんが使えるくらいシンプルにしたいと思っています。
+
+
+        Dashエボリューション（Evolution）を使えば簡単に登録が完了し、どの端末からでも自分のアカウントにアクセスできます。また取引もPayPalのように簡単ですが、完全に非中央集権的に実行することができます。'
       evolution-btn: さらに調べる
       evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
       news-heading: 最新情報

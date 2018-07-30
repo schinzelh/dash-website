@@ -209,11 +209,7 @@ zh_HK:
           主節點共享服務也可以使沒有1000個達世幣的用戶架設主節點 (多用戶共同架設1個主節點)
       hosting-services-btn: 主節點架設服務
       p2p-text: |
-          得益於獎勵機制, 達世幣自2014年發布以來, 已成長為擁有超過4,100個主節點伺服器的網路, 意味著達世幣網路是全球最大的點對點網路之一.
-          更多的節點帶來更安全的服務, 同時能支持更多來自全球用戶7*24小時接入數字貨幣.
-
-          得益於獎勵機制, 達世幣自2014年發布以來, 已成長為擁有超過4,100個主節點伺服器的網路, 意味著達世幣網路是全球最大的點對點網路之一.
-          更多的節點帶來更安全的服務, 同時能支持更多來自全球用戶7*24小時接入數字貨幣.
+          得益於達世幣的獎勵機制, 它的網路主節點自2014年發行以來已經增長到了4100個, 這意味著達世幣P2P網路已經成為全球最大的網路之一. 更多的節點意味著更高的安全性能, 達世幣能為更多來自全球各地的終端用戶提供全天候的數字貨幣服務.
       p2p-btn: 網路狀態
     buy:
       title: 達世幣官方網站 | 達世幣 加密數字貨幣
@@ -435,7 +431,6 @@ zh_HK:
       wallets-desktop-subtitle: 桌面錢包提供多樣化的功能和安全性.
       wallets-desktop-latest: >
           最新消息: 2018年7月3日
-      wallets-desktop-current-version: v0.12.3.1
       wallets-mobile-header: 流動錢包
       wallets-mobile-subtitle: 達世幣流動錢包通過手機或平板電腦等移動設備進行操作, 它提供多樣化的功能和安全性.
       wallets-hardware-header: 硬體錢包
@@ -473,11 +468,8 @@ zh_HK:
       modal-win-core-source-code-key: 源代碼
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: 一般用戶
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: 主節點營運者
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: 礦池營運者
-      modal-core-pool-value: 0.12.3.1
     payments:
       title: 達世幣付款處理商
       hero-heading: 達世幣付款處理過程
@@ -510,11 +502,8 @@ zh_HK:
       modal-win-core-source-code-key: 源代碼
       modal-win-core-source-code-value: .&#40;link/ closed source&#41;
       modal-core-users-text: 一般使用者
-      modal-core-users-value: 0.12.3.1
       modal-core-masternode-text: 主節點營運者
-      modal-core-masternode-value: 0.12.3.1
       modal-core-pool-text: 礦池運營者
-      modal-core-pool-value: 0.12.3.1
       disclaimer-text: >
           免責聲明 : 此列表僅供參考。 此處列出的服務尚未得到達世幣開發人員的評估或認可，也不保證此信息的準確性。 使用第三方服務時請謹慎行事
     contact:
@@ -619,7 +608,7 @@ zh_HK:
       guide-btn: 安裝指南
       spend-btn: 使用達世幣
       security-btn: 安全
-      otc-heading: 場外 <br />交易 (OTC)
+      otc-heading: 場外交易 (OTC)
       otc-text: |
           在交易所買入或賣出大量的達世幣可能導致價格下滑，從而導致買方或賣方獲得的價值低於預期。大買單推高價格，導致多付。相當大的賣單執行相反的操作，導致您賣出的Dash的價值減少。幸運的是，有“場外交易”或場外交易解決方案，供應商與買賣雙方配對，允許他們在交易所之外進行大額交易，免於出現價格大幅波動，公關或預算等問題。給你的好處是，你可以在當前的價格內獲得在任何交易所上交易所得的更多。 因此，您可以比其他方式更容易/更便宜地進入達世幣巿場。
       otc-btn: 完整列表
