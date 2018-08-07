@@ -681,3 +681,31 @@
     -
      label: Web link
      url: "https://mydashwallet.org"
+
+- name: Abra
+  description: iOS Wallet
+  logo_url: /assets/img/wallets/abra.png
+  os: ios
+  type: mobile
+  vendor_id: abra
+  vendor_label: abra
+  control_type: abra
+  product_source_url:
+  links:
+    -
+     label: Download
+     url: "https://www.abra.com"
+
+- name: Abra
+  description: Android Wallet
+  logo_url: /assets/img/wallets/abra.png
+  os: android
+  type: mobile
+  vendor_id: abra
+  vendor_label: abra
+  control_type: abra
+  product_source_url:
+  links:
+    -
+     label: Download
+     url: "https://www.abra.com"
