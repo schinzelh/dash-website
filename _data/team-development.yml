@@ -301,3 +301,15 @@
   dashforum: dalibran
   team-title:
     - Development
+
+- name: Kreshnik Alidema
+  title: Senior Software Engineer (React/React Native)
+  description:
+  image: kreshnik_alidema.jpg
+  email: kreshnik.alidema@dash.org
+  keybase: https://keybase.io/kreshnikalidema
+  twitter:
+  dashforum-link: /kreshnik-alidema.29640/
+  dashforum: reshnik-alidema
+  team-title:
+    - Development
