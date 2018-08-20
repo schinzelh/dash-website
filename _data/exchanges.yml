@@ -587,3 +587,10 @@
   fees: N/A
   image: bxbit.png
   url:  https://3xbit.com.br
+
+- name: Coindirect
+  trading_pairs: BTC
+  fees: N/A
+  image: coindirect.png
+  url:  https://www.coindirect.com
+
