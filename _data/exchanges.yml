@@ -556,41 +556,46 @@
   trading_pairs: BTC
   fees: N/A
   image: Paycent.png
-  url:  https://paycent.com
+  url: https://paycent.com
 
 - name: Morphtoken
   trading_pairs: BTC
   fees: N/A
   image: Morphtoken.png
-  url:  https://www.morphtoken.com
+  url: https://www.morphtoken.com
 
 - name: Ebitcoinics
   trading_pairs: BTC
   fees: N/A
   image: ebitcoinics.png
-  url:  http://www.ebitcoinics.com
+  url: http://www.ebitcoinics.com
 
 - name: Switchain
   trading_pairs: BTC
   fees: N/A
   image: switchain.png
-  url:  https://www.switchain.com
+  url: https://www.switchain.com
 
 - name: NewCash
   trading_pairs: BTC
   fees: N/A
   image: newcash.png
-  url:  https://newc.com.br
+  url: https://newc.com.br
 
 - name: 3xbit
   trading_pairs: BTC
   fees: N/A
   image: bxbit.png
-  url:  https://3xbit.com.br
+  url: https://3xbit.com.br
 
 - name: Coindirect
   trading_pairs: BTC
   fees: N/A
   image: coindirect.png
-  url:  https://www.coindirect.com
+  url: https://www.coindirect.com
 
+- name: Bw
+  trading_pairs: BTC
+  fees: N/A
+  image: bw.png
+  url: https://www.bw.com
