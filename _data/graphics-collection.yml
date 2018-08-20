@@ -469,3 +469,63 @@
     -
       label: Full PDF
       url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens.pdf
+
+- type: logos
+  img-link: /logos/dash_accept/en/logo_accept.png
+  format:
+  background:
+  links:
+    -
+      label: Full PNG
+      url: /logos/dash_accept/en/logo_accept.png
+    -
+      label: Full JPG
+      url: /logos/dash_accept/en/logo_accept.jpg
+    -
+      label: Full AI
+      url: /logos/dash_accept/en/logo_accept.ai
+    -
+      label: Full SVG
+      url: /logos/dash_accept/en/logo_accept.svg
+
+- type: logos
+  img-link: /logos/dash_donation/en/logo_donation.png
+  format:
+  background:
+  links:
+    -
+      label: Full PNG
+      url: /logos/dash_donation/en/logo_donation.png
+    -
+      label: Full JPG
+      url: /logos/dash_donation/en/logo_donation.jpg
+    -
+      label: Full AI
+      url: /logos/dash_donation/en/logo_donation.ai
+    -
+      label: Full SVG
+      url: /logos/dash_donation/en/logo_donation.svg
+
+- type: logos
+  img-link: /logos/dash_accept/es/logo_accept.png
+  format:
+  background:
+  links:
+    -
+      label: Full PNG
+      url: /logos/dash_accept/es/logo_accept.png
+    -
+      label: Full EPS
+      url: /logos/dash_accept/es/logo_accept.eps
+
+- type: logos
+  img-link: /logos/dash_accept/es/logo_accept_border.png
+  format:
+  background:
+  links:
+    -
+      label: Full PNG
+      url: /logos/dash_accept/es/logo_accept_border.png
+    -
+      label: Full EPS
+      url: /logos/dash_accept/es/logo_accept_border.eps
