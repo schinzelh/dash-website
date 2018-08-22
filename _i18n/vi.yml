@@ -1,0 +1,947 @@
+vi:
+  pages:
+    merch:
+      title: Dash trong kinh doanh
+      description: Mua hàng hoá từ đối tác của chúng tôi
+      hero-heading: Cơ chế kinh doanh
+      hero-text: |
+          HODL bây giờ là đối tác thương mại chính thức của Dash. Hãy truy cập trang web của họ tại đây <a href='https://alwayshodl.com/' target='_blank'>www.alwayshodl.com</a>
+      disclaimer-text: |
+          <a href='https://alwayshodl.com/' target='_blank'>alwayshodl.com1</a>là một cửa hàng bán hàng độc lập, Dash.org không chịu trách nhiệu cho các đơn hàng, và vận chuyển đúng thời gian hay gì đó tương tự
+    school:
+      title: Trường học Dash
+      description: Dash. Làm thế nào?
+      hero-heading: Trường học Dash
+      hero-text: |
+          bởi Amanda B. Johnson
+      hero-btn: Xem ngay
+      hero-you-btn: YouTube
+      header-video-1: |
+          Blockchain là gì? | Trường học Dash #1
+      description-video-1: |
+          Có lẽ bạn đã nhìn thấy từ này trên bìa của tạp chí The Economist. Hoặc có thể bạn nhìn thấy trên Bloomberg, Yahoo Finance, hoặc thậm chí là Wired. Do dù bạn có nghe về nó, nhưng có lẽ nó chưa được giải thích một cách đầy đủ. Hãy để Amanda B. Johnson giới thiệu với bạn về khái niệm này mà không sử dụng những thuật ngữ kỹ thuật hoặc những từ mà bạn chưa hiểu trong loạt video có tên Dash School.
+      header-video-2: |
+          Blockchain hoạt động ra sao? | Trường học Dash #2
+      description-video-2: |
+          Bây giờ bạn đã có được những kiến thức cơ bản về blockchain là gì -- nhưng làm thế nào để nó có thể làm được những gì mà chúng ta nói nó có thể thực hiện? Ai có quyền "viết" xuống nó, khi nào, và tại sao? Làm thế nào mà một blockchain trở nên khác biệt với một hệ cơ sở dữ liệu cổ điển? Amanda B. Johnson sẽ dẫn bạn đến với kiến thức đó trong bài hai của Dash School.
+      header-video-3: |
+          Làm thế nào mà Blockchain có thể là một Hệ thống tiền tệ? | Trường học Dash #3
+      description-video-3: |
+          Bây giờ bạn đã hiểu những kiến thức cơ bản về blockchain và cách nó hoạt động ra sao -- bây giờ nó hoạt động như thế nào đối với tiền? Công việc của mạng lưới blockchain là gì đối với tiền tệ và giải pháp thanh toán? Amanda B. Johnson sẽ giải thích trong bài ba của Dash School.
+      header-video-4: |
+          Blockchain của Dash được cấp vốn & Quản trị như thế nào? | Trường học Dash #4
+      description-video-4: |
+          Bây giờ bạn đã nắm được kiến thức về mạng lưới blockchain cung cấp tính năng tiền như là một dịch vụ và học được rất nhiều cách mà Dash được tổ chức ra sao -- Tại sao và làm thế nào để một DAO (tổ chức tự quản phi tập trung) hoạt động để cung cấp dịch vụ về tiền tệ cho khách hàng? Amanda B. Johnson sẽ đưa bạn đến kiến thức này thông qua bài thứ tư của Dash School.
+      header-video-5: |
+          Làm thế nào mà Dash có thể cung cấp cơ chế thanh toán Tức thời & Riêng tư? | Trường học Dash #5
+      description-video-5: |
+          Bạn có biết rằng blockchain của Dash là mạng lưới duy nhất mà cung cấp cả giải pháp thanh toán tức thời và riêng tư? Hoàn toàn đúng như vậy. Hãy tìm hiểu làm thế nào mà các "masternode" trở nên độc đào trong bài năm của Dash School, được trình bày bởi Amanda B. Johnson.
+      header-video-6: |
+          Làm thế nào để Tiền Số có thể được mọi người sử dụng? | Trường học Dash #6
+      description-video-6: |
+          Bây giờ bạn đã nắm toàn bộ câu chuyện -- Dash hoạt động như thế nào -- bạn muốn biết làm thế nào chúng ta có thể làm cho Dash có thể sử dụng được với những người bình thường. Rất vui vì bạn đã hỏi như vậy! Bài thứ sáu cũng là bài cuối cùng của Dash School, trình bày bởi Amanda B. Johnson sẽ giới thiệu "Sự tiến hoá": của sản phẩm và chúng tôi dự đoán sẽ đưa tiền số về tay những người dùng thông thường lần đầu tiên trên thế giới.
+      school-about-heading: >
+          Về Dash: detailed
+      school-descr: >
+          Dash: Detailed đã được xuất bản mỗi thứ tư hàng tuần từ khi lần đầu được
+          công bố vào tháng 6 năm 2016.
+      school-text: >
+          Được trình bày và biên soạn bởi Amanda B. Johnson, và được sản xuất bởi
+          Pete Eyre, xê ri video này được cấp vốn trực tiếp bởi ngân quỹ của Dash
+          dựa trên sự bỏ phiếu của những cổ đông, tạo nên một chương trình trên Youtube
+          đầu tiên trên thế giới được cấp vốn bởi blockchain. Với việc phân tích sự
+          kiện, cập nhật tin tức sản phẩm, và các cuộc phỏng vấn cho những chuyên
+          gia trong ngành, DASH: Details rất phù hợp cho các nhà đầu tư giầu kinh
+          nghiệm cũng như những người mới.
+      school-team-heading: >
+          Dash Detailed: Team
+    legal:
+      title: Luật pháp có thể áp dụng cho DASH như thế nào
+      description: Tải phần mềm ví và nhận Dash từ một sàn giao dịch.
+      hero-heading: Luật pháp có thể áp dụng cho DASH như thế nào
+      hero-text: Mục đích của DASH DAO là quảng bá, bảo vệ và chuẩn hoá DASH. Theo sứ mệnh mà chúng tôi đã công bố, chúng tôi nhận được những đòi hỏi về xử lý một vài khía cạnh của Dash xử lý theo luật pháp Hoa Kỳ. Mục đích của tài liệu này là xác định những thắc mắc chung nhất và giải thích cách mà chúng tôi tin rằng luật pháp được áp dụng với DASH. Nó không phải là những quan điểm pháp lý, và bạn nên tham khảo những luật sư của mình trước khi có thể tin cậy vào nó. Tuy nhiên, nó có nghĩa về xác định vị trí của chúng ta trên phương diện luật pháp, và luật pháp nên được diễn dịch thế nào cho đúng đắn.
+      hero-tax-btn: Xử lý vấn đề thuế
+      hero-compliance-btn: Phù hợp Tiền thường - DASH
+      сogent-heading: >
+          Cogent Law Package:
+      criminally-heading: LIỆU NGƯỜI VẬN HÀNH MASTERNODE PHẢI CHỊU TRÁCH NHIỆM HÌNH SỰ VỀ NHỮNG GIAO DỊCH QUA MASTERNODE CỦA HỌ?
+      criminally-text: |
+          Một khía cạnh cần có sự nghiên cứu pháp lý đó là những yêu cầu về việc tuân thủ để tạo điều kiện cho các sàn giao dịch Dash - Tiền Fiat: là tên chung cho các loại tiền thông thường. Điều này có thể ở dạng vận hành các máy ATM hoặc sử dụng cơ chế để các cá nhân cung cấp dịch vụ đổi Dash sang tiền Fiat và ngược lại.
+      criminally-btn: TIỀN THƯỜNG - DASH / Phù hợp với ATM
+      treatment-heading: Xử lý vấn đề thuế của các chủ Masternode của DASH là gì?
+      treatment-text: >
+          Phần thưởng khối / DASH góp vốn / Lợi nhuận Tài chính / Trách nhiệm chính
+          / Trách nhiệm thứ cấp / ... là những điểm mà chúng tôi sẽ trả lời trong
+          phần này
+      treatment-text-hero: NHỮNG NGƯỜI VẬN HÀNH MASTERNODE ĐƯỢC ĐỐI XỬ THẾ NÀO DƯỚI LUẬT THUẾ HOA KỲ?
+      treatment-btn: Danh sách đầy đủ
+      treatment-masternode-heading: Xử lý vấn đề thuế của Masternode
+      vitrtual-kiosk-heading: Hướng dẫn nhanh để vận hành một Ki-ốt Tiền ảo
+      learn-more-btn: Tìm hiểu thêm
+      audio-heading: Hướng dẫn bằng âm thanh
+      audio-text: Chuyển đổi tiền địa phương sang Dash và gửi nó vào ví của bạn
+      audio-text-btn: Mua Dash
+      report-heading: Làm quen với một số báo cáo
+      report-heading-btn: Tìm hiểu thêm
+      docs-heading: Làm quen với tài liệu
+      docs-heading-btn: Tìm hiểu thêm
+      atm-heading: Mua Dash tại một ATM
+      atm-text: Mua Dash một cách tức thời từ một máy ATM ở đất nước bạn
+      atm-btn: Vị trí đặt máy ATM
+      shop-heading: Mua hàng trực tiếp với Dash
+      shop-text: Mua hàng riêng tư và tức thời qua mạng, trực tiếp từ ví Dash của bạn
+      shop-btn: Thêm các người bán hàng
+      visa-stores: Mua hàng tại các cửa hàng Visa
+      visa-text: Thẻ ghi nợ Dash-Visa không cần trả phí quy đổi ngoại tệ và thanh toán bằng việc "chạm &amp; trả"
+      visa-btn: Lấy Shake
+    exchanges:
+      title: Các sàn giao dịch
+      description: Mua Dash tại những sàn giao dịch và các nhà môi giới
+      hero-heading: Danh sách các sàn giao dịch
+      hero-text: |
+          Những danh sách này bao gồm tất cả các sàn giao dịch trao đổi Dash (theo thứ tự chữ cái), bao gồm cả những sàn có lượng giao dịch thấp <a href='https://coinmarketcap.com/currencies/dash/#markets' target='_blank'>Xem Thống kê thị trường</a> để có thêm thông tin chi tiết.
+      hero-btn: Tích hợp Dash
+      hero-getlisted-btn: Để được đưa vào danh sách
+      disclaimer-text: >
+          TUYÊN BỐ TỪ CHỐI TRÁCH NHIỆM: Danh sách này chỉ cung cấp với mục đích thông
+          tin. Các dịch vụ được liệt kê ở đây chưa được thử nghiệm và giới thiệu bởi
+          các nhà phát triển Dash và cũng không có đảm bảo rằng những thông tin đó
+          là chính xác. Bạn hãy tự đánh giá khi sử dụng dịch vụ của các nhà cung cấp
+          thứ 3.
+    404-page:
+      hero-heading: >
+          404
+      hero-text: Không tìm thấy trang
+      hero-forum-btn: Diễn đàn chính thức
+      hero-discussion-btn: Thảo luận
+      hero-social-btn: Ứng dụng mạng xã hội
+      hero-news-btn: Tin tức & Thông tin
+      hero-development-btn: Sự phát triển
+      hero-masternodes-btn: Các Masternode
+      hero-video-btn: Video &amp; Âm thanh
+    mining:
+      title: Trang web chính thức của Dash | Tiền điện tử Dash
+      hero-heading: Đào coin
+      hero-text: |
+          Nền tảng của Dash là blockchain của nó, nó là một sổ cái phi tập trung và là nơi lưu trữ tất cả các giao dịch của hệ thống. Blockchain này được đảm bảo thông qua một cơ chế đồng thuận gọi là "Proof of Work" (PoW).
+
+          Thông qua một quá trình gọi là "đào", người ta dùng những máy tính đặc biệt để giải quyết những vấn đề toán học rất khó khăn. Nếu giải pháp của họ là đúng, họ sẽ nhận được quyền để tạo một khối mới và thêm nó vào chuỗi khối - blockchain.
+
+          Một khi mạng lưới kiểm tra rằng vấn đề đã được giải quyết một cách chính xác, một khối mới sẽ được đưa vào blockchain và thợ mỏ sẽ được trả thưởng bằng đồng tiền Dash.
+      hero-how-to-btn: Làm thế nào để bắt đầu
+      hero-asic-btn: Phần cứng ASIC
+      hero-guides-btn: Các hướng dẫn
+      pools-heading: Các bể đào
+      pools-text: |
+          TUYÊN BỐ TỪ CHỐI TRÁCH NHIỆM: Danh sách này cung cấp chỉ với mục đích cung cấp thông tin. Các dịch vụ được liệt kê ở đây chưa được thử nghiệm và giới thiệu bởi các nhà phát triển của Dash và không có đảm bảo rằng nó được tạo ra với những thông tin chính xác. Bạn hãy thử nghiệm và tự đánh giá khi sử dụng về các dịch vụ của bên thứ ba. Nếu bạn muốn dịch vụ của mình được đưa vào danh sách này thì hãy liên lạc với <a href='mailto:contact@dash.org'>contact@dash.org</a>
+      pools-masternode-btn: Đào coin so với Masternode
+      pools-masternode-text: |
+          Dash, cũng giống như Bitcoin và hầu hết các loại tiền số khác, đó là dựa trên sổ cái phi tập trung lưu lại tất cả các giao dịch, nó được biết đến với cái tên là blockchain hay chuỗi khối. Blockchain được đảm bảo thông qua một cơ chế đồng thuận; trong trường hợp này thì cả Dash và Bitcoin đều dùng cơ chế đồng thuận gọi là Proof of Work (PoW). Các thợ mỏ cố gắng giải quyết những vấn đề khó khăn với các máy tính chuyên biệt, và khi họ giải quyết được vấn đề, họ sẽ nhận được quyền để tạo khối và đưa khối mới vào blockchain. Nếu tất cả những người dùng khác đang chạy phần mềm đồng ý rằng vấn đề đã được giải quyết một cách chính xác, thì khối được thêm vào blockchain và thợ mỏ đó sẽ được trao thưởng.
+      how-start-heading: Làm thế nào để bắt đầu đào
+      asic-heading: Phần cứng đào ASIC
+      asic-text: >
+          Máy tính chuyên biệt gọi là Mạch tích hợp Chuyên biệt cho Ứng dụng cụ thể
+          (viết tắt theo tiếng Anh là ASIC) được thiết kế để giải quyết vấn đề Proof
+          of Work của Dash với tính hiệu quả tốt nhất. Chi tiết về các dòng máy ASIC
+          cho Dash trên thị trường có thể tìm thấy ở đây:
+      asic-pinidea-btn: ASIC Pinidea X11 Miner DR-1
+      asic-pinidea-usb-btn: ASIC Pinidea X11 USB DU-1
+      asic-ibelink-miner: ASIC iBeLink DM384M X11
+      asic-baikal-mini-miner: ASIC X11 Baikal Mini Miner
+      asic-baikal-miner: ASIC Baikal A900 X11
+      asic-all-btn: Đào bằng ASIC
+      cpu-gpu-heading: Hướng dẫn (CPU / GPU)
+      cpu-gpu-text: >
+          Việc đào với CPU / GPU hiện giờ không hiệu quả về mặt chi phí - hãy cẩn
+          thận. Đây là một cách tương đối đơn giản và các ví dụ sẽ được đưa ra để
+          đạt được tốc độ băm nhanh nhất có thể được cho CPU của bạn, nhưng hãy nhớ
+          rằng có những máy đào tối ưu hơn đã có thể tồn tại, và tôi khuyên bạn rằng
+          hãy chú ý theo dõi những trang web chuyên về đào coin như dưới đây để được
+          cập nhật những thông tin mới nhất khi chúng được ra mắt.
+      cpu-mining-btn: Đào coin bằng CPU
+      sg-miner-btn: SGminer / các card đồ hoạ
+      pools-stat-heading: Thống kê Pool
+      amd-mining-btn: Đào coin bằng GPU
+      description-text-hero: >
+          Quản trị trong một dự án phi tập trung là rất khó, bởi vì theo định nghĩa
+          nó không có thẩm quyền trung tâm nào để ra quyết định cho dự án. Ở Dash
+          những quyết định như vậy được thực hiện bởi một mạng lưới, đó là các chủ
+          của các masternode. Hệ quản trị phi tập trung viết tắt theo tiếng Anh là
+          DGBB là hệ thống cho phép các masternode bỏ phiếu thông qua hoặc không thông
+          qua các đề xuất, mà sau đó có thể được thực hiện (hoặc không) bởi những
+          nhà phát triển của Dash. Một ví dụ điển hình là đầu năm 2016, khi nhóm nòng
+          cốt Dash Core gửi một đề xuất cho mạng lưới để xin phép về việc liệu có
+          nên tăng kích thước khối lên 2 MB. Chỉ trong vòng 24 giờ, đã có sự đồng
+          thuận cho sự thay đổi này. So với Bitcoin nơi có những tranh cãi về việc
+          thay đổi này đã mất một khoảng thời gian chừng 3 năm.
+      description: >
+          DGBB cũng có nghĩa là Dash tự cấp vốn để phát triển chính nó. Trong khi
+          các dự án khác phải phụ thuộc vào sự tài trợ hoặc đào trước một lượng coin,
+          Dash sử dụng 10% phần thưởng khối để cấp vốn cho sự phát triển của chính
+          nó. Mỗi khi một block được khai thác, 45% phần thưởng sẽ được trả cho thợ
+          mỏ, 45% phần thưởng sẽ được trả cho một masternode, và 10% còn lại không
+          được tạo ra cho đến cuối tháng. Trong tháng, bất kỳ ai cũng có thể lập một
+          đề xuất xin cấp vốn và gửi cho mạng. Nếu đề xuất đó được ít nhất 10% các
+          masternode đồng ý, thì cuối tháng sẽ có một xê ri các "siêu khối" được tạo
+          ra. Tại thời điểm đó, phần thưởng khối mà chưa được chi trả (10% phần thưởng
+          của mỗi khối) sẽ được dùng để cấp vốn cho các đề xuất. Và như vậy mạng lưới
+          Dash tự cấp vốn cho nó bằng việc dành riêng 10% phần thưởng khối cho ngân
+          sách các dự án.
+      governance-meaning: Cơ chế quản trị là gì và nó có ý nghĩa như thế nào đối với Dash
+      voting-header: Làm thế nào để bỏ phiếu
+      voting-automatic: Làm thế nào để bỏ phiếu
+      voting-automatic-text: >
+          Có vài cách để các masternode có thể bỏ phiếu cho các đề xuất. Hãy xem từ
+          link dưới đây để có hướng dẫn cho từng cách.
+      voting-guide-btn: Hướng dẫn - Amanda B.
+      voting-manual-btn: Bỏ phiếu bằng tay (trong ví QT)
+      voting-central-btn: DashCentral
+      voting-tools: Các công cụ quản trị
+      voting-tools-text: >
+          Cộng đồng Dash đã tạo ra nhiều các công cụ khác nhau để theo dõi quy trình
+          xử lý ngân sách giúp cho việc bỏ phiếu. Nhóm Dash Core cũng đã cung cấp
+          một công cụ sinh đề xuất để giúp việc cho việc gửi đề xuất lên mạng lưới.
+      generator-link: Bộ sinh Đề xuất Ngân sách
+      dashcentral-link: DashCentral
+      votetracker-link: VoteTracker
+      budget-monitoring-link: Theo dõi ngân sách
+      proposal-status-link: Trạng thái Đề xuất
+      proposal-service: Dịch vụ Tự động hoá Đề xuất
+    masternodes:
+      title: Trang web chính thức của Dash | Tiền điện tử Dash
+      description: Dash là Tiền Mặt Số
+      hero-heading: Các Masternode
+      hero-text: Masternode là các máy tính chạy một phần mềm ví Dash và ra các quyết định, ví dụ như khoá các giao dịch với InstantSend, hợp tác với nhau để trộn các coin, và bỏ phiếu cho việc cấp vốn.
+      hero-what-btn: Masternode là gì?
+      hero-how-btn: 'Làm thế nào để cài đặt Masternode '
+      hero-network-btn: Mạng lưới Masternode
+      hero-masternode-mining-btn: Masternode so với Đào
+      marsternode-text: Masternode yêu cầu phải có đặt cọc 1000 Dash, và một địa chỉ tĩnh, và máy có thể vận hành liên tục 24 giờ mỗi ngày mà không có nhiều hơn ít nhất một giờ bị mất kết nối. Masternode được trả 45% phần thưởng của mỗi khối, nó sẽ được gửi đến cho các masternode một cách lần lượt. Nói chung, khoảng 2 Dash sẽ được gửi cho mỗi masternode cứ mỗi thời gian khoảng 7 ngày.
+      what-heading: MASTERNODE LÀ GÌ?
+      earn-heading: Thu nhập từ Masternode
+      earn-text: |
+          Masternode tiêu tốn tiền bạc và công sức để quản lý và vận hành và như vậy nó được trả công bằng việc chia sẻ phần thưởng khối để tạo động lực. Với số lượng masternode hiện nay và phần thưởng mà các masternode nhận được xấp xỉ 11% trên chi phí đầu tư 1000 Dash cho năm 2016. Phần thưởng này sẽ giảm đi cho các năm tiếp theo nhưng giá trị của Dash sẽ tiếp tục tăng và nguồn cun Dash sẽ giảm xuống, như vậy các masternode vẫn có đủ động lực cần thiết.
+
+          Tính toán trên không bao gồm các khoản phí giao dịch mà masternode nhận được khi có người dùng sử dụng các dịch vụ của nó (InstantSend và PrivateSend).
+      what-hero-heading: Masternode là gì?
+      instantiend-text: InstantSend (giao dịch tức thời). Ngược lại, Bitcoin cần khoảng 10 phút cho một xác thực thanh toán.
+      private-send-text: (giao dịch ẩn danh). Trái ngược với giao dịch Bitcoin là hoàn toàn công khai và có thể lần theo. Chỉ có các danh tính của các địa chỉ là ẩn danh mà thôi.
+      governance-text: (masternode quản trị, và cấp vốn phát triển blockchain). Trái ngược với Bitcoin là được kiểm soát bởi một số thợ mỏ lớn và được cấp vốn bởi các tổ chức tập trung thứ 3 vì lợi ích riêng của họ.
+      evolution-text: một bộ xử lý thanh toán phi tập trung (giống như Paypal phi tập trung).
+      host-heading: LƯU GIỮ MỘT MASTERNODE
+      host-text: |
+          1000 Dash: Nhiều người cho rằng đó là phần khó nhất. Dash có thể mua được trên các sàn giao dịch như Poloniex, Bittrex và dịch vụ của Shapeshift cũng là một cách tốt. Để có được một danh sách đầy đủ những nơi bạn có thể thu nhận Dash hãy click vào đây.
+
+          Một máy chủ hoặc máy chủ ảo VPS được cài đặt Linux: Cho mục đích hướng dẫn này chúng tôi sử dụng Ubuntu 14.04 LTS. Chúng tôi cũng khuyên bạn sử dụng những dịch vụ VPS giá rẻ như Vultr và DigitalOcean dù bất kỳ dịch vụ tương tự nào cũng có thể cung cấp. Nói chung một cấu hình thấp là đủ. Tôi sử dụng dịch vụ VPS chỉ 5 USD mỗi tháng từ Vultr và nó hoạt động tốt.
+
+          Một địa chỉ IP cố định: Chúng thường đi cùng với máy chủ/máy chủ ảo.
+
+          Một ít thời gian: Khi tôi lần đầu làm việc với masternode, có một số hướng dẫn để cài đặt mà bạn có thể tìm thấy để làm theo. Nó làm tôi mất vài ngày để tìm ra cách tốt nhất để làm mọi thứ. Tuy nhiên, quy trình thực hiện thì chỉ mất vài phút thôi. Sau đây là một số hướng dẫn mà tôi hy vọng rằng nó sẽ giúp cho bạn thực hiện dễ dàng hơn.
+
+          Nếu bạn không muốn phải cài đặt và bảo trì masternode của riêng mình, bạn cũng có thể trả một chút cho những nhà vận hành masternode thì sẽ làm cho việc này đơngianr hơn rất nhiểu. Có một số dịch vụ tốt có thể tìm thấy ở đây.
+      host-btn: Khởi động Masternode
+      hosting-services: Dịch vụ lưu trữ Masternode
+      hosting-services-text: |
+          Có rất nhiều dịch vụ lưu trữ không cần tin cậy. Những dịch vụ này chỉ cung cấp việc cài đặt hệ thống cho VPS, còn ví và coin thì vẫn bạn nắm giữ (không cần tin cậy ai cả).
+
+          Những dịch vụ Góp Nhau cung cấp việc sở hữu một phần masternode nếu bạn không có đủ 1000 Dash (nhiều người phải chung nhau một Masternode).
+      hosting-services-btn: Dịch vụ lưu trữ Masternode
+      p2p-text: |
+          Nhờ có việc tạo động lực, mạng lưới Dash đã phát triển đến 4,100 masternode từ khi lần đầu ra mắt vào năm 2014, điều đó có nghĩa mạng lưới ngang hàng của Dash là một trong những mạng lưới ngang hàng lớn nhất thế giới. Nhiều nút có nghĩa là nhiều dịch vụ bảo đảm, và nhiều khả năng để phục vụ nhu cầu tiền số cho người dùng cuối ở bất cứ nơi nào trên thế giới với 24/7 tức là 24 giờ mỗi ngày và 7 ngày mỗi tuần.
+      p2p-btn: Thống kê mạng
+    buy:
+      title: Trang web chính thức của Dash | Tiền điện tử Dash
+      description: Dash là Tiền mặt kỹ thuật số
+      hero-heading: Làm thế nào để mua Dash
+      hero-text: Hướng dẫn đơn giản cách mua Dash trên các sàn giao dịch trực tuyến
+      exchanges-btn: Mua với tiền thông thường
+      brokers-btn: Mua với tiền số
+      otc-btn: OTC
+      local-btn: Các thị trường địa phương
+      exchanges-heading: Các sàn giao dịch
+      brokers-heading: Các nhà môi giới
+      otc-heading: Thị trường không chính thức
+      dashous-text: Làm thế nào để sử dụng
+      woc-text: Làm thế nào sử dụng Wall of Coins
+      local-heading: Các thị trường địa phương
+    governance:
+      title: Trang web chính thức của Dash | Tiền điện tử Dash
+      hero-heading: Hệ quản trị phi tập trung
+      hero-text: >
+          Quản trị phi tập trung bởi Blockchain, hay DGBB, là nỗ lực của Dash để giải
+          quyết hai vấn đề quan trọng trong lĩnh vực tiền số: đó là quản trị và cấp
+          vốn.
+      hero-how-to-btn: DGBB là gì
+      hero-tools-btn: Công cụ
+      description-text-hero: >
+          Quản trị trong một dự án phi tập trung là rất khó, bởi vì theo định nghĩa
+          nó không có thẩm quyền trung tâm nào để ra quyết định cho dự án. Ở Dash
+          những quyết định như vậy được thực hiện bởi một mạng lưới, đó là các chủ
+          của các masternode. Hệ quản trị phi tập trung viết tắt theo tiếng Anh là
+          DGBB là hệ thống cho phép các masternode bỏ phiếu thông qua hoặc không thông
+          qua các đề xuất, mà sau đó có thể được thực hiện (hoặc không) bởi những
+          nhà phát triển của Dash. Một ví dụ điển hình là đầu năm 2016, khi nhóm nòng
+          cốt Dash Core gửi một đề xuất cho mạng lưới để xin phép về việc liệu có
+          nên tăng kích thước khối lên 2 MB. Chỉ trong vòng 24 giờ, đã có sự đồng
+          thuận cho sự thay đổi này. So với Bitcoin nơi có những tranh cãi về việc
+          thay đổi này đã mất một khoảng thời gian chừng 3 năm.
+      description: >
+          DGBB cũng có nghĩa là Dash tự cấp vốn để phát triển chính nó. Trong khi
+          các dự án khác phải phụ thuộc vào sự tài trợ hoặc đào trước một lượng coin,
+          Dash sử dụng 10% phần thưởng khối để cấp vốn cho sự phát triển của chính
+          nó. Mỗi khi một block được khai thác, 45% phần thưởng sẽ được trả cho thợ
+          mỏ, 45% phần thưởng sẽ được trả cho một masternode, và 10% còn lại không
+          được tạo ra cho đến cuối tháng. Trong tháng, bất kỳ ai cũng có thể lập một
+          đề xuất xin cấp vốn và gửi cho mạng. Nếu đề xuất đó được ít nhất 10% các
+          masternode đồng ý, thì cuối tháng sẽ có một xê ri các "siêu khối" được tạo
+          ra. Tại thời điểm đó, phần thưởng khối mà chưa được chi trả (10% phần thưởng
+          của mỗi khối) sẽ được dùng để cấp vốn cho các đề xuất. Và như vậy mạng lưới
+          Dash tự cấp vốn cho nó bằng việc dành riêng 10% phần thưởng khối cho ngân
+          sách các dự án.
+      governance-meaning: Quản trị là gì và điều đó có nghĩa thế nào đối với Dash
+      voting-header: Làm thế nào để bỏ phiếu
+      voting-automatic: Bỏ phiếu tự động
+      voting-automatic-text: >
+          Một trong những thách thức lớn nhất trong việc tạo ra một nền tảng tiền
+          số đó là sự đảm bảo rằng bạn có thể tạo ra một hệ thống quản trị phi tập
+          trung để quản lý, cấp vốn, duy trì và mở rộng dự án. Thành phần quan trọng
+          này bị bỏ sót trong tất cả các loại tiền số cho đến nay, phản ứng tự nhiên
+          là tạo ra một tổ chức phi lợi nhuận có nhiệm vụ duy trì giao thức cốt lõi
+          và quảng bá cho coin nhưng nó lại không thực sự liên kết với những người
+          nắm giữ coin theo một cách có ý nghĩa. Cách tiếp cận này thể hiện một số
+          vấn đề mà chúng ta có thể thấy được từ những kinh nghiệm với các nền tảng
+          tiền số cũ hơn.
+      voting-guide-btn: Hướng dẫn - Amanda B.
+      voting-manual-btn: Bỏ phiếu bằng tay (trong ví QT)
+      voting-central-btn: DashCentral
+      voting-tools: Các công cụ quản trị
+      voting-tools-text: >
+          Hệ thống sẽ hoạt động như là một cơ chế bỏ phiếu phi tập trung được thiết
+          lập trong phần mềm, nơi ngân sách cho các dự án cụ thể được đề xuất, sau
+          đó các masternode sẽ bỏ phiếu cho chúng. Mỗi một dự án, nếu được thông qua,
+          sẽ được cấp vốn một cách trực tiếp từ blockchain đến người thực hiện công
+          việc. Với hệ thống này, chúng ta có thể thuê các nhà phát triển và trả công
+          cho họ trực tiếp sau khi đề xuất công việc được thông qua theo một cách
+          phi tập trung.
+      generator-link: Bộ sinh Đề xuất Ngân sách
+      dashcentral-link: DashCentral
+      votetracker-link: VoteTracker
+      budget-monitoring-link: Theo dõi ngân sách
+      proposal-status-link: Trạng thái Đề xuất
+      proposal-service: Dịch vụ Tự động hoá Đề xuất
+    woocommerce:
+      title: Trang web chính thức của Dash | Tiền điện tử Dash
+      description: Dash là Tiền mặt kỹ thuật số
+      hero-heading: WooCommerce
+      hero-text: Lấy WooCommerce cho Dash
+      hero-btn: Mã nguồn trên Github
+      hero-btn-download: Tải xuống file Zip
+      hero-description: Hãy chắc chắn rằng website của bạn thoả mãn điều kiện
+      hero-description-link: yêu cầu kỹ thuật
+      plugin-heading: >
+          WooCommerce là gì
+      plugin-text: WooCommerce là một plugin thương mại điện tử không mất phí nó cho phép bạn có thể bán bất cứ thứ gì một cách khá đẹp. Nó được tạo ra để tích hợp dễ dàng với WordPress, WooCommerce là một giải pháp thương mại điện tử được ưa chuộng trên thế giới mà nó cung cấp cho cả chủ gian hàng và những nhà phát triển có toàn quyền kiểm soát.
+      feature-private-heading: Riêng tư
+      feature-private-text: Bảo vệ thông tin tài chính của bạn. PrivateSend đảm bảo rằng lịch sử hoạt động của bạn và các số dư là được riêng tư.
+      feature-instant-heading: Tức thời
+      feature-instant-text: Thời gian là quý báu. Giao dịch InstantSend xác thực trong ít hơn một giây.
+      feature-secure-heading: An toàn
+      feature-secure-text: Sự an toàn mà bạn có thể tin cậy. Các giao dịch được xác thực bởi sức mạnh tính toán của các thiết bị ASIC X11 với tốc độ đến 1,000 GigaHash và hơn 4,500 máy chủ được lưu trữ khắp nơi trên thế giới.
+      video-btn: Video tổng quan về WooCommerce
+      install-heading: Cài đặt Plugin cho Wordpress
+      install-btn: Tìm hiểu thêm
+      how-heading: Cài đặt bằng tay
+      how-text: >
+          Có vài trường hợp cài đặt một plugin cho WordPress là thích hợp.
+
+          Nếu bạn muốn kiểm soát các bố trí và tiến trình cài đặt của một plugin cho
+          WordPress.
+
+          Nếu máy chủ của bạn không cho phép việc tự động cài đặt một plugin cho WordPress.
+
+          Plugin đó không có trong danh mục các plugin của WordPress.
+
+          Cài đặt plugin cho WordPress bằng tay cần bạn phải quen với FTP và nhận
+          biết rằng bạn có thể đưa rủi ro vào trang web của mình nếu cài đặt một plugin
+          cho WordPress không tương thích với phiên bản hiện tại hoặc từ các nguồn
+          không đáng tin cậy.
+
+          Backup website của bạn hoàn toàn trước khi tiến hành.
+
+
+
+          Tải plugin cho WordPress lên máy tính của bạn. Nếu tải một file zip thì
+          hãy gỡ nén thư mục cho plugin vào một thư mục trên desktop của máy tính.
+          Hãy đọc hết file "readme" để đảm bảo rằng bạn có thể làm theo hướng dẫn
+          cài đặt. Với chương trình FTP, bạn tải thư mục plugin lên thư mục wp-content/plugins
+          của WordPress trên máy chủ online.
+      how-text-plugin: Đến màn hình Plugin và tìm plugin mới được tải lên trong danh sách. Click vào nút Activate để kích hoạt nó. Kiểm tra Chi tiết trong file readme để tuỳ biến hoặc có những hướng dẫn khác.
+      how-text-link: Lấy Plugin
+      how-install-link: Cài đặt Plugin
+    graphics:
+      title: Trang web chính thức của Dash | Tiền điện tử Dash
+      description: Dash là Tiền Mặt Số
+      hero-heading: Đồ hoạ cho Quảng cáo
+      hero-text: Những đồ hoạ này có thể được sử dụng cho việc hiển thị trong các dịch vụ trực tuyến, những thiết lập cho cửa hàng bán lẻ, cho việc in ấn hoặc các mục đích quảng bá khác.
+      licence: Dash logo và đánh dấu chìm được cấp phép cho việc sử dụng dưới giấy phép quốc tế Creative Commons Attribution-ShareAlike 4.0.
+      licence-link-text: Giấy phép quốc tế Creative Commons Attribution-ShareAlike 4.0.
+      licence-link: https://creativecommons.org/licenses/by-sa/4.0/
+      logos-header: "Các logo &amp; biểu tượng"
+      merchants-header: Nút cho Bán hàng
+      dontaion-header: Nút cho Quyên góp
+      community-header: Cộng đồng
+      indent-header: Nhận dạng thương hiệu của Dash
+      color-header: Mẫu màu
+      color-text: Đây là những đề xuất hướng dẫn sử dụng để duy trì tính nhất quán của tính thẩm mỹ thiết kế cho thương hiệu của Dash.
+      typography-header: Mẫu chữ
+      typography-text: Đây là những đề xuất hướng dẫn sử dụng để duy trì tính nhất quán của tính thẩm mỹ thiết kế cho thương hiệu của Dash.
+      download-link: Hình ảnh dạng Vector (zip)
+      icons: Các biểu tượng
+      print-or-screens: Dành cho in ấn hoặc trình chiếu
+      disclaimer-text: Dash hiện đang cải tiến trang web này với tất cả những nội dung sang một dấu hiệu nhận dạng mới đã được chấp nhận bởi cộng đồng. Hãy sử dụng những tài nguyên và hướng dẫn dưới đây để thay thế cho những cái cũ.
+      download-style-guide: Hướng dẫn chọn kiểu
+      download-all-resources: Tất cả các tài nguyên
+      logos: Logo
+    evolution:
+      title: Trang web chính thức của Dash | Tiền điện tử Dash
+      description: Dash là Tiền mặt kỹ thuật số
+      hero-heading: DASH EVOLUTION
+      hero-text: Một cái nhìn thoáng qua về các giải pháp thanh toán trong tương lai
+      hero-btn: Thêm thông tin về Evolution
+      hero-roadmap-btn: Lộ trình
+      video-heading: SỨ MỆNH
+      video-text: Sứ mệnh của Evolution là làm cho tiền số trở nên dễ dùng và sẵn sàng cho tất cả mọi người, thậm chí với những ai không biết nhiều về kỹ thuật. Bất kỳ ai cũng có thể cài đặt một tài khoản trên blockchain, cập nhật thông tin liên hệ và thanh toán theo tên. Mua hàng từ các website hoặc các ứng dụng di động cũng sẽ rất đơn giản, nó chỉ cần một lần click.
+      prototype-video-1: Video nguyên mẫu 1
+      prototype-video-2: Video nguyên mẫu 2
+      video-btn2: Giới thiệu Ví
+      sentinel-btn: Sentinel
+      evo-prototype-heading: VÍ NHẸ
+      evo-prototype-text: Evolution sẽ giới thiệu một kiểu ví nhẹ mới nó có tính năng bảo mật SPV với khả năng của trình duyệt. Ví này sẽ kết nối trực tiếp vào mạng lưới mạng ngang hàng P2P của chúng ta với hơn 4,000 nút.
+      evo-prototype-btn: Nguyên mẫu Dash
+      slack-btn: Kênh Slack
+      forum-btn: Diễn đàn Dash
+      component-heading: Các thành phần
+      component-text: >
+          Bao gồm dưới đây là công việc của chúng tôi với Evolution, nó thêm rất nhiều
+          thành phần như:
+      docs-heading: THÂN THIỆN VỚI NGƯỜI TIÊU DÙNG
+      docs-text: Trong phiên bản Evolution, bạn sẽ có khả năng kết nối trực tiếp với người bán hàng để thực hiện việc thanh toán, hoặc thậm chí thiết lập cơ chế tự động trả nợ cho những dịch vụ thuê bao. Mỗi doanh nghiệp tích hợp Dash sẽ có thể được tìm thấy trên blockchain này, và bạn sẽ có thể đánh giá giao dịch và cộng đồng có thể biết được doanh nghiệp nào cung cấp sản phẩm dịch vụ có chất lượng.
+      docs-btn: Tìm hiểu thêm
+      docs-link: /forum/threads/january-2017-budget-report.12601/
+      update-heading: CẬP NHẬT VỀ EVOLUTION
+      update-text: 'Lãnh đạo nhóm phát triển Evolution là Andy Freer đã chốt việc xuất bản một lượng lớn tài liệu với rất nhiều khái niệm khác nhau về Evolution. Điều này có được sau một nhiều tháng trao đổi giữa Andy và tôi về cách mỗi thành phần trong Evolution hoạt động như thế nào, sau đó tái tưởng tượng về nó và cải thiện các thành phần đó và thiết kế một cách có hệ thống.
+
+        Từ những tài liệu nghiên cứu, các đặc tả, các kế hoạch, các sơ đồ ban đầu đã được phác thảo, phát triển thành một tập hợp các tài liệu mà sẽ được đưa vào một wiki với tài liệu đầy đủ về thiết kế từ đầu đến cuối và các bước thực hiện của Evolution.'
+      proposal-btn: Các đề xuất
+      proposal-submit-btn: Gửi một Đề xuất
+      prototype-heading: EVOLUTION ALPHA
+      prototype-text: Bây giờ Dash 12.2 đã được ra mắt, và bước tiếp theo của chúng ta là giới thiệu phiên bản Alpha của phiên bản Evolution vào nửa cuối năm 2018. Chúng ta sẽ đưa ra một số phiên bản trước khi phiên bản đó, bao gồm một bản cáo bạch đầy đủ, vậy hãy thường xuyên quay lại kiểm tra để có sự cập nhật này!
+      prototype-btn: Thống kê mạng
+      explore-heading: Khám phá Dash
+      explore-text: 'Khám phá tất cả các tính năng của phiên bản mấu của Dash Evolution. Bao gồm Đăng ký, Kiểm tra tính hợp lệ của tài khoản, đăng nhập, kết bạn, thanh toán theo bí danh và nút thanh toán với Dash.
+
+
+        Từ những tài liệu nghiên cứu, các đặc tả, các kế hoạch, các sơ đồ ban đầu đã được phác thảo, phát triển thành một tập hợp các tài liệu mà sẽ được đưa vào một wiki với tài liệu đầy đủ về thiết kế từ đầu đến cuối và các bước thực hiện của Evolution.'
+      subscribe-btn: Đăng ký nhận Tin tức
+      follow-soc-btn: Theo dõi trên Twitter
+      merchants-heading: THÂN THIỆN VỚI NGƯỜI BÁN HÀNG
+      merchants-text: 'Thêm giải pháp thanh toán bằng Dash vào website hay ứng dụng của bạn một cách rất đơn giản chỉ trong vài phút với giao diện lập trình ứng dụng phi tập trung.
+
+        Hãy quên đi những phức tạp về hạ tầng hay việc phải nhờ cậy đến các nhà cung cấp thứ ba để xử lý giao dịch với khách hàng của bạn để tự có thể xây dựng quan hệ trực tiếp với khách hàng của mình thông qua việc sử dụng blockchain.'
+      merchants-btn: Dành cho Người bán hàng
+      merchants-plugin-btn: Plugin cho Woocommerce
+      social-heading: Dash trên mạng xã hội
+      social-text: >
+          Tạo một tài khoản bạn có thể truy cập một cách an toàn từ bất cứ nơi đâu
+          trên bất cứ thiết bị nào. Mời và kết nối với bạn bè để thanh toán hoặc nhận
+          thanh toán bằng tên.
+
+          Theo dõi các giao dịch với tên và chia sẻ mô tả về giao dịch với người thanh
+          toán. Xoá lịch sử giao dịch tại bất cứ thời điểm nào để giữ được sự riêng
+          tư, cũng dễ dàng như việc xoá lịch sử trình duyệt.
+      social-btn: Ngân sách
+      social-link: https://www.dashcentral.org/budget
+    update:
+      title: Trang web chính thức của Dash | Tiền điện tử Dash
+      description: Dash là Tiền Mặt Số
+      hero-heading: 12.1 Cập nhật
+      hero-text: Chúng tôi công bố một phần mềm mới và đưa ra trên mạng lưới. Bất cứ ai đều cần phải cập nhật lên phiên bản mới, bao gồm những người dùng thông thường, người vận hành pool, những thợ mỏ, các chủ masternode. Tất cả các đề xuất ngân sách phải được gửi lại lên hệ thống. Chú ý - Việc cưỡng chế sẽ được tắt trong khi cập nhật này, như vậy các masternode mà không cập nhật sẽ nhanh chóng không được trả công.
+      hero-btn: >
+          Ngày công bố: 5 tháng 2 năm 2017
+      video-heading: PHÁT TRIỂN NÒNG CỐT
+      video-text: Lĩnh vực đầu tiên trong tiến trình phát triển là Dash Core. Thêm vào việc vận hành mạng lưới ở hiện tại, Dash Core cũng phục vụ như là xương sống của cơ chế Evolution.
+      video-btn: Video tổng quan
+      merchants-heading: Hãy kiểm tra để có thông tin chi tiết về những cập nhật bắt buộc
+      merchants-text: Tất cả các Thợ mỏ, Pools, Ví, Sàn giao dịch, Người bán hàng... đều cần phải cập nhật
+      merchants-btn: Các Pool
+      masternodes-btn: Các Masternode
+      exchanges-btn: Các sàn giao dịch
+      proposal-heading: Dịch vụ Tự động hoá Đề xuất
+      execution-heading: Evolution là gì
+      execution-text: Dash Evolution sẽ lấy đi tất cả những phức tạp của tiền kỹ thuật số, và làm cho việc thanh toán bằng Dash sẽ dễ dàng như với PayPal. Những ưu việt của nó là, không giống PayPal, Dash Evolution là hoàn toàn phi tập trung và phi lợi nhuận.
+      execution-btn: Tìm hiểu thêm
+      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      update-heading: Sentinel
+      update-text: Công nghệ Sentinel mới của Dash là một cơ chế tạo ra sức mạnh cho Dash Evolution. Nó cực kỳ mạnh mẽ và linh hoạt, nó cho phép cập nhật mạng lưới dễ dàng hơn rất nhiều. Thêm vào đó, Sentinel có thể tuỳ biến để tạo ra rất nhiều ứng dụng mới mà sẽ vận hành trên mạng lưới. Ví dụ nó có thể tạo ra những công ty kỹ thuật số, sử dụng Sentinel.
+      proposal-btn: Các đề xuất
+      proposal-submit-btn: Gửi một Đề xuất
+      evolution-research-heading: NGHIÊN CỨU VỀ EVOLUTION
+      evolution-research-text: 'Vào tháng giêng năm 2016 chúng tôi đã giới thiệu phiên bản mẫu ban đầu cho Evolution dựa trên Electrum. Từ đó chúng tôi đã và đang tạo nhiều tài liệu và xác định mục tiêu thiết kế và bắt đầu thực hiện chúng.
+
+        Bản mẫu là rất cơ bản, chỉ với những tương tác người dùng giới hạn chỉ để thanh toán cho vài người bạn và dữ liệu người dùng được lưu trên máy chủ của lập trình viên, nhưng ít nhất nó cũng chứng minh về khái niệm. Những gì chúng tôi đặt ra để thiết kế và làm bản mẫu cho tất cả những công nghệ cốt lõi mà nó có thể tạo nên những tính năng đó là hoạt động hoàn toàn trên cơ cở mạng ngang hàng, với dữ liệu được bảo mật trên blockchain của Dash và có thể truy cập ở bất cứ đâu với bất cứ thiết bị gì, với việc tích hợp cơ chế bảo mật SPV và không cần những dịch vụ trung tâm làm trung gian, và sử dụng giao thức bảo mật chống cơ chế kiểm duyệt được nhiều người biết là HTTP(S)'
+      evolution-research-btn: Thống kê mạng
+      launching-heading: NGÀY CÔNG BỐ
+      launching-text: >
+          Ra mắt một phần mềm mới cho mạng lưới yêu cầu tất cả các đề xuất kinh phí
+          sẽ phải đăng lại lên hệ thống.
+
+          Do bị giới hạn thời gian với các siêu khối, chúng ta có một khoảng thời
+          gian khá ngắn để ra công bố, gần thời gian đầu mỗi tháng. Để đảm bảo chúng
+          ta có thể ra mắt một phiên bản phần mềm ổn định nhất có thể mà không cản
+          trở hệ thống ngân sách, chúng ta sẽ tạm giữ lại đến đầu tháng 2 để công
+          bố phiên bản 12.1. Ngày chính thức ra mắt vào 5 tháng 2 năm 2017.
+      launching-btn: Ngân sách
+      launching-link: https://www.dashcentral.org/budget
+    wallets:
+      title: Các ví Dash
+      description: Hãy lấy một ví Dash phù hợp với thiết bị của bạn
+      hero-heading: Lấy một ví Dash
+      hero-image: get-dash-n.jpg
+      hero-wallets-btn: Các ví
+      hero-guide-btn: Hướng dẫn
+      hero-security-btn: Bảo mật
+      hero-text: Ví của bạn là phần mềm bạn dùng để gửi, nhận và bảo quản Dash. Bạn có thể chọn việc để thực hiện giao dịch ẩn danh một cách dễ dàng từ phần mềm ví bằng việc sử dụng PrivateSend
+      wallets-desktop-header: Máy để bàn
+      wallets-desktop-subtitle: Ví Dash cho máy tính có nhiều tính năng khác biệt và an toàn.
+      wallets-desktop-latest: >
+          Mới nhất: Ngày 3 tháng 7 năm 2018
+      wallets-mobile-header: Di động
+      wallets-mobile-subtitle: Các ví di động của Dash cũng có nhiều tính năng và bảo mật, chạy từ thiết bị di động của bạn (điện thoại, máy tính bảng...).
+      wallets-hardware-header: Phần cứng
+      wallets-hardware-subtitle: Ví cứng là các thiết bị an toàn mà nó bảo vệ ví của bạn khỏi những hacker và những tay trộm cắp. Ví cứng làm việc với phần mềm ví trên máy tính của bạn bằng việc dành quyền kiểm soát việc sinh khoá riêng, lưu trữ khoá riêng, và ký vào giao dịch.
+      wallets-paper-header: Giấy
+      wallets-paper-subtitle: Ví giấy là một dạng ví lạnh và cơ bản là một dạng công cụ chứa chứ không có tính năng cho phép bạn chi tiêu từ nó.
+      wallets-web-header: Web
+      wallets-web-subtitle: Ví web
+      wallets-security-header: Bảo mật
+      wallets-security-subtitle: Hãy bảo vệ ví của bạn một cách an toàn bằng việc sử dụng với mật khẩu mạnh. Và cũng cần sao lưu dự phòng ví một cách thường xuyên và giữ các bản sao của chúng ở các nơi khác nhau để giảm thiểu khả năng bị mất. Nếu bạn sử dụng một ví mà nó sinh một "hạt giống" (một dãy các từ khoá ngẫu nhiên) như ví Trezor hoặc ví Electrum, hãy chắc chắn rằng bạn đã viết những thông tin "hạt giống" này xuống và lưu trữ các phiên bản khác nhau của chúng ở những nơi an toàn. Hạt giống này cho phép bạn khôi phục lại toàn bộ ví của mình trong trường hợp bị mất. Để có sự giúp đỡ trong việc tạo mật khẩu mạnh, hãy truy cập
+      modal-platform: Nền tảng
+      modal-header-vendor-label-descriptor: Ví cho Dash
+      modal-download-action-button-label: Tải xuống
+      modal-source-code-view: Hiển thị
+      modal-source-code-label: Mã nguồn
+      modal-source-closed-label: Quyền sở hữu
+      modal-website-label: Trang web
+      modal-control-label: Kiểm soát
+      modal-control-full: Ví này cung cấp toàn quyền để bạn kiểm soát Dash, và bạn có thể tự kiểm tra mã nguồn và mã nhị phân của chương trình.
+      modal-control-semi: Ví này cung cấp bạn toàn quyền kiểm soát Dash của mình, nhưng bạn phải tin rằng chương trình mà bạn tải không có chứa mã độc.
+      modal-validation-label: Sự xác nhận
+      modal-validation-full: Thẩm định đầy đủ mà không cần phải tin cậy trong trường hợp giao dịch được gửi hoặc nhận. Đây là ví an toàn nhất nhưng tốn dung lượng lưu trữ nhất.
+      modal-validation-spv: Xác thực đơn giản có nghĩa là bạn có thể phê duyệt nếu giao dịch được gửi hoặc nhận với mức độ tin cậy tối thiểu.
+      modal-validation-hosted: Bạn cần phải tin cậy vào máy chủ của người dung cấp dịch vụ để biết rằng giao dịch được gửi hoặc nhận.
+      modal-access-label: Truy cập
+      modal-access-p2p: Cung cấp trực tiếp truy cập vào mạng lưới mạng ngang hàng. Điều này có khả năng chống kiểm duyệt và truy cập phi tập trung tốt nhất.
+      modal-access-multi: Bạn truy cập vào mạng lưới mạng ngang hàng p2p của Dash thông qua một cửa ngõ truy gian duy nhất, nhưng bạn có thể chọn một cửa ngõ mà bạn muốn dùng.
+      modal-access-vendor: Bạn truy cập vào mạng lưới ngang hàng p2p của Dash thông qua proxy sử dụng máy chủ của nhà cung cấp dịch vụ.
+      modal-core-minimum-reqs: Phiên bản yêu cầu tối thiểu
+      modal-core-header: Tải ví Dash Core
+      modal-electrum-header: Tải ví Dash Electrum
+      modal-win-core-description: Mô tả ngắn&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+      modal-win-core-security-key: Bảo mật
+      modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
+      modal-win-core-source-code-key: Mã nguồn
+      modal-win-core-source-code-value: .&#40;link/ closed source&#41;
+      modal-core-users-text: Người dùng thông thường
+      modal-core-masternode-text: Người vận hành Masternode
+      modal-core-pool-text: Người vận hành Pool
+    payments:
+      title: Bộ xử lý thanh toán Dash
+      hero-heading: Xử lý thanh toán Dash
+      hero-text: Nhanh chóng và dễ dàng tích hợp Dash như là một phương thức thanh toán
+      payments-desc-header: Bộ xử lý thanh toán
+      payments-providers-header: Bộ xử lý thanh toán
+      modal-header-vendor-label-descriptor: Ví cho Dash
+      modal-download-action-button-label: Tải xuống
+      modal-source-code-view: Hiển thị
+      modal-source-code-label: Mã nguồn
+      modal-source-closed-label: Quyền sở hữu
+      modal-website-label: Trang web
+      modal-control-label: Kiểm soát
+      modal-control-full: Ví này cung cấp toàn quyền để bạn kiểm soát Dash, và bạn có thể tự kiểm tra mã nguồn và mã nhị phân của chương trình.
+      modal-control-semi: Ví này cung cấp bạn toàn quyền kiểm soát Dash của mình, nhưng bạn phải tin rằng chương trình mà bạn tải không có chứa mã độc.
+      modal-validation-label: Sự xác nhận
+      modal-validation-full: Thẩm định đầy đủ mà không cần phải tin cậy trong trường hợp giao dịch được gửi hoặc nhận. Đây là ví an toàn nhất nhưng tốn dung lượng lưu trữ nhất.
+      modal-validation-spv: Xác thực đơn giản có nghĩa là bạn có thể phê duyệt nếu giao dịch được gửi hoặc nhận với mức độ tin cậy tối thiểu.
+      modal-validation-hosted: Bạn cần phải tin cậy vào máy chủ của người dung cấp dịch vụ để biết rằng giao dịch được gửi hoặc nhận.
+      modal-access-label: Truy cập
+      modal-access-p2p: Cung cấp trực tiếp truy cập vào mạng lưới mạng ngang hàng p2p. Điều này có khả năng chống kiểm duyệt và truy cập phi tập trung tốt nhất.
+      modal-access-multi: Bạn truy cập vào mạng lưới mạng ngang hàng p2p của Dash thông qua một cửa ngõ truy gian duy nhất, nhưng bạn có thể chọn một cửa ngõ mà bạn muốn dùng.
+      modal-access-vendor: Bạn truy cập vào mạng lưới ngang hàng p2p của Dash thông qua proxy sử dụng máy chủ của nhà cung cấp dịch vụ.
+      modal-core-minimum-reqs: Phiên bản yêu cầu tối thiểu
+      modal-core-header: Tải ví Dash Core
+      modal-electrum-header: Tải ví Dash Electrum
+      modal-win-core-description: Mô tả ngắn&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+      modal-win-core-security-key: Bảo mật
+      modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
+      modal-win-core-source-code-key: Mã nguồn
+      modal-win-core-source-code-value: .&#40;link/ closed source&#41;
+      modal-core-users-text: Người dùng thông thường
+      modal-core-masternode-text: Người vận hành Masternode
+      modal-core-pool-text: Người vận hành Pool
+      disclaimer-text: >
+          TUYÊN BỐ TỪ CHỐI TRÁCH NHIỆM: Danh sách này chỉ cung cấp với mục đích thông
+          tin. Các dịch vụ được liệt kê ở đây chưa được thử nghiệm và giới thiệu bởi
+          các nhà phát triển Dash và cũng không có đảm bảo rằng những thông tin đó
+          là chính xác. Bạn hãy tự đánh giá khi sử dụng dịch vụ của các nhà cung cấp
+          thứ 3.
+    contact:
+      title: Liên hệ Dash
+      description: Liên hệ Dash
+      hero-heading: Liên hệ
+      form-pretext: Để nhận được sự hỗ trợ kỹ thuật hoặc xử lý sự cố với ví, đào coin, hoặc những câu hỏi chung khác, hãy truy cập DIỄN ĐÀN DASH hoặc một trong rất nhiều tài nguyên khác của cộng đồng.
+      form-pretext-2: Với những câu hỏi khác, hãy sử dụng đường link này.
+      social-heading: "Diễn đàn &amp; Mạng xã hội"
+      mail-list-heading: Danh sách gửi thư
+      mail-list-text: Nếu bạn muốn được cập nhật thông tin mới nhất? Hãy tham gia vào danh sách gửi thư của chúng tôi.
+      social-text-heading: TRUY CẬP DIỄN ĐÀN DASH
+      forum-btn: Truy cập Diễn đàn
+      social-text: Để nhận được sự hỗ trợ kỹ thuật hoặc xử lý sự cố với ví, đào coin, hoặc những câu hỏi chung khác, hãy truy cập DIỄN ĐÀN DASH hoặc một trong rất nhiều tài nguyên khác của cộng đồng.
+      volunteer-heading: Tình nguyện
+      join-btn: Tham gia
+    home:
+      title: 'Trang web chính thức của Dash | Tiền kỹ thuật số Dash '
+      description: Dash là Tiền mặt kỹ thuật số
+      hero-heading: Dash là Tiền mặt kỹ thuật số
+      hero-text: Cuộc cách mạng trong hệ thống tiền số. <br />Gặp gỡ Tiền mặt Số.
+      video-heading: Dash Là Tiền Mặt Số Bạn Có Thể Tiêu Ở Bất Cứ Đâu
+      video-text: Sử dụng Dash để thực hiện giao dịch tức thời, riêng tư trực tuyến hoặc ở cửa hàng sử dụng nền tảng mã nguồn mở của chúng tôi được vận hành bởi hàng ngàn người sử dụng trên toàn thế giới.
+      video-btn: Video khái quát
+      video-link: https://www.youtube.com/watch?v=S0oNO3mbBE8
+      feature-private-heading: Riêng tư
+      feature-private-text: Bảo vệ thông tin tài chính của bạn. PrivateSend đảm bảo những lịch sử hoạt động và số dư của bạn được riêng tư.
+      feature-instant-heading: Tức thời
+      feature-instant-text: Thời gian của bạn là đáng giá. Thanh toán bằng InstantSend xác thực trong ít hơn một giây.
+      feature-secure-heading: Bảo mật
+      feature-secure-text: Sự an toàn mà bạn có thể tin cậy. Các giao dịch được xác thực bởi sức mạnh tính toán của các thiết bị ASIC X11 với tốc độ đến 200 TerraHash và hơn 4,500 máy chủ được lưu trữ khắp nơi trên thế giới.
+      merchants-heading: Mua hàng trực tiếp với Dash
+      merchants-text: Mua một cách tức thời và riêng tư, trực tiếp từ ví Dash của bạn
+      merchants-btn: Thêm các người bán hàng
+      merchants-link: https://discoverdash.com
+      merchants-join-btn: Trở thành một người bán hàng
+      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      architecture-heading: Mạng lưới ngang hàng thế hệ tiếp theo
+      architecture-text: 'Ở trung tâm của Dash là mạng lưới ngang hàng với động lực đầy đủ độc đáo cho các nút mạng. Những thợ mỏ được trả thưởng để bảo mật cho blockchain và masternode được trả thưởng cho việc phê duyệt, lưu trữ và cung cấp dịch vụ blockchain cho người dùng.
+
+
+        Masternode đại diện cho một lớp mới của mạng các máy chủ nó sẽ hoạt động thông qua một nhóm được bảo mật cao gọi là các quorum để cung cấp rất nhiều các dịch vụ phi tập trung như giao dịch tức tời, giao dịch riêng tư, cơ chế quản trị trong khi loại bỏ những rủi ro bị kiểu tấn công mạng lưới chi phí thấp.'
+      architecture-btn: Tìm hiểu thêm
+      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      governance-heading: Giao thức Tự quản trị, Tự cấp vốn đầu tiên
+      governance-text: 'Với Dash, bất kỳ ai cũng có tiếng nói và có khả năng đề xuất các dự án trực tiếp cho mạng lưới. Bất cứ điều gì bạn cũng có thể làm - từ việc marketing đến việc phát triển - nó giúp cho Dash tăng trưởng và những cải thiện đó sẽ được chi trả. Điều đó có nghĩa Dash cấp vốn cho sự chấp nhận nó, cho sự phát triển của chính nó, còn sự đồng thuận thì được đảm bảo, và bất cứ ai cũng có thể trở nên đáng tin cậy trên mạng lưới này.
+
+
+        Chỉ cần gửi đề xuất ngân quỹ và trình bày ý tưởng của bạn với mạng lưới để được cấp vốn cho dự án của bạn, hoặc nếu bạn vận hành một Masternode, hãy chắc chắn rằng mình có bỏ phiếu!'
+      proposal-btn: Các đề xuất
+      proposal-submit-btn: Gửi một Đề xuất
+      network-growth-heading: Mạng lưới phát triển nhanh nhất
+      network-growth-text: "Nhờ có việc tạo động lực, mạng lưới Dash đã phát triển đến 4,100 masternode từ khi lần đầu ra mắt vào năm 2014, điều đó có nghĩa mạng lưới ngang hàng của Dash là một trong những mạng lưới ngang hàng lớn nhất thế giới. \n\nNhiều nút có nghĩa là nhiều dịch vụ bảo đảm, và nhiều khả năng để phục vụ nhu cầu tiền số cho người dùng cuối ở bất cứ nơi nào trên thế giới với 24/7 tức là 24 giờ mỗi ngày và 7 ngày mỗi tuần."
+      network-growth-btn: Thống kê mạng
+      evolution-heading: Tiền điện tử tiến hoá
+      evolution-text: 'Điều gì sẽ xảy ra tiếp? Chúng tôi muốn tiền số trở nên dễ sử dụng đến mức bà của bạn cũng có thể sử dụng.
+
+
+        Dash Evolution sẽ cho phép bạn đăng nhập và truy cập đến Dash của mình từ bất kỳ thiết bị nào và có thể giao dịch một cách dễ dàng như bạn có thể làm với PayPal, nhưng nó hoàn toàn theo cách phi tập trung. Hãy tiếp tục theo dõi...'
+      evolution-btn: Tìm hiểu thêm
+      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      news-heading: Tin tức mới nhất
+      news-btn: Xem tất cả các tin
+      get-started-heading: Bắt đầu
+      get-started-text: Tải ví và bắt đầu sử dụng Tiền Mặt Số!
+      get-started-btn: Lấy Dash
+    get-dash:
+      title: Lấy Dash
+      description: Tải phần mềm ví và nhận Dash từ một sàn giao dịch.
+      hero-image: get-dash-n.jpg
+      hero-heading: Lấy Dash
+      hero-heading-text: |
+          Mua và Bán Dash ở bất kỳ thời điểm nào, khi nào bạn muốn.
+          Dash có thể thu mua, nắm giữ và trao đổi bằng rất nhiều cách.
+      hero-text: |
+          Bạn lần đầu truy cập trang web này? Hãy đọc <a href='https://docs.dash.org/en/latest/' target='_blank'>Hướng dẫn Dash</a>cho người dùng mới
+      hero-wallet-version: Dash Wallet (bản đầy đủ v12.0.56) cho OSX
+      hero-wallet-version-select: Chọn cái khác
+      hero-platform-not-detected: "Xin lỗi bạn, hệ thống của bạn không thể xác định được một cách tự động. Hãy chọn \"Tất cả các ví\" để tìm ra một phiên bản tương thích."
+      hero-download-btn: Tải Ví
+      hero-all-wallets-btn: Tất cả các ví
+      download-title: Tải Ví
+      download-text: Ví của bạn là một phần mềm được dùng để gửi, nhận và lưu trữ Dash. Nó rất dễ sử dụng và bạn có thể chọn để gửi một cách ẩn danh từ ví của mình với tính năng PrivateSend.
+      all-wallets-btn: Tất cả các ví
+      buy-dash-title: Mua Dash
+      buy-dash-info-text: Hãy chọn cách thích hợp với bạn và chúng tôi sẽ giới thiệu cách tốt nhất để mua Dash
+      dash-select-label: Tôi muốn mua với
+      dash-select-label-method: sử dụng
+      show-more-btn: Hiển thị thêm
+      service-type: Loại dịch vụ
+      exchange-rate: Tỷ giá giao dịch
+      payments-method: Phương thức thanh toán
+      buy-dash-preference-title: Hãy chọn cách thích hợp với bạn và chúng tôi sẽ giới thiệu cách tốt nhất để mua Dash
+      tooltip: |
+          Hãy chú ý rằng: đó là giá hiện tại của Dash theo thị trường. Nó có thể thay đổi một cách nhanh chóng và chúng tôi không đảm bảo rằng bạn sẽ mua được Dash với cùng giá như vậy. Giá đó không bao gồm phí dịch vụ và phí giao dịch.
+      buy-dash-table: Mua Dash
+      guide-btn: Hướng dẫn cài đặt
+      spend-btn: Chi tiêu Dash
+      security-btn: Bảo mật
+      otc-heading: Thị trường phi chính thức (OTC)
+      otc-text: |
+          Mua hoặc bán một số lượng lớn Dash trên các sàn giao dịch có thể làm cho giá của nó biến động, kết quả là người mua hoặc người bán sẽ nhận được giá trị ít hơn mong đợi. Một lượng lớn lệnh mua sẽ đẩy giá lên cao hơn, kết quả là phải trả tiền nhiều hơn. Ngược lại nhiều lệnh bán, kết quả là làm giảm giá trị khi bạn bán Dash. May mắn thay có một cái gọi là "Thị trường không chính thức" hay giải pháp OTC, nơi những người mua và ngời bán gặp nhau theo cặp và cho phép họ thực hiện những giao dịch trao đổi lớn mà không làm biến động cho thị trường. Lợi ích cho bạn là, bạn có thể mua hoặc bán được nhiều coin với giá hiện thời hơn là những gì xảy ra trên các sàn giao dịch. Như vậy, bạn có thể có cơ hội tốt hơn theo những cách khác.
+      otc-btn: Danh sách đầy đủ
+      exchanges-heading: Những sàn giao dịch lớn nhất
+      full-list-btn: Danh sách đầy đủ các sàn giao dịch
+      claim-heading: Mua, Bán, và Trao đổi Dash
+      claim-subline: Dash có thể được thu mua, nắm gữ và trao đổi bằng rất nhiều cách.
+      setup-heading: Tìm hiểu cách thiết lập một ví của bạn
+      setup-btn: Tìm hiểu thêm
+      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      buy-heading: Mua Dash online
+      buy-text: Chuyển tiền địa phương thành Dash và gửi nó vào ví của bạn
+      buy-btn: Mua Dash
+      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-heading: Trao đổi Dash trên một sàn giao dịch
+      trade-text: Đổi tiền địa phương thành Dash trên một sàn giao dịch
+      trade-btn: Trao đổi Dash
+      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      atm-heading: Mua Dash tại máy ATM
+      atm-text: Mua Dash tức thời từ một máy ATM tại quốc gia của bạn
+      atm-btn: Vị trí đặt máy ATM
+      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      shop-heading: Mua hàng trực tiếp với Dash
+      shop-text: Mua tức thời và riêng tư, trực tiếp từ ví Dash của bạn
+      shop-btn: Thêm các người bán hàng
+      shop-link: https://discoverdash.com
+      shop-join-btn: Trở thành một người bán hàng
+      visa-heading: Mua tại các cửa hàng Visa
+      visa-text: 'Thẻ ghi nợ Dash-Visa không cần trả phí quy đổi ngoại tệ và thanh toán bằng việc "chạm &amp; trả"'
+      visa-btn: Lấy Shake
+      visa-link: https://shakepay.co/#/
+      need-heading: Cần vài Dash?
+      need-text: Đăng ký vào diễn đàn của chúng tôi và chúng tôi sẽ gửi bạn một ít Dash!
+      need-btn: Đăng ký cho Dash
+      need-link: /forum/
+      need-input: Nhập địa chỉ email của bạn
+    merchants:
+      title: Những người bán hàng
+      description: Tiêu Dash tại những cửa hàng và các dịch vụ
+      hero-image: participate.jpg
+      hero-heading: Mua hàng với Dash
+      hero-text: Tiêu Dash một cách tức thời và an toàn tại những cửa hàng và dịch vụ
+      hero-map-btn: Bản đồ những người bán hàng
+      hero-integrate-btn: Tích hợp Dash
+      hero-getlisted-btn: Để được vào danh sách
+      hero-woo-btn: WooCommerce
+      cards-heading: Thẻ ghi nợ
+      email-heading: Dịch vụ email
+      vpn-heading: Dịch vụ VPN
+      hosting-heading: Lưu trữ web và VPS
+      business-heading: Các dịch vụ kinh doanh (Tiếp thị / Web / Thiết kế đồ hoạ)
+      gifts-heading: Thẻ quà tặng
+      games-heading: Game
+      casinos-heading: Cờ bạc trực tuyến
+      stores-heading: Cửa hàng trực tuyến
+      metals-heading: Kim loại quý
+      bills-heading: Thanh toán hoá đơn
+      payment-heading: Cổng thanh toán
+      prepaid-phone-heading: Nạp tiền cho điện thoại trả trước
+      cards-disclaimer: >
+          Tuyên bố từ chối trách nhiệm: Hãy kiểm tra quốc gia nơi bạn sinh sống với
+          Nhà cung cấp Dịch vụ Thẻ xem có giới hạn phân phối không
+    participate:
+      title: Tham gia mạng lưới Dash
+      description: Tham gia mạng lưới Dash
+      hero-image: participate.jpg
+      hero-heading: Giúp Xây dựng Tiền Mặt Số
+      hero-text: Tham gia và kiếm Dash bằng việc cung cấp năng lực, bảo mật hoặc phát triển mạng lưới Dash
+      hero-masternodes-btn: Các Masternode
+      hero-mining-btn: Đào coin
+      hero-funding-btn: Cấp vốn
+      claim-heading: Hỗ trợ mạng lưới
+      claim-subline: Bất cứ ai cũng có thể đóng góp cho Dash
+      masternode-heading: Cài đặt một Masternode và tạo sức mạnh cho mạng lưới Dash
+      masternode-text: Giúp bổ sung năng lực cho Dash bằng việc vận hành một Masternode hoặc tham gia dịch vụ chia sẻ. Những người vận hành Masternode sẽ được trả thưởng cho việc cung cấp dịch vụ phi tập trung cho những người dùng.
+      masternode-btn: Cài đặt một Masternode
+      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      mining-heading: Bắt đầu Đào Dash và đảm bảo an ninh cho mạng lưới Dash
+      mining-text: Đào Dash sử dụng máy tính của bạn hoặc các phần cứng chuyên biệt. Những thợ mỏ được trả công cho việc bảo đảm an toàn cho mạng lưới Dash.
+      mining-btn: Bắt đầu đào
+      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      funding-heading: Phát triển mạng lưới với việc cấp vốn Blockchain
+      funding-text: Mạng lưới Dash cấp vốn cho những đề xuất chiến thắng mỗi tháng cho bất cứ thứ gì có thể giúp cải thiện Dash như thuê các lập trình viên, đưa ra các quyết định, hoặc tích hợp giải pháp thanh toán Dash vào những cửa hàng trực tuyến hay cửa hàng thông thường.
+      funding-btn: Gửi một Đề xuất
+      funding-link: https://dashcentral.org/
+      integrate-heading: Bạn có nhận Dash?
+      integrate-text: Tích hợp giải pháp thanh toán tức thời, riêng tư vào trang web, ứng dụng hay cửa hàng của bạn
+      integrate-btn: Tích hợp Dash
+      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-btn: Bộ xử lý thanh toán
+      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-contact-btn: Liên hệ với chúng tôi
+    currency:
+      title: Mạng lưới Dash
+      description: Tiền Dash
+      hero-image: currency.jpg
+      hero-heading: Tình trạng mạng
+      hero-text: Tình trạng mới nhất về Thị trường Dash, Ngân quỹ, Masternode và Blockchain
+      hero-markets-btn: Thị trường
+      hero-governance-btn: Ngân quỹ
+      hero-network-btn: Masternode
+      hero-blockchain-btn: Blockchain
+      hero-mining-btn: Đào coin
+      markets-heading: Giá trị thị trường (USD)
+      governance-heading: Ngân quỹ
+      network-heading: Masternode
+      blockchain-heading: Blockchain
+      mining-heading: Đào coin
+      mining-guide-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
+    community:
+      title: Tham gia cộng đồng Dash
+      description: Tham gia cộng đồng Dash
+      hero-image: community.jpg
+      hero-heading: Tham gia cộng đồng
+      hero-text: Trở thành một phần của cộng đồng Dash
+      hero-forum-btn: Diễn đàn chính thức
+      hero-discussion-btn: Thảo luận
+      hero-social-btn: Ứng dụng mạng xã hội
+      hero-news-btn: Tin tức &amp; Thông tin
+      hero-development-btn: Phát triển
+      hero-masternodes-btn: Masternode
+      hero-video-btn: Video &amp; Âm thanh
+      hero-graphics-btn: Đồ hoạ
+      hero-legal-btn: Luật pháp
+      hero-wiki-btn: Wiki
+      discussion-heading: Thảo luận
+      discussion-text: Thảo luận về Dash trên các diễn đàn
+      social-heading: Mạng xã hội
+      social-text: Tìm Dash trên những ứng dụng mạng xã hội
+      news-heading: Tin tức &amp; Thông tin
+      news-text: Các trang tạo mởi các thành viên của cộng đồng Dash
+      development-heading: Phát triển
+      development-text: Các site &amp; công cụ cho nhà phát triển
+      masternode-heading: Các công cụ Masternode
+      masternode-text: Thiết lập, quản lý và vận hành masternode của bạn
+      media-heading: Dash Media
+      conferences-heading: Hội thảo
+      technology-heading: Công nghệ
+      community-heading: Cộng đồng
+      youtube-btn: Dash Youtube
+    tos:
+      title: Điều khoản Sử dụng
+      terms: 'Dash chỉ được thiết kế cho mục tiêu hợp pháp và không nên sử dụng theo các hình thức khác. Cả Dash và những nhà phát triển của nó không đóng góp và hỗ trợ cho những hoạt động phi pháp hoặc giúp đỡ cho chúng bằng bằng bất cứ cách nào.
+
+
+        Theo những gì chúng ta biết, thì sử dụng Dash là không bất hợp pháp với hầu hết các chế tài trên thế giới. Tuy nhiên, một vài chế tài có thể áp đặt một số giới hạn trong việc sử dụng tiền số và/hoặc các công cụ bảo vệ riêng tư, như vậy người dùng ở những định chế đó nên cân nhắc trước khi sử dụng Dash. Nếu có bất cứ nghi ngờ nào, hãy liên hệ với những luật sư ở địa phương để tránh làm điều gì mà có thể bị coi là phi pháp đối với chế tài của bạn.
+
+
+        Nội dung của trang web này, hoặc những điều khác có liên quan đến Dash, không chứa đựng những lời khuyên về mặt pháp luật. Nếu bạn có bất kỳ nghi ngờ nào về mặt pháp luật hoặc cần sự giúp đỡ, hãy liên hệ với một luật sư trong định chế của bạn.
+
+
+        Nội dung của trang web này, hoặc những điều khác có liên quan đến Dash không phải những lời khuyên về đầu tư. Bạn nên sử dụng những đánh giá của riêng mình với những nghiên cứu thông tin từ nhiều nguồn khác nhau trước khi đầu tư vào Dash.'
+    blog:
+      title: Blog Tiền Mặt Số
+      description: "Những tin tức mới nhất về Dash &amp; thông tin"
+      search-btn: Tìm kiếm trên Blog
+      community-news-btn: Tin tức cộng đồng
+    team:
+      title: Nhóm Phát triển Dash
+      description: Được chỉ định bởi mạng lưới của chúng ta và cấp vốn từ blockchain trên cơ sở hàng tháng để phát triển công nghệ lõi của Dash.
+      core-proposal-btn: 'Các đề xuất của nhóm Core '
+      core-proposal-link: https://www.dashcentral.org/p/core-team
+      core-approval-btn: Sự chấp thuận của Mạng lưới
+      core-approval-link: http://dashvotetracker.com
+      core-join-btn: Tham gia nhóm
+      core-heading: Nhóm phát triển cốt lõi
+      hr: Nhân sự
+      forum-name: >
+          Diễn đàn:
+      strateg-heading: Cố vấn chiến lược
+      coredao: Ban quản lý Dash Core DAO
+      coredev: Các nhà phát triển
+      dapidev: Dash DAPI
+      webdev: Dash Web
+      ui: Dash UI
+      integrations: Tích hợp
+      mobile: Di động
+      infrastructure: Hạ tầng
+      qa: Kiểm soát chất lượng
+      pm: Quản trị dự án
+      business: Phát triển đối tác
+      support: Hành chính + Hỗ trợ
+      management: Quản lý
+      development: Phát triển
+      operations: Điều hành
+      marketing: Tiếp thị
+      strategy: Chiến lược
+      finance: Tài chính
+      associated: Liên kết thân thiết
+      advisor: Cố vấn cao cấp
+      external: Cộng tác viên
+  nav:
+    what-is-dash: Dash là gì
+    get-dash: Lấy Dash
+    merchants: Người bán hàng
+    download: Tải Ví
+    buy: Mua Dash
+    shop: Mua hàng với Dash
+    debit: Thẻ ghi nợ Dash
+    update: Cập nhật
+    evolution: Evolution
+    participate: Đóng góp
+    mining: Bắt đầu đào
+    masternode: Cài đặt một Masternode
+    wallet: Cài đặt một phần mềm ví
+    funding: Xin cấp vốn
+    currency: Mạng
+    exchange: Các sàn giao dịch
+    governance: Quản trị
+    explorers: Khám phá khối
+    stats: Thống kê mạng
+    exchanges-list: Danh sách đầy đủ các sàn giao dịch
+    community: Tài nguyên
+    discussion: Thảo luận
+    social-apps: Ứng dụng mạng xã hội
+    news: Tin tức &amp; Thông tin
+    tools-dev: Công cụ phát triển
+    tools-masternodes: Các công cụ Masternode
+    graphics: Đồ hoạ
+    legal: Luật pháp
+    merchandise: Buôn bán
+    project: Dự án
+    help: Trợ giúp &amp; Hỗ trợ
+    info: Thông tin dự án
+    team: Nhóm
+    contact: Liên hệ
+    foundation: Quỹ Dash
+    philosophy: Triết lý
+    technology: Công nghệ
+    wiki: Wiki
+    whitepaper: Cáo bạch
+    school: Trường học
+    search: Tìm kiếm
+    docs: Tài liệu
+    telegram: Telegram
+    discord: Discord
+    forum: Diễn đàn Dash
+    social: Mạng xã hội
+    blog: Tin tức
+    reddit: Reddit
+    twitter: Twitter
+    youtube: YouTube
+    google: Google+
+    linkedin: LinkedIn
+    facebook: Facebook
+    instagram: Instagram
+    github: GitHub
+    jobs: Tham gia
+    tos: Điều khoản Sử dụng
+    sitemap: Sơ đồ trang
+    sitesource: Mã nguồn
+    service: Hỗ trợ dịch vụ
+    support: Hỗ trợ
