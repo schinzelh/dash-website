@@ -152,10 +152,10 @@
 					var height 		= block.height,
 						age 		= moment.unix(block.time).format('LLL'),
 						txs 		= block.txlength,
-						out 		= block.cbvalue,
-						difficulty 	= block.difficulty;
+						size 		= block.size,
+						hash 		= block.hash;
 
-					$('#blocks>tbody').append('<tr><td data-header="Height">' + height + '</td><td data-header="Block Time">' + age + '</td><td data-header="Transactions">' + txs + '</td><td data-header="Value Out">' + out + '</td><td data-header="Difficulty">' + difficulty + '</td></tr>');
+					$('#blocks>tbody').append('<tr><td data-header="Height">' + height + '</td><td data-header="Block Time">' + age + '</td><td data-header="Transactions">' + txs + '</td><td data-header="size">' + size + '</td><td data-header="Hash">' + hash + '</td></tr>');
 				});
 			});
 		}
