@@ -1,5 +1,5 @@
 - name: "Dash Core Win/64 Installer"
-  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
+  description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: win64
   type: desktop
@@ -25,7 +25,7 @@
     #  url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-win64-setup.exe.asc"
 
 - name: Dash Core Win/64 ZIP
-  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
+  description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: win64
   type: desktop
@@ -51,7 +51,7 @@
     #   url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-win64.zip.asc"
 
 - name: "Dash Core Win/32 Installer"
-  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
+  description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: win32
   type: desktop
@@ -77,7 +77,7 @@
     #  url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-win32-setup.exe.asc"
 
 - name: "Dash Core Win/32 ZIP"
-  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
+  description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: win32
   type: desktop
@@ -103,7 +103,7 @@
     #  url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-win32.zip.asc"
 
 - name: Dash Core Linux 32 Bit
-  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
+  description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: linux
   type: desktop
@@ -131,7 +131,7 @@
     #   url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-linux32.tar.gz.asc"
 
 - name: Dash Core Linux 64 Bit
-  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
+  description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: linux
   type: desktop
@@ -157,7 +157,7 @@
     #  url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-linux64.tar.gz.asc"
 
 - name: Dash Core Raspberry Pi 2
-  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
+  description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: linux
   type: desktop
@@ -183,7 +183,7 @@
 #       url: "https://github.com/dashpay/dash/releases/download/v0.12.3/dashcore-0.12.3-RPi2.tar.gz.asc"
 
 - name: Dash Core
-  description: Official Dash Core fully featured Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
+  description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
   logo_url: /assets/img/dash_circle_normal.png
   os: osx
   type: desktop
