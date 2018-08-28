@@ -3,10 +3,10 @@
   format:
   links:
     -
-      label: Small
+      label: Small PNG
       url: icons/dash_D_icons/Dash-D-white_on_blue_rounded_square_s.png
     -
-      label: Full
+      label: Full PDF
       url: icons/dash_D_icons/Dash-D-white_on_blue_rounded_square.pdf
 
 - type: icons
@@ -14,7 +14,7 @@
   format:
   links:
     -
-      label: Small
+      label: Small PNG
       url: icons/dash_D_icons/dash-D-blue_s.png
     -
       label: Full PNG
@@ -43,10 +43,10 @@
   format:
   links:
     -
-      label: small png
+      label: Small PNG
       url: icons/dash_coin_icons/Dash-D-white_on_blue_circle_s.png
     -
-      label: Full png
+      label: Full PNG
       url: icons/dash_coin_icons/Dash-D-white_on_blue_circle.png
 
 - type: icons
@@ -54,7 +54,7 @@
   format:
   links:
     -
-      label: small png
+      label: Small PNG
       url: icons/dash_coin_icons/Dash-D-white_on_deep-blue_circle.png
     -
       label: Full AI
@@ -65,7 +65,7 @@
   format:
   links:
     -
-      label: small png
+      label: Small PNG
       url: icons/dash_coin_icons/Dash-D-blue_on_midnight-blue_circle.png
     -
       label: Full AI
@@ -90,7 +90,7 @@
   format:
   links:
     -
-      label: Small
+      label: Small PNG
       url: icons/dash_coin_icons/coin_dash_D_icon_s.png
     -
       label: Full
@@ -101,10 +101,10 @@
   format:
   links:
     -
-      label: Small
+      label: Small PNG
       url: icons/dash_coin_icons/coin_dashLogo_s.png
     -
-      label: Full
+      label: Full PNG
       url: icons/dash_coin_icons/coin_dashLogo.png
 
 - type: logos
@@ -181,7 +181,7 @@
   background:
   links:
     -
-      label: Small
+      label: Small PNG
       url: /logos/dash/dash_logo_s.png
     -
       label: Full PNG
@@ -196,7 +196,7 @@
   background:
   links:
     -
-      label: Small
+      label: Small PNG
       url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_rgb_for_screens_s.png
     -
       label: Full PNG
@@ -214,7 +214,7 @@
   background: blue
   links:
     -
-      label: Small
+      label: Small PNG
       url: /logos/dash_digital_cash/dash_digital-cash_logo_2018_white_for_screens_s.png
     -
       label: Full PNG
