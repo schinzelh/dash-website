@@ -22,3 +22,13 @@
 - name: Ppc protect
   url: https://ppcprotect.com/
   image: ppcprotect.jpg
+
+- name: MonoVM Networks
+  title: VPS Hosting And Domain Registration
+  url: https://monovm.com/
+  image: monovm.png
+
+- name: 1GBits
+  title: Dedicated Server Provider
+  url: https://1gbits.com/
+  image: 1gbits.jpg
