@@ -1,0 +1,927 @@
+tr:
+  pages:
+    merch:
+      title: Dash ürünleri
+      description: Ortağımızdan ürünlerimizi satın alın
+      hero-heading: Ürünlerimiz
+      hero-text: |
+          HODL Dash'in resmi ürün ortağıdır. Buradan ziyaret edebilirsiniz: <a href='https://alwayshodl.com/' target='_blank'>www.alwayshodl.com</a>
+      disclaimer-text: |
+          <a href='https://alwayshodl.com/' target='_blank'>alwayshodl.com</a> bağımsız bir ürün mağazasıdır,  Dash.org'un siparişler ve zamanında teslim gibi konularda bir sorumluluğu yoktur
+    school:
+      title: Dash Okulu
+      description: Dash. Nasıl kullanılır?
+      hero-heading: Dash Okulu
+      hero-text: |
+          hazırlayan Amanda B. Johnson
+      hero-btn: Hemen İzle
+      hero-you-btn: YouTube
+      header-video-1: |
+          Blok Zinciri nedir? | DASH Okulu #1
+      description-video-1: |
+          Belki bu kelimeyi The Economist'te gördünüz. Belki de Bloomberg, Yahoo Finance ya da hatta Wired'da bile görmüş olabilirsiniz. Nerede duymuş olursanız olun, muhtemelen çok iyi açıklanmamıştır. Dash Okulu'nun birinci bölümünde Amanda B. Johnson size teknik jargon ve terim kullanmadan bu konsepti açıklayacak.
+      header-video-2: |
+          Blok Zinciri Nasıl Çalışır? | DASH Okulu #2
+      description-video-2: |
+          Şimdi blok zincirinin temellerini kavradınız ama peki yaptığını söylediğimiz şeyleri nasıl yapıyor? Kim zincire "yazıyor, ne zaman ve neden? Blok zincirinin bildiğimiz veritabanından farkı ne? Dash Okulu'nun ikinci bölümünde Amanda B. Johnson size bunları açıklayacak.
+      header-video-3: |
+          Bir Blok Zinciri Nasıl Bir Mali Sistem Olabilir? | Dash Okulu #3
+      description-video-3: |
+          Artık blok zincirinin temellerini ve nasıl çalıştığını öğrendiniz. Peki bunların para ile ilgisi ne? Blok zinciri ağları nasıl bir para birimi ve ödeme sağlıyor? Dash Okulu'nun üçüncü bölümünde Amanda B. Johnson anlatıyor.
+      header-video-4: |
+          Dash'in Blok Zinciri Nasıl Fonlanıyor ve Yönetiliyor? | DASH Okulu #4
+      description-video-4: |
+          Artık blok zincirinin nasıl bir hizmet olarak para sunabildiğini kavradığınıza göre, Dash'in organize olma şekillerini öğrenin. Müşterilerimize mali hizmetler sunmak için neden ve nasıl bir DAO (merkezi olmayan otonom organizasyon) olarak çalışıyoruz. Dash Okulu'nun dördüncü bölümünde Amanda B. Johnson size bu konuyu anlatıyor.
+      header-video-5: |
+          Dash Anında ve Özel Ödemeleri Nasıl Sağlıyor? | DASH Okulu #5
+      description-video-5: |
+          Dash'in blok zincirinin anında ve özel ödeme sunan tek örnek olduğunu biliyor muydunuz? Gerçekten. Amanda B. Johnson'ın sunduğu Dash Okulu'nun beşinci bölümünde bizim benzersiz "ana düğümlerimiz" ile bunu nasıl mümkün kıldığımızı öğrenin.
+      header-video-6: |
+          Dijital Para Nasıl Herkes Tarafından Ulaşılabilir Olur? | DASH Okulu #6
+      description-video-6: |
+          Şimdi Dash'in nasıl çalıştığı ile ilgili her şeyi öğrendiğinize göre ortalama tüketici için bunu nasıl kullanılabilir yapacağımızı merak ediyorsunuzdur. Sorduğunuza sevindik! Amanda B. Johnson'ın sunduğu Dash Okulu'nun altıncı ve son bölümünde bu "Evrim"i işleyeceğiz. Hazırladığımız ürün ilk defa ortalama bir insanın dijital parayı kullanabilmesini sağlayacak.
+      school-about-heading: >
+          Dash Hakkında: ayrıntılı
+      school-descr: >
+          DASH: Ayrıntılı, Haziran 2016'dan beri her Çarşamba yayımlanıyor.
+      school-text: >
+          Amanda B. Johnson tarafından yazılıp sunulan, Pete Eyre tarafından yapımcılığı
+          üstlenilen bu seri, paydaşların oylarıyla doğrudan Dash'in hazinesinden
+          fonlanmıştır, böylece blok zinciri tarafından fonlanan ilk Youtube şovu
+          olma özelliğini taşımaktadır. Vaka analizi, ürün güncellemeleri ve sektörden
+          röportajlar ile DASH: Ayrıntılı hem tecrübeli hem de yeni yatırımcılara
+          hitap etmektedir.
+      school-team-heading: >
+          Dash Ayrıntılı: Ekip
+    legal:
+      title: Kanunlar ve DASH
+      description: Bir cüzdan indirip bir borsa üzerinden Dash alın.
+      hero-heading: Kanunlar ve DASH
+      hero-text: DASH DAO'nun amacı DASH'i yaygınlaştırmak, korumak ve standartlaştırmaktır. Bu görev doğrultusunda, DASH'in bazı yönlerinin Birleşik Devletler yasalarına nasıl uyum sağlayacağı konusunda sorgulamalar yapıldı. Bu belgenin amacı en çok sorulan sorulan soruları cevaplamak ve bizce yasaların DASH'e nasıl uygulanacağını açıklamaktır. Hukuki bir tavsiye niteliği taşımaz, bu yüzden bu belgenin içeriğini öncelikle kendi avukatınıza danışmalısınız. Ancak, bizim hukuki görüşümüzü ve kanunların nasıl yorumlanması gerektiğini anlatmaktadır.
+      hero-tax-btn: Vergilendirme
+      hero-compliance-btn: Uygunluk FIAT - DASH
+      сogent-heading: >
+          Muhkim Kanun Paketi:
+      criminally-heading: ANA DÜĞÜM İŞLETİCİLERİ AKTARDIKLARI İŞLEMLER İÇİN SORUMLU TUTULABİLİR Mİ?
+      criminally-text: |
+          Hukuki araştırma gerektiren konulardan biri Dash FIAT takası gerçekleştirmek için yasaların gerektirdiği uyum şartlarının ne olduğudur. Bu işlem ATM kioskları veya DASH'ten FIAT'a takar hizmet sunan başka mekanizmalar kullanarak yapılabilir.
+      criminally-btn: FIAT - DASH / ATM Uygunluğu
+      treatment-heading: Ana Düğüm İşleticisinin DASH'i Nasıl Vergilendirilir?
+      treatment-text: >
+          Blok Ödülleri / Hisseli DASH / Sermaye Kazanımları / Birincil Yükümlülük
+          / İkincil Yükümlülük / ... bu bölümde cevaplayacağımız noktalardır
+      treatment-text-hero: ABD VERGİ KANUNLARI ANA DÜĞÜM İŞLETİCİLERİNE NASIL UYGULANIR?
+      treatment-btn: Tam Liste
+      treatment-masternode-heading: Ana Düğümün Vergilendirilmesi
+      vitrtual-kiosk-heading: Sanal Para Kiosku İşletimi İçin Kısa Rehber
+      learn-more-btn: Daha Fazlasını Öğren
+      audio-heading: Sesli Rehberler
+      audio-text: Yerel para birimini Dash'e çevirin ve cüzdanınıza yollayın
+      audio-text-btn: Dash Satın Alın
+      report-heading: Bazı raporları tanıyın
+      report-heading-btn: Daha Fazlasını Öğren
+      docs-heading: Belgeleri öğrenin
+      docs-heading-btn: Daha Fazlasını Öğren
+      atm-heading: Bir ATM'den Dash Satın Alın
+      atm-text: Ülkenizdeki bir ATM'den anında Dash satın alımları
+      atm-btn: ATM Bulucu
+      shop-heading: Doğrudan Dash ile alışveriş
+      shop-text: Doğrudan Dash cüzdanınızdan anında ve özel çevrimiçi satın alımlar
+      shop-btn: Daha Fazla Satıcı
+      visa-stores: Visa mağazalarında alışveriş
+      visa-text: Yabancı para birimi işlemi ücreti olmayan Dash-Visa debit kartı ve mobil "bas &amp; öde"
+      visa-btn: Shake Alın
+    exchanges:
+      title: Borsalar
+      description: Bu borsalar ve brokerlerde Dash satın alın
+      hero-heading: Borsa listelemesi
+      hero-text: |
+          Bu listelerde Dash işlemi yaptığı bilinen tüm borsalar bulunur (alfabetik sıralı), düşük işlem hacmi olanlar da gösterilmektedir. Daha fazla bilgi için <a href='https://coinmarketcap.com/currencies/dash/#markets' target='_blank'>Pazar İstatistiklerini Görün</a>.
+      hero-btn: Dash Entegre Et
+      hero-getlisted-btn: Listeye Girin
+      disclaimer-text: >
+          FERAGAT: Bu liste sadece bilgilendirme amaçlıdır. Burada listelenen hizmetler
+          Dash geliştiricileri tarafından değerlendirilmemiş ve onaylanmamıştır ve
+          bilgilerin doğruluğu konusunda bir garanti verilmemektedir. Lütfen üçüncü
+          şahıslara ait hizmetler kullanırken dikkatli olun.
+    404-page:
+      hero-heading: >
+          404
+      hero-text: Sayfa Bulunamadı
+      hero-forum-btn: Resmi Forum
+      hero-discussion-btn: Tartışma
+      hero-social-btn: Sosyal Uygulamalar
+      hero-news-btn: Haberler &amp; Bilgiler
+      hero-development-btn: Geliştirme
+      hero-masternodes-btn: Ana Düğümler
+      hero-video-btn: Video &amp; Ses
+    mining:
+      title: Dash Resmi Web Sitesi | Dash Kripto Para
+      hero-heading: Madencilik
+      hero-text: |
+          Dash'in temeli blok zinciridir, blok zinciri şimdiye kadar yapılmış tüm işlemlerin kayıt edildiği merkezi olmayan bir defterdir. Bu blok zincirinin güvenliği "İş İspatı" (PoW) denilen bir konsensüs mekanizması ile sağlanır.
+
+          "Madencilik" adı verilen bir işlem ile insanlar aşırı zor matematik problemlerini çözen özelleştirilmiş bilgisayarlar kullanır. Eğer çözüm doğru ise blok zincirine yeni bir blok ekleme hakkı kazanırlar.
+
+          Ağ, problemin doğru şekilde çözüldüğünü doğruladıktan sonra, blok zincirine yeni bir blok eklenir ve madenci Dash parası ile ödüllendirilir.
+      hero-how-to-btn: Nasıl başlanır
+      hero-asic-btn: ASIC Donanımı
+      hero-guides-btn: Rehberler
+      pools-heading: Madencilik Havuzları
+      pools-text: |
+          FERAGAT: Bu liste sadece bilgilendirme amaçlıdır. Burada listelenen hizmetler Dash geliştiricileri tarafından değerlendirilmemiş ve onaylanmamıştır ve bilgilerin doğruluğu konusunda bir garanti verilmemektedir. Lütfen üçüncü şahıslara ait hizmetler kullanırken dikkatli olun. Eğer bu listede yer almak istiyorsanız lütfen <a href='mailto:contact@dash.org'>contact@dash.org</a> adresinden bize ulaşın.
+      pools-masternode-btn: Madencilik vs. Ana düğüm
+      pools-masternode-text: |
+          Dash de Bitcoin ve diğer kripto paraların çoğu gibi blok zinciri adı verilen merkezi olmayan bir hesap defteri üzerine kurulmuştur. Bu blok zincirinin güvenliği, hem Dash hem Bitcoin'de İş İspatı (PoW) adı verilen bir konsensüs mekanizması ile sağlanır. Madenciler özelleştirilmiş bilgisayarlar ile zor problemleri çözmeye çalışırlar ve çözdüklerinde ise blok zincirine yeni bir blok ekleme hakkı kazanırlar. Eğer yazılımı çalıştıran tüm diğer kişiler de problemin çözüldüğünü onaylarsa blok, blok zincirine eklenir ve madenci ödüllendirilir.
+      how-start-heading: Madenciliğe Nasıl Başlanır
+      asic-heading: ASIC Madencilik Donanımı
+      asic-text: >
+          Uygulamaya Özel Entegre Devreler (ASIC) adı verilen özelleşmiş bilgisayar
+          Dash'in İş İspatı problemlerini olabilecek en iyi verimlilik ile çözmek
+          için tasarlanmıştır. Şu anda piyasada bulunan Dash ASIClerinin ayrıntıları
+          buradan görülebilir:
+      asic-pinidea-btn: ASIC Pinidea X11 Miner DR-1
+      asic-pinidea-usb-btn: ASIC Pinidea X11 USB DU-1
+      asic-ibelink-miner: ASIC iBeLink DM384M X11
+      asic-baikal-mini-miner: ASIC X11 Baikal Mini Miner
+      asic-baikal-miner: ASIC Baikal A900 X11
+      asic-all-btn: ASIC Madenciliği
+      cpu-gpu-heading: Rehberler (CPU / GPU)
+      cpu-gpu-text: >
+          CPU / GPU Madenciliği artık maliyet açısından karlı değildir, dikkatli olun.
+          Bu oldukça basit bir prosedürdür ve işlemciniz için mümkün olan en yüksek
+          hızı elde etmek için örnekler verilecektir ama daha hızlı çalışan madencilerin
+          var olabileceğini unutmayın, bu yüzden son gelişmelerden haberdar olmak
+          için buradaki gibi madencilik sitelerine göz atmanızı tavsiye ediyoruz.
+      cpu-mining-btn: CPU Madenciliği
+      sg-miner-btn: SGminer / grafik kartları
+      pools-stat-heading: Havuz İstatistikleri
+      amd-mining-btn: GPU Madenciliği
+      description-text-hero: >
+          Merkezi olmayan bir projenin yönetimi zordur, çünkü yapısı itibariyle proje
+          için karar verecek merkezi bir otorite yoktur. Dash'te bu kararlar ana düğümlerin
+          sahiplerinin oluşturduğu ağ tarafından alınır. DGBB sistemi ana düğümlerin,
+          Dash geliştiricileri tarafından implemente edilecek (veya edilmeyecek) teklifler
+          lehinde veya aleyhinde oy kullanmasını sağlar. Bunun önemli bir örneği 2016
+          başında Dash Core Ekibi'nin blok boyutunun 2 MB'a yükseltilip yükseltimemesi
+          konusunda ağa yolladığı tekliftir. 24 saat içinde bu değişikliğin onaylanması
+          için konsensus sağlanmıştır. Bu örneği neredeyse üç yıldır blok boyutu hakkındaki
+          tartışmaların sürdüğü Bitcoin ile karşılaştırabilirsiniz.
+      description: >
+          DGBB aynı zamanda Dash'in kendi geliştirmesini fonlamasını da sağlar. Diğer
+          projelerde bağış veya önceden kazılmış gelirlere ihtiyaç varken, Dash blok
+          ödülünün %10'unu kendi geliştirmesini fonlamak için kullanır. Her bir blok
+          kazıldığında ödülün %45'i madenciye, %45'i ana düğüme gider ve kalan %10'u
+          ay sonuna kadar oluşturulmaz. Ay boyunca, herhangi biri ağa bütçe teklifi
+          sunabilir. Eğer bu teklif ana düğüm ağının en az %10'u tarafından onaylanırsa,
+          bir seri "süperblok" oluşturulur. O tarihte, ödenmemiş olan blok ödülleri
+          (her bloğun %10'u) onaylanan teklifleri fonlamak için kullanılır. Bu şekilde
+          ağ, blok ödüllerinin %10'unu projelerin bütçelerine ayırarak kendini fonlamaktadır.
+      governance-meaning: Yönetim nedir ve Dash'in önemi nedir
+      voting-header: Nasıl Oy Verilir
+      voting-automatic: Nasıl Oy Verilir
+      voting-automatic-text: >
+          Ana düğümlerin tekliflere oy vermesinin birkaç yolu vardır. Her bir yöntem
+          hakkında talimatları aşağıdaki bağlantılardan görebilirsiniz.
+      voting-guide-btn: Rehber - Amanda B.
+      voting-manual-btn: El Kitabı (QT Wallet üzerinde)
+      voting-central-btn: DashCentral
+      voting-tools: Yönetim Araçları
+      voting-tools-text: >
+          Dash topluluğu bütçe sürecini izlemek ve oylamaya yardımcı olmak için birçok
+          farklı araç geliştirmiştir. Dash Core Ekibi ağa teklifler göndermeye yardımcı
+          olmak için bir teklif üretici geliştirdi.
+      generator-link: Bütçe Teklifi Üretici
+      dashcentral-link: DashCentral
+      votetracker-link: VoteTracker
+      budget-monitoring-link: Bütçe İzleme
+      proposal-status-link: Teklif Durumu
+      proposal-service: Otomatik Teklif Hizmeti
+    masternodes:
+      title: Dash Resmi Web Sitesi | Dash Kripto Para
+      description: Dash Dijital Paradır
+      hero-heading: Ana Düğümler
+      hero-text: Ana düğümler bir dash cüzdanı çalıştıran, işlemleri Anında Gönder ile kilitlemek, paraların karışımını koordine etmek ve bütçe fonlama oylaması gibi kararlar veren bilgisayarlardır.
+      hero-what-btn: Ana Düğüm Nedir
+      hero-how-btn: Ana Düğüm Nasıl Kurulur
+      hero-network-btn: Ana Düğüm Ağı
+      hero-masternode-mining-btn: Ana Düğüm vs Madencilik
+      marsternode-text: Ana düğümün 1000 Dash teminat bulundurması, sabit bir IP adresi olması ve 1 saatten fazla kesinti olmayacak şekilde 24 saat sunucusunu açık tutabilmesi gerekmektedir. Ana düğüm her blokta blok ödülünün %45'ini alır. Genelde her 7 günde bir her ana düğüme 2 dash ödeme yapılır.
+      what-heading: ANA DÜĞÜM NEDİR?
+      earn-heading: Ana Düğüm Geliri
+      earn-text: |
+          Ana düğümlerin barındırılması para ve efor gerektirir bu yüzden teşvik edilmesi için blok ödülünden bir hisse alırlar. Mevcut ana düğüm sayısı ve ödülleri ile ana düğümler 2016 yılında 1000 Dash üzerinden yaklaşık %11 kazanç sağlarlar. Gelecek yıllarda bu ödülün düşmesi beklenmektedir ama Dash'in değerinin artması ve Dash arzının azalması ile ana düğümlerin teşviki için hala yeterli olacaktır.
+
+          Aynı zamanda bu öngörüde birinin hizmetlerini (Anında Gönder ve Özel Gönder) kullandığı zaman ana düğümün kazandığı ücretler hesaba katılmamıştır.
+      what-hero-heading: Ana Düğüm Nedir?
+      instantiend-text: Anında Gönder (anında işlemler). Diğer yandan Bitcoin'de bir ödemenin onaylanması 10 dakikaya kadar sürmektedir.
+      private-send-text: (anonim işlemler). Diğer yandan Bitcoin işlemleri tamamen halka açık ve izlenebilirdir. Sadece adreslerin kimliği anonimdir.
+      governance-text: (ana düğümler yönetimi üstlenir, blok zinciri ise geliştirmeyi fonlar). Diğer yandan Bitcoin birkaç büyük madenci tarafından kontrol edilir ve kendi çıkarlarını gözeten 3. şahıslar tarafından fonlanır.
+      evolution-text: merkezi olmayan bir ödeme işlemcisi (merkezi olmayan bir Paypal düşünün).
+      host-heading: BİR ANA DÜĞÜM KUR
+      host-text: |
+          1000 Dash: Muhtemelen en zor kısım. Dash, Poloniex, Bittrex gibi borsalardan veya Shapeshift'ten edinilebilir. Dash edinilebilecek yerlerin tam listesi için tıklayın.
+
+          Linux yüklü bir sunucu veya VPS: Bu rehberde biz Ubuntu 14.04 LTS kullanacağız. Biz Vultr ve DigitalOcean gibi ucuz VPSleri öneriyoruz ama herhangi bir hizmet sağlayıcı da iş görür. Genelde düşük özelliklere sahip olanlar yeterlidir. Ben Vultr'un 5 USDlik paketini kullanıyorum ve sorunsuz çalışıyor.
+
+          Sabit IP adresi: Bu genelde zaten VPS/sunucu ile birlikte geliyor.
+
+          Biraz zaman: Ben ana düğümler ile ilk ilgilendirmeye başladığımda çok az rehber vardı ve tüm senaryoları kapsamıyordu. Her şeyi nasıl en iyi şekilde yapacağımı öğrenmem birkaç günümü aldı. Ancak, şimdi bu süreç birkaç dakika sürüyor. Süreci çok daha kolaylaştıracağını düşündüğüm birkaç rehber burada.
+
+          Eğer kendi sunucunuzu  kurmak ve idame ettirmek ile uğraşmak istemiyorsanız ve biraz daha fazla para harcamaktan çekinmiyorsanız süreci çok daha kolaylaştıracak ücretli ana düğüm barındırıcıları ile çalışabilirsiniz. Birkaç iyi barındırıcı burada bulunabilir.
+      host-btn: Ana Düğüm Başlat
+      hosting-services: Ana Düğüm Barındırma Hizmetleri
+      hosting-services-text: |
+          Mevcutta birçok Güvensiz Barındırma hizmetleri vardır. Bu hizmetler sadece VPS Arka uç kurulumu sağlarlar, Cüzdanlar ve paralar hala sizin tarafınızdan tutulur (Güvensiz).
+
+          Havuzlu Hizmetler 1k Dash'ten az bulunduran kullanıcıların Ana düğüme erişimini sağlar (birçok kullanıcı 1 Ana düğümü paylaşır)
+      hosting-services-btn: Ana Düğüm Barındırma Hizmetleri
+      p2p-text: |
+          Teşvikler sayesinde Dash'in ağı 2014'teki açılışından beri 4.100 ana düğüm sayısına ulaştı, bu da Dash'in eşler arası ağının dünyadaki en büyüklerden bir tanesi olduğu anlamına geliyor.Daha fazla düğüm, daha güvenli hizmetler ve son kullanıcıların Dijital Para'ya 7/24 her yerden ulaşması için daha fazla kapasite demek.
+      p2p-btn: Ağ İstatistikleri
+    buy:
+      title: Dash Resmi Web Sitesi | Dash Kripto Para
+      description: Dash Dijital Paradır
+      hero-heading: Dash nasıl satın alınır
+      hero-text: Çevrimiçi borsalardan Dash satın almak için kolay rehberler
+      exchanges-btn: Fiat para ile satın alın
+      brokers-btn: Kripto para ile satın alın
+      otc-btn: OTC
+      local-btn: Yerel Pazarlar
+      exchanges-heading: Borsalar
+      brokers-heading: Brokerler
+      otc-heading: Borsa dışı
+      dashous-text: Nasıl Kullanılır
+      woc-text: Wall of Coins nasıl kullanılır
+      local-heading: Yerel Pazarlar
+    governance:
+      title: Dash Resmi Web Sitesi | Dash Kripto Para
+      hero-heading: Merkezi Olmayan Yönetim Sistemi
+      hero-text: >
+          Blok Zinciri ile Merkezi Olmayan Yönetim, veya DGBB, Dash'in kriptoparalardaki
+          önemli iki sorunu çözme teşebbüsüdür: Yönetim ve fonlama
+      hero-how-to-btn: DGBB Nedir
+      hero-tools-btn: Araçlar
+      description-text-hero: >
+          Merkezi olmayan bir projenin yönetimi zordur, çünkü yapısı itibariyle proje
+          için karar verecek merkezi bir otorite yoktur. Dash'te bu kararlar ana düğümlerin
+          sahiplerinin oluşturduğu ağ tarafından alınır. DGBB sistemi ana düğümlerin,
+          Dash geliştiricileri tarafından implemente edilecek (veya edilmeyecek) teklifler
+          lehinde veya aleyhinde oy kullanmasını sağlar. Bunun önemli bir örneği 2016
+          başında Dash Core Ekibi'nin blok boyutunun 2 MB'a yükseltilip yükseltimemesi
+          konusunda ağa yolladığı tekliftir. 24 saat içinde bu değişikliğin onaylanması
+          için konsensus sağlanmıştır. Bu örneği neredeyse üç yıldır blok boyutu hakkındaki
+          tartışmaların sürdüğü Bitcoin ile karşılaştırabilirsiniz.
+      description: >
+          DGBB aynı zamanda Dash'in kendi geliştirmesini fonlamasını da sağlar. Diğer
+          projelerde bağış veya önceden kazılmış gelirlere ihtiyaç varken, Dash blok
+          ödülünün %10'unu kendi geliştirmesini fonlamak için kullanır. Her bir blok
+          kazıldığında ödülün %45'i madenciye, %45'i ana düğüme gider ve kalan %10'u
+          ay sonuna kadar oluşturulmaz. Ay boyunca, herhangi biri ağa bütçe teklifi
+          sunabilir. Eğer bu teklif ana düğüm ağının en az %10'u tarafından onaylanırsa,
+          bir seri "süperblok" oluşturulur. O tarihte, ödenmemiş olan blok ödülleri
+          (her bloğun %10'u) onaylanan teklifleri fonlamak için kullanılır. Bu şekilde
+          ağ, blok ödüllerinin %10'unu projelerin bütçelerine ayırarak kendini fonlamaktadır.
+      governance-meaning: Yönetim nedir ve Dash'in önemi nedir
+      voting-header: Nasıl Oy Verilir
+      voting-automatic: Otomatik Oylama
+      voting-automatic-text: >
+          Bir kripto para platformu kurmanın en büyük zorluklarından biri projeyi
+          yönetecek, fonlayacak, idame ettirecek ve genişletecek merkezi olmayan bir
+          yönetim sistemi kurmaktır. Bu ana unsur şu ana kadar piyasaya çıkmış tüm
+          paralarda eksiktir, bu eksikliğe verilen doğal tepki çekirdek protokolü
+          idame ettirmek ve paranın tanıtımını yapmak için kar amacı gütmeyen bir
+          vakıf kurmaktır ama bu vakıf parayı elinde bulunduranlarla herhangi anlamlı
+          bir bağa sahip olmaz. Bu yaklaşımın bazı sorunları olduğu önceki kripto
+          para platformlarında edinilen tecrübeler ile sabit olmuştur.
+      voting-guide-btn: Rehber - Amanda B.
+      voting-manual-btn: El Kitabı (QT Wallet üzerinde)
+      voting-central-btn: DashCentral
+      voting-tools: Yönetim Araçları
+      voting-tools-text: >
+          Sistem, belli projelerin bütçelerinin teklif edildiği, sonra da ana düğümlerin
+          hepsinin oy kullandığı yazılımın içine kurulu merkezi olmayan bir oylama
+          mekanizması  olarak çalışır. Eğer oylamadan geçerse her bir proje toplam
+          bütçeye eklenecek ve blok zincirinden doğrudan işi yapan kişiye ödenecektir.
+          Bu şekilde, çekirdek geliştiriciler işe alabilir ve merkezi olmayan bir
+          şekilde işin ispatı yapıldıktan sonra kendilerine doğrudan ödeme yapılabilir.
+      generator-link: Bütçe Teklifi Üretici
+      dashcentral-link: DashCentral
+      votetracker-link: VoteTracker
+      budget-monitoring-link: Bütçe İzleme
+      proposal-status-link: Teklif Durumu
+      proposal-service: Otomatik Teklif Hizmeti
+    woocommerce:
+      title: Dash Resmi Web Sitesi | Dash Kripto Para
+      description: Dash Dijital Paradır
+      hero-heading: WooCommerce
+      hero-text: Dash için WooCommerce Alın
+      hero-btn: Github Repo
+      hero-btn-download: Zip indirme
+      hero-description: Lütfen sitenizin teknik gerekliliklere
+      hero-description-link: sahip olduğundan emin olun
+      plugin-heading: >
+          WooCommerce Nedir
+      plugin-text: WooCommerce, herhangi bir şeyi göze hoş gelen bir şekilde satmanızı sağlayan ücretsiz bir eticaret eklentisidir. WordPress ile kusursuz bir şekilde entegre olacak şekilde geliştirilen WooCommerce dünyanın en gözde eticaret çözümüdür ve hem mağaza sahiplerine hem de geliştiricilere tam kontrol sağlamaktadır.
+      feature-private-heading: Özel
+      feature-private-text: Finansal bilgilerinizi koruyun. Özel Gönder ile etkinlik geçmişiniz ve bakiyeleriniz tamamen size özel kalır.
+      feature-instant-heading: Anında
+      feature-instant-text: Vaktiniz değerli. Anında Gönder ödemeleri bir saniyeden kısa sürede onaylanır.
+      feature-secure-heading: Güvenli
+      feature-secure-text: Bu güvenliğe güvenebilirsiniz. İşlemler 1000 Gigahash X11 ASIC işlem gücü ve dünya çapında barındırılan 4.500 sunucu tarafından onaylanmaktadır.
+      video-btn: Woocommerce Genel Bakış Videosu
+      install-heading: WordPress Eklentisi Kurulumu
+      install-btn: Daha Fazlasını Öğren
+      how-heading: Elle Kurulum
+      how-text: >
+          WordPress Eklentisini elle yüklemenin daha uygun olacağı birkaç durum vardır.
+
+          WordPress Eklentisinin yerini ve kurulum sürecini kontrol etmek istiyorsanız.
+
+          Eğer sunucunuz bir WordPress Eklentisinin otomatik kurulumunu desteklemiyorsa.
+
+          WordPress Eklentisi WordPress Eklentileri Klasöründe değilse.
+
+          WordPress Eklentisinin elle kurulumu FTP'ye aşina olmayı gerektirir ve mevcut
+          sürümle uyumsuz veya güvenilmeyen bir kaynaktan yüklenen WordPress Eklentilerinin
+          sitenizi riske atacağının farkında olmalısınız.
+
+          Devam etmeden önce sitenizi tamamen yedekleyin.
+
+
+
+          WordPress Eklentisini masaüstüne indirin. Eğer zip arşivi olarak indirdiyseniz
+          Eklenti klasörünü masaüstünüze çıkarın. "Readme" dosyasını okuyarak talimatları
+          harfiyen yerine getirin. FTP programınız ile Eklenti klasörünüzü çevrimiçi
+          WordPress klasörünüz içindeki wp-content/plugins klasörüne yükleyin.
+      how-text-plugin: Eklenti ekranına gidin ve yeni yüklediğiniz Eklentiyi listede bulun. Etkinleştirmek için Etkinleştire tıklayın. Özelleştirmeler ve daha fazla talimat için beni oku dosyasındaki Ayrıntılara göz atın.
+      how-text-link: Eklentiyi Al
+      how-install-link: Eklentiyi Kur
+    graphics:
+      title: Dash Resmi Web Sitesi | Dash Kripto Para
+      description: Dash Dijital Paradır
+      hero-heading: Tanıtım Grafikleri
+      hero-text: Bu grafikler çevrimiçi hizmetlerde, perakende kuruluşlarında, basında veya diğer tanıtım amaçları için kullanılabilir.
+      licence: Dash logo ve marka işareti, Creative Commons Atıf-AynıLisanslaPaylaş 4.0 Uluslararası Lisansı altında kullanılmak üzere lisanslanmıştır.
+      licence-link-text: Creative Commons Atıf-AynıLisanslaPaylaş 4.0 Uluslararası Lisansı
+      licence-link: https://creativecommons.org/licenses/by-sa/4.0/
+      logos-header: "Logolar &amp; Simgeler"
+      merchants-header: Satıcı Düğmeleri
+      dontaion-header: Bağış Düğmeleri
+      community-header: Topluluk
+      indent-header: Dash Görsel Kimlik
+      color-header: Renk Şeması
+      color-text: Bunlar, Dash markası için tutarlı bir tasarım estetiği sağlamak için tavsiye edilen kullanım talimatlarıdır.
+      typography-header: Tipografi
+      typography-text: Bunlar, Dash markası için tutarlı bir tasarım estetiği sağlamak için tavsiye edilen kullanım talimatlarıdır.
+      download-link: Vektör Grafikler (zip)
+      icons: Simgeler
+      print-or-screens: Baskılar veya ekranlar için
+      disclaimer-text: Dash şu anda bu web sitesini ve tüm diğer varlıklarını ağ tarafından onaylanan yeni bir görsel kimliğe adapte ediyor. Lütfen eski görsellerin yerine geçirmek için aşağıdaki kaynakları ve stil rehberini kullanın.
+      download-style-guide: Stil rehberi
+      download-all-resources: Tüm Kaynaklar
+      logos: Logolar
+    evolution:
+      title: Dash Resmi Web Sitesi | Dash Kripto Para
+      description: Dash Dijital Paradır
+      hero-heading: DASH EVRİMİ
+      hero-text: Ödemenin geleceğine bir bakış
+      hero-btn: Evrim hakkında daha fazla bilgi
+      hero-roadmap-btn: Yol Haritası
+      video-heading: MİSYON
+      video-text: Evrim'in misyonu dijital parayı teknolojiden anlamayanlar için bile kolay kullanılabilir ve tüm kullanıcılar için erişilebilir yapmaktır. Blok zinciri üzerinde herkes bir hesap açabilir, irtibatlar ekleyebilir ve adları ile ödeme yapabilecektir. Web siteleri veya mobil uygulamalarda ödeme yapmak sadece bir tıklama gerektirecek kadar kolay olacaktır.
+      prototype-video-1: Prototip Videosu 1
+      prototype-video-2: Prototip Videosu 2
+      video-btn2: Cüzdan Önizlemesi
+      sentinel-btn: Sentinel
+      evo-prototype-heading: HAFİF CÜZDANLAR
+      evo-prototype-text: Evrim, SPV güvenliği ve tarayıcı uyumluluğu olan yeni bir hafif cüzdan türünü sunacak. Bu cüzdan 4.000 düğümlük P2P ağımıza doğrudan bağlanacak.
+      evo-prototype-btn: Dash Prototipi
+      slack-btn: Slack Kanalı
+      forum-btn: Dash Forumları
+      component-heading: Bileşenler
+      component-text: >
+          Aşağıdakiler Evrim'in şunlar gibi bileşenleri içeren mevcut durumunu gösterir:
+      docs-heading: TÜKETİCİ DOSTU
+      docs-text: Evrim'de ödeme yapmak için satıcılar ile doğrudan bağlantı kurabilecek veya abonelik hizmetleri için otomatik ödeme talimatı bile verebileceksiniz. Dash'i entegre etmiş tüm  satıcılar blok zincirinde görülebilecek ve siz de onları puanlayabileceksiniz ki böylece topluluğumuz hangi satıcının kaliteli ürün ve hizmet sağladığına karar verebilecek.
+      docs-btn: Daha Fazlasını Öğren
+      docs-link: /forum/threads/january-2017-budget-report.12601/
+      update-heading: EVRİM GÜNCELLEMESİ
+      update-text: 'Baş evrim geliştiricisi Andy Freer uzun zamandır Evrim''in çeşitli konseptlerini anlatan dokümentasyonu yazmak ile uğraşıyor. Bunlar ben Andy ile Evolution''ın her bir bileşeninin nasıl çalıştığıyla ilgili aylar süren görüşmeler yaptıktan sonra gerçekleşti, ardından her şeyi tekrar hayal ettik ve bileşenler ile tasarımı sistematik olarak geliştirdik.
+
+
+        İlk araştırma evresinden beri, dökümantasyon, spesifikasyon, planlar ve diagramlar taslak haline getirildi ve bütün bu belgeler Evolution''ın uçtan uca tasarım ve implementasyonunu anlatan sayfalarla dolu bir wiki''ye yerleştirilecek.'
+      proposal-btn: Teklifler
+      proposal-submit-btn: Bir Teklif Gönder
+      prototype-heading: EVRİM ALFA
+      prototype-text: Dash 12.2 çıkış yaptığına göre bir sonraki adımımız 2018 ortasına doğru Evrim'in alfa versiyonunu çıkarmak olacak. Ondan önce de bazı ek sürümler çıkaracağız, buna tam bir beyaz kağıt da dahil, bu yüzden lütfen güncellemeler için sürekli burayı kontrol edin. Takipte kalın!
+      prototype-btn: Ağ İstatistikleri
+      explore-heading: Dash'i Keşfet
+      explore-text: 'Dash Evolution prototipinin tüm özelliklerini keşfedin. Örneğin, Kayıt Olma, hesabın Doğrulanması, giriş, arkadaş ekleme, ad ile ödeme ve dash ile öde düğmeleri.
+
+
+        İlk araştırma evresinden beri, dökümantasyon, spesifikasyon, planlar ve diagramlar taslak haline getirildi ve bütün bu belgeler Evolution''ın uçtan uca tasarım ve implementasyonunu anlatan sayfalarla dolu bir wiki''ye yerleştirilecek.'
+      subscribe-btn: Haberlere Abone Ol
+      follow-soc-btn: Twitter'da Takip Et
+      merchants-heading: SATICI DOSTU
+      merchants-text: 'Basit, merkezi olmayan API''yi kullanarak Dash ödemelerini sitenize veya mobil uygulamanıza ekleyin.
+
+        Karmaşık altyapıları veya müşterilerinizin ödemelerini yönetmek için üçüncü şahıslara mecbur kalmayı unutun ve blok zincirini kullanarak müşterileriniz ile doğrudan ilişkiler kurun.'
+      merchants-btn: Satıcılar İçin
+      merchants-plugin-btn: Woocommerce Eklentisi
+      social-heading: Dash Sosyal
+      social-text: >
+          Herhangi bir yerden herhangi bir cihazdan  güvenli şekilde bağlanıp erişebileceğiniz
+          bir hesap oluşturun. Kullanıcı adı ile ödeme yapmak ve almak için arkadaşlarınızı
+          davet edip onlarla bağlantı kurun.
+
+          İrtibatlar ile yapılan ödemeleri takip edin ve ödeme alıcısı ile ödeme bilgisi
+          paylaşın. Gizliliğinizi korumak için işlem geçmişinizi istediğiniz zaman
+          tarayıcı geçmişini siler gibi kolayca silebilirsiniz.
+      social-btn: Bütçeler
+      social-link: https://www.dashcentral.org/budget
+    update:
+      title: Dash Resmi Web Sitesi | Dash Kripto Para
+      description: Dash Dijital Paradır
+      hero-heading: 12.1 Güncelleştirmesi
+      hero-text: 'Ağda yeni bir yazılım versiyonu çıkarıyoruz. Sıradan kullanıcılar, havuzlar, madenciler ve ana düğümler dahil herkesin yeni versiyona güncelleme yapması gerekiyor. Tüm bütçe teklifleri de sisteme tekrardan gönderilecek. Not: Bu yükseltme sırasında zorunlu kılma devredışı olacak bu yüzden güncelleme yapmayan ana düğümlere yapılan ödemeler hızlıca kesilecek.'
+      hero-btn: >
+          Çıkış tarihi: 5 Şubat 2017
+      video-heading: CORE GELİŞTİRMESİ
+      video-text: İlk ilerleme alanı Dash Core'dur. Şu anki ağı çalıştırmaya ek olarak DAsh Core aynı zamanda Evrim motorunun omurgası görevi görür.
+      video-btn: Genel Bakış Videosu
+      merchants-heading: Lütfen zorunlu güncelleştirme ayrıntılarını kontrol edin
+      merchants-text: Tüm Madenciler, Havuzlar, Borsalar, Satıcılar... Güncelleştirme yapmak zorundadır
+      merchants-btn: Havuzlar
+      masternodes-btn: Ana Düğümler
+      exchanges-btn: Borsalar
+      proposal-heading: Otomatik Teklif Hizmeti
+      execution-heading: Evrim Nedir
+      execution-text: Dash Evrim dijital paranın tüm karmaşıklığını ortadan kaldırıp Dash ile ödeme yapmayı PayPal ile ödeme yapmak kadar kolaylaştıracak. Avantajı ise, PayPal'ın aksine Dash Evrim tamamen merkezi olmayan şekilde çalışacak ve kar amacı gütmeyecek.
+      execution-btn: Daha Fazlasını Öğren
+      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      update-heading: Sentinel
+      update-text: Dash'in yeni Sentinel teknolojisi Dash Evrim'e güç veren motordur. Çok güçlü ve esnek olan bu teknoloji çok daha kolay ağ güncellemelerini mümkün kılmaktadır. Ek olarak, Sentinel ağ üzerinde çalışacak birçok yeni uygulamayı oluşturmak için özelleştirilebilir. Mesela Sentinel kullanılarak dijital şirketler kurmak mümkündür.
+      proposal-btn: Teklifler
+      proposal-submit-btn: Bir Teklif Gönder
+      evolution-research-heading: EVRİM ARAŞTIRMASI
+      evolution-research-text: 'Ocak 2016''da Electrum''u baz alarak erken bir Evolution prototipi çıkardık. O zamandan beri tonlarca dokümantasyon oluşturduk ve tasarım hedeflerimizi tamamen belirleyip implemente etmeye başladık.
+
+        Prototip oldukça basitti, kullanıcı etkileşimi sadece birkaç arkadaşa ödeme yapmakla sınırlıydı ve kullanıcı bilgisi bir geliştirme sunucusunda depolanıyordu ama en azından fikir ispatlanmış oldu. O zamanki amacımız tüm anahtar teknolojileri tasarlamak ve prototip haline getirmek ve tamamen P2P olarak çalışmasını sağlamaktı. Veri Dash blok zinciri üstünde korunacak ve her yerden her cihazdan erişilebilir olacak, SPV bazlı güvenliğe sahip olacak, hiçbir merkezi aracı hizmet gerekmeyecek ve mevcut olan en yaygın sansür geçirmez protokol HTTP(S) kullanılacaktı. '
+      evolution-research-btn: Ağ İstatistikleri
+      launching-heading: ÇIKIŞ TARİHLERİ
+      launching-text: >
+          Ağda yeni bir yazılım sürümü çıkarmak için tüm bütçe tekliflerinin sisteme
+          yeniden girilmesi gerekir.
+
+          Süper blokların zamanlamasından dolayı ayın başına kadar çıkış yapmak için
+          kısa bir süremiz var. Bütçe sistemine müdahale etmeden mümkün olan en stabil
+          sürümü çıkardığımızdan emin olmak için, 12.1 sürümünü çıkarmak için Şubat
+          ayının başını beklemek istiyoruz. Çıkış tarihi: 5 Şubat 2017.
+      launching-btn: Bütçeler
+      launching-link: https://www.dashcentral.org/budget
+    wallets:
+      title: Dash Cüzdanları
+      description: Platformunuz için doğru Dash cüzdanını alın
+      hero-heading: Bir Dash cüzdanı alın
+      hero-image: get-dash-n.jpg
+      hero-wallets-btn: Cüzdanlar
+      hero-guide-btn: Rehber
+      hero-security-btn: Güvenlik
+      hero-text: Cüzdanınız Dash gönderdiğiniz, aldığınız ve depoladığınız yazılımdır. Kullanımı kolaydır ve Özel Gönder ile cüzdanınızdan anonim olarak ödeme gönderebilirsiniz.
+      wallets-desktop-header: Masaüstü
+      wallets-desktop-subtitle: Dash Masaüstü Cüzdanlarının farklı özellikleri ve güvenliği vardır.
+      wallets-desktop-latest: >
+          En son: 3 Temmuz 2018
+      wallets-mobile-header: Mobil
+      wallets-mobile-subtitle: Dash Mobil Cüzdanlar farklı özelliklere ve güvenliğe sahiptirler ve Mobil (Cep telefonu, Tablet, vb.) cihazınız üzerinde çalışırlar
+      wallets-hardware-header: Donanım
+      wallets-hardware-subtitle: Donanım cüzdanlar, Cüzdanınızı hackerlar ve hırsızlardan koruyan Güvenlik Cihazlarıdır. Donanım Cüzdanlar özel anahtar üretimini, özel anahtar depolamasını ve işlem imzalamasını yönetimlerini ele alarak bilgisayarınızdaki cüzdan yazılımı ile çalışırlar.
+      wallets-paper-header: Kağıt
+      wallets-paper-subtitle: Kağıt cüzdanlar bir soğuk cüzdan fomudur ve özünde bir taşıma aracıdır.
+      wallets-web-header: Web
+      wallets-web-subtitle: Web cüzdanları.
+      wallets-security-header: Güvenlik
+      wallets-security-subtitle: 'Lütfen cüzdanlarınızı güçlü parolalar ile koruyun. Ayrıca, sık sık cüzdanınızın yedeğini alın ve kayıp ihtimalini azaltmak için farklı yerlerde birkaç kopyasını bulundurun. Trezor veya Electrum gibi "tohum" (uzun bir rastgele kelime dizisi) üreten bir cüzdan kullanıyorsanız, tohumu bir yere yazın ve birkaç kopyasını güvenli bir yerde tutun. Bu tohum size kaybetme ihtimalinize karşın tüm cüzdanınızı geri alabilme imkanı sağlar. Güçlü parola oluşturmak konusunda yardım almak için ziyaret edin: '
+      modal-platform: Platform
+      modal-header-vendor-label-descriptor: Dash Cüzdanı
+      modal-download-action-button-label: İndir
+      modal-source-code-view: Görüntüle
+      modal-source-code-label: Kaynak Kod
+      modal-source-closed-label: Mülkiyet
+      modal-website-label: Web Sitesi
+      modal-control-label: Kontrol
+      modal-control-full: Bu cüzdan size Dash'iniz üzerinde tam kontrol sağlar ve kaynak kodunu ve dosyaları kendiniz doğrulayabilirsiniz.
+      modal-control-semi: Bu cüzdan size Dash'iniz üzerinde tam kontrol sağlar ama indirmenizin içinde kötü amaçlı kod olmadığından emin olmalısınız
+      modal-validation-label: Doğrulama
+      modal-validation-full: Ödemeler gönderilecek veya alınacaksa güvene gerek olmadan tam doğrulama. Bu en güvenli cüzdandır ama en fazla disk alanı kullanan seçenektir.
+      modal-validation-spv: Basitleştirilmiş doğrulama, ödemeler gönderilecek veya alınacaksa minimum güven ile doğrulama yapabileceğiniz anlamına gelir.
+      modal-validation-hosted: Eğer ödemeler gönderilecek veya alınacaksa karşı tarafın sunucusuna güvenmeniz gerekir.
+      modal-access-label: Erişim
+      modal-access-p2p: P2p ağına doğrudan erişim sağlar. Bu, en sansürsüz ve merkezi olmayan erişim şeklidir.
+      modal-access-multi: Dash p2p ağına tek bir aracı ağ geçidi ile erişirsiniz ama hangi ağ geçidini kullanacağınızı seçebilirsiniz.
+      modal-access-vendor: Dash p2p ağına sadece satıcının sunucusunu vekil olarak kullanarak erişirsiniz.
+      modal-core-minimum-reqs: Minimum gerekli versiyon
+      modal-core-header: Dash Core'u İndir
+      modal-electrum-header: Dash Electrum'u İndir
+      modal-win-core-description: Kısa Açıklama&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+      modal-win-core-security-key: Güvenlik
+      modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
+      modal-win-core-source-code-key: Kaynak Kod
+      modal-win-core-source-code-value: .&#40;link/ closed source&#41;
+      modal-core-users-text: Genel Kullanıcılar
+      modal-core-masternode-text: Ana Düğüm İşleticileri
+      modal-core-pool-text: Havuz İşleticileri
+    payments:
+      title: Dash Ödeme İşlemcileri
+      hero-heading: Dash Ödeme İşleme
+      hero-text: Bir ödeme yöntemi olarak Dash'i hızlı ve kolay bir şekilde entegre edin
+      payments-desc-header: Ödeme İşlemcileri
+      payments-providers-header: Ödeme İşlemcileri
+      modal-header-vendor-label-descriptor: Dash Cüzdanı
+      modal-download-action-button-label: İndir
+      modal-source-code-view: Görüntüle
+      modal-source-code-label: Kaynak Kod
+      modal-source-closed-label: Mülkiyet
+      modal-website-label: Web Sitesi
+      modal-control-label: Kontrol
+      modal-control-full: Bu cüzdan size Dash'iniz üzerinde tam kontrol sağlar ve kaynak kodunu ve dosyaları kendiniz doğrulayabilirsiniz.
+      modal-control-semi: Bu cüzdan size Dash'iniz üzerinde tam kontrol sağlar ama indirmenizin içinde kötü amaçlı kod olmadığından emin olmalısınız
+      modal-validation-label: Doğrulama
+      modal-validation-full: Ödemeler gönderilecek veya alınacaksa güvene gerek olmadan tam doğrulama. Bu en güvenli cüzdandır ama en fazla disk alanı kullanan seçenektir.
+      modal-validation-spv: Basitleştirilmiş doğrulama, ödemeler gönderilecek veya alınacaksa minimum güven ile doğrulama yapabileceğiniz anlamına gelir.
+      modal-validation-hosted: Eğer ödemeler gönderilecek veya alınacaksa karşı tarafın sunucusuna güvenmeniz gerekir.
+      modal-access-label: Erişim
+      modal-access-p2p: P2p ağına doğrudan erişim sağlar. Bu, en sansürsüz ve merkezi olmayan erişim şeklidir.
+      modal-access-multi: Dash p2p ağına tek bir aracı ağ geçidi ile erişirsiniz ama hangi ağ geçidini kullanacağınızı seçebilirsiniz.
+      modal-access-vendor: Dash p2p ağına sadece satıcının sunucusunu vekil olarak kullanarak erişirsiniz.
+      modal-core-minimum-reqs: Minimum gerekli versiyon
+      modal-core-header: Dash Core'u İndir
+      modal-electrum-header: Dash Electrum'u İndir
+      modal-win-core-description: Kısa Açıklama&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+      modal-win-core-security-key: Güvenlik
+      modal-win-core-security-value: .&#40;full node/spv/hosted&#41;
+      modal-win-core-source-code-key: Kaynak Kod
+      modal-win-core-source-code-value: .&#40;link/ closed source&#41;
+      modal-core-users-text: Genel Kullanıcılar
+      modal-core-masternode-text: Ana Düğüm İşleticileri
+      modal-core-pool-text: Havuz İşleticileri
+      disclaimer-text: >
+          FERAGAT: Bu liste sadece bilgilendirme amaçlıdır. Burada listelenen hizmetler
+          Dash geliştiricileri tarafından değerlendirilmemiş ve onaylanmamıştır ve
+          bilgilerin doğruluğu konusunda bir garanti verilmemektedir. Lütfen üçüncü
+          şahıslara ait hizmetler kullanırken dikkatli olun.
+    contact:
+      title: Dash'e Ulaşın
+      description: Dash'e Ulaşın
+      hero-heading: İletişim
+      form-pretext: Cüzdanlar ve madencilik hakkında teknik destek ve hata çözümü veya genel sorularınız için lütfen DashTalk'ı veya birçok diğer topluluk kaynaklarını ziyaret edin.
+      form-pretext-2: Diğer talepleriniz için bu bağlantıyı kullanın.
+      social-heading: "Forumlar &amp; Sosyal Medya"
+      mail-list-heading: Eposta Listesi
+      mail-list-text: Güncel kalmakta sorun mu yaşıyorsunuz? Eposta listemize katılın.
+      social-text-heading: DASH FORUMUNA KATILIN
+      forum-btn: Forumları Ziyaret Edin
+      social-text: Cüzdanlar ve madencilik hakkında teknik destek ve hata çözümü veya genel sorularınız için lütfen DASH FORUM'u veya birçok diğer topluluk kaynaklarını ziyaret edin.
+      volunteer-heading: Gönüllü Olun
+      join-btn: Katılın
+    home:
+      title: Dash Resmi Web Sitesi | Dash Kripto Para
+      description: Dash Dijital Paradır
+      hero-heading: Dash Dijital Paradır
+      hero-text: Devrimsel bir dijital para sistemi.<br />Dijital Para ile Tanışın.
+      video-heading: Dash Her Yerde Harcayabileceğiniz Bir Dijital Paradır
+      video-text: Dünya çapında binlerce kullanıcı tarafından barındırılan açık kaynaklı güvenli platformumuzu kullanan Dash'i kullanarak anında, özel çevrimiçi veya mağazaiçi ödemeler yapın.
+      video-btn: Genel Bakış Videosu
+      video-link: https://www.youtube.com/watch?v=S0oNO3mbBE8
+      feature-private-heading: Özel
+      feature-private-text: Finansal bilgilerinizi koruyun. Özel Gönder ile etkinlik geçmişiniz ve bakiyeleriniz tamamen size özel kalır.
+      feature-instant-heading: Anında
+      feature-instant-text: Vaktiniz değerli. Anında Gönder ödemeleri bir saniyeden kısa sürede onaylanır.
+      feature-secure-heading: Güvenli
+      feature-secure-text: Bu güvenliğe güvenebilirsiniz. İşlemler 200 TerraHash X11 ASIC işlem gücü ve dünya çapında barındırılan 4.500 sunucu tarafından onaylanmaktadır.
+      merchants-heading: Doğrudan Dash ile alışveriş
+      merchants-text: Doğrudan Dash cüzdanınızdan anında ve özel çevrimiçi satın alımlar
+      merchants-btn: Daha Fazla Satıcı
+      merchants-link: https://discoverdash.com
+      merchants-join-btn: Bir Satıcı Ol
+      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      architecture-heading: Yeni Nesil P2P Ağı
+      architecture-text: 'Dash''in çekirdeğinde tam teşvikli benzersiz bir eşler arası ağ yatar. Madenciler blok zincirini güvenli hale getirdikleri için, ana düğümler ise blok zincirini doğruladıkları, barındırdıkları ve kullanıcılara sundukları için ödüllendirilirler.
+
+
+        Ana düğümler quorum adı verilen yüksek güvenlikli kümeler halinde çalışan yeni bir ağ sunucusu katmanıdır. Bu sunucular anında işlemler, gizlilik ve yönetim gibi çeşitli merkezi olmayan hizmetler sunar ve düşük maliyetli ağ saldırısı tehdidini ortadan kaldırırlar.'
+      architecture-btn: Daha Fazlasını Öğren
+      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      governance-heading: İlk Kendini Yöneten, Kendini Fonlayan Protokol
+      governance-text: 'Dash''te herkesin bir sesi ve doğrudan ağa proje teklifi sunma kabiliyeti vardır. Pazarlamadan geliştirmeye Dash''in büyümesi için yapabileceğiniz her şey fonlanabilir. Bu da Dash''in kendi büyümesi ve yaygınlaşmasını fonladığı, konsensüs sağlandığı ve herkesin ağa karşı sorumlu olduğu anlamına gelir.
+
+
+        Bir hazine teklifi gönderip ağa fonlanacak fikrinizi sunun veya eğer bir Ana Düğüm işletiyorsanız mutlaka oy kullanın!'
+      proposal-btn: Teklifler
+      proposal-submit-btn: Bir Teklif Gönder
+      network-growth-heading: En Hızlı Büyüyen Ağ
+      network-growth-text: 'Teşvikler sayesinde Dash''in ağı 2014''teki açılışından beri 4.100 ana düğüm sayısına ulaştı, bu da Dash''in eşler arası ağının dünyadaki en büyüklerden bir tanesi olduğu anlamına geliyor.
+
+
+        Daha fazla düğüm, daha güvenli hizmetler ve son kullanıcıların Dijital Para''ya 7/24 her yerden ulaşması için daha fazla kapasite demek.'
+      network-growth-btn: Ağ İstatistikleri
+      evolution-heading: Dijital Para Evrimi
+      evolution-text: 'Sırada ne var? Biz dijital paraların babaannenizin bile kullanabileceği kadar kolay kullanılabilir olmasını istiyoruz.
+
+
+        Dash Evrim size kayıt olup Dash''inize herhangi bir cihazdan ulaşabilme ve PayPal kadar kolay işlem yapabilme imkanı sağlayacak ve tabii ki merkezi olmayan bir şekilde. Takipte kalın...'
+      evolution-btn: Daha Fazlasını Öğren
+      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      news-heading: Son Haberler
+      news-btn: Tüm Haberleri Gör
+      get-started-heading: Hemen Başlayın
+      get-started-text: Cüzdanı indirip Dijital Parayı kullanmaya başlayın!
+      get-started-btn: Dash Alın
+    get-dash:
+      title: Dash Alın
+      description: Cüzdanı indirip bir borsadan Dash alın.
+      hero-image: get-dash-n.jpg
+      hero-heading: Dash Alın
+      hero-heading-text: |
+          İstediğiniz her an Dash Satın Alın ve Satın.
+          Dash birçok yolla elde edilebilir, tutulabilir ve takas edilebilir.
+      hero-text: |
+          İlk seferiniz mi? Yeni kulanıcılar için hazırlanan <a href='https://docs.dash.org/en/latest/' target='_blank'>Dash Rehberini</a> okuyun
+      hero-wallet-version: OSX için Dash Cüzdanı (Fullclient v12.0.56)
+      hero-wallet-version-select: Başka Birini Seçin
+      hero-platform-not-detected: "Üzgünüz fakat platformunuz otomatik olarak tespit edilemiyor. Uyumlu versiyonu bulmak için lütfen \"Tüm Cüzdanları\" seçin."
+      hero-download-btn: Cüzdanı İndirin
+      hero-all-wallets-btn: Tüm Cüzdanlar
+      download-title: Cüzdanı indir
+      download-text: Cüzdanınız Dash gönderdiğiniz, aldığınız ve depoladığınız yazılımdır. Kullanımı kolaydır ve Özel Gönder ile cüzdanınızdan anonim olarak ödeme gönderebilirsiniz.
+      all-wallets-btn: Tüm cüzdanlar
+      buy-dash-title: Dash Satın Alın
+      buy-dash-info-text: Tercihlerinizi seçin, böylece size Dash satın almak için en iyi yolu sunacağız
+      dash-select-label: 'Şununla satın almak istiyorum:'
+      dash-select-label-method: 'şunu kullanarak:'
+      show-more-btn: Daha Fazlasını Göster
+      service-type: Hizmet Türü
+      exchange-rate: Çevrim Kuru
+      payments-method: Ödeme Yöntemleri
+      buy-dash-preference-title: Tercihlerinizi seçin, böylece size Dash satın almak için en iyi yolu sunacağız
+      tooltip: |
+          Aklınızda bulunsun: Bu Dash'in şu anki piyasa fiyatıdır. Anında değişebilir ve aynı fiyata Dash alabileceğinizin garantisini veremiyoruz. Bu fiyata hizmet ve transfer ücretleri dahil değildir.
+      buy-dash-table: Dash Satın Alın
+      guide-btn: Kurulum Rehberi
+      spend-btn: Dash Harcayın
+      security-btn: Güvenlik
+      otc-heading: Borsa Dışı (OTC)
+      otc-text: |
+          Borsalarda yüksek miktarda Dash almak veya satmak fiyat kaymasına ve bu yüzden de alıcı veya satıcının istenenden az bir değer elde etmesine neden olabilir. Büyük satın alım emirleri fiyatı yükseltir ve fazla ödemeye sebep olur. Yüklü miktardaki satış emirleri ise tam tersine sebep olur ve sattığınız Dash için daha az bir meblağ alırsınız. Neyse ki "borda dışı" veya OTC denilen çözümler mevcut, burada bir hizmet sağlayıcı satıcı ve alıcıları eşleştirir, böylece borsa dışında büyük miktarlarda işlem gerçekleştirebilirsiniz. Böylece fiyat kaymasından kaybedeceğiniz parayı yeni bir web sitesi, tanıtım bütçesi vs. gibi şeylere harcayabilirsiniz. Sizin kârınız şudur, mevcut fiyattan borsada olduğundan çok daha fazla kripto para alabilirsiniz. Böylece bir Dash pozisyonuna diğer seçeneklerden çok daha kolay/ucuz olarak girebilirsiniz.
+      otc-btn: Tam Liste
+      exchanges-heading: En Büyük Borsalar
+      full-list-btn: Tüm Borsalar Listesi
+      claim-heading: Dash Satın Alın, Satın, Takas Edin
+      claim-subline: Dash birçok yolla elde edilebilir, tutulabilir ve takas edilebilir.
+      setup-heading: Cüzdanınızı nasıl kuracağınızı öğrenin
+      setup-btn: Daha Fazlasını Öğren
+      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      buy-heading: Çevrimiçi Dash Satın Alın
+      buy-text: Yerel para birimini Dash'e çevirin ve cüzdanınıza yollayın
+      buy-btn: Dash Satın Alın
+      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-heading: Bir borsada Dash işlemi yapın
+      trade-text: Bir borsada yerel para birimini Dash ile takas edin
+      trade-btn: Dash İşlemi Yapın
+      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      atm-heading: Bir ATM'den Dash Satın Alın
+      atm-text: Ülkenizdeki bir ATM'den anında Dash satın alın
+      atm-btn: ATM Bulucu
+      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      shop-heading: Doğrudan Dash ile alışveriş
+      shop-text: Doğrudan Dash cüzdanınızdan anında ve özel çevrimiçi satın alımlar
+      shop-btn: Daha Fazla Satıcı
+      shop-link: https://discoverdash.com
+      shop-join-btn: Bir Satıcı Ol
+      visa-heading: Visa mağazalarında alışveriş
+      visa-text: 'Yabancı para birimi işlemi ücreti olmayan Dash-Visa debit kartı ve mobil "bas &amp; öde"'
+      visa-btn: Shake Alın
+      visa-link: https://shakepay.co/#/
+      need-heading: Biraz Dash mi lazım?
+      need-text: Forumumuza kaydolursanız size biraz Dash yollayacağız!
+      need-btn: Dash için kaydolun
+      need-link: /forum/
+      need-input: Eposta Adresinizi Girin
+    merchants:
+      title: Satıcılar
+      description: Bu satıcılar ve hizmetler için Dash harcayın
+      hero-image: participate.jpg
+      hero-heading: Dash ile Alışveriş
+      hero-text: Bu satıcılar ve hizmetler için anında ve güvenli olarak Dash harcayın
+      hero-map-btn: Satıcı Haritası
+      hero-integrate-btn: Dash'i Entegre Edin
+      hero-getlisted-btn: Listeye Girin
+      hero-woo-btn: WooCommerce
+      cards-heading: Debit Kartlar
+      email-heading: Eposta Sağlayıcıları
+      vpn-heading: VPN Sağlayıcıları
+      hosting-heading: Barındırma ve VPN
+      business-heading: İşletme Hizmetleri (Pazarlama / Web / Grafik Tasarım)
+      gifts-heading: Hediye Kartları
+      games-heading: Oyunlar
+      casinos-heading: Çevrimiçi Kumarhaneler
+      stores-heading: Web Mağazaları
+      metals-heading: Değerli Metaller
+      bills-heading: Fatura Ödemeleri
+      payment-heading: Satıcı Ödeme Geçidi
+      prepaid-phone-heading: Faturasız Hatta Kontör Yükleme
+      cards-disclaimer: >
+          Feragat: Sınırlı dağıtımdan dolayı lütfen ikamet ettiğiniz ülkedeki Kart
+          Sağlayıcılarını kontrol edin
+    participate:
+      title: Dash Ağına Katıl
+      description: Dash Ağına Katıl
+      hero-image: participate.jpg
+      hero-heading: Dijital Paranın Geliştirilmesine Yardım Edin
+      hero-text: Dash ağını güçlendirerek, güvenli hale getirerek veya geliştirerek katkı yapın ve Dash kazanın
+      hero-masternodes-btn: Ana Düğümler
+      hero-mining-btn: Madencilik
+      hero-funding-btn: Fonlama
+      claim-heading: Ağı Destekle
+      claim-subline: Herkes Dash'e katkı yapabilir
+      masternode-heading: Bir Ana Düğüm Kurup Dash'in Ağına güç kat
+      masternode-text: Bir ana düğüm barındırarak veya ortak bir barındırma hizmetine katılarak Dash'in güçlenmesine yardımcı olun. Ana düğüm işleticileri kullanıcımlarımıza merkezi olmayan hizmetler sundukları için ödüllendirilirler.
+      masternode-btn: Bir Ana Düğüm Kur
+      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      mining-heading: Madenciliğe Başlayıp Dash Ağının Güvenliğini Sağlayın
+      mining-text: Kendi bilgisayarınızı veya bu iş için özel donanımlar kullanarak Dash madenciliği yapın. Madenciler Dash ağının güvenliğini sağladıkları için ödüllendirilir.
+      mining-btn: Madenciliğe Başlayın
+      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      funding-heading: Blok Zinciri Fonlaması ile Ağı Geliştirin
+      funding-text: Dash Ağı; geliştirici tutmak, karar vermek veya Dash ödemelerini daha fazla çevrimiçi mağazalarda ve perakende mağazalarında entegre etmek gibi Dash'i geliştirebilecek her türlü emeği ödüllendirmek için teklifleri fonlar.
+      funding-btn: Bir Teklif Gönder
+      funding-link: https://dashcentral.org/
+      integrate-heading: Dash kabul ediyor musunuz?
+      integrate-text: Anında, özel ödemeleri web mağazanıza, uygulamanıza veya perakende mağazanıza entegre edin
+      integrate-btn: Dash Entegre Et
+      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-btn: Ödeme İşlemcileri
+      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-contact-btn: Takımımız ile İletişime Geçin
+    currency:
+      title: Dash Ağı
+      description: Dash Para Birimi
+      hero-image: currency.jpg
+      hero-heading: Ağ Durumu
+      hero-text: Dash Pazarları, Hazinesi, Ana Düğümleri ve Blok Zincirinin son durumu
+      hero-markets-btn: Pazarlar
+      hero-governance-btn: Hazine
+      hero-network-btn: Ana Düğümler
+      hero-blockchain-btn: Blok Zinciri
+      hero-mining-btn: Madencilik
+      markets-heading: Pazar Hacmi (USD)
+      governance-heading: Hazine
+      network-heading: Ana Düğümler
+      blockchain-heading: Blok Zinciri
+      mining-heading: Madencilik
+      mining-guide-link: https://dashpay.atlassian.net/wiki/display/DOC/Mining
+    community:
+      title: Dash Topluluğuna Katılın
+      description: Dash Topluluğuna Katılın
+      hero-image: community.jpg
+      hero-heading: Topluluğumuza Katılın
+      hero-text: Dash topluluğunun bir parçası olun
+      hero-forum-btn: Resmi Forumlar
+      hero-discussion-btn: Tartışma
+      hero-social-btn: Sosyal Uygulamalar
+      hero-news-btn: Haberler &amp; Bilgiler
+      hero-development-btn: Geliştirme
+      hero-masternodes-btn: Ana Düğümler
+      hero-video-btn: Video &amp; Ses
+      hero-graphics-btn: Grafikler
+      hero-legal-btn: Hukuki
+      hero-wiki-btn: Wiki
+      discussion-heading: Tartışma
+      discussion-text: Bu forumlarda Dash tartışmalarına katılın
+      social-heading: Sosyal
+      social-text: Bu sosyal uygulamalarda Dash'i bulun
+      news-heading: Haberler &amp; Bilgiler
+      news-text: Dash topluluğu üyeleri tarafından açılan siteler
+      development-heading: Geliştirme
+      development-text: Geliştiriciler için siteler &amp; araçlar
+      masternode-heading: Ana Düğüm Araçları
+      masternode-text: Kendi ana düğümünüzü kurun, yönetin ve barındırın
+      media-heading: Dash Medya
+      conferences-heading: Konferanslar
+      technology-heading: Teknoloji
+      community-heading: Topluluk
+      youtube-btn: Dash YouTube
+    tos:
+      title: Kullanım Şartları
+      terms: 'Dash sadece yasal amaçlar için tasarlanmıştır ve başka hiçbir şekilde kullanılmamalıdır. Ne Dash, ne de geliştiricilerinin veya katkı sağlayanlarının hiçbiri hiçbir yasadışı etkinliği desteklemez ve hiçbir şekilde yardımcı olmaz.
+
+
+        Bildiğimiz kadarıyla, Dash''in kullanımı birçok yargı sisteminde yasadışı değildir. Ancak bazı yargı sistemlerinde kripto paraların kullanımında ve/veya başka mahremiyet koruma araçlarının kullanımında sınırlama getirilmiş olabilir, bu yüzden bu yargı sistemlerinde bulunan kullanıcıların Dash''i kullanmadan önce bunu göz önünde bulundurması gerekmektedir. Eğer tereddütte kalırsanız, yargı sisteminizde yasadışı sayılabilen bir şey yapmaktan kaçınmak için lütfen yerel avukatınız ile iletişime geçin.
+
+
+        Bu web sitesinde veya Dash ile ilgili diğer sitelerde yasal tavsiye bulunmamaktadır. Eğer yasal tereddütleriniz veya yardıma ihtiyacınız varsa yargı sisteminizde çalışan bir avukat ile iletişime geçin.
+
+
+        Bu web sitesinde veya Dash ile ilgili diğer sitelerde yatırım tavsiyesi bulunmamaktadır. Dash''e yatırım yapmadan önce kendi kararınızı vermeli ve birden fazla bilgi kaynağında araştırma yapmalısınız.'
+    blog:
+      title: Dijital Para Blogu
+      description: "Son Dash haberleri &amp; bilgileri"
+      search-btn: Blogu Ara
+      community-news-btn: Topluluk Haberleri
+    team:
+      title: Dash Ekibi
+      description: Dash'in çekirdek teknolojisini geliştirmek için aylık olarak Ağ tarafından atanır ve blok zinciri tarafından fonlanır.
+      core-proposal-btn: Çekirdek Teklif
+      core-proposal-link: https://www.dashcentral.org/p/core-team
+      core-approval-btn: Ağ Onayı
+      core-approval-link: http://dashvotetracker.com
+      core-join-btn: Ekibimize Katılın
+      core-heading: Çekirdek Geliştirici
+      hr: İnsan Kaynakları
+      forum-name: >
+          Dashforum:
+      strateg-heading: Strateji Danışmanı
+      coredao: Dash Çekirdek DAO Yönetimi
+      coredev: Geliştiriciler
+      dapidev: Dash DAPI
+      webdev: Dash Web
+      ui: Dash UI
+      integrations: Entegrasyonlar
+      mobile: Mobil
+      infrastructure: Altyapı
+      qa: QA
+      pm: Proje Yöneticileri
+      business: İş Geliştirme
+      support: Yönetim + Destek
+      management: Yönetim
+      development: Geliştirme
+      operations: Operasyonlar
+      marketing: Pazarlama
+      strategy: Strateji
+      finance: Finans
+      associated: Yakından Alakalı
+      advisor: Kıdemli Danışman
+      external: Dışarıdan katkı sağlayanlar
+  nav:
+    what-is-dash: Dash Nedir
+    get-dash: Dash Alın
+    merchants: Satıcılar
+    download: Cüzdanı İndirin
+    buy: Dash Satın Alın
+    shop: Dash ile Alışveriş
+    debit: Dash Debit Kartı
+    update: Güncelleme
+    evolution: Evrim
+    participate: Katkı
+    mining: Madenciliğe Başlayın
+    masternode: Bir Ana Düğüm Kur
+    wallet: Bir Cüzdan Kurun
+    funding: Fonlama için Başvurun
+    currency: Ağ
+    exchange: Borsalar
+    governance: Yönetim
+    explorers: Blok Kaşifleri
+    stats: Ağ İstatistikleri
+    exchanges-list: Borsaların Tam Listesi
+    community: Kaynaklar
+    discussion: Tartışma
+    social-apps: Sosyal Uygulamalar
+    news: Haberler &amp; Bilgiler
+    tools-dev: Geliştirici Araçları
+    tools-masternodes: Ana Düğüm Araçları
+    graphics: Grafikler
+    legal: Hukuki
+    merchandise: Ürünler
+    project: Proje
+    help: Yardım &amp; Destek
+    info: Proje Bilgileri
+    team: Ekip
+    contact: İletişim
+    foundation: Vakıf
+    philosophy: Felsefe
+    technology: Teknoloji
+    wiki: Wiki
+    whitepaper: Beyaz Kağıt
+    school: Okul
+    search: Arama
+    docs: Dokümantasyon
+    telegram: Telegram
+    discord: Discord
+    forum: Dash forumları
+    social: Sosyal
+    blog: Haberler
+    reddit: Reddit
+    twitter: Twitter
+    youtube: YouTube
+    google: Google+
+    linkedin: LinkedIn
+    facebook: Facebook
+    instagram: Instagram
+    github: GitHub
+    jobs: Bize Katılın
+    tos: Kullanım Şartları
+    sitemap: Site Haritası
+    sitesource: Kaynak kod
+    service: Hizmet Masası
+    support: Destek

@@ -33,7 +33,7 @@ url: https://www.dash.org
 api: /api/v1
 
 #languages: ["en", "es", "cn", "pt", "ru", "it"]
-languages: ["en","es", "zh", "ru", "pt", "fr", "ja", "ko", "de", "th", "it", "zh_HK", "pl", "vi"]
+languages: ["en","es", "zh", "ru", "pt", "fr", "ja", "ko", "de", "th", "it", "zh_HK", "pl", "vi", "tr", "ar"]
 exclude_from_localizations: ["assets","dist","style-guide"]
 
 gems:
