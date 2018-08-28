@@ -599,3 +599,10 @@
   fees: N/A
   image: bw.png
   url: https://www.bw.com
+
+- name: Changehero
+  trading_pairs: BTC
+  fees: N/A
+  image: changehero.jpg
+  url: https://changehero.io
+
