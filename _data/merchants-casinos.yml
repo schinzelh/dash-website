@@ -3,16 +3,12 @@
   url: https://dashvideocasino.com/videopoker
   image: DashVideoCasino.jpg
 
-- name: DirectBet
-  url: http://www.DirectBet.eu/
-  image: DirectBet.jpg
-
 - name: FortuneJack
   url: https://fortunejack.com/
   image: FortuneJack.jpg
 
 - name: CryptoGames
-  url: http://www.crypto-games.net
+  url: https://www.crypto-games.net/
   image: CryptoGames.jpg
 
 - name: PalastCasino
@@ -22,10 +18,6 @@
 - name: Dashbets
   url: https://dashbets.com
   image: Dashbets_logo.png
-
-- name: Dash Poker
-  url: https://dash-poker.com
-  image: dashpoker.jpg
 
 - name: Bitsler
   url: https://www.bitsler.com/

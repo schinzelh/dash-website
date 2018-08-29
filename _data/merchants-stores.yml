@@ -34,11 +34,6 @@
   url: http://www.baybil.net
   image: baybil.jpg
 
-- name: Crypto Miner Shop
-  title: Mining Equipment
-  url: https://cryptominershop.com
-  image: CryptoMinerShop.jpg
-
 - name: BitLasers
   title: Lasers and Accessories
   url: http://bitlasers.com
@@ -59,16 +54,6 @@
   url: http://www.misconductwineco.com
   image: misconductwine_logo.jpg
 
-- name: Nelipott
-  title: Children Cloth
-  url: https://www.nelipott.com
-  image: Nelipot.jpg
-
-- name: Parisa Jeoul
-  title: Jewellery Store
-  url: https://parisajeoul.com
-  image: Parisajeoul.jpg
-
 - name: Healthiverse
   title: Health
   url: http://healthiverse.net
@@ -79,16 +64,6 @@
   url: http://www.aboveallhouseplans.com
   image: AboveAllHousePlants.jpg
 
-- name: Tuapoma
-  title: Classified Ads
-  url: http://tuapoma.com/inenglish/
-  image: Tuapoma.jpg
-
-- name: The Reef Shop
-  title: Aquarium Equipment
-  url: http://www.thereefshop.com.au
-  image: TheReefShop.jpg
-
 - name: Ivan Liborio
   title: Law
   url: http://www.liborio.adv.br
@@ -98,11 +73,6 @@
   title: Retreats Chile
   url: http://www.fortgalt.com
   image: FortGalt.jpg
-
-- name: BitFon
-  title: Phone credits
-  url: http://bitfon.pl
-  image: Bitfon.jpg
 
 - name: Ecigar
   title: Ecigarettes
