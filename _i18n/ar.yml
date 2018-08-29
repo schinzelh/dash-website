@@ -234,7 +234,7 @@ ar:
           توفر الخدمات المجمّعة إمكانية الوصول إلى ماسترنود للمستخدمين الأقل من 1 كيلو شرطة (يشارك العديد من المستخدمين 1 ماسترنود)
       hosting-services-btn: خدمات إستضافة الماسترنود
       p2p-text: |
-          شكراً للتحفيز، نمت شبكة داش بشكل متواصل منذ إنشائها في 2014 وزاد عدد masternodes  إلى 4,100 مما يعني إن داش peer-to-peer network واحدة من أكبر الشبكات في العالم. المزيد من nodes  يعني المزيد من الأمان, المزيد من سعة الاستيعاب للمستخدمين لاستخدام العملة الرقمية من أي مكان في العالم, 24\7.
+          شكراً للتحفيز، نمت شبكة داش بشكل متواصل منذ إنشائها في 2014 وزاد عدد ماسترنود  إلى 4,100 مما يعني إن داش peer-to-peer شبكة واحدة من أكبر الشبكات في العالم. المزيد من الكتل  يعني المزيد من الأمان, المزيد من سعة الاستيعاب للمستخدمين لاستخدام العملة الرقمية من أي مكان في العالم, 24\7.
       p2p-btn: إحصائيات الشبكة
     buy:
       title: موقع داش الرسمي | العملة المشفرة داش
@@ -581,13 +581,13 @@ ar:
       hero-heading: داش هي عملة رقمية
       hero-text: أول عملة رقمية حقيقية غير مركزية في النظام المالي<br />تعرف على العملة الرقمية
       video-heading: داش هي العملة الرقمية التي يمكن استعمالها على الانترنت
-      video-text: استعمل داش لدفع مشترياتك بصوره فورية وخاصه عبر شبكه الانترنت او من المحلات التجارية الذي يعتمد على خاصيه open-source المستضافه من خلال آلاف المستخدمين حول العالم
+      video-text: استعمل داش لدفع مشترياتك بصوره فورية وخاصه عبر شبكه الانترنت او من المحلات التجارية الذي يعتمد على خاصيه  المستضافه من خلال آلاف المستخدمين حول العالم
       video-btn: نظرة عامة
       video-link: https://www.youtube.com/watch?v=S0oNO3mbBE8
       feature-private-heading: خاص
-      feature-private-text: حافظ على معلوماتك المالية. PrivateSend تأكد من تاريخ أنشطتك و حساباتك الخاصة.
+      feature-private-text: حافظ على معلوماتك المالية. الإرسال المخفي تأكد من تاريخ أنشطتك و حساباتك الخاصة.
       feature-instant-heading: مباشر
-      feature-instant-text: بما أن وقتك ثمين، يقوم InstantSend بتأكيد عملية الدفع في أقل من ثانية.
+      feature-instant-text: بما أن وقتك ثمين، يقوم الإرسال الفوري بتأكيد عملية الدفع في أقل من ثانية.
       feature-secure-heading: الأمان
       feature-secure-text: الأمان الذي يعتمد عليه. جميع المعاملات تحدث في 1000 جيجاهاش من X11 ASIC قوة محاسبية و أكثر 4,100 خوادم شبكية مستضافة حول العالم.
       merchants-heading: التسوق المباشر مع داش
@@ -596,11 +596,11 @@ ar:
       merchants-link: https://discoverdash.com
       merchants-join-btn: اصبح تاجر
       merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
-      architecture-heading: الجيل القادم من P2P Network
-      architecture-text: 'من أساسيات داش التميز من حيث التحفيز الشامل بين peer-to-peer network. المعدنين يحصلون على مكافآت من خلال تأمين    blockchain و masternodes و تكون المكافآت من خلال التحقق من صحة، تخزين و خدمة عملياتblockchain  للمستخدمين.
+      architecture-heading: الجيل القادم من P2P شبكة
+      architecture-text: 'من أساسيات داش التميز من حيث التحفيز الشامل بين peer-to-peer شبكة. المعدنين يحصلون على مكافآت من خلال تأمين البلوكشين و ماسترنود و تكون المكافآت من خلال التحقق من صحة، تخزين و خدمة عمليات البلوكشين  للمستخدمين.
 
 
-        يشكل masternodes طبقة جديدة من خوادم الشبكة التي تعمل بشكل آمن والتي تسمى quorums. ينتج عنها تنوع من خدمات غير مركزية، مثل العمليات الفورية، الخاصة والحوكمة، في حين إنه يقضي على التهديد الشبكي المنخفض التكلفة.'
+        يشكل ماسترنود طبقة جديدة من خوادم الشبكة التي تعمل بشكل آمن والتي تسمى quorums. ينتج عنها تنوع من خدمات غير مركزية، مثل العمليات الفورية، الخاصة والحوكمة، في حين إنه يقضي على التهديد الشبكي المنخفض التكلفة.'
       architecture-btn: تعلم المزيد
       architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
       governance-heading: الحوكمة الذاتية الأولى, إجراءات التمويلات الذاتية
@@ -611,17 +611,17 @@ ar:
       proposal-btn: مقترحات
       proposal-submit-btn: قدم مقترح
       network-growth-heading: الشبكة الأسرع نمواً
-      network-growth-text: شكراً للتحفيز، نمت شبكة داش بشكل متواصل منذ إنشائها في 2014 وزاد عدد masternodes  إلى 4,100 مما يعني إن داش peer-to-peer network واحدة من أكبر الشبكات في العالم. المزيد من nodes  يعني المزيد من الأمان, المزيد من سعة الاستيعاب للمستخدمين لاستخدام العملة الرقمية من أي مكان في العالم, 24\7.
+      network-growth-text: شكراً للتحفيز، نمت شبكة داش بشكل متواصل منذ إنشائها في 2014 وزاد عدد ماسترنود  إلى 4,100 مما يعني إن داش peer-to-peer شبكة واحدة من أكبر الشبكات في العالم. المزيد من الكتل  يعني المزيد من الأمان, المزيد من سعة الاستيعاب للمستخدمين لاستخدام العملة الرقمية من أي مكان في العالم, 24\7.
       network-growth-btn: إحصائيات الشبكة
       evolution-heading: ثورة العملات الرقمية
       evolution-text: 'ماذا بعد؟ نريد العملات الرقمية لتصبح سهلة لدرجه إن جدتنا تستطيع أن تستخدمها.
 
 
-        Dash Evolution سوف يسمح لك للتسجيل والوصول الى داش عبر اي من اجهزتك بالإضافة الى خاصية التسديد السهلة مثل PayPal,  ولكن بصوره لا مركزيه. أبقي على ترقب..'
+        تورة داش سوف يسمح لك للتسجيل والوصول الى داش عبر اي من اجهزتك بالإضافة الى خاصية التسديد السهلة مثل بايبال,  ولكن بصوره لا مركزيه. أبقي على ترقب..'
       evolution-btn: تعلم المزيد
       evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
       news-heading: أحدث الأخبار
-      news-btn: View All News
+      news-btn: رؤية جميع الأخبار
       get-started-heading: إبدا
       get-started-text: حمل المحفظة وابدأ استخدام العملات الرقمية!
       get-started-btn: احصل على داش
@@ -727,20 +727,20 @@ ar:
       hero-image: participate.jpg
       hero-heading: ساعد في إنشاء العملة الرقمية
       hero-text: ساهم واحصل على داش عن طريق المساهمة في دعم، تامين و تطوير شبكة داش.
-      hero-masternodes-btn: Masternodes
+      hero-masternodes-btn: ماسترنود
       hero-mining-btn: تعدين
       hero-funding-btn: تمويل
       claim-heading: ادعم الشبكة
       claim-subline: الجميع يستطيعون المساهمة في داش
-      masternode-heading: إعداد Masternode وساعد في تقوية شبكة داش
-      masternode-text: ساعد في تقوية داش من خلال استضافة masternode أو من خلال الاشتراك في خدامات الاستضافة المشتركة. لدعم الخدمات الغير مركزية لعملائنا يحصل مزود  Masternode على مكافآت من داش
+      masternode-heading: إعداد ماسترنود وساعد في تقوية شبكة داش
+      masternode-text: ساعد في تقوية داش من خلال استضافة ماسترنود أو من خلال الاشتراك في خدامات الاستضافة المشتركة. لدعم الخدمات الغير مركزية لعملائنا يحصل مزود  ماسترنود على مكافآت من داش
       masternode-btn: إعداد Masternode
       masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
       mining-heading: إبدا بالتعدين واحمي شبكة داش
       mining-text: بإمكانك تعدين داش من خلال حاسوبك الشخصي أو خلال أجهزة مخصصة لذلك. المعدنين يحصلون على مكافآت من خلال تأمين شبكة داش.
       mining-btn: إبدا التعدين
       mining-link: https://docs.dash.org/en/latest/mining/index.html
-      funding-heading: طور في الشبكة مع تمويل Blockchain
+      funding-heading: طور في الشبكة مع تمويل البلوكشين
       funding-text: صندوق داش يمول المقترحات التي تفوز شهرياً في سبيل تطوير داش، مثل توظيف مبرمجين، اتخاذ القرارات أو ربط داش مع المتاجر على شبكة الإنترنت والمحلات التجارية.
       funding-btn: تقديم مقترحات
       funding-link: https://dashcentral.org/
@@ -756,15 +756,15 @@ ar:
       description: عملة داش
       hero-image: currency.jpg
       hero-heading: حالة الشبكة
-      hero-text: آخر حالة تحديت عن سوق داش، خزينة، Masternodes و Blockchain
+      hero-text: آخر حالة تحديت عن سوق داش، خزينة، الماسترنود و البلوكشين
       hero-markets-btn: السوق
       hero-governance-btn: الخزينة
-      hero-network-btn: Masternodes
+      hero-network-btn: ماسترنود
       hero-blockchain-btn: البلوكشين
       hero-mining-btn: تعدين
       markets-heading: السوق (بالدولار الأمريكي)
       governance-heading: الخزينة
-      network-heading: Masternodes
+      network-heading: ماسترنود
       blockchain-heading: البلوكشين
       mining-heading: التعدين
       mining-guide-link: https://docs.dash.org/en/latest/mining/index.html
@@ -779,7 +779,7 @@ ar:
       hero-social-btn: برامج التواصل الاجتماعي
       hero-news-btn: الأخبار &amp; والمعلومات
       hero-development-btn: تطوير
-      hero-masternodes-btn: Masternodes
+      hero-masternodes-btn: ماسترنود
       hero-video-btn: الملفات السمعية &amp; والصوتية
       hero-graphics-btn: الرسومات
       hero-legal-btn: قانوني
@@ -818,7 +818,7 @@ ar:
       community-news-btn: أخبار المجتمع
     team:
       title: فريق داش
-      description: مختارون من قبل شبكتنا وممولون عن طريق blockchain بصورة شهرية لتطوير تقنية داش.
+      description: مختارون من قبل شبكتنا وممولون عن طريق البلوكشين بصورة شهرية لتطوير تقنية داش.
       core-proposal-btn: مقترحات أساسية
       core-proposal-link: https://www.dashcentral.org/p/core-team
       core-approval-btn: الموافقة عن طريق الشبكة
