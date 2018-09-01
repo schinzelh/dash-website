@@ -1,27 +1,3 @@
-- name: Charif El MaMouni
-  title: Head of Infrastructure
-  description:
-  image: charif.png
-  email: charif@dash.org
-  keybase: https://keybase.io/charif
-  twitter:
-  dashforum-link: /charif.25894/
-  dashforum: Charif
-  team-title:
-    - Operations
-
-- name: Alexander Hirsch
-  title: Project Portfolio Manager
-  description:
-  image: AlexanderHirsch.jpg
-  email: alexander.hirsch@dash.org
-  keybase:
-  twitter:
-  dashforum-link:
-  dashforum:
-  team-title:
-    - Operations
-
 - name: Ivan Borovkov
   title: Infrastructure Engineer
   description:
