@@ -709,3 +709,31 @@
     -
      label: Download
      url: "https://www.abra.com"
+
+- name: Ethos
+  description: Ethos Universal Wallet - The world’s most advanced Universal Wallet for Dash, Bitcoin, Ethereum & 100+ Cryptocurrencies. Securely store, send & receive, track and learn about cryptocurrencies. All in one app. Finally, a safe, simple & easy way to crypto!
+  logo_url: /assets/img/wallets/ethos.jpg
+  os: ios
+  type: mobile
+  vendor_id: ethos
+  vendor_label: Ethos
+  control_type: Ethos
+  product_source_url:
+  links:
+    -
+     label: Download
+     url: "https://itunes.apple.com/us/app/ethos-universal-wallet/id1376959464"
+
+- name: Ethos
+  description: Ethos Universal Wallet - The world’s most advanced Universal Wallet for Dash, Bitcoin, Ethereum & 100+ Cryptocurrencies. Securely store, send & receive, track and learn about cryptocurrencies. All in one app. Finally, a safe, simple & easy way to crypto!
+  logo_url: /assets/img/wallets/ethos.jpg
+  os: android
+  type: mobile
+  vendor_id: ethos
+  vendor_label: ethos
+  control_type: ethos
+  product_source_url:
+  links:
+    -
+     label: Download
+     url: "https://play.google.com/store/apps/details?id=io.ethos.universalwallet"
