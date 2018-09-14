@@ -82,6 +82,7 @@
   team-title:
     - Management
     - Finance
+  board-member: true
 
 - name: Bob Carroll
   title: CTO
@@ -95,3 +96,5 @@
   team-title:
     - Management
     - Development
+  board-member: true
+

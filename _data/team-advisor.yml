@@ -21,3 +21,15 @@
   dashforum:
   team-title:
     - Advisor
+
+- name: MooCowMoo
+  title: Senior Advisor
+  description: Has two decades experience developing backend software and custom toolchains for automating development, testing, and deployment. He built the first automated masternode service masternode.me and is the author of dashman, a masternode management utility and dashvend, example point-of-sale software leveraging InstantX. He is self taught in computer science, cryptography, software engineering, and electrical engineering with primary focuses in Linux, Bash, Python, git, and vim.
+  image: moo.png
+  email: moo@dash.org
+  keybase: https://keybase.io/moocowmoo
+  twitter:
+  dashforum-link: /moocowmoo.1413/
+  dashforum: moocowmoo
+  team-title:
+    - Operations
