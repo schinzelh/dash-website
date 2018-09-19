@@ -737,3 +737,100 @@
     -
      label: Download
      url: "https://play.google.com/store/apps/details?id=io.ethos.universalwallet"
+
+- name: Evercoin
+  description: New mobile wallet with exchange. Exchange digital assets on-the-go directly from your own mobile wallet.
+  logo_url: /assets/img/wallets/evercoin.jpg
+  os: ios
+  type: mobile
+  vendor_id: evercoin
+  vendor_label: evercoin
+  control_type: evercoin
+  product_source_url:
+  links:
+    -
+     label: Download
+     url: "https://itunes.apple.com/us/app/evercoin-crypto-exchange/id1277924158"
+
+- name: Evercoin
+  description: New mobile wallet with exchange. Exchange digital assets on-the-go directly from your own mobile wallet.
+  logo_url: /assets/img/wallets/evercoin.jpg
+  os: android
+  type: mobile
+  vendor_id: evercoin
+  vendor_label: evercoin
+  control_type: evercoin
+  product_source_url:
+  links:
+    -
+     label: Download
+     url: "https://play.google.com/store/apps/details?id=com.evercoin"
+
+- name: Guarda
+  description: Guarda team provides highly secure and handy solutions with outstanding features to enhance your crypto experience.
+  logo_url: /assets/img/wallets/guarda.jpeg
+  os: web
+  type: web
+  vendor_id: guarda
+  vendor_label: guarda
+  control_type: guarda
+  product_source_url:
+  links:
+    -
+     label: Create
+     url: "https://guarda.co/web-wallet"
+
+- name: Guarda
+  description: Guarda team provides highly secure and handy solutions with outstanding features to enhance your crypto experience.
+  logo_url: /assets/img/wallets/guarda.jpeg
+  os: win64
+  type: desktop
+  vendor_id: guarda
+  vendor_label: guarda
+  control_type: guarda
+  product_source_url:
+  links:
+    -
+     label: Download
+     url: "https://guarda.co/desktop"
+
+- name: Guarda
+  description: Guarda team provides highly secure and handy solutions with outstanding features to enhance your crypto experience.
+  logo_url: /assets/img/wallets/guarda.jpeg
+  os: linux
+  type: desktop
+  vendor_id: guarda
+  vendor_label: guarda
+  control_type: guarda
+  product_source_url:
+  links:
+    -
+     label: Download
+     url: "https://guarda.co/desktop"
+
+- name: Guarda
+  description: Guarda team provides highly secure and handy solutions with outstanding features to enhance your crypto experience.
+  logo_url: /assets/img/wallets/guarda.jpeg
+  os: osx
+  type: desktop
+  vendor_id: guarda
+  vendor_label: guarda
+  control_type: guarda
+  product_source_url:
+  links:
+    -
+     label: Download
+     url: "https://guarda.co/desktop"
+
+- name: Guarda
+  description: Guarda team provides highly secure and handy solutions with outstanding features to enhance your crypto experience.
+  logo_url: /assets/img/wallets/guarda.jpeg
+  type: hardware
+  vendor_id: guarda
+  vendor_label: guarda
+  control_type: guarda
+  product_source_url:
+  links:
+    -
+     label: Purchase Options
+     url: "https://guarda.co/hardware-wallets"
