@@ -14,3 +14,7 @@
 - name: Cryfter
   url: http://cryfter.com
   image: Cryfter.jpg
+
+- name: Bitrefill
+  url: https://en.bitrefill.com/
+  image: bitrefill-logo.jpg
