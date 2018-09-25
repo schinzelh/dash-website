@@ -34,3 +34,15 @@
   dashforum:
   team-title:
     - Strategy
+
+- name: Angelo Di Donato
+  title: Business Intelligence Manager
+  description:
+  image: angelo.jpg
+  email: angelo.didonato@dash.org
+  keybase: https://keybase.io/adidonato
+  twitter:
+  dashforum-link: /angelodidonato.29185/
+  dashforum: AngeloDiDonato
+  team-title:
+    - Strategy
