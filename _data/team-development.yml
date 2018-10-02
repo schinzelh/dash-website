@@ -206,18 +206,6 @@
   team-title:
     - Development
 
-- name: Guilemon Villemin
-  title: Evolution Backend Developer
-  description:
-  image: gilemon.jpg
-  email: gilemon@dash.org
-  keybase: https://keybase.io/gilemon
-  twitter:
-  dashforum-link: /gilemon.15997/
-  dashforum: gilemon
-  team-title:
-    - Development
-
 - name: Andrew Podkovyrin
   title: iOS Developer
   description:
