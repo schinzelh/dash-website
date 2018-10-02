@@ -1,4 +1,5 @@
 {% include base.html %}
+{% assign lang = site.data.lang-collection[0] %}
 
 <nav class="overlay-menu" id="overlaynavigation" aria-hidden="true">
 
@@ -22,52 +23,55 @@
                     <!-- TODO: dynamically generate this list -->
 
                     <li class="overlay-menu__subitem">
-                        <a href="{{ page.url }}" class="overlay-menu__link {% if site.lang == 'en' %}is-active{% endif %}"><span class="flag us"></span> English</a>
+                        <a href="{{ page.url }}" class="overlay-menu__link {% if site.lang == 'en' %}is-active{% endif %}">{{ lang.en }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/es{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'es' %}is-active{% endif %}"><span class="flag es"></span> Español</a>
+                    <a href="/es{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'es' %}is-active{% endif %}">{{ lang.es }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                        <a href="/fr{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'fr' %}is-active{% endif %}"><span class="flag fr"></span> Français</a>
+                        <a href="/fr{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'fr' %}is-active{% endif %}">{{ lang.fr }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/pt{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'pt' %}is-active{% endif %}"><span class="flag pt"></span> Português</a>
+                    <a href="/pt{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'pt' %}is-active{% endif %}">{{ lang.pt }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/it{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'it' %}is-active{% endif %}"><span class="flag it"></span> Italiano</a>
+                    <a href="/it{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'it' %}is-active{% endif %}">{{ lang.it }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/zh{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'zh' %}is-active{% endif %}"><span class="flag zh"></span> 简体中文</a>
+                    <a href="/zh{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'zh' %}is-active{% endif %}">{{ lang.zh }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/ru{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'ru' %}is-active{% endif %}"><span class="flag ru"></span> Русский</a>
+                    <a href="/ru{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'ru' %}is-active{% endif %}">{{ lang.ru }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/ja{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'ja' %}is-active{% endif %}"><span class="flag ja"></span>日本語</a>
+                    <a href="/ja{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'ja' %}is-active{% endif %}">{{ lang.ja }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/ko{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'ko' %}is-active{% endif %}"><span class="flag ko"></span>한국어</a>
+                    <a href="/ko{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'ko' %}is-active{% endif %}">{{ lang.ko }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/de{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'de' %}is-active{% endif %}"><span class="flag de"></span>Deutsch</a>
+                    <a href="/de{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'de' %}is-active{% endif %}">{{ lang.de }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/th{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'th' %}is-active{% endif %}"><span class="flag th"></span>ภาษาไทย</a>
+                    <a href="/th{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'th' %}is-active{% endif %}">{{ lang.th }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/zh_HK{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'zh_HK' %}is-active{% endif %}"><span class="flag hk"></span>繁體中文</a>
+                    <a href="/zh_HK{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'zh_HK' %}is-active{% endif %}">{{ lang.zh_HK }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/pl{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'pl' %}is-active{% endif %}"><span class="flag pl"></span>Polski</a>
+                    <a href="/pl{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'pl' %}is-active{% endif %}">{{ lang.pl }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/vi{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'vi' %}is-active{% endif %}"><span class="flag vn"></span>Tiếng Việt</a>
+                    <a href="/vi{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'vi' %}is-active{% endif %}">{{ lang.vi }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/ar{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'ar' %}is-active{% endif %}"><span class="flag ae"></span>Arabic</a>
+                    <a href="/ar{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'ar' %}is-active{% endif %}">{{ lang.ar }}</a>
                     </li>
                     <li class="overlay-menu__subitem">
-                    <a href="/tr{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'tr' %}is-active{% endif %}"><span class="flag tr"></span>Turkish</a>
+                    <a href="/tr{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'tr' %}is-active{% endif %}">{{ lang.tr }}</a>
+                    </li>
+                    <li class="overlay-menu__subitem">
+                    <a href="/fa{{ page.url  }}" class="overlay-menu__link {% if site.lang == 'fa' %}is-active{% endif %}">{{ lang.fa }}</a>
                     </li>
                 </ul>
             </li>
