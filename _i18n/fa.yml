@@ -111,10 +111,10 @@ fa:
       hero-forum-btn: تالارهای گفتمان رسمی
       hero-discussion-btn: گفتگو
       hero-social-btn: شبکه‌های اجتماعی
-      hero-news-btn: اخبار &amp; اطلاعات
+      hero-news-btn: اخبار و اطلاعات
       hero-development-btn: توسعه
       hero-masternodes-btn: مسترنودها
-      hero-video-btn: فیلم &amp; صدا
+      hero-video-btn: فیلم و صدا
     mining:
       title: وب‌سایت رسمی دش | ارز دیجیتال دش
       hero-heading: استخراج
@@ -379,7 +379,7 @@ fa:
       licence: 'لوگو دش و نیز نوشته آن تحت Creative Commons Attribution-ShareAlike 4.0 International License قابل استفاده هستند. '
       licence-link-text: Creative Commons Attribution-ShareAlike 4.0 International License.
       licence-link: https://creativecommons.org/licenses/by-sa/4.0/
-      logos-header: "لوگوها &amp; آیکون‌ها"
+      logos-header: "لوگوها و آیکون‌ها"
       merchants-header: دگمه‌های ویژه فروشندگان
       dontaion-header: دگمه‌های ویژه کمک‌های بلاعوض
       community-header: اجتماع
@@ -585,7 +585,7 @@ fa:
       hero-heading: تماس
       form-pretext: 'برای پشتیبانی فنی و یا حل مشکلی که با کیف پول خود دارید و یا هر نوع سئوال عمومی دیگر، لطفا به دش‌تاک (DashTalk) مراجعه کنید و یا از شیوه‌های دیگر استفاده کنید. '
       form-pretext-2: برای مطرح کردن مستقیم سئوالات خود با ما از این لینک استفاده کنید.
-      social-heading: "تالار گفتمان &amp; شبکه‌های اجتماعی"
+      social-heading: "تالار گفتمان و شبکه‌های اجتماعی"
       mail-list-heading: خبرنامه ایمیلی
       mail-list-text: آیا می‌خواهید از آخرین اخبار و تحولات آگاه شوید؟ به خبرنامه ایمیلی ما بپیوندید.
       social-text-heading: از تالار گفتمان دش بازدید کنید
@@ -721,7 +721,7 @@ fa:
       email-heading: ارائه‌دهندگان ایمیل
       vpn-heading: ارائه‌دهندگان وی‌پی‌ان
       hosting-heading: میزبانی و سرور شخصی مجازی (VPS)
-      business-heading: خدمات کسب‌وکار (بازاریبای / وب / طراحی گرافیک)
+      business-heading: خدمات کسب‌وکار (بازاریابی / وب / طراحی گرافیک)
       gifts-heading: کارت هدیه
       games-heading: بازی
       casinos-heading: کازینوهای آنلاین
@@ -789,10 +789,10 @@ fa:
       hero-forum-btn: تالارهای گفتمان رسمی دش
       hero-discussion-btn: گفتگو
       hero-social-btn: شبکه‌های اجتماعی
-      hero-news-btn: اخبار &amp; اطلاعات
+      hero-news-btn: اخبار و اطلاعات
       hero-development-btn: توسعه
       hero-masternodes-btn: مسترنودها
-      hero-video-btn: فیلم &amp; صدا
+      hero-video-btn: فیلم و صدا
       hero-graphics-btn: گرافیک
       hero-legal-btn: موارد قانونی
       hero-wiki-btn: ویکی
@@ -800,10 +800,10 @@ fa:
       discussion-text: در این تالارهای گفتمان می‌توانید درباره دش گفتگو کنید
       social-heading: شبکه‌های اجتماعی
       social-text: در این شبکه‌های اجتماعی می‌توانید با دش همراه شوید
-      news-heading: اخبار &amp; اطلاعات
+      news-heading: اخبار و اطلاعات
       news-text: وب‌سایت‌های ایجاد شده توسط اعضای اجتماع دش
       development-heading: وسعه
-      development-text: وب‌سایت‌ها &amp; ابزارها برای توسعه‌دهندگان
+      development-text: وب‌سایت‌ها و ابزارها برای توسعه‌دهندگان
       masternode-heading: ابزارهای مسترنود
       masternode-text: راه‌اندازی، مدیریت و میزبانی مستردنود
       media-heading: رسانه‌های دش
@@ -816,7 +816,7 @@ fa:
       terms: "دش فقط در راستای مقاصد قانونی به کار گرفته شود و نباید برای امور دیگر از آن استفاده کرد. دش و توسعه‌دهندگان و مشارکت‌کنندگان آن از هیچ نوع فعالیت غیرقانونی حمایت نکرده و هیچ نوع کمکی نیز به آن به عمل نمی‌آورند. \n\n\nتا جایی که می‌دانیم، استفاده از دش در بسیاری از نظام‌های قضایی دنیا فاقد مشکل است. با این وجود، برخی نظام‌های قضایی ممکن است محدودیت‌هایی را برای استفاده از ارزهای دیجیتال و/یا ابزارهای حفظ حریم خصوصی در نظر بگیرند. به همین دلیل، شهروندانی که در قلمرو این نظام‌های قضایی هستند، پیش از استفاده از دش باید این موارد را در نظر بگیرند. اگر در این زمینه تردید دارید، لطفا با یک وکیل محلی مشورت کنید تا از هر نوع فعالیت غیرقانونی احتمالی برحذر باشید.\n\nمحتوای این وب‌سایت و نیز سایر وب‌سایت‌های مرتبط با دش هیچ نوع مشاوره حقوقی و قانونی ارائه نمی‌دهد. اگر تردیدهایی قانونی دارید و نیازمند کمک هستید، حتما با یک وکیل آشنا با نظام قضایی منطقه خود مشورت کنید. \n\nمحتوای این وب‌سایت و سایر وب‌سایت‌های وابسته به دش هیچ نوع توصیه برای سرمایه‌گذاری ارائه نمی‌دهد. باید از قدرت تحلیل خود استفاده کرده و پیش از سرمایه‌گذاری روی دش، منابع مختلفی را مورد مطالعه قرار دهید. "
     blog:
       title: وبلاگ دش
-      description: "اخبار &amp; اطلاعات دش"
+      description: "اخبار و اطلاعات دش"
       search-btn: جستجوی وبلاگ
       community-news-btn: اخبار اجتماع دش
     team:
@@ -849,9 +849,9 @@ fa:
       operations: عملیات
       marketing: بازاریابی
       strategy: راهبرد
-      finance: الی
+      finance: مالی
       associated: همکاران منطقه‌ای
-      advisor: مشاور ارشد
+      advisor: مشاوران ارشد
       external: مشارکت‌کنندگان بیرونی
   nav:
     what-is-dash: دش چیست
@@ -877,14 +877,14 @@ fa:
     community: همه منابع
     discussion: گفتگو
     social-apps: شبکه‌های اجتماعی
-    news: اخبار &amp; اطلاعات
+    news: اخبار و اطلاعات
     tools-dev: ابزارهای توسعه
     tools-masternodes: ابزارهای مسترنود
     graphics: گرافیک
     legal: موارد قانونی
     merchandise: محصولات تبلیغاتی
     project: پروژه
-    help: کمک &amp; پشتیبانی
+    help: کمک و پشتیبانی
     info: اطلاعات پروژه
     team: تیم
     contact: تماس
