@@ -1,6 +1,9 @@
 body * {
 	&:lang(ja) {
-		font-family: Meiryo,'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ',  sans-serif;
+		font-family: Meiryo,'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', sans-serif;
+	}
+	&:lang(fa){
+		font-family: Samim, sans-serif;
 	}
 }
 
