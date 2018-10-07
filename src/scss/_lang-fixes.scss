@@ -8,8 +8,8 @@ body * {
 }
 
 body{
-	 &:lang(fa), &:lang(ar) {
-	 	p, span, input, h1, h2, h3, h4, h5, h6, footer, nav, .hero__content, .hero__buttons, .section__btn-grp, .btn-blue, .btn-white-solid, .btn-white {
+	&:lang(fa), &:lang(ar) {
+		p, span, input, h1, h2, h3, h4, h5, h6, footer, nav li, .hero__content, .hero__buttons, .section__btn-grp, .btn-blue, .btn-white-solid, .btn-white {
 				direction: rtl;
 		}
 		.ctabox, .ctabox * {
