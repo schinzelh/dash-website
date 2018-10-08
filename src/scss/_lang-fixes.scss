@@ -16,11 +16,5 @@ body{
 			text-align: center;
 			direction: ltr;
 		}
-		.logo {
-			float: left;
-			img{
-				@include clearfix();
-			}
-		}
 	}
 }
