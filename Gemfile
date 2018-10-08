@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll', '3.4.3'
+gem 'jekyll', '3.6.3'
 gem 'html-proofer', '~> 3.8.0'
 gem 'nokogiri', '~> 1.8.1'
 gem 'ffi', '~> 1.9.24'
