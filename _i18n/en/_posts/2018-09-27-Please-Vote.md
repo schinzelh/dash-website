@@ -7,4 +7,4 @@ original-author:
 original-link:
 ---
 
-2 Days to go  - Please Vote (bye bye DashVoteTracker - welcome [dashnexus.org](https://dashnexus.org/))
+2 Days to go  - Please Vote (bye bye DashVoteTracker - welcome [dashnexus.org](https://dashnexus.org/)
