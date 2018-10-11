@@ -606,3 +606,15 @@
   image: changehero.jpg
   url: https://changehero.io
 
+- name: Bitcoinmeester
+  trading_pairs: BTC
+  fees: N/A
+  image: bitcoinmeester-logo-broker.png
+  url: https://www.bitcoinmeester.nl/
+
+- name: Coincola
+  trading_pairs: BTC
+  fees: N/A
+  image: coincola.jpg
+  url: https://www.coincola.app
+
