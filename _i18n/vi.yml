@@ -61,7 +61,7 @@ vi:
       hero-heading: Luật pháp có thể áp dụng cho DASH như thế nào
       hero-text: Mục đích của DASH DAO là quảng bá, bảo vệ và chuẩn hoá DASH. Theo sứ mệnh mà chúng tôi đã công bố, chúng tôi nhận được những đòi hỏi về xử lý một vài khía cạnh của Dash xử lý theo luật pháp Hoa Kỳ. Mục đích của tài liệu này là xác định những thắc mắc chung nhất và giải thích cách mà chúng tôi tin rằng luật pháp được áp dụng với DASH. Nó không phải là những quan điểm pháp lý, và bạn nên tham khảo những luật sư của mình trước khi có thể tin cậy vào nó. Tuy nhiên, nó có nghĩa về xác định vị trí của chúng ta trên phương diện luật pháp, và luật pháp nên được diễn dịch thế nào cho đúng đắn.
       hero-tax-btn: Xử lý vấn đề thuế
-      hero-compliance-btn: Phù hợp Tiền thường - DASH
+      hero-compliance-btn: Sự tuân thủ đúng FIAT - DASH
       сogent-heading: >
           Cogent Law Package:
       criminally-heading: LIỆU NGƯỜI VẬN HÀNH MASTERNODE PHẢI CHỊU TRÁCH NHIỆM HÌNH SỰ VỀ NHỮNG GIAO DỊCH QUA MASTERNODE CỦA HỌ?
@@ -480,7 +480,7 @@ vi:
       execution-heading: Evolution là gì
       execution-text: Dash Evolution sẽ lấy đi tất cả những phức tạp của tiền kỹ thuật số, và làm cho việc thanh toán bằng Dash sẽ dễ dàng như với PayPal. Những ưu việt của nó là, không giống PayPal, Dash Evolution là hoàn toàn phi tập trung và phi lợi nhuận.
       execution-btn: Tìm hiểu thêm
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/vi/latest/introduction/features.html#evolution
       update-heading: Sentinel
       update-text: Công nghệ Sentinel mới của Dash là một cơ chế tạo ra sức mạnh cho Dash Evolution. Nó cực kỳ mạnh mẽ và linh hoạt, nó cho phép cập nhật mạng lưới dễ dàng hơn rất nhiều. Thêm vào đó, Sentinel có thể tuỳ biến để tạo ra rất nhiều ứng dụng mới mà sẽ vận hành trên mạng lưới. Ví dụ nó có thể tạo ra những công ty kỹ thuật số, sử dụng Sentinel.
       proposal-btn: Các đề xuất
@@ -628,14 +628,14 @@ vi:
       merchants-btn: Thêm các người bán hàng
       merchants-link: https://discoverdash.com
       merchants-join-btn: Trở thành một người bán hàng
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/vi/latest/merchants/getting-started.html
       architecture-heading: Mạng lưới ngang hàng thế hệ tiếp theo
       architecture-text: 'Ở trung tâm của Dash là mạng lưới ngang hàng với động lực đầy đủ độc đáo cho các nút mạng. Những thợ mỏ được trả thưởng để bảo mật cho blockchain và masternode được trả thưởng cho việc phê duyệt, lưu trữ và cung cấp dịch vụ blockchain cho người dùng.
 
 
         Masternode đại diện cho một lớp mới của mạng các máy chủ nó sẽ hoạt động thông qua một nhóm được bảo mật cao gọi là các quorum để cung cấp rất nhiều các dịch vụ phi tập trung như giao dịch tức tời, giao dịch riêng tư, cơ chế quản trị trong khi loại bỏ những rủi ro bị kiểu tấn công mạng lưới chi phí thấp.'
       architecture-btn: Tìm hiểu thêm
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/vi/latest/governance/understanding.html
       governance-heading: Giao thức Tự quản trị, Tự cấp vốn đầu tiên
       governance-text: 'Với Dash, bất kỳ ai cũng có tiếng nói và có khả năng đề xuất các dự án trực tiếp cho mạng lưới. Bất cứ điều gì bạn cũng có thể làm - từ việc marketing đến việc phát triển - nó giúp cho Dash tăng trưởng và những cải thiện đó sẽ được chi trả. Điều đó có nghĩa Dash cấp vốn cho sự chấp nhận nó, cho sự phát triển của chính nó, còn sự đồng thuận thì được đảm bảo, và bất cứ ai cũng có thể trở nên đáng tin cậy trên mạng lưới này.
 
@@ -652,7 +652,7 @@ vi:
 
         Dash Evolution sẽ cho phép bạn đăng nhập và truy cập đến Dash của mình từ bất kỳ thiết bị nào và có thể giao dịch một cách dễ dàng như bạn có thể làm với PayPal, nhưng nó hoàn toàn theo cách phi tập trung. Hãy tiếp tục theo dõi...'
       evolution-btn: Tìm hiểu thêm
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/vi/latest/introduction/features.html#evolution
       news-heading: Tin tức mới nhất
       news-btn: Xem tất cả các tin
       get-started-heading: Bắt đầu
@@ -701,19 +701,19 @@ vi:
       claim-subline: Dash có thể được thu mua, nắm gữ và trao đổi bằng rất nhiều cách.
       setup-heading: Tìm hiểu cách thiết lập một ví của bạn
       setup-btn: Tìm hiểu thêm
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/vi/latest/wallets/index.html
       buy-heading: Mua Dash online
       buy-text: Chuyển tiền địa phương thành Dash và gửi nó vào ví của bạn
       buy-btn: Mua Dash
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/vi/latest/introduction/how-to-buy.html
       trade-heading: Trao đổi Dash trên một sàn giao dịch
       trade-text: Đổi tiền địa phương thành Dash trên một sàn giao dịch
       trade-btn: Trao đổi Dash
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/vi/latest/introduction/how-to-buy.html
       atm-heading: Mua Dash tại máy ATM
       atm-text: Mua Dash tức thời từ một máy ATM tại quốc gia của bạn
       atm-btn: Vị trí đặt máy ATM
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/vi/latest/introduction/how-to-buy.html#atms
       shop-heading: Mua hàng trực tiếp với Dash
       shop-text: Mua tức thời và riêng tư, trực tiếp từ ví Dash của bạn
       shop-btn: Thêm các người bán hàng
@@ -768,11 +768,11 @@ vi:
       masternode-heading: Cài đặt một Masternode và tạo sức mạnh cho mạng lưới Dash
       masternode-text: Giúp bổ sung năng lực cho Dash bằng việc vận hành một Masternode hoặc tham gia dịch vụ chia sẻ. Những người vận hành Masternode sẽ được trả thưởng cho việc cung cấp dịch vụ phi tập trung cho những người dùng.
       masternode-btn: Cài đặt một Masternode
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/vi/latest/masternodes/index.html
       mining-heading: Bắt đầu Đào Dash và đảm bảo an ninh cho mạng lưới Dash
       mining-text: Đào Dash sử dụng máy tính của bạn hoặc các phần cứng chuyên biệt. Những thợ mỏ được trả công cho việc bảo đảm an toàn cho mạng lưới Dash.
       mining-btn: Bắt đầu đào
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/vi/latest/mining/index.html
       funding-heading: Phát triển mạng lưới với việc cấp vốn Blockchain
       funding-text: Mạng lưới Dash cấp vốn cho những đề xuất chiến thắng mỗi tháng cho bất cứ thứ gì có thể giúp cải thiện Dash như thuê các lập trình viên, đưa ra các quyết định, hoặc tích hợp giải pháp thanh toán Dash vào những cửa hàng trực tuyến hay cửa hàng thông thường.
       funding-btn: Gửi một Đề xuất
@@ -780,9 +780,9 @@ vi:
       integrate-heading: Bạn có nhận Dash?
       integrate-text: Tích hợp giải pháp thanh toán tức thời, riêng tư vào trang web, ứng dụng hay cửa hàng của bạn
       integrate-btn: Tích hợp Dash
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/vi/latest/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: Bộ xử lý thanh toán
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/vi/latest/merchants/getting-started.html#payment-processors
       integrate-contact-btn: Liên hệ với chúng tôi
     currency:
       title: Mạng lưới Dash
