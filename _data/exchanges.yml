@@ -201,7 +201,7 @@
 - name: Changelly
   trading_pairs: BTC
   fees: N/A
-  image: changelly_logo.png
+  image: changelly.jpg
   url: https://changelly.com/
 
 - name: Bitsane
@@ -370,7 +370,7 @@
   trading_pairs: BTC
   fees: N/A
   image: bitcoinVN-logo.png
-  url: https://bitcoin.vn
+  url: https://bitcoinvn.io
 
 - name: Coinome
   trading_pairs: BTC
@@ -617,4 +617,10 @@
   fees: N/A
   image: coincola.jpg
   url: https://www.coincola.app
+
+- name: Ginero
+  trading_pairs: BTC
+  fees: N/A
+  image: ginero.jpg
+  url: https://ginero.io/
 
