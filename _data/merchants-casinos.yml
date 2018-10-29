@@ -26,3 +26,8 @@
 - name: Jetwin
   url: https://www.jetwin.com/en-us
   image: jetwin.jpg
+
+- name: Leprecoin
+  url: https://www.leprecoin.net/
+  image: Leprecoin.jpg
+

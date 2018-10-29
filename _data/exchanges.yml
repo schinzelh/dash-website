@@ -624,3 +624,9 @@
   image: ginero.jpg
   url: https://ginero.io/
 
+- name: Liquid
+  trading_pairs: BTC
+  fees: N/A
+  image: liquid.jpg
+  url: https://www.liquid.com/
+
