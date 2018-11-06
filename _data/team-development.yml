@@ -35,8 +35,6 @@
   dashforum: andydark
   team-title:
     - Development
-    - Management
-  board-member: true
 
 - name: Cofresi
   title: Evolution Backend Developer
