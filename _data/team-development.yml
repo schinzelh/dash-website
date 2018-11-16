@@ -96,18 +96,6 @@
   team-title:
     - Development
 
-- name: Pierre van Rooyen
-  title: Evolution Backend Developer
-  description:
-  image: pierre.png
-  email: pierre@dash.org
-  keybase: https://keybase.io/pvrooyen
-  twitter:
-  dashforum-link: /pierre.12961/
-  dashforum: pierre
-  team-title:
-    - Development
-
 - name: gladcow
   title: Core Developer
   description:
@@ -117,18 +105,6 @@
   twitter:
   dashforum-link: /jahr.13007/
   dashforum: jahr
-  team-title:
-    - Development
-
-- name: Darren Tapp
-  title: Research
-  description:
-  image: darren.jpg
-  email: darren@dash.org
-  keybase: https://keybase.io/darren_tapp
-  twitter:
-  dashforum-link: /darren.5875/
-  dashforum: darren
   team-title:
     - Development
 
@@ -153,18 +129,6 @@
   twitter:
   dashforum-link: /kamuela.18261/
   dashforum: kamuela
-  team-title:
-    - Development
-
-- name: David Rey
-  title: DashDrive Developer
-  description:
-  image: DavidRey.jpg
-  email: david.rey@dash.org
-  keybase: https://keybase.io/dreyacosta
-  twitter:
-  dashforum-link: /dreyacosta.24889/
-  dashforum: dreyacosta
   team-title:
     - Development
 
