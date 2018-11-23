@@ -636,3 +636,9 @@
   image: Bitqist.jpg
   url: https://bitqist.com/
 
+
+- name: Panda
+  trading_pairs: BTC
+  fees: N/A
+  image: PandaExchaange.jpg
+  url: https://panda.exchange/en-IC/

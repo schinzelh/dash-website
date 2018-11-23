@@ -49,3 +49,29 @@
     -
       label: mycryptocheckout
       url: "https://mycryptocheckout.com"
+
+- name: GoCoin
+  description: 'Fees: N/A'
+  logo_url: "/assets/img/payments/GoCoin.jpg"
+  type: payment
+  vendor_id: gocoin
+  vendor_label: gocoin
+  product_id: gocoin
+  product_label: gocoin
+  links:
+    -
+      label: gocoin
+      url: "https://gocoin.com/"
+
+- name: SetGetGo
+  description: 'Fees: N/A'
+  logo_url: "/assets/img/payments/SetGetGo.jpg"
+  type: payment
+  vendor_id: setgetgo
+  vendor_label: setgetgo
+  product_id: setgetgo
+  product_label: setgetgo
+  links:
+    -
+      label: setgetgo
+      url: "https://setgetgo.com/"
