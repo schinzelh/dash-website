@@ -75,3 +75,16 @@
     -
       label: setgetgo
       url: "https://setgetgo.com/"
+
+- name: Epaymints
+  description: 'Fees: N/A'
+  logo_url: "/assets/img/payments/epaymints.png"
+  type: payment
+  vendor_id: Epaymints
+  vendor_label: Epaymints
+  product_id: Epaymints
+  product_label: Epaymints
+  links:
+    -
+      label: Epaymints
+      url: "http://epaymints.com/"
