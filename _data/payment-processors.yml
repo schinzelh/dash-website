@@ -78,7 +78,7 @@
 
 - name: Epaymints
   description: 'Fees: N/A'
-  logo_url: "/assets/img/payments/epaymints.png"
+  logo_url: "/assets/img/payments/epaymints-logo.jpg"
   type: payment
   vendor_id: Epaymints
   vendor_label: Epaymints
