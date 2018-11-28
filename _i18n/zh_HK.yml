@@ -400,7 +400,7 @@ zh_HK:
       execution-heading: 什麼是Evolution
       execution-text: Evolution將摒棄加密數字貨幣操作的複雜繁瑣, 使達世幣支付變得尤為簡便. 它既實現了PayPal的操作簡易性, 卻又比PayPal多了兩個優勢——完全的去中心化和支付不收取手續費用.
       execution-btn: 更多資訊
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       update-heading: Sentinel
       update-text: 全能型的達世幣開發工具 達世幣新的Sentinel技術為Evolution提供了驅動力. 它具備極其強大的功能和極高的靈活性, 使得網路更新更加簡單易行. 此外, 在經過個性化設計後, 它還能被開發成適用於網路的各種新型應用. 舉個例子, 您可以通過Sentinel建立數字技術公司.
       proposal-btn: 提案列表
@@ -540,7 +540,7 @@ zh_HK:
       merchants-btn: 更多商家
       merchants-link: https://discoverdash.com
       merchants-join-btn: 成為加盟商家
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/en/stable/merchants/getting-started.html
       architecture-heading: 下一代P2P網路
       architecture-text: '達世幣核心由獨特的獎勵制P2P網路構成. 礦工們維護區塊鏈安全得到獎勵；而主節點持有者則是為用戶驗證交易、存儲數據以及提供多種服務而獲得獎勵.
 
@@ -549,7 +549,7 @@ zh_HK:
 
         '
       architecture-btn: 更多資訊
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/en/stable/governance/understanding.html
       governance-heading: 全球首個管理自主、資金自足的系統
       governance-text: '每個人都有權直接向達世幣網路提案. 任何有助於達世幣發展的提案, 例如市場營銷和研發等等, 都可能獲得資金支持. 也就是說, 達世幣為自己的發展和應用推廣投資, 由此保證了網路共識的達成和網路用戶的可靠性.
 
@@ -569,7 +569,7 @@ zh_HK:
 
         達世幣Evolution可以幫助您通過任何設備登錄達世幣網路, 並輕而易舉地完成交易. 其方式類似於PayPal, 但是完全地去中心化. 敬請期待...'
       evolution-btn: 更多資訊
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       news-heading: 最新消息
       news-btn: 瀏覽所有新聞
       get-started-heading: 開啟達世幣之旅
@@ -584,7 +584,7 @@ zh_HK:
           你想要的任何時候都能買賣達世幣。
           達世幣可以通過多種方式來獲取，持有及交易的
       hero-text: |
-          第一次來這裡? 閱讀為新用戶準備的 <a href='https://docs.dash.org/en/latest/' target='_blank'>達世幣指南</a>
+          第一次來這裡? 閱讀為新用戶準備的 <a href='https://docs.dash.org/en/stable/' target='_blank'>達世幣指南</a>
       hero-wallet-version: 達世幣錢包 (Fullclient v12.0.56) 在 OSX 上使用
       hero-wallet-version-select: 選擇其他
       hero-platform-not-detected: "“非常抱歉！您的平台無法完成自動檢測. 請在‘各類錢包’中選擇兼容版本. ”"
@@ -618,19 +618,19 @@ zh_HK:
       claim-subline: 通過多種方式獲取、持有和交易達世幣
       setup-heading: 學習如何創建達世幣錢包
       setup-btn: 更多資訊
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/en/stable/wallets/index.html
       buy-heading: 在線購買達世幣
       buy-text: 用當地貨幣購買達世幣並存儲到錢包
       buy-btn: 購買達世幣
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       trade-heading: 通過交易所交易達世幣
       trade-text: 通過交易所兌換當地貨幣
       trade-btn: 達世幣交易
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       atm-heading: 通過ATM購買達世幣
       atm-text: 通過ATM即可立刻在您的所在地進行達世幣交易
       atm-btn: ATM定位器
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html#atms
       shop-heading: 直接用達世幣來購物
       shop-text: 通過達世幣錢包進行即時和隱私的線上購物
       shop-btn: 更多商家
@@ -684,11 +684,11 @@ zh_HK:
       masternode-heading: 架設主節點, 支持達世幣網路
       masternode-text: 通過持有主節點或加入主節點共享服務來支持達世幣發展. 主節點營運者通過為用戶提供去中心化的服務獲得報酬.
       masternode-btn: 架設主節點
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/en/stable/masternodes/index.html
       mining-heading: 開始挖礦, 加強達世幣網路安全
       mining-text: 通過電腦或專用設備挖取達世幣. 加強達世幣網路安全的礦機將獲得獎勵.
       mining-btn: 開始挖礦
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/en/stable/mining/index.html
       funding-heading: 借助區塊鏈資金發展達世幣網路
       funding-text: 達世幣網路為獲准執行的提案提供每月資金支持, 扶持一系列達世幣開發相關的方案, 例如聘用開發人員、制定發展決策、將達世幣支付方式推廣到更多網路商店或實體零售店等等.
       funding-btn: 提交提案
@@ -696,9 +696,9 @@ zh_HK:
       integrate-heading: 你願意接受達世幣嗎？
       integrate-text: 為您的網路商店、應用和零售商店加入達世幣即時、匿名支付功能
       integrate-btn: 整合達世幣
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: 付款處理商
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-contact-btn: 聯繫我們的團隊
     currency:
       title: 達世幣網路

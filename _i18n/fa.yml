@@ -467,7 +467,7 @@ fa:
       execution-heading: اولوشن چیست؟
       execution-text: پروژه اولوشن دش  پیچیدگی‌هایی مربوط به ارز دیجیتال را از بین برده و پرداخت با دش را همانند پرداخت با پی‌پل ساده می‌کند. مزیت اولوشن این است که بر خلاف پی‌پل، کاملا نامتمرکز و غیرانتفاعی است.
       execution-btn: اطلاعات بیشتر
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       update-heading: سنتیتل (Sentitel)
       update-text: 'فناوری نوین سنتیتل (Sentitel) دش را می‌توان موتور محرک اولوشن دش دانست. سنتیتل بسیار قدرتمند و انعطاف‌پذیر است و امکان به‌روزرسانی آسان‌تر شبکه را فراهم می‌سازد. همچنین، با ایجاد تغییراتی در سنتیتل می‌توان از آن برای ایجاد برنامه‌های مختلفی که بر روی شبکه اجرا می‌شوند نیز استفاده کرد. برای نمونه، ایجاد شرکت‌های دیجیتال از جمله این کاربردهای سنتیتل است. '
       proposal-btn: طرح‌های پیشنهادی
@@ -613,11 +613,11 @@ fa:
       merchants-btn: نقشه فروشندگان
       merchants-link: https://discoverdash.com
       merchants-join-btn: به جمع فروشندگان پذیرنده دش بپیوندید
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/en/stable/merchants/getting-started.html
       architecture-heading: نسل بعدی شبکه همتا‌به‌همتا (P2P)
       architecture-text: "هسته دش (دش کُر) یک شبکه همتابه‌همتا کاملا مبتنی بر پاداش است. استخراج‌کنندگان به خاطر ایجاد امنیت در بلاک چین و مسترنودها به خاطر تاییداعتبار، ذخیره و خدمت به کاربران بلاک‌چین پاداش دریافت می‌کنند. \n\nمسترنودها دربردارنده یک لایه جدید از سرورهای شبکه هستند که در یک مجموعه بسیار امن با نام کوروم (quorum)  فعالیت می‌کنند و طیفی از خدمات نامتمرکز، نظیر تراکنش‌های آنی، محرمانگی و نیز مدیریت کلان را بر عهده دارند و در عین حال، خطر بروز حملات کم‌هزینه به شبکه را نیز از بین می‌برند. "
       architecture-btn: اطلاعات بیشتر
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/en/stable/governance/understanding.html
       governance-heading: اولین پروتکلی که مدیریت کلان و تامین مالی خودش را بر عهده دارد
       governance-text: "در دش، هر کسی می‌تواند نظرش را بگوید و پروژه‌هایی را به صورت مستقیم به شبکه پیشنهاد دهد. هر کاری که می‌توانید انجام دهید (از بازاریابی گرفته تا توسعه نرم‌افزار) که به رشد و بهبود دش کند می‌تواند مورد تامین مالی قرار گیرد. این بدان معناست که دش هزینه‌‌های رشد و گسترش خود را پرداخت می‌کند، توافق جمعی در آن وجود دارد و همه در شبکه مسئول هستند. \nفقط کافی است طرح پیشنهادی خود و بودجه مورد نیاز برای انجامش را مطرح کنید و البته اگر خودتان هم مسترنود باشید، حق رای خواهید داشت!"
       proposal-btn: طرح‌های پیشنهادی
@@ -631,7 +631,7 @@ fa:
 
         دش اولوشن به شما امکان می‌دهد از هر دستگاهی ثبت‌نام کرده و به موجودی دش خود دسترسی یابید و به همان راحتی که از پی‌پل کار می‌کنید، با دش خود تراکنش،‌ البته به شکل نامتمرکز، داشته باشید. همراه ما باشید...'
       evolution-btn: اطلاعات بیشتر
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       news-heading: آخرین اخبار
       news-btn: مشاهده آخرین اخبار
       get-started-heading: شروع کنید
@@ -646,7 +646,7 @@ fa:
           دش را هر وقت که بخواهید می‌توانید بخرید و بفروشید.
           دش را می‌توان به دست آورد، نگه داشت و به شیوه‌های مختلف با سایر ارزها معاوضه کرد.
       hero-text: |
-          آیا اولین بار است در اینجا حضور دارید؟ توصیه می‌کنیم <a href='https://docs.dash.org/en/latest/' target='_blank'>راهنمای دش</a> برای کاربران تازه‌وارد را مطالعه کنید.
+          آیا اولین بار است در اینجا حضور دارید؟ توصیه می‌کنیم <a href='https://docs.dash.org/en/stable/' target='_blank'>راهنمای دش</a> برای کاربران تازه‌وارد را مطالعه کنید.
       hero-wallet-version: دش والت (Fullclient v12.0.56) برای OSX
       hero-wallet-version-select: یکی دیگر را انتخاب کنید
       hero-platform-not-detected: "متاسفیم! ظاهرا امکان شناسایی خودکار پلتفرم شما وجود ندارد. لطفا گزینه «همه کیف‌های پول» را برای یافتن نسخه سازگار با پلتفرم‌تان انتخاب کنید."
@@ -680,19 +680,19 @@ fa:
       claim-subline: دش را می‌توان به دست آورد، نگه داشت و به شیوه‌های مختلف با سایر ارزها معاوضه کرد.
       setup-heading: یادگیری شیوه نصب کیف پول
       setup-btn: اطلاعات بیشتر
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/en/stable/wallets/index.html
       buy-heading: خرید دش به صورت آنلاین
       buy-text: پول رسمی محلی را به دش تبدیل کرده و آن را به کیف پول‌تان بفرستید.
       buy-btn: خرید دش
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       trade-heading: خرید و فروش دش در یک صرافی
       trade-text: خرید دش با پول رسمی از یک صرافی
       trade-btn: خریدوفروش دش
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       atm-heading: خرید دش با دستگاه خودپرداز
       atm-text: خرید آنی دش با استفاده از دستگاه خودپرداز در کشورتان
       atm-btn: فهرست دستگاه‌های خودپرداز
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html#atms
       shop-heading: خرید مستقیم با دش
       shop-text: خرید آنی و ناشناس به صورت آنلاین با پرداخت مستقیم از کیف پول دش
       shop-btn: فروشندگان بیشتر
@@ -747,11 +747,11 @@ fa:
       masternode-heading: یک مسترنود راه‌اندازی کنید و به افزایش قدرت شبکه دش کمک کنید
       masternode-text: 'با میزبانی یک مسترنود و یا پیوستن به خدمات میزبانی اشتراکی به دش کمک کنید. گردانندگان مسترنودها برای برقراری امکان عرضه خدمات نامتمرکز به کاربران‌مان، پاداش دریافت می‌کنند. '
       masternode-btn: راه‌اندازی مسترنود
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/en/stable/masternodes/index.html
       mining-heading: استخراج (ماینینگ) را آغاز کرده و به افزایش امنیت شبکه دش کمک کنید.
       mining-text: 'با استفاده از رایانه و یا سخت‌افزار ویژه به استخراج دش بپردازید. استخراج‌کنندگان به خاطر مشارکت در افزایش امنیت شبکه دش، پاداش دریافت می‌کنند. '
       mining-btn: شروع استخراج (ماینینگ)
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/en/stable/mining/index.html
       funding-heading: توسعه شبکه با تامین مالی بلاک‌چین
       funding-text: 'شبکه دش هر ماه به تامین مالی طرح‌های پیشنهادی برنده می‌پردازد. این طرح‌ها می‌تواند هر چیزی که به بهبود دش می‌انجامد (نظیر به‌کارگیری توسعه‌دهندگان، تصمیم‌گیری و یا به‌کارگیری پرداخت‌های دش در فروشگاه‌های آنلاین و فیزیکی بیشتر) را شامل شود. '
       funding-btn: ارائه یک طرح پیشنهادی
@@ -759,9 +759,9 @@ fa:
       integrate-heading: آیا دش می‌پذیرید؟
       integrate-text: امکان پرداخت آنی و ناشناس را به فروشگاه آنلاین، اپلیکیشن یا فروشگاه فیزیکی‌تان بیافزایید
       integrate-btn: 'افزودن دش به شیوه‌های پرداخت '
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: پردازشگران پرداخت
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-contact-btn: با تیم ما تماس بگیرید
     currency:
       title: شبکه دش

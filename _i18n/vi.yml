@@ -667,7 +667,7 @@ vi:
           Mua và Bán Dash ở bất kỳ thời điểm nào, khi nào bạn muốn.
           Dash có thể thu mua, nắm giữ và trao đổi bằng rất nhiều cách.
       hero-text: |
-          Bạn lần đầu truy cập trang web này? Hãy đọc <a href='https://docs.dash.org/en/latest/' target='_blank'>Hướng dẫn Dash</a>cho người dùng mới
+          Bạn lần đầu truy cập trang web này? Hãy đọc <a href='https://docs.dash.org/en/stable/' target='_blank'>Hướng dẫn Dash</a>cho người dùng mới
       hero-wallet-version: Dash Wallet (bản đầy đủ v12.0.56) cho OSX
       hero-wallet-version-select: Chọn cái khác
       hero-platform-not-detected: "Xin lỗi bạn, hệ thống của bạn không thể xác định được một cách tự động. Hãy chọn \"Tất cả các ví\" để tìm ra một phiên bản tương thích."

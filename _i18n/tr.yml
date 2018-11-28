@@ -459,7 +459,7 @@ tr:
       execution-heading: Evrim Nedir
       execution-text: Dash Evrim dijital paranın tüm karmaşıklığını ortadan kaldırıp Dash ile ödeme yapmayı PayPal ile ödeme yapmak kadar kolaylaştıracak. Avantajı ise, PayPal'ın aksine Dash Evrim tamamen merkezi olmayan şekilde çalışacak ve kar amacı gütmeyecek.
       execution-btn: Daha Fazlasını Öğren
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       update-heading: Sentinel
       update-text: Dash'in yeni Sentinel teknolojisi Dash Evrim'e güç veren motordur. Çok güçlü ve esnek olan bu teknoloji çok daha kolay ağ güncellemelerini mümkün kılmaktadır. Ek olarak, Sentinel ağ üzerinde çalışacak birçok yeni uygulamayı oluşturmak için özelleştirilebilir. Mesela Sentinel kullanılarak dijital şirketler kurmak mümkündür.
       proposal-btn: Teklifler
@@ -605,14 +605,14 @@ tr:
       merchants-btn: Daha Fazla Satıcı
       merchants-link: https://discoverdash.com
       merchants-join-btn: Bir Satıcı Ol
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/en/stable/merchants/getting-started.html
       architecture-heading: Yeni Nesil P2P Ağı
       architecture-text: 'Dash''in çekirdeğinde tam teşvikli benzersiz bir eşler arası ağ yatar. Madenciler blok zincirini güvenli hale getirdikleri için, ana düğümler ise blok zincirini doğruladıkları, barındırdıkları ve kullanıcılara sundukları için ödüllendirilirler.
 
 
         Ana düğümler quorum adı verilen yüksek güvenlikli kümeler halinde çalışan yeni bir ağ sunucusu katmanıdır. Bu sunucular anında işlemler, gizlilik ve yönetim gibi çeşitli merkezi olmayan hizmetler sunar ve düşük maliyetli ağ saldırısı tehdidini ortadan kaldırırlar.'
       architecture-btn: Daha Fazlasını Öğren
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/en/stable/governance/understanding.html
       governance-heading: İlk Kendini Yöneten, Kendini Fonlayan Protokol
       governance-text: 'Dash''te herkesin bir sesi ve doğrudan ağa proje teklifi sunma kabiliyeti vardır. Pazarlamadan geliştirmeye Dash''in büyümesi için yapabileceğiniz her şey fonlanabilir. Bu da Dash''in kendi büyümesi ve yaygınlaşmasını fonladığı, konsensüs sağlandığı ve herkesin ağa karşı sorumlu olduğu anlamına gelir.
 
@@ -632,7 +632,7 @@ tr:
 
         Dash Evrim size kayıt olup Dash''inize herhangi bir cihazdan ulaşabilme ve PayPal kadar kolay işlem yapabilme imkanı sağlayacak ve tabii ki merkezi olmayan bir şekilde. Takipte kalın...'
       evolution-btn: Daha Fazlasını Öğren
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       news-heading: Son Haberler
       news-btn: Tüm Haberleri Gör
       get-started-heading: Hemen Başlayın
@@ -647,7 +647,7 @@ tr:
           İstediğiniz her an Dash Satın Alın ve Satın.
           Dash birçok yolla elde edilebilir, tutulabilir ve takas edilebilir.
       hero-text: |
-          İlk seferiniz mi? Yeni kulanıcılar için hazırlanan <a href='https://docs.dash.org/en/latest/' target='_blank'>Dash Rehberini</a> okuyun
+          İlk seferiniz mi? Yeni kulanıcılar için hazırlanan <a href='https://docs.dash.org/en/stable/' target='_blank'>Dash Rehberini</a> okuyun
       hero-wallet-version: OSX için Dash Cüzdanı (Fullclient v12.0.56)
       hero-wallet-version-select: Başka Birini Seçin
       hero-platform-not-detected: "Üzgünüz fakat platformunuz otomatik olarak tespit edilemiyor. Uyumlu versiyonu bulmak için lütfen \"Tüm Cüzdanları\" seçin."
@@ -681,19 +681,19 @@ tr:
       claim-subline: Dash birçok yolla elde edilebilir, tutulabilir ve takas edilebilir.
       setup-heading: Cüzdanınızı nasıl kuracağınızı öğrenin
       setup-btn: Daha Fazlasını Öğren
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/en/stable/wallets/index.html
       buy-heading: Çevrimiçi Dash Satın Alın
       buy-text: Yerel para birimini Dash'e çevirin ve cüzdanınıza yollayın
       buy-btn: Dash Satın Alın
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       trade-heading: Bir borsada Dash işlemi yapın
       trade-text: Bir borsada yerel para birimini Dash ile takas edin
       trade-btn: Dash İşlemi Yapın
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       atm-heading: Bir ATM'den Dash Satın Alın
       atm-text: Ülkenizdeki bir ATM'den anında Dash satın alın
       atm-btn: ATM Bulucu
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html#atms
       shop-heading: Doğrudan Dash ile alışveriş
       shop-text: Doğrudan Dash cüzdanınızdan anında ve özel çevrimiçi satın alımlar
       shop-btn: Daha Fazla Satıcı
@@ -748,11 +748,11 @@ tr:
       masternode-heading: Bir Ana Düğüm Kurup Dash'in Ağına güç kat
       masternode-text: Bir ana düğüm barındırarak veya ortak bir barındırma hizmetine katılarak Dash'in güçlenmesine yardımcı olun. Ana düğüm işleticileri kullanıcımlarımıza merkezi olmayan hizmetler sundukları için ödüllendirilirler.
       masternode-btn: Bir Ana Düğüm Kur
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/en/stable/masternodes/index.html
       mining-heading: Madenciliğe Başlayıp Dash Ağının Güvenliğini Sağlayın
       mining-text: Kendi bilgisayarınızı veya bu iş için özel donanımlar kullanarak Dash madenciliği yapın. Madenciler Dash ağının güvenliğini sağladıkları için ödüllendirilir.
       mining-btn: Madenciliğe Başlayın
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/en/stable/mining/index.html
       funding-heading: Blok Zinciri Fonlaması ile Ağı Geliştirin
       funding-text: Dash Ağı; geliştirici tutmak, karar vermek veya Dash ödemelerini daha fazla çevrimiçi mağazalarda ve perakende mağazalarında entegre etmek gibi Dash'i geliştirebilecek her türlü emeği ödüllendirmek için teklifleri fonlar.
       funding-btn: Bir Teklif Gönder
@@ -760,9 +760,9 @@ tr:
       integrate-heading: Dash kabul ediyor musunuz?
       integrate-text: Anında, özel ödemeleri web mağazanıza, uygulamanıza veya perakende mağazanıza entegre edin
       integrate-btn: Dash Entegre Et
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: Ödeme İşlemcileri
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-contact-btn: Takımımız ile İletişime Geçin
     currency:
       title: Dash Ağı

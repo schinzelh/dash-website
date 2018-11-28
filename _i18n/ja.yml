@@ -398,7 +398,7 @@ ja:
       execution-heading: エボリューション（Evolution）とは
       execution-text: エボリューション（Evolution）とは暗号通貨の複雑さを排除し、Dashでの決済や送金をPayPalのように簡単にすることです。エボリューションの優れた点はPayPalとは異なり、完全に非中央集権的で非営利である点です。
       execution-btn: さらに調べる
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       update-heading: センチネル
       update-text: パワフルなDash開発ツールとして新しいセンチネル技術がエボリューション（Evolution）のエンジンになります。非常にパワフルで高度な柔軟性を持ち、ネットワークのアップデートをさらに簡素化します。また、センチネルは様々な新しいアプリケーションをネットワーク上に構築するためにカスタマイズすることができます。たとえばセンチネルを使用すれば、デジタルな企業を設立することができます。
       proposal-btn: プロポーザル
@@ -537,14 +537,14 @@ ja:
       merchants-btn: 利用できる店舗一覧
       merchants-link: https://discoverdash.com
       merchants-join-btn: 加盟店舗になる
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/en/stable/merchants/getting-started.html
       architecture-heading: 次世代のP2Pネットワーク
       architecture-text: 'DASHコアは独特のインセンティブ報酬があるP2Pネットワークで構成されています。マイナーはブロックチェーンをセキュアにすることによって報酬を受け取り、マスターノードはトランザクションの検証、ブロックチェーンを保管し提供することによって報酬を受け取ります。
 
 
         マスターノードはネットワークサーバ上の新しいレイヤーです。このレイヤーはQuorumsと呼ばれる非常にセキュアなクラスタで機能し、即時送金、匿名送金、ガバナンスなど様々な非中央集権的サービスを提供し、同時に低コストのサイバー攻撃の脅威を排除します。'
       architecture-btn: さらに調べる
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/en/stable/governance/understanding.html
       governance-heading: 世界初のセルフガバナンス＆ファンディングプロトコルを実現したシステム
       governance-text: 誰でも直接Dashネットワークにプロポーザルを提出できます。マーゲティングや開発など Dashの発展に役立つプロポーザルである限り、予算を得ることができます。Dashは自身の発展と規模の拡大に資金を提供し、ネットワーク上の合意が保証され、ユーザーがネットワークに対して責任があります。ネットワークにプロポーザルを提出し、予算を獲得できるようにしましょう。またマスターノードのオペレーターもプロポーザルに対して積極的に投票してください。
       proposal-btn: プロポーザル
@@ -560,7 +560,7 @@ ja:
 
         Dashエボリューション（Evolution）を使えば簡単に登録が完了し、どの端末からでも自分のアカウントにアクセスできます。また取引もPayPalのように簡単ですが、完全に非中央集権的に実行することができます。'
       evolution-btn: さらに調べる
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       news-heading: 最新情報
       news-btn: ニュース一覧
       get-started-heading: Dashを使う
@@ -574,7 +574,7 @@ ja:
       hero-heading-text: |
           Dashをいつでも好きな時に買ったり売ったりできます。Dashは様々な方法で取得、保持し交換できます。
       hero-text: |
-          はじめての方は <a href='https://docs.dash.org/en/latest/' target='_blank'>Dash ガイド</a> を参照してください。
+          はじめての方は <a href='https://docs.dash.org/en/stable/' target='_blank'>Dash ガイド</a> を参照してください。
       hero-wallet-version: OSXに対応するDashウォレット（Fullclient v12.0.56）
       hero-wallet-version-select: 他を選択
       hero-platform-not-detected: "申し訳ございませんが、プラットフォーム自動チェックが失敗しました。各ウォレットの中で互換性のあるバージョンをお選びください。"
@@ -608,19 +608,19 @@ ja:
       claim-subline: 様々な方法でDashを取得、所有と取引することができます。
       setup-heading: Dashウォレットのセットアップ方法
       setup-btn: さらに調べる
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/en/stable/wallets/index.html
       buy-heading: オンラインでDashを購入
       buy-text: 現地の通貨でDashを購入し、ウォレットに送金する
       buy-btn: Dashを購入
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       trade-heading: 取引所でDashの取引をする
       trade-text: 取引所で現地の通貨とDashを交換する
       trade-btn: Dashを取引
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       atm-heading: ATMでDashを購入
       atm-text: 近くのATMでDashを購入
       atm-btn: ATMのマップ
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html#atms
       shop-heading: Dashを利用する店舗
       shop-text: Dashウォレットを通して、すぐ匿名でオンラインショッピング
       shop-btn: 店舗一覧
@@ -674,11 +674,11 @@ ja:
       masternode-heading: マスターノードをセットアップしDashネットワークをサポートする
       masternode-text: マスターノードのホスティングまたはマスターノード共有サービスに参加することでDashの発展をサポートできます。 マスターノードのオペレーターは、ユーザーに非中央集権的サービスを提供することで報酬を受け取ります。
       masternode-btn: マスターノードをセットアップ
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/en/stable/masternodes/index.html
       mining-heading: マイニングでDashネットワークの安全性を強化する
       mining-text: コンピューターや専用ハードウェアでDashをマイニングし、Dashネットワークの安全性を強化することで報酬を受け取ります。
       mining-btn: マイニングを始める
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/en/stable/mining/index.html
       funding-heading: ブロックチェーンによるファンディングでDashネットワークを開発する
       funding-text: Dashネットワークは、Dashの改善に関することならどんなプロポーザルでも承認されれば毎月資金を提供します。プロポーザルとしてはディベロッパーの雇用、より多くのオンラインショップや店舗にDash決済システムを統合することなどがあります。
       funding-btn: プロポーザルを提出
@@ -686,9 +686,9 @@ ja:
       integrate-heading: Dashの決済機能を導入しませんか？
       integrate-text: DASHの即時的な匿名決済機能をあなたのオンラインショップやアプリ、小売店に導入できます。
       integrate-btn: Dashを導入
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: 決済処理装置
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-contact-btn: 開発チームに連絡する
     currency:
       title: Dashネットワーク

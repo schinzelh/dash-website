@@ -602,7 +602,7 @@
   links:
     -
       label: Setup Instructions
-      url: "https://docs.dash.org/en/latest/wallets/paper.html"
+      url: "https://docs.dash.org/en/stable/wallets/paper.html"
 
 - name: KeepKey Hardware Wallet
   description: KeepKey is a hardware wallet that secures Dash (and other cryptocurrencies). Your assets are protected from hackers and thieves. KeepKey works with the wallet software on your computer by taking over the management of private key generation, private key storage, and transaction signing.
@@ -647,7 +647,7 @@
       url: "https://shop.trezor.io"
     -
       label: Usage Instructions
-      url: "https://docs.dash.org/en/latest/wallets/hardware.html#trezor"
+      url: "https://docs.dash.org/en/stable/wallets/hardware.html#trezor"
 
 - name: MyDashWallet
   description: |

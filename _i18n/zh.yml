@@ -400,7 +400,7 @@ zh:
       execution-heading: 什么是Evolution
       execution-text: Evolution将摒弃加密数字货币操作的复杂繁琐, 使达世币支付变得尤为简便. 它既实现了PayPal的操作简易性, 却又比PayPal多了两个优势——完全的去中心化和支付不收取手续费用.
       execution-btn: 更多信息
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       update-heading: Sentinel
       update-text: 全能型的达世币开发工具 达世币新的Sentinel技术为Evolution提供了驱动力. 它具备极其强大的功能和极高的灵活性, 使得网络更新更加简单易行. 此外, 在经过个性化设计后, 它还能被开发成适用于网络的各种新型应用. 举个例子, 您可以通过Sentinel建立数字技术公司.
       proposal-btn: 提案
@@ -540,7 +540,7 @@ zh:
       merchants-btn: 更多商家
       merchants-link: https://discoverdash.com
       merchants-join-btn: 成为加盟商家
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/en/stable/merchants/getting-started.html
       architecture-heading: 下一代P2P网络
       architecture-text: '达世币核心由独特的激励制P2P网络构成. 矿工们维护区块链安全得到奖励；而主节点持有者则是为用户验证交易、存储数据以及提供多种服务而获得奖励.
 
@@ -549,7 +549,7 @@ zh:
 
         '
       architecture-btn: 更多资讯
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/en/stable/governance/understanding.html
       governance-heading: 全球首个管理自主、资金自足的系统
       governance-text: '每个人都有权直接向达世币网络提交项目方案. 任何有助于达世币发展的提案, 例如市场营销和研发等等, 都可能获得资金支持. 也就是说, 达世币为自己的发展和应用推广注资, 由此保证了网络共识的达成和网络用户的可靠性.
 
@@ -569,7 +569,7 @@ zh:
 
         达世币Evolution可以帮助您通过任何设备登录达世币网络, 并轻而易举地完成交易. 其方式类似于PayPal, 但是完全地去中心化. 敬请期待...'
       evolution-btn: 更多资讯
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       news-heading: 最新消息
       news-btn: 浏览所有新闻
       get-started-heading: 开启达世币之旅
@@ -584,7 +584,7 @@ zh:
           只要你想, 任何时间都可以买卖达世币.
           达世币可以通过多种方法获取, 持有, 和交易
       hero-text: |
-          第一次使用? 阅读为新人准备的 <a href='https://docs.dash.org/en/latest/' target='_blank'>达世币指南</a>
+          第一次使用? 阅读为新人准备的 <a href='https://docs.dash.org/en/stable/' target='_blank'>达世币指南</a>
       hero-wallet-version: 适用OSX的达世币钱包（Fullclient v12.0.56版）
       hero-wallet-version-select: 选择其他
       hero-platform-not-detected: "“非常抱歉！您的平台无法完成自动检测. 请在‘各类钱包’中选择兼容版本. ”"
@@ -618,19 +618,19 @@ zh:
       claim-subline: 通过多种方式获取、持有和交易达世币
       setup-heading: 学习如何创建达世币钱包
       setup-btn: 更多资讯
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/en/stable/wallets/index.html
       buy-heading: 在线购买达世币
       buy-text: 用当地货币购买达世币并存储到钱包
       buy-btn: 购买达世币
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       trade-heading: 通过交易所交易达世币
       trade-text: 通过交易所兑换当地货币
       trade-btn: 达世币交易
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       atm-heading: 通过ATM购买达世币
       atm-text: 通过ATM即可立刻在您的所在地进行达世币交易
       atm-btn: ATM定位器
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html#atms
       shop-heading: 达世币消费
       shop-text: 通过达世币钱包进行即时和隐私的线上购物
       shop-btn: 更多商家
@@ -684,11 +684,11 @@ zh:
       masternode-heading: 架设主节点, 支持达世币网络
       masternode-text: 通过持有主节点或加入主节点共享服务来支持达世币发展. 主节点运营者通过为用户提供去中心化的服务获得报酬.
       masternode-btn: 架设主节点
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/en/stable/masternodes/index.html
       mining-heading: 开始挖矿, 加强达世币网络安全
       mining-text: 通过电脑或专用设备挖取达世币. 加强达世币网络安全的矿机将获得奖励.
       mining-btn: 开始挖矿
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/en/stable/mining/index.html
       funding-heading: 借助区块链资金发展达世币网络
       funding-text: 达世币网络为获准执行的提案提供月度资金支持, 扶持一系列达世币开发相关的方案, 例如聘用开发人员、制定发展决策、将达世币支付方式推广到更多网店或实体零售店等等.
       funding-btn: 上交提案
@@ -696,9 +696,9 @@ zh:
       integrate-heading: 您想加入达世币吗？
       integrate-text: 为您的网店、应用和零售商店加入达世币即时、匿名支付功能
       integrate-btn: 加入达世币
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: 支付处理器
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-contact-btn: 联系我们的团队
     currency:
       title: 达世币网络

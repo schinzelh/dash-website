@@ -375,7 +375,7 @@ th:
       evo-prototype-heading: LIGHT WALLETS
       evo-prototype-text: Evolution จะแนะนำ  wallet เบาแบบใหม่ซึ่งจะมีความปลอดภัย SPV และความเข้ากันได้ของเบราเซอร์   wallet นี้จะเชื่อมต่อโดยตรงกับเครือข่าย P2P ของเรามากกว่า 4,000 โหนด
       evo-prototype-btn: ต้นแบบ Dash
-      slack-btn: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      slack-btn: https://docs.dash.org/en/stable/introduction/features.html#evolution
       forum-btn: ฟอรั่ม Dash
       component-heading: ส่วนประกอบ
       component-text: >
@@ -432,7 +432,7 @@ th:
       execution-heading: Evolution คืออะไร
       execution-text: Dash Evolution จะทำให้ความซับซ้อนของสกุลเงินดิจิทัลทั้งหมดทำให้การชำระเงินกับ Dash ทำได้ง่ายดายเหมือนกับการชำระเงินผ่าน PayPal ข้อดีคือไม่เหมือนกับ PayPal ระบบ Dash Evolution จะกระจายอำนาจและไม่หวังผลกำไรอย่างเต็มที่
       execution-btn: เรียนรู้เพิ่มเติม
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       update-heading: Sentinel
       update-text: ชุดเครื่องมือที่มีประสิทธิภาพสำหรับเทคโนโลยี Sentinel Dash ใหม่เป็นเครื่องมือที่จะขับเคลื่อน Dash Evolution มันมีประสิทธิภาพและยืดหยุ่นสูงซึ่งจะช่วยให้สามารถอัปเดตเครือข่ายได้ง่ายขึ้น นอกจากนี้ Sentinel สามารถปรับแต่งเพื่อสร้างแอ็พพลิเคชันใหม่ ๆ มากมายที่จะทำงานบนเครือข่าย ตัวอย่างเช่นกับ Sentinel ที่คุณสามารถสร้าง บริษัท ดิจิทัลได้
       proposal-btn: ข้อเสนอ
@@ -571,14 +571,14 @@ th:
       merchants-btn: ร้านค้าเพิ่มเติม
       merchants-link: https://discoverdash.com
       merchants-join-btn: กลายมาเป็นร้านค้า
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/en/stable/merchants/getting-started.html
       architecture-heading: เครือข่าย Next-Gen P2P 
       architecture-text: 'ที่แกนหลักของ Dash เป็นเครือข่าย peer-to-peer แบบเต็มรูปแบบที่ไม่เหมือนใคร Miner ได้รับรางวัลในการรักษาความปลอดภัยของ blockchain และ Masternodes ได้รับรางวัลในการตรวจสอบการจัดเก็บและการให้บริการ blockchain แก่ผู้ใช้
 
 
         Masternodes เป็นเซิร์ฟเวอร์ใหม่ที่ทำงานในกลุ่มที่มีความปลอดภัยสูงเรียกว่าโควรัมเพื่อให้บริการแบบกระจายอำนายที่หลากหลาย เช่นการทำธุรกรรมแบบด่วน,ความเป็นส่วนตัวและการกำกับดูแลในขณะเดียวกันก็ช่วยขจัดภัยคุกคามของการโจมตีเครือข่ายต้นทุนต่ำ'
       architecture-btn: เรียนรู้เพิ่มเติม
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/en/stable/governance/understanding.html
       governance-heading: การปกครองตนเองครั้งแรก โปรโตคอลระดมทุนด้วยตนเอง
       governance-text: 'ใน Dash  ทุกคนมีสิทธิ์และสามารถเสนอโครงการถึงเครือข่ายได้โดยตรง  คุณสามารถทำอะไรก็ได้จากการตลาดจนถึงการพัฒนาซึ่งจะช่วยให้ Dash สามารถเติบโตและปรับปรุงได้ ซึ่งหมายความว่าเงินทุนของ Dash มีการเจริญเติบโตและการยอมรับของตัวเอง ความสอดคล้องกันเป็นการประกันและทุกคนต้องรับผิดชอบต่อเครือข่าย
 
@@ -595,7 +595,7 @@ th:
 
         Dash Evolution จะช่วยให้คุณสามารถลงชื่อเข้าใช้และเข้าถึง Dash จากอุปกรณ์ใดก็ได้และทำธุรกรรมได้อย่างง่ายดายอย่างที่คุณสามารถทำได้กับ PayPal แต่ด้วยวิธีการกระจายอำนาจแบบเต็มรูปแบบ ติดตามต่อไป...'
       evolution-btn: เรียนรู้เพิ่มเติม
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       news-heading: ข่าวล่าสุด
       news-btn: ดูข่าวทั้งหมด
       get-started-heading: เริ่มต้นกันเถอะ
@@ -610,7 +610,7 @@ th:
           ซื้อและขาย Dash ได้ตลอดเวลาเมื่อคุณต้องการ
           Dash สามารถซื้อจัดเก็บและแลกเปลี่ยนได้หลายวิธี
       hero-text: |
-          ที่นี่ครั้งแรก? อ่าน <a href='https://docs.dash.org/en/latest/' target='_blank'>คู่มือ Dash</a>สำหรับผู้ใช้ใหม่
+          ที่นี่ครั้งแรก? อ่าน <a href='https://docs.dash.org/en/stable/' target='_blank'>คู่มือ Dash</a>สำหรับผู้ใช้ใหม่
       hero-wallet-version: Dash Wallet (Fullclient v12.0.56) สำหรับ OSX
       hero-wallet-version-select: 'เลือกอันอื่น '
       hero-platform-not-detected: "ขออภัยแพลตฟอร์มของคุณไม่สามารถตรวจพบได้โดยอัตโนมัติ โปรดเลือก \"All Wallets\" เพื่อค้นหาเวอร์ชันที่เข้ากันได้"
@@ -646,19 +646,19 @@ th:
       claim-subline: Dash สามารถซื้อจัดเก็บและแลกเปลี่ยนได้หลายวิธี
       setup-heading: เรียนรู้วิธีติดตั้ง wallet ของคุณ
       setup-btn: เรียนรู้เพิ่มเติม
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/en/stable/wallets/index.html
       buy-heading: ซื้อ Dash ออนไลน์
       buy-text: แปลงสกุลเงินท้องถิ่นเป็น Dash และส่งไปยัง wallet ของคุณ
       buy-btn: ซื้อ Dash
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       trade-heading: 'ซื้อขาย Dash  บนตลาดแลกเปลี่ยน '
       trade-text: ซื้อขายสกุลเงิน  Dash ในตลาดแลกเปลี่ยน
       trade-btn: ซื้อขาย Dash
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       atm-heading: ซื้อ Dash ที่ ATM
       atm-text: 'Instant Dash ซื้อจ่ายจาก ATM ในประเทศของคุณ '
       atm-btn: ที่ต้ังเครื่องเอทีเอ็ม
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html#atms
       shop-heading: ร้านค้าโดยตรงกับ Dash
       shop-text: สั่งซื้อออนไลน์แบบด่วนและแบบส่วนตัวโดยตรงจาก wallet Dash ของคุณ
       shop-btn: ร้านค้าเพิ่มเติม
@@ -712,11 +712,11 @@ th:
       masternode-heading: จัดการ Masternode และเปิดเครือข่ายของ Dash
       masternode-text: ช่วยให้พลัง Dash โดย hosting masternode หรือเข้าร่วมบริการโฮสติ้งที่ใช้ร่วมกัน  ผู้ให้บริการ Masternodes ได้รับรางวัลสำหรับการให้บริการที่กระจายอำนาจแก่ผู้ใช้ของเรา
       masternode-btn: ตั้งค่า Masternode
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/en/stable/masternodes/index.html
       mining-heading: เริ่มต้น Mining และรักษาความปลอดภัยเครือข่ายของ Dash
       mining-text: Mine Dash ใช้คอมพิวเตอร์หรือฮาร์ดแวร์เฉพาะของคุณ ไมเนอร์ได้รับรางวัลสำหรับการรักษาความปลอดภัยเครือข่าย Dash
       mining-btn: เริ่มต้น Mining
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/en/stable/mining/index.html
       funding-heading: พัฒนาเครือข่ายด้วยการจัดหาเงินทุน Blockchain
       funding-text: เครือข่าย Dash จะจัดหาเงินทุนให้กับข้อเสนอที่ดีที่สุดในแต่ละเดือนเพื่ออะไรก็ตามที่สามารถปรับปรุง Dash ให้ดีขึ้นได้ เช่นการจ้างนักพัฒนา การตัดสินใจหรือการรวมการชำระเงินแบบ Dash เข้ากับร้านค้าออนไลน์หรือร้านค้า
       funding-btn: ยื่นข้อเสนอ
@@ -724,9 +724,9 @@ th:
       integrate-heading: คุณยอมรับ Dash หรือไม่?
       integrate-text: เข้าร่วมการชำระเงินแบบรวดเร็ว,แบบส่วนตัวกับเว็บสโตร์แอปหรือร้านค้าปลีกของคุณ
       integrate-btn: เข้าร่วม Dash
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: ตัวประมวลผลการชำระเงิน
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-contact-btn: ติดต่อทีมงานของเรา
     currency:
       title: เครือข่าย Dash

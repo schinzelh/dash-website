@@ -473,7 +473,7 @@ ru:
       execution-heading: Что такое Dash Evolution
       execution-text: Dash Evolution устранит все сложности использования, присущие криптовалютам. С помощью Dash переводить деньги и оплачивать покупки станет так же легко и просто, как при оплате через PayPal. Но в отличие от PayPal, Dash Evolution будет работать полностью децентрализовано и на некоммерческой основе.
       execution-btn: Узнать больше
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       update-heading: Sentinel
       update-text: Набор мощных инструментов для Dash, новая технология Sentinel - это движок, на базе которого будет работать Evolution. Мощный и гибкий, он позволит обновлять сеть гораздо эффективнее. Кроме того, Sentinel можно настраивать в целях создания множества новых приложений, которые будут работать в сети. С использованием Sentinel, к примеру, можно будет создавать цифровые компании.
       proposal-btn: Бюджетные предложения
@@ -620,14 +620,14 @@ ru:
       merchants-btn: Больше точек продаж
       merchants-link: https://discoverdash.com
       merchants-join-btn: Принимайте платежи в Dash
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/en/stable/merchants/getting-started.html
       architecture-heading: P2P сеть следующего поколения
       architecture-text: 'Основа технологии Dash - уникальная двухуровневая P2P сетевая архитектура со встроенной системой поощрений. Майнеры поощряются за обеспечение безопасности блокчейна, а сетевые узлы (Мастерноды) вознаграждаются за проверку, хранение и предоставление блокчейна пользователям.
 
 
         Мастерноды формируют дополнительный уровень сети из серверов, работающих сообща друг с другом в кластерах, называемых кворумами. Так обеспечивается работа новых видов децентрализованных сервисов, таких как мгновенные транзакции, приватность и децентрализованное управление. При этом, эти системы защищены от угроз соответствующих атак на сеть.'
       architecture-btn: Узнайте больше
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/en/stable/governance/understanding.html
       governance-heading: Первый в мире протокол Самоуправления и Самофинансирования
       governance-text: 'Каждый имеет возможность представить своё бюджетное предложение напрямую сети Dash. Любые ваши усилия, способные помочь Dash расти и развиваться - от маркетинга до разработки - могут быть профинансированы. Это означает, что Dash финансирует своё собственное развитие, достижение консенсуса гарантировано (через голосование), система открыта для новых участников и голос каждого имеет значение.
 
@@ -647,7 +647,7 @@ ru:
 
         Dash Evolution позволит каждому зарегистрировать свой аккаунт Dash и пользоваться им с любых устройств так же просто, как при использовании PayPal, но при этом абсолютно децентрализованным образом. Следите за нашими новостями...'
       evolution-btn: Узнать больше
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       news-heading: Последние Новости
       news-btn: Посмотреть все Новости
       get-started-heading: Начать использовать
@@ -662,7 +662,7 @@ ru:
           Покупайте и продавайте Dash когда пожелаете.
           Получать, хранить и обменивать Dash можно различными способами.
       hero-text: |
-          Вы здесь впервые? Прочтите <a href='https://docs.dash.org/en/latest/' target='_blank'>Руководство по Dash </a>для новых пользователей
+          Вы здесь впервые? Прочтите <a href='https://docs.dash.org/en/stable/' target='_blank'>Руководство по Dash </a>для новых пользователей
       hero-wallet-version: Кошелёк Dash (полный клиент v12.0.56) для OSX
       hero-wallet-version-select: Выбрать другой
       hero-platform-not-detected: "К сожалению, ваша платформа не распознана автоматически. Пожалуйста, выберите «Все кошельки» для выбора совместимой версии."
@@ -696,19 +696,19 @@ ru:
       claim-subline: Получать, хранить и обменивать Dash можно различными способами.
       setup-heading: Узнайте, как установить кошелёк
       setup-btn: Узнать больше
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/en/stable/wallets/index.html
       buy-heading: Купить Dash
       buy-text: Обменяйте свою местную валюту на Dash и отправьте его в свой кошелёк
       buy-btn: Купить Dash
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       trade-heading: Купите Dash на бирже
       trade-text: Купите Dash за свою местную валюту на бирже
       trade-btn: Купите Dash
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       atm-heading: Купите Dash в банкомате
       atm-text: Мгновенная покупка Dash в банкоматах вашей страны
       atm-btn: Поиск банкоматов Dash
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html#atms
       shop-heading: Покупка товаров за Dash
       shop-text: Мгновенная и анонимная оплата покупок в Интернете, напрямую из вашего Dash кошелька
       shop-btn: Больше торговых точек
@@ -762,11 +762,11 @@ ru:
       masternode-heading: Запустите Мастерноду и сделайте сеть Dash ещё надёжней
       masternode-text: Помогите сделать сеть Dash ещё безопаснее, запустив собственную Мастерноду или присоединившись к сервису по совместному хостингу Мастернод. Операторы Мастернод получают вознаграждение за оказание децентрализованных услуг пользователям Dash.
       masternode-btn: Запустить Мастерноду
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/en/stable/masternodes/index.html
       mining-heading: Займитесь майнингом и помогите защищать сеть Dash
       mining-text: Займитесь майнингом Dash с помощью своего компьютера или специального оборудования. Майнеры Dash получают вознаграждение за помощь в обеспечении безопасности сети Dash.
       mining-btn: Заняться майнингом
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/en/stable/mining/index.html
       funding-heading: Развивайте Сеть Dash на средства из Бюджета
       funding-text: Сеть Dash каждый месяц финансирует различные усилия, направленные на развитие проекта, такие как найм разработчиков, мероприятия по продвижению и интеграцию платежей Dash в новые сервисы и магазины.
       funding-btn: Разместить Предложение
@@ -774,9 +774,9 @@ ru:
       integrate-heading: Вы принимаете к оплате Dash?
       integrate-text: Интегрируйте приём мгновенных анонимных платежей в ваши Интернет-магазин, приложение или торговую точку
       integrate-btn: Интегрировать Dash
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: Платёжные процессоры
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-contact-btn: Свяжитесь с командой Dash
     currency:
       title: Сеть Dash

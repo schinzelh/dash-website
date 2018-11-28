@@ -450,7 +450,7 @@ ar:
       execution-heading: 'ما هي التورة '
       execution-text: سيأخذ تورة داش جميع التعقيدات من العملات الرقمية ، مما يجعل من السهل الدفع باستخدام داش كما هو للدفع مع بايبال. الميزة هي أنه بخلاف بايبال ، فإن تورة داش ستكون لامركزية بالكامل وغير ربحية.
       execution-btn: تعرف على المزيد
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       update-heading: الحارس
       update-text: مجموعة أدوات قوية لتقنية الحماية الجديدة الخاصة بشركة داش هي المحرك الذي سيعمل على تشغيل تورة داش. إنها قوية للغاية ومرنة ، مما سيتيح إجراء تحديثات أسهل على الشبكة. بالإضافة إلى ذلك ، يمكن تخصيص الحماية لإنشاء العديد من التطبيقات الجديدة التي سيتم تشغيلها على الشبكة. من الممكن إنشاء شركات رقمية ، على سبيل المثال ، باستخدام الحماية.
       proposal-btn: الإقتراحات
@@ -595,14 +595,14 @@ ar:
       merchants-btn: تجار أكثر
       merchants-link: https://discoverdash.com
       merchants-join-btn: اصبح تاجر
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/en/stable/merchants/getting-started.html
       architecture-heading: الجيل القادم من P2P شبكة
       architecture-text: 'من أساسيات داش التميز من حيث التحفيز الشامل بين peer-to-peer شبكة. المعدنين يحصلون على مكافآت من خلال تأمين البلوكشين و ماسترنود و تكون المكافآت من خلال التحقق من صحة، تخزين و خدمة عمليات البلوكشين  للمستخدمين.
 
 
         يشكل ماسترنود طبقة جديدة من خوادم الشبكة التي تعمل بشكل آمن والتي تسمى quorums. ينتج عنها تنوع من خدمات غير مركزية، مثل العمليات الفورية، الخاصة والحوكمة، في حين إنه يقضي على التهديد الشبكي المنخفض التكلفة.'
       architecture-btn: تعلم المزيد
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/en/stable/governance/understanding.html
       governance-heading: الحوكمة الذاتية الأولى, إجراءات التمويلات الذاتية
       governance-text: 'في داش، الجميع لديه حق التصويت والقدرة على تقديم المشاريع مباشرتاً من خلال الشبكة. تستطيع أن تعمل أي شيء – من التسويق إلى التطوير – التي تساعد داش في النمو والتقدم الذي يمكن أن تمول. مما يعني أن صندوق تمويل داش في تزايد مستمر بشكل ذاتي, والإجماع ماكد و الجميع مسؤولون عن الشبكة.
 
@@ -619,7 +619,7 @@ ar:
 
         تورة داش سوف يسمح لك للتسجيل والوصول الى داش عبر اي من اجهزتك بالإضافة الى خاصية التسديد السهلة مثل بايبال,  ولكن بصوره لا مركزيه. أبقي على ترقب..'
       evolution-btn: تعلم المزيد
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       news-heading: أحدث الأخبار
       news-btn: رؤية جميع الأخبار
       get-started-heading: إبدا
@@ -634,7 +634,7 @@ ar:
           شراء وبيع داش في كل مرة ، عندما تريد.
           يمكن الحصول على داش واحتجازها وتبادلها بطرق عديدة
       hero-text: |
-          أول مرة هنا؟ اقرأ <a href='https://docs.dash.org/en/latest/' target='_blank'> دليل داش</a> للمستخدمين الجدد
+          أول مرة هنا؟ اقرأ <a href='https://docs.dash.org/en/stable/' target='_blank'> دليل داش</a> للمستخدمين الجدد
       hero-wallet-version: محفظة داش (Fullclient v12.0.56) OSX
       hero-wallet-version-select: الإصدارات الأخرى
       hero-platform-not-detected: "عذرًا ، ولكن لا يمكن اكتشاف النظام الأساسي تلقائيًا. يرجى تحديد \"جميع المحافظ\" للعثور على إصدار متوافق."
@@ -668,19 +668,19 @@ ar:
       claim-subline: بإمكانك الحصول وتداول داش بطرق عديدة.
       setup-heading: تعرف على كيفية إعداد محفظتك
       setup-btn: تعرف على المزيد
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/en/stable/wallets/index.html
       buy-heading: اشتر داش
       buy-text: حول عملتك المحلية إلى داش وأرسلها إلى محفظتك
       buy-btn: اشتر داش
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       trade-heading: مواقع تداول داش
       trade-text: حول العملات المحلية في مواقع تداول داش
       trade-btn: مواقع تداول داش
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       atm-heading: اشتر داش من خلال أجهزت الصراف الآلي
       atm-text: أشتر داش مباشرة من خلال أجهزت الصراف الآلي في دولتك
       atm-btn: مواقع أجهزت الصراف الآلي
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html#atms
       shop-heading: تسوق مباشرة مع داش
       shop-text: تسوق بشكل مباشر وسري عن طريق محفظة داش
       shop-btn: المزيد من التجار
@@ -735,11 +735,11 @@ ar:
       masternode-heading: إعداد ماسترنود وساعد في تقوية شبكة داش
       masternode-text: ساعد في تقوية داش من خلال استضافة ماسترنود أو من خلال الاشتراك في خدامات الاستضافة المشتركة. لدعم الخدمات الغير مركزية لعملائنا يحصل مزود  ماسترنود على مكافآت من داش
       masternode-btn: إعداد Masternode
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/en/stable/masternodes/index.html
       mining-heading: إبدا بالتعدين واحمي شبكة داش
       mining-text: بإمكانك تعدين داش من خلال حاسوبك الشخصي أو خلال أجهزة مخصصة لذلك. المعدنين يحصلون على مكافآت من خلال تأمين شبكة داش.
       mining-btn: إبدا التعدين
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/en/stable/mining/index.html
       funding-heading: طور في الشبكة مع تمويل البلوكشين
       funding-text: صندوق داش يمول المقترحات التي تفوز شهرياً في سبيل تطوير داش، مثل توظيف مبرمجين، اتخاذ القرارات أو ربط داش مع المتاجر على شبكة الإنترنت والمحلات التجارية.
       funding-btn: تقديم مقترحات
@@ -747,9 +747,9 @@ ar:
       integrate-heading: هل تقبل داش؟
       integrate-text: الترابط المباشر والخاص للدفعات على متجرك، برنامجك أو محلاتك التجارية.
       integrate-btn: ارتبط مع داش
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: معالج المدفوعات
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-contact-btn: اتصل بفريقنا
     currency:
       title: شبكة داش
@@ -767,7 +767,7 @@ ar:
       network-heading: ماسترنود
       blockchain-heading: البلوكشين
       mining-heading: التعدين
-      mining-guide-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-guide-link: https://docs.dash.org/en/stable/mining/index.html
     community:
       title: مجتمع داش
       description: إشترك في مجتمع داش

@@ -424,7 +424,7 @@ ko:
       execution-heading: Evolution의 정의
       execution-text: Dash Evolution은 Dash로 결제하는 일을 페이팔만큼 쉽게 만듦으로써 디지털 통화의 모든 복잡성을 사라지게 할 것입니다. 페이팔과는 달리, Dash Evolution은 완벽히 분산화된 방식으로 운영되며 비영리적이라는 장점을 갖추고 있습니다.
       execution-btn: 더 알아보기
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       update-heading: 센티넬
       update-text: Dash를 위한 강력한 도구 집합. Dash의 새로운 센티넬 기술은 Dash Evolution을 강화하는 엔진입니다. 이는 매우 강력하고 유연하여 네트워크 업데이트를 훨씬 쉽게 만듭니다. 또한 센티넬을 사용자 정의하면 네트워크에서 실행되는 수많은 응용 프로그램을 새로 만들 수 있습니다. 센티넬을 이용하여 디지털 회사를 설립하는 것 역시 가능합니다.
       proposal-btn: 제안서
@@ -565,14 +565,14 @@ ko:
       merchants-btn: 더 많은 가맹점
       merchants-link: https://discoverdash.com
       merchants-join-btn: 가맹점 가입
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/en/stable/merchants/getting-started.html
       architecture-heading: 차세대 P2P 네트워크
       architecture-text: 'Dash의 핵심은 완전한 인센티브제의 독창적인 P2P 네트워크라는 점입니다.  채굴자는 블록체인 확보에 대해 보상을 받으며, 마스터노드는 블록체인의 유효성 검사, 저장 및 사용자에 대한 서비스 제공에 대해 보상을 받습니다.
 
 
         마스터노드는 쿼럼이라고 불리는 매우 안전한 클러스터에서 작동하는 네트워크 서버의 세로운 계층을 대표합니다. 이로써 즉각적인 거래, 개인 정보 보호 기능과 거버넌스 등 다양한 분산화된 서비스를 제공하고, 저비용 네트워크 공격의 위협을 차단합니다.'
       architecture-btn: 더 알아보기
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/en/stable/governance/understanding.html
       governance-heading: 첫 자체 거버닝, 자체 펀딩 프로토콜
       governance-text: 'Dash에서는 모든 사람이 의견을 내고 네트워크에 직접 프로젝트를 제안할 수 있습니다.  마케팅부터 개발까지 Dash의 성장과 개선에 도움이 되는 것이라면 무엇이든 자금을 지원 받을 수 있습니다.  이것은 Dash가 그 성장과 채택에 스스로 자금을 지원하며, 합의를 보장하고, 모든 사람이 네트워크에 대한 책임이 있음을 의미합니다.
 
@@ -592,7 +592,7 @@ ko:
 
         당신은 Dash Evolution을 통해 어떤 장치에서나 등록을 진행하고 당신의 Dash에 액세스 할 수 있으며, PayPal만큼 쉽게 거래를 진행하면서도 완벽하게 분권화된 방식을 따를 수 있습니다. 언제나 지켜봐 주십시오... '
       evolution-btn: 더 알아보기
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       news-heading: 최신 뉴스
       news-btn: 모든 뉴스 보기
       get-started-heading: 시작하기
@@ -607,7 +607,7 @@ ko:
           당신이 원하는 때 언제나 Dash를 매수 및 매도 하세요.
           Dash는 다양한 방법으로 취득, 보유 및 거래할 수 있습니다.
       hero-text: |
-          처음이세요? 신규 사용자를 위한 <a href='https://docs.dash.org/en/latest/' target='_blank'>Dash 가이드</a>를 확인하세요.
+          처음이세요? 신규 사용자를 위한 <a href='https://docs.dash.org/en/stable/' target='_blank'>Dash 가이드</a>를 확인하세요.
       hero-wallet-version: OSX용 Dash 지갑(Fullclient v12.0.56)
       hero-wallet-version-select: 다른 선택
       hero-platform-not-detected: "죄송합니다. 귀하의 플랫폼이 자동으로 감지되지 않습니다. \"모든 지갑\"을 선택하여 호환되는 버전을 찾으십시오."
@@ -641,19 +641,19 @@ ko:
       claim-subline: Dash를 다양한 방법으로 취득, 보유 및 교환할 수 있습니다.
       setup-heading: 지갑 설치 방법 배우기
       setup-btn: 더 알아보기
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/en/stable/wallets/index.html
       buy-heading: 온라인으로 Dash 구매
       buy-text: 현지 통화를 Dash로 전환 및 지갑으로 보내기
       buy-btn: Dash 구매
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       trade-heading: 거래소에서 Dash 거래
       trade-text: 거래소에서 Dash의 현지 통화 거래
       trade-btn: Dash 거래
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       atm-heading: ATM에서 Dash 구매
       atm-text: 내 나라의 ATM에서 Dash 즉시 구매
       atm-btn: ATM 찾기
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html#atms
       shop-heading: Dash로 직접 쇼핑
       shop-text: 즉시 및 비공개 온라인 구매, Dash 지갑에서 직접 처리
       shop-btn: 더 많은 가맹점
@@ -707,11 +707,11 @@ ko:
       masternode-heading: 마스터노드를 설치하고 Dash 네트워크 강화하기
       masternode-text: 마스터노드 호스팅을 통해 Dash를 강화하거나 공유 호스팅 서비스에 지원하세요. 마스터노드 운영자는 사용자에게 분산화된 서비스를 제공하고 이에 대한 보상을 받습니다.
       masternode-btn: 마스터노드 설치
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/en/stable/masternodes/index.html
       mining-heading: 채굴을 시작하여 Dash 네트워크 안전 보장하기
       mining-text: 당신의 컴퓨터 혹은 전용 하드웨어를 이용하여 대시를 채굴하세요. 채굴자는 대시 네트워크의 안전을 보장하고 보상을 지급받습니다.
       mining-btn: 채굴 시작
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/en/stable/mining/index.html
       funding-heading: 블록체인 펀딩을 통한 네트워크 개발
       funding-text: 대시의 네트워크는 매달 투표를 통과한 제안서에 자금을 지급합니다. 이 제안서에는 대시를 개선하기 위한 어떤 것도 포함될 수 있습니다. 예컨대 개발자 고용, 의사 결정 및 대시 결제를 더 많은 온라인 상점 및 소매점에 통합하는 것 등이 여기에 포함됩니다.
       funding-btn: 제안서 제출하기
@@ -719,9 +719,9 @@ ko:
       integrate-heading: Dash를 결제 수단으로 받으십니까?
       integrate-text: 즉각적이고 프라이버시를 보호하는 결제 방식을 귀하의 웹 스토어, 앱 또는 소매점에 통합하세요.
       integrate-btn: Dash 통합
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: 결제 프로세서
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-contact-btn: 팀에 연락하기
     currency:
       title: Dash 네트워크

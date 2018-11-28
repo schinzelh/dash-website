@@ -476,7 +476,7 @@ pt:
 
         '
       execution-btn: Leia Mais
-      execution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      execution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       update-heading: Sentinel
       update-text: Um conjunto de ferramentas poderosa para Dash A nova tecnologia Sentinel da Dash é o motor que impulsionará a Dash Evolution. É extremamente poderoso e flexível, o que permitirá atualizações de rede muito mais fáceis. Além disso, o Sentinel pode ser personalizado para criar numerosas novas aplicações que serão executadas na rede. É possível criar empresas digitais, por exemplo, usando o Sentinel.
       proposal-btn: Propostas
@@ -625,7 +625,7 @@ pt:
       merchants-btn: Mais Comerciantes
       merchants-link: https://discoverdash.com
       merchants-join-btn: Torne-se um Comerciante
-      merchants-join-link: https://docs.dash.org/en/latest/merchants/getting-started.html
+      merchants-join-link: https://docs.dash.org/en/stable/merchants/getting-started.html
       architecture-heading: Next-Gen P2P Network
       architecture-text: 'No core da Dash está uma rede peer-to-peer totalmente incentivada. Os mineiros são recompensados por proteger o blockchain e os masternodes são recompensados por validar, armazenar e servir o blockchain aos usuários.
 
@@ -633,7 +633,7 @@ pt:
 
         '
       architecture-btn: Leia Mais
-      architecture-link: https://docs.dash.org/en/latest/governance/understanding.html
+      architecture-link: https://docs.dash.org/en/stable/governance/understanding.html
       governance-heading: Primeira em auto-governança, protocolo auto financiamento
       governance-text: 'No Dash, todos têm voz e capacidade de propor projetos diretamente à rede. Qualquer coisa que você pode fazer - do marketing ao desenvolvimento - que ajuda a Dash a crescer e a melhorar pode ser financiada. Isso significa que o Dash financia seu próprio crescimento e adoção, o consenso é garantido e todos são responsáveis perante a rede. Basta enviar uma proposta de tesouraria e apresentar a sua idéia para a rede de financiamento e fazer o seu caso, ou se você operar um Masternode, não deixe de votar!
 
@@ -651,7 +651,7 @@ pt:
 
         A Dash Evolution irá possibilitar que você assine e acesse seu Dash de qualquer dispositivo e transacione tão facilmente quanto como com PayPal, mas de uma forma completamente descentralizada. Fique ligado...'
       evolution-btn: Leia Mais
-      evolution-link: https://docs.dash.org/en/latest/introduction/features.html#evolution
+      evolution-link: https://docs.dash.org/en/stable/introduction/features.html#evolution
       news-heading: Últimas notícias
       news-btn: Ver todas as notícias
       get-started-heading: Iniciar
@@ -666,7 +666,7 @@ pt:
           Compre e Venda Dash a qualquer hora, quando você quiser.
           Pode-se adquirir, segurar e trocar Dash de muitas maneiras
       hero-text: |
-          Primeira vez aqui? Leis <a href='https://docs.dash.org/en/latest/' target='_blank'>Dash Guide</a>para novos usuários
+          Primeira vez aqui? Leis <a href='https://docs.dash.org/en/stable/' target='_blank'>Dash Guide</a>para novos usuários
       hero-wallet-version: Carteira Dash (Fullclient v12.0.56) para OSX
       hero-wallet-version-select: Escolha outra
       hero-platform-not-detected: "Desculpe, mas sua plataforma não pode ser detectada automaticamente. Selecione \" Todas as Carteiras \"para encontrar uma versão compatível."
@@ -700,19 +700,19 @@ pt:
       claim-subline: O Dash pode ser adquirido, mantido e trocado de muitas maneiras.
       setup-heading: Saiba como configurar a sua carteira
       setup-btn: Leia Mais
-      setup-link: https://docs.dash.org/en/latest/wallets/index.html
+      setup-link: https://docs.dash.org/en/stable/wallets/index.html
       buy-heading: Compre Dash Online
       buy-text: Converter moeda local para Dash e enviá-lo para sua carteira
       buy-btn: Compre Dash
-      buy-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      buy-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       trade-heading: Trade Dash em uma exchange
       trade-text: Troque moeda local por Dash em uma exchange
       trade-btn: Trade Dash
-      trade-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html
+      trade-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html
       atm-heading: Compre Dash em um ATM
       atm-text: Instant Dash compras de um caixa eletrônico em seu país
       atm-btn: ATM Localizador
-      atm-link: https://docs.dash.org/en/latest/introduction/how-to-buy.html#atms
+      atm-link: https://docs.dash.org/en/stable/introduction/how-to-buy.html#atms
       shop-heading: Loja direta com Dash
       shop-text: Compras on-line instantâneas e privadas, diretamente da sua carteira Dash
       shop-btn: Mais Comerciantes
@@ -767,11 +767,11 @@ pt:
       masternode-heading: Configurar um Masternode e Power Dash's Network
       masternode-text: Ajude o Power Dash hospedando um masternode ou ingressando em um serviço de hospedagem compartilhado. Os operadores de Masternodes são recompensados por fornecer serviços descentralizados aos nossos usuários.
       masternode-btn: Configurar um Masternode
-      masternode-link: https://docs.dash.org/en/latest/masternodes/index.html
+      masternode-link: https://docs.dash.org/en/stable/masternodes/index.html
       mining-heading: Iniciar Mineração e Dash's Network
       mining-text: Minere Dash usando seu computador ou hardware dedicado. Os mineiradores são recompensados por proteger a rede Dash.
       mining-btn: Comece a Minerar
-      mining-link: https://docs.dash.org/en/latest/mining/index.html
+      mining-link: https://docs.dash.org/en/stable/mining/index.html
       funding-heading: Desenvolver a Rede com o Financiamento Blockchain
       funding-text: Dash's Network ganha propostas cada mês para qualquer coisa que possa melhorar o Dash, como contratar desenvolvedores, tomar decisões ou integrar pagamentos Dash em mais lojas on-line e lojas de varejo.
       funding-btn: Envie uma Proposta
@@ -779,9 +779,9 @@ pt:
       integrate-heading: Você aceita Dash?
       integrate-text: Integre pagamentos instantâneos e privados à sua loja virtual, app ou ponto de venda
       integrate-btn: Integrar Dash
-      integrate-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-payment-processor-btn: Processadores de pagamento
-      integrate-payment-processor-link: https://docs.dash.org/en/latest/merchants/getting-started.html#payment-processors
+      integrate-payment-processor-link: https://docs.dash.org/en/stable/merchants/getting-started.html#payment-processors
       integrate-contact-btn: Entre em contato com nossa equipe
     currency:
       title: Dash Network
