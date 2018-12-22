@@ -113,7 +113,7 @@
   title: Directvoltage
   url: https://directvoltage.com/
   image: directvoltage_logo.png
-  
+
 - name: S&J Texas Crafting
   title: S&J Texas Crafting
   url: http://www.txcrafting.com/
@@ -123,7 +123,7 @@
   title: AFINO ENTERTAINMENT
   url: http://www.afinoentertainment.com/
   image: alfino.jpg
-  
+
 - name:  Life Art Soul
   title: Life Art Soul
   url: http://www.lifeartsoul.com/
@@ -293,3 +293,8 @@
   title: Crypto Shop
   url: https://www.amphash.com/
   image: amphash.jpg
+
+- name: Domains-index.com
+  title: Domains-index
+  url: https://domains-index.com/
+  image: domains-index.png
