@@ -28,6 +28,8 @@ name: Dash
 url: https://www.dash.org
 description: Digital Cash
 
+current_version_number: 0.12.3.3
+
 url: https://www.dash.org
 
 api: /api/v1
