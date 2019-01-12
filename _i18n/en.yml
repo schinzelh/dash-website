@@ -590,8 +590,8 @@ en:
       wallets-desktop-header: Desktop
       wallets-desktop-subtitle: Dash Desktop Wallets are available with different features and security.
       wallets-desktop-latest: >
-        Latest: 19th September 2018
-      wallets-desktop-current-version: v0.12.3.3
+        Latest: 2019-01-14
+      wallets-desktop-current-version: v0.13.0.0
       wallets-mobile-header: Mobile
       wallets-mobile-subtitle: Dash Mobile Wallets are available with different features and security, run from your Mobile (Phone, Tablet,..) device
       wallets-hardware-header: Hardware
