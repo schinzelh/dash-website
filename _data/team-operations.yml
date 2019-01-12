@@ -82,18 +82,6 @@
   team-title:
     - Operations
 
-- name: Kira Bronskaia
-  title: Quality Assurance, Automation, Testing
-  description:
-  image: kira.jpg
-  email: kira.bronskaya@dash.org
-  keybase: https://keybase.io/kapusha
-  twitter:
-  dashforum-link: /kira.17471/
-  dashforum: Kira
-  team-title:
-    - Operations
-
 - name: Pablo Lema
   title: Head of Service Desk
   description:
@@ -105,4 +93,3 @@
   dashforum: fible1
   team-title:
     - Operations
-

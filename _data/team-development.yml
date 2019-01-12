@@ -120,18 +120,6 @@
   team-title:
     - Development
 
-- name: Kamuela Franco
-  title: Evolution Backend Developer
-  description:
-  image: kamuela.jpg
-  email: kamuela.franco@dash.org
-  keybase: https://keybase.io/kamuela
-  twitter:
-  dashforum-link: /kamuela.18261/
-  dashforum: kamuela
-  team-title:
-    - Development
-
 - name: Ivan Shumkov
   title: DashDrive Developer
   description:
