@@ -16,10 +16,10 @@
   links:
     -
       label: Download Installer
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/dashcore-0.13.0.0-win64-setup-unsigned.exe"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/dashcore-0.13.1.0-win64-setup-unsigned.exe"
     -
       label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/SHA256SUMS.asc"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/SHA256SUMS.asc"
 
 - name: Dash Core Win/64 ZIP
   description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
@@ -39,10 +39,10 @@
   links:
     -
       label: Download ZIP
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/dashcore-0.13.0.0-win64.zip"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/dashcore-0.13.1.0-win64.zip"
     -
       label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/SHA256SUMS.asc"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/SHA256SUMS.asc"
 
 - name: "Dash Core Win/32 Installer"
   description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
@@ -62,10 +62,10 @@
   links:
     -
       label: Download Installer
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/dashcore-0.13.0.0-win32-setup-unsigned.exe"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/dashcore-0.13.1.0-win32-setup-unsigned.exe"
     -
       label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/SHA256SUMS.asc"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/SHA256SUMS.asc"
 
 - name: "Dash Core Win/32 ZIP"
   description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
@@ -85,10 +85,10 @@
   links:
     -
       label: Download ZIP
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/dashcore-0.13.0.0-win32.zip"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/dashcore-0.13.1.0-win32.zip"
     -
       label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/SHA256SUMS.asc"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/SHA256SUMS.asc"
 
 - name: Dash Core Linux 32 Bit
   description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
@@ -110,10 +110,10 @@
   links:
     -
       label: Download TGZ
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/dashcore-0.13.0.0-i686-pc-linux-gnu.tar.gz"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/dashcore-0.13.1.0-i686-pc-linux-gnu.tar.gz"
     -
       label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/SHA256SUMS.asc"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/SHA256SUMS.asc"
 
 - name: Dash Core Linux 64 Bit
   description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
@@ -133,10 +133,10 @@
   links:
     -
       label: Download TGZ
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/dashcore-0.13.0.0-x86_64-linux-gnu.tar.gz"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/dashcore-0.13.1.0-x86_64-linux-gnu.tar.gz"
     -
       label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/SHA256SUMS.asc"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/SHA256SUMS.asc"
 
 - name: Dash Core Raspberry Pi 2
   description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
@@ -156,10 +156,10 @@
   links:
     -
       label: Download TGZ
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/dashcore-0.13.0.0-arm-linux-gnueabihf.tar.gz"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/dashcore-0.13.1.0-arm-linux-gnueabihf.tar.gz"
     -
       label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/SHA256SUMS.asc"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/SHA256SUMS.asc"
 
 - name: Dash Core
   description: Dash Core is a fully featured Dash Wallet and P2P Client, including InstantSend, PrivateSend, Governance and Masternode management features
@@ -177,10 +177,10 @@
   links:
     -
       label: Download DMG
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/dashcore-0.13.0.0-osx-unsigned.dmg"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/dashcore-0.13.1.0-osx-unsigned.dmg"
     -
       label: Hash File
-      url: "https://github.com/dashpay/dash/releases/download/v0.13.0.0/SHA256SUMS.asc"
+      url: "https://github.com/dashpay/dash/releases/download/v0.13.1.0/SHA256SUMS.asc"
 
 - name: Dash Wallet by Hash Engineering
   description: |
