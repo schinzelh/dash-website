@@ -88,3 +88,8 @@
 	color: $color-black !important;
 	border: 1px solid #b5b5b5
 }
+
+a:hover, a:active, a:focus {
+  outline: 0;
+  outline-style: none;
+}

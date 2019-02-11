@@ -20,10 +20,12 @@ footer
 	padding-top: 4em;
 	padding-bottom: 3em;
 
-
 	a {
-		color: $color-white;
-    	line-height: 1.7;
+	  	color: $color-white;
+	  	line-height: 1.7;
+	  	&:hover {
+			color: $color-blue;
+	  	}
 	}
 
 	&__nav {
