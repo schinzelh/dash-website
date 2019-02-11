@@ -1,0 +1,22 @@
+class EmptyBlock < Liquid::Block
+  def initialize(tag_name, markup, tokens)
+     super
+  end
+
+  def render(context)
+     ""
+  end
+end
+class EmptyTag < Liquid::Tag
+
+  def initialize(tag_name, markup, tokens)
+     super
+  end
+
+  def render(context)
+     ""
+  end
+end
+
+Liquid::Template.register_tag('srcset', EmptyBlock)
+Liquid::Template.register_tag('srcset_source', EmptyTag)
